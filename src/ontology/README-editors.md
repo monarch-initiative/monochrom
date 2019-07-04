@@ -6,6 +6,14 @@ For more details on ontology management, please see the [OBO tutorial](https://g
 
 You may also want to read the [GO ontology editors guide](http://go-ontology.readthedocs.org/)
 
+NOTE! This ontology should not be manually generated!
+
+It comes from this code:
+
+https://github.com/monarch-initiative/dipper/blob/master/dipper/sources/Monochrom.py
+
+Dumps here: https://data.monarchinitiative.org/ttl/monochrom.ttl
+
 ## Requirements
 
  1. Protege (for editing)

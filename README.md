@@ -3,9 +3,11 @@
 
 # monochrom
 
-This ontology... YOUR DESCRIPTION HERE
+Monochrom (abbreviation CHR) is an automatically derived ontology of chrosomosomes are chromosome parts
 
-More information can be found at http://obofoundry.org/ontology/chr
+More information can be found at http://obofoundry.org/ontology/chr (once this ontology is registered)
+
+The code for generating it can be found here: [Monochrom.py](https://github.com/monarch-initiative/dipper/blob/master/dipper/sources/Monochrom.py)
 
 ## Versions
 
@@ -13,7 +15,7 @@ More information can be found at http://obofoundry.org/ontology/chr
 
 The latest version of the ontology can always be found at:
 
-http://purl.obolibrary.org/obo/chr.owl
+http://purl.obolibrary.org/obo/chr.owl  (once this ontology is registered)
 
 (note this will not show up until the request has been approved by obofoundry.org)
 
