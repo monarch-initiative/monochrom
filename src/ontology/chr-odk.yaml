@@ -10,6 +10,9 @@ import_group:
   products:
   - id: ro
   - id: so
+  - id: geno
+  - id: ncbitaxon
+    mirror_from: http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl
 primary_release: full
 reasoner: ELK
 release_artefacts:
