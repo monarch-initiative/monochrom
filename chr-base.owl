@@ -15,7 +15,7 @@
         <dc:description>Missing description</dc:description>
         <dc:title>Monochrom Ontology</dc:title>
         <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/IAO_8000001</dc:type>
-        <terms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
     </owl:Ontology>
     
 
@@ -56677,49 +56677,46 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001026"/>
     <rdf:Description>
-        <rdfs:label>Human genome</rdfs:label>
-    </rdf:Description>
-    <rdf:Description>
-        <rdfs:label>Zebrafish genome</rdfs:label>
-    </rdf:Description>
-    <rdf:Description>
         <rdfs:label>Rat genome</rdfs:label>
     </rdf:Description>
     <rdf:Description>
-        <rdfs:label>chicken genome</rdfs:label>
-    </rdf:Description>
-    <rdf:Description>
-        <rdfs:label>sheep genome</rdfs:label>
-    </rdf:Description>
-    <rdf:Description>
-        <rdfs:label>Mouse genome</rdfs:label>
-    </rdf:Description>
-    <rdf:Description>
-        <rdfs:label>cow genome</rdfs:label>
+        <rdfs:label>Human genome</rdfs:label>
     </rdf:Description>
     <rdf:Description>
         <rdfs:label>pig genome</rdfs:label>
     </rdf:Description>
     <rdf:Description>
+        <rdfs:label>Zebrafish genome</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>cow genome</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>Mouse genome</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>chicken genome</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
         <rdfs:label>horse genome</rdfs:label>
     </rdf:Description>
     <rdf:Description>
-        <owl:someValuesFrom>_:NCBITaxon:7955genome</owl:someValuesFrom>
-    </rdf:Description>
-    <rdf:Description>
-        <owl:someValuesFrom>_:NCBITaxon:9913genome</owl:someValuesFrom>
-    </rdf:Description>
-    <rdf:Description>
-        <owl:someValuesFrom>_:NCBITaxon:9031genome</owl:someValuesFrom>
+        <rdfs:label>sheep genome</rdfs:label>
     </rdf:Description>
     <rdf:Description>
         <owl:someValuesFrom>_:NCBITaxon:9823genome</owl:someValuesFrom>
     </rdf:Description>
     <rdf:Description>
+        <owl:someValuesFrom>_:NCBITaxon:7955genome</owl:someValuesFrom>
+    </rdf:Description>
+    <rdf:Description>
         <owl:someValuesFrom>_:NCBITaxon:10090genome</owl:someValuesFrom>
     </rdf:Description>
     <rdf:Description>
-        <owl:someValuesFrom>_:NCBITaxon:9796genome</owl:someValuesFrom>
+        <owl:someValuesFrom>_:NCBITaxon:9031genome</owl:someValuesFrom>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:someValuesFrom>_:NCBITaxon:9913genome</owl:someValuesFrom>
     </rdf:Description>
     <rdf:Description>
         <owl:someValuesFrom>_:NCBITaxon:9606genome</owl:someValuesFrom>
@@ -56729,6 +56726,9 @@
     </rdf:Description>
     <rdf:Description>
         <owl:someValuesFrom>_:NCBITaxon:10116genome</owl:someValuesFrom>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:someValuesFrom>_:NCBITaxon:9796genome</owl:someValuesFrom>
     </rdf:Description>
 </rdf:RDF>
 

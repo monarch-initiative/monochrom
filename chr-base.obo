@@ -4,7 +4,7 @@ ontology: chr/chr-base
 property_value: http://purl.org/dc/elements/1.1/description "Missing description" xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Monochrom Ontology" xsd:string
 property_value: http://purl.org/dc/elements/1.1/type http://purl.obolibrary.org/obo/IAO_8000001 xsd:string
-property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/unspecified
+property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/by/4.0/
 
 [Term]
 id: CHR:10090chr1
