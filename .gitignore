@@ -20,3 +20,4 @@ src/ontology/ed_definitions_merged.owl
 src/ontology/patterns 
 *.tmp.obo
 *.tmp.owl
+src/ontology/tmp/pre_seed.txt
