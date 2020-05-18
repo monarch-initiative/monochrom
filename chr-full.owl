@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/chr.owl#"
-     xml:base="http://purl.obolibrary.org/obo/chr.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/chr/chr-full.owl#"
+     xml:base="http://purl.obolibrary.org/obo/chr/chr-full.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:so="http://purl.obolibrary.org/obo/so#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
@@ -17,8 +17,8 @@
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:monarchinitiative="https://monarchinitiative.org/">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/chr.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/chr/releases/2020-05-18/chr.owl"/>
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/chr/chr-full.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/chr/releases/2020-05-18/chr-full.owl"/>
         <dc:description>Missing description</dc:description>
         <dc:title>Monochrom Ontology</dc:title>
         <terms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
@@ -58879,19 +58879,16 @@ For example, A and B may be gene products and binding of B by A positively regul
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:cb</oboInOwl:hasDbXref>
     </owl:Axiom>
     <rdf:Description>
-        <rdfs:label>horse genome</rdfs:label>
-    </rdf:Description>
-    <rdf:Description>
-        <rdfs:label>sheep genome</rdfs:label>
-    </rdf:Description>
-    <rdf:Description>
         <rdfs:label>Mouse genome</rdfs:label>
     </rdf:Description>
     <rdf:Description>
         <rdfs:label>chicken genome</rdfs:label>
     </rdf:Description>
     <rdf:Description>
-        <rdfs:label>Human genome</rdfs:label>
+        <rdfs:label>horse genome</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>sheep genome</rdfs:label>
     </rdf:Description>
     <rdf:Description>
         <rdfs:label>pig genome</rdfs:label>
@@ -58900,25 +58897,13 @@ For example, A and B may be gene products and binding of B by A positively regul
         <rdfs:label>Rat genome</rdfs:label>
     </rdf:Description>
     <rdf:Description>
+        <rdfs:label>Human genome</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
         <rdfs:label>Zebrafish genome</rdfs:label>
     </rdf:Description>
     <rdf:Description>
         <rdfs:label>cow genome</rdfs:label>
-    </rdf:Description>
-    <rdf:Description>
-        <owl:someValuesFrom>_:NCBITaxon:9606genome</owl:someValuesFrom>
-    </rdf:Description>
-    <rdf:Description>
-        <owl:someValuesFrom>_:NCBITaxon:9796genome</owl:someValuesFrom>
-    </rdf:Description>
-    <rdf:Description>
-        <owl:someValuesFrom>_:NCBITaxon:9823genome</owl:someValuesFrom>
-    </rdf:Description>
-    <rdf:Description>
-        <owl:someValuesFrom>_:NCBITaxon:9940genome</owl:someValuesFrom>
-    </rdf:Description>
-    <rdf:Description>
-        <owl:someValuesFrom>_:NCBITaxon:10116genome</owl:someValuesFrom>
     </rdf:Description>
     <rdf:Description>
         <owl:someValuesFrom>_:NCBITaxon:10090genome</owl:someValuesFrom>
@@ -58927,10 +58912,25 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:someValuesFrom>_:NCBITaxon:9031genome</owl:someValuesFrom>
     </rdf:Description>
     <rdf:Description>
+        <owl:someValuesFrom>_:NCBITaxon:9940genome</owl:someValuesFrom>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:someValuesFrom>_:NCBITaxon:10116genome</owl:someValuesFrom>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:someValuesFrom>_:NCBITaxon:9796genome</owl:someValuesFrom>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:someValuesFrom>_:NCBITaxon:9823genome</owl:someValuesFrom>
+    </rdf:Description>
+    <rdf:Description>
         <owl:someValuesFrom>_:NCBITaxon:7955genome</owl:someValuesFrom>
     </rdf:Description>
     <rdf:Description>
         <owl:someValuesFrom>_:NCBITaxon:9913genome</owl:someValuesFrom>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:someValuesFrom>_:NCBITaxon:9606genome</owl:someValuesFrom>
     </rdf:Description>
     
 
