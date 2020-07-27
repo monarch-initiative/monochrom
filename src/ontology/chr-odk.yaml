@@ -24,4 +24,3 @@ use_dosdps: false
 components:
   products:
     - filename: monochrom-dipper.ttl
-      source: https://data.monarchinitiative.org/ttl/monochrom.ttl

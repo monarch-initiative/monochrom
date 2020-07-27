@@ -256,11 +256,6 @@ components/%: .FORCE
 
 
 
-components/monochrom-dipper.ttl: .FORCE
-	@if [ $(IMP) = true ]; then $(ROBOT) merge -I https://data.monarchinitiative.org/ttl/monochrom.ttl \
-	annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ -o $@; fi
-.PRECIOUS: components/monochrom-dipper.ttl
-
 
 
 
