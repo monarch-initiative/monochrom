@@ -93,7 +93,7 @@ def make_ontology(bands: BAND_DICT):
     return doc
 
 def split_build_string(build: BUILD_ID) -> Tuple[str, str]:
-    return re.findall(r'([a-z]+)([\d+])', build)[0]
+    return re.findall(r'([a-zA-Z]+)([\d+])', build)[0]
 
 def band_id(sp: SP, chr: CHR, band: BAND_LOCALNAME):
     return f'CHR:{sp}-{chr}{band}'

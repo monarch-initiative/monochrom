@@ -1,13 +1,11 @@
 [![Build Status](https://travis-ci.org/monarch-initiative/monochrom.svg?branch=master)](https://travis-ci.org/monarch-initiative/monochrom)
 [![DOI](https://zenodo.org/badge/13996/monarch-initiative/monochrom.svg)](https://zenodo.org/badge/latestdoi/13996/monarch-initiative/monochrom)
 
-# monochrom
+# Chromosome Ontology
 
-Monochrom (abbreviation CHR) is an automatically derived ontology of chrosomosomes are chromosome parts
+Chromo (abbreviation CHR) is an automatically derived ontology of chrosomosomes are chromosome parts
 
 More information can be found at http://obofoundry.org/ontology/chr (once this ontology is registered)
-
-The code for generating it can be found here: [Monochrom.py](https://github.com/monarch-initiative/dipper/blob/master/dipper/sources/Monochrom.py)
 
 ## Versions
 
@@ -22,6 +20,17 @@ http://purl.obolibrary.org/obo/chr.owl  (once this ontology is registered)
 ### Editors' version
 
 Editors of this ontology should use the edit version, [src/ontology/chr-edit.owl](src/ontology/chr-edit.owl)
+
+Note that this should be extremely minimal, as it imports the auto-generated ucsc.owl file
+
+## Regenerating
+
+Fromt the top level of this repo:
+
+```bash
+pip install -r requirements.txt
+make
+```
 
 ## Contact
 

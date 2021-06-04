@@ -1,1 +1,3 @@
 Level	Rule Name	Subject	Property	Value
+ERROR	missing_ontology_description	http://purl.obolibrary.org/obo/chr.owl	dc11:description	
+ERROR	missing_ontology_title	http://purl.obolibrary.org/obo/chr.owl	dc11:title	

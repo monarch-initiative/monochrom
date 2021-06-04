@@ -7,4 +7,10 @@ hg:
 dm:
   id: NCBITaxon:7227
   name: Drosophila melanogaster
+danRer:
+  id: NCBITaxon:7955
+  name: Danio rerio
+rn:
+  id: NCBITaxon:10116
+  name: Rattus norvegicus
   
