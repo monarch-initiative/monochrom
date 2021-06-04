@@ -1,9 +1,9 @@
 format-version: 1.2
-data-version: releases/2020-05-18
+data-version: chr/releases/2020-05-18/chr-full.owl
 subsetdef: ro-eco ""
 subsetdef: RO:0002259 ""
 subsetdef: SOFA ""
-ontology: chr
+ontology: chr/chr-full
 property_value: http://purl.org/dc/elements/1.1/description "Missing description" xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Monochrom Ontology" xsd:string
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/by/4.0/

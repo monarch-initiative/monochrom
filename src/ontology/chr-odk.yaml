@@ -1,0 +1,27 @@
+dosdp_tools_options: --obo-prefixes=true
+edit_format: owl
+export_formats:
+- owl
+- obo
+- json
+github_org: monarch-initiative
+id: chr
+import_group:
+  products:
+  - id: ro
+  - id: so
+  - id: geno
+  - id: ncbitaxon
+    mirror_from: http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl
+primary_release: full
+reasoner: ELK
+release_artefacts:
+- full
+- base
+repo: monochrom
+title: monochrom
+use_dosdps: false
+components:
+  products:
+    - filename: monochrom-dipper.ttl
+      source: https://data.monarchinitiative.org/ttl/monochrom.ttl

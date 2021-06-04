@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/chr.owl#"
-     xml:base="http://purl.obolibrary.org/obo/chr.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/chr/chr-full.owl#"
+     xml:base="http://purl.obolibrary.org/obo/chr/chr-full.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:so="http://purl.obolibrary.org/obo/so#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
@@ -19,8 +19,8 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#"
      xmlns:monarchinitiative="https://monarchinitiative.org/">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/chr.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/chr/releases/2020-05-18/chr.owl"/>
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/chr/chr-full.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/chr/releases/2020-05-18/chr-full.owl"/>
         <dc:description>Missing description</dc:description>
         <dc:title>Monochrom Ontology</dc:title>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
@@ -65825,22 +65825,7 @@ For a particular instance of a sequence alteration, howver, we may in some cases
         <rdfs:label xml:lang="en">requires discussion</rdfs:label>
     </owl:NamedIndividual>
     <rdf:Description>
-        <rdfs:label>pig genome</rdfs:label>
-    </rdf:Description>
-    <rdf:Description>
-        <rdfs:label>Zebrafish genome</rdfs:label>
-    </rdf:Description>
-    <rdf:Description>
-        <rdfs:label>cow genome</rdfs:label>
-    </rdf:Description>
-    <rdf:Description>
-        <rdfs:label>Rat genome</rdfs:label>
-    </rdf:Description>
-    <rdf:Description>
-        <rdfs:label>Human genome</rdfs:label>
-    </rdf:Description>
-    <rdf:Description>
-        <rdfs:label>chicken genome</rdfs:label>
+        <rdfs:label>horse genome</rdfs:label>
     </rdf:Description>
     <rdf:Description>
         <rdfs:label>sheep genome</rdfs:label>
@@ -65849,25 +65834,25 @@ For a particular instance of a sequence alteration, howver, we may in some cases
         <rdfs:label>Mouse genome</rdfs:label>
     </rdf:Description>
     <rdf:Description>
-        <rdfs:label>horse genome</rdfs:label>
+        <rdfs:label>chicken genome</rdfs:label>
     </rdf:Description>
     <rdf:Description>
-        <owl:someValuesFrom>_:NCBITaxon:9823genome</owl:someValuesFrom>
+        <rdfs:label>Rat genome</rdfs:label>
     </rdf:Description>
     <rdf:Description>
-        <owl:someValuesFrom>_:NCBITaxon:9606genome</owl:someValuesFrom>
+        <rdfs:label>Human genome</rdfs:label>
     </rdf:Description>
     <rdf:Description>
-        <owl:someValuesFrom>_:NCBITaxon:7955genome</owl:someValuesFrom>
+        <rdfs:label>Zebrafish genome</rdfs:label>
     </rdf:Description>
     <rdf:Description>
-        <owl:someValuesFrom>_:NCBITaxon:9913genome</owl:someValuesFrom>
+        <rdfs:label>cow genome</rdfs:label>
     </rdf:Description>
     <rdf:Description>
-        <owl:someValuesFrom>_:NCBITaxon:10090genome</owl:someValuesFrom>
+        <rdfs:label>pig genome</rdfs:label>
     </rdf:Description>
     <rdf:Description>
-        <owl:someValuesFrom>_:NCBITaxon:9031genome</owl:someValuesFrom>
+        <owl:someValuesFrom>_:NCBITaxon:9940genome</owl:someValuesFrom>
     </rdf:Description>
     <rdf:Description>
         <owl:someValuesFrom>_:NCBITaxon:10116genome</owl:someValuesFrom>
@@ -65876,7 +65861,22 @@ For a particular instance of a sequence alteration, howver, we may in some cases
         <owl:someValuesFrom>_:NCBITaxon:9796genome</owl:someValuesFrom>
     </rdf:Description>
     <rdf:Description>
-        <owl:someValuesFrom>_:NCBITaxon:9940genome</owl:someValuesFrom>
+        <owl:someValuesFrom>_:NCBITaxon:10090genome</owl:someValuesFrom>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:someValuesFrom>_:NCBITaxon:9031genome</owl:someValuesFrom>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:someValuesFrom>_:NCBITaxon:9823genome</owl:someValuesFrom>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:someValuesFrom>_:NCBITaxon:7955genome</owl:someValuesFrom>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:someValuesFrom>_:NCBITaxon:9913genome</owl:someValuesFrom>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:someValuesFrom>_:NCBITaxon:9606genome</owl:someValuesFrom>
     </rdf:Description>
     
 
