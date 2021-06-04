@@ -1,0 +1,10 @@
+mm:
+  id: NCBITaxon:10090
+  name: Mus musculus
+hg:
+  id: NCBITaxon:9606
+  name: Homo sapiens
+dm:
+  id: NCBITaxon:7227
+  name: Drosophila melanogaster
+  
