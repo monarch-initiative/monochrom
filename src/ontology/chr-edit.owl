@@ -1,4 +1,4 @@
-Prefix(:=<https://data.monarchinitiative.org/ttl/monochrom.ttl#>)
+Prefix(:=<http://purl.obolibrary.org/obo/chr#>)
 Prefix(dcterms:=<http://purl.org/dc/terms/>)
 Prefix(RO:=<http://purl.obolibrary.org/obo/RO_>)
 Prefix(SO:=<http://purl.obolibrary.org/obo/SO_>)
@@ -22,5 +22,5 @@ Ontology(<http://purl.obolibrary.org/obo/chr.owl>
   Import(<http://purl.obolibrary.org/obo/chr/imports/so_import.owl>)
   Import(<http://purl.obolibrary.org/obo/chr/imports/ro_import.owl>)
   Import(<http://purl.obolibrary.org/obo/chr/imports/ncbitaxon_import.owl>)
-  Import(<http://purl.obolibrary.org/obo/chr/imports/ucsc.owl>)
+  Import(<http://purl.obolibrary.org/obo/chr/components/ucsc.owl>)
 )
