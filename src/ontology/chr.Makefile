@@ -29,7 +29,7 @@ $(TMPDIR)/ucsc.ofn: monochrom/monochrom.py $(ALL_CHROMALIAS) $(ALL_CYTOBAND) | $
 requirements:
 	pip install -r requirements.txt
 
-$(COMPONENTSDIR)/ucsc.owl: $(TMPDIR)/ucsc.ofn | requirements
+$(COMPONENTSDIR)/ucsc.owl: $(TMPDIR)/ucsc.ofn
 	if [ $(IMP) = true ]; then $(ROBOT) merge -i $(TMPDIR)/ucsc.ofn \
 	annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $@; fi
 .PRECIOUS: $(COMPONENTSDIR)/ucsc.owl
