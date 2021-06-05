@@ -21,3 +21,4 @@ src/ontology/patterns
 *.tmp.obo
 *.tmp.owl
 src/ontology/tmp/pre_seed.txt
+src/ontology/tmp
