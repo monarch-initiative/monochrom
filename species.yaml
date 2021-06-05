@@ -1,0 +1,16 @@
+mm:
+  id: NCBITaxon:10090
+  name: Mus musculus
+hg:
+  id: NCBITaxon:9606
+  name: Homo sapiens
+dm:
+  id: NCBITaxon:7227
+  name: Drosophila melanogaster
+danRer:
+  id: NCBITaxon:7955
+  name: Danio rerio
+rn:
+  id: NCBITaxon:10116
+  name: Rattus norvegicus
+  

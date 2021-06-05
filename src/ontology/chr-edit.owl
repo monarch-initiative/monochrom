@@ -1,25 +1,26 @@
-Prefix(:=<http://purl.obolibrary.org/obo/chr.owl#>)
+Prefix(:=<https://data.monarchinitiative.org/ttl/monochrom.ttl#>)
+Prefix(dcterms:=<http://purl.org/dc/terms/>)
+Prefix(RO:=<http://purl.obolibrary.org/obo/RO_>)
+Prefix(SO:=<http://purl.obolibrary.org/obo/SO_>)
+Prefix(CHR:=<http://purl.obolibrary.org/obo/CHR_>)
+Prefix(OBO:=<http://purl.obolibrary.org/obo/>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
 Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(GENO:=<http://purl.obolibrary.org/obo/GENO_>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
-Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
-Prefix(dcterms:=<http://purl.org/dc/terms/>)
+Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
+Prefix(NCBITaxon:=<http://purl.obolibrary.org/obo/NCBITaxon_>)
+Prefix(MonarchData:=<https://data.monarchinitiative.org/ttl/>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/chr.owl>
-
-Import(<http://purl.obolibrary.org/obo/chr/imports/ro_import.owl>)
-Import(<http://purl.obolibrary.org/obo/chr/imports/so_import.owl>)
-Import(<http://purl.obolibrary.org/obo/chr/components/monochrom-dipper.ttl>)
-Import(<http://purl.obolibrary.org/obo/chr/imports/geno_import.owl>)
-Import(<http://purl.obolibrary.org/obo/chr/imports/ncbitaxon_import.owl>)
-
-
-Annotation(dce:title "Monochrom Ontology")
-Annotation(dcterms:license <https://creativecommons.org/licenses/by/4.0/>)
-Annotation(dce:description "Missing description")
-
+  Annotation(dcterms:title "Monochrom Ontology")
+  Annotation(dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/>)
+  Annotation(dcterms:description "Automatic translation of UCSC chromosome bands to OWL classes")
+  Import(<http://purl.obolibrary.org/obo/chr/imports/so_import.owl>)
+  Import(<http://purl.obolibrary.org/obo/chr/imports/ro_import.owl>)
+  Import(<http://purl.obolibrary.org/obo/chr/imports/ncbitaxon_import.owl>)
+  Import(<http://purl.obolibrary.org/obo/chr/imports/ucsc.owl>)
 )
-
