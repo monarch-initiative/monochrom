@@ -1,3 +1,4 @@
+name: foo
 genomes:
   mm:
     taxon: NCBITaxon:10090

@@ -1,5 +1,5 @@
 # Auto generated from chromo.yaml by pythongen.py version: 0.9.0
-# Generation date: 2021-06-06 15:28
+# Generation date: 2021-06-06 16:00
 # Schema: chromoschema
 #
 # id: https://w3id.org/biodatamodels/chromoschema
@@ -116,10 +116,14 @@ class ChromosomePartCollection(YAMLRoot):
     class_name: ClassVar[str] = "ChromosomePartCollection"
     class_model_uri: ClassVar[URIRef] = CHROMOSCHEMA.ChromosomePartCollection
 
+    name: Optional[str] = None
     has: Optional[Union[Dict[Union[str, ChromosomePartId], Union[dict, "ChromosomePart"]], List[Union[dict, "ChromosomePart"]]]] = empty_dict()
     genomes: Optional[Union[Dict[Union[str, GenomeId], Union[dict, "Genome"]], List[Union[dict, "Genome"]]]] = empty_dict()
 
     def __post_init__(self, *_: List[str], **kwargs: Dict[str, Any]):
+        if self.name is not None and not isinstance(self.name, str):
+            self.name = str(self.name)
+
         if self.has is None:
             self.has = []
         if not isinstance(self.has, (list, dict)):
@@ -288,12 +292,16 @@ class GenomeBuild(YAMLRoot):
     class_model_uri: ClassVar[URIRef] = CHROMOSCHEMA.GenomeBuild
 
     id: Union[str, GenomeBuildId] = None
+    name: Optional[Union[str, LabelType]] = None
 
     def __post_init__(self, *_: List[str], **kwargs: Dict[str, Any]):
         if self.id is None:
             raise ValueError("id must be supplied")
         if not isinstance(self.id, GenomeBuildId):
             self.id = GenomeBuildId(self.id)
+
+        if self.name is not None and not isinstance(self.name, LabelType):
+            self.name = LabelType(self.name)
 
         super().__post_init__(**kwargs)
 
@@ -437,6 +445,9 @@ slots.exact_mappings = Slot(uri=SKOS.exactMatch, name="exact_mappings", curie=SK
 
 slots.download_url = Slot(uri=CHROMOSCHEMA.download_url, name="download_url", curie=CHROMOSCHEMA.curie('download_url'),
                    model_uri=CHROMOSCHEMA.download_url, domain=None, range=Optional[Union[str, URI]])
+
+slots.chromosomePartCollection__name = Slot(uri=CHROMOSCHEMA.name, name="chromosomePartCollection__name", curie=CHROMOSCHEMA.curie('name'),
+                   model_uri=CHROMOSCHEMA.chromosomePartCollection__name, domain=None, range=Optional[str])
 
 slots.chromosomePartCollection__has = Slot(uri=DCTERMS.hasPart, name="chromosomePartCollection__has", curie=DCTERMS.curie('hasPart'),
                    model_uri=CHROMOSCHEMA.chromosomePartCollection__has, domain=None, range=Optional[Union[Dict[Union[str, ChromosomePartId], Union[dict, ChromosomePart]], List[Union[dict, ChromosomePart]]]])

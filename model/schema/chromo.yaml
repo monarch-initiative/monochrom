@@ -30,6 +30,8 @@ default_curi_maps:
 classes:
   ChromosomePartCollection:
     attributes:
+      name:
+        required: false
       has:
         range: ChromosomePart
         multivalued: true
@@ -86,6 +88,7 @@ classes:
       - edam:operation_0525
     slots:
       - id
+      - name
     slot_usage:
       id:
         description: E.g. mm10

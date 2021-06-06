@@ -1,4 +1,4 @@
-from monochrom.chromschema import ChromosomePart, EntityType, BandDescriptor, slots as cslots
+from monochrom.chromschema import ChromosomePart, ChromosomePartCollection, EntityType, BandDescriptor, slots as cslots
 from monochrom.monochrom import make_ontology
 
 def test_model():
@@ -11,7 +11,8 @@ def test_model():
     assert(True)
     slots = cslots()
     print()
-    o = make_ontology({cp.id: cp})
+    cpc = ChromosomePartCollection()
+    cpc.has[cp.id] = cp
+    o = make_ontology(cpc)
     print(o)
-    cp._get('exact')
 

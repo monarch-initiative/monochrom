@@ -1,5 +1,6 @@
 from monochrom.chromschema import ChromosomePartCollection
-from monochrom.monochrom import parse_cytoBand, parse_chromAlias, assign_info, validate, get_spmap, make_ontology
+from monochrom.monochrom import parse_cytoBand, parse_chromAlias, assign_info, validate, \
+    make_ontology, load_collection
 from linkml_runtime.dumpers.yaml_dumper import YAMLDumper
 import os
 
@@ -12,15 +13,14 @@ def test_convert():
     aliaspath = os.path.join(INPUT_DIR, 'fake38-chromAlias.tsv')
     outpath = os.path.join(OUTPUT_DIR, 'fake38.yaml')
     owlpath = os.path.join(OUTPUT_DIR, 'fake38.ofn')
-    items = parse_cytoBand('hg38', cytopath)
-    parse_chromAlias('hg38', items, aliaspath)
-    spmap = get_spmap(os.path.join(INPUT_DIR, 'test_genomes.yaml'))
-    assign_info(items, spmap)
-    validate(items)
+    cpc = load_collection(os.path.join(INPUT_DIR, 'test_genomes.yaml'))
+    parse_cytoBand(cpc, 'hg38', cytopath)
+    parse_chromAlias(cpc, 'hg38', aliaspath)
+    assign_info(cpc)
+    validate(cpc)
     YD = YAMLDumper()
-    cpc = ChromosomePartCollection(has=items)
     with open(outpath, 'w') as stream:
         stream.write(YD.dumps(cpc))
-    o = make_ontology(items)
+    o = make_ontology(cpc)
     with open(owlpath, 'w') as stream:
         stream.write(str(o))

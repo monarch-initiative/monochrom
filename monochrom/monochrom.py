@@ -17,22 +17,20 @@ from funowl import OntologyDocument, Ontology, ObjectSomeValuesFrom, AnnotationA
 import re
 from typing import List, Dict, Tuple
 from .chromschema import ChromosomePart, EntityType,ChromosomePartCollection, Genome, \
-    ChromosomePartId, GenomeBuildId, ChromosomeNameType, BandDescriptor
+    ChromosomePartId, GenomeBuildId, GenomeId, ChromosomeNameType, BandDescriptor
 import monochrom.chromschema as schema
 
-def get_spmap(f):
+def get_genomes(f):
     YL = YAMLLoader()
     with open(f) as stream:
         cpc: ChromosomePartCollection = YL.load(stream, target_class=ChromosomePartCollection)
         return cpc.genomes
-        #return yaml.safe_load(stream)
 
 INTERVAL = Tuple[int,int]
-SP = str
 
 BAND_DICT = Dict[ChromosomePartId, ChromosomePart]
 
-def make_ontology(bands: BAND_DICT, name='Chromosome Ontology') -> OntologyDocument:
+def make_ontology(cpc: ChromosomePartCollection, name='Chromosome Ontology') -> OntologyDocument:
     """
     Translates a dict of ChromosomeParts to an ontology
 
@@ -40,6 +38,7 @@ def make_ontology(bands: BAND_DICT, name='Chromosome Ontology') -> OntologyDocum
     :param bands:
     :return:
     """
+    bands = cpc.has
     o = Ontology("http://purl.obolibrary.org/obo/chr.owl")
     o.annotation(RDFS.label, name)
     doc = OntologyDocument(schema.CHR, o)
@@ -79,7 +78,7 @@ def split_build_string(build: GenomeBuildId) -> Tuple[str, str]:
     """
     return re.findall(r'([a-zA-Z]+)([\d+])', build)[0]
 
-def get_band_id(sp: SP, chr: ChromosomeNameType, band: BandDescriptor):
+def get_band_id(sp: GenomeId, chr: ChromosomeNameType, band: BandDescriptor):
     """
     generate CURIE for a ChromosomePart
 
@@ -90,7 +89,7 @@ def get_band_id(sp: SP, chr: ChromosomeNameType, band: BandDescriptor):
     """
     return f'CHR:{sp}-{chr}{band}'
 
-def get_parent_band_name(s: BandDescriptor, spcode: SP):
+def get_parent_band_name(s: BandDescriptor, spcode: GenomeBuildId):
     """
     The UCSC files only has most granular sub-bands - parent bands, arms, and chroms are implicit
 
@@ -131,13 +130,14 @@ def within(range: INTERVAL, parent: INTERVAL) -> bool:
         else:
             return ps >= s and pe <= e
 
-def validate(bands: BAND_DICT):
+def validate(ccp: ChromosomePartCollection):
     """
     validation checks on bands
 
     :param bands:
     :return:
     """
+    bands = ccp.has
     for band_id, band in bands.items():
         if band.taxon is None:
             raise Exception(f'No taxon {band}')
@@ -168,15 +168,16 @@ def assign_ranges(bands: BAND_DICT, band: ChromosomePart):
             band.start = max(starts)
             band.end = min(ends)
 
-def assign_info(bands: BAND_DICT, spmap: dict):
+def assign_info(ccp: ChromosomePartCollection):
     """
     Assign additional info, including inference of start/end for parent bands,
     and assigning labels
 
-    :param bands:
-    :param spmap:
+    :param ccp:
     :return:
     """
+    bands = ccp.has
+    spmap = ccp.genomes
     for _, band in bands.items():
         spcode, _ = split_build_string(band.build)
         sp = spmap[spcode]
@@ -190,8 +191,18 @@ def assign_info(bands: BAND_DICT, spmap: dict):
         band.type = type
         assign_ranges(bands, band)
 
-def parse_chromAlias(build: GenomeBuildId, bands: BAND_DICT, f: str):
+def parse_chromAlias(ccp: ChromosomePartCollection, build: GenomeBuildId, f: str):
+    """
+    Parses a UCSC aliases file
+
+    :param ccp:
+    :param build:
+    :param f:
+    :return:
+    """
     spcode, buildnum = split_build_string(build)
+    ccp.genomes[spcode].build = build
+    bands = ccp.has
     with open(f, 'r') as tsvfile:
         reader = csv.reader(tsvfile, delimiter='\t')
         n = 0
@@ -212,7 +223,7 @@ def parse_chromAlias(build: GenomeBuildId, bands: BAND_DICT, f: str):
             raise Exception(f'No bands recognized in {f}')
 
 
-def parse_cytoBand(build: GenomeBuildId, f: str) -> BAND_DICT:
+def parse_cytoBand(cpc: ChromosomePartCollection, build: GenomeBuildId, f: str):
     """
     parses a UCSC cytoBand.txt file to a dict of ChromosomeParts
 
@@ -221,7 +232,7 @@ def parse_cytoBand(build: GenomeBuildId, f: str) -> BAND_DICT:
     :return:
     """
     spcode, buildnum = split_build_string(build)
-    bands = {}
+    bands = cpc.has
     with open(f, 'r') as tsvfile:
         reader = csv.reader(tsvfile, delimiter='\t')
         for row in reader:
@@ -242,12 +253,10 @@ def parse_cytoBand(build: GenomeBuildId, f: str) -> BAND_DICT:
                 parent_band = bands[parent_id]
                 current.parent = parent_id
                 if current.id not in parent_band.children:
-                    # TODO: gte linkml pygen to emit Sets
+                    # TODO: get linkml pygen to emit Sets
                     parent_band.children.append(current.id)
                 parent_band_name = get_parent_band_name(parent_band.band_descriptor, spcode)
                 current = parent_band
-
-    return bands
 
 @unique
 class OutputFormat(Enum):
@@ -258,14 +267,29 @@ class OutputFormat(Enum):
     def list():
         return list(map(lambda c: c.value, OutputFormat))
 
+def load_collection(f: str) -> ChromosomePartCollection:
+    """
+    Loads an initial ChromosomePartCollection
+
+    This should be seeded with the list of genomes
+    :param f:
+    :return:
+    """
+    with open(f) as stream:
+        cpc: ChromosomePartCollection = YAMLLoader().load(stream, target_class=ChromosomePartCollection)
+    return cpc
+
 @click.command()
 @click.option('-o', '--output',
               help='output ontology in functional syntax to this path')
 @click.option('-f', '--to_format', default='ofn',
               type=click.Choice(OutputFormat.list()),
               help='output format')
+@click.option('-C', '--config',
+              default='genomes.yaml',
+              help='YAML source file')
 @click.argument('files', nargs=-1)
-def cli(files: List[str], to_format, output):
+def cli(files: List[str], to_format, output, config='genomes.yaml'):
     """
     parses files download from UCSC into OWL
 
@@ -273,7 +297,7 @@ def cli(files: List[str], to_format, output):
 
     TODO: parse chromAliases
     """
-    spmap = get_spmap('species.yaml')
+    cpc = load_collection(config)
     fmap = {}
     for f in files:
         bn = Path(f).stem
@@ -281,29 +305,29 @@ def cli(files: List[str], to_format, output):
         if build not in fmap:
             fmap[build] = {}
         fmap[build][ftype] = f
-
     for build, fdict in fmap.items():
         if 'cytoBand' not in fdict:
             raise Exception(f'No cytoBand file for {build} in {files}')
-        items = parse_cytoBand(build, fdict['cytoBand'])
+        parse_cytoBand(cpc, build, fdict['cytoBand'])
         if 'chromAlias' not in fdict:
             logging.warning(f'No alias found for {build}')
         else:
-            parse_chromAlias(build, items, fdict['chromAlias'])
-        assign_info(items, spmap)
-        validate(items)
-        if output is not None:
-            if to_format == 'yaml':
-                dump = YAMLDumper().dumps(items)
-            elif to_format == 'json':
-                dump = JSONDumper().dumps(items)
-            elif to_format == 'ofn':
-                o = make_ontology(items)
-                dump = str(o)
-            else:
-                raise Exception(f'Cannot handle {to_format}')
-            with open(output, "w") as out:
-                out.write(dump)
+            parse_chromAlias(cpc, build, fdict['chromAlias'])
+    assign_info(cpc)
+    validate(cpc)
+    if output is not None:
+        if to_format == 'yaml':
+            dump = YAMLDumper().dumps(cpc)
+        elif to_format == 'json':
+            dump = JSONDumper().dumps(cpc)
+        elif to_format == 'ofn':
+            o = make_ontology(cpc)
+            dump = str(o)
+        else:
+            raise Exception(f'Cannot handle {to_format}')
+        with open(output, "w") as out:
+            out.write(dump)
+
 
 if __name__ == '__main__':
     cli()
