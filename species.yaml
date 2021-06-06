@@ -1,16 +1,19 @@
 mm:
-  id: NCBITaxon:10090
+  taxon: NCBITaxon:10090
   name: Mus musculus
 hg:
-  id: NCBITaxon:9606
+  taxon: NCBITaxon:9606
   name: Homo sapiens
 dm:
-  id: NCBITaxon:7227
+  taxon: NCBITaxon:7227
   name: Drosophila melanogaster
 danRer:
-  id: NCBITaxon:7955
+  taxon: NCBITaxon:7955
   name: Danio rerio
 rn:
-  id: NCBITaxon:10116
+  taxon: NCBITaxon:10116
   name: Rattus norvegicus
+ce:
+  taxon: NCBITaxon:10116
+  name: Caenorhabditis elegans
   
