@@ -18,3 +18,14 @@ genomes:
   ce:
     taxon: NCBITaxon:10116
     name: Caenorhabditis elegans
+taxons:
+  NCBITaxon:10090:
+    name: Mus musculus
+  NCBITaxon:9606:
+    name: Homo sapiens
+  NCBITaxon:7227:
+    name: Drosophila melanogaster
+  NCBITaxon:7955:
+    name: Danio rerio
+  NCBITaxon:10116:
+    name: Rattus norvegicus

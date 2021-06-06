@@ -42,6 +42,11 @@ classes:
         multivalued: true
         inlined: true
         slot_uri: dcterms:hasPart
+      taxons:
+        range: OrganismTaxon
+        multivalued: true
+        inlined: true
+        slot_uri: dcterms:hasPart
   ChromosomePart:
     description: |-
       A Chromosome or a part of a chromosome (includes whole chromosomes, arms, and bands)
@@ -92,6 +97,12 @@ classes:
     slot_usage:
       id:
         description: E.g. mm10
+  OrganismTaxon:
+    class_uri: biolink:OrganismTaxon
+    slots:
+      - id
+      - name
+      - common_name
 
 slots:
   id:
@@ -119,13 +130,12 @@ slots:
   name:
     range: LabelType
     slot_uri: rdfs:label
-    comments:
-      - default = None
+  common_name:
+    range: LabelType
+    slot_uri: oio:hasExactSynonym
   type:
     range: EntityType
     slot_uri: rdf:type
-    comments:
-      - default = None
   chromosome_type:
     range: ChromosomeType
   sex_chromosome_type:
@@ -133,37 +143,25 @@ slots:
   is_autosome:
     range: boolean
     required: false
-    comments:
-      - default = False
   is_band:
     range: boolean
     required: false
-    comments:
-      - default = False
   taxon:
     range: TaxonIdentifier
     required: false
     slot_uri: RO:0002162
-    comments:
-      - default = None
   start:
     range: integer
     slot_uri: gff:start
-    comments:
-      - default = None
   end:
     range: integer
     slot_uri: gff:end
-    comments:
-      - default = None
   strand:
     range: StrandType
     slot_uri: gff:strand
     exact_mappings:
       - biolink:strand
     required: true
-    comments:
-      - default = None
   children:
     range: ChromosomePart
     multivalued: true
@@ -171,8 +169,6 @@ slots:
   parent:
     range: ChromosomePart
     slot_uri: BFO:0000050
-    comments:
-      - default = None
   exact_synonyms:
     multivalued: true
     slot_uri: OIO:hasExactSynonym

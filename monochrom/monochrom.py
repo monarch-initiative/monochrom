@@ -72,13 +72,14 @@ def make_ontology(cpc: ChromosomePartCollection, name='Chromosome Ontology') -> 
 
 def split_build_string(build: GenomeBuildId) -> Tuple[str, str]:
     """
-    Splits a build string, e.g. mm10 into a tuple of species code and build number
+    Splits a build string into a tuple of species code and build number
+    e.g. mm10 ==> (mm, 10)
     :param build:
     :return:
     """
     return re.findall(r'([a-zA-Z]+)([\d+])', build)[0]
 
-def get_band_id(sp: GenomeId, chr: ChromosomeNameType, band: BandDescriptor):
+def get_band_id(cpc: ChromosomePartCollection, sp: GenomeId, chr: ChromosomeNameType, band: BandDescriptor):
     """
     generate CURIE for a ChromosomePart
 
@@ -87,7 +88,8 @@ def get_band_id(sp: GenomeId, chr: ChromosomeNameType, band: BandDescriptor):
     :param band:
     :return:
     """
-    return f'CHR:{sp}-{chr}{band}'
+    t = cpc.genomes[sp].taxon.replace('NCBITaxon:', '')
+    return f'CHR:{t}-{chr}{band}'
 
 def get_parent_band_name(s: BandDescriptor, spcode: GenomeBuildId):
     """
@@ -206,8 +208,8 @@ def parse_chromAlias(ccp: ChromosomePartCollection, build: GenomeBuildId, f: str
     with open(f, 'r') as tsvfile:
         reader = csv.reader(tsvfile, delimiter='\t')
         n = 0
-        for [name,id,src] in reader:
-            id = get_band_id(spcode, id, '')
+        for [name,chr,src] in reader:
+            id = get_band_id(ccp, spcode, chr, '')
             if id in bands:
                 band = bands[id]
                 n += 1
@@ -236,26 +238,25 @@ def parse_cytoBand(cpc: ChromosomePartCollection, build: GenomeBuildId, f: str):
     with open(f, 'r') as tsvfile:
         reader = csv.reader(tsvfile, delimiter='\t')
         for row in reader:
-            [chr, s, e, bandname, rtype] = row
+            [chr, s, e, band_descriptor, rtype] = row
             if '_' in chr:
-                # skipping chr4_KL567938v1_random
+                # skipping entries such as chr4_KL567938v1_random
                 continue
-            id = get_band_id(spcode, chr, bandname)
-            band = ChromosomePart(id=id, band_descriptor=bandname, chromosome_name=chr, start=int(s), end=int(e), build=build)
+            id = get_band_id(cpc, spcode, chr, band_descriptor)
+            band = ChromosomePart(id=id, band_descriptor=band_descriptor, chromosome_name=chr, start=int(s), end=int(e), build=build)
             bands[id] = band
-            parent_band_name = get_parent_band_name(band.band_descriptor, spcode)
+            parent_band_descriptor = get_parent_band_name(band.band_descriptor, spcode)
             current = band
-            while parent_band_name is not None:
-                #print(f'curr={current} parent_band_name={parent_band_name}')
-                parent_id = get_band_id(spcode, chr, parent_band_name)
+            while parent_band_descriptor is not None:
+                parent_id = get_band_id(cpc, spcode, chr, parent_band_descriptor)
                 if parent_id not in bands:
-                    bands[parent_id] = ChromosomePart(id=parent_id, band_descriptor=parent_band_name, chromosome_name=chr, build=build)
+                    bands[parent_id] = ChromosomePart(id=parent_id, band_descriptor=parent_band_descriptor, chromosome_name=chr, build=build)
                 parent_band = bands[parent_id]
                 current.parent = parent_id
                 if current.id not in parent_band.children:
                     # TODO: get linkml pygen to emit Sets
                     parent_band.children.append(current.id)
-                parent_band_name = get_parent_band_name(parent_band.band_descriptor, spcode)
+                parent_band_descriptor = get_parent_band_name(parent_band.band_descriptor, spcode)
                 current = parent_band
 
 @unique

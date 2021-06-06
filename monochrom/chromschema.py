@@ -1,5 +1,5 @@
 # Auto generated from chromo.yaml by pythongen.py version: 0.9.0
-# Generation date: 2021-06-06 16:00
+# Generation date: 2021-06-06 16:21
 # Schema: chromoschema
 #
 # id: https://w3id.org/biodatamodels/chromoschema
@@ -46,6 +46,7 @@ FALDO = CurieNamespace('faldo', 'http://biohackathon.org/resource/faldo#')
 GFF = CurieNamespace('gff', 'https://w3id.org/biodatamodels/gff/')
 INSDC = CurieNamespace('insdc', 'http://identifiers.org/insdc/')
 LINKML = CurieNamespace('linkml', 'https://w3id.org/linkml/')
+OIO = CurieNamespace('oio', 'http://www.geneontology.org/formats/oboInOwl#')
 RDF = CurieNamespace('rdf', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#')
 RDFS = CurieNamespace('rdfs', 'http://www.w3.org/2000/01/rdf-schema#')
 REFSEQ = CurieNamespace('refseq', 'http://identifiers.org/refseq/')
@@ -107,6 +108,10 @@ class GenomeBuildId(extended_str):
     pass
 
 
+class OrganismTaxonId(extended_str):
+    pass
+
+
 @dataclass
 class ChromosomePartCollection(YAMLRoot):
     _inherited_slots: ClassVar[List[str]] = []
@@ -119,6 +124,7 @@ class ChromosomePartCollection(YAMLRoot):
     name: Optional[str] = None
     has: Optional[Union[Dict[Union[str, ChromosomePartId], Union[dict, "ChromosomePart"]], List[Union[dict, "ChromosomePart"]]]] = empty_dict()
     genomes: Optional[Union[Dict[Union[str, GenomeId], Union[dict, "Genome"]], List[Union[dict, "Genome"]]]] = empty_dict()
+    taxons: Optional[Union[Dict[Union[str, OrganismTaxonId], Union[dict, "OrganismTaxon"]], List[Union[dict, "OrganismTaxon"]]]] = empty_dict()
 
     def __post_init__(self, *_: List[str], **kwargs: Dict[str, Any]):
         if self.name is not None and not isinstance(self.name, str):
@@ -135,6 +141,12 @@ class ChromosomePartCollection(YAMLRoot):
         if not isinstance(self.genomes, (list, dict)):
             self.genomes = [self.genomes]
         self._normalize_inlined_slot(slot_name="genomes", slot_type=Genome, key_name="id", inlined_as_list=None, keyed=True)
+
+        if self.taxons is None:
+            self.taxons = []
+        if not isinstance(self.taxons, (list, dict)):
+            self.taxons = [self.taxons]
+        self._normalize_inlined_slot(slot_name="taxons", slot_type=OrganismTaxon, key_name="id", inlined_as_list=None, keyed=True)
 
         super().__post_init__(**kwargs)
 
@@ -306,6 +318,34 @@ class GenomeBuild(YAMLRoot):
         super().__post_init__(**kwargs)
 
 
+@dataclass
+class OrganismTaxon(YAMLRoot):
+    _inherited_slots: ClassVar[List[str]] = []
+
+    class_class_uri: ClassVar[URIRef] = BIOLINK.OrganismTaxon
+    class_class_curie: ClassVar[str] = "biolink:OrganismTaxon"
+    class_name: ClassVar[str] = "OrganismTaxon"
+    class_model_uri: ClassVar[URIRef] = CHROMOSCHEMA.OrganismTaxon
+
+    id: Union[str, OrganismTaxonId] = None
+    name: Optional[Union[str, LabelType]] = None
+    common_name: Optional[Union[str, LabelType]] = None
+
+    def __post_init__(self, *_: List[str], **kwargs: Dict[str, Any]):
+        if self.id is None:
+            raise ValueError("id must be supplied")
+        if not isinstance(self.id, OrganismTaxonId):
+            self.id = OrganismTaxonId(self.id)
+
+        if self.name is not None and not isinstance(self.name, LabelType):
+            self.name = LabelType(self.name)
+
+        if self.common_name is not None and not isinstance(self.common_name, LabelType):
+            self.common_name = LabelType(self.common_name)
+
+        super().__post_init__(**kwargs)
+
+
 # Enumerations
 class EntityType(EnumDefinitionImpl):
     """
@@ -401,6 +441,9 @@ slots.previous_builds = Slot(uri=CHROMOSCHEMA.previous_builds, name="previous_bu
 slots.name = Slot(uri=RDFS.label, name="name", curie=RDFS.curie('label'),
                    model_uri=CHROMOSCHEMA.name, domain=None, range=Optional[Union[str, LabelType]])
 
+slots.common_name = Slot(uri=OIO.hasExactSynonym, name="common_name", curie=OIO.curie('hasExactSynonym'),
+                   model_uri=CHROMOSCHEMA.common_name, domain=None, range=Optional[Union[str, LabelType]])
+
 slots.type = Slot(uri=RDF.type, name="type", curie=RDF.curie('type'),
                    model_uri=CHROMOSCHEMA.type, domain=None, range=Optional[Union[str, "EntityType"]])
 
@@ -454,6 +497,9 @@ slots.chromosomePartCollection__has = Slot(uri=DCTERMS.hasPart, name="chromosome
 
 slots.chromosomePartCollection__genomes = Slot(uri=DCTERMS.hasPart, name="chromosomePartCollection__genomes", curie=DCTERMS.curie('hasPart'),
                    model_uri=CHROMOSCHEMA.chromosomePartCollection__genomes, domain=None, range=Optional[Union[Dict[Union[str, GenomeId], Union[dict, Genome]], List[Union[dict, Genome]]]])
+
+slots.chromosomePartCollection__taxons = Slot(uri=DCTERMS.hasPart, name="chromosomePartCollection__taxons", curie=DCTERMS.curie('hasPart'),
+                   model_uri=CHROMOSCHEMA.chromosomePartCollection__taxons, domain=None, range=Optional[Union[Dict[Union[str, OrganismTaxonId], Union[dict, OrganismTaxon]], List[Union[dict, OrganismTaxon]]]])
 
 slots.Genome_id = Slot(uri=CHROMOSCHEMA.id, name="Genome_id", curie=CHROMOSCHEMA.curie('id'),
                    model_uri=CHROMOSCHEMA.Genome_id, domain=Genome, range=Union[str, GenomeId],
