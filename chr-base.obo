@@ -1,11 +1,11 @@
 format-version: 1.2
-data-version: chr/releases/2021-06-05/chr-base.owl
+data-version: chr/releases/2021-06-06/chr-base.owl
 ontology: chr/chr-base
+property_value: http://purl.org/dc/elements/1.1/description "Automatic translation of UCSC chromosome bands to OWL classes" xsd:string
+property_value: http://purl.org/dc/elements/1.1/title "Monochrom Ontology" xsd:string
 property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
-property_value: http://purl.org/dc/terms/description "Automatic translation of UCSC chromosome bands to OWL classes" xsd:string
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/publicdomain/zero/1.0/
-property_value: http://purl.org/dc/terms/title "Monochrom Ontology" xsd:string
-property_value: owl:versionInfo "2021-06-05" xsd:string
+property_value: owl:versionInfo "2021-06-06" xsd:string
 
 [Term]
 id: CHR:rn-chr1

@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2021-06-05
+data-version: releases/2021-06-06
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_gp2term ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_ontology ""
@@ -8,10 +8,10 @@ subsetdef: ro-eco ""
 subsetdef: RO:0002259 ""
 subsetdef: SOFA ""
 ontology: chr
-property_value: http://purl.org/dc/terms/description "Automatic translation of UCSC chromosome bands to OWL classes" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Automatic translation of UCSC chromosome bands to OWL classes" xsd:string
+property_value: http://purl.org/dc/elements/1.1/title "Monochrom Ontology" xsd:string
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/publicdomain/zero/1.0/
-property_value: http://purl.org/dc/terms/title "Monochrom Ontology" xsd:string
-property_value: owl:versionInfo "2021-06-05" xsd:string
+property_value: owl:versionInfo "2021-06-06" xsd:string
 
 [Term]
 id: BFO:0000002

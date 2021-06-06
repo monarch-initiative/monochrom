@@ -14134,24 +14134,24 @@
       "meta": {
         "basicPropertyValues": [
           {
-            "pred": "http://purl.org/dc/terms/description",
+            "pred": "http://purl.org/dc/elements/1.1/description",
             "val": "Automatic translation of UCSC chromosome bands to OWL classes"
+          },
+          {
+            "pred": "http://purl.org/dc/elements/1.1/title",
+            "val": "Monochrom Ontology"
           },
           {
             "pred": "http://purl.org/dc/terms/license",
             "val": "https://creativecommons.org/publicdomain/zero/1.0/"
           },
           {
-            "pred": "http://purl.org/dc/terms/title",
-            "val": "Monochrom Ontology"
-          },
-          {
             "pred": "http://www.w3.org/2002/07/owl#versionInfo",
-            "val": "2021-06-05"
+            "val": "2021-06-06"
           }
         ],
         "subsets": [],
-        "version": "http://purl.obolibrary.org/obo/chr/releases/2021-06-05/chr-full.json",
+        "version": "http://purl.obolibrary.org/obo/chr/releases/2021-06-06/chr-full.json",
         "xrefs": []
       },
       "nodes": [

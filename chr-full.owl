@@ -19,11 +19,11 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/chr/chr-full.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/chr/releases/2021-06-05/chr-full.owl"/>
-        <terms:description>Automatic translation of UCSC chromosome bands to OWL classes</terms:description>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/chr/releases/2021-06-06/chr-full.owl"/>
+        <dc:description>Automatic translation of UCSC chromosome bands to OWL classes</dc:description>
+        <dc:title>Monochrom Ontology</dc:title>
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
-        <terms:title>Monochrom Ontology</terms:title>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-06-05</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-06-06</owl:versionInfo>
     </owl:Ontology>
     
 
