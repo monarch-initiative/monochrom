@@ -1,0 +1,5443 @@
+name: foo
+has:
+  CHR:10116-chr1p13:
+    id: CHR:10116-chr1p13
+    band_descriptor: p13
+    chromosome_name: chr1
+    build: rn6
+    name: chr1p13 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 10704345
+    parent: CHR:10116-chr1p1
+  CHR:10116-chr1p1:
+    id: CHR:10116-chr1p1
+    band_descriptor: p1
+    chromosome_name: chr1
+    build: rn6
+    name: chr1p1 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 40652454
+    children:
+    - CHR:10116-chr1p13
+    - CHR:10116-chr1p12
+    - CHR:10116-chr1p11
+    parent: CHR:10116-chr1p
+  CHR:10116-chr1p:
+    id: CHR:10116-chr1p
+    band_descriptor: p
+    chromosome_name: chr1
+    build: rn6
+    name: chr1p (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 40652454
+    children:
+    - CHR:10116-chr1p1
+    parent: CHR:10116-chr1
+  CHR:10116-chr1:
+    id: CHR:10116-chr1
+    band_descriptor: ''
+    chromosome_name: chr1
+    build: rn6
+    name: chr1 (Rattus norvegicus)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 282763074
+    children:
+    - CHR:10116-chr1p
+    - CHR:10116-chr1q
+    exact_mappings:
+    - refseq:NC_005100.4
+    - insdc:CM000072.5
+  CHR:10116-chr1p12:
+    id: CHR:10116-chr1p12
+    band_descriptor: p12
+    chromosome_name: chr1
+    build: rn6
+    name: chr1p12 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 10704345
+    end: 25618263
+    parent: CHR:10116-chr1p1
+  CHR:10116-chr1p11:
+    id: CHR:10116-chr1p11
+    band_descriptor: p11
+    chromosome_name: chr1
+    build: rn6
+    name: chr1p11 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 25618263
+    end: 40652454
+    parent: CHR:10116-chr1p1
+  CHR:10116-chr1q11:
+    id: CHR:10116-chr1q11
+    band_descriptor: q11
+    chromosome_name: chr1
+    build: rn6
+    name: chr1q11 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 40652454
+    end: 51356799
+    parent: CHR:10116-chr1q1
+  CHR:10116-chr1q1:
+    id: CHR:10116-chr1q1
+    band_descriptor: q1
+    chromosome_name: chr1
+    build: rn6
+    name: chr1q1 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 40652454
+    end: 73607402
+    children:
+    - CHR:10116-chr1q11
+    - CHR:10116-chr1q12
+    parent: CHR:10116-chr1q
+  CHR:10116-chr1q:
+    id: CHR:10116-chr1q
+    band_descriptor: q
+    chromosome_name: chr1
+    build: rn6
+    name: chr1q (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 40652454
+    end: 282763074
+    children:
+    - CHR:10116-chr1q1
+    - CHR:10116-chr1q2
+    - CHR:10116-chr1q3
+    - CHR:10116-chr1q4
+    - CHR:10116-chr1q5
+    parent: CHR:10116-chr1
+  CHR:10116-chr1q12:
+    id: CHR:10116-chr1q12
+    band_descriptor: q12
+    chromosome_name: chr1
+    build: rn6
+    name: chr1q12 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 51356799
+    end: 73607402
+    parent: CHR:10116-chr1q1
+  CHR:10116-chr1q21:
+    id: CHR:10116-chr1q21
+    band_descriptor: q21
+    chromosome_name: chr1
+    build: rn6
+    name: chr1q21 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 73607402
+    end: 95016091
+    parent: CHR:10116-chr1q2
+  CHR:10116-chr1q2:
+    id: CHR:10116-chr1q2
+    band_descriptor: q2
+    chromosome_name: chr1
+    build: rn6
+    name: chr1q2 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 73607402
+    end: 130617056
+    children:
+    - CHR:10116-chr1q21
+    - CHR:10116-chr1q22
+    parent: CHR:10116-chr1q
+  CHR:10116-chr1q22:
+    id: CHR:10116-chr1q22
+    band_descriptor: q22
+    chromosome_name: chr1
+    build: rn6
+    name: chr1q22 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 95016091
+    end: 130617056
+    parent: CHR:10116-chr1q2
+  CHR:10116-chr1q31:
+    id: CHR:10116-chr1q31
+    band_descriptor: q31
+    chromosome_name: chr1
+    build: rn6
+    name: chr1q31 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 130617056
+    end: 149018906
+    parent: CHR:10116-chr1q3
+  CHR:10116-chr1q3:
+    id: CHR:10116-chr1q3
+    band_descriptor: q3
+    chromosome_name: chr1
+    build: rn6
+    name: chr1q3 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 130617056
+    end: 201337893
+    children:
+    - CHR:10116-chr1q31
+    - CHR:10116-chr1q32
+    - CHR:10116-chr1q33
+    - CHR:10116-chr1q34
+    - CHR:10116-chr1q35
+    - CHR:10116-chr1q36
+    - CHR:10116-chr1q37
+    parent: CHR:10116-chr1q
+  CHR:10116-chr1q32:
+    id: CHR:10116-chr1q32
+    band_descriptor: q32
+    chromosome_name: chr1
+    build: rn6
+    name: chr1q32 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 149018906
+    end: 171269510
+    parent: CHR:10116-chr1q3
+  CHR:10116-chr1q33:
+    id: CHR:10116-chr1q33
+    band_descriptor: q33
+    chromosome_name: chr1
+    build: rn6
+    name: chr1q33 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 171269510
+    end: 179929204
+    parent: CHR:10116-chr1q3
+  CHR:10116-chr1q34:
+    id: CHR:10116-chr1q34
+    band_descriptor: q34
+    chromosome_name: chr1
+    build: rn6
+    name: chr1q34 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 179929204
+    end: 184138778
+    parent: CHR:10116-chr1q3
+  CHR:10116-chr1q35:
+    id: CHR:10116-chr1q35
+    band_descriptor: q35
+    chromosome_name: chr1
+    build: rn6
+    name: chr1q35 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 184138778
+    end: 189791634
+    parent: CHR:10116-chr1q3
+  CHR:10116-chr1q36:
+    id: CHR:10116-chr1q36
+    band_descriptor: q36
+    chromosome_name: chr1
+    build: rn6
+    name: chr1q36 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 189791634
+    end: 198331054
+    parent: CHR:10116-chr1q3
+  CHR:10116-chr1q37:
+    id: CHR:10116-chr1q37
+    band_descriptor: q37
+    chromosome_name: chr1
+    build: rn6
+    name: chr1q37 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 198331054
+    end: 201337893
+    parent: CHR:10116-chr1q3
+  CHR:10116-chr1q41:
+    id: CHR:10116-chr1q41
+    band_descriptor: q41
+    chromosome_name: chr1
+    build: rn6
+    name: chr1q41 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 201337893
+    end: 216251810
+    parent: CHR:10116-chr1q4
+  CHR:10116-chr1q4:
+    id: CHR:10116-chr1q4
+    band_descriptor: q4
+    chromosome_name: chr1
+    build: rn6
+    name: chr1q4 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 201337893
+    end: 235615849
+    children:
+    - CHR:10116-chr1q41
+    - CHR:10116-chr1q42
+    - CHR:10116-chr1q43
+    parent: CHR:10116-chr1q
+  CHR:10116-chr1q42:
+    id: CHR:10116-chr1q42
+    band_descriptor: q42
+    chromosome_name: chr1
+    build: rn6
+    name: chr1q42 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 216251810
+    end: 218897828
+    parent: CHR:10116-chr1q4
+  CHR:10116-chr1q43:
+    id: CHR:10116-chr1q43
+    band_descriptor: q43
+    chromosome_name: chr1
+    build: rn6
+    name: chr1q43 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 218897828
+    end: 235615849
+    parent: CHR:10116-chr1q4
+  CHR:10116-chr1q51:
+    id: CHR:10116-chr1q51
+    band_descriptor: q51
+    chromosome_name: chr1
+    build: rn6
+    name: chr1q51 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 235615849
+    end: 244155270
+    parent: CHR:10116-chr1q5
+  CHR:10116-chr1q5:
+    id: CHR:10116-chr1q5
+    band_descriptor: q5
+    chromosome_name: chr1
+    build: rn6
+    name: chr1q5 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 235615849
+    end: 282763074
+    children:
+    - CHR:10116-chr1q51
+    - CHR:10116-chr1q52
+    - CHR:10116-chr1q53
+    - CHR:10116-chr1q54
+    - CHR:10116-chr1q55
+    parent: CHR:10116-chr1q
+  CHR:10116-chr1q52:
+    id: CHR:10116-chr1q52
+    band_descriptor: q52
+    chromosome_name: chr1
+    build: rn6
+    name: chr1q52 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 244155270
+    end: 252694691
+    parent: CHR:10116-chr1q5
+  CHR:10116-chr1q53:
+    id: CHR:10116-chr1q53
+    band_descriptor: q53
+    chromosome_name: chr1
+    build: rn6
+    name: chr1q53 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 252694691
+    end: 259189461
+    parent: CHR:10116-chr1q5
+  CHR:10116-chr1q54:
+    id: CHR:10116-chr1q54
+    band_descriptor: q54
+    chromosome_name: chr1
+    build: rn6
+    name: chr1q54 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 259189461
+    end: 267728882
+    parent: CHR:10116-chr1q5
+  CHR:10116-chr1q55:
+    id: CHR:10116-chr1q55
+    band_descriptor: q55
+    chromosome_name: chr1
+    build: rn6
+    name: chr1q55 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 267728882
+    end: 282763074
+    parent: CHR:10116-chr1q5
+  CHR:10116-chr10q11:
+    id: CHR:10116-chr10q11
+    band_descriptor: q11
+    chromosome_name: chr10
+    build: rn6
+    name: chr10q11 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 6362541
+    parent: CHR:10116-chr10q1
+  CHR:10116-chr10q1:
+    id: CHR:10116-chr10q1
+    band_descriptor: q1
+    chromosome_name: chr10
+    build: rn6
+    name: chr10q1 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 26684687
+    children:
+    - CHR:10116-chr10q11
+    - CHR:10116-chr10q12
+    parent: CHR:10116-chr10q
+  CHR:10116-chr10q:
+    id: CHR:10116-chr10q
+    band_descriptor: q
+    chromosome_name: chr10
+    build: rn6
+    name: chr10q (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 112626471
+    children:
+    - CHR:10116-chr10q1
+    - CHR:10116-chr10q2
+    - CHR:10116-chr10q3
+    parent: CHR:10116-chr10
+  CHR:10116-chr10:
+    id: CHR:10116-chr10
+    band_descriptor: ''
+    chromosome_name: chr10
+    build: rn6
+    name: chr10 (Rattus norvegicus)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 112626471
+    children:
+    - CHR:10116-chr10q
+    exact_mappings:
+    - refseq:NC_005109.4
+    - insdc:CM000081.5
+  CHR:10116-chr10q12:
+    id: CHR:10116-chr10q12
+    band_descriptor: q12
+    chromosome_name: chr10
+    build: rn6
+    name: chr10q12 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 6362541
+    end: 26684687
+    parent: CHR:10116-chr10q1
+  CHR:10116-chr10q21:
+    id: CHR:10116-chr10q21
+    band_descriptor: q21
+    chromosome_name: chr10
+    build: rn6
+    name: chr10q21 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 26684687
+    end: 35421310
+    parent: CHR:10116-chr10q2
+  CHR:10116-chr10q2:
+    id: CHR:10116-chr10q2
+    band_descriptor: q2
+    chromosome_name: chr10
+    build: rn6
+    name: chr10q2 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 26684687
+    end: 84517335
+    children:
+    - CHR:10116-chr10q21
+    - CHR:10116-chr10q22
+    - CHR:10116-chr10q23
+    - CHR:10116-chr10q24
+    - CHR:10116-chr10q25
+    - CHR:10116-chr10q26
+    parent: CHR:10116-chr10q
+  CHR:10116-chr10q22:
+    id: CHR:10116-chr10q22
+    band_descriptor: q22
+    chromosome_name: chr10
+    build: rn6
+    name: chr10q22 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 35421310
+    end: 48336319
+    parent: CHR:10116-chr10q2
+  CHR:10116-chr10q23:
+    id: CHR:10116-chr10q23
+    band_descriptor: q23
+    chromosome_name: chr10
+    build: rn6
+    name: chr10q23 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 48336319
+    end: 50710401
+    parent: CHR:10116-chr10q2
+  CHR:10116-chr10q24:
+    id: CHR:10116-chr10q24
+    band_descriptor: q24
+    chromosome_name: chr10
+    build: rn6
+    name: chr10q24 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 50710401
+    end: 64859932
+    parent: CHR:10116-chr10q2
+  CHR:10116-chr10q25:
+    id: CHR:10116-chr10q25
+    band_descriptor: q25
+    chromosome_name: chr10
+    build: rn6
+    name: chr10q25 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 64859932
+    end: 67613868
+    parent: CHR:10116-chr10q2
+  CHR:10116-chr10q26:
+    id: CHR:10116-chr10q26
+    band_descriptor: q26
+    chromosome_name: chr10
+    build: rn6
+    name: chr10q26 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 67613868
+    end: 84517335
+    parent: CHR:10116-chr10q2
+  CHR:10116-chr10q31:
+    id: CHR:10116-chr10q31
+    band_descriptor: q31
+    chromosome_name: chr10
+    build: rn6
+    name: chr10q31 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 84517335
+    end: 89550389
+    parent: CHR:10116-chr10q3
+  CHR:10116-chr10q3:
+    id: CHR:10116-chr10q3
+    band_descriptor: q3
+    chromosome_name: chr10
+    build: rn6
+    name: chr10q3 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 84517335
+    end: 112626471
+    children:
+    - CHR:10116-chr10q31
+    - CHR:10116-chr10q32
+    parent: CHR:10116-chr10q
+  CHR:10116-chr10q32.1:
+    id: CHR:10116-chr10q32.1
+    band_descriptor: q32.1
+    chromosome_name: chr10
+    build: rn6
+    name: chr10q32.1 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 89550389
+    end: 105504223
+    parent: CHR:10116-chr10q32
+  CHR:10116-chr10q32:
+    id: CHR:10116-chr10q32
+    band_descriptor: q32
+    chromosome_name: chr10
+    build: rn6
+    name: chr10q32 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 89550389
+    end: 112626471
+    children:
+    - CHR:10116-chr10q32.1
+    - CHR:10116-chr10q32.2
+    - CHR:10116-chr10q32.3
+    parent: CHR:10116-chr10q3
+  CHR:10116-chr10q32.2:
+    id: CHR:10116-chr10q32.2
+    band_descriptor: q32.2
+    chromosome_name: chr10
+    build: rn6
+    name: chr10q32.2 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 105504223
+    end: 107213563
+    parent: CHR:10116-chr10q32
+  CHR:10116-chr10q32.3:
+    id: CHR:10116-chr10q32.3
+    band_descriptor: q32.3
+    chromosome_name: chr10
+    build: rn6
+    name: chr10q32.3 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 107213563
+    end: 112626471
+    parent: CHR:10116-chr10q32
+  CHR:10116-chr11p12:
+    id: CHR:10116-chr11p12
+    band_descriptor: p12
+    chromosome_name: chr11
+    build: rn6
+    name: chr11p12 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 6862108
+    parent: CHR:10116-chr11p1
+  CHR:10116-chr11p1:
+    id: CHR:10116-chr11p1
+    band_descriptor: p1
+    chromosome_name: chr11
+    build: rn6
+    name: chr11p1 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 15463905
+    children:
+    - CHR:10116-chr11p12
+    - CHR:10116-chr11p11
+    parent: CHR:10116-chr11p
+  CHR:10116-chr11p:
+    id: CHR:10116-chr11p
+    band_descriptor: p
+    chromosome_name: chr11
+    build: rn6
+    name: chr11p (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 15463905
+    children:
+    - CHR:10116-chr11p1
+    parent: CHR:10116-chr11
+  CHR:10116-chr11:
+    id: CHR:10116-chr11
+    band_descriptor: ''
+    chromosome_name: chr11
+    build: rn6
+    name: chr11 (Rattus norvegicus)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 90463843
+    children:
+    - CHR:10116-chr11p
+    - CHR:10116-chr11q
+    exact_mappings:
+    - refseq:NC_005110.4
+    - insdc:CM000082.5
+  CHR:10116-chr11p11:
+    id: CHR:10116-chr11p11
+    band_descriptor: p11
+    chromosome_name: chr11
+    build: rn6
+    name: chr11p11 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 6862108
+    end: 15463905
+    parent: CHR:10116-chr11p1
+  CHR:10116-chr11q11:
+    id: CHR:10116-chr11q11
+    band_descriptor: q11
+    chromosome_name: chr11
+    build: rn6
+    name: chr11q11 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 15463905
+    end: 37789917
+    parent: CHR:10116-chr11q1
+  CHR:10116-chr11q1:
+    id: CHR:10116-chr11q1
+    band_descriptor: q1
+    chromosome_name: chr11
+    build: rn6
+    name: chr11q1 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 15463905
+    end: 49871093
+    children:
+    - CHR:10116-chr11q11
+    - CHR:10116-chr11q12
+    parent: CHR:10116-chr11q
+  CHR:10116-chr11q:
+    id: CHR:10116-chr11q
+    band_descriptor: q
+    chromosome_name: chr11
+    build: rn6
+    name: chr11q (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 15463905
+    end: 90463843
+    children:
+    - CHR:10116-chr11q1
+    - CHR:10116-chr11q2
+    parent: CHR:10116-chr11
+  CHR:10116-chr11q12:
+    id: CHR:10116-chr11q12
+    band_descriptor: q12
+    chromosome_name: chr11
+    build: rn6
+    name: chr11q12 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 37789917
+    end: 49871093
+    parent: CHR:10116-chr11q1
+  CHR:10116-chr11q21:
+    id: CHR:10116-chr11q21
+    band_descriptor: q21
+    chromosome_name: chr11
+    build: rn6
+    name: chr11q21 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 49871093
+    end: 66978037
+    parent: CHR:10116-chr11q2
+  CHR:10116-chr11q2:
+    id: CHR:10116-chr11q2
+    band_descriptor: q2
+    chromosome_name: chr11
+    build: rn6
+    name: chr11q2 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 49871093
+    end: 90463843
+    children:
+    - CHR:10116-chr11q21
+    - CHR:10116-chr11q22
+    - CHR:10116-chr11q23
+    parent: CHR:10116-chr11q
+  CHR:10116-chr11q22:
+    id: CHR:10116-chr11q22
+    band_descriptor: q22
+    chromosome_name: chr11
+    build: rn6
+    name: chr11q22 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 66978037
+    end: 79059213
+    parent: CHR:10116-chr11q2
+  CHR:10116-chr11q23:
+    id: CHR:10116-chr11q23
+    band_descriptor: q23
+    chromosome_name: chr11
+    build: rn6
+    name: chr11q23 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 79059213
+    end: 90463843
+    parent: CHR:10116-chr11q2
+  CHR:10116-chr12p12:
+    id: CHR:10116-chr12p12
+    band_descriptor: p12
+    chromosome_name: chr12
+    build: rn6
+    name: chr12p12 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 6179255
+    parent: CHR:10116-chr12p1
+  CHR:10116-chr12p1:
+    id: CHR:10116-chr12p1
+    band_descriptor: p1
+    chromosome_name: chr12
+    build: rn6
+    name: chr12p1 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 14160793
+    children:
+    - CHR:10116-chr12p12
+    - CHR:10116-chr12p11
+    parent: CHR:10116-chr12p
+  CHR:10116-chr12p:
+    id: CHR:10116-chr12p
+    band_descriptor: p
+    chromosome_name: chr12
+    build: rn6
+    name: chr12p (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 14160793
+    children:
+    - CHR:10116-chr12p1
+    parent: CHR:10116-chr12
+  CHR:10116-chr12:
+    id: CHR:10116-chr12
+    band_descriptor: ''
+    chromosome_name: chr12
+    build: rn6
+    name: chr12 (Rattus norvegicus)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 52716770
+    children:
+    - CHR:10116-chr12p
+    - CHR:10116-chr12q
+    exact_mappings:
+    - refseq:NC_005111.4
+    - insdc:CM000083.5
+  CHR:10116-chr12p11:
+    id: CHR:10116-chr12p11
+    band_descriptor: p11
+    chromosome_name: chr12
+    build: rn6
+    name: chr12p11 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 6179255
+    end: 14160793
+    parent: CHR:10116-chr12p1
+  CHR:10116-chr12q11:
+    id: CHR:10116-chr12q11
+    band_descriptor: q11
+    chromosome_name: chr12
+    build: rn6
+    name: chr12q11 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 14160793
+    end: 21048088
+    parent: CHR:10116-chr12q1
+  CHR:10116-chr12q1:
+    id: CHR:10116-chr12q1
+    band_descriptor: q1
+    chromosome_name: chr12
+    build: rn6
+    name: chr12q1 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 14160793
+    end: 52716770
+    children:
+    - CHR:10116-chr12q11
+    - CHR:10116-chr12q12
+    - CHR:10116-chr12q13
+    - CHR:10116-chr12q14
+    - CHR:10116-chr12q15
+    - CHR:10116-chr12q16
+    parent: CHR:10116-chr12q
+  CHR:10116-chr12q:
+    id: CHR:10116-chr12q
+    band_descriptor: q
+    chromosome_name: chr12
+    build: rn6
+    name: chr12q (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 14160793
+    end: 52716770
+    children:
+    - CHR:10116-chr12q1
+    parent: CHR:10116-chr12
+  CHR:10116-chr12q12:
+    id: CHR:10116-chr12q12
+    band_descriptor: q12
+    chromosome_name: chr12
+    build: rn6
+    name: chr12q12 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 21048088
+    end: 30252603
+    parent: CHR:10116-chr12q1
+  CHR:10116-chr12q13:
+    id: CHR:10116-chr12q13
+    band_descriptor: q13
+    chromosome_name: chr12
+    build: rn6
+    name: chr12q13 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 30252603
+    end: 32054886
+    parent: CHR:10116-chr12q1
+  CHR:10116-chr12q14:
+    id: CHR:10116-chr12q14
+    band_descriptor: q14
+    chromosome_name: chr12
+    build: rn6
+    name: chr12q14 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 32054886
+    end: 36624960
+    parent: CHR:10116-chr12q1
+  CHR:10116-chr12q15:
+    id: CHR:10116-chr12q15
+    band_descriptor: q15
+    chromosome_name: chr12
+    build: rn6
+    name: chr12q15 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 36624960
+    end: 38234141
+    parent: CHR:10116-chr12q1
+  CHR:10116-chr12q16:
+    id: CHR:10116-chr12q16
+    band_descriptor: q16
+    chromosome_name: chr12
+    build: rn6
+    name: chr12q16 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 38234141
+    end: 52716770
+    parent: CHR:10116-chr12q1
+  CHR:10116-chr13p13:
+    id: CHR:10116-chr13p13
+    band_descriptor: p13
+    chromosome_name: chr13
+    build: rn6
+    name: chr13p13 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 17850620
+    parent: CHR:10116-chr13p1
+  CHR:10116-chr13p1:
+    id: CHR:10116-chr13p1
+    band_descriptor: p1
+    chromosome_name: chr13
+    build: rn6
+    name: chr13p1 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 30976075
+    children:
+    - CHR:10116-chr13p13
+    - CHR:10116-chr13p12
+    - CHR:10116-chr13p11
+    parent: CHR:10116-chr13p
+  CHR:10116-chr13p:
+    id: CHR:10116-chr13p
+    band_descriptor: p
+    chromosome_name: chr13
+    build: rn6
+    name: chr13p (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 30976075
+    children:
+    - CHR:10116-chr13p1
+    parent: CHR:10116-chr13
+  CHR:10116-chr13:
+    id: CHR:10116-chr13
+    band_descriptor: ''
+    chromosome_name: chr13
+    build: rn6
+    name: chr13 (Rattus norvegicus)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 114033958
+    children:
+    - CHR:10116-chr13p
+    - CHR:10116-chr13q
+    exact_mappings:
+    - refseq:NC_005112.4
+    - insdc:CM000084.5
+  CHR:10116-chr13p12:
+    id: CHR:10116-chr13p12
+    band_descriptor: p12
+    chromosome_name: chr13
+    build: rn6
+    name: chr13p12 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 17850620
+    end: 23520817
+    parent: CHR:10116-chr13p1
+  CHR:10116-chr13p11:
+    id: CHR:10116-chr13p11
+    band_descriptor: p11
+    chromosome_name: chr13
+    build: rn6
+    name: chr13p11 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 23520817
+    end: 30976075
+    parent: CHR:10116-chr13p1
+  CHR:10116-chr13q11:
+    id: CHR:10116-chr13q11
+    band_descriptor: q11
+    chromosome_name: chr13
+    build: rn6
+    name: chr13q11 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 30976075
+    end: 41056425
+    parent: CHR:10116-chr13q1
+  CHR:10116-chr13q1:
+    id: CHR:10116-chr13q1
+    band_descriptor: q1
+    chromosome_name: chr13
+    build: rn6
+    name: chr13q1 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 30976075
+    end: 57121983
+    children:
+    - CHR:10116-chr13q11
+    - CHR:10116-chr13q12
+    - CHR:10116-chr13q13
+    parent: CHR:10116-chr13q
+  CHR:10116-chr13q:
+    id: CHR:10116-chr13q
+    band_descriptor: q
+    chromosome_name: chr13
+    build: rn6
+    name: chr13q (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 30976075
+    end: 114033958
+    children:
+    - CHR:10116-chr13q1
+    - CHR:10116-chr13q2
+    parent: CHR:10116-chr13
+  CHR:10116-chr13q12:
+    id: CHR:10116-chr13q12
+    band_descriptor: q12
+    chromosome_name: chr13
+    build: rn6
+    name: chr13q12 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 41056425
+    end: 44101531
+    parent: CHR:10116-chr13q1
+  CHR:10116-chr13q13:
+    id: CHR:10116-chr13q13
+    band_descriptor: q13
+    chromosome_name: chr13
+    build: rn6
+    name: chr13q13 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 44101531
+    end: 57121983
+    parent: CHR:10116-chr13q1
+  CHR:10116-chr13q21:
+    id: CHR:10116-chr13q21
+    band_descriptor: q21
+    chromosome_name: chr13
+    build: rn6
+    name: chr13q21 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 57121983
+    end: 73607555
+    parent: CHR:10116-chr13q2
+  CHR:10116-chr13q2:
+    id: CHR:10116-chr13q2
+    band_descriptor: q2
+    chromosome_name: chr13
+    build: rn6
+    name: chr13q2 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 57121983
+    end: 114033958
+    children:
+    - CHR:10116-chr13q21
+    - CHR:10116-chr13q22
+    - CHR:10116-chr13q23
+    - CHR:10116-chr13q24
+    - CHR:10116-chr13q25
+    - CHR:10116-chr13q26
+    - CHR:10116-chr13q27
+    parent: CHR:10116-chr13q
+  CHR:10116-chr13q22:
+    id: CHR:10116-chr13q22
+    band_descriptor: q22
+    chromosome_name: chr13
+    build: rn6
+    name: chr13q22 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 73607555
+    end: 82217853
+    parent: CHR:10116-chr13q2
+  CHR:10116-chr13q23:
+    id: CHR:10116-chr13q23
+    band_descriptor: q23
+    chromosome_name: chr13
+    build: rn6
+    name: chr13q23 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 82217853
+    end: 85157955
+    parent: CHR:10116-chr13q2
+  CHR:10116-chr13q24:
+    id: CHR:10116-chr13q24
+    band_descriptor: q24
+    chromosome_name: chr13
+    build: rn6
+    name: chr13q24 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 85157955
+    end: 93453243
+    parent: CHR:10116-chr13q2
+  CHR:10116-chr13q25:
+    id: CHR:10116-chr13q25
+    band_descriptor: q25
+    chromosome_name: chr13
+    build: rn6
+    name: chr13q25 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 93453243
+    end: 96393345
+    parent: CHR:10116-chr13q2
+  CHR:10116-chr13q26:
+    id: CHR:10116-chr13q26
+    band_descriptor: q26
+    chromosome_name: chr13
+    build: rn6
+    name: chr13q26 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 96393345
+    end: 108363761
+    parent: CHR:10116-chr13q2
+  CHR:10116-chr13q27:
+    id: CHR:10116-chr13q27
+    band_descriptor: q27
+    chromosome_name: chr13
+    build: rn6
+    name: chr13q27 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 108363761
+    end: 114033958
+    parent: CHR:10116-chr13q2
+  CHR:10116-chr14p22:
+    id: CHR:10116-chr14p22
+    band_descriptor: p22
+    chromosome_name: chr14
+    build: rn6
+    name: chr14p22 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 21767292
+    parent: CHR:10116-chr14p2
+  CHR:10116-chr14p2:
+    id: CHR:10116-chr14p2
+    band_descriptor: p2
+    chromosome_name: chr14
+    build: rn6
+    name: chr14p2 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 32333938
+    children:
+    - CHR:10116-chr14p22
+    - CHR:10116-chr14p21
+    parent: CHR:10116-chr14p
+  CHR:10116-chr14p:
+    id: CHR:10116-chr14p
+    band_descriptor: p
+    chromosome_name: chr14
+    build: rn6
+    name: chr14p (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 50719903
+    children:
+    - CHR:10116-chr14p2
+    - CHR:10116-chr14p1
+    parent: CHR:10116-chr14
+  CHR:10116-chr14:
+    id: CHR:10116-chr14
+    band_descriptor: ''
+    chromosome_name: chr14
+    build: rn6
+    name: chr14 (Rattus norvegicus)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 115493446
+    children:
+    - CHR:10116-chr14p
+    - CHR:10116-chr14q
+    exact_mappings:
+    - refseq:NC_005113.4
+    - insdc:CM000085.5
+  CHR:10116-chr14p21:
+    id: CHR:10116-chr14p21
+    band_descriptor: p21
+    chromosome_name: chr14
+    build: rn6
+    name: chr14p21 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 21767292
+    end: 32333938
+    parent: CHR:10116-chr14p2
+  CHR:10116-chr14p11:
+    id: CHR:10116-chr14p11
+    band_descriptor: p11
+    chromosome_name: chr14
+    build: rn6
+    name: chr14p11 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 32333938
+    end: 50719903
+    parent: CHR:10116-chr14p1
+  CHR:10116-chr14p1:
+    id: CHR:10116-chr14p1
+    band_descriptor: p1
+    chromosome_name: chr14
+    build: rn6
+    name: chr14p1 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 32333938
+    end: 50719903
+    children:
+    - CHR:10116-chr14p11
+    parent: CHR:10116-chr14p
+  CHR:10116-chr14q11:
+    id: CHR:10116-chr14q11
+    band_descriptor: q11
+    chromosome_name: chr14
+    build: rn6
+    name: chr14q11 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 50719903
+    end: 70690865
+    parent: CHR:10116-chr14q1
+  CHR:10116-chr14q1:
+    id: CHR:10116-chr14q1
+    band_descriptor: q1
+    chromosome_name: chr14
+    build: rn6
+    name: chr14q1 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 50719903
+    end: 70690865
+    children:
+    - CHR:10116-chr14q11
+    parent: CHR:10116-chr14q
+  CHR:10116-chr14q:
+    id: CHR:10116-chr14q
+    band_descriptor: q
+    chromosome_name: chr14
+    build: rn6
+    name: chr14q (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 50719903
+    end: 115493446
+    children:
+    - CHR:10116-chr14q1
+    - CHR:10116-chr14q2
+    parent: CHR:10116-chr14
+  CHR:10116-chr14q21:
+    id: CHR:10116-chr14q21
+    band_descriptor: q21
+    chromosome_name: chr14
+    build: rn6
+    name: chr14q21 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 70690865
+    end: 97741480
+    parent: CHR:10116-chr14q2
+  CHR:10116-chr14q2:
+    id: CHR:10116-chr14q2
+    band_descriptor: q2
+    chromosome_name: chr14
+    build: rn6
+    name: chr14q2 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 70690865
+    end: 115493446
+    children:
+    - CHR:10116-chr14q21
+    - CHR:10116-chr14q22
+    parent: CHR:10116-chr14q
+  CHR:10116-chr14q22:
+    id: CHR:10116-chr14q22
+    band_descriptor: q22
+    chromosome_name: chr14
+    build: rn6
+    name: chr14q22 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 97741480
+    end: 115493446
+    parent: CHR:10116-chr14q2
+  CHR:10116-chr15p16:
+    id: CHR:10116-chr15p16
+    band_descriptor: p16
+    chromosome_name: chr15
+    build: rn6
+    name: chr15p16 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 14694954
+    parent: CHR:10116-chr15p1
+  CHR:10116-chr15p1:
+    id: CHR:10116-chr15p1
+    band_descriptor: p1
+    chromosome_name: chr15
+    build: rn6
+    name: chr15p1 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 54970010
+    children:
+    - CHR:10116-chr15p16
+    - CHR:10116-chr15p15
+    - CHR:10116-chr15p14
+    - CHR:10116-chr15p13
+    - CHR:10116-chr15p12
+    - CHR:10116-chr15p11
+    parent: CHR:10116-chr15p
+  CHR:10116-chr15p:
+    id: CHR:10116-chr15p
+    band_descriptor: p
+    chromosome_name: chr15
+    build: rn6
+    name: chr15p (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 54970010
+    children:
+    - CHR:10116-chr15p1
+    parent: CHR:10116-chr15
+  CHR:10116-chr15:
+    id: CHR:10116-chr15
+    band_descriptor: ''
+    chromosome_name: chr15
+    build: rn6
+    name: chr15 (Rattus norvegicus)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 111246239
+    children:
+    - CHR:10116-chr15p
+    - CHR:10116-chr15q
+    exact_mappings:
+    - refseq:NC_005114.4
+    - insdc:CM000086.5
+  CHR:10116-chr15p15:
+    id: CHR:10116-chr15p15
+    band_descriptor: p15
+    chromosome_name: chr15
+    build: rn6
+    name: chr15p15 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 14694954
+    end: 17416241
+    parent: CHR:10116-chr15p1
+  CHR:10116-chr15p14:
+    id: CHR:10116-chr15p14
+    band_descriptor: p14
+    chromosome_name: chr15
+    build: rn6
+    name: chr15p14 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 17416241
+    end: 32111194
+    parent: CHR:10116-chr15p1
+  CHR:10116-chr15p13:
+    id: CHR:10116-chr15p13
+    band_descriptor: p13
+    chromosome_name: chr15
+    build: rn6
+    name: chr15p13 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 32111194
+    end: 34832482
+    parent: CHR:10116-chr15p1
+  CHR:10116-chr15p12:
+    id: CHR:10116-chr15p12
+    band_descriptor: p12
+    chromosome_name: chr15
+    build: rn6
+    name: chr15p12 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 34832482
+    end: 48438920
+    parent: CHR:10116-chr15p1
+  CHR:10116-chr15p11:
+    id: CHR:10116-chr15p11
+    band_descriptor: p11
+    chromosome_name: chr15
+    build: rn6
+    name: chr15p11 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 48438920
+    end: 54970010
+    parent: CHR:10116-chr15p1
+  CHR:10116-chr15q11:
+    id: CHR:10116-chr15q11
+    band_descriptor: q11
+    chromosome_name: chr15
+    build: rn6
+    name: chr15q11 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 54970010
+    end: 61174546
+    parent: CHR:10116-chr15q1
+  CHR:10116-chr15q1:
+    id: CHR:10116-chr15q1
+    band_descriptor: q1
+    chromosome_name: chr15
+    build: rn6
+    name: chr15q1 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 54970010
+    end: 72821657
+    children:
+    - CHR:10116-chr15q11
+    - CHR:10116-chr15q12
+    parent: CHR:10116-chr15q
+  CHR:10116-chr15q:
+    id: CHR:10116-chr15q
+    band_descriptor: q
+    chromosome_name: chr15
+    build: rn6
+    name: chr15q (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 54970010
+    end: 111246239
+    children:
+    - CHR:10116-chr15q1
+    - CHR:10116-chr15q2
+    parent: CHR:10116-chr15
+  CHR:10116-chr15q12:
+    id: CHR:10116-chr15q12
+    band_descriptor: q12
+    chromosome_name: chr15
+    build: rn6
+    name: chr15q12 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 61174546
+    end: 72821657
+    parent: CHR:10116-chr15q1
+  CHR:10116-chr15q21:
+    id: CHR:10116-chr15q21
+    band_descriptor: q21
+    chromosome_name: chr15
+    build: rn6
+    name: chr15q21 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 72821657
+    end: 87952016
+    parent: CHR:10116-chr15q2
+  CHR:10116-chr15q2:
+    id: CHR:10116-chr15q2
+    band_descriptor: q2
+    chromosome_name: chr15
+    build: rn6
+    name: chr15q2 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 72821657
+    end: 111246239
+    children:
+    - CHR:10116-chr15q21
+    - CHR:10116-chr15q22
+    - CHR:10116-chr15q23
+    - CHR:10116-chr15q24
+    - CHR:10116-chr15q25
+    parent: CHR:10116-chr15q
+  CHR:10116-chr15q22:
+    id: CHR:10116-chr15q22
+    band_descriptor: q22
+    chromosome_name: chr15
+    build: rn6
+    name: chr15q22 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 87952016
+    end: 92959186
+    parent: CHR:10116-chr15q2
+  CHR:10116-chr15q23:
+    id: CHR:10116-chr15q23
+    band_descriptor: q23
+    chromosome_name: chr15
+    build: rn6
+    name: chr15q23 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 92959186
+    end: 100687643
+    parent: CHR:10116-chr15q2
+  CHR:10116-chr15q24:
+    id: CHR:10116-chr15q24
+    band_descriptor: q24
+    chromosome_name: chr15
+    build: rn6
+    name: chr15q24 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 100687643
+    end: 107654139
+    parent: CHR:10116-chr15q2
+  CHR:10116-chr15q25:
+    id: CHR:10116-chr15q25
+    band_descriptor: q25
+    chromosome_name: chr15
+    build: rn6
+    name: chr15q25 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 107654139
+    end: 111246239
+    parent: CHR:10116-chr15q2
+  CHR:10116-chr16p16:
+    id: CHR:10116-chr16p16
+    band_descriptor: p16
+    chromosome_name: chr16
+    build: rn6
+    name: chr16p16 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 10293819
+    parent: CHR:10116-chr16p1
+  CHR:10116-chr16p1:
+    id: CHR:10116-chr16p1
+    band_descriptor: p1
+    chromosome_name: chr16
+    build: rn6
+    name: chr16p1 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 42526990
+    children:
+    - CHR:10116-chr16p16
+    - CHR:10116-chr16p15
+    - CHR:10116-chr16p14
+    - CHR:10116-chr16p13
+    - CHR:10116-chr16p12
+    - CHR:10116-chr16p11
+    parent: CHR:10116-chr16p
+  CHR:10116-chr16p:
+    id: CHR:10116-chr16p
+    band_descriptor: p
+    chromosome_name: chr16
+    build: rn6
+    name: chr16p (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 42526990
+    children:
+    - CHR:10116-chr16p1
+    parent: CHR:10116-chr16
+  CHR:10116-chr16:
+    id: CHR:10116-chr16
+    band_descriptor: ''
+    chromosome_name: chr16
+    build: rn6
+    name: chr16 (Rattus norvegicus)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 90668790
+    children:
+    - CHR:10116-chr16p
+    - CHR:10116-chr16q
+    exact_mappings:
+    - refseq:NC_005115.4
+    - insdc:CM000087.5
+  CHR:10116-chr16p15:
+    id: CHR:10116-chr16p15
+    band_descriptor: p15
+    chromosome_name: chr16
+    build: rn6
+    name: chr16p15 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 10293819
+    end: 12165423
+    parent: CHR:10116-chr16p1
+  CHR:10116-chr16p14:
+    id: CHR:10116-chr16p14
+    band_descriptor: p14
+    chromosome_name: chr16
+    build: rn6
+    name: chr16p14 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 12165423
+    end: 25162669
+    parent: CHR:10116-chr16p1
+  CHR:10116-chr16p13:
+    id: CHR:10116-chr16p13
+    band_descriptor: p13
+    chromosome_name: chr16
+    build: rn6
+    name: chr16p13 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 25162669
+    end: 29529744
+    parent: CHR:10116-chr16p1
+  CHR:10116-chr16p12:
+    id: CHR:10116-chr16p12
+    band_descriptor: p12
+    chromosome_name: chr16
+    build: rn6
+    name: chr16p12 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 29529744
+    end: 35144554
+    parent: CHR:10116-chr16p1
+  CHR:10116-chr16p11:
+    id: CHR:10116-chr16p11
+    band_descriptor: p11
+    chromosome_name: chr16
+    build: rn6
+    name: chr16p11 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 35144554
+    end: 42526990
+    parent: CHR:10116-chr16p1
+  CHR:10116-chr16q11:
+    id: CHR:10116-chr16q11
+    band_descriptor: q11
+    chromosome_name: chr16
+    build: rn6
+    name: chr16q11 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 42526990
+    end: 51781029
+    parent: CHR:10116-chr16q1
+  CHR:10116-chr16q1:
+    id: CHR:10116-chr16q1
+    band_descriptor: q1
+    chromosome_name: chr16
+    build: rn6
+    name: chr16q1 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 42526990
+    end: 90668790
+    children:
+    - CHR:10116-chr16q11
+    - CHR:10116-chr16q12
+    parent: CHR:10116-chr16q
+  CHR:10116-chr16q:
+    id: CHR:10116-chr16q
+    band_descriptor: q
+    chromosome_name: chr16
+    build: rn6
+    name: chr16q (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 42526990
+    end: 90668790
+    children:
+    - CHR:10116-chr16q1
+    parent: CHR:10116-chr16
+  CHR:10116-chr16q12.1:
+    id: CHR:10116-chr16q12.1
+    band_descriptor: q12.1
+    chromosome_name: chr16
+    build: rn6
+    name: chr16q12.1 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 51781029
+    end: 59163465
+    parent: CHR:10116-chr16q12
+  CHR:10116-chr16q12:
+    id: CHR:10116-chr16q12
+    band_descriptor: q12
+    chromosome_name: chr16
+    build: rn6
+    name: chr16q12 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 51781029
+    end: 90668790
+    children:
+    - CHR:10116-chr16q12.1
+    - CHR:10116-chr16q12.2
+    - CHR:10116-chr16q12.3
+    - CHR:10116-chr16q12.4
+    - CHR:10116-chr16q12.5
+    parent: CHR:10116-chr16q1
+  CHR:10116-chr16q12.2:
+    id: CHR:10116-chr16q12.2
+    band_descriptor: q12.2
+    chromosome_name: chr16
+    build: rn6
+    name: chr16q12.2 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 59163465
+    end: 62074848
+    parent: CHR:10116-chr16q12
+  CHR:10116-chr16q12.3:
+    id: CHR:10116-chr16q12.3
+    band_descriptor: q12.3
+    chromosome_name: chr16
+    build: rn6
+    name: chr16q12.3 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 62074848
+    end: 69561262
+    parent: CHR:10116-chr16q12
+  CHR:10116-chr16q12.4:
+    id: CHR:10116-chr16q12.4
+    band_descriptor: q12.4
+    chromosome_name: chr16
+    build: rn6
+    name: chr16q12.4 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 69561262
+    end: 72160711
+    parent: CHR:10116-chr16q12
+  CHR:10116-chr16q12.5:
+    id: CHR:10116-chr16q12.5
+    band_descriptor: q12.5
+    chromosome_name: chr16
+    build: rn6
+    name: chr16q12.5 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 72160711
+    end: 90668790
+    parent: CHR:10116-chr16q12
+  CHR:10116-chr17p14:
+    id: CHR:10116-chr17p14
+    band_descriptor: p14
+    chromosome_name: chr17
+    build: rn6
+    name: chr17p14 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 21435049
+    parent: CHR:10116-chr17p1
+  CHR:10116-chr17p1:
+    id: CHR:10116-chr17p1
+    band_descriptor: p1
+    chromosome_name: chr17
+    build: rn6
+    name: chr17p1 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 45421890
+    children:
+    - CHR:10116-chr17p14
+    - CHR:10116-chr17p13
+    - CHR:10116-chr17p12
+    - CHR:10116-chr17p11
+    parent: CHR:10116-chr17p
+  CHR:10116-chr17p:
+    id: CHR:10116-chr17p
+    band_descriptor: p
+    chromosome_name: chr17
+    build: rn6
+    name: chr17p (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 45421890
+    children:
+    - CHR:10116-chr17p1
+    parent: CHR:10116-chr17
+  CHR:10116-chr17:
+    id: CHR:10116-chr17
+    band_descriptor: ''
+    chromosome_name: chr17
+    build: rn6
+    name: chr17 (Rattus norvegicus)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 90843779
+    children:
+    - CHR:10116-chr17p
+    - CHR:10116-chr17q
+    exact_mappings:
+    - refseq:NC_005116.4
+    - insdc:CM000088.5
+  CHR:10116-chr17p13:
+    id: CHR:10116-chr17p13
+    band_descriptor: p13
+    chromosome_name: chr17
+    build: rn6
+    name: chr17p13 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 21435049
+    end: 23578554
+    parent: CHR:10116-chr17p1
+  CHR:10116-chr17p12:
+    id: CHR:10116-chr17p12
+    band_descriptor: p12
+    chromosome_name: chr17
+    build: rn6
+    name: chr17p12 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 23578554
+    end: 39910020
+    parent: CHR:10116-chr17p1
+  CHR:10116-chr17p11:
+    id: CHR:10116-chr17p11
+    band_descriptor: p11
+    chromosome_name: chr17
+    build: rn6
+    name: chr17p11 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 39910020
+    end: 45421890
+    parent: CHR:10116-chr17p1
+  CHR:10116-chr17q11:
+    id: CHR:10116-chr17q11
+    band_descriptor: q11
+    chromosome_name: chr17
+    build: rn6
+    name: chr17q11 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 45421890
+    end: 50831688
+    parent: CHR:10116-chr17q1
+  CHR:10116-chr17q1:
+    id: CHR:10116-chr17q1
+    band_descriptor: q1
+    chromosome_name: chr17
+    build: rn6
+    name: chr17q1 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 45421890
+    end: 90843779
+    children:
+    - CHR:10116-chr17q11
+    - CHR:10116-chr17q12
+    parent: CHR:10116-chr17q
+  CHR:10116-chr17q:
+    id: CHR:10116-chr17q
+    band_descriptor: q
+    chromosome_name: chr17
+    build: rn6
+    name: chr17q (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 45421890
+    end: 90843779
+    children:
+    - CHR:10116-chr17q1
+    parent: CHR:10116-chr17
+  CHR:10116-chr17q12.1:
+    id: CHR:10116-chr17q12.1
+    band_descriptor: q12.1
+    chromosome_name: chr17
+    build: rn6
+    name: chr17q12.1 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 50831688
+    end: 68285941
+    parent: CHR:10116-chr17q12
+  CHR:10116-chr17q12:
+    id: CHR:10116-chr17q12
+    band_descriptor: q12
+    chromosome_name: chr17
+    build: rn6
+    name: chr17q12 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 50831688
+    end: 90843779
+    children:
+    - CHR:10116-chr17q12.1
+    - CHR:10116-chr17q12.2
+    - CHR:10116-chr17q12.3
+    parent: CHR:10116-chr17q1
+  CHR:10116-chr17q12.2:
+    id: CHR:10116-chr17q12.2
+    band_descriptor: q12.2
+    chromosome_name: chr17
+    build: rn6
+    name: chr17q12.2 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 68285941
+    end: 70837733
+    parent: CHR:10116-chr17q12
+  CHR:10116-chr17q12.3:
+    id: CHR:10116-chr17q12.3
+    band_descriptor: q12.3
+    chromosome_name: chr17
+    build: rn6
+    name: chr17q12.3 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 70837733
+    end: 90843779
+    parent: CHR:10116-chr17q12
+  CHR:10116-chr18p13:
+    id: CHR:10116-chr18p13
+    band_descriptor: p13
+    chromosome_name: chr18
+    build: rn6
+    name: chr18p13 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 10718209
+    parent: CHR:10116-chr18p1
+  CHR:10116-chr18p1:
+    id: CHR:10116-chr18p1
+    band_descriptor: p1
+    chromosome_name: chr18
+    build: rn6
+    name: chr18p1 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 37737028
+    children:
+    - CHR:10116-chr18p13
+    - CHR:10116-chr18p12
+    - CHR:10116-chr18p11
+    parent: CHR:10116-chr18p
+  CHR:10116-chr18p:
+    id: CHR:10116-chr18p
+    band_descriptor: p
+    chromosome_name: chr18
+    build: rn6
+    name: chr18p (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 37737028
+    children:
+    - CHR:10116-chr18p1
+    parent: CHR:10116-chr18
+  CHR:10116-chr18:
+    id: CHR:10116-chr18
+    band_descriptor: ''
+    chromosome_name: chr18
+    build: rn6
+    name: chr18 (Rattus norvegicus)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 88201929
+    children:
+    - CHR:10116-chr18p
+    - CHR:10116-chr18q
+    exact_mappings:
+    - refseq:NC_005117.4
+    - insdc:CM000089.5
+  CHR:10116-chr18p12:
+    id: CHR:10116-chr18p12
+    band_descriptor: p12
+    chromosome_name: chr18
+    build: rn6
+    name: chr18p12 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 10718209
+    end: 27800355
+    parent: CHR:10116-chr18p1
+  CHR:10116-chr18p11:
+    id: CHR:10116-chr18p11
+    band_descriptor: p11
+    chromosome_name: chr18
+    build: rn6
+    name: chr18p11 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 27800355
+    end: 37737028
+    parent: CHR:10116-chr18p1
+  CHR:10116-chr18q11:
+    id: CHR:10116-chr18q11
+    band_descriptor: q11
+    chromosome_name: chr18
+    build: rn6
+    name: chr18q11 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 37737028
+    end: 51581381
+    parent: CHR:10116-chr18q1
+  CHR:10116-chr18q1:
+    id: CHR:10116-chr18q1
+    band_descriptor: q1
+    chromosome_name: chr18
+    build: rn6
+    name: chr18q1 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 37737028
+    end: 88201929
+    children:
+    - CHR:10116-chr18q11
+    - CHR:10116-chr18q12
+    - CHR:10116-chr18q13
+    parent: CHR:10116-chr18q
+  CHR:10116-chr18q:
+    id: CHR:10116-chr18q
+    band_descriptor: q
+    chromosome_name: chr18
+    build: rn6
+    name: chr18q (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 37737028
+    end: 88201929
+    children:
+    - CHR:10116-chr18q1
+    parent: CHR:10116-chr18
+  CHR:10116-chr18q12.1:
+    id: CHR:10116-chr18q12.1
+    band_descriptor: q12.1
+    chromosome_name: chr18
+    build: rn6
+    name: chr18q12.1 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 51581381
+    end: 68328583
+    parent: CHR:10116-chr18q12
+  CHR:10116-chr18q12:
+    id: CHR:10116-chr18q12
+    band_descriptor: q12
+    chromosome_name: chr18
+    build: rn6
+    name: chr18q12 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 51581381
+    end: 83736008
+    children:
+    - CHR:10116-chr18q12.1
+    - CHR:10116-chr18q12.2
+    - CHR:10116-chr18q12.3
+    parent: CHR:10116-chr18q1
+  CHR:10116-chr18q12.2:
+    id: CHR:10116-chr18q12.2
+    band_descriptor: q12.2
+    chromosome_name: chr18
+    build: rn6
+    name: chr18q12.2 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 68328583
+    end: 72236263
+    parent: CHR:10116-chr18q12
+  CHR:10116-chr18q12.3:
+    id: CHR:10116-chr18q12.3
+    band_descriptor: q12.3
+    chromosome_name: chr18
+    build: rn6
+    name: chr18q12.3 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 72236263
+    end: 83736008
+    parent: CHR:10116-chr18q12
+  CHR:10116-chr18q13:
+    id: CHR:10116-chr18q13
+    band_descriptor: q13
+    chromosome_name: chr18
+    build: rn6
+    name: chr18q13 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 83736008
+    end: 88201929
+    parent: CHR:10116-chr18q1
+  CHR:10116-chr19p14:
+    id: CHR:10116-chr19p14
+    band_descriptor: p14
+    chromosome_name: chr19
+    build: rn6
+    name: chr19p14 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 4269865
+    parent: CHR:10116-chr19p1
+  CHR:10116-chr19p1:
+    id: CHR:10116-chr19p1
+    band_descriptor: p1
+    chromosome_name: chr19
+    build: rn6
+    name: chr19p1 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 23524538
+    children:
+    - CHR:10116-chr19p14
+    - CHR:10116-chr19p13
+    - CHR:10116-chr19p12
+    - CHR:10116-chr19p11
+    parent: CHR:10116-chr19p
+  CHR:10116-chr19p:
+    id: CHR:10116-chr19p
+    band_descriptor: p
+    chromosome_name: chr19
+    build: rn6
+    name: chr19p (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 23524538
+    children:
+    - CHR:10116-chr19p1
+    parent: CHR:10116-chr19
+  CHR:10116-chr19:
+    id: CHR:10116-chr19
+    band_descriptor: ''
+    chromosome_name: chr19
+    build: rn6
+    name: chr19 (Rattus norvegicus)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 62275575
+    children:
+    - CHR:10116-chr19p
+    - CHR:10116-chr19q
+    exact_mappings:
+    - refseq:NC_005118.4
+    - insdc:CM000090.5
+  CHR:10116-chr19p13:
+    id: CHR:10116-chr19p13
+    band_descriptor: p13
+    chromosome_name: chr19
+    build: rn6
+    name: chr19p13 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 4269865
+    end: 11117761
+    parent: CHR:10116-chr19p1
+  CHR:10116-chr19p12:
+    id: CHR:10116-chr19p12
+    band_descriptor: p12
+    chromosome_name: chr19
+    build: rn6
+    name: chr19p12 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 11117761
+    end: 12890158
+    parent: CHR:10116-chr19p1
+  CHR:10116-chr19p11:
+    id: CHR:10116-chr19p11
+    band_descriptor: p11
+    chromosome_name: chr19
+    build: rn6
+    name: chr19p11 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 12890158
+    end: 23524538
+    parent: CHR:10116-chr19p1
+  CHR:10116-chr19q11:
+    id: CHR:10116-chr19q11
+    band_descriptor: q11
+    chromosome_name: chr19
+    build: rn6
+    name: chr19q11 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 23524538
+    end: 37300894
+    parent: CHR:10116-chr19q1
+  CHR:10116-chr19q1:
+    id: CHR:10116-chr19q1
+    band_descriptor: q1
+    chromosome_name: chr19
+    build: rn6
+    name: chr19q1 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 23524538
+    end: 62275575
+    children:
+    - CHR:10116-chr19q11
+    - CHR:10116-chr19q12
+    parent: CHR:10116-chr19q
+  CHR:10116-chr19q:
+    id: CHR:10116-chr19q
+    band_descriptor: q
+    chromosome_name: chr19
+    build: rn6
+    name: chr19q (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 23524538
+    end: 62275575
+    children:
+    - CHR:10116-chr19q1
+    parent: CHR:10116-chr19
+  CHR:10116-chr19q12:
+    id: CHR:10116-chr19q12
+    band_descriptor: q12
+    chromosome_name: chr19
+    build: rn6
+    name: chr19q12 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 37300894
+    end: 62275575
+    parent: CHR:10116-chr19q1
+  CHR:10116-chr2q11:
+    id: CHR:10116-chr2q11
+    band_descriptor: q11
+    chromosome_name: chr2
+    build: rn6
+    name: chr2q11 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 16392456
+    parent: CHR:10116-chr2q1
+  CHR:10116-chr2q1:
+    id: CHR:10116-chr2q1
+    band_descriptor: q1
+    chromosome_name: chr2
+    build: rn6
+    name: chr2q1 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 65685263
+    children:
+    - CHR:10116-chr2q11
+    - CHR:10116-chr2q12
+    - CHR:10116-chr2q13
+    - CHR:10116-chr2q14
+    - CHR:10116-chr2q15
+    - CHR:10116-chr2q16
+    parent: CHR:10116-chr2q
+  CHR:10116-chr2q:
+    id: CHR:10116-chr2q
+    band_descriptor: q
+    chromosome_name: chr2
+    build: rn6
+    name: chr2q (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 266435125
+    children:
+    - CHR:10116-chr2q1
+    - CHR:10116-chr2q2
+    - CHR:10116-chr2q3
+    - CHR:10116-chr2q4
+    parent: CHR:10116-chr2
+  CHR:10116-chr2:
+    id: CHR:10116-chr2
+    band_descriptor: ''
+    chromosome_name: chr2
+    build: rn6
+    name: chr2 (Rattus norvegicus)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 266435125
+    children:
+    - CHR:10116-chr2q
+    exact_mappings:
+    - refseq:NC_005101.4
+    - insdc:CM000073.5
+  CHR:10116-chr2q12:
+    id: CHR:10116-chr2q12
+    band_descriptor: q12
+    chromosome_name: chr2
+    build: rn6
+    name: chr2q12 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 16392456
+    end: 35670907
+    parent: CHR:10116-chr2q1
+  CHR:10116-chr2q13:
+    id: CHR:10116-chr2q13
+    band_descriptor: q13
+    chromosome_name: chr2
+    build: rn6
+    name: chr2q13 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 35670907
+    end: 38210584
+    parent: CHR:10116-chr2q1
+  CHR:10116-chr2q14:
+    id: CHR:10116-chr2q14
+    band_descriptor: q14
+    chromosome_name: chr2
+    build: rn6
+    name: chr2q14 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 38210584
+    end: 49292807
+    parent: CHR:10116-chr2q1
+  CHR:10116-chr2q15:
+    id: CHR:10116-chr2q15
+    band_descriptor: q15
+    chromosome_name: chr2
+    build: rn6
+    name: chr2q15 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 49292807
+    end: 52525122
+    parent: CHR:10116-chr2q1
+  CHR:10116-chr2q16:
+    id: CHR:10116-chr2q16
+    band_descriptor: q16
+    chromosome_name: chr2
+    build: rn6
+    name: chr2q16 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 52525122
+    end: 65685263
+    parent: CHR:10116-chr2q1
+  CHR:10116-chr2q21:
+    id: CHR:10116-chr2q21
+    band_descriptor: q21
+    chromosome_name: chr2
+    build: rn6
+    name: chr2q21 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 65685263
+    end: 75151329
+    parent: CHR:10116-chr2q2
+  CHR:10116-chr2q2:
+    id: CHR:10116-chr2q2
+    band_descriptor: q2
+    chromosome_name: chr2
+    build: rn6
+    name: chr2q2 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 65685263
+    end: 150071777
+    children:
+    - CHR:10116-chr2q21
+    - CHR:10116-chr2q22
+    - CHR:10116-chr2q23
+    - CHR:10116-chr2q24
+    - CHR:10116-chr2q25
+    - CHR:10116-chr2q26
+    parent: CHR:10116-chr2q
+  CHR:10116-chr2q22:
+    id: CHR:10116-chr2q22
+    band_descriptor: q22
+    chromosome_name: chr2
+    build: rn6
+    name: chr2q22 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 75151329
+    end: 87503390
+    parent: CHR:10116-chr2q2
+  CHR:10116-chr2q23:
+    id: CHR:10116-chr2q23
+    band_descriptor: q23
+    chromosome_name: chr2
+    build: rn6
+    name: chr2q23 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 87503390
+    end: 100663531
+    parent: CHR:10116-chr2q2
+  CHR:10116-chr2q24:
+    id: CHR:10116-chr2q24
+    band_descriptor: q24
+    chromosome_name: chr2
+    build: rn6
+    name: chr2q24 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 100663531
+    end: 121211820
+    parent: CHR:10116-chr2q2
+  CHR:10116-chr2q25:
+    id: CHR:10116-chr2q25
+    band_descriptor: q25
+    chromosome_name: chr2
+    build: rn6
+    name: chr2q25 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 121211820
+    end: 130677886
+    parent: CHR:10116-chr2q2
+  CHR:10116-chr2q26:
+    id: CHR:10116-chr2q26
+    band_descriptor: q26
+    chromosome_name: chr2
+    build: rn6
+    name: chr2q26 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 130677886
+    end: 150071777
+    parent: CHR:10116-chr2q2
+  CHR:10116-chr2q31:
+    id: CHR:10116-chr2q31
+    band_descriptor: q31
+    chromosome_name: chr2
+    build: rn6
+    name: chr2q31 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 150071777
+    end: 164386316
+    parent: CHR:10116-chr2q3
+  CHR:10116-chr2q3:
+    id: CHR:10116-chr2q3
+    band_descriptor: q3
+    chromosome_name: chr2
+    build: rn6
+    name: chr2q3 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 150071777
+    end: 211716646
+    children:
+    - CHR:10116-chr2q31
+    - CHR:10116-chr2q32
+    - CHR:10116-chr2q33
+    - CHR:10116-chr2q34
+    parent: CHR:10116-chr2q
+  CHR:10116-chr2q32:
+    id: CHR:10116-chr2q32
+    band_descriptor: q32
+    chromosome_name: chr2
+    build: rn6
+    name: chr2q32 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 164386316
+    end: 176738378
+    parent: CHR:10116-chr2q3
+  CHR:10116-chr2q33:
+    id: CHR:10116-chr2q33
+    band_descriptor: q33
+    chromosome_name: chr2
+    build: rn6
+    name: chr2q33 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 176738378
+    end: 180086133
+    parent: CHR:10116-chr2q3
+  CHR:10116-chr2q34:
+    id: CHR:10116-chr2q34
+    band_descriptor: q34
+    chromosome_name: chr2
+    build: rn6
+    name: chr2q34 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 180086133
+    end: 211716646
+    parent: CHR:10116-chr2q3
+  CHR:10116-chr2q41:
+    id: CHR:10116-chr2q41
+    band_descriptor: q41
+    chromosome_name: chr2
+    build: rn6
+    name: chr2q41 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 211716646
+    end: 226031185
+    parent: CHR:10116-chr2q4
+  CHR:10116-chr2q4:
+    id: CHR:10116-chr2q4
+    band_descriptor: q4
+    chromosome_name: chr2
+    build: rn6
+    name: chr2q4 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 211716646
+    end: 266435125
+    children:
+    - CHR:10116-chr2q41
+    - CHR:10116-chr2q42
+    - CHR:10116-chr2q43
+    - CHR:10116-chr2q44
+    - CHR:10116-chr2q45
+    parent: CHR:10116-chr2q
+  CHR:10116-chr2q42:
+    id: CHR:10116-chr2q42
+    band_descriptor: q42
+    chromosome_name: chr2
+    build: rn6
+    name: chr2q42 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 226031185
+    end: 234342852
+    parent: CHR:10116-chr2q4
+  CHR:10116-chr2q43:
+    id: CHR:10116-chr2q43
+    band_descriptor: q43
+    chromosome_name: chr2
+    build: rn6
+    name: chr2q43 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 234342852
+    end: 242539080
+    parent: CHR:10116-chr2q4
+  CHR:10116-chr2q44:
+    id: CHR:10116-chr2q44
+    band_descriptor: q44
+    chromosome_name: chr2
+    build: rn6
+    name: chr2q44 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 242539080
+    end: 254083063
+    parent: CHR:10116-chr2q4
+  CHR:10116-chr2q45:
+    id: CHR:10116-chr2q45
+    band_descriptor: q45
+    chromosome_name: chr2
+    build: rn6
+    name: chr2q45 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 254083063
+    end: 266435125
+    parent: CHR:10116-chr2q4
+  CHR:10116-chr20p12:
+    id: CHR:10116-chr20p12
+    band_descriptor: p12
+    chromosome_name: chr20
+    build: rn6
+    name: chr20p12 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 16230015
+    parent: CHR:10116-chr20p1
+  CHR:10116-chr20p1:
+    id: CHR:10116-chr20p1
+    band_descriptor: p1
+    chromosome_name: chr20
+    build: rn6
+    name: chr20p1 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 27122642
+    children:
+    - CHR:10116-chr20p12
+    - CHR:10116-chr20p11
+    parent: CHR:10116-chr20p
+  CHR:10116-chr20p:
+    id: CHR:10116-chr20p
+    band_descriptor: p
+    chromosome_name: chr20
+    build: rn6
+    name: chr20p (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 27122642
+    children:
+    - CHR:10116-chr20p1
+    parent: CHR:10116-chr20
+  CHR:10116-chr20:
+    id: CHR:10116-chr20
+    band_descriptor: ''
+    chromosome_name: chr20
+    build: rn6
+    name: chr20 (Rattus norvegicus)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 56205956
+    children:
+    - CHR:10116-chr20p
+    - CHR:10116-chr20q
+    exact_mappings:
+    - refseq:NC_005119.4
+    - insdc:CM000091.5
+  CHR:10116-chr20p11:
+    id: CHR:10116-chr20p11
+    band_descriptor: p11
+    chromosome_name: chr20
+    build: rn6
+    name: chr20p11 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 16230015
+    end: 27122642
+    parent: CHR:10116-chr20p1
+  CHR:10116-chr20q11:
+    id: CHR:10116-chr20q11
+    band_descriptor: q11
+    chromosome_name: chr20
+    build: rn6
+    name: chr20q11 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 27122642
+    end: 38668826
+    parent: CHR:10116-chr20q1
+  CHR:10116-chr20q1:
+    id: CHR:10116-chr20q1
+    band_descriptor: q1
+    chromosome_name: chr20
+    build: rn6
+    name: chr20q1 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 27122642
+    end: 56205956
+    children:
+    - CHR:10116-chr20q11
+    - CHR:10116-chr20q12
+    - CHR:10116-chr20q13
+    parent: CHR:10116-chr20q
+  CHR:10116-chr20q:
+    id: CHR:10116-chr20q
+    band_descriptor: q
+    chromosome_name: chr20
+    build: rn6
+    name: chr20q (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 27122642
+    end: 56205956
+    children:
+    - CHR:10116-chr20q1
+    parent: CHR:10116-chr20
+  CHR:10116-chr20q12:
+    id: CHR:10116-chr20q12
+    band_descriptor: q12
+    chromosome_name: chr20
+    build: rn6
+    name: chr20q12 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 38668826
+    end: 46511518
+    parent: CHR:10116-chr20q1
+  CHR:10116-chr20q13:
+    id: CHR:10116-chr20q13
+    band_descriptor: q13
+    chromosome_name: chr20
+    build: rn6
+    name: chr20q13 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 46511518
+    end: 56205956
+    parent: CHR:10116-chr20q1
+  CHR:10116-chr3p13:
+    id: CHR:10116-chr3p13
+    band_descriptor: p13
+    chromosome_name: chr3
+    build: rn6
+    name: chr3p13 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 5510884
+    parent: CHR:10116-chr3p1
+  CHR:10116-chr3p1:
+    id: CHR:10116-chr3p1
+    band_descriptor: p1
+    chromosome_name: chr3
+    build: rn6
+    name: chr3p1 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 16948566
+    children:
+    - CHR:10116-chr3p13
+    - CHR:10116-chr3p12
+    - CHR:10116-chr3p11
+    parent: CHR:10116-chr3p
+  CHR:10116-chr3p:
+    id: CHR:10116-chr3p
+    band_descriptor: p
+    chromosome_name: chr3
+    build: rn6
+    name: chr3p (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 16948566
+    children:
+    - CHR:10116-chr3p1
+    parent: CHR:10116-chr3
+  CHR:10116-chr3:
+    id: CHR:10116-chr3
+    band_descriptor: ''
+    chromosome_name: chr3
+    build: rn6
+    name: chr3 (Rattus norvegicus)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 177699992
+    children:
+    - CHR:10116-chr3p
+    - CHR:10116-chr3q
+    exact_mappings:
+    - refseq:NC_005102.4
+    - insdc:CM000074.5
+  CHR:10116-chr3p12:
+    id: CHR:10116-chr3p12
+    band_descriptor: p12
+    chromosome_name: chr3
+    build: rn6
+    name: chr3p12 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 5510884
+    end: 11437683
+    parent: CHR:10116-chr3p1
+  CHR:10116-chr3p11:
+    id: CHR:10116-chr3p11
+    band_descriptor: p11
+    chromosome_name: chr3
+    build: rn6
+    name: chr3p11 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 11437683
+    end: 16948566
+    parent: CHR:10116-chr3p1
+  CHR:10116-chr3q11:
+    id: CHR:10116-chr3q11
+    band_descriptor: q11
+    chromosome_name: chr3
+    build: rn6
+    name: chr3q11 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 16948566
+    end: 22147513
+    parent: CHR:10116-chr3q1
+  CHR:10116-chr3q1:
+    id: CHR:10116-chr3q1
+    band_descriptor: q1
+    chromosome_name: chr3
+    build: rn6
+    name: chr3q1 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 16948566
+    end: 40655762
+    children:
+    - CHR:10116-chr3q11
+    - CHR:10116-chr3q12
+    parent: CHR:10116-chr3q
+  CHR:10116-chr3q:
+    id: CHR:10116-chr3q
+    band_descriptor: q
+    chromosome_name: chr3
+    build: rn6
+    name: chr3q (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 16948566
+    end: 177699992
+    children:
+    - CHR:10116-chr3q1
+    - CHR:10116-chr3q2
+    - CHR:10116-chr3q3
+    - CHR:10116-chr3q4
+    parent: CHR:10116-chr3
+  CHR:10116-chr3q12:
+    id: CHR:10116-chr3q12
+    band_descriptor: q12
+    chromosome_name: chr3
+    build: rn6
+    name: chr3q12 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 22147513
+    end: 40655762
+    parent: CHR:10116-chr3q1
+  CHR:10116-chr3q21:
+    id: CHR:10116-chr3q21
+    band_descriptor: q21
+    chromosome_name: chr3
+    build: rn6
+    name: chr3q21 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 40655762
+    end: 56252602
+    parent: CHR:10116-chr3q2
+  CHR:10116-chr3q2:
+    id: CHR:10116-chr3q2
+    band_descriptor: q2
+    chromosome_name: chr3
+    build: rn6
+    name: chr3q2 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 40655762
+    end: 81415503
+    children:
+    - CHR:10116-chr3q21
+    - CHR:10116-chr3q22
+    - CHR:10116-chr3q23
+    - CHR:10116-chr3q24
+    parent: CHR:10116-chr3q
+  CHR:10116-chr3q22:
+    id: CHR:10116-chr3q22
+    band_descriptor: q22
+    chromosome_name: chr3
+    build: rn6
+    name: chr3q22 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 56252602
+    end: 58020243
+    parent: CHR:10116-chr3q2
+  CHR:10116-chr3q23:
+    id: CHR:10116-chr3q23
+    band_descriptor: q23
+    chromosome_name: chr3
+    build: rn6
+    name: chr3q23 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 58020243
+    end: 62907253
+    parent: CHR:10116-chr3q2
+  CHR:10116-chr3q24:
+    id: CHR:10116-chr3q24
+    band_descriptor: q24
+    chromosome_name: chr3
+    build: rn6
+    name: chr3q24 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 62907253
+    end: 81415503
+    parent: CHR:10116-chr3q2
+  CHR:10116-chr3q31:
+    id: CHR:10116-chr3q31
+    band_descriptor: q31
+    chromosome_name: chr3
+    build: rn6
+    name: chr3q31 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 81415503
+    end: 91709417
+    parent: CHR:10116-chr3q3
+  CHR:10116-chr3q3:
+    id: CHR:10116-chr3q3
+    band_descriptor: q3
+    chromosome_name: chr3
+    build: rn6
+    name: chr3q3 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 81415503
+    end: 133197010
+    children:
+    - CHR:10116-chr3q31
+    - CHR:10116-chr3q32
+    - CHR:10116-chr3q33
+    - CHR:10116-chr3q34
+    - CHR:10116-chr3q35
+    - CHR:10116-chr3q36
+    parent: CHR:10116-chr3q
+  CHR:10116-chr3q32:
+    id: CHR:10116-chr3q32
+    band_descriptor: q32
+    chromosome_name: chr3
+    build: rn6
+    name: chr3q32 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 91709417
+    end: 94724806
+    parent: CHR:10116-chr3q3
+  CHR:10116-chr3q33:
+    id: CHR:10116-chr3q33
+    band_descriptor: q33
+    chromosome_name: chr3
+    build: rn6
+    name: chr3q33 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 94724806
+    end: 99923752
+    parent: CHR:10116-chr3q3
+  CHR:10116-chr3q34:
+    id: CHR:10116-chr3q34
+    band_descriptor: q34
+    chromosome_name: chr3
+    build: rn6
+    name: chr3q34 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 99923752
+    end: 103563015
+    parent: CHR:10116-chr3q3
+  CHR:10116-chr3q35:
+    id: CHR:10116-chr3q35
+    band_descriptor: q35
+    chromosome_name: chr3
+    build: rn6
+    name: chr3q35 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 103563015
+    end: 116560381
+    parent: CHR:10116-chr3q3
+  CHR:10116-chr3q36:
+    id: CHR:10116-chr3q36
+    band_descriptor: q36
+    chromosome_name: chr3
+    build: rn6
+    name: chr3q36 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 116560381
+    end: 133197010
+    parent: CHR:10116-chr3q3
+  CHR:10116-chr3q41:
+    id: CHR:10116-chr3q41
+    band_descriptor: q41
+    chromosome_name: chr3
+    build: rn6
+    name: chr3q41 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 133197010
+    end: 150977407
+    parent: CHR:10116-chr3q4
+  CHR:10116-chr3q4:
+    id: CHR:10116-chr3q4
+    band_descriptor: q4
+    chromosome_name: chr3
+    build: rn6
+    name: chr3q4 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 133197010
+    end: 177699992
+    children:
+    - CHR:10116-chr3q41
+    - CHR:10116-chr3q42
+    - CHR:10116-chr3q43
+    parent: CHR:10116-chr3q
+  CHR:10116-chr3q42:
+    id: CHR:10116-chr3q42
+    band_descriptor: q42
+    chromosome_name: chr3
+    build: rn6
+    name: chr3q42 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 150977407
+    end: 172085129
+    parent: CHR:10116-chr3q4
+  CHR:10116-chr3q43:
+    id: CHR:10116-chr3q43
+    band_descriptor: q43
+    chromosome_name: chr3
+    build: rn6
+    name: chr3q43 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 172085129
+    end: 177699992
+    parent: CHR:10116-chr3q4
+  CHR:10116-chr4q11:
+    id: CHR:10116-chr4q11
+    band_descriptor: q11
+    chromosome_name: chr4
+    build: rn6
+    name: chr4q11 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 15370236
+    parent: CHR:10116-chr4q1
+  CHR:10116-chr4q1:
+    id: CHR:10116-chr4q1
+    band_descriptor: q1
+    chromosome_name: chr4
+    build: rn6
+    name: chr4q1 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 31498158
+    children:
+    - CHR:10116-chr4q11
+    - CHR:10116-chr4q12
+    - CHR:10116-chr4q13
+    parent: CHR:10116-chr4q
+  CHR:10116-chr4q:
+    id: CHR:10116-chr4q
+    band_descriptor: q
+    chromosome_name: chr4
+    build: rn6
+    name: chr4q (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 184226339
+    children:
+    - CHR:10116-chr4q1
+    - CHR:10116-chr4q2
+    - CHR:10116-chr4q3
+    - CHR:10116-chr4q4
+    parent: CHR:10116-chr4
+  CHR:10116-chr4:
+    id: CHR:10116-chr4
+    band_descriptor: ''
+    chromosome_name: chr4
+    build: rn6
+    name: chr4 (Rattus norvegicus)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 184226339
+    children:
+    - CHR:10116-chr4q
+    exact_mappings:
+    - refseq:NC_005103.4
+    - insdc:CM000075.5
+  CHR:10116-chr4q12:
+    id: CHR:10116-chr4q12
+    band_descriptor: q12
+    chromosome_name: chr4
+    build: rn6
+    name: chr4q12 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 15370236
+    end: 25003693
+    parent: CHR:10116-chr4q1
+  CHR:10116-chr4q13:
+    id: CHR:10116-chr4q13
+    band_descriptor: q13
+    chromosome_name: chr4
+    build: rn6
+    name: chr4q13 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 25003693
+    end: 31498158
+    parent: CHR:10116-chr4q1
+  CHR:10116-chr4q21:
+    id: CHR:10116-chr4q21
+    band_descriptor: q21
+    chromosome_name: chr4
+    build: rn6
+    name: chr4q21 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 31498158
+    end: 45461259
+    parent: CHR:10116-chr4q2
+  CHR:10116-chr4q2:
+    id: CHR:10116-chr4q2
+    band_descriptor: q2
+    chromosome_name: chr4
+    build: rn6
+    name: chr4q2 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 31498158
+    end: 91247241
+    children:
+    - CHR:10116-chr4q21
+    - CHR:10116-chr4q22
+    - CHR:10116-chr4q23
+    - CHR:10116-chr4q24
+    parent: CHR:10116-chr4q
+  CHR:10116-chr4q22:
+    id: CHR:10116-chr4q22
+    band_descriptor: q22
+    chromosome_name: chr4
+    build: rn6
+    name: chr4q22 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 45461259
+    end: 68516612
+    parent: CHR:10116-chr4q2
+  CHR:10116-chr4q23:
+    id: CHR:10116-chr4q23
+    band_descriptor: q23
+    chromosome_name: chr4
+    build: rn6
+    name: chr4q23 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 68516612
+    end: 71222639
+    parent: CHR:10116-chr4q2
+  CHR:10116-chr4q24:
+    id: CHR:10116-chr4q24
+    band_descriptor: q24
+    chromosome_name: chr4
+    build: rn6
+    name: chr4q24 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 71222639
+    end: 91247241
+    parent: CHR:10116-chr4q2
+  CHR:10116-chr4q31:
+    id: CHR:10116-chr4q31
+    band_descriptor: q31
+    chromosome_name: chr4
+    build: rn6
+    name: chr4q31 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 91247241
+    end: 101313662
+    parent: CHR:10116-chr4q3
+  CHR:10116-chr4q3:
+    id: CHR:10116-chr4q3
+    band_descriptor: q3
+    chromosome_name: chr4
+    build: rn6
+    name: chr4q3 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 91247241
+    end: 134868401
+    children:
+    - CHR:10116-chr4q31
+    - CHR:10116-chr4q32
+    - CHR:10116-chr4q33
+    - CHR:10116-chr4q34
+    parent: CHR:10116-chr4q
+  CHR:10116-chr4q32:
+    id: CHR:10116-chr4q32
+    band_descriptor: q32
+    chromosome_name: chr4
+    build: rn6
+    name: chr4q32 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 101313662
+    end: 102829038
+    parent: CHR:10116-chr4q3
+  CHR:10116-chr4q33:
+    id: CHR:10116-chr4q33
+    band_descriptor: q33
+    chromosome_name: chr4
+    build: rn6
+    name: chr4q33 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 102829038
+    end: 110514155
+    parent: CHR:10116-chr4q3
+  CHR:10116-chr4q34:
+    id: CHR:10116-chr4q34
+    band_descriptor: q34
+    chromosome_name: chr4
+    build: rn6
+    name: chr4q34 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 110514155
+    end: 134868401
+    parent: CHR:10116-chr4q3
+  CHR:10116-chr4q41:
+    id: CHR:10116-chr4q41
+    band_descriptor: q41
+    chromosome_name: chr4
+    build: rn6
+    name: chr4q41 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 134868401
+    end: 144501858
+    parent: CHR:10116-chr4q4
+  CHR:10116-chr4q4:
+    id: CHR:10116-chr4q4
+    band_descriptor: q4
+    chromosome_name: chr4
+    build: rn6
+    name: chr4q4 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 134868401
+    end: 184226339
+    children:
+    - CHR:10116-chr4q41
+    - CHR:10116-chr4q42
+    - CHR:10116-chr4q43
+    - CHR:10116-chr4q44
+    parent: CHR:10116-chr4q
+  CHR:10116-chr4q42:
+    id: CHR:10116-chr4q42
+    band_descriptor: q42
+    chromosome_name: chr4
+    build: rn6
+    name: chr4q42 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 144501858
+    end: 167557210
+    parent: CHR:10116-chr4q4
+  CHR:10116-chr4q43:
+    id: CHR:10116-chr4q43
+    band_descriptor: q43
+    chromosome_name: chr4
+    build: rn6
+    name: chr4q43 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 167557210
+    end: 171453890
+    parent: CHR:10116-chr4q4
+  CHR:10116-chr4q44:
+    id: CHR:10116-chr4q44
+    band_descriptor: q44
+    chromosome_name: chr4
+    build: rn6
+    name: chr4q44 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 171453890
+    end: 184226339
+    parent: CHR:10116-chr4q4
+  CHR:10116-chr5q11:
+    id: CHR:10116-chr5q11
+    band_descriptor: q11
+    chromosome_name: chr5
+    build: rn6
+    name: chr5q11 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 12335568
+    parent: CHR:10116-chr5q1
+  CHR:10116-chr5q1:
+    id: CHR:10116-chr5q1
+    band_descriptor: q1
+    chromosome_name: chr5
+    build: rn6
+    name: chr5q1 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 34651731
+    children:
+    - CHR:10116-chr5q11
+    - CHR:10116-chr5q12
+    - CHR:10116-chr5q13
+    parent: CHR:10116-chr5q
+  CHR:10116-chr5q:
+    id: CHR:10116-chr5q
+    band_descriptor: q
+    chromosome_name: chr5
+    build: rn6
+    name: chr5q (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 173707219
+    children:
+    - CHR:10116-chr5q1
+    - CHR:10116-chr5q2
+    - CHR:10116-chr5q3
+    parent: CHR:10116-chr5
+  CHR:10116-chr5:
+    id: CHR:10116-chr5
+    band_descriptor: ''
+    chromosome_name: chr5
+    build: rn6
+    name: chr5 (Rattus norvegicus)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 173707219
+    children:
+    - CHR:10116-chr5q
+    exact_mappings:
+    - refseq:NC_005104.4
+    - insdc:CM000076.5
+  CHR:10116-chr5q12:
+    id: CHR:10116-chr5q12
+    band_descriptor: q12
+    chromosome_name: chr5
+    build: rn6
+    name: chr5q12 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 12335568
+    end: 20297616
+    parent: CHR:10116-chr5q1
+  CHR:10116-chr5q13:
+    id: CHR:10116-chr5q13
+    band_descriptor: q13
+    chromosome_name: chr5
+    build: rn6
+    name: chr5q13 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 20297616
+    end: 34651731
+    parent: CHR:10116-chr5q1
+  CHR:10116-chr5q21:
+    id: CHR:10116-chr5q21
+    band_descriptor: q21
+    chromosome_name: chr5
+    build: rn6
+    name: chr5q21 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 34651731
+    end: 51809384
+    parent: CHR:10116-chr5q2
+  CHR:10116-chr5q2:
+    id: CHR:10116-chr5q2
+    band_descriptor: q2
+    chromosome_name: chr5
+    build: rn6
+    name: chr5q2 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 34651731
+    end: 85788265
+    children:
+    - CHR:10116-chr5q21
+    - CHR:10116-chr5q22
+    - CHR:10116-chr5q23
+    - CHR:10116-chr5q24
+    parent: CHR:10116-chr5q
+  CHR:10116-chr5q22:
+    id: CHR:10116-chr5q22
+    band_descriptor: q22
+    chromosome_name: chr5
+    build: rn6
+    name: chr5q22 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 51809384
+    end: 67060631
+    parent: CHR:10116-chr5q2
+  CHR:10116-chr5q23:
+    id: CHR:10116-chr5q23
+    band_descriptor: q23
+    chromosome_name: chr5
+    build: rn6
+    name: chr5q23 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 67060631
+    end: 69864169
+    parent: CHR:10116-chr5q2
+  CHR:10116-chr5q24:
+    id: CHR:10116-chr5q24
+    band_descriptor: q24
+    chromosome_name: chr5
+    build: rn6
+    name: chr5q24 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 69864169
+    end: 85788265
+    parent: CHR:10116-chr5q2
+  CHR:10116-chr5q31:
+    id: CHR:10116-chr5q31
+    band_descriptor: q31
+    chromosome_name: chr5
+    build: rn6
+    name: chr5q31 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 85788265
+    end: 104964465
+    parent: CHR:10116-chr5q3
+  CHR:10116-chr5q3:
+    id: CHR:10116-chr5q3
+    band_descriptor: q3
+    chromosome_name: chr5
+    build: rn6
+    name: chr5q3 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 85788265
+    end: 173707219
+    children:
+    - CHR:10116-chr5q31
+    - CHR:10116-chr5q32
+    - CHR:10116-chr5q33
+    - CHR:10116-chr5q34
+    - CHR:10116-chr5q35
+    - CHR:10116-chr5q36
+    parent: CHR:10116-chr5q
+  CHR:10116-chr5q32:
+    id: CHR:10116-chr5q32
+    band_descriptor: q32
+    chromosome_name: chr5
+    build: rn6
+    name: chr5q32 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 104964465
+    end: 112590089
+    parent: CHR:10116-chr5q3
+  CHR:10116-chr5q33:
+    id: CHR:10116-chr5q33
+    band_descriptor: q33
+    chromosome_name: chr5
+    build: rn6
+    name: chr5q33 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 112590089
+    end: 123692100
+    parent: CHR:10116-chr5q3
+  CHR:10116-chr5q34:
+    id: CHR:10116-chr5q34
+    band_descriptor: q34
+    chromosome_name: chr5
+    build: rn6
+    name: chr5q34 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 123692100
+    end: 128962751
+    parent: CHR:10116-chr5q3
+  CHR:10116-chr5q35:
+    id: CHR:10116-chr5q35
+    band_descriptor: q35
+    chromosome_name: chr5
+    build: rn6
+    name: chr5q35 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 128962751
+    end: 135691242
+    parent: CHR:10116-chr5q3
+  CHR:10116-chr5q36:
+    id: CHR:10116-chr5q36
+    band_descriptor: q36
+    chromosome_name: chr5
+    build: rn6
+    name: chr5q36 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 135691242
+    end: 173707219
+    parent: CHR:10116-chr5q3
+  CHR:10116-chr6q11:
+    id: CHR:10116-chr6q11
+    band_descriptor: q11
+    chromosome_name: chr6
+    build: rn6
+    name: chr6q11 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 3929968
+    parent: CHR:10116-chr6q1
+  CHR:10116-chr6q1:
+    id: CHR:10116-chr6q1
+    band_descriptor: q1
+    chromosome_name: chr6
+    build: rn6
+    name: chr6q1 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 55917831
+    children:
+    - CHR:10116-chr6q11
+    - CHR:10116-chr6q12
+    - CHR:10116-chr6q13
+    - CHR:10116-chr6q14
+    - CHR:10116-chr6q15
+    - CHR:10116-chr6q16
+    parent: CHR:10116-chr6q
+  CHR:10116-chr6q:
+    id: CHR:10116-chr6q
+    band_descriptor: q
+    chromosome_name: chr6
+    build: rn6
+    name: chr6q (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 147991367
+    children:
+    - CHR:10116-chr6q1
+    - CHR:10116-chr6q2
+    - CHR:10116-chr6q3
+    parent: CHR:10116-chr6
+  CHR:10116-chr6:
+    id: CHR:10116-chr6
+    band_descriptor: ''
+    chromosome_name: chr6
+    build: rn6
+    name: chr6 (Rattus norvegicus)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 147991367
+    children:
+    - CHR:10116-chr6q
+    exact_mappings:
+    - refseq:NC_005105.4
+    - insdc:CM000077.5
+  CHR:10116-chr6q12:
+    id: CHR:10116-chr6q12
+    band_descriptor: q12
+    chromosome_name: chr6
+    build: rn6
+    name: chr6q12 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 3929968
+    end: 21109543
+    parent: CHR:10116-chr6q1
+  CHR:10116-chr6q13:
+    id: CHR:10116-chr6q13
+    band_descriptor: q13
+    chromosome_name: chr6
+    build: rn6
+    name: chr6q13 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 21109543
+    end: 25151796
+    parent: CHR:10116-chr6q1
+  CHR:10116-chr6q14:
+    id: CHR:10116-chr6q14
+    band_descriptor: q14
+    chromosome_name: chr6
+    build: rn6
+    name: chr6q14 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 25151796
+    end: 36717130
+    parent: CHR:10116-chr6q1
+  CHR:10116-chr6q15:
+    id: CHR:10116-chr6q15
+    band_descriptor: q15
+    chromosome_name: chr6
+    build: rn6
+    name: chr6q15 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 36717130
+    end: 40759383
+    parent: CHR:10116-chr6q1
+  CHR:10116-chr6q16:
+    id: CHR:10116-chr6q16
+    band_descriptor: q16
+    chromosome_name: chr6
+    build: rn6
+    name: chr6q16 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 40759383
+    end: 55917831
+    parent: CHR:10116-chr6q1
+  CHR:10116-chr6q21:
+    id: CHR:10116-chr6q21
+    band_descriptor: q21
+    chromosome_name: chr6
+    build: rn6
+    name: chr6q21 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 55917831
+    end: 67932304
+    parent: CHR:10116-chr6q2
+  CHR:10116-chr6q2:
+    id: CHR:10116-chr6q2
+    band_descriptor: q2
+    chromosome_name: chr6
+    build: rn6
+    name: chr6q2 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 55917831
+    end: 107905693
+    children:
+    - CHR:10116-chr6q21
+    - CHR:10116-chr6q22
+    - CHR:10116-chr6q23
+    - CHR:10116-chr6q24
+    parent: CHR:10116-chr6q
+  CHR:10116-chr6q22:
+    id: CHR:10116-chr6q22
+    band_descriptor: q22
+    chromosome_name: chr6
+    build: rn6
+    name: chr6q22 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 67932304
+    end: 72311412
+    parent: CHR:10116-chr6q2
+  CHR:10116-chr6q23:
+    id: CHR:10116-chr6q23
+    band_descriptor: q23
+    chromosome_name: chr6
+    build: rn6
+    name: chr6q23 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 72311412
+    end: 83989031
+    parent: CHR:10116-chr6q2
+  CHR:10116-chr6q24:
+    id: CHR:10116-chr6q24
+    band_descriptor: q24
+    chromosome_name: chr6
+    build: rn6
+    name: chr6q24 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 83989031
+    end: 107905693
+    parent: CHR:10116-chr6q2
+  CHR:10116-chr6q31:
+    id: CHR:10116-chr6q31
+    band_descriptor: q31
+    chromosome_name: chr6
+    build: rn6
+    name: chr6q31 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 107905693
+    end: 119920167
+    parent: CHR:10116-chr6q3
+  CHR:10116-chr6q3:
+    id: CHR:10116-chr6q3
+    band_descriptor: q3
+    chromosome_name: chr6
+    build: rn6
+    name: chr6q3 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 107905693
+    end: 147991367
+    children:
+    - CHR:10116-chr6q31
+    - CHR:10116-chr6q32
+    - CHR:10116-chr6q33
+    parent: CHR:10116-chr6q
+  CHR:10116-chr6q32:
+    id: CHR:10116-chr6q32
+    band_descriptor: q32
+    chromosome_name: chr6
+    build: rn6
+    name: chr6q32 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 119920167
+    end: 139906861
+    parent: CHR:10116-chr6q3
+  CHR:10116-chr6q33:
+    id: CHR:10116-chr6q33
+    band_descriptor: q33
+    chromosome_name: chr6
+    build: rn6
+    name: chr6q33 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 139906861
+    end: 147991367
+    parent: CHR:10116-chr6q3
+  CHR:10116-chr7q11:
+    id: CHR:10116-chr7q11
+    band_descriptor: q11
+    chromosome_name: chr7
+    build: rn6
+    name: chr7q11 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 15564443
+    parent: CHR:10116-chr7q1
+  CHR:10116-chr7q1:
+    id: CHR:10116-chr7q1
+    band_descriptor: q1
+    chromosome_name: chr7
+    build: rn6
+    name: chr7q1 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 41851058
+    children:
+    - CHR:10116-chr7q11
+    - CHR:10116-chr7q12
+    - CHR:10116-chr7q13
+    parent: CHR:10116-chr7q
+  CHR:10116-chr7q:
+    id: CHR:10116-chr7q
+    band_descriptor: q
+    chromosome_name: chr7
+    build: rn6
+    name: chr7q (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 145729302
+    children:
+    - CHR:10116-chr7q1
+    - CHR:10116-chr7q2
+    - CHR:10116-chr7q3
+    parent: CHR:10116-chr7
+  CHR:10116-chr7:
+    id: CHR:10116-chr7
+    band_descriptor: ''
+    chromosome_name: chr7
+    build: rn6
+    name: chr7 (Rattus norvegicus)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 145729302
+    children:
+    - CHR:10116-chr7q
+    exact_mappings:
+    - refseq:NC_005106.4
+    - insdc:CM000078.5
+  CHR:10116-chr7q12:
+    id: CHR:10116-chr7q12
+    band_descriptor: q12
+    chromosome_name: chr7
+    build: rn6
+    name: chr7q12 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 15564443
+    end: 18446747
+    parent: CHR:10116-chr7q1
+  CHR:10116-chr7q13:
+    id: CHR:10116-chr7q13
+    band_descriptor: q13
+    chromosome_name: chr7
+    build: rn6
+    name: chr7q13 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 18446747
+    end: 41851058
+    parent: CHR:10116-chr7q1
+  CHR:10116-chr7q21:
+    id: CHR:10116-chr7q21
+    band_descriptor: q21
+    chromosome_name: chr7
+    build: rn6
+    name: chr7q21 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 41851058
+    end: 53264982
+    parent: CHR:10116-chr7q2
+  CHR:10116-chr7q2:
+    id: CHR:10116-chr7q2
+    band_descriptor: q2
+    chromosome_name: chr7
+    build: rn6
+    name: chr7q2 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 41851058
+    end: 77937506
+    children:
+    - CHR:10116-chr7q21
+    - CHR:10116-chr7q22
+    parent: CHR:10116-chr7q
+  CHR:10116-chr7q22:
+    id: CHR:10116-chr7q22
+    band_descriptor: q22
+    chromosome_name: chr7
+    build: rn6
+    name: chr7q22 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 53264982
+    end: 77937506
+    parent: CHR:10116-chr7q2
+  CHR:10116-chr7q31:
+    id: CHR:10116-chr7q31
+    band_descriptor: q31
+    chromosome_name: chr7
+    build: rn6
+    name: chr7q31 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 77937506
+    end: 93501949
+    parent: CHR:10116-chr7q3
+  CHR:10116-chr7q3:
+    id: CHR:10116-chr7q3
+    band_descriptor: q3
+    chromosome_name: chr7
+    build: rn6
+    name: chr7q3 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 77937506
+    end: 145729302
+    children:
+    - CHR:10116-chr7q31
+    - CHR:10116-chr7q32
+    - CHR:10116-chr7q33
+    - CHR:10116-chr7q34
+    - CHR:10116-chr7q35
+    - CHR:10116-chr7q36
+    parent: CHR:10116-chr7q
+  CHR:10116-chr7q32:
+    id: CHR:10116-chr7q32
+    band_descriptor: q32
+    chromosome_name: chr7
+    build: rn6
+    name: chr7q32 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 93501949
+    end: 96384253
+    parent: CHR:10116-chr7q3
+  CHR:10116-chr7q33:
+    id: CHR:10116-chr7q33
+    band_descriptor: q33
+    chromosome_name: chr7
+    build: rn6
+    name: chr7q33 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 96384253
+    end: 106645256
+    parent: CHR:10116-chr7q3
+  CHR:10116-chr7q34:
+    id: CHR:10116-chr7q34
+    band_descriptor: q34
+    chromosome_name: chr7
+    build: rn6
+    name: chr7q34 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 106645256
+    end: 131317780
+    parent: CHR:10116-chr7q3
+  CHR:10116-chr7q35:
+    id: CHR:10116-chr7q35
+    band_descriptor: q35
+    chromosome_name: chr7
+    build: rn6
+    name: chr7q35 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 131317780
+    end: 138696479
+    parent: CHR:10116-chr7q3
+  CHR:10116-chr7q36:
+    id: CHR:10116-chr7q36
+    band_descriptor: q36
+    chromosome_name: chr7
+    build: rn6
+    name: chr7q36 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 138696479
+    end: 145729302
+    parent: CHR:10116-chr7q3
+  CHR:10116-chr8q11:
+    id: CHR:10116-chr8q11
+    band_descriptor: q11
+    chromosome_name: chr8
+    build: rn6
+    name: chr8q11 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 12266910
+    parent: CHR:10116-chr8q1
+  CHR:10116-chr8q1:
+    id: CHR:10116-chr8q1
+    band_descriptor: q1
+    chromosome_name: chr8
+    build: rn6
+    name: chr8q1 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 32784130
+    children:
+    - CHR:10116-chr8q11
+    - CHR:10116-chr8q12
+    - CHR:10116-chr8q13
+    parent: CHR:10116-chr8q
+  CHR:10116-chr8q:
+    id: CHR:10116-chr8q
+    band_descriptor: q
+    chromosome_name: chr8
+    build: rn6
+    name: chr8q (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 133307652
+    children:
+    - CHR:10116-chr8q1
+    - CHR:10116-chr8q2
+    - CHR:10116-chr8q3
+    parent: CHR:10116-chr8
+  CHR:10116-chr8:
+    id: CHR:10116-chr8
+    band_descriptor: ''
+    chromosome_name: chr8
+    build: rn6
+    name: chr8 (Rattus norvegicus)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 133307652
+    children:
+    - CHR:10116-chr8q
+    exact_mappings:
+    - refseq:NC_005107.4
+    - insdc:CM000079.5
+  CHR:10116-chr8q12:
+    id: CHR:10116-chr8q12
+    band_descriptor: q12
+    chromosome_name: chr8
+    build: rn6
+    name: chr8q12 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 12266910
+    end: 17369076
+    parent: CHR:10116-chr8q1
+  CHR:10116-chr8q13:
+    id: CHR:10116-chr8q13
+    band_descriptor: q13
+    chromosome_name: chr8
+    build: rn6
+    name: chr8q13 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 17369076
+    end: 32784130
+    parent: CHR:10116-chr8q1
+  CHR:10116-chr8q21:
+    id: CHR:10116-chr8q21
+    band_descriptor: q21
+    chromosome_name: chr8
+    build: rn6
+    name: chr8q21 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 32784130
+    end: 41685781
+    parent: CHR:10116-chr8q2
+  CHR:10116-chr8q2:
+    id: CHR:10116-chr8q2
+    band_descriptor: q2
+    chromosome_name: chr8
+    build: rn6
+    name: chr8q2 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 32784130
+    end: 84999912
+    children:
+    - CHR:10116-chr8q21
+    - CHR:10116-chr8q22
+    - CHR:10116-chr8q23
+    - CHR:10116-chr8q24
+    parent: CHR:10116-chr8q
+  CHR:10116-chr8q22:
+    id: CHR:10116-chr8q22
+    band_descriptor: q22
+    chromosome_name: chr8
+    build: rn6
+    name: chr8q22 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 41685781
+    end: 50587432
+    parent: CHR:10116-chr8q2
+  CHR:10116-chr8q23:
+    id: CHR:10116-chr8q23
+    band_descriptor: q23
+    chromosome_name: chr8
+    build: rn6
+    name: chr8q23 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 50587432
+    end: 56015268
+    parent: CHR:10116-chr8q2
+  CHR:10116-chr8q24:
+    id: CHR:10116-chr8q24
+    band_descriptor: q24
+    chromosome_name: chr8
+    build: rn6
+    name: chr8q24 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 56015268
+    end: 84999912
+    parent: CHR:10116-chr8q2
+  CHR:10116-chr8q31:
+    id: CHR:10116-chr8q31
+    band_descriptor: q31
+    chromosome_name: chr8
+    build: rn6
+    name: chr8q31 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 84999912
+    end: 110076514
+    parent: CHR:10116-chr8q3
+  CHR:10116-chr8q3:
+    id: CHR:10116-chr8q3
+    band_descriptor: q3
+    chromosome_name: chr8
+    build: rn6
+    name: chr8q3 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 84999912
+    end: 133307652
+    children:
+    - CHR:10116-chr8q31
+    - CHR:10116-chr8q32
+    parent: CHR:10116-chr8q
+  CHR:10116-chr8q32:
+    id: CHR:10116-chr8q32
+    band_descriptor: q32
+    chromosome_name: chr8
+    build: rn6
+    name: chr8q32 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 110076514
+    end: 133307652
+    parent: CHR:10116-chr8q3
+  CHR:10116-chr9q11:
+    id: CHR:10116-chr9q11
+    band_descriptor: q11
+    chromosome_name: chr9
+    build: rn6
+    name: chr9q11 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 7809034
+    parent: CHR:10116-chr9q1
+  CHR:10116-chr9q1:
+    id: CHR:10116-chr9q1
+    band_descriptor: q1
+    chromosome_name: chr9
+    build: rn6
+    name: chr9q1 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 30391915
+    children:
+    - CHR:10116-chr9q11
+    - CHR:10116-chr9q12
+    - CHR:10116-chr9q13
+    parent: CHR:10116-chr9q
+  CHR:10116-chr9q:
+    id: CHR:10116-chr9q
+    band_descriptor: q
+    chromosome_name: chr9
+    build: rn6
+    name: chr9q (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 122095297
+    children:
+    - CHR:10116-chr9q1
+    - CHR:10116-chr9q2
+    - CHR:10116-chr9q3
+    parent: CHR:10116-chr9
+  CHR:10116-chr9:
+    id: CHR:10116-chr9
+    band_descriptor: ''
+    chromosome_name: chr9
+    build: rn6
+    name: chr9 (Rattus norvegicus)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 122095297
+    children:
+    - CHR:10116-chr9q
+    exact_mappings:
+    - refseq:NC_005108.4
+    - insdc:CM000080.5
+  CHR:10116-chr9q12:
+    id: CHR:10116-chr9q12
+    band_descriptor: q12
+    chromosome_name: chr9
+    build: rn6
+    name: chr9q12 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 7809034
+    end: 18361782
+    parent: CHR:10116-chr9q1
+  CHR:10116-chr9q13:
+    id: CHR:10116-chr9q13
+    band_descriptor: q13
+    chromosome_name: chr9
+    build: rn6
+    name: chr9q13 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 18361782
+    end: 30391915
+    parent: CHR:10116-chr9q1
+  CHR:10116-chr9q21:
+    id: CHR:10116-chr9q21
+    band_descriptor: q21
+    chromosome_name: chr9
+    build: rn6
+    name: chr9q21 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 30391915
+    end: 45060235
+    parent: CHR:10116-chr9q2
+  CHR:10116-chr9q2:
+    id: CHR:10116-chr9q2
+    band_descriptor: q2
+    chromosome_name: chr9
+    build: rn6
+    name: chr9q2 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 30391915
+    end: 56351676
+    children:
+    - CHR:10116-chr9q21
+    - CHR:10116-chr9q22
+    parent: CHR:10116-chr9q
+  CHR:10116-chr9q22:
+    id: CHR:10116-chr9q22
+    band_descriptor: q22
+    chromosome_name: chr9
+    build: rn6
+    name: chr9q22 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 45060235
+    end: 56351676
+    parent: CHR:10116-chr9q2
+  CHR:10116-chr9q31:
+    id: CHR:10116-chr9q31
+    band_descriptor: q31
+    chromosome_name: chr9
+    build: rn6
+    name: chr9q31 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 56351676
+    end: 66798896
+    parent: CHR:10116-chr9q3
+  CHR:10116-chr9q3:
+    id: CHR:10116-chr9q3
+    band_descriptor: q3
+    chromosome_name: chr9
+    build: rn6
+    name: chr9q3 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 56351676
+    end: 122095297
+    children:
+    - CHR:10116-chr9q31
+    - CHR:10116-chr9q32
+    - CHR:10116-chr9q33
+    - CHR:10116-chr9q34
+    - CHR:10116-chr9q35
+    - CHR:10116-chr9q36
+    - CHR:10116-chr9q37
+    - CHR:10116-chr9q38
+    parent: CHR:10116-chr9q
+  CHR:10116-chr9q32:
+    id: CHR:10116-chr9q32
+    band_descriptor: q32
+    chromosome_name: chr9
+    build: rn6
+    name: chr9q32 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 66798896
+    end: 75452150
+    parent: CHR:10116-chr9q3
+  CHR:10116-chr9q33:
+    id: CHR:10116-chr9q33
+    band_descriptor: q33
+    chromosome_name: chr9
+    build: rn6
+    name: chr9q33 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 75452150
+    end: 84527513
+    parent: CHR:10116-chr9q3
+  CHR:10116-chr9q34:
+    id: CHR:10116-chr9q34
+    band_descriptor: q34
+    chromosome_name: chr9
+    build: rn6
+    name: chr9q34 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 84527513
+    end: 90120470
+    parent: CHR:10116-chr9q3
+  CHR:10116-chr9q35:
+    id: CHR:10116-chr9q35
+    band_descriptor: q35
+    chromosome_name: chr9
+    build: rn6
+    name: chr9q35 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 90120470
+    end: 96874228
+    parent: CHR:10116-chr9q3
+  CHR:10116-chr9q36:
+    id: CHR:10116-chr9q36
+    band_descriptor: q36
+    chromosome_name: chr9
+    build: rn6
+    name: chr9q36 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 96874228
+    end: 108904361
+    parent: CHR:10116-chr9q3
+  CHR:10116-chr9q37:
+    id: CHR:10116-chr9q37
+    band_descriptor: q37
+    chromosome_name: chr9
+    build: rn6
+    name: chr9q37 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 108904361
+    end: 115658120
+    parent: CHR:10116-chr9q3
+  CHR:10116-chr9q38:
+    id: CHR:10116-chr9q38
+    band_descriptor: q38
+    chromosome_name: chr9
+    build: rn6
+    name: chr9q38 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 115658120
+    end: 122095297
+    parent: CHR:10116-chr9q3
+  CHR:10116-chrM:
+    id: CHR:10116-chrM
+    band_descriptor: ''
+    chromosome_name: chrM
+    build: rn6
+    name: chrM (Rattus norvegicus)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 16313
+    exact_mappings:
+    - refseq:NC_001665.2
+    - insdc:AY172581.1
+  CHR:10116-chrXq11:
+    id: CHR:10116-chrXq11
+    band_descriptor: q11
+    chromosome_name: chrX
+    build: rn6
+    name: chrXq11 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 7703212
+    parent: CHR:10116-chrXq1
+  CHR:10116-chrXq1:
+    id: CHR:10116-chrXq1
+    band_descriptor: q1
+    chromosome_name: chrX
+    build: rn6
+    name: chrXq1 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 39286378
+    children:
+    - CHR:10116-chrXq11
+    - CHR:10116-chrXq12
+    - CHR:10116-chrXq13
+    - CHR:10116-chrXq14
+    parent: CHR:10116-chrXq
+  CHR:10116-chrXq:
+    id: CHR:10116-chrXq
+    band_descriptor: q
+    chromosome_name: chrX
+    build: rn6
+    name: chrXq (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 159970021
+    children:
+    - CHR:10116-chrXq1
+    - CHR:10116-chrXq2
+    - CHR:10116-chrXq3
+    parent: CHR:10116-chrX
+  CHR:10116-chrX:
+    id: CHR:10116-chrX
+    band_descriptor: ''
+    chromosome_name: chrX
+    build: rn6
+    name: chrX (Rattus norvegicus)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 159970021
+    children:
+    - CHR:10116-chrXq
+    exact_mappings:
+    - refseq:NC_005120.4
+    - insdc:CM000092.5
+  CHR:10116-chrXq12:
+    id: CHR:10116-chrXq12
+    band_descriptor: q12
+    chromosome_name: chrX
+    build: rn6
+    name: chrXq12 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 7703212
+    end: 21440605
+    parent: CHR:10116-chrXq1
+  CHR:10116-chrXq13:
+    id: CHR:10116-chrXq13
+    band_descriptor: q13
+    chromosome_name: chrX
+    build: rn6
+    name: chrXq13 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 21440605
+    end: 29657364
+    parent: CHR:10116-chrXq1
+  CHR:10116-chrXq14:
+    id: CHR:10116-chrXq14
+    band_descriptor: q14
+    chromosome_name: chrX
+    build: rn6
+    name: chrXq14 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 29657364
+    end: 39286378
+    parent: CHR:10116-chrXq1
+  CHR:10116-chrXq21:
+    id: CHR:10116-chrXq21
+    band_descriptor: q21
+    chromosome_name: chrX
+    build: rn6
+    name: chrXq21 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 39286378
+    end: 59314727
+    parent: CHR:10116-chrXq2
+  CHR:10116-chrXq2:
+    id: CHR:10116-chrXq2
+    band_descriptor: q2
+    chromosome_name: chrX
+    build: rn6
+    name: chrXq2 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 39286378
+    end: 80883718
+    children:
+    - CHR:10116-chrXq21
+    - CHR:10116-chrXq22
+    parent: CHR:10116-chrXq
+  CHR:10116-chrXq22:
+    id: CHR:10116-chrXq22
+    band_descriptor: q22
+    chromosome_name: chrX
+    build: rn6
+    name: chrXq22 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 59314727
+    end: 80883718
+    parent: CHR:10116-chrXq2
+  CHR:10116-chrXq31:
+    id: CHR:10116-chrXq31
+    band_descriptor: q31
+    chromosome_name: chrX
+    build: rn6
+    name: chrXq31 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 80883718
+    end: 100526907
+    parent: CHR:10116-chrXq3
+  CHR:10116-chrXq3:
+    id: CHR:10116-chrXq3
+    band_descriptor: q3
+    chromosome_name: chrX
+    build: rn6
+    name: chrXq3 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 80883718
+    end: 159970021
+    children:
+    - CHR:10116-chrXq31
+    - CHR:10116-chrXq32
+    - CHR:10116-chrXq33
+    - CHR:10116-chrXq34
+    - CHR:10116-chrXq35
+    - CHR:10116-chrXq36
+    - CHR:10116-chrXq37
+    parent: CHR:10116-chrXq
+  CHR:10116-chrXq32:
+    id: CHR:10116-chrXq32
+    band_descriptor: q32
+    chromosome_name: chrX
+    build: rn6
+    name: chrXq32 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 100526907
+    end: 111953337
+    parent: CHR:10116-chrXq3
+  CHR:10116-chrXq33:
+    id: CHR:10116-chrXq33
+    band_descriptor: q33
+    chromosome_name: chrX
+    build: rn6
+    name: chrXq33 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 111953337
+    end: 115163008
+    parent: CHR:10116-chrXq3
+  CHR:10116-chrXq34:
+    id: CHR:10116-chrXq34
+    band_descriptor: q34
+    chromosome_name: chrX
+    build: rn6
+    name: chrXq34 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 115163008
+    end: 121967512
+    parent: CHR:10116-chrXq3
+  CHR:10116-chrXq35:
+    id: CHR:10116-chrXq35
+    band_descriptor: q35
+    chromosome_name: chrX
+    build: rn6
+    name: chrXq35 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 121967512
+    end: 134806197
+    parent: CHR:10116-chrXq3
+  CHR:10116-chrXq36:
+    id: CHR:10116-chrXq36
+    band_descriptor: q36
+    chromosome_name: chrX
+    build: rn6
+    name: chrXq36 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 134806197
+    end: 148543591
+    parent: CHR:10116-chrXq3
+  CHR:10116-chrXq37:
+    id: CHR:10116-chrXq37
+    band_descriptor: q37
+    chromosome_name: chrX
+    build: rn6
+    name: chrXq37 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 148543591
+    end: 159970021
+    parent: CHR:10116-chrXq3
+  CHR:10116-chrYq11:
+    id: CHR:10116-chrYq11
+    band_descriptor: q11
+    chromosome_name: chrY
+    build: rn6
+    name: chrYq11 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 2482843
+    parent: CHR:10116-chrYq1
+  CHR:10116-chrYq1:
+    id: CHR:10116-chrYq1
+    band_descriptor: q1
+    chromosome_name: chrY
+    build: rn6
+    name: chrYq1 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 3310458
+    children:
+    - CHR:10116-chrYq11
+    - CHR:10116-chrYq12
+    parent: CHR:10116-chrYq
+  CHR:10116-chrYq:
+    id: CHR:10116-chrYq
+    band_descriptor: q
+    chromosome_name: chrY
+    build: rn6
+    name: chrYq (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 3310458
+    children:
+    - CHR:10116-chrYq1
+    parent: CHR:10116-chrY
+  CHR:10116-chrY:
+    id: CHR:10116-chrY
+    band_descriptor: ''
+    chromosome_name: chrY
+    build: rn6
+    name: chrY (Rattus norvegicus)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    taxon: NCBITaxon:10116
+    start: 0
+    end: 3310458
+    children:
+    - CHR:10116-chrYq
+    exact_mappings:
+    - refseq:NC_024475.1
+    - insdc:CM002824.1
+  CHR:10116-chrYq12:
+    id: CHR:10116-chrYq12
+    band_descriptor: q12
+    chromosome_name: chrY
+    build: rn6
+    name: chrYq12 (Rattus norvegicus)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10116
+    start: 2482843
+    end: 3310458
+    parent: CHR:10116-chrYq1
+genomes:
+  mm:
+    id: mm
+    name: Mus musculus
+    taxon: NCBITaxon:10090
+  hg:
+    id: hg
+    name: Homo sapiens
+    taxon: NCBITaxon:9606
+  dm:
+    id: dm
+    name: Drosophila melanogaster
+    taxon: NCBITaxon:7227
+  danRer:
+    id: danRer
+    name: Danio rerio
+    taxon: NCBITaxon:7955
+  rn:
+    id: rn
+    name: Rattus norvegicus
+    taxon: NCBITaxon:10116
+    build: rn6
+  ce:
+    id: ce
+    name: Caenorhabditis elegans
+    taxon: NCBITaxon:10116
+taxons:
+  NCBITaxon:10090:
+    id: NCBITaxon:10090
+    name: Mus musculus
+  NCBITaxon:9606:
+    id: NCBITaxon:9606
+    name: Homo sapiens
+  NCBITaxon:7227:
+    id: NCBITaxon:7227
+    name: Drosophila melanogaster
+  NCBITaxon:7955:
+    id: NCBITaxon:7955
+    name: Danio rerio
+  NCBITaxon:10116:
+    id: NCBITaxon:10116
+    name: Rattus norvegicus
