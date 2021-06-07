@@ -11243,6 +11243,21 @@
           "sub": "http://purl.obolibrary.org/obo/GO_0016740"
         },
         {
+          "obj": "http://purl.obolibrary.org/obo/GO_0005575",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/GO_0110165"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/GO_0005622",
+          "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
+          "sub": "http://purl.obolibrary.org/obo/GO_0043229"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/GO_0005694",
+          "pred": "http://purl.obolibrary.org/obo/BFO_0000050",
+          "sub": "http://purl.obolibrary.org/obo/GO_0098687"
+        },
+        {
           "obj": "http://purl.obolibrary.org/obo/GO_0005694",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/CHR_10090-chr1"
@@ -11631,6 +11646,31 @@
           "obj": "http://purl.obolibrary.org/obo/GO_0016772",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/GO_0016301"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/GO_0043226",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/GO_0043228"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/GO_0043226",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/GO_0043229"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/GO_0043228",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/GO_0043232"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/GO_0043229",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/GO_0043232"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/GO_0043232",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/GO_0005694"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/GO_0098687",
@@ -22533,6 +22573,21 @@
           "sub": "http://purl.obolibrary.org/obo/CHR_9606-chrYq12"
         },
         {
+          "obj": "http://purl.obolibrary.org/obo/GO_0110165",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/GO_0005622"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/GO_0110165",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/GO_0043226"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/GO_0110165",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/GO_0098687"
+        },
+        {
           "obj": "http://purl.obolibrary.org/obo/NCBITaxon_1",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/NCBITaxon_131567"
@@ -22541,6 +22596,11 @@
           "obj": "http://purl.obolibrary.org/obo/NCBITaxon_10066",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/NCBITaxon_39107"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_10088",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/NCBITaxon_862507"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/NCBITaxon_10090",
@@ -27258,6 +27318,16 @@
           "sub": "http://purl.obolibrary.org/obo/NCBITaxon_8287"
         },
         {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_119089",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/NCBITaxon_6236"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_1206794",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/NCBITaxon_6231"
+        },
+        {
           "obj": "http://purl.obolibrary.org/obo/NCBITaxon_131567",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/NCBITaxon_2759"
@@ -27278,6 +27348,21 @@
           "sub": "http://purl.obolibrary.org/obo/NCBITaxon_337687"
         },
         {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_207598",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/NCBITaxon_9605"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_2301116",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/NCBITaxon_2301119"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_2301119",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/NCBITaxon_55879"
+        },
+        {
           "obj": "http://purl.obolibrary.org/obo/NCBITaxon_2759",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/NCBITaxon_33154"
@@ -27288,9 +27373,24 @@
           "sub": "http://purl.obolibrary.org/obo/NCBITaxon_314147"
         },
         {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_314146",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/NCBITaxon_9443"
+        },
+        {
           "obj": "http://purl.obolibrary.org/obo/NCBITaxon_314147",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/NCBITaxon_9989"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_314293",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/NCBITaxon_9526"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_314295",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/NCBITaxon_9604"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/NCBITaxon_32523",
@@ -27320,7 +27420,17 @@
         {
           "obj": "http://purl.obolibrary.org/obo/NCBITaxon_33213",
           "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/NCBITaxon_33317"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_33213",
+          "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/NCBITaxon_33511"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_33317",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/NCBITaxon_1206794"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/NCBITaxon_33511",
@@ -27333,6 +27443,16 @@
           "sub": "http://purl.obolibrary.org/obo/NCBITaxon_10066"
         },
         {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_376913",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/NCBITaxon_314293"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_39107",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/NCBITaxon_10088"
+        },
+        {
           "obj": "http://purl.obolibrary.org/obo/NCBITaxon_39107",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/NCBITaxon_10114"
@@ -27343,9 +27463,34 @@
           "sub": "http://purl.obolibrary.org/obo/NCBITaxon_32525"
         },
         {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_55879",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/NCBITaxon_6243"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_55885",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/NCBITaxon_6237"
+        },
+        {
           "obj": "http://purl.obolibrary.org/obo/NCBITaxon_6072",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/NCBITaxon_33213"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_6231",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/NCBITaxon_119089"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_6236",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/NCBITaxon_2301116"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_6237",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/NCBITaxon_6239"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/NCBITaxon_6239",
@@ -27383,6 +27528,11 @@
           "sub": "http://purl.obolibrary.org/obo/CHR_6239-chrX"
         },
         {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_6243",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/NCBITaxon_55885"
+        },
+        {
           "obj": "http://purl.obolibrary.org/obo/NCBITaxon_7711",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/NCBITaxon_89593"
@@ -27403,6 +27553,11 @@
           "sub": "http://purl.obolibrary.org/obo/NCBITaxon_1338369"
         },
         {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_862507",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+        },
+        {
           "obj": "http://purl.obolibrary.org/obo/NCBITaxon_89593",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/NCBITaxon_7742"
@@ -27411,6 +27566,26 @@
           "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9347",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/NCBITaxon_1437010"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/NCBITaxon_376913"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9526",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/NCBITaxon_314295"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9604",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/NCBITaxon_207598"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9605",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/NCBITaxon_9606",
@@ -34630,7 +34805,32 @@
       ],
       "equivalentNodesSets": [],
       "id": "http://purl.obolibrary.org/obo/chr/chr-full.json",
-      "logicalDefinitionAxioms": [],
+      "logicalDefinitionAxioms": [
+        {
+          "definedClassId": "http://purl.obolibrary.org/obo/GO_0043229",
+          "genusIds": [
+            "http://purl.obolibrary.org/obo/GO_0043226"
+          ],
+          "restrictions": [
+            {
+              "fillerId": "http://purl.obolibrary.org/obo/GO_0005622",
+              "propertyId": "http://purl.obolibrary.org/obo/BFO_0000050"
+            }
+          ]
+        },
+        {
+          "definedClassId": "http://purl.obolibrary.org/obo/GO_0043232",
+          "genusIds": [
+            "http://purl.obolibrary.org/obo/GO_0043228"
+          ],
+          "restrictions": [
+            {
+              "fillerId": "http://purl.obolibrary.org/obo/GO_0005622",
+              "propertyId": "http://purl.obolibrary.org/obo/BFO_0000050"
+            }
+          ]
+        }
+      ],
       "meta": {
         "basicPropertyValues": [
           {
@@ -34780,6 +34980,14 @@
                 "val": "http://purl.obolibrary.org/obo/BFO_0000031"
               },
               {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+                "val": "external"
+              },
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#shorthand",
+                "val": "part_of"
+              },
+              {
                 "pred": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
                 "val": "http://ontologydesignpatterns.org/wiki/Community:Parts_and_Collections"
               },
@@ -34801,6 +35009,11 @@
               "http://purl.obolibrary.org/obo/valid_for_go_gp2term",
               "http://purl.obolibrary.org/obo/valid_for_go_ontology",
               "http://purl.obolibrary.org/obo/valid_for_gocam"
+            ],
+            "xrefs": [
+              {
+                "val": "BFO:0000050"
+              }
             ]
           },
           "type": "PROPERTY"
@@ -34845,6 +35058,14 @@
               {
                 "pred": "http://purl.obolibrary.org/obo/RO_0001900",
                 "val": "http://purl.obolibrary.org/obo/RO_0001901"
+              },
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+                "val": "external"
+              },
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#shorthand",
+                "val": "has_part"
               }
             ],
             "definition": {
@@ -34855,6 +35076,11 @@
               "http://purl.obolibrary.org/obo/valid_for_go_annotation_extension",
               "http://purl.obolibrary.org/obo/valid_for_go_ontology",
               "http://purl.obolibrary.org/obo/valid_for_gocam"
+            ],
+            "xrefs": [
+              {
+                "val": "BFO:0000051"
+              }
             ]
           },
           "type": "PROPERTY"
@@ -82970,6 +83196,360 @@
           "type": "CLASS"
         },
         {
+          "id": "http://purl.obolibrary.org/obo/GO_0005575",
+          "lbl": "cellular_component",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+                "val": "GO:0008372"
+              },
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+                "val": "cellular_component"
+              }
+            ],
+            "comments": [
+              "Note that, in addition to forming the root of the cellular component ontology, this term is recommended for use for the annotation of gene products whose cellular component is unknown. When this term is used for annotation, it indicates that no information was available about the cellular component of the gene product annotated as of the date the annotation was made; the evidence code 'no data' (ND), is used to indicate this."
+            ],
+            "definition": {
+              "val": "A location, relative to cellular compartments and structures, occupied by a macromolecular machine when it carries out a molecular function. There are two ways in which the gene ontology describes locations of gene products: (1) relative to cellular structures (e.g., cytoplasmic side of plasma membrane) or compartments (e.g., mitochondrion), and (2) the stable macromolecular complexes of which they are parts (e.g., the ribosome).",
+              "xrefs": [
+                "GOC:pdt",
+                "NIF_Subcellular:sao1337158144"
+              ]
+            },
+            "subsets": [
+              "http://purl.obolibrary.org/obo/go#goslim_aspergillus",
+              "http://purl.obolibrary.org/obo/go#goslim_candida",
+              "http://purl.obolibrary.org/obo/go#goslim_chembl",
+              "http://purl.obolibrary.org/obo/go#goslim_generic",
+              "http://purl.obolibrary.org/obo/go#goslim_metagenomics",
+              "http://purl.obolibrary.org/obo/go#goslim_pir",
+              "http://purl.obolibrary.org/obo/go#goslim_plant",
+              "http://purl.obolibrary.org/obo/go#goslim_yeast"
+            ],
+            "synonyms": [
+              {
+                "pred": "hasExactSynonym",
+                "val": "cell or subcellular entity",
+                "xrefs": []
+              },
+              {
+                "pred": "hasExactSynonym",
+                "val": "cellular component",
+                "xrefs": []
+              },
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "subcellular entity",
+                "xrefs": [
+                  "NIF_Subcellular:nlx_subcell_100315"
+                ]
+              }
+            ],
+            "xrefs": [
+              {
+                "val": "NIF_Subcellular:sao1337158144"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/GO_0005622",
+          "lbl": "intracellular anatomical structure",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000233",
+                "val": "https://github.com/geneontology/go-ontology/issues/17776"
+              },
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+                "val": "cellular_component"
+              }
+            ],
+            "definition": {
+              "val": "A component of a cell contained within (but not including) the plasma membrane. In eukaryotes it includes the nucleus and cytoplasm.",
+              "xrefs": [
+                "ISBN:0198506732"
+              ]
+            },
+            "subsets": [
+              "http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate",
+              "http://purl.obolibrary.org/obo/go#goslim_chembl",
+              "http://purl.obolibrary.org/obo/go#goslim_generic",
+              "http://purl.obolibrary.org/obo/go#goslim_metagenomics",
+              "http://purl.obolibrary.org/obo/go#goslim_plant"
+            ],
+            "synonyms": [
+              {
+                "pred": "hasExactSynonym",
+                "val": "internal to cell",
+                "xrefs": []
+              },
+              {
+                "pred": "hasExactSynonym",
+                "val": "intracellular",
+                "xrefs": []
+              },
+              {
+                "pred": "hasExactSynonym",
+                "val": "protoplasm",
+                "xrefs": []
+              },
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "nucleocytoplasm",
+                "xrefs": [
+                  "GOC:mah"
+                ]
+              },
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "protoplast",
+                "xrefs": [
+                  "GOC:mah"
+                ]
+              }
+            ],
+            "xrefs": [
+              {
+                "val": "Wikipedia:Intracellular"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/GO_0005694",
+          "lbl": "chromosome",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+                "val": "cellular_component"
+              }
+            ],
+            "comments": [
+              "Chromosomes include parts that are not part of the chromatin.  Examples include the kinetochore."
+            ],
+            "definition": {
+              "val": "A structure composed of a very long molecule of DNA and associated proteins (e.g. histones) that carries hereditary information.",
+              "xrefs": [
+                "ISBN:0198547684"
+              ]
+            },
+            "subsets": [
+              "http://purl.obolibrary.org/obo/go#goslim_agr",
+              "http://purl.obolibrary.org/obo/go#goslim_aspergillus",
+              "http://purl.obolibrary.org/obo/go#goslim_candida",
+              "http://purl.obolibrary.org/obo/go#goslim_chembl",
+              "http://purl.obolibrary.org/obo/go#goslim_drosophila",
+              "http://purl.obolibrary.org/obo/go#goslim_flybase_ribbon",
+              "http://purl.obolibrary.org/obo/go#goslim_generic",
+              "http://purl.obolibrary.org/obo/go#goslim_metagenomics",
+              "http://purl.obolibrary.org/obo/go#goslim_pir",
+              "http://purl.obolibrary.org/obo/go#goslim_yeast"
+            ],
+            "synonyms": [
+              {
+                "pred": "hasNarrowSynonym",
+                "val": "interphase chromosome",
+                "xrefs": []
+              },
+              {
+                "pred": "hasNarrowSynonym",
+                "val": "prophase chromosome",
+                "xrefs": []
+              },
+              {
+                "pred": "hasRelatedSynonym",
+                "val": "chromatid",
+                "xrefs": []
+              }
+            ],
+            "xrefs": [
+              {
+                "val": "Wikipedia:Chromosome"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/GO_0043226",
+          "lbl": "organelle",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+                "val": "cellular_component"
+              }
+            ],
+            "definition": {
+              "val": "Organized structure of distinctive morphology and function. Includes the nucleus, mitochondria, plastids, vacuoles, vesicles, ribosomes and the cytoskeleton, and prokaryotic structures such as anammoxosomes and pirellulosomes. Excludes the plasma membrane.",
+              "xrefs": [
+                "GOC:go_curators"
+              ]
+            },
+            "subsets": [
+              "http://purl.obolibrary.org/obo/go#goslim_chembl",
+              "http://purl.obolibrary.org/obo/go#goslim_generic",
+              "http://purl.obolibrary.org/obo/go#goslim_pir"
+            ],
+            "xrefs": [
+              {
+                "val": "NIF_Subcellular:sao1539965131"
+              },
+              {
+                "val": "Wikipedia:Organelle"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/GO_0043228",
+          "lbl": "non-membrane-bounded organelle",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+                "val": "cellular_component"
+              }
+            ],
+            "definition": {
+              "val": "Organized structure of distinctive morphology and function, not bounded by a lipid bilayer membrane. Includes ribosomes, the cytoskeleton and chromosomes.",
+              "xrefs": [
+                "GOC:go_curators"
+              ]
+            },
+            "synonyms": [
+              {
+                "pred": "hasExactSynonym",
+                "val": "non-membrane-enclosed organelle",
+                "xrefs": []
+              }
+            ],
+            "xrefs": [
+              {
+                "val": "NIF_Subcellular:sao1456184038"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/GO_0043229",
+          "lbl": "intracellular organelle",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+                "val": "cellular_component"
+              }
+            ],
+            "definition": {
+              "val": "Organized structure of distinctive morphology and function, occurring within the cell. Includes the nucleus, mitochondria, plastids, vacuoles, vesicles, ribosomes and the cytoskeleton. Excludes the plasma membrane.",
+              "xrefs": [
+                "GOC:go_curators"
+              ]
+            },
+            "subsets": [
+              "http://purl.obolibrary.org/obo/go#goslim_pir"
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/GO_0043232",
+          "lbl": "intracellular non-membrane-bounded organelle",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+                "val": "cellular_component"
+              }
+            ],
+            "definition": {
+              "val": "Organized structure of distinctive morphology and function, not bounded by a lipid bilayer membrane and occurring within the cell. Includes ribosomes, the cytoskeleton and chromosomes.",
+              "xrefs": [
+                "GOC:go_curators"
+              ]
+            },
+            "subsets": [
+              "http://purl.obolibrary.org/obo/go#goslim_mouse",
+              "http://purl.obolibrary.org/obo/go#goslim_pir"
+            ],
+            "synonyms": [
+              {
+                "pred": "hasExactSynonym",
+                "val": "intracellular non-membrane-enclosed organelle",
+                "xrefs": []
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/GO_0098687",
+          "lbl": "chromosomal region",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+                "val": "cellular_component"
+              }
+            ],
+            "comments": [
+              "Chromosomal regions include parts that are not part of the chromatin.  Examples include the kinetochore."
+            ],
+            "definition": {
+              "val": "Any subdivision of a chromosome along its length.",
+              "xrefs": [
+                "GOC:dos"
+              ]
+            },
+            "synonyms": [
+              {
+                "pred": "hasExactSynonym",
+                "val": "chromosome region",
+                "xrefs": []
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/GO_0110165",
+          "lbl": "cellular anatomical entity",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#created_by",
+                "val": "kmv"
+              },
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#creation_date",
+                "val": "2019-08-12T18:01:37Z"
+              },
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+                "val": "cellular_component"
+              }
+            ],
+            "definition": {
+              "val": "A part of a cellular organism that is either an immaterial entity or a material entity with granularity above the level of a protein complex but below that of an anatomical system. Or, a substance produced by a cellular organism with granularity above the level of a protein complex.",
+              "xrefs": [
+                "GOC:kmv"
+              ]
+            }
+          },
+          "type": "CLASS"
+        },
+        {
           "id": "http://purl.obolibrary.org/obo/NCBITaxon_1",
           "lbl": "root",
           "meta": {
@@ -83015,6 +83595,88 @@
               },
               {
                 "val": "PMID:15371245"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/NCBITaxon_10088",
+          "lbl": "Mus <genus>",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+                "val": "http://purl.obolibrary.org/obo/NCBITaxon_genus"
+              },
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+                "val": "ncbi_taxonomy"
+              }
+            ],
+            "synonyms": [
+              {
+                "pred": "hasExactSynonym",
+                "synonymType": "http://purl.obolibrary.org/obo/ncbitaxon#common_name",
+                "val": "mice",
+                "xrefs": []
+              },
+              {
+                "pred": "hasExactSynonym",
+                "synonymType": "http://purl.obolibrary.org/obo/ncbitaxon#common_name",
+                "val": "mouse",
+                "xrefs": []
+              },
+              {
+                "pred": "hasExactSynonym",
+                "synonymType": "http://purl.obolibrary.org/obo/ncbitaxon#scientific_name",
+                "val": "Mus",
+                "xrefs": []
+              }
+            ],
+            "xrefs": [
+              {
+                "val": "GC_ID:1"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/NCBITaxon_10090",
+          "lbl": "Mus musculus",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+                "val": "http://purl.obolibrary.org/obo/NCBITaxon_species"
+              },
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+                "val": "NCBITaxon:85055"
+              },
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+                "val": "ncbi_taxonomy"
+              }
+            ],
+            "synonyms": [
+              {
+                "pred": "hasExactSynonym",
+                "synonymType": "http://purl.obolibrary.org/obo/ncbitaxon#common_name",
+                "val": "mouse",
+                "xrefs": []
+              },
+              {
+                "pred": "hasExactSynonym",
+                "synonymType": "http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name",
+                "val": "house mouse",
+                "xrefs": []
+              }
+            ],
+            "xrefs": [
+              {
+                "val": "GC_ID:1"
               }
             ]
           },
@@ -83165,6 +83827,62 @@
           "type": "CLASS"
         },
         {
+          "id": "http://purl.obolibrary.org/obo/NCBITaxon_119089",
+          "lbl": "Chromadorea",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+                "val": "http://purl.obolibrary.org/obo/NCBITaxon_class"
+              },
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+                "val": "NCBITaxon:27837"
+              },
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+                "val": "ncbi_taxonomy"
+              }
+            ],
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "synonymType": "http://purl.obolibrary.org/obo/ncbitaxon#synonym",
+                "val": "Adenophorea",
+                "xrefs": []
+              }
+            ],
+            "xrefs": [
+              {
+                "val": "GC_ID:1"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/NCBITaxon_1206794",
+          "lbl": "Ecdysozoa",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+                "val": "http://purl.obolibrary.org/obo/NCBITaxon_clade"
+              },
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+                "val": "ncbi_taxonomy"
+              }
+            ],
+            "xrefs": [
+              {
+                "val": "GC_ID:1"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
           "id": "http://purl.obolibrary.org/obo/NCBITaxon_131567",
           "lbl": "cellular organisms",
           "meta": {
@@ -83274,6 +83992,80 @@
                 "synonymType": "http://purl.obolibrary.org/obo/ncbitaxon#in_part",
                 "val": "Sciurognathi",
                 "xrefs": []
+              }
+            ],
+            "xrefs": [
+              {
+                "val": "GC_ID:1"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/NCBITaxon_207598",
+          "lbl": "Homininae",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+                "val": "http://purl.obolibrary.org/obo/NCBITaxon_subfamily"
+              },
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+                "val": "ncbi_taxonomy"
+              }
+            ],
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "synonymType": "http://purl.obolibrary.org/obo/ncbitaxon#synonym",
+                "val": "Homo/Pan/Gorilla group",
+                "xrefs": []
+              }
+            ],
+            "xrefs": [
+              {
+                "val": "GC_ID:1"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/NCBITaxon_2301116",
+          "lbl": "Rhabditina",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+                "val": "http://purl.obolibrary.org/obo/NCBITaxon_suborder"
+              },
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+                "val": "ncbi_taxonomy"
+              }
+            ],
+            "xrefs": [
+              {
+                "val": "GC_ID:1"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/NCBITaxon_2301119",
+          "lbl": "Rhabditomorpha",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+                "val": "http://purl.obolibrary.org/obo/NCBITaxon_infraorder"
+              },
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+                "val": "ncbi_taxonomy"
               }
             ],
             "xrefs": [
@@ -83424,6 +84216,72 @@
               },
               {
                 "val": "PMID:15522813"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/NCBITaxon_314293",
+          "lbl": "Simiiformes",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+                "val": "http://purl.obolibrary.org/obo/NCBITaxon_infraorder"
+              },
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+                "val": "ncbi_taxonomy"
+              }
+            ],
+            "synonyms": [
+              {
+                "pred": "hasRelatedSynonym",
+                "synonymType": "http://purl.obolibrary.org/obo/ncbitaxon#synonym",
+                "val": "Anthropoidea",
+                "xrefs": []
+              }
+            ],
+            "xrefs": [
+              {
+                "val": "GC_ID:1"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/NCBITaxon_314295",
+          "lbl": "Hominoidea",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+                "val": "http://purl.obolibrary.org/obo/NCBITaxon_superfamily"
+              },
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+                "val": "ncbi_taxonomy"
+              }
+            ],
+            "synonyms": [
+              {
+                "pred": "hasExactSynonym",
+                "synonymType": "http://purl.obolibrary.org/obo/ncbitaxon#common_name",
+                "val": "ape",
+                "xrefs": []
+              },
+              {
+                "pred": "hasExactSynonym",
+                "synonymType": "http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name",
+                "val": "apes",
+                "xrefs": []
+              }
+            ],
+            "xrefs": [
+              {
+                "val": "GC_ID:1"
               }
             ]
           },
@@ -83626,6 +84484,28 @@
           "type": "CLASS"
         },
         {
+          "id": "http://purl.obolibrary.org/obo/NCBITaxon_33317",
+          "lbl": "Protostomia",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+                "val": "http://purl.obolibrary.org/obo/NCBITaxon_clade"
+              },
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+                "val": "ncbi_taxonomy"
+              }
+            ],
+            "xrefs": [
+              {
+                "val": "GC_ID:1"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
           "id": "http://purl.obolibrary.org/obo/NCBITaxon_33511",
           "lbl": "Deuterostomia",
           "meta": {
@@ -83678,6 +84558,28 @@
               },
               {
                 "val": "PMID:15371245"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/NCBITaxon_376913",
+          "lbl": "Haplorrhini",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+                "val": "http://purl.obolibrary.org/obo/NCBITaxon_suborder"
+              },
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+                "val": "ncbi_taxonomy"
+              }
+            ],
+            "xrefs": [
+              {
+                "val": "GC_ID:1"
               }
             ]
           },
@@ -83746,6 +84648,50 @@
           "type": "CLASS"
         },
         {
+          "id": "http://purl.obolibrary.org/obo/NCBITaxon_55879",
+          "lbl": "Rhabditoidea",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+                "val": "http://purl.obolibrary.org/obo/NCBITaxon_superfamily"
+              },
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+                "val": "ncbi_taxonomy"
+              }
+            ],
+            "xrefs": [
+              {
+                "val": "GC_ID:1"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/NCBITaxon_55885",
+          "lbl": "Peloderinae",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+                "val": "http://purl.obolibrary.org/obo/NCBITaxon_subfamily"
+              },
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+                "val": "ncbi_taxonomy"
+              }
+            ],
+            "xrefs": [
+              {
+                "val": "GC_ID:1"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
           "id": "http://purl.obolibrary.org/obo/NCBITaxon_6072",
           "lbl": "Eumetazoa",
           "meta": {
@@ -83753,6 +84699,176 @@
               {
                 "pred": "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
                 "val": "http://purl.obolibrary.org/obo/NCBITaxon_clade"
+              },
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+                "val": "ncbi_taxonomy"
+              }
+            ],
+            "xrefs": [
+              {
+                "val": "GC_ID:1"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/NCBITaxon_6231",
+          "lbl": "Nematoda",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+                "val": "http://purl.obolibrary.org/obo/NCBITaxon_phylum"
+              },
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+                "val": "ncbi_taxonomy"
+              }
+            ],
+            "synonyms": [
+              {
+                "pred": "hasExactSynonym",
+                "synonymType": "http://purl.obolibrary.org/obo/ncbitaxon#common_name",
+                "val": "nematode",
+                "xrefs": []
+              },
+              {
+                "pred": "hasExactSynonym",
+                "synonymType": "http://purl.obolibrary.org/obo/ncbitaxon#common_name",
+                "val": "nematodes",
+                "xrefs": []
+              },
+              {
+                "pred": "hasExactSynonym",
+                "synonymType": "http://purl.obolibrary.org/obo/ncbitaxon#common_name",
+                "val": "roundworm",
+                "xrefs": []
+              },
+              {
+                "pred": "hasExactSynonym",
+                "synonymType": "http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name",
+                "val": "roundworms",
+                "xrefs": []
+              },
+              {
+                "pred": "hasRelatedSynonym",
+                "synonymType": "http://purl.obolibrary.org/obo/ncbitaxon#blast_name",
+                "val": "nematodes",
+                "xrefs": []
+              },
+              {
+                "pred": "hasRelatedSynonym",
+                "synonymType": "http://purl.obolibrary.org/obo/ncbitaxon#synonym",
+                "val": "Nemata",
+                "xrefs": []
+              }
+            ],
+            "xrefs": [
+              {
+                "val": "GC_ID:1"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/NCBITaxon_6236",
+          "lbl": "Rhabditida",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+                "val": "http://purl.obolibrary.org/obo/NCBITaxon_order"
+              },
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+                "val": "NCBITaxon:33251"
+              },
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+                "val": "ncbi_taxonomy"
+              }
+            ],
+            "xrefs": [
+              {
+                "val": "GC_ID:1"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/NCBITaxon_6237",
+          "lbl": "Caenorhabditis",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+                "val": "http://purl.obolibrary.org/obo/NCBITaxon_genus"
+              },
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+                "val": "ncbi_taxonomy"
+              }
+            ],
+            "xrefs": [
+              {
+                "val": "GC_ID:1"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/NCBITaxon_6239",
+          "lbl": "Caenorhabditis elegans",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+                "val": "http://purl.obolibrary.org/obo/NCBITaxon_species"
+              },
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+                "val": "ncbi_taxonomy"
+              }
+            ],
+            "synonyms": [
+              {
+                "pred": "hasExactSynonym",
+                "synonymType": "http://purl.obolibrary.org/obo/ncbitaxon#common_name",
+                "val": "roundworm",
+                "xrefs": []
+              },
+              {
+                "pred": "hasRelatedSynonym",
+                "synonymType": "http://purl.obolibrary.org/obo/ncbitaxon#synonym",
+                "val": "Rhabditis elegans",
+                "xrefs": []
+              }
+            ],
+            "xrefs": [
+              {
+                "val": "GC_ID:1"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/NCBITaxon_6243",
+          "lbl": "Rhabditidae",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+                "val": "http://purl.obolibrary.org/obo/NCBITaxon_family"
+              },
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+                "val": "NCBITaxon:54603"
               },
               {
                 "pred": "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -83904,6 +85020,36 @@
           "type": "CLASS"
         },
         {
+          "id": "http://purl.obolibrary.org/obo/NCBITaxon_862507",
+          "lbl": "Mus <subgenus>",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+                "val": "http://purl.obolibrary.org/obo/NCBITaxon_subgenus"
+              },
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+                "val": "ncbi_taxonomy"
+              }
+            ],
+            "synonyms": [
+              {
+                "pred": "hasExactSynonym",
+                "synonymType": "http://purl.obolibrary.org/obo/ncbitaxon#scientific_name",
+                "val": "Mus",
+                "xrefs": []
+              }
+            ],
+            "xrefs": [
+              {
+                "val": "GC_ID:1"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
           "id": "http://purl.obolibrary.org/obo/NCBITaxon_89593",
           "lbl": "Craniata <chordates>",
           "meta": {
@@ -83976,6 +85122,172 @@
                 "pred": "hasRelatedSynonym",
                 "synonymType": "http://purl.obolibrary.org/obo/ncbitaxon#synonym",
                 "val": "Placentalia",
+                "xrefs": []
+              }
+            ],
+            "xrefs": [
+              {
+                "val": "GC_ID:1"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/NCBITaxon_9443",
+          "lbl": "Primates",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+                "val": "http://purl.obolibrary.org/obo/NCBITaxon_order"
+              },
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+                "val": "ncbi_taxonomy"
+              }
+            ],
+            "synonyms": [
+              {
+                "pred": "hasExactSynonym",
+                "synonymType": "http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name",
+                "val": "primate",
+                "xrefs": []
+              },
+              {
+                "pred": "hasRelatedSynonym",
+                "synonymType": "http://purl.obolibrary.org/obo/ncbitaxon#blast_name",
+                "val": "primates",
+                "xrefs": []
+              },
+              {
+                "pred": "hasRelatedSynonym",
+                "synonymType": "http://purl.obolibrary.org/obo/ncbitaxon#synonym",
+                "val": "Primata",
+                "xrefs": []
+              }
+            ],
+            "xrefs": [
+              {
+                "val": "GC_ID:1"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/NCBITaxon_9526",
+          "lbl": "Catarrhini",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+                "val": "http://purl.obolibrary.org/obo/NCBITaxon_parvorder"
+              },
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+                "val": "ncbi_taxonomy"
+              }
+            ],
+            "xrefs": [
+              {
+                "val": "GC_ID:1"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/NCBITaxon_9604",
+          "lbl": "Hominidae",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+                "val": "http://purl.obolibrary.org/obo/NCBITaxon_family"
+              },
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+                "val": "ncbi_taxonomy"
+              }
+            ],
+            "synonyms": [
+              {
+                "pred": "hasExactSynonym",
+                "synonymType": "http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name",
+                "val": "great apes",
+                "xrefs": []
+              },
+              {
+                "pred": "hasRelatedSynonym",
+                "synonymType": "http://purl.obolibrary.org/obo/ncbitaxon#synonym",
+                "val": "Pongidae",
+                "xrefs": []
+              }
+            ],
+            "xrefs": [
+              {
+                "val": "GC_ID:1"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/NCBITaxon_9605",
+          "lbl": "Homo",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+                "val": "http://purl.obolibrary.org/obo/NCBITaxon_genus"
+              },
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+                "val": "ncbi_taxonomy"
+              }
+            ],
+            "synonyms": [
+              {
+                "pred": "hasExactSynonym",
+                "synonymType": "http://purl.obolibrary.org/obo/ncbitaxon#common_name",
+                "val": "humans",
+                "xrefs": []
+              }
+            ],
+            "xrefs": [
+              {
+                "val": "GC_ID:1"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+          "lbl": "Homo sapiens",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+                "val": "http://purl.obolibrary.org/obo/NCBITaxon_species"
+              },
+              {
+                "pred": "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+                "val": "ncbi_taxonomy"
+              }
+            ],
+            "synonyms": [
+              {
+                "pred": "hasExactSynonym",
+                "synonymType": "http://purl.obolibrary.org/obo/ncbitaxon#common_name",
+                "val": "man",
+                "xrefs": []
+              },
+              {
+                "pred": "hasExactSynonym",
+                "synonymType": "http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name",
+                "val": "human",
                 "xrefs": []
               }
             ],
@@ -86711,6 +88023,11 @@
           "id": "http://purl.obolibrary.org/obo/GO_0016772",
           "lbl": "transferase activity, transferring phosphorus-containing groups",
           "type": "CLASS"
+        },
+        {
+          "id": "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+          "lbl": "has_broad_synonym",
+          "type": "PROPERTY"
         }
       ],
       "propertyChainAxioms": [
