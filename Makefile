@@ -2,7 +2,7 @@
 BUILDS = hg38 ce11 mm10 rn6
 # TODO: dm6
 
-all: all-chromAlias all-cytoBand src/ontology/imports/ucsc.owl
+all: all-chromAlias all-cytoBand src/ontology/components/ucsc.owl
 all-chromAlias: $(patsubst %, download/%-chromAlias.tsv, $(BUILDS))
 all-cytoBand: $(patsubst %, download/%-cytoBand.tsv, $(BUILDS))
 
@@ -19,12 +19,14 @@ components/%.owl: download/%-cytoBand.tsv download/%-chromAlias.tsv
 components/%.yaml: download/%-cytoBand.tsv download/%-chromAlias.tsv
 	python -m monochrom.monochrom $^ -f yaml -o $@
 
-src/ontology/imports/ucsc.ofn:
+src/ontology/tmp/ucsc.ofn:
 	python -m monochrom.monochrom download/*-*.tsv -o $@.tmp && mv $@.tmp $@
+.PRECIOUS: src/ontology/tmp/ucsc.ofn
 
-.PRECIOUS: src/ontology/imports/ucsc.ofn
-src/ontology/imports/ucsc.owl: src/ontology/imports/ucsc.ofn
-	robot convert -i $< -o $@
+ONTBASE=http://purl.obolibrary.org/obo/chr
+VERSION=$(shell date +%Y-%m-%d)
+src/ontology/components/ucsc.owl: src/ontology/tmp/ucsc.ofn
+	robot merge -i $< annotate --ontology-iri $(ONTBASE)/$@ annotate -V $(ONTBASE)/releases/$(VERSION)/$@ --annotation owl:versionInfo $(VERSION) convert -o $@
 
 ## Schema
 
