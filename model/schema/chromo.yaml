@@ -74,6 +74,9 @@ classes:
       - exact_mappings
       - exact_synonyms
       - broad_synonyms
+    slot_usage:
+      id:
+        pattern: '^CHR:\\S+$'
   Genome:
     description: |-
       Represents a sequenced genome, one per species.
@@ -118,6 +121,8 @@ slots:
     identifier: true
     pattern: '^CHR:\\S+$'
     required: true
+    description: >-
+      A unique identifier
     comments:
       - will be of form CHR:....
   band_descriptor:
@@ -141,14 +146,17 @@ slots:
     slot_uri: rdfs:label
   common_name:
     range: LabelType
-    slot_uri: oio:hasExactSynonym
+    slot_uri: OIO:hasExactSynonym
   type:
     range: EntityType
     slot_uri: rdf:type
-  chromosome_type:
-    range: ChromosomeType
+  somal_type:
+    range: AutosomeVsSexChromosome
   sex_chromosome_type:
     range: SexChromosomeType
+  cell_location:
+    range: LocationType
+    slot_uri: BFO:0000050
   is_autosome:
     range: boolean
     required: false
@@ -206,11 +214,11 @@ enums:
         meaning: GO:0098687
         see_also:
           - SO:0000830
-  ChromosomeType:
+  AutosomeVsSexChromosome:
     description: >-
       sex or autosome
     permissible_values:
-      sex chromosome:
+      sex_chromosome:
         meaning: GO:0000803
       autosome:
         meaning: GO:0030849
@@ -222,6 +230,10 @@ enums:
         meaning: GO:0000805
       Y:
         meaning: GO:0000806
+      W:
+        meaning: GO:0000804
+      Z:
+        meaning: GO:0000807
   LocationType:
     description: >-
       where in the cell

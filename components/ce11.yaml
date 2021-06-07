@@ -1,98 +1,159 @@
-CHR:ce-chrI:
-  id: CHR:ce-chrI
-  band_descriptor: ''
-  chromosome_name: chrI
-  build: ce11
-  name: chrI (Caenorhabditis elegans)
-  type:
-    text: chromosome
-    meaning: http://purl.obolibrary.org/obo/GO_0005694
-  taxon: NCBITaxon:10116
-  start: 0
-  end: 15072434
-  exact_mappings:
-  - refseq:NC_003279.8
-CHR:ce-chrII:
-  id: CHR:ce-chrII
-  band_descriptor: ''
-  chromosome_name: chrII
-  build: ce11
-  name: chrII (Caenorhabditis elegans)
-  type:
-    text: chromosome
-    meaning: http://purl.obolibrary.org/obo/GO_0005694
-  taxon: NCBITaxon:10116
-  start: 0
-  end: 15279421
-  exact_mappings:
-  - refseq:NC_003280.10
-CHR:ce-chrIII:
-  id: CHR:ce-chrIII
-  band_descriptor: ''
-  chromosome_name: chrIII
-  build: ce11
-  name: chrIII (Caenorhabditis elegans)
-  type:
-    text: chromosome
-    meaning: http://purl.obolibrary.org/obo/GO_0005694
-  taxon: NCBITaxon:10116
-  start: 0
-  end: 13783801
-  exact_mappings:
-  - refseq:NC_003281.10
-CHR:ce-chrIV:
-  id: CHR:ce-chrIV
-  band_descriptor: ''
-  chromosome_name: chrIV
-  build: ce11
-  name: chrIV (Caenorhabditis elegans)
-  type:
-    text: chromosome
-    meaning: http://purl.obolibrary.org/obo/GO_0005694
-  taxon: NCBITaxon:10116
-  start: 0
-  end: 17493829
-  exact_mappings:
-  - refseq:NC_003282.8
-CHR:ce-chrM:
-  id: CHR:ce-chrM
-  band_descriptor: ''
-  chromosome_name: chrM
-  build: ce11
-  name: chrM (Caenorhabditis elegans)
-  type:
-    text: chromosome
-    meaning: http://purl.obolibrary.org/obo/GO_0005694
-  taxon: NCBITaxon:10116
-  start: 0
-  end: 13794
-  exact_mappings:
-  - refseq:NC_001328.1
-CHR:ce-chrV:
-  id: CHR:ce-chrV
-  band_descriptor: ''
-  chromosome_name: chrV
-  build: ce11
-  name: chrV (Caenorhabditis elegans)
-  type:
-    text: chromosome
-    meaning: http://purl.obolibrary.org/obo/GO_0005694
-  taxon: NCBITaxon:10116
-  start: 0
-  end: 20924180
-  exact_mappings:
-  - refseq:NC_003283.11
-CHR:ce-chrX:
-  id: CHR:ce-chrX
-  band_descriptor: ''
-  chromosome_name: chrX
-  build: ce11
-  name: chrX (Caenorhabditis elegans)
-  type:
-    text: chromosome
-    meaning: http://purl.obolibrary.org/obo/GO_0005694
-  taxon: NCBITaxon:10116
-  start: 0
-  end: 17718942
-  exact_mappings:
-  - refseq:NC_003284.9
+name: foo
+has:
+  CHR:6239-chrI:
+    id: CHR:6239-chrI
+    band_descriptor: ''
+    chromosome_name: chrI
+    build: ce11
+    name: chrI (C elegans)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    taxon: NCBITaxon:6239
+    start: 0
+    end: 15072434
+    exact_mappings:
+    - refseq:NC_003279.8
+    broad_synonyms:
+    - I
+  CHR:6239-chrII:
+    id: CHR:6239-chrII
+    band_descriptor: ''
+    chromosome_name: chrII
+    build: ce11
+    name: chrII (C elegans)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    taxon: NCBITaxon:6239
+    start: 0
+    end: 15279421
+    exact_mappings:
+    - refseq:NC_003280.10
+    broad_synonyms:
+    - II
+  CHR:6239-chrIII:
+    id: CHR:6239-chrIII
+    band_descriptor: ''
+    chromosome_name: chrIII
+    build: ce11
+    name: chrIII (C elegans)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    taxon: NCBITaxon:6239
+    start: 0
+    end: 13783801
+    exact_mappings:
+    - refseq:NC_003281.10
+    broad_synonyms:
+    - III
+  CHR:6239-chrIV:
+    id: CHR:6239-chrIV
+    band_descriptor: ''
+    chromosome_name: chrIV
+    build: ce11
+    name: chrIV (C elegans)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    taxon: NCBITaxon:6239
+    start: 0
+    end: 17493829
+    exact_mappings:
+    - refseq:NC_003282.8
+    broad_synonyms:
+    - IV
+  CHR:6239-chrM:
+    id: CHR:6239-chrM
+    band_descriptor: ''
+    chromosome_name: chrM
+    build: ce11
+    name: chrM (C elegans)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    taxon: NCBITaxon:6239
+    start: 0
+    end: 13794
+    exact_mappings:
+    - refseq:NC_001328.1
+    broad_synonyms:
+    - MtDNA
+  CHR:6239-chrV:
+    id: CHR:6239-chrV
+    band_descriptor: ''
+    chromosome_name: chrV
+    build: ce11
+    name: chrV (C elegans)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    taxon: NCBITaxon:6239
+    start: 0
+    end: 20924180
+    exact_mappings:
+    - refseq:NC_003283.11
+    broad_synonyms:
+    - V
+  CHR:6239-chrX:
+    id: CHR:6239-chrX
+    band_descriptor: ''
+    chromosome_name: chrX
+    build: ce11
+    name: chrX (C elegans)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    taxon: NCBITaxon:6239
+    start: 0
+    end: 17718942
+    exact_mappings:
+    - refseq:NC_003284.9
+    broad_synonyms:
+    - X
+genomes:
+  mm:
+    id: mm
+    name: Mouse
+    taxon: NCBITaxon:10090
+  hg:
+    id: hg
+    name: Human
+    taxon: NCBITaxon:9606
+  dm:
+    id: dm
+    name: Drosophila melanogaster
+    taxon: NCBITaxon:7227
+  danRer:
+    id: danRer
+    name: Danio rerio
+    taxon: NCBITaxon:7955
+  rn:
+    id: rn
+    name: Rat
+    taxon: NCBITaxon:10116
+  ce:
+    id: ce
+    name: C elegans
+    taxon: NCBITaxon:6239
+    build: ce11
+taxons:
+  NCBITaxon:10090:
+    id: NCBITaxon:10090
+    name: Mus musculus
+  NCBITaxon:9606:
+    id: NCBITaxon:9606
+    name: Homo sapiens
+  NCBITaxon:7227:
+    id: NCBITaxon:7227
+    name: Drosophila melanogaster
+  NCBITaxon:7955:
+    id: NCBITaxon:7955
+    name: Danio rerio
+  NCBITaxon:10116:
+    id: NCBITaxon:10116
+    name: Rattus norvegicus
+  NCBITaxon:6239:
+    id: NCBITaxon:6239
+    name: Caenorhabditis elegans
