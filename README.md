@@ -98,10 +98,17 @@ The code monochrom.py takes care of
  - parsing files to the chromo datamodel
     - cytoBand.txt files - with the core coordinate info
     - chromAliases.txt files - with alternate names and mappings
+ - additional processing
+    - assigning synonyms
+    - inferring parent bands and arms (UCSC files only give coordinates for most granular subdivisions)
+    - validation, e.g. range checking
  - mapping the chromo datamodel
     - mapping to OWL
+    - (TODO) mapping tp KGX via Koza
 
 Note that the chromo objects will naturally serialize to YAML. See the components/ directory for examples. We provide both OWL and YAML
+
+The mapping to OWL is handled with relatively generic code that uses slot and class uris defined in the LinkML schema - thus keeping things relaively generic. In future we may instead emit a CSV and use ROBOT templates (mapping from LinkML to robot templates is in the works)
 
 ## Contact
 
