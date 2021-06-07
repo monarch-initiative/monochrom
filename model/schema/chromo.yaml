@@ -1,7 +1,10 @@
 id: https://w3id.org/biodatamodels/chromoschema
-name: chromoschema
-description: >-
-  Chromosomes
+name: ChromoSchema
+description: |-
+  Schema for representing Chromosomes and Chromosomal Regions.
+
+  Objects created using this schema can be directly worked with in YAML/Python,
+  Additionally they can be translated to OWL
 imports:
   - linkml:types
 prefixes:
@@ -50,6 +53,10 @@ classes:
   ChromosomePart:
     description: |-
       A Chromosome or a part of a chromosome (includes whole chromosomes, arms, and bands)
+    comments:
+      - |-
+        OWL Notes: when translated to OWL, instances of this class will be treated as
+        OWL classes, with the superclass determined by the type field
     slots:
       - id
       - band_descriptor
@@ -98,6 +105,8 @@ classes:
       id:
         description: E.g. mm10
   OrganismTaxon:
+    description: >-
+      Represents a species, e.g. Homo sapiens
     class_uri: biolink:OrganismTaxon
     slots:
       - id

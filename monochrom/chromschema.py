@@ -1,9 +1,10 @@
 # Auto generated from chromo.yaml by pythongen.py version: 0.9.0
-# Generation date: 2021-06-06 16:21
-# Schema: chromoschema
+# Generation date: 2021-06-06 19:28
+# Schema: ChromoSchema
 #
 # id: https://w3id.org/biodatamodels/chromoschema
-# description: Chromosomes
+# description: Schema for representing Chromosomes and Chromosomal Regions. Objects created using this schema can
+#              be directly worked with in YAML/Python, Additionally they can be translated to OWL
 # license: https://creativecommons.org/publicdomain/zero/1.0/
 
 import dataclasses
@@ -320,6 +321,9 @@ class GenomeBuild(YAMLRoot):
 
 @dataclass
 class OrganismTaxon(YAMLRoot):
+    """
+    Represents a species, e.g. Homo sapiens
+    """
     _inherited_slots: ClassVar[List[str]] = []
 
     class_class_uri: ClassVar[URIRef] = BIOLINK.OrganismTaxon

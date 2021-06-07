@@ -9,6 +9,11 @@ This ontology may eventually be housed at http://obofoundry.org/ontology/chr
 
 Currently we use obolibrary PURLs, but this could potentially be changed to e.g. w3ids, depending on discussion re databases in OBO
 
+Until this is released, you can browse either:
+
+ * chr.owl -- multiple species in one ontology, with minimal imports merged
+ * [components](components/) -- one file per species, both OWL and YAML
+
 ## About
 
 This "ontology" is a direct conversion of metadata about chromosomes and chromosome bands obtained from UCSC
