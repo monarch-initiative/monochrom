@@ -1,5 +1,4 @@
-[![Build Status](https://travis-ci.org/monarch-initiative/monochrom.svg?branch=master)](https://travis-ci.org/monarch-initiative/monochrom)
-[![DOI](https://zenodo.org/badge/13996/monarch-initiative/monochrom.svg)](https://zenodo.org/badge/latestdoi/13996/monarch-initiative/monochrom)
+![Build Status](https://github.com/monarch-initiative/monochrom/workflows/CI/badge.svg)
 
 # Chromosome Ontology
 
@@ -81,6 +80,13 @@ pip install -r requirements.txt
 make
 ```
 
+This will update the monochrom component in `src/ontology/components/ucsc.owl`. To produce and official ODK release:
+
+```bash
+cd src/ontology
+make prepare_release
+```
+
 The [Makefile](Makefile) and the metadata file [genomes.yaml](genomes.yaml) drive the python code in [monochrom/](monochrom/).
 
 To add more genomes, it is necessary to etxend both the Makefile and the genomes metadata file, but this could be made more elegant in the future.
@@ -123,4 +129,4 @@ Please use this GitHub repository's [Issue tracker](https://github.com/monarch-i
 
 ## Acknowledgements
 
-This ontology repository was created using the [ontology starter kit](https://github.com/INCATools/ontology-starter-kit)
+This ontology repository was created using the [ontology development kit](https://github.com/INCATools/ontology-development-kit)
