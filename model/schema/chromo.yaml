@@ -1,0 +1,256 @@
+id: https://w3id.org/biodatamodels/chromoschema
+name: ChromoSchema
+description: |-
+  Schema for representing Chromosomes and Chromosomal Regions.
+
+  Objects created using this schema can be directly worked with in YAML/Python,
+  Additionally they can be translated to OWL
+imports:
+  - linkml:types
+prefixes:
+  linkml: https://w3id.org/linkml/
+  biolink: https://w3id.org/biolink/vocab/
+  chromoschema: https://w3id.org/biodatamodels/chromoschema/
+  gff: https://w3id.org/biodatamodels/gff/
+  faldo: http://biohackathon.org/resource/faldo#
+  chr: http://purl.obolibrary.org/obo/CHR_
+  SO: http://purl.obolibrary.org/obo/SO_
+  GO: http://purl.obolibrary.org/obo/GO_
+  BFO: http://purl.obolibrary.org/obo/BFO_
+  RO: http://purl.obolibrary.org/obo/RO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  edam: http://edamontology.org/
+  refseq: http://identifiers.org/refseq/
+  insdc: http://identifiers.org/insdc/
+  ensembl: http://identifiers.org/ensembl/
+  OIO: http://www.geneontology.org/formats/oboInOwl#
+  skos: http://www.w3.org/2004/02/skos/core#
+
+default_prefix: chromoschema
+default_curi_maps:
+  - semweb_context
+
+classes:
+  ChromosomePartCollection:
+    attributes:
+      name:
+        required: false
+      has:
+        range: ChromosomePart
+        multivalued: true
+        inlined: true
+        slot_uri: dcterms:hasPart
+      genomes:
+        range: Genome
+        multivalued: true
+        inlined: true
+        slot_uri: dcterms:hasPart
+      taxons:
+        range: OrganismTaxon
+        multivalued: true
+        inlined: true
+        slot_uri: dcterms:hasPart
+  ChromosomePart:
+    description: |-
+      A Chromosome or a part of a chromosome (includes whole chromosomes, arms, and bands)
+    comments:
+      - |-
+        OWL Notes: when translated to OWL, instances of this class will be treated as
+        OWL classes, with the superclass determined by the type field
+    slots:
+      - id
+      - band_descriptor
+      - chromosome_name
+      - build
+      - name
+      - type
+      - is_autosome
+      - is_band
+      - taxon
+      - start
+      - end
+      - children
+      - parent
+      - exact_mappings
+      - exact_synonyms
+      - broad_synonyms
+  Genome:
+    description: |-
+      Represents a sequenced genome, one per species.
+      Each genome can be associated with one or more builds
+    slots:
+      - id
+      - name
+      - taxon
+      - build
+      - previous_builds
+    slot_usage:
+      id:
+        description: E.g. mm, hg
+        pattern: '^\\w+$'
+      name:
+        description: E.g. Homo sapiens
+        required: true
+      build:
+        description: the current genome build for this genome
+  GenomeBuild:
+    description: |-
+      Represents a specific build of a sequenced genome
+    close_mappings:
+      - edam:operation_0525
+    slots:
+      - id
+      - name
+    slot_usage:
+      id:
+        description: E.g. mm10
+  OrganismTaxon:
+    description: >-
+      Represents a species, e.g. Homo sapiens
+    class_uri: biolink:OrganismTaxon
+    slots:
+      - id
+      - name
+      - common_name
+
+slots:
+  id:
+    identifier: true
+    pattern: '^CHR:\\S+$'
+    required: true
+    comments:
+      - will be of form CHR:....
+  band_descriptor:
+    range: BandDescriptor
+    comments:
+      - for a chromosome, this is empty
+  chromosome_name:
+    range: ChromosomeNameType
+  build:
+    description: E.g hg38
+    range: GenomeBuild
+    slot_uri: biolink:genome_build
+    exact_mappings:
+      - gff:genome_build
+      - edam:data_2340
+  previous_builds:
+    range: GenomeBuild
+    multivalued: true
+  name:
+    range: LabelType
+    slot_uri: rdfs:label
+  common_name:
+    range: LabelType
+    slot_uri: oio:hasExactSynonym
+  type:
+    range: EntityType
+    slot_uri: rdf:type
+  chromosome_type:
+    range: ChromosomeType
+  sex_chromosome_type:
+    range: SexChromosomeType
+  is_autosome:
+    range: boolean
+    required: false
+  is_band:
+    range: boolean
+    required: false
+  taxon:
+    range: TaxonIdentifier
+    required: false
+    slot_uri: RO:0002162
+  start:
+    range: integer
+    slot_uri: gff:start
+  end:
+    range: integer
+    slot_uri: gff:end
+  strand:
+    range: StrandType
+    slot_uri: gff:strand
+    exact_mappings:
+      - biolink:strand
+    required: true
+  children:
+    range: ChromosomePart
+    multivalued: true
+    slot_uri: BFO:0000051
+  parent:
+    range: ChromosomePart
+    slot_uri: BFO:0000050
+  exact_synonyms:
+    multivalued: true
+    slot_uri: OIO:hasExactSynonym
+  broad_synonyms:
+    multivalued: true
+    slot_uri: OIO:hasBroadSynonym
+  exact_mappings:
+    multivalued: true
+    range: uriorcurie
+    slot_uri: skos:exactMatch
+  download_url:
+    range: uri
+
+enums:
+  EntityType:
+    description: >-
+      SO or GO type
+    todos:
+      - decide SO vs GO
+    permissible_values:
+      chromosome:
+        meaning: GO:0005694
+        see_also:
+          - SO:0000340
+      chromosome_part:
+        meaning: GO:0098687
+        see_also:
+          - SO:0000830
+  ChromosomeType:
+    description: >-
+      sex or autosome
+    permissible_values:
+      sex chromosome:
+        meaning: GO:0000803
+      autosome:
+        meaning: GO:0030849
+  SexChromosomeType:
+    description: >-
+      what type of sex chromosome
+    permissible_values:
+      X:
+        meaning: GO:0000805
+      Y:
+        meaning: GO:0000806
+  LocationType:
+    description: >-
+      where in the cell
+    permissible_values:
+      nucleus:
+        meaning: GO:0000803
+      mitochondrion:
+        meaning: GO:0030849
+  ChromatinType:
+    permissible_values:
+      heterochromatin:
+        meaning: GO:0000792
+      euchromatin:
+        meaning: GO:0000791
+
+types:
+  TaxonIdentifier:
+    typeof: string
+  BandDescriptor:
+    typeof: string
+    description: >-
+      e.g. p, p1, p1.1, ...
+  ChromosomeNameType:
+    typeof: string
+    description: E.g. chr1
+  StrandType:
+    typeof: integer
+    description: 0, 1, or -1
+  LabelType:
+    typeof: string
+    description: >-
+      A string that provides a human-readable name for an entity

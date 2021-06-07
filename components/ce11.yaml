@@ -1,0 +1,98 @@
+CHR:ce-chrI:
+  id: CHR:ce-chrI
+  band_descriptor: ''
+  chromosome_name: chrI
+  build: ce11
+  name: chrI (Caenorhabditis elegans)
+  type:
+    text: chromosome
+    meaning: http://purl.obolibrary.org/obo/GO_0005694
+  taxon: NCBITaxon:10116
+  start: 0
+  end: 15072434
+  exact_mappings:
+  - refseq:NC_003279.8
+CHR:ce-chrII:
+  id: CHR:ce-chrII
+  band_descriptor: ''
+  chromosome_name: chrII
+  build: ce11
+  name: chrII (Caenorhabditis elegans)
+  type:
+    text: chromosome
+    meaning: http://purl.obolibrary.org/obo/GO_0005694
+  taxon: NCBITaxon:10116
+  start: 0
+  end: 15279421
+  exact_mappings:
+  - refseq:NC_003280.10
+CHR:ce-chrIII:
+  id: CHR:ce-chrIII
+  band_descriptor: ''
+  chromosome_name: chrIII
+  build: ce11
+  name: chrIII (Caenorhabditis elegans)
+  type:
+    text: chromosome
+    meaning: http://purl.obolibrary.org/obo/GO_0005694
+  taxon: NCBITaxon:10116
+  start: 0
+  end: 13783801
+  exact_mappings:
+  - refseq:NC_003281.10
+CHR:ce-chrIV:
+  id: CHR:ce-chrIV
+  band_descriptor: ''
+  chromosome_name: chrIV
+  build: ce11
+  name: chrIV (Caenorhabditis elegans)
+  type:
+    text: chromosome
+    meaning: http://purl.obolibrary.org/obo/GO_0005694
+  taxon: NCBITaxon:10116
+  start: 0
+  end: 17493829
+  exact_mappings:
+  - refseq:NC_003282.8
+CHR:ce-chrM:
+  id: CHR:ce-chrM
+  band_descriptor: ''
+  chromosome_name: chrM
+  build: ce11
+  name: chrM (Caenorhabditis elegans)
+  type:
+    text: chromosome
+    meaning: http://purl.obolibrary.org/obo/GO_0005694
+  taxon: NCBITaxon:10116
+  start: 0
+  end: 13794
+  exact_mappings:
+  - refseq:NC_001328.1
+CHR:ce-chrV:
+  id: CHR:ce-chrV
+  band_descriptor: ''
+  chromosome_name: chrV
+  build: ce11
+  name: chrV (Caenorhabditis elegans)
+  type:
+    text: chromosome
+    meaning: http://purl.obolibrary.org/obo/GO_0005694
+  taxon: NCBITaxon:10116
+  start: 0
+  end: 20924180
+  exact_mappings:
+  - refseq:NC_003283.11
+CHR:ce-chrX:
+  id: CHR:ce-chrX
+  band_descriptor: ''
+  chromosome_name: chrX
+  build: ce11
+  name: chrX (Caenorhabditis elegans)
+  type:
+    text: chromosome
+    meaning: http://purl.obolibrary.org/obo/GO_0005694
+  taxon: NCBITaxon:10116
+  start: 0
+  end: 17718942
+  exact_mappings:
+  - refseq:NC_003284.9

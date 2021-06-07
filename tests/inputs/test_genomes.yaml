@@ -1,0 +1,33 @@
+name: foo
+genomes:
+  mm:
+    taxon: NCBITaxon:10090
+    name: Mouse
+  hg:
+    taxon: NCBITaxon:9606
+    name: Human
+  dm:
+    taxon: NCBITaxon:7227
+    name: Drosophila melanogaster
+  danRer:
+    taxon: NCBITaxon:7955
+    name: Danio rerio
+  rn:
+    taxon: NCBITaxon:10116
+    name: Rat
+  ce:
+    taxon: NCBITaxon:6239
+    name: C elegans
+taxons:
+  NCBITaxon:10090:
+    name: Mus musculus
+  NCBITaxon:9606:
+    name: Homo sapiens
+  NCBITaxon:7227:
+    name: Drosophila melanogaster
+  NCBITaxon:7955:
+    name: Danio rerio
+  NCBITaxon:10116:
+    name: Rattus norvegicus
+  NCBITaxon:6239:
+    name: Caenorhabditis elegans
