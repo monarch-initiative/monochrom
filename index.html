@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="None">
+  
+  
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <title>Chromosome Ontology</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="css/theme.css" />
+  <link rel="stylesheet" href="css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Index";
+    var mkdocs_page_input_path = "index.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="js/jquery-2.1.1.min.js" defer></script>
+  <script src="js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="." class="icon icon-home"> Chromosome Ontology</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href=".">Index</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#classes">Classes</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mixins">Mixins</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#slots">Slots</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#types">Types</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#built-in">Built in</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#defined">Defined</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href=".">Chromosome Ontology</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Index</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="chromoschema-schema">Chromoschema schema</h1>
+<p>Chromosomes</p>
+<h3 id="classes">Classes</h3>
+<ul>
+<li><a href="ChromosomePart/">ChromosomePart</a> - A Chromosome or a part of a chromosome (includes whole chromosomes, arms, and bands)</li>
+<li><a href="ChromosomePartCollection/">ChromosomePartCollection</a></li>
+<li><a href="Genome/">Genome</a> - Represents a sequenced genome, one per species.</li>
+<li><a href="GenomeBuild/">GenomeBuild</a> - Represents a specific build of a sequenced genome</li>
+<li><a href="OrganismTaxon/">OrganismTaxon</a></li>
+</ul>
+<h3 id="mixins">Mixins</h3>
+<h3 id="slots">Slots</h3>
+<ul>
+<li><a href="band_descriptor/">band_descriptor</a></li>
+<li><a href="broad_synonyms/">broad_synonyms</a></li>
+<li><a href="build/">build</a> - E.g hg38<ul>
+<li><a href="Genome_build/">Genome➞build</a> - the current genome build for this genome</li>
+</ul>
+</li>
+<li><a href="children/">children</a></li>
+<li><a href="chromosomePartCollection__genomes/">➞genomes</a></li>
+<li><a href="chromosomePartCollection__has/">➞has</a></li>
+<li><a href="chromosomePartCollection__name/">➞name</a></li>
+<li><a href="chromosomePartCollection__taxons/">➞taxons</a></li>
+<li><a href="chromosome_name/">chromosome_name</a></li>
+<li><a href="chromosome_type/">chromosome_type</a></li>
+<li><a href="common_name/">common_name</a></li>
+<li><a href="download_url/">download_url</a></li>
+<li><a href="end/">end</a></li>
+<li><a href="exact_mappings/">exact_mappings</a></li>
+<li><a href="exact_synonyms/">exact_synonyms</a></li>
+<li><a href="id/">id</a><ul>
+<li><a href="GenomeBuild_id/">GenomeBuild➞id</a> - E.g. mm10</li>
+<li><a href="Genome_id/">Genome➞id</a> - E.g. mm, hg</li>
+</ul>
+</li>
+<li><a href="is_autosome/">is_autosome</a></li>
+<li><a href="is_band/">is_band</a></li>
+<li><a href="name/">name</a><ul>
+<li><a href="Genome_name/">Genome➞name</a> - E.g. Homo sapiens</li>
+</ul>
+</li>
+<li><a href="parent/">parent</a></li>
+<li><a href="previous_builds/">previous_builds</a></li>
+<li><a href="sex_chromosome_type/">sex_chromosome_type</a></li>
+<li><a href="start/">start</a></li>
+<li><a href="strand/">strand</a></li>
+<li><a href="taxon/">taxon</a></li>
+<li><a href="type/">type</a></li>
+</ul>
+<h3 id="types">Types</h3>
+<h4 id="built-in">Built in</h4>
+<ul>
+<li><strong>Bool</strong></li>
+<li><strong>Decimal</strong></li>
+<li><strong>ElementIdentifier</strong></li>
+<li><strong>NCName</strong></li>
+<li><strong>NodeIdentifier</strong></li>
+<li><strong>URI</strong></li>
+<li><strong>URIorCURIE</strong></li>
+<li><strong>XSDDate</strong></li>
+<li><strong>XSDDateTime</strong></li>
+<li><strong>XSDTime</strong></li>
+<li><strong>float</strong></li>
+<li><strong>int</strong></li>
+<li><strong>str</strong></li>
+</ul>
+<h4 id="defined">Defined</h4>
+<ul>
+<li><a href="types/BandDescriptor/">BandDescriptor</a>  (<a href="types/String/">String</a>)  - e.g. p, p1, p1.1, ...</li>
+<li><a href="types/ChromosomeNameType/">ChromosomeNameType</a>  (<a href="types/String/">String</a>)  - E.g. chr1</li>
+<li><a href="types/LabelType/">LabelType</a>  (<a href="types/String/">String</a>)  - A string that provides a human-readable name for an entity</li>
+<li><a href="types/StrandType/">StrandType</a>  (<a href="types/Integer/">Integer</a>)  - 0, 1, or -1</li>
+<li><a href="types/TaxonIdentifier/">TaxonIdentifier</a>  (<a href="types/String/">String</a>) </li>
+<li><a href="types/Boolean/">Boolean</a>  (<strong>Bool</strong>)  - A binary (true or false) value</li>
+<li><a href="types/Date/">Date</a>  (<strong>XSDDate</strong>)  - a date (year, month and day) in an idealized calendar</li>
+<li><a href="types/Datetime/">Datetime</a>  (<strong>XSDDateTime</strong>)  - The combination of a date and time</li>
+<li><a href="types/Decimal/">Decimal</a>  (<strong>Decimal</strong>)  - A real number with arbitrary precision that conforms to the xsd:decimal specification</li>
+<li><a href="types/Double/">Double</a>  (<strong>float</strong>)  - A real number that conforms to the xsd:double specification</li>
+<li><a href="types/Float/">Float</a>  (<strong>float</strong>)  - A real number that conforms to the xsd:float specification</li>
+<li><a href="types/Integer/">Integer</a>  (<strong>int</strong>)  - An integer</li>
+<li><a href="types/Ncname/">Ncname</a>  (<strong>NCName</strong>)  - Prefix part of CURIE</li>
+<li><a href="types/Nodeidentifier/">Nodeidentifier</a>  (<strong>NodeIdentifier</strong>)  - A URI, CURIE or BNODE that represents a node in a model.</li>
+<li><a href="types/Objectidentifier/">Objectidentifier</a>  (<strong>ElementIdentifier</strong>)  - A URI or CURIE that represents an object in the model.</li>
+<li><a href="types/String/">String</a>  (<strong>str</strong>)  - A character string</li>
+<li><a href="types/Time/">Time</a>  (<strong>XSDTime</strong>)  - A time object represents a (local) time of day, independent of any particular day</li>
+<li><a href="types/Uri/">Uri</a>  (<strong>URI</strong>)  - a complete URI</li>
+<li><a href="types/Uriorcurie/">Uriorcurie</a>  (<strong>URIorCURIE</strong>)  - a URI or a CURIE</li>
+</ul>
+              
+            </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+      
+    </span>
+</div>
+    <script>var base_url = '.';</script>
+    <script src="js/theme.js" defer></script>
+      <script src="search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
+
+<!--
+MkDocs version : 1.1.2
+Build Date UTC : 2021-06-07 02:13:18.029628+00:00
+-->

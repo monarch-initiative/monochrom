@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Class: ChromosomePart - Chromosome Ontology</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../css/theme.css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Class: ChromosomePart";
+    var mkdocs_page_input_path = "ChromosomePart.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Chromosome Ontology</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="..">Index</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Chromosome Ontology</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Class: ChromosomePart</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="class-chromosomepart">Class: ChromosomePart</h1>
+<p>A Chromosome or a part of a chromosome (includes whole chromosomes, arms, and bands)</p>
+<p>URI: <a href="https://w3id.org/biodatamodels/chromoschema/ChromosomePart">chromoschema:ChromosomePart</a></p>
+<p><img alt="img" src="http://yuml.me/diagram/nofunky;dir:TB/class/[GenomeBuild],[ChromosomePart]&lt;parent%200..1-%20[ChromosomePart&#124;id:string;band_descriptor:BandDescriptor%20%3F;chromosome_name:ChromosomeNameType%20%3F;name:LabelType%20%3F;type:EntityType%20%3F;is_autosome:boolean%20%3F;is_band:boolean%20%3F;taxon:TaxonIdentifier%20%3F;start:integer%20%3F;end:integer%20%3F;exact_mappings:uriorcurie%20*;exact_synonyms:string%20*;broad_synonyms:string%20*],[ChromosomePart]&lt;children%200..*-%20[ChromosomePart],[GenomeBuild]&lt;build%200..1-%20[ChromosomePart],[ChromosomePartCollection]++-%20has%200..*&gt;[ChromosomePart],[ChromosomePartCollection]" /></p>
+<h2 id="referenced-by-class">Referenced by class</h2>
+<ul>
+<li><strong>None</strong> <em><a href="../children/">children</a></em>  <sub>0..<em></sub>  </em><em><a href="./">ChromosomePart</a></em>*</li>
+<li><strong>None</strong> <em><a href="../chromosomePartCollection__has/">➞has</a></em>  <sub>0..<em></sub>  </em><em><a href="./">ChromosomePart</a></em>*</li>
+<li><strong>None</strong> <em><a href="../parent/">parent</a></em>  <sub>OPT</sub>  <strong><a href="./">ChromosomePart</a></strong></li>
+</ul>
+<h2 id="attributes">Attributes</h2>
+<h3 id="own">Own</h3>
+<ul>
+<li><a href="../band_descriptor/">band_descriptor</a>  <sub>OPT</sub><ul>
+<li>range: <a href="../types/BandDescriptor/">BandDescriptor</a></li>
+</ul>
+</li>
+<li><a href="../broad_synonyms/">broad_synonyms</a>  <sub>0..*</sub><ul>
+<li>range: <a href="../types/String/">String</a></li>
+</ul>
+</li>
+<li><a href="../build/">build</a>  <sub>OPT</sub><ul>
+<li>Description: E.g hg38</li>
+<li>range: <a href="../GenomeBuild/">GenomeBuild</a></li>
+</ul>
+</li>
+<li><a href="../children/">children</a>  <sub>0..*</sub><ul>
+<li>range: <a href="./">ChromosomePart</a></li>
+</ul>
+</li>
+<li><a href="../chromosome_name/">chromosome_name</a>  <sub>OPT</sub><ul>
+<li>range: <a href="../types/ChromosomeNameType/">ChromosomeNameType</a></li>
+</ul>
+</li>
+<li><a href="../end/">end</a>  <sub>OPT</sub><ul>
+<li>range: <a href="../types/Integer/">Integer</a></li>
+</ul>
+</li>
+<li><a href="../exact_mappings/">exact_mappings</a>  <sub>0..*</sub><ul>
+<li>range: <a href="../types/Uriorcurie/">Uriorcurie</a></li>
+</ul>
+</li>
+<li><a href="../exact_synonyms/">exact_synonyms</a>  <sub>0..*</sub><ul>
+<li>range: <a href="../types/String/">String</a></li>
+</ul>
+</li>
+<li><a href="../id/">id</a>  <sub>REQ</sub><ul>
+<li>range: <a href="../types/String/">String</a></li>
+</ul>
+</li>
+<li><a href="../is_autosome/">is_autosome</a>  <sub>OPT</sub><ul>
+<li>range: <a href="../types/Boolean/">Boolean</a></li>
+</ul>
+</li>
+<li><a href="../is_band/">is_band</a>  <sub>OPT</sub><ul>
+<li>range: <a href="../types/Boolean/">Boolean</a></li>
+</ul>
+</li>
+<li><a href="../name/">name</a>  <sub>OPT</sub><ul>
+<li>range: <a href="../types/LabelType/">LabelType</a></li>
+</ul>
+</li>
+<li><a href="../parent/">parent</a>  <sub>OPT</sub><ul>
+<li>range: <a href="./">ChromosomePart</a></li>
+</ul>
+</li>
+<li><a href="../start/">start</a>  <sub>OPT</sub><ul>
+<li>range: <a href="../types/Integer/">Integer</a></li>
+</ul>
+</li>
+<li><a href="../taxon/">taxon</a>  <sub>OPT</sub><ul>
+<li>range: <a href="../types/TaxonIdentifier/">TaxonIdentifier</a></li>
+</ul>
+</li>
+<li><a href="../type/">type</a>  <sub>OPT</sub><ul>
+<li>range: </li>
+</ul>
+</li>
+</ul>
+              
+            </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
