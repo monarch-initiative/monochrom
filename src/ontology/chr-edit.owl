@@ -21,6 +21,7 @@ Ontology(<http://purl.obolibrary.org/obo/chr.owl>
   Annotation(dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/>)
   Annotation(dce:description "Automatic translation of UCSC chromosome bands to OWL classes")
   Import(<http://purl.obolibrary.org/obo/chr/imports/so_import.owl>)
+  Import(<http://purl.obolibrary.org/obo/chr/imports/go_import.owl>)
   Import(<http://purl.obolibrary.org/obo/chr/imports/ro_import.owl>)
   Import(<http://purl.obolibrary.org/obo/chr/imports/ncbitaxon_import.owl>)
   Import(<http://purl.obolibrary.org/obo/chr/components/ucsc.owl>)

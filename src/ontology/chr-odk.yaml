@@ -10,6 +10,7 @@ import_group:
   products:
   - id: ro
   - id: so
+  - id: go
   - id: geno
   - id: ncbitaxon
     mirror_from: http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl
@@ -21,6 +22,7 @@ release_artefacts:
 repo: monochrom
 title: monochrom
 use_dosdps: false
+remove_owl_nothing: true
 components:
   products:
     - filename: ucsc.owl
