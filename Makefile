@@ -6,6 +6,9 @@ all: all-chromAlias all-cytoBand src/ontology/components/ucsc.owl
 all-chromAlias: $(patsubst %, download/%-chromAlias.tsv, $(BUILDS))
 all-cytoBand: $(patsubst %, download/%-cytoBand.tsv, $(BUILDS))
 
+test:
+	pytest
+
 download/%-chromAlias.tsv:
 	curl -L -s http://hgdownload.cse.ucsc.edu/goldenPath/$*/database/chromAlias.txt.gz | gzip -dc > $@
 download/%-cytoBand.tsv:

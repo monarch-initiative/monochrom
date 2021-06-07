@@ -64,8 +64,9 @@ classes:
       - build
       - name
       - type
-      - is_autosome
-      - is_band
+      - somal_type
+      - sex_chromosome_type
+      - cell_location
       - taxon
       - start
       - end
@@ -127,42 +128,61 @@ slots:
       - will be of form CHR:....
   band_descriptor:
     range: BandDescriptor
+    description: >-
+      A string representing a chromosome band, e.g. p31.1. This is local to the chromosome,
+      so the chromosome is not included in the descriptor
     comments:
-      - for a chromosome, this is empty
+      - for a chromosome, this is the empty string
+      - for a chromosome, arm this is a single leter, e.g. p or q
+      - >-
+        for common species, the usual structure is the band name followed by dot delimited
+        numbers, e.g. p31.1. However, different species have different systems
   chromosome_name:
     range: ChromosomeNameType
+    description: >-
+      E.g. chr1, chrM. Some species like C elegans may use roman numerals
   build:
-    description: E.g hg38
+    description: >-
+      A descriptor for the genome and build number.
+      E.g hg38
     range: GenomeBuild
     slot_uri: biolink:genome_build
     exact_mappings:
       - gff:genome_build
       - edam:data_2340
   previous_builds:
+    description: >-
+      List of previous non-current builds
     range: GenomeBuild
     multivalued: true
   name:
     range: LabelType
     slot_uri: rdfs:label
+    description: >-
+      Unique human-readable label for the entity
+    string_serialization: "{chromosome_name}{band_descriptor}({taxon.name})"
   common_name:
     range: LabelType
+    description: >-
+      E.g. human, mouse
     slot_uri: OIO:hasExactSynonym
   type:
     range: EntityType
     slot_uri: rdf:type
   somal_type:
     range: AutosomeVsSexChromosome
+    description: indicates whether this is a sex-chromosome or not
   sex_chromosome_type:
     range: SexChromosomeType
+    description: >-
+      Only populated for sex chromosomes. Indicates the chromosome type.
+      This is X or Y in mammals, W or Z in avians
   cell_location:
     range: LocationType
     slot_uri: BFO:0000050
-  is_autosome:
-    range: boolean
-    required: false
-  is_band:
-    range: boolean
-    required: false
+    description: >-
+      which organelle the chromosome is associated with. For eukaryotes this is mitochondrion
+      or nucleus. For prokaryotes the distinction does not make sense
   taxon:
     range: TaxonIdentifier
     required: false

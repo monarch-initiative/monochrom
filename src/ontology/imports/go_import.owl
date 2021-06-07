@@ -41,6 +41,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0002161 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002161"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate">
@@ -274,6 +280,72 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0000803 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000803">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <obo:IAO_0000115>A chromosome involved in sex determination.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0000803</oboInOwl:id>
+        <rdfs:label>sex chromosome</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0000803"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A chromosome involved in sex determination.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:elh</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000805 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000805">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000803"/>
+        <obo:IAO_0000115>The sex chromosome present in both sexes of species in which the male is the heterogametic sex. Two copies of the X chromosome are present in each somatic cell of females and one copy is present in males.</obo:IAO_0000115>
+        <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8782"/>
+        <oboInOwl:hasDbXref>Wikipedia:X_chromosome</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0000805</oboInOwl:id>
+        <rdfs:label>X chromosome</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0000805"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The sex chromosome present in both sexes of species in which the male is the heterogametic sex. Two copies of the X chromosome are present in each somatic cell of females and one copy is present in males.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mah</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mr</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0582227089</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:20622855</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:XY_sex-determination_system</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000806 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000806">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000803"/>
+        <obo:IAO_0000115>The sex chromosome present in males of species in which the male is the heterogametic sex; generally, the sex chromosome that pairs with the X chromosome in the heterogametic sex. The Y chromosome is absent from the cells of females and present in one copy in the somatic cells of males.</obo:IAO_0000115>
+        <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8782"/>
+        <oboInOwl:hasDbXref>Wikipedia:Y_chromosome</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0000806</oboInOwl:id>
+        <rdfs:label>Y chromosome</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0000806"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The sex chromosome present in males of species in which the male is the heterogametic sex; generally, the sex chromosome that pairs with the X chromosome in the heterogametic sex. The Y chromosome is absent from the cells of females and present in one copy in the somatic cells of males.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mah</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mr</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0582227089</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:20622855</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:XY_sex-determination_system</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0005575 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005575">
@@ -383,6 +455,26 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A structure composed of a very long molecule of DNA and associated proteins (e.g. histones) that carries hereditary information.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0198547684</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0030849 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0030849">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <obo:IAO_0000115>Any chromosome other than a sex chromosome.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>Wikipedia:Autosome</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0030849</oboInOwl:id>
+        <rdfs:comment>Note that this term is mainly relevant in organisms that have both sex chromosomes and non-sex-determining chromosomes in an individual organism.</rdfs:comment>
+        <rdfs:label>autosome</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Any chromosome other than a sex chromosome.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mah</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
