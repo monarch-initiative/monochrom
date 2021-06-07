@@ -5,11 +5,51 @@
 
 Chromo (abbreviation CHR) is an automatically derived ontology of chrosomosomes are chromosome parts
 
-More information can be found at http://obofoundry.org/ontology/chr (once this ontology is registered)
+This ontology may eventually be housed at http://obofoundry.org/ontology/chr
+
+Currently we use obolibrary PURLs, but this could potentially be changed to e.g. w3ids, depending on discussion re databases in OBO
+
+## About
+
+This "ontology" is a direct conversion of metadata about chromosomes and chromosome bands obtained from UCSC
+
+Each chromosome and chromosomal region is represented as an OWL class, with the following properties:
+
+ * id/IRI
+ * name
+ * taxon
+ * part-parent
+ * coordinates + build
+
+See the [schema](model/schema/) for more details.
+
+This ontology is intended primary as a way to provide ontology edges
+for classes in disease and phenotype ontologies that must reference
+chromosomes, e.g. to define trisomies, etc.
+
+Note that unlike many ontologies, the ontology is not curated - it is a transform
+
+There are some parallels to the OBO version of the NCBI taxonomy
+(http://obofoundry.org/ontology/chr)[http://obofoundry.org/ontology/chr),
+in that we do not curate any ontological information, we simply
+perform a direct transform.
+
+Unlike the NCBI Taxonomy, there is no class hierarchy for chromosomes and chromosome bands. Instead things are arranged as a *partonomy*
+
+ * chr1
+    * chr1p
+       * chr1p1
+          * chr1p11
+
+We deliberately do not create fake grouping classes such as "Human
+chromosome". Note that this ontology may therefore look unusual in
+ontology browsers, where there is an implicit assumption of some
+hierarchy.
+
+
+
 
 ## Versions
-
-### Stable release versions
 
 The latest version of the ontology can always be found at:
 
@@ -17,15 +57,9 @@ http://purl.obolibrary.org/obo/chr.owl  (once this ontology is registered)
 
 (note this will not show up until the request has been approved by obofoundry.org)
 
-### Editors' version
+## Instructions for maintainers
 
-Editors of this ontology should use the edit version, [src/ontology/chr-edit.owl](src/ontology/chr-edit.owl)
-
-Note that this should be extremely minimal, as it imports the auto-generated ucsc.owl file
-
-## Regenerating
-
-Fromt the top level of this repo:
+From the top level of this repo:
 
 ```bash
 pip install -r requirements.txt

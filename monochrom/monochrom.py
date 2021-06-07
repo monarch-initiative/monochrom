@@ -42,6 +42,7 @@ def make_ontology(cpc: ChromosomePartCollection, name='Chromosome Ontology') -> 
     o = Ontology("http://purl.obolibrary.org/obo/chr.owl")
     o.annotation(RDFS.label, name)
     doc = OntologyDocument(schema.CHR, o)
+    # this is a bit awkward; revisit after https://github.com/hsolbrig/funowl/issues/18
     doc.prefixDeclarations.append(Prefix('refseq', schema.REFSEQ))
     doc.prefixDeclarations.append(Prefix('insdc', schema.INSDC))
     doc.prefixDeclarations.append(Prefix('CHR', schema.CHR))
