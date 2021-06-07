@@ -1,16 +1,18 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/chr/imports/geno_import.owl#"
      xml:base="http://purl.obolibrary.org/obo/chr/imports/geno_import.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/chr/imports/geno_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/chr/releases/2021-06-04/imports/geno_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/chr/releases/2021-06-05/imports/geno_import.owl"/>
+        <dc:source rdf:resource="http://purl.obolibrary.org/obo/geno/releases/2020-03-08/geno.owl"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-06-05</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -119,12 +121,6 @@
     
 
 
-    <!-- http://purl.org/dc/terms/source -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/source"/>
-    
-
-
     <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
@@ -163,41 +159,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GENO_0000207 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/GENO_0000207">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GENO_0000701"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GENO_0000702"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GENO_0000713"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:domain>
-        <obo:IAO_0000115>A relation used to link sequence entities (sequences, features, qualified features, and collections thereof) to their &apos;attributes&apos;.</obo:IAO_0000115>
-        <obo:IAO_0000116>Used in lieu of RO/BFO has_quality as this relation is definend to apply to independent contiinuant bearers, wheras sequence entities are generically dependent continuants.</obo:IAO_0000116>
-        <oboInOwl:hasDbXref>http://purl.obolibrary.org/obo/so_has_quality</oboInOwl:hasDbXref>
-        <rdfs:label>has_sequence_attribute</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GENO_0000231 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/GENO_0000231">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/GENO_0000248"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <obo:IAO_0000115>An antisymmetric, irreflexive (normally transitive) relation between a whole and a distinct part (source: SIO)</obo:IAO_0000115>
-        <obo:IAO_0000116>No proper part relation anymore in RO/BFO?</obo:IAO_0000116>
-        <oboInOwl:hasDbXref>http://semanticscience.org/resource/SIO_000053</oboInOwl:hasDbXref>
-        <rdfs:label>has_proper_part</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GENO_0000239 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/GENO_0000239">
@@ -209,17 +170,6 @@
         <oboInOwl:hasDbXref>VMC:state</oboInOwl:hasDbXref>
         <rdfs:comment>&apos;Sequence&apos; in the context of GENO is an abstract entity representing an ordered collection of monomeric units as carried in a biological macromolecule.</rdfs:comment>
         <rdfs:label>has_sequence</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GENO_0000248 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/GENO_0000248">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-        <obo:IAO_0000115>An asymmetric, irreflexive (normally transitive) relation between a part and its distinct whole.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>http://semanticscience.org/resource/SIO_000093</oboInOwl:hasDbXref>
-        <rdfs:label>is_proper_part_of</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1102,62 +1052,6 @@ One reason that explicit representation of these levels is important is because 
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GENO_0000614 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENO_0000614">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000830"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000105"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000112>The descriptor 1p22.3 =  chromosome 1, short arm, region 2, band 2, sub-band 3.  This is read as &quot;one q two-two point three&quot;, not &quot;one  q twenty-two point three&quot;.</obo:IAO_0000112>
-        <obo:IAO_0000115>An extended part of a chromosome representing a term of convenience in order to hierarchically organize morphologically defined chromosome features: chromosome &gt; arm &gt; region &gt; band &gt; sub-band.</obo:IAO_0000115>
-        <obo:IAO_0000116>New term request for SO.</obo:IAO_0000116>
-        <obo:IAO_0000119>http://ghr.nlm.nih.gov/handbook/howgeneswork/genelocation and http://people.rit.edu/rhrsbi/GeneticsPages/Handouts/ChromosomeNomenclature.pdf, both of which define the nomenclature for the banding hierarchy we use here:
-chromosome &gt; arm &gt; region &gt; band &gt; sub-band
-
-Note that an alternate nomenclature for this hierarchy is here (http://www.ncbi.nlm.nih.gov/Class/MLACourse/Original8Hour/Genetics/chrombanding.html):
-chromosome &gt; arm &gt; band &gt; sub-band &gt; sub-sub-band</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">chromosomal region</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GENO_0000618 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENO_0000618">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENO_0000788"/>
-        <obo:IAO_0000118>chromosomal band brightness</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">chromosomal band intensity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GENO_0000628 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENO_0000628">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000105"/>
-        <obo:IAO_0000115>A chromosome arm that is the shorter of the two arms of a given chromosome.</obo:IAO_0000115>
-        <obo:IAO_0000118>p-arm</obo:IAO_0000118>
-        <obo:IAO_0000118>stalk</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">short chromosome arm</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GENO_0000629 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENO_0000629">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000105"/>
-        <obo:IAO_0000115>A chromosome arm that is the longer of the two arms of a given chromosome.</obo:IAO_0000115>
-        <obo:IAO_0000118>q-arm</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">long chromosome arm</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GENO_0000659 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENO_0000659">
@@ -1907,62 +1801,12 @@ Previous. An information content entity is a non-realizable information entity t
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10090 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10090">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
-        <rdfs:label>Mus musculus</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7955 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7955">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
-        <rdfs:label>Danio rerio</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
-        <rdfs:label>Homo sapiens</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OBI_0100026 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100026">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENO_0000904"/>
         <obo:IAO_0000116>Stub class to serve as root of hierarchy for imports from NCBI Taxonomy.</obo:IAO_0000116>
         <rdfs:label>organism</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SO_0000105 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000105">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000830"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000830"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000112>The descriptor 1p22.3 =  chromosome 1, short arm, region 2, band 2, sub-band 3.  This is read as &quot;one q two-two point three&quot;, not &quot;one  q twenty-two point three&quot;.</obo:IAO_0000112>
-        <obo:IAO_0000115>A region of the chromosome between the centromere and the telomere. Human chromosomes have two arms, the p arm (short) and the q arm (long) which are separated from each other by the centromere.</obo:IAO_0000115>
-        <obo:IAO_0000116>Formerly http://purl.obolibrary.org/obo/GENO_0000613, replaced by SO term.</obo:IAO_0000116>
-        <obo:IAO_0000119>http://ghr.nlm.nih.gov/handbook/howgeneswork/genelocation and http://people.rit.edu/rhrsbi/GeneticsPages/Handouts/ChromosomeNomenclature.pdf, both of which define the nomenclature for the banding hierarchy we use here:
-chromosome &gt; arm &gt; region &gt; band &gt; sub-band
-
-Note that an alternate nomenclature for this hierarchy is here (http://www.ncbi.nlm.nih.gov/Class/MLACourse/Original8Hour/Genetics/chrombanding.html):
-chromosome &gt; arm &gt; band &gt; sub-band &gt; sub-sub-band</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">chromosome arm</rdfs:label>
     </owl:Class>
     
 
@@ -2015,85 +1859,6 @@ chromosome &gt; arm &gt; band &gt; sub-band &gt; sub-sub-band</obo:IAO_0000119>
         <obo:GENO_0000834 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</obo:GENO_0000834>
         <rdfs:comment>Formalizes the second identify criteiria for a sequence feature of its genomic position. We use the FALDO model to represent positional information, which links features to positional information through an instance of a Region class that represents the mapping of the feature onto some reference sequence. (But features can also be linked to Positions directly through the location property).</rdfs:comment>
     </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SO_0000340 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000340">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENO_0000481"/>
-        <obo:IAO_0000115>Structural unit composed of a nucleic acid molecule which controls its own replication through the interaction of specific proteins at one or more origins of replication.</obo:IAO_0000115>
-        <rdfs:comment>A complete chromosome sequence.</rdfs:comment>
-        <rdfs:label>chromosome</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SO_0000341 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000341">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000830"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GENO_0000614"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/GENO_0000207"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GENO_0000618"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000112>The descriptor 1p22.3 =  chromosome 1, short arm, region 2, band 2, sub-band 3.  This is read as &quot;one q two-two point three&quot;, not &quot;one  q twenty-two point three&quot;.</obo:IAO_0000112>
-        <obo:IAO_0000115>A cytologically distinguishable feature of a chromosome, often made visible by staining, and usually alternating light and dark.</obo:IAO_0000115>
-        <obo:IAO_0000119>http://ghr.nlm.nih.gov/handbook/howgeneswork/genelocation and http://people.rit.edu/rhrsbi/GeneticsPages/Handouts/ChromosomeNomenclature.pdf, both of which define the nomenclature for the banding hierarchy we use here:
-chromosome &gt; arm &gt; region &gt; band &gt; sub-band
-
-Note that an alternate nomenclature for this hierarchy is here (http://www.ncbi.nlm.nih.gov/Class/MLACourse/Original8Hour/Genetics/chrombanding.html):
-chromosome &gt; arm &gt; band &gt; sub-band &gt; sub-sub-band
-</obo:IAO_0000119>
-        <rdfs:comment>&quot;Band&apos; is a term of convenience in order to hierarchically organize morphologically defined chromosome features: chromosome &gt; arm &gt; region &gt; band &gt; sub-band.</rdfs:comment>
-        <rdfs:label xml:lang="en">chromosome band</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SO_0000577 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000577">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000830"/>
-        <rdfs:label xml:lang="en">centromere</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SO_0000830 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000830">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GENO_0000481"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/GENO_0000248"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000340"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENO_0000481"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/GENO_0000248"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000340"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>An extended region of sequence corresponding to a defined feature that is a proper part of a chromosome, e.g. a chromosomal &apos;arm&apos;, &apos;region&apos;, or &apos;band&apos;.</obo:IAO_0000115>
-        <obo:IAO_0000118>chromosomal feature</obo:IAO_0000118>
-        <obo:IAO_0000118>gross chromosomal part</obo:IAO_0000118>
-        <rdfs:label>chromosome part</rdfs:label>
-    </owl:Class>
     
 
 

@@ -3,7 +3,7 @@
 <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base="">
 
   
-  <uri name="http://purl.obolibrary.org/obo/chr/imports/ucdc.owl" uri="imports/ucsc.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/chr/components/ucsc.owl" uri="components/ucsc.owl"/>
   <uri name="http://purl.obolibrary.org/obo/chr/imports/ro_import.owl" uri="imports/ro_import.owl"/>
   <uri name="http://purl.obolibrary.org/obo/chr/imports/ro_import.obo" uri="imports/ro_import.obo"/>
   
@@ -15,10 +15,6 @@
   
   <uri name="http://purl.obolibrary.org/obo/chr/imports/ncbitaxon_import.owl" uri="imports/ncbitaxon_import.owl"/>
   <uri name="http://purl.obolibrary.org/obo/chr/imports/ncbitaxon_import.obo" uri="imports/ncbitaxon_import.obo"/>
-
-  
-  <uri name="http://purl.obolibrary.org/obo/chr/components/monochrom-dipper.ttl" uri="components/monochrom-dipper.ttl"/>
-  
 
 </group>
 </catalog>

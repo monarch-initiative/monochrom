@@ -23,5 +23,5 @@ title: monochrom
 use_dosdps: false
 components:
   products:
-    - filename: monochrom-dipper.ttl
-      source: https://data.monarchinitiative.org/ttl/monochrom.ttl
+    - filename: ucsc.owl
+ROBOT_JAVA_ARGS: '-Xmx6G'
