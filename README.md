@@ -17,10 +17,12 @@ Each chromosome and chromosomal region is represented as an OWL class, with the 
 
  * id/IRI
  * name
- * taxon
- * part-parent
+ * [taxon](https://monarch-initiative.github.io/monochrom/taxon/)
+ * [part-parent](https://monarch-initiative.github.io/monochrom/parent/)
  * coordinates + build
  * aliases and exact mappings (e.g. to NCBI/INSDC as well as ENSEMBL)
+
+To browse the schema, see [the schema docs](http://monarch-initiative.github.io/monochrom/)
 
 See the [schema](model/schema/) for more details.
 
@@ -84,9 +86,9 @@ Everything is driven by a LinkML schema, see [schema](model/schema/)
 
 This defines a few core classes:
 
- * ChromosomePart
- * Genome
- * OrganismTaxon
+ * [ChromosomePart](https://monarch-initiative.github.io/monochrom/ChromosomePart)
+ * [Genome](https://monarch-initiative.github.io/monochrom/Genome)
+ * [OrganismTaxon](https://monarch-initiative.github.io/monochrom/OrganismTaxon)
 
 
 These have properties (slots) such as id, start, end, ...
