@@ -86,7 +86,7 @@
                 <h1 id="class-chromosomepart">Class: ChromosomePart</h1>
 <p>A Chromosome or a part of a chromosome (includes whole chromosomes, arms, and bands)</p>
 <p>URI: <a href="https://w3id.org/biodatamodels/chromoschema/ChromosomePart">chromoschema:ChromosomePart</a></p>
-<p><img alt="img" src="http://yuml.me/diagram/nofunky;dir:TB/class/[GenomeBuild],[ChromosomePart]&lt;parent%200..1-%20[ChromosomePart&#124;id:string;band_descriptor:BandDescriptor%20%3F;chromosome_name:ChromosomeNameType%20%3F;name:LabelType%20%3F;type:EntityType%20%3F;is_autosome:boolean%20%3F;is_band:boolean%20%3F;taxon:TaxonIdentifier%20%3F;start:integer%20%3F;end:integer%20%3F;exact_mappings:uriorcurie%20*;exact_synonyms:string%20*;broad_synonyms:string%20*],[ChromosomePart]&lt;children%200..*-%20[ChromosomePart],[GenomeBuild]&lt;build%200..1-%20[ChromosomePart],[ChromosomePartCollection]++-%20has%200..*&gt;[ChromosomePart],[ChromosomePartCollection]" /></p>
+<p><img alt="img" src="http://yuml.me/diagram/nofunky;dir:TB/class/[GenomeBuild],[ChromosomePart]&lt;parent%200..1-%20[ChromosomePart&#124;id:string;band_descriptor:BandDescriptor%20%3F;chromosome_name:ChromosomeNameType%20%3F;name:LabelType%20%3F;type:EntityType%20%3F;somal_type:AutosomeVsSexChromosome%20%3F;sex_chromosome_type:SexChromosomeType%20%3F;cell_location:LocationType%20%3F;taxon:TaxonIdentifier%20%3F;start:integer%20%3F;end:integer%20%3F;exact_mappings:uriorcurie%20*;exact_synonyms:string%20*;broad_synonyms:string%20*],[ChromosomePart]&lt;children%200..*-%20[ChromosomePart],[GenomeBuild]&lt;build%200..1-%20[ChromosomePart],[ChromosomePartCollection]++-%20has%200..*&gt;[ChromosomePart],[ChromosomePartCollection]" /></p>
 <h2 id="referenced-by-class">Referenced by class</h2>
 <ul>
 <li><strong>None</strong> <em><a href="../children/">children</a></em>  <sub>0..<em></sub>  </em><em><a href="./">ChromosomePart</a></em>*</li>
@@ -96,7 +96,12 @@
 <h2 id="attributes">Attributes</h2>
 <h3 id="own">Own</h3>
 <ul>
+<li><a href="../ChromosomePart_id/">ChromosomePart➞id</a>  <sub>REQ</sub><ul>
+<li>range: <a href="../types/String/">String</a></li>
+</ul>
+</li>
 <li><a href="../band_descriptor/">band_descriptor</a>  <sub>OPT</sub><ul>
+<li>Description: A string representing a chromosome band, e.g. p31.1. This is local to the chromosome, so the chromosome is not included in the descriptor</li>
 <li>range: <a href="../types/BandDescriptor/">BandDescriptor</a></li>
 </ul>
 </li>
@@ -105,8 +110,13 @@
 </ul>
 </li>
 <li><a href="../build/">build</a>  <sub>OPT</sub><ul>
-<li>Description: E.g hg38</li>
+<li>Description: A descriptor for the genome and build number. E.g hg38</li>
 <li>range: <a href="../GenomeBuild/">GenomeBuild</a></li>
+</ul>
+</li>
+<li><a href="../cell_location/">cell_location</a>  <sub>OPT</sub><ul>
+<li>Description: which organelle the chromosome is associated with. For eukaryotes this is mitochondrion or nucleus. For prokaryotes the distinction does not make sense</li>
+<li>range: </li>
 </ul>
 </li>
 <li><a href="../children/">children</a>  <sub>0..*</sub><ul>
@@ -114,6 +124,7 @@
 </ul>
 </li>
 <li><a href="../chromosome_name/">chromosome_name</a>  <sub>OPT</sub><ul>
+<li>Description: E.g. chr1, chrM. Some species like C elegans may use roman numerals</li>
 <li>range: <a href="../types/ChromosomeNameType/">ChromosomeNameType</a></li>
 </ul>
 </li>
@@ -129,24 +140,23 @@
 <li>range: <a href="../types/String/">String</a></li>
 </ul>
 </li>
-<li><a href="../id/">id</a>  <sub>REQ</sub><ul>
-<li>range: <a href="../types/String/">String</a></li>
-</ul>
-</li>
-<li><a href="../is_autosome/">is_autosome</a>  <sub>OPT</sub><ul>
-<li>range: <a href="../types/Boolean/">Boolean</a></li>
-</ul>
-</li>
-<li><a href="../is_band/">is_band</a>  <sub>OPT</sub><ul>
-<li>range: <a href="../types/Boolean/">Boolean</a></li>
-</ul>
-</li>
 <li><a href="../name/">name</a>  <sub>OPT</sub><ul>
+<li>Description: Unique human-readable label for the entity</li>
 <li>range: <a href="../types/LabelType/">LabelType</a></li>
 </ul>
 </li>
 <li><a href="../parent/">parent</a>  <sub>OPT</sub><ul>
 <li>range: <a href="./">ChromosomePart</a></li>
+</ul>
+</li>
+<li><a href="../sex_chromosome_type/">sex_chromosome_type</a>  <sub>OPT</sub><ul>
+<li>Description: Only populated for sex chromosomes. Indicates the chromosome type. This is X or Y in mammals, W or Z in avians</li>
+<li>range: </li>
+</ul>
+</li>
+<li><a href="../somal_type/">somal_type</a>  <sub>OPT</sub><ul>
+<li>Description: indicates whether this is a sex-chromosome or not</li>
+<li>range: </li>
 </ul>
 </li>
 <li><a href="../start/">start</a>  <sub>OPT</sub><ul>

@@ -84,6 +84,7 @@
             <div class="section">
               
                 <h1 id="slot-band_descriptor">Slot: band_descriptor</h1>
+<p>A string representing a chromosome band, e.g. p31.1. This is local to the chromosome, so the chromosome is not included in the descriptor</p>
 <p>URI: <a href="https://w3id.org/biodatamodels/chromoschema/band_descriptor">chromoschema:band_descriptor</a></p>
 <h2 id="domain-and-range">Domain and Range</h2>
 <p>None -&gt;  <sub>OPT</sub> <a href="../types/BandDescriptor/">BandDescriptor</a></p>
@@ -106,7 +107,17 @@
 <tr>
 <td><strong>Comments:</strong></td>
 <td></td>
-<td>for a chromosome, this is empty</td>
+<td>for a chromosome, this is the empty string</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>for a chromosome, arm this is a single leter, e.g. p or q</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>for common species, the usual structure is the band name followed by dot delimited numbers, e.g. p31.1. However, different species have different systems</td>
 </tr>
 </tbody>
 </table>

@@ -114,38 +114,38 @@ Additionally they can be translated to OWL</p>
 <h3 id="mixins">Mixins</h3>
 <h3 id="slots">Slots</h3>
 <ul>
-<li><a href="band_descriptor/">band_descriptor</a></li>
+<li><a href="band_descriptor/">band_descriptor</a> - A string representing a chromosome band, e.g. p31.1. This is local to the chromosome, so the chromosome is not included in the descriptor</li>
 <li><a href="broad_synonyms/">broad_synonyms</a></li>
-<li><a href="build/">build</a> - E.g hg38<ul>
+<li><a href="build/">build</a> - A descriptor for the genome and build number. E.g hg38<ul>
 <li><a href="Genome_build/">Genome➞build</a> - the current genome build for this genome</li>
 </ul>
 </li>
+<li><a href="cell_location/">cell_location</a> - which organelle the chromosome is associated with. For eukaryotes this is mitochondrion or nucleus. For prokaryotes the distinction does not make sense</li>
 <li><a href="children/">children</a></li>
 <li><a href="chromosomePartCollection__genomes/">➞genomes</a></li>
 <li><a href="chromosomePartCollection__has/">➞has</a></li>
 <li><a href="chromosomePartCollection__name/">➞name</a></li>
 <li><a href="chromosomePartCollection__taxons/">➞taxons</a></li>
-<li><a href="chromosome_name/">chromosome_name</a></li>
-<li><a href="chromosome_type/">chromosome_type</a></li>
-<li><a href="common_name/">common_name</a></li>
+<li><a href="chromosome_name/">chromosome_name</a> - E.g. chr1, chrM. Some species like C elegans may use roman numerals</li>
+<li><a href="common_name/">common_name</a> - E.g. human, mouse</li>
 <li><a href="download_url/">download_url</a></li>
 <li><a href="end/">end</a></li>
 <li><a href="exact_mappings/">exact_mappings</a></li>
 <li><a href="exact_synonyms/">exact_synonyms</a></li>
-<li><a href="id/">id</a><ul>
+<li><a href="id/">id</a> - A unique identifier<ul>
+<li><a href="ChromosomePart_id/">ChromosomePart➞id</a></li>
 <li><a href="GenomeBuild_id/">GenomeBuild➞id</a> - E.g. mm10</li>
 <li><a href="Genome_id/">Genome➞id</a> - E.g. mm, hg</li>
 </ul>
 </li>
-<li><a href="is_autosome/">is_autosome</a></li>
-<li><a href="is_band/">is_band</a></li>
-<li><a href="name/">name</a><ul>
+<li><a href="name/">name</a> - Unique human-readable label for the entity<ul>
 <li><a href="Genome_name/">Genome➞name</a> - E.g. Homo sapiens</li>
 </ul>
 </li>
 <li><a href="parent/">parent</a></li>
-<li><a href="previous_builds/">previous_builds</a></li>
-<li><a href="sex_chromosome_type/">sex_chromosome_type</a></li>
+<li><a href="previous_builds/">previous_builds</a> - List of previous non-current builds</li>
+<li><a href="sex_chromosome_type/">sex_chromosome_type</a> - Only populated for sex chromosomes. Indicates the chromosome type. This is X or Y in mammals, W or Z in avians</li>
+<li><a href="somal_type/">somal_type</a> - indicates whether this is a sex-chromosome or not</li>
 <li><a href="start/">start</a></li>
 <li><a href="strand/">strand</a></li>
 <li><a href="taxon/">taxon</a></li>
@@ -234,5 +234,5 @@ Additionally they can be translated to OWL</p>
 
 <!--
 MkDocs version : 1.1.2
-Build Date UTC : 2021-06-07 02:29:14.073087+00:00
+Build Date UTC : 2021-06-08 04:07:33.551939+00:00
 -->
