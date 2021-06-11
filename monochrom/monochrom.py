@@ -301,6 +301,33 @@ def load_collection(f: str) -> ChromosomePartCollection:
         cpc: ChromosomePartCollection = YAMLLoader().load(stream, target_class=ChromosomePartCollection)
     return cpc
 
+from linkml_runtime.utils.yamlutils import YAMLRoot
+def yaml_to_csv(obj: YAMLRoot, outfile: str) -> None:
+    with open(outfile,'wb') as stream:
+        if isinstance(obj, list):
+            self.dumplines(stream, obj)
+        elif isinstance(obj, dict):
+            self.dumplines(stream, obj.items())
+        else:
+            raise Exception(f'Cannot dump {type(element)}')
+
+def dumplines(objs: List[YAMLRoot], stream) -> None:
+    rows = []
+    hdr = []
+    for obj in objs:
+        row = {}
+        for k,v in obj.items():
+            if v is None:
+                v = ""
+            elif isinstance(v, dict):
+                v = str(v)
+            row[k] = v
+            if k not in hdr:
+                hdr.append(k)
+    dw = csv.DictWriter(strean, delimiter='\t', fieldnames=hdr)
+    dw.writeheader()
+    dw.writerows(rows)
+
 @click.command()
 @click.option('-o', '--output',
               help='output ontology in functional syntax to this path')
@@ -345,6 +372,9 @@ def cli(files: List[str], to_format, output, config='genomes.yaml'):
         elif to_format == 'ofn':
             o = make_ontology(cpc)
             dump = str(o)
+        elif to_format == 'tsv':
+            dump = None
+            yaml_to_csv(cpc.has,output )
         else:
             raise Exception(f'Cannot handle {to_format}')
         with open(output, "w") as out:

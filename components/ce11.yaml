@@ -5,10 +5,16 @@ has:
     band_descriptor: ''
     chromosome_name: chrI
     build: ce11
-    name: chrI (C elegans)
+    name: chromosome I (C elegans)
     type:
       text: chromosome
       meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0000803
     taxon: NCBITaxon:6239
     start: 0
     end: 15072434
@@ -21,10 +27,16 @@ has:
     band_descriptor: ''
     chromosome_name: chrII
     build: ce11
-    name: chrII (C elegans)
+    name: chromosome II (C elegans)
     type:
       text: chromosome
       meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0000803
     taxon: NCBITaxon:6239
     start: 0
     end: 15279421
@@ -37,10 +49,16 @@ has:
     band_descriptor: ''
     chromosome_name: chrIII
     build: ce11
-    name: chrIII (C elegans)
+    name: chromosome III (C elegans)
     type:
       text: chromosome
       meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0000803
     taxon: NCBITaxon:6239
     start: 0
     end: 13783801
@@ -53,10 +71,16 @@ has:
     band_descriptor: ''
     chromosome_name: chrIV
     build: ce11
-    name: chrIV (C elegans)
+    name: chromosome IV (C elegans)
     type:
       text: chromosome
       meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0000803
     taxon: NCBITaxon:6239
     start: 0
     end: 17493829
@@ -69,10 +93,13 @@ has:
     band_descriptor: ''
     chromosome_name: chrM
     build: ce11
-    name: chrM (C elegans)
+    name: chromosome M (C elegans)
     type:
       text: chromosome
       meaning: http://purl.obolibrary.org/obo/GO_0005694
+    cell_location:
+      text: mitochondrion
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
     taxon: NCBITaxon:6239
     start: 0
     end: 13794
@@ -85,10 +112,16 @@ has:
     band_descriptor: ''
     chromosome_name: chrV
     build: ce11
-    name: chrV (C elegans)
+    name: chromosome V (C elegans)
     type:
       text: chromosome
       meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0000803
     taxon: NCBITaxon:6239
     start: 0
     end: 20924180
@@ -101,10 +134,19 @@ has:
     band_descriptor: ''
     chromosome_name: chrX
     build: ce11
-    name: chrX (C elegans)
+    name: chromosome X (C elegans)
     type:
       text: chromosome
       meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: sex_chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0000803
+    sex_chromosome_type:
+      text: X
+      meaning: http://purl.obolibrary.org/obo/GO_0000805
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0000803
     taxon: NCBITaxon:6239
     start: 0
     end: 17718942
