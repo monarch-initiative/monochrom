@@ -6,6 +6,9 @@ all: all-chromAlias all-cytoBand src/ontology/components/ucsc.owl
 all-chromAlias: $(patsubst %, download/%-chromAlias.tsv, $(BUILDS))
 all-cytoBand: $(patsubst %, download/%-cytoBand.tsv, $(BUILDS))
 
+test:
+	pytest
+
 download/%-chromAlias.tsv:
 	curl -L -s http://hgdownload.cse.ucsc.edu/goldenPath/$*/database/chromAlias.txt.gz | gzip -dc > $@
 download/%-cytoBand.tsv:
@@ -19,7 +22,13 @@ components/%.owl: download/%-cytoBand.tsv download/%-chromAlias.tsv
 components/%.yaml: download/%-cytoBand.tsv download/%-chromAlias.tsv
 	python -m monochrom.monochrom $^ -f yaml -o $@
 
-src/ontology/tmp/ucsc.ofn:
+download/ncit.owl:
+	curl -L -s http://purl.obolibrary.org/obo/ncit.owl > $@
+
+download/ncit-chrom-terms.owl: download/ncit.owl config/ncit-chrom-terms.txt
+	robot extract -i $< -m TOP -T config/ncit-chrom-terms.txt -o $@
+
+src/ontology/tmp/ucsc.ofn: monochrom/monochrom.py
 	python -m monochrom.monochrom download/*-*.tsv -o $@.tmp && mv $@.tmp $@
 .PRECIOUS: src/ontology/tmp/ucsc.ofn
 
@@ -32,3 +41,8 @@ src/ontology/components/ucsc.owl: src/ontology/tmp/ucsc.ofn
 
 monochrom/chromschema.py: model/schema/chromo.yaml
 	gen-py-classes model/schema/chromo.yaml > $@
+
+gendocs:
+	gen-markdown -d docs model/schema/chromo.yaml
+
+

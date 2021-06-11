@@ -1,5 +1,5 @@
 # Auto generated from chromo.yaml by pythongen.py version: 0.9.0
-# Generation date: 2021-06-06 19:28
+# Generation date: 2021-06-07 16:48
 # Schema: ChromoSchema
 #
 # id: https://w3id.org/biodatamodels/chromoschema
@@ -22,8 +22,8 @@ from linkml.utils.formatutils import camelcase, underscore, sfx
 from linkml.utils.enumerations import EnumDefinitionImpl
 from rdflib import Namespace, URIRef
 from linkml.utils.curienamespace import CurieNamespace
-from linkml.utils.metamodelcore import Bool, URI, URIorCURIE
-from linkml_model.types import Boolean, Integer, String, Uri, Uriorcurie
+from linkml.utils.metamodelcore import URI, URIorCURIE
+from linkml_model.types import Integer, String, Uri, Uriorcurie
 
 metamodel_version = "1.7.0"
 
@@ -47,7 +47,6 @@ FALDO = CurieNamespace('faldo', 'http://biohackathon.org/resource/faldo#')
 GFF = CurieNamespace('gff', 'https://w3id.org/biodatamodels/gff/')
 INSDC = CurieNamespace('insdc', 'http://identifiers.org/insdc/')
 LINKML = CurieNamespace('linkml', 'https://w3id.org/linkml/')
-OIO = CurieNamespace('oio', 'http://www.geneontology.org/formats/oboInOwl#')
 RDF = CurieNamespace('rdf', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#')
 RDFS = CurieNamespace('rdfs', 'http://www.w3.org/2000/01/rdf-schema#')
 REFSEQ = CurieNamespace('refseq', 'http://identifiers.org/refseq/')
@@ -170,8 +169,9 @@ class ChromosomePart(YAMLRoot):
     build: Optional[Union[str, GenomeBuildId]] = None
     name: Optional[Union[str, LabelType]] = None
     type: Optional[Union[str, "EntityType"]] = None
-    is_autosome: Optional[Union[bool, Bool]] = None
-    is_band: Optional[Union[bool, Bool]] = None
+    somal_type: Optional[Union[str, "AutosomeVsSexChromosome"]] = None
+    sex_chromosome_type: Optional[Union[str, "SexChromosomeType"]] = None
+    cell_location: Optional[Union[str, "LocationType"]] = None
     taxon: Optional[Union[str, TaxonIdentifier]] = None
     start: Optional[int] = None
     end: Optional[int] = None
@@ -202,11 +202,14 @@ class ChromosomePart(YAMLRoot):
         if self.type is not None and not isinstance(self.type, EntityType):
             self.type = EntityType(self.type)
 
-        if self.is_autosome is not None and not isinstance(self.is_autosome, Bool):
-            self.is_autosome = Bool(self.is_autosome)
+        if self.somal_type is not None and not isinstance(self.somal_type, AutosomeVsSexChromosome):
+            self.somal_type = AutosomeVsSexChromosome(self.somal_type)
 
-        if self.is_band is not None and not isinstance(self.is_band, Bool):
-            self.is_band = Bool(self.is_band)
+        if self.sex_chromosome_type is not None and not isinstance(self.sex_chromosome_type, SexChromosomeType):
+            self.sex_chromosome_type = SexChromosomeType(self.sex_chromosome_type)
+
+        if self.cell_location is not None and not isinstance(self.cell_location, LocationType):
+            self.cell_location = LocationType(self.cell_location)
 
         if self.taxon is not None and not isinstance(self.taxon, TaxonIdentifier):
             self.taxon = TaxonIdentifier(self.taxon)
@@ -365,23 +368,19 @@ class EntityType(EnumDefinitionImpl):
         description="SO or GO type",
     )
 
-class ChromosomeType(EnumDefinitionImpl):
+class AutosomeVsSexChromosome(EnumDefinitionImpl):
     """
     sex or autosome
     """
+    sex_chromosome = PermissibleValue(text="sex_chromosome",
+                                                   meaning=GO["0000803"])
     autosome = PermissibleValue(text="autosome",
                                        meaning=GO["0030849"])
 
     _defn = EnumDefinition(
-        name="ChromosomeType",
+        name="AutosomeVsSexChromosome",
         description="sex or autosome",
     )
-
-    @classmethod
-    def _addvals(cls):
-        setattr(cls, "sex chromosome",
-                PermissibleValue(text="sex chromosome",
-                                 meaning=GO["0000803"]) )
 
 class SexChromosomeType(EnumDefinitionImpl):
     """
@@ -391,6 +390,10 @@ class SexChromosomeType(EnumDefinitionImpl):
                          meaning=GO["0000805"])
     Y = PermissibleValue(text="Y",
                          meaning=GO["0000806"])
+    W = PermissibleValue(text="W",
+                         meaning=GO["0000804"])
+    Z = PermissibleValue(text="Z",
+                         meaning=GO["0000807"])
 
     _defn = EnumDefinition(
         name="SexChromosomeType",
@@ -451,17 +454,14 @@ slots.common_name = Slot(uri=OIO.hasExactSynonym, name="common_name", curie=OIO.
 slots.type = Slot(uri=RDF.type, name="type", curie=RDF.curie('type'),
                    model_uri=CHROMOSCHEMA.type, domain=None, range=Optional[Union[str, "EntityType"]])
 
-slots.chromosome_type = Slot(uri=CHROMOSCHEMA.chromosome_type, name="chromosome_type", curie=CHROMOSCHEMA.curie('chromosome_type'),
-                   model_uri=CHROMOSCHEMA.chromosome_type, domain=None, range=Optional[Union[str, "ChromosomeType"]])
+slots.somal_type = Slot(uri=CHROMOSCHEMA.somal_type, name="somal_type", curie=CHROMOSCHEMA.curie('somal_type'),
+                   model_uri=CHROMOSCHEMA.somal_type, domain=None, range=Optional[Union[str, "AutosomeVsSexChromosome"]])
 
 slots.sex_chromosome_type = Slot(uri=CHROMOSCHEMA.sex_chromosome_type, name="sex_chromosome_type", curie=CHROMOSCHEMA.curie('sex_chromosome_type'),
                    model_uri=CHROMOSCHEMA.sex_chromosome_type, domain=None, range=Optional[Union[str, "SexChromosomeType"]])
 
-slots.is_autosome = Slot(uri=CHROMOSCHEMA.is_autosome, name="is_autosome", curie=CHROMOSCHEMA.curie('is_autosome'),
-                   model_uri=CHROMOSCHEMA.is_autosome, domain=None, range=Optional[Union[bool, Bool]])
-
-slots.is_band = Slot(uri=CHROMOSCHEMA.is_band, name="is_band", curie=CHROMOSCHEMA.curie('is_band'),
-                   model_uri=CHROMOSCHEMA.is_band, domain=None, range=Optional[Union[bool, Bool]])
+slots.cell_location = Slot(uri=BFO['0000050'], name="cell_location", curie=BFO.curie('0000050'),
+                   model_uri=CHROMOSCHEMA.cell_location, domain=None, range=Optional[Union[str, "LocationType"]])
 
 slots.taxon = Slot(uri=RO['0002162'], name="taxon", curie=RO.curie('0002162'),
                    model_uri=CHROMOSCHEMA.taxon, domain=None, range=Optional[Union[str, TaxonIdentifier]])
@@ -504,6 +504,10 @@ slots.chromosomePartCollection__genomes = Slot(uri=DCTERMS.hasPart, name="chromo
 
 slots.chromosomePartCollection__taxons = Slot(uri=DCTERMS.hasPart, name="chromosomePartCollection__taxons", curie=DCTERMS.curie('hasPart'),
                    model_uri=CHROMOSCHEMA.chromosomePartCollection__taxons, domain=None, range=Optional[Union[Dict[Union[str, OrganismTaxonId], Union[dict, OrganismTaxon]], List[Union[dict, OrganismTaxon]]]])
+
+slots.ChromosomePart_id = Slot(uri=CHROMOSCHEMA.id, name="ChromosomePart_id", curie=CHROMOSCHEMA.curie('id'),
+                   model_uri=CHROMOSCHEMA.ChromosomePart_id, domain=ChromosomePart, range=Union[str, ChromosomePartId],
+                   pattern=re.compile(r'^CHR:\\S+$'))
 
 slots.Genome_id = Slot(uri=CHROMOSCHEMA.id, name="Genome_id", curie=CHROMOSCHEMA.curie('id'),
                    model_uri=CHROMOSCHEMA.Genome_id, domain=Genome, range=Union[str, GenomeId],

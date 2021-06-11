@@ -6,29 +6,21 @@ replaced dipper Monochrom.py
 import click
 import csv
 from pathlib import Path
-import yaml
 import logging
 from linkml_runtime.loaders.yaml_loader import YAMLLoader
 from linkml_runtime.dumpers.yaml_dumper import YAMLDumper
 from linkml_runtime.dumpers.json_dumper import JSONDumper
 from enum import Enum, unique
-from rdflib import RDFS, Namespace
+from rdflib import RDFS
 from funowl import OntologyDocument, Ontology, ObjectSomeValuesFrom, AnnotationAssertion, Prefix
 import re
-from typing import List, Dict, Tuple
+from typing import List, Tuple
 from .chromschema import ChromosomePart, EntityType,ChromosomePartCollection, Genome, \
-    ChromosomePartId, GenomeBuildId, GenomeId, ChromosomeNameType, BandDescriptor
+    ChromosomePartId, GenomeBuildId, GenomeId, ChromosomeNameType, BandDescriptor, \
+    LocationType, SexChromosomeType, AutosomeVsSexChromosome
 import monochrom.chromschema as schema
 
-def get_genomes(f):
-    YL = YAMLLoader()
-    with open(f) as stream:
-        cpc: ChromosomePartCollection = YL.load(stream, target_class=ChromosomePartCollection)
-        return cpc.genomes
-
 INTERVAL = Tuple[int,int]
-
-BAND_DICT = Dict[ChromosomePartId, ChromosomePart]
 
 def make_ontology(cpc: ChromosomePartCollection, name='Chromosome Ontology') -> OntologyDocument:
     """
@@ -47,14 +39,17 @@ def make_ontology(cpc: ChromosomePartCollection, name='Chromosome Ontology') -> 
     doc.prefixDeclarations.append(Prefix('insdc', schema.INSDC))
     doc.prefixDeclarations.append(Prefix('CHR', schema.CHR))
     doc.prefixDeclarations.append(Prefix('NCBITaxon', schema.NCBITAXON))
-    #doc.prefixes.append(insdc = schema.INSDC)
     all_slots = schema.slots()
+    type_slots = [all_slots.type, all_slots.somal_type, all_slots.sex_chromosome_type]
     ann_slots = [all_slots.name, all_slots.build, all_slots.start, all_slots.end,
                  all_slots.exact_mappings, all_slots.exact_synonyms, all_slots.broad_synonyms]
-    svf_slots = [all_slots.parent, all_slots.taxon]
+    svf_slots = [all_slots.parent, all_slots.taxon, all_slots.cell_location]
     for band_id, band in bands.items():
         c = band_id
-        o.subClassOf(c, band.type.meaning)
+        for s in type_slots:
+            v = band._get(s.name)
+            if v is not None:
+                o.subClassOf(c, v.meaning)
         for s in ann_slots:
             # Annotation Assertions
             v = band._get(s.name)
@@ -68,6 +63,8 @@ def make_ontology(cpc: ChromosomePartCollection, name='Chromosome Ontology') -> 
             # SubClassOf SomeValuesFrom
             filler = band._get(s.name)
             if filler is not None:
+                if 'meaning' in filler:
+                    filler = filler.meaning
                 o.subClassOf(c, ObjectSomeValuesFrom(s.uri, filler))
     return doc
 
@@ -155,15 +152,21 @@ def validate(ccp: ChromosomePartCollection):
             if band.taxon != p.taxon:
                 raise Exception(f'Taxon{band} {p}')
 
+def assign_ranges(cpc: ChromosomePartCollection, band: ChromosomePart) -> None:
+    """
 
-def assign_ranges(bands: BAND_DICT, band: ChromosomePart):
+    :param cpc:
+    :param band:
+    :return:
+    """
+    parts = cpc.has
     if band.start is not None:
         return
     for child in band.children:
-        assign_ranges(bands, bands[child])
+        assign_ranges(cpc, parts[child])
     if band.start is None:
-        starts = [bands[b].start for b in band.children]
-        ends = [bands[b].end for b in band.children]
+        starts = [parts[b].start for b in band.children]
+        ends = [parts[b].end for b in band.children]
         if starts[0] < ends[0]:
             band.start = min(starts)
             band.end = max(ends)
@@ -171,57 +174,74 @@ def assign_ranges(bands: BAND_DICT, band: ChromosomePart):
             band.start = max(starts)
             band.end = min(ends)
 
-def assign_info(ccp: ChromosomePartCollection):
+def assign_info(cpc: ChromosomePartCollection):
     """
     Assign additional info, including inference of start/end for parent bands,
     and assigning labels
 
-    :param ccp:
+    :param cpc:
     :return:
     """
-    bands = ccp.has
-    spmap = ccp.genomes
+    bands = cpc.has
+    spmap = cpc.genomes
     for _, band in bands.items():
-        spcode, _ = split_build_string(band.build)
-        sp = spmap[spcode]
-        spname = sp["name"]
-        band.name = f'{band.chromosome_name}{band.band_descriptor} ({spname})'
-        band.taxon = sp["taxon"]
+        genome_spcode, _ = split_build_string(band.build)
+        genome = spmap[genome_spcode]
+        spname = genome.name
+        chr = band.chromosome_name.replace('chr', '')
+        band.taxon = genome.taxon
         if band.band_descriptor == '':
+            band.name = f'chromosome {chr} ({spname})'
             type = EntityType.chromosome
+            n = band.chromosome_name.replace('chr', '')
+            if n == 'M':
+                band.cell_location = LocationType.mitochondrion
+            else:
+                ## TODO: bacteria or other cytosolic chromosomes
+                band.cell_location = LocationType.nucleus
+                if n in ['X', 'Y', 'W', 'Z']:
+                    band.somal_type = AutosomeVsSexChromosome.sex_chromosome
+                    band.sex_chromosome_type = SexChromosomeType[n]
+                else:
+                    band.somal_type = AutosomeVsSexChromosome.autosome
+                    if not n.isdigit() and n not in ['I', 'II', 'III', 'IV', 'V']:
+                        logging.error(f'Cannot parse chromosome: {n}')
+
         else:
+            band.name = f'{chr}{band.band_descriptor} ({spname})'
             type = EntityType.chromosome_part
         band.type = type
-        assign_ranges(bands, band)
+        assign_ranges(cpc, band)
 
-def parse_chromAlias(ccp: ChromosomePartCollection, build: GenomeBuildId, f: str):
+def parse_chromAlias(cpc: ChromosomePartCollection, build: GenomeBuildId, f: str):
     """
     Parses a UCSC aliases file
 
-    :param ccp:
+    :param cpc:
     :param build:
     :param f:
     :return:
     """
     spcode, buildnum = split_build_string(build)
-    ccp.genomes[spcode].build = build
-    bands = ccp.has
+    cpc.genomes[spcode].build = build
+    bands = cpc.has
     with open(f, 'r') as tsvfile:
         reader = csv.reader(tsvfile, delimiter='\t')
         n = 0
-        for [name,chr,src] in reader:
-            id = get_band_id(ccp, spcode, chr, '')
+        for [name,chr,srcs] in reader:
+            id = get_band_id(cpc, spcode, chr, '')
             if id in bands:
                 band = bands[id]
                 n += 1
-                if src == 'assembly':
-                    band.broad_synonyms = [name]
-                elif src == 'refseq':
-                    band.exact_mappings.append(f'refseq:{name}')
-                elif src == 'genbank':
-                    band.exact_mappings.append(f'insdc:{name}')
-                else:
-                    logging.warning(f'Do not know what to do with {src}')
+                for src in srcs.split(","):
+                    if src == 'assembly' or src == 'ensembl':
+                        band.broad_synonyms = [name]
+                    elif src == 'refseq':
+                        band.exact_mappings.append(f'refseq:{name}')
+                    elif src == 'genbank':
+                        band.exact_mappings.append(f'insdc:{name}')
+                    else:
+                        logging.warning(f'Do not know what to do with {src}')
         if n == 0:
             raise Exception(f'No bands recognized in {f}')
 
@@ -234,7 +254,7 @@ def parse_cytoBand(cpc: ChromosomePartCollection, build: GenomeBuildId, f: str):
     :param f:
     :return:
     """
-    spcode, buildnum = split_build_string(build)
+    spcode, _ = split_build_string(build)
     bands = cpc.has
     with open(f, 'r') as tsvfile:
         reader = csv.reader(tsvfile, delimiter='\t')
