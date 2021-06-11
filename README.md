@@ -63,6 +63,16 @@ hierarchy.
 
 Currently only a small number of genomes are provided - it should be relatively easy to extend this to other genomes so long as they are covered by UCSC.
 
+Protege screenshot:
+
+![image](https://user-images.githubusercontent.com/50745/121618393-863cee80-ca1b-11eb-8fff-f7cfe309986a.png)
+
+## TODO
+
+Align with karyotype ontology:
+
+https://arxiv.org/pdf/1305.3758.pdf
+
 ## Versions
 
 The latest version of the ontology can always be found at:
