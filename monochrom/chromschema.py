@@ -1,5 +1,5 @@
 # Auto generated from chromo.yaml by pythongen.py version: 0.9.0
-# Generation date: 2021-06-07 16:48
+# Generation date: 2021-06-10 18:33
 # Schema: ChromoSchema
 #
 # id: https://w3id.org/biodatamodels/chromoschema
@@ -405,9 +405,9 @@ class LocationType(EnumDefinitionImpl):
     where in the cell
     """
     nucleus = PermissibleValue(text="nucleus",
-                                     meaning=GO["0000803"])
+                                     meaning=GO["0005634"])
     mitochondrion = PermissibleValue(text="mitochondrion",
-                                                 meaning=GO["0030849"])
+                                                 meaning=GO["0005739"])
 
     _defn = EnumDefinition(
         name="LocationType",

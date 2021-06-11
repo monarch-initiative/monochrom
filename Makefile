@@ -2,9 +2,14 @@
 BUILDS = hg38 ce11 mm10 rn6
 # TODO: dm6
 
-all: all-chromAlias all-cytoBand src/ontology/components/ucsc.owl
+all: all-chromAlias all-cytoBand src/ontology/components/ucsc.owl  all-components
 all-chromAlias: $(patsubst %, download/%-chromAlias.tsv, $(BUILDS))
 all-cytoBand: $(patsubst %, download/%-cytoBand.tsv, $(BUILDS))
+
+all-components: all-components-yaml all-components-owl
+
+all-components-yaml: $(patsubst %, components/%.yaml, $(BUILDS))
+all-components-owl: $(patsubst %, components/%.owl, $(BUILDS))
 
 test:
 	pytest
@@ -28,7 +33,8 @@ download/ncit.owl:
 download/ncit-chrom-terms.owl: download/ncit.owl config/ncit-chrom-terms.txt
 	robot extract -i $< -m TOP -T config/ncit-chrom-terms.txt -o $@
 
-src/ontology/tmp/ucsc.ofn: monochrom/monochrom.py
+# ODK will take things on from here
+src/ontology/tmp/ucsc.ofn: monochrom/monochrom.py monochrom/chromschema.py
 	python -m monochrom.monochrom download/*-*.tsv -o $@.tmp && mv $@.tmp $@
 .PRECIOUS: src/ontology/tmp/ucsc.ofn
 

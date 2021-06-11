@@ -14,7 +14,7 @@ has:
       meaning: http://purl.obolibrary.org/obo/GO_0030849
     cell_location:
       text: nucleus
-      meaning: http://purl.obolibrary.org/obo/GO_0000803
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:6239
     start: 0
     end: 15072434
@@ -36,7 +36,7 @@ has:
       meaning: http://purl.obolibrary.org/obo/GO_0030849
     cell_location:
       text: nucleus
-      meaning: http://purl.obolibrary.org/obo/GO_0000803
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:6239
     start: 0
     end: 15279421
@@ -58,7 +58,7 @@ has:
       meaning: http://purl.obolibrary.org/obo/GO_0030849
     cell_location:
       text: nucleus
-      meaning: http://purl.obolibrary.org/obo/GO_0000803
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:6239
     start: 0
     end: 13783801
@@ -80,7 +80,7 @@ has:
       meaning: http://purl.obolibrary.org/obo/GO_0030849
     cell_location:
       text: nucleus
-      meaning: http://purl.obolibrary.org/obo/GO_0000803
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:6239
     start: 0
     end: 17493829
@@ -99,7 +99,7 @@ has:
       meaning: http://purl.obolibrary.org/obo/GO_0005694
     cell_location:
       text: mitochondrion
-      meaning: http://purl.obolibrary.org/obo/GO_0030849
+      meaning: http://purl.obolibrary.org/obo/GO_0005739
     taxon: NCBITaxon:6239
     start: 0
     end: 13794
@@ -121,7 +121,7 @@ has:
       meaning: http://purl.obolibrary.org/obo/GO_0030849
     cell_location:
       text: nucleus
-      meaning: http://purl.obolibrary.org/obo/GO_0000803
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:6239
     start: 0
     end: 20924180
@@ -146,7 +146,7 @@ has:
       meaning: http://purl.obolibrary.org/obo/GO_0000805
     cell_location:
       text: nucleus
-      meaning: http://purl.obolibrary.org/obo/GO_0000803
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:6239
     start: 0
     end: 17718942

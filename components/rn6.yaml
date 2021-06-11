@@ -5,7 +5,7 @@ has:
     band_descriptor: p13
     chromosome_name: chr1
     build: rn6
-    name: chr1p13 (Rattus norvegicus)
+    name: 1p13 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -18,7 +18,7 @@ has:
     band_descriptor: p1
     chromosome_name: chr1
     build: rn6
-    name: chr1p1 (Rattus norvegicus)
+    name: 1p1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -35,7 +35,7 @@ has:
     band_descriptor: p
     chromosome_name: chr1
     build: rn6
-    name: chr1p (Rattus norvegicus)
+    name: 1p (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -50,10 +50,16 @@ has:
     band_descriptor: ''
     chromosome_name: chr1
     build: rn6
-    name: chr1 (Rattus norvegicus)
+    name: chromosome 1 (Rat)
     type:
       text: chromosome
       meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
     start: 0
     end: 282763074
@@ -63,12 +69,14 @@ has:
     exact_mappings:
     - refseq:NC_005100.4
     - insdc:CM000072.5
+    broad_synonyms:
+    - '1'
   CHR:10116-chr1p12:
     id: CHR:10116-chr1p12
     band_descriptor: p12
     chromosome_name: chr1
     build: rn6
-    name: chr1p12 (Rattus norvegicus)
+    name: 1p12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -81,7 +89,7 @@ has:
     band_descriptor: p11
     chromosome_name: chr1
     build: rn6
-    name: chr1p11 (Rattus norvegicus)
+    name: 1p11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -94,7 +102,7 @@ has:
     band_descriptor: q11
     chromosome_name: chr1
     build: rn6
-    name: chr1q11 (Rattus norvegicus)
+    name: 1q11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -107,7 +115,7 @@ has:
     band_descriptor: q1
     chromosome_name: chr1
     build: rn6
-    name: chr1q1 (Rattus norvegicus)
+    name: 1q1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -123,7 +131,7 @@ has:
     band_descriptor: q
     chromosome_name: chr1
     build: rn6
-    name: chr1q (Rattus norvegicus)
+    name: 1q (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -142,7 +150,7 @@ has:
     band_descriptor: q12
     chromosome_name: chr1
     build: rn6
-    name: chr1q12 (Rattus norvegicus)
+    name: 1q12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -155,7 +163,7 @@ has:
     band_descriptor: q21
     chromosome_name: chr1
     build: rn6
-    name: chr1q21 (Rattus norvegicus)
+    name: 1q21 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -168,7 +176,7 @@ has:
     band_descriptor: q2
     chromosome_name: chr1
     build: rn6
-    name: chr1q2 (Rattus norvegicus)
+    name: 1q2 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -184,7 +192,7 @@ has:
     band_descriptor: q22
     chromosome_name: chr1
     build: rn6
-    name: chr1q22 (Rattus norvegicus)
+    name: 1q22 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -197,7 +205,7 @@ has:
     band_descriptor: q31
     chromosome_name: chr1
     build: rn6
-    name: chr1q31 (Rattus norvegicus)
+    name: 1q31 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -210,7 +218,7 @@ has:
     band_descriptor: q3
     chromosome_name: chr1
     build: rn6
-    name: chr1q3 (Rattus norvegicus)
+    name: 1q3 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -231,7 +239,7 @@ has:
     band_descriptor: q32
     chromosome_name: chr1
     build: rn6
-    name: chr1q32 (Rattus norvegicus)
+    name: 1q32 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -244,7 +252,7 @@ has:
     band_descriptor: q33
     chromosome_name: chr1
     build: rn6
-    name: chr1q33 (Rattus norvegicus)
+    name: 1q33 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -257,7 +265,7 @@ has:
     band_descriptor: q34
     chromosome_name: chr1
     build: rn6
-    name: chr1q34 (Rattus norvegicus)
+    name: 1q34 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -270,7 +278,7 @@ has:
     band_descriptor: q35
     chromosome_name: chr1
     build: rn6
-    name: chr1q35 (Rattus norvegicus)
+    name: 1q35 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -283,7 +291,7 @@ has:
     band_descriptor: q36
     chromosome_name: chr1
     build: rn6
-    name: chr1q36 (Rattus norvegicus)
+    name: 1q36 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -296,7 +304,7 @@ has:
     band_descriptor: q37
     chromosome_name: chr1
     build: rn6
-    name: chr1q37 (Rattus norvegicus)
+    name: 1q37 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -309,7 +317,7 @@ has:
     band_descriptor: q41
     chromosome_name: chr1
     build: rn6
-    name: chr1q41 (Rattus norvegicus)
+    name: 1q41 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -322,7 +330,7 @@ has:
     band_descriptor: q4
     chromosome_name: chr1
     build: rn6
-    name: chr1q4 (Rattus norvegicus)
+    name: 1q4 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -339,7 +347,7 @@ has:
     band_descriptor: q42
     chromosome_name: chr1
     build: rn6
-    name: chr1q42 (Rattus norvegicus)
+    name: 1q42 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -352,7 +360,7 @@ has:
     band_descriptor: q43
     chromosome_name: chr1
     build: rn6
-    name: chr1q43 (Rattus norvegicus)
+    name: 1q43 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -365,7 +373,7 @@ has:
     band_descriptor: q51
     chromosome_name: chr1
     build: rn6
-    name: chr1q51 (Rattus norvegicus)
+    name: 1q51 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -378,7 +386,7 @@ has:
     band_descriptor: q5
     chromosome_name: chr1
     build: rn6
-    name: chr1q5 (Rattus norvegicus)
+    name: 1q5 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -397,7 +405,7 @@ has:
     band_descriptor: q52
     chromosome_name: chr1
     build: rn6
-    name: chr1q52 (Rattus norvegicus)
+    name: 1q52 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -410,7 +418,7 @@ has:
     band_descriptor: q53
     chromosome_name: chr1
     build: rn6
-    name: chr1q53 (Rattus norvegicus)
+    name: 1q53 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -423,7 +431,7 @@ has:
     band_descriptor: q54
     chromosome_name: chr1
     build: rn6
-    name: chr1q54 (Rattus norvegicus)
+    name: 1q54 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -436,7 +444,7 @@ has:
     band_descriptor: q55
     chromosome_name: chr1
     build: rn6
-    name: chr1q55 (Rattus norvegicus)
+    name: 1q55 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -449,7 +457,7 @@ has:
     band_descriptor: q11
     chromosome_name: chr10
     build: rn6
-    name: chr10q11 (Rattus norvegicus)
+    name: 10q11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -462,7 +470,7 @@ has:
     band_descriptor: q1
     chromosome_name: chr10
     build: rn6
-    name: chr10q1 (Rattus norvegicus)
+    name: 10q1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -478,7 +486,7 @@ has:
     band_descriptor: q
     chromosome_name: chr10
     build: rn6
-    name: chr10q (Rattus norvegicus)
+    name: 10q (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -495,10 +503,16 @@ has:
     band_descriptor: ''
     chromosome_name: chr10
     build: rn6
-    name: chr10 (Rattus norvegicus)
+    name: chromosome 10 (Rat)
     type:
       text: chromosome
       meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
     start: 0
     end: 112626471
@@ -507,12 +521,14 @@ has:
     exact_mappings:
     - refseq:NC_005109.4
     - insdc:CM000081.5
+    broad_synonyms:
+    - '10'
   CHR:10116-chr10q12:
     id: CHR:10116-chr10q12
     band_descriptor: q12
     chromosome_name: chr10
     build: rn6
-    name: chr10q12 (Rattus norvegicus)
+    name: 10q12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -525,7 +541,7 @@ has:
     band_descriptor: q21
     chromosome_name: chr10
     build: rn6
-    name: chr10q21 (Rattus norvegicus)
+    name: 10q21 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -538,7 +554,7 @@ has:
     band_descriptor: q2
     chromosome_name: chr10
     build: rn6
-    name: chr10q2 (Rattus norvegicus)
+    name: 10q2 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -558,7 +574,7 @@ has:
     band_descriptor: q22
     chromosome_name: chr10
     build: rn6
-    name: chr10q22 (Rattus norvegicus)
+    name: 10q22 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -571,7 +587,7 @@ has:
     band_descriptor: q23
     chromosome_name: chr10
     build: rn6
-    name: chr10q23 (Rattus norvegicus)
+    name: 10q23 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -584,7 +600,7 @@ has:
     band_descriptor: q24
     chromosome_name: chr10
     build: rn6
-    name: chr10q24 (Rattus norvegicus)
+    name: 10q24 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -597,7 +613,7 @@ has:
     band_descriptor: q25
     chromosome_name: chr10
     build: rn6
-    name: chr10q25 (Rattus norvegicus)
+    name: 10q25 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -610,7 +626,7 @@ has:
     band_descriptor: q26
     chromosome_name: chr10
     build: rn6
-    name: chr10q26 (Rattus norvegicus)
+    name: 10q26 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -623,7 +639,7 @@ has:
     band_descriptor: q31
     chromosome_name: chr10
     build: rn6
-    name: chr10q31 (Rattus norvegicus)
+    name: 10q31 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -636,7 +652,7 @@ has:
     band_descriptor: q3
     chromosome_name: chr10
     build: rn6
-    name: chr10q3 (Rattus norvegicus)
+    name: 10q3 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -652,7 +668,7 @@ has:
     band_descriptor: q32.1
     chromosome_name: chr10
     build: rn6
-    name: chr10q32.1 (Rattus norvegicus)
+    name: 10q32.1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -665,7 +681,7 @@ has:
     band_descriptor: q32
     chromosome_name: chr10
     build: rn6
-    name: chr10q32 (Rattus norvegicus)
+    name: 10q32 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -682,7 +698,7 @@ has:
     band_descriptor: q32.2
     chromosome_name: chr10
     build: rn6
-    name: chr10q32.2 (Rattus norvegicus)
+    name: 10q32.2 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -695,7 +711,7 @@ has:
     band_descriptor: q32.3
     chromosome_name: chr10
     build: rn6
-    name: chr10q32.3 (Rattus norvegicus)
+    name: 10q32.3 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -708,7 +724,7 @@ has:
     band_descriptor: p12
     chromosome_name: chr11
     build: rn6
-    name: chr11p12 (Rattus norvegicus)
+    name: 11p12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -721,7 +737,7 @@ has:
     band_descriptor: p1
     chromosome_name: chr11
     build: rn6
-    name: chr11p1 (Rattus norvegicus)
+    name: 11p1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -737,7 +753,7 @@ has:
     band_descriptor: p
     chromosome_name: chr11
     build: rn6
-    name: chr11p (Rattus norvegicus)
+    name: 11p (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -752,10 +768,16 @@ has:
     band_descriptor: ''
     chromosome_name: chr11
     build: rn6
-    name: chr11 (Rattus norvegicus)
+    name: chromosome 11 (Rat)
     type:
       text: chromosome
       meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
     start: 0
     end: 90463843
@@ -765,12 +787,14 @@ has:
     exact_mappings:
     - refseq:NC_005110.4
     - insdc:CM000082.5
+    broad_synonyms:
+    - '11'
   CHR:10116-chr11p11:
     id: CHR:10116-chr11p11
     band_descriptor: p11
     chromosome_name: chr11
     build: rn6
-    name: chr11p11 (Rattus norvegicus)
+    name: 11p11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -783,7 +807,7 @@ has:
     band_descriptor: q11
     chromosome_name: chr11
     build: rn6
-    name: chr11q11 (Rattus norvegicus)
+    name: 11q11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -796,7 +820,7 @@ has:
     band_descriptor: q1
     chromosome_name: chr11
     build: rn6
-    name: chr11q1 (Rattus norvegicus)
+    name: 11q1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -812,7 +836,7 @@ has:
     band_descriptor: q
     chromosome_name: chr11
     build: rn6
-    name: chr11q (Rattus norvegicus)
+    name: 11q (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -828,7 +852,7 @@ has:
     band_descriptor: q12
     chromosome_name: chr11
     build: rn6
-    name: chr11q12 (Rattus norvegicus)
+    name: 11q12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -841,7 +865,7 @@ has:
     band_descriptor: q21
     chromosome_name: chr11
     build: rn6
-    name: chr11q21 (Rattus norvegicus)
+    name: 11q21 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -854,7 +878,7 @@ has:
     band_descriptor: q2
     chromosome_name: chr11
     build: rn6
-    name: chr11q2 (Rattus norvegicus)
+    name: 11q2 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -871,7 +895,7 @@ has:
     band_descriptor: q22
     chromosome_name: chr11
     build: rn6
-    name: chr11q22 (Rattus norvegicus)
+    name: 11q22 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -884,7 +908,7 @@ has:
     band_descriptor: q23
     chromosome_name: chr11
     build: rn6
-    name: chr11q23 (Rattus norvegicus)
+    name: 11q23 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -897,7 +921,7 @@ has:
     band_descriptor: p12
     chromosome_name: chr12
     build: rn6
-    name: chr12p12 (Rattus norvegicus)
+    name: 12p12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -910,7 +934,7 @@ has:
     band_descriptor: p1
     chromosome_name: chr12
     build: rn6
-    name: chr12p1 (Rattus norvegicus)
+    name: 12p1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -926,7 +950,7 @@ has:
     band_descriptor: p
     chromosome_name: chr12
     build: rn6
-    name: chr12p (Rattus norvegicus)
+    name: 12p (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -941,10 +965,16 @@ has:
     band_descriptor: ''
     chromosome_name: chr12
     build: rn6
-    name: chr12 (Rattus norvegicus)
+    name: chromosome 12 (Rat)
     type:
       text: chromosome
       meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
     start: 0
     end: 52716770
@@ -954,12 +984,14 @@ has:
     exact_mappings:
     - refseq:NC_005111.4
     - insdc:CM000083.5
+    broad_synonyms:
+    - '12'
   CHR:10116-chr12p11:
     id: CHR:10116-chr12p11
     band_descriptor: p11
     chromosome_name: chr12
     build: rn6
-    name: chr12p11 (Rattus norvegicus)
+    name: 12p11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -972,7 +1004,7 @@ has:
     band_descriptor: q11
     chromosome_name: chr12
     build: rn6
-    name: chr12q11 (Rattus norvegicus)
+    name: 12q11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -985,7 +1017,7 @@ has:
     band_descriptor: q1
     chromosome_name: chr12
     build: rn6
-    name: chr12q1 (Rattus norvegicus)
+    name: 12q1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1005,7 +1037,7 @@ has:
     band_descriptor: q
     chromosome_name: chr12
     build: rn6
-    name: chr12q (Rattus norvegicus)
+    name: 12q (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1020,7 +1052,7 @@ has:
     band_descriptor: q12
     chromosome_name: chr12
     build: rn6
-    name: chr12q12 (Rattus norvegicus)
+    name: 12q12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1033,7 +1065,7 @@ has:
     band_descriptor: q13
     chromosome_name: chr12
     build: rn6
-    name: chr12q13 (Rattus norvegicus)
+    name: 12q13 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1046,7 +1078,7 @@ has:
     band_descriptor: q14
     chromosome_name: chr12
     build: rn6
-    name: chr12q14 (Rattus norvegicus)
+    name: 12q14 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1059,7 +1091,7 @@ has:
     band_descriptor: q15
     chromosome_name: chr12
     build: rn6
-    name: chr12q15 (Rattus norvegicus)
+    name: 12q15 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1072,7 +1104,7 @@ has:
     band_descriptor: q16
     chromosome_name: chr12
     build: rn6
-    name: chr12q16 (Rattus norvegicus)
+    name: 12q16 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1085,7 +1117,7 @@ has:
     band_descriptor: p13
     chromosome_name: chr13
     build: rn6
-    name: chr13p13 (Rattus norvegicus)
+    name: 13p13 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1098,7 +1130,7 @@ has:
     band_descriptor: p1
     chromosome_name: chr13
     build: rn6
-    name: chr13p1 (Rattus norvegicus)
+    name: 13p1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1115,7 +1147,7 @@ has:
     band_descriptor: p
     chromosome_name: chr13
     build: rn6
-    name: chr13p (Rattus norvegicus)
+    name: 13p (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1130,10 +1162,16 @@ has:
     band_descriptor: ''
     chromosome_name: chr13
     build: rn6
-    name: chr13 (Rattus norvegicus)
+    name: chromosome 13 (Rat)
     type:
       text: chromosome
       meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
     start: 0
     end: 114033958
@@ -1143,12 +1181,14 @@ has:
     exact_mappings:
     - refseq:NC_005112.4
     - insdc:CM000084.5
+    broad_synonyms:
+    - '13'
   CHR:10116-chr13p12:
     id: CHR:10116-chr13p12
     band_descriptor: p12
     chromosome_name: chr13
     build: rn6
-    name: chr13p12 (Rattus norvegicus)
+    name: 13p12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1161,7 +1201,7 @@ has:
     band_descriptor: p11
     chromosome_name: chr13
     build: rn6
-    name: chr13p11 (Rattus norvegicus)
+    name: 13p11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1174,7 +1214,7 @@ has:
     band_descriptor: q11
     chromosome_name: chr13
     build: rn6
-    name: chr13q11 (Rattus norvegicus)
+    name: 13q11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1187,7 +1227,7 @@ has:
     band_descriptor: q1
     chromosome_name: chr13
     build: rn6
-    name: chr13q1 (Rattus norvegicus)
+    name: 13q1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1204,7 +1244,7 @@ has:
     band_descriptor: q
     chromosome_name: chr13
     build: rn6
-    name: chr13q (Rattus norvegicus)
+    name: 13q (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1220,7 +1260,7 @@ has:
     band_descriptor: q12
     chromosome_name: chr13
     build: rn6
-    name: chr13q12 (Rattus norvegicus)
+    name: 13q12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1233,7 +1273,7 @@ has:
     band_descriptor: q13
     chromosome_name: chr13
     build: rn6
-    name: chr13q13 (Rattus norvegicus)
+    name: 13q13 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1246,7 +1286,7 @@ has:
     band_descriptor: q21
     chromosome_name: chr13
     build: rn6
-    name: chr13q21 (Rattus norvegicus)
+    name: 13q21 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1259,7 +1299,7 @@ has:
     band_descriptor: q2
     chromosome_name: chr13
     build: rn6
-    name: chr13q2 (Rattus norvegicus)
+    name: 13q2 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1280,7 +1320,7 @@ has:
     band_descriptor: q22
     chromosome_name: chr13
     build: rn6
-    name: chr13q22 (Rattus norvegicus)
+    name: 13q22 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1293,7 +1333,7 @@ has:
     band_descriptor: q23
     chromosome_name: chr13
     build: rn6
-    name: chr13q23 (Rattus norvegicus)
+    name: 13q23 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1306,7 +1346,7 @@ has:
     band_descriptor: q24
     chromosome_name: chr13
     build: rn6
-    name: chr13q24 (Rattus norvegicus)
+    name: 13q24 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1319,7 +1359,7 @@ has:
     band_descriptor: q25
     chromosome_name: chr13
     build: rn6
-    name: chr13q25 (Rattus norvegicus)
+    name: 13q25 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1332,7 +1372,7 @@ has:
     band_descriptor: q26
     chromosome_name: chr13
     build: rn6
-    name: chr13q26 (Rattus norvegicus)
+    name: 13q26 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1345,7 +1385,7 @@ has:
     band_descriptor: q27
     chromosome_name: chr13
     build: rn6
-    name: chr13q27 (Rattus norvegicus)
+    name: 13q27 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1358,7 +1398,7 @@ has:
     band_descriptor: p22
     chromosome_name: chr14
     build: rn6
-    name: chr14p22 (Rattus norvegicus)
+    name: 14p22 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1371,7 +1411,7 @@ has:
     band_descriptor: p2
     chromosome_name: chr14
     build: rn6
-    name: chr14p2 (Rattus norvegicus)
+    name: 14p2 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1387,7 +1427,7 @@ has:
     band_descriptor: p
     chromosome_name: chr14
     build: rn6
-    name: chr14p (Rattus norvegicus)
+    name: 14p (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1403,10 +1443,16 @@ has:
     band_descriptor: ''
     chromosome_name: chr14
     build: rn6
-    name: chr14 (Rattus norvegicus)
+    name: chromosome 14 (Rat)
     type:
       text: chromosome
       meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
     start: 0
     end: 115493446
@@ -1416,12 +1462,14 @@ has:
     exact_mappings:
     - refseq:NC_005113.4
     - insdc:CM000085.5
+    broad_synonyms:
+    - '14'
   CHR:10116-chr14p21:
     id: CHR:10116-chr14p21
     band_descriptor: p21
     chromosome_name: chr14
     build: rn6
-    name: chr14p21 (Rattus norvegicus)
+    name: 14p21 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1434,7 +1482,7 @@ has:
     band_descriptor: p11
     chromosome_name: chr14
     build: rn6
-    name: chr14p11 (Rattus norvegicus)
+    name: 14p11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1447,7 +1495,7 @@ has:
     band_descriptor: p1
     chromosome_name: chr14
     build: rn6
-    name: chr14p1 (Rattus norvegicus)
+    name: 14p1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1462,7 +1510,7 @@ has:
     band_descriptor: q11
     chromosome_name: chr14
     build: rn6
-    name: chr14q11 (Rattus norvegicus)
+    name: 14q11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1475,7 +1523,7 @@ has:
     band_descriptor: q1
     chromosome_name: chr14
     build: rn6
-    name: chr14q1 (Rattus norvegicus)
+    name: 14q1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1490,7 +1538,7 @@ has:
     band_descriptor: q
     chromosome_name: chr14
     build: rn6
-    name: chr14q (Rattus norvegicus)
+    name: 14q (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1506,7 +1554,7 @@ has:
     band_descriptor: q21
     chromosome_name: chr14
     build: rn6
-    name: chr14q21 (Rattus norvegicus)
+    name: 14q21 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1519,7 +1567,7 @@ has:
     band_descriptor: q2
     chromosome_name: chr14
     build: rn6
-    name: chr14q2 (Rattus norvegicus)
+    name: 14q2 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1535,7 +1583,7 @@ has:
     band_descriptor: q22
     chromosome_name: chr14
     build: rn6
-    name: chr14q22 (Rattus norvegicus)
+    name: 14q22 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1548,7 +1596,7 @@ has:
     band_descriptor: p16
     chromosome_name: chr15
     build: rn6
-    name: chr15p16 (Rattus norvegicus)
+    name: 15p16 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1561,7 +1609,7 @@ has:
     band_descriptor: p1
     chromosome_name: chr15
     build: rn6
-    name: chr15p1 (Rattus norvegicus)
+    name: 15p1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1581,7 +1629,7 @@ has:
     band_descriptor: p
     chromosome_name: chr15
     build: rn6
-    name: chr15p (Rattus norvegicus)
+    name: 15p (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1596,10 +1644,16 @@ has:
     band_descriptor: ''
     chromosome_name: chr15
     build: rn6
-    name: chr15 (Rattus norvegicus)
+    name: chromosome 15 (Rat)
     type:
       text: chromosome
       meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
     start: 0
     end: 111246239
@@ -1609,12 +1663,14 @@ has:
     exact_mappings:
     - refseq:NC_005114.4
     - insdc:CM000086.5
+    broad_synonyms:
+    - '15'
   CHR:10116-chr15p15:
     id: CHR:10116-chr15p15
     band_descriptor: p15
     chromosome_name: chr15
     build: rn6
-    name: chr15p15 (Rattus norvegicus)
+    name: 15p15 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1627,7 +1683,7 @@ has:
     band_descriptor: p14
     chromosome_name: chr15
     build: rn6
-    name: chr15p14 (Rattus norvegicus)
+    name: 15p14 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1640,7 +1696,7 @@ has:
     band_descriptor: p13
     chromosome_name: chr15
     build: rn6
-    name: chr15p13 (Rattus norvegicus)
+    name: 15p13 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1653,7 +1709,7 @@ has:
     band_descriptor: p12
     chromosome_name: chr15
     build: rn6
-    name: chr15p12 (Rattus norvegicus)
+    name: 15p12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1666,7 +1722,7 @@ has:
     band_descriptor: p11
     chromosome_name: chr15
     build: rn6
-    name: chr15p11 (Rattus norvegicus)
+    name: 15p11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1679,7 +1735,7 @@ has:
     band_descriptor: q11
     chromosome_name: chr15
     build: rn6
-    name: chr15q11 (Rattus norvegicus)
+    name: 15q11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1692,7 +1748,7 @@ has:
     band_descriptor: q1
     chromosome_name: chr15
     build: rn6
-    name: chr15q1 (Rattus norvegicus)
+    name: 15q1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1708,7 +1764,7 @@ has:
     band_descriptor: q
     chromosome_name: chr15
     build: rn6
-    name: chr15q (Rattus norvegicus)
+    name: 15q (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1724,7 +1780,7 @@ has:
     band_descriptor: q12
     chromosome_name: chr15
     build: rn6
-    name: chr15q12 (Rattus norvegicus)
+    name: 15q12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1737,7 +1793,7 @@ has:
     band_descriptor: q21
     chromosome_name: chr15
     build: rn6
-    name: chr15q21 (Rattus norvegicus)
+    name: 15q21 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1750,7 +1806,7 @@ has:
     band_descriptor: q2
     chromosome_name: chr15
     build: rn6
-    name: chr15q2 (Rattus norvegicus)
+    name: 15q2 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1769,7 +1825,7 @@ has:
     band_descriptor: q22
     chromosome_name: chr15
     build: rn6
-    name: chr15q22 (Rattus norvegicus)
+    name: 15q22 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1782,7 +1838,7 @@ has:
     band_descriptor: q23
     chromosome_name: chr15
     build: rn6
-    name: chr15q23 (Rattus norvegicus)
+    name: 15q23 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1795,7 +1851,7 @@ has:
     band_descriptor: q24
     chromosome_name: chr15
     build: rn6
-    name: chr15q24 (Rattus norvegicus)
+    name: 15q24 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1808,7 +1864,7 @@ has:
     band_descriptor: q25
     chromosome_name: chr15
     build: rn6
-    name: chr15q25 (Rattus norvegicus)
+    name: 15q25 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1821,7 +1877,7 @@ has:
     band_descriptor: p16
     chromosome_name: chr16
     build: rn6
-    name: chr16p16 (Rattus norvegicus)
+    name: 16p16 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1834,7 +1890,7 @@ has:
     band_descriptor: p1
     chromosome_name: chr16
     build: rn6
-    name: chr16p1 (Rattus norvegicus)
+    name: 16p1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1854,7 +1910,7 @@ has:
     band_descriptor: p
     chromosome_name: chr16
     build: rn6
-    name: chr16p (Rattus norvegicus)
+    name: 16p (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1869,10 +1925,16 @@ has:
     band_descriptor: ''
     chromosome_name: chr16
     build: rn6
-    name: chr16 (Rattus norvegicus)
+    name: chromosome 16 (Rat)
     type:
       text: chromosome
       meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
     start: 0
     end: 90668790
@@ -1882,12 +1944,14 @@ has:
     exact_mappings:
     - refseq:NC_005115.4
     - insdc:CM000087.5
+    broad_synonyms:
+    - '16'
   CHR:10116-chr16p15:
     id: CHR:10116-chr16p15
     band_descriptor: p15
     chromosome_name: chr16
     build: rn6
-    name: chr16p15 (Rattus norvegicus)
+    name: 16p15 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1900,7 +1964,7 @@ has:
     band_descriptor: p14
     chromosome_name: chr16
     build: rn6
-    name: chr16p14 (Rattus norvegicus)
+    name: 16p14 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1913,7 +1977,7 @@ has:
     band_descriptor: p13
     chromosome_name: chr16
     build: rn6
-    name: chr16p13 (Rattus norvegicus)
+    name: 16p13 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1926,7 +1990,7 @@ has:
     band_descriptor: p12
     chromosome_name: chr16
     build: rn6
-    name: chr16p12 (Rattus norvegicus)
+    name: 16p12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1939,7 +2003,7 @@ has:
     band_descriptor: p11
     chromosome_name: chr16
     build: rn6
-    name: chr16p11 (Rattus norvegicus)
+    name: 16p11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1952,7 +2016,7 @@ has:
     band_descriptor: q11
     chromosome_name: chr16
     build: rn6
-    name: chr16q11 (Rattus norvegicus)
+    name: 16q11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1965,7 +2029,7 @@ has:
     band_descriptor: q1
     chromosome_name: chr16
     build: rn6
-    name: chr16q1 (Rattus norvegicus)
+    name: 16q1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1981,7 +2045,7 @@ has:
     band_descriptor: q
     chromosome_name: chr16
     build: rn6
-    name: chr16q (Rattus norvegicus)
+    name: 16q (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -1996,7 +2060,7 @@ has:
     band_descriptor: q12.1
     chromosome_name: chr16
     build: rn6
-    name: chr16q12.1 (Rattus norvegicus)
+    name: 16q12.1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2009,7 +2073,7 @@ has:
     band_descriptor: q12
     chromosome_name: chr16
     build: rn6
-    name: chr16q12 (Rattus norvegicus)
+    name: 16q12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2028,7 +2092,7 @@ has:
     band_descriptor: q12.2
     chromosome_name: chr16
     build: rn6
-    name: chr16q12.2 (Rattus norvegicus)
+    name: 16q12.2 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2041,7 +2105,7 @@ has:
     band_descriptor: q12.3
     chromosome_name: chr16
     build: rn6
-    name: chr16q12.3 (Rattus norvegicus)
+    name: 16q12.3 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2054,7 +2118,7 @@ has:
     band_descriptor: q12.4
     chromosome_name: chr16
     build: rn6
-    name: chr16q12.4 (Rattus norvegicus)
+    name: 16q12.4 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2067,7 +2131,7 @@ has:
     band_descriptor: q12.5
     chromosome_name: chr16
     build: rn6
-    name: chr16q12.5 (Rattus norvegicus)
+    name: 16q12.5 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2080,7 +2144,7 @@ has:
     band_descriptor: p14
     chromosome_name: chr17
     build: rn6
-    name: chr17p14 (Rattus norvegicus)
+    name: 17p14 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2093,7 +2157,7 @@ has:
     band_descriptor: p1
     chromosome_name: chr17
     build: rn6
-    name: chr17p1 (Rattus norvegicus)
+    name: 17p1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2111,7 +2175,7 @@ has:
     band_descriptor: p
     chromosome_name: chr17
     build: rn6
-    name: chr17p (Rattus norvegicus)
+    name: 17p (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2126,10 +2190,16 @@ has:
     band_descriptor: ''
     chromosome_name: chr17
     build: rn6
-    name: chr17 (Rattus norvegicus)
+    name: chromosome 17 (Rat)
     type:
       text: chromosome
       meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
     start: 0
     end: 90843779
@@ -2139,12 +2209,14 @@ has:
     exact_mappings:
     - refseq:NC_005116.4
     - insdc:CM000088.5
+    broad_synonyms:
+    - '17'
   CHR:10116-chr17p13:
     id: CHR:10116-chr17p13
     band_descriptor: p13
     chromosome_name: chr17
     build: rn6
-    name: chr17p13 (Rattus norvegicus)
+    name: 17p13 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2157,7 +2229,7 @@ has:
     band_descriptor: p12
     chromosome_name: chr17
     build: rn6
-    name: chr17p12 (Rattus norvegicus)
+    name: 17p12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2170,7 +2242,7 @@ has:
     band_descriptor: p11
     chromosome_name: chr17
     build: rn6
-    name: chr17p11 (Rattus norvegicus)
+    name: 17p11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2183,7 +2255,7 @@ has:
     band_descriptor: q11
     chromosome_name: chr17
     build: rn6
-    name: chr17q11 (Rattus norvegicus)
+    name: 17q11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2196,7 +2268,7 @@ has:
     band_descriptor: q1
     chromosome_name: chr17
     build: rn6
-    name: chr17q1 (Rattus norvegicus)
+    name: 17q1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2212,7 +2284,7 @@ has:
     band_descriptor: q
     chromosome_name: chr17
     build: rn6
-    name: chr17q (Rattus norvegicus)
+    name: 17q (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2227,7 +2299,7 @@ has:
     band_descriptor: q12.1
     chromosome_name: chr17
     build: rn6
-    name: chr17q12.1 (Rattus norvegicus)
+    name: 17q12.1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2240,7 +2312,7 @@ has:
     band_descriptor: q12
     chromosome_name: chr17
     build: rn6
-    name: chr17q12 (Rattus norvegicus)
+    name: 17q12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2257,7 +2329,7 @@ has:
     band_descriptor: q12.2
     chromosome_name: chr17
     build: rn6
-    name: chr17q12.2 (Rattus norvegicus)
+    name: 17q12.2 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2270,7 +2342,7 @@ has:
     band_descriptor: q12.3
     chromosome_name: chr17
     build: rn6
-    name: chr17q12.3 (Rattus norvegicus)
+    name: 17q12.3 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2283,7 +2355,7 @@ has:
     band_descriptor: p13
     chromosome_name: chr18
     build: rn6
-    name: chr18p13 (Rattus norvegicus)
+    name: 18p13 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2296,7 +2368,7 @@ has:
     band_descriptor: p1
     chromosome_name: chr18
     build: rn6
-    name: chr18p1 (Rattus norvegicus)
+    name: 18p1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2313,7 +2385,7 @@ has:
     band_descriptor: p
     chromosome_name: chr18
     build: rn6
-    name: chr18p (Rattus norvegicus)
+    name: 18p (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2328,10 +2400,16 @@ has:
     band_descriptor: ''
     chromosome_name: chr18
     build: rn6
-    name: chr18 (Rattus norvegicus)
+    name: chromosome 18 (Rat)
     type:
       text: chromosome
       meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
     start: 0
     end: 88201929
@@ -2341,12 +2419,14 @@ has:
     exact_mappings:
     - refseq:NC_005117.4
     - insdc:CM000089.5
+    broad_synonyms:
+    - '18'
   CHR:10116-chr18p12:
     id: CHR:10116-chr18p12
     band_descriptor: p12
     chromosome_name: chr18
     build: rn6
-    name: chr18p12 (Rattus norvegicus)
+    name: 18p12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2359,7 +2439,7 @@ has:
     band_descriptor: p11
     chromosome_name: chr18
     build: rn6
-    name: chr18p11 (Rattus norvegicus)
+    name: 18p11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2372,7 +2452,7 @@ has:
     band_descriptor: q11
     chromosome_name: chr18
     build: rn6
-    name: chr18q11 (Rattus norvegicus)
+    name: 18q11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2385,7 +2465,7 @@ has:
     band_descriptor: q1
     chromosome_name: chr18
     build: rn6
-    name: chr18q1 (Rattus norvegicus)
+    name: 18q1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2402,7 +2482,7 @@ has:
     band_descriptor: q
     chromosome_name: chr18
     build: rn6
-    name: chr18q (Rattus norvegicus)
+    name: 18q (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2417,7 +2497,7 @@ has:
     band_descriptor: q12.1
     chromosome_name: chr18
     build: rn6
-    name: chr18q12.1 (Rattus norvegicus)
+    name: 18q12.1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2430,7 +2510,7 @@ has:
     band_descriptor: q12
     chromosome_name: chr18
     build: rn6
-    name: chr18q12 (Rattus norvegicus)
+    name: 18q12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2447,7 +2527,7 @@ has:
     band_descriptor: q12.2
     chromosome_name: chr18
     build: rn6
-    name: chr18q12.2 (Rattus norvegicus)
+    name: 18q12.2 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2460,7 +2540,7 @@ has:
     band_descriptor: q12.3
     chromosome_name: chr18
     build: rn6
-    name: chr18q12.3 (Rattus norvegicus)
+    name: 18q12.3 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2473,7 +2553,7 @@ has:
     band_descriptor: q13
     chromosome_name: chr18
     build: rn6
-    name: chr18q13 (Rattus norvegicus)
+    name: 18q13 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2486,7 +2566,7 @@ has:
     band_descriptor: p14
     chromosome_name: chr19
     build: rn6
-    name: chr19p14 (Rattus norvegicus)
+    name: 19p14 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2499,7 +2579,7 @@ has:
     band_descriptor: p1
     chromosome_name: chr19
     build: rn6
-    name: chr19p1 (Rattus norvegicus)
+    name: 19p1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2517,7 +2597,7 @@ has:
     band_descriptor: p
     chromosome_name: chr19
     build: rn6
-    name: chr19p (Rattus norvegicus)
+    name: 19p (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2532,10 +2612,16 @@ has:
     band_descriptor: ''
     chromosome_name: chr19
     build: rn6
-    name: chr19 (Rattus norvegicus)
+    name: chromosome 19 (Rat)
     type:
       text: chromosome
       meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
     start: 0
     end: 62275575
@@ -2545,12 +2631,14 @@ has:
     exact_mappings:
     - refseq:NC_005118.4
     - insdc:CM000090.5
+    broad_synonyms:
+    - '19'
   CHR:10116-chr19p13:
     id: CHR:10116-chr19p13
     band_descriptor: p13
     chromosome_name: chr19
     build: rn6
-    name: chr19p13 (Rattus norvegicus)
+    name: 19p13 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2563,7 +2651,7 @@ has:
     band_descriptor: p12
     chromosome_name: chr19
     build: rn6
-    name: chr19p12 (Rattus norvegicus)
+    name: 19p12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2576,7 +2664,7 @@ has:
     band_descriptor: p11
     chromosome_name: chr19
     build: rn6
-    name: chr19p11 (Rattus norvegicus)
+    name: 19p11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2589,7 +2677,7 @@ has:
     band_descriptor: q11
     chromosome_name: chr19
     build: rn6
-    name: chr19q11 (Rattus norvegicus)
+    name: 19q11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2602,7 +2690,7 @@ has:
     band_descriptor: q1
     chromosome_name: chr19
     build: rn6
-    name: chr19q1 (Rattus norvegicus)
+    name: 19q1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2618,7 +2706,7 @@ has:
     band_descriptor: q
     chromosome_name: chr19
     build: rn6
-    name: chr19q (Rattus norvegicus)
+    name: 19q (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2633,7 +2721,7 @@ has:
     band_descriptor: q12
     chromosome_name: chr19
     build: rn6
-    name: chr19q12 (Rattus norvegicus)
+    name: 19q12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2646,7 +2734,7 @@ has:
     band_descriptor: q11
     chromosome_name: chr2
     build: rn6
-    name: chr2q11 (Rattus norvegicus)
+    name: 2q11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2659,7 +2747,7 @@ has:
     band_descriptor: q1
     chromosome_name: chr2
     build: rn6
-    name: chr2q1 (Rattus norvegicus)
+    name: 2q1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2679,7 +2767,7 @@ has:
     band_descriptor: q
     chromosome_name: chr2
     build: rn6
-    name: chr2q (Rattus norvegicus)
+    name: 2q (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2697,10 +2785,16 @@ has:
     band_descriptor: ''
     chromosome_name: chr2
     build: rn6
-    name: chr2 (Rattus norvegicus)
+    name: chromosome 2 (Rat)
     type:
       text: chromosome
       meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
     start: 0
     end: 266435125
@@ -2709,12 +2803,14 @@ has:
     exact_mappings:
     - refseq:NC_005101.4
     - insdc:CM000073.5
+    broad_synonyms:
+    - '2'
   CHR:10116-chr2q12:
     id: CHR:10116-chr2q12
     band_descriptor: q12
     chromosome_name: chr2
     build: rn6
-    name: chr2q12 (Rattus norvegicus)
+    name: 2q12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2727,7 +2823,7 @@ has:
     band_descriptor: q13
     chromosome_name: chr2
     build: rn6
-    name: chr2q13 (Rattus norvegicus)
+    name: 2q13 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2740,7 +2836,7 @@ has:
     band_descriptor: q14
     chromosome_name: chr2
     build: rn6
-    name: chr2q14 (Rattus norvegicus)
+    name: 2q14 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2753,7 +2849,7 @@ has:
     band_descriptor: q15
     chromosome_name: chr2
     build: rn6
-    name: chr2q15 (Rattus norvegicus)
+    name: 2q15 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2766,7 +2862,7 @@ has:
     band_descriptor: q16
     chromosome_name: chr2
     build: rn6
-    name: chr2q16 (Rattus norvegicus)
+    name: 2q16 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2779,7 +2875,7 @@ has:
     band_descriptor: q21
     chromosome_name: chr2
     build: rn6
-    name: chr2q21 (Rattus norvegicus)
+    name: 2q21 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2792,7 +2888,7 @@ has:
     band_descriptor: q2
     chromosome_name: chr2
     build: rn6
-    name: chr2q2 (Rattus norvegicus)
+    name: 2q2 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2812,7 +2908,7 @@ has:
     band_descriptor: q22
     chromosome_name: chr2
     build: rn6
-    name: chr2q22 (Rattus norvegicus)
+    name: 2q22 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2825,7 +2921,7 @@ has:
     band_descriptor: q23
     chromosome_name: chr2
     build: rn6
-    name: chr2q23 (Rattus norvegicus)
+    name: 2q23 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2838,7 +2934,7 @@ has:
     band_descriptor: q24
     chromosome_name: chr2
     build: rn6
-    name: chr2q24 (Rattus norvegicus)
+    name: 2q24 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2851,7 +2947,7 @@ has:
     band_descriptor: q25
     chromosome_name: chr2
     build: rn6
-    name: chr2q25 (Rattus norvegicus)
+    name: 2q25 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2864,7 +2960,7 @@ has:
     band_descriptor: q26
     chromosome_name: chr2
     build: rn6
-    name: chr2q26 (Rattus norvegicus)
+    name: 2q26 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2877,7 +2973,7 @@ has:
     band_descriptor: q31
     chromosome_name: chr2
     build: rn6
-    name: chr2q31 (Rattus norvegicus)
+    name: 2q31 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2890,7 +2986,7 @@ has:
     band_descriptor: q3
     chromosome_name: chr2
     build: rn6
-    name: chr2q3 (Rattus norvegicus)
+    name: 2q3 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2908,7 +3004,7 @@ has:
     band_descriptor: q32
     chromosome_name: chr2
     build: rn6
-    name: chr2q32 (Rattus norvegicus)
+    name: 2q32 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2921,7 +3017,7 @@ has:
     band_descriptor: q33
     chromosome_name: chr2
     build: rn6
-    name: chr2q33 (Rattus norvegicus)
+    name: 2q33 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2934,7 +3030,7 @@ has:
     band_descriptor: q34
     chromosome_name: chr2
     build: rn6
-    name: chr2q34 (Rattus norvegicus)
+    name: 2q34 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2947,7 +3043,7 @@ has:
     band_descriptor: q41
     chromosome_name: chr2
     build: rn6
-    name: chr2q41 (Rattus norvegicus)
+    name: 2q41 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2960,7 +3056,7 @@ has:
     band_descriptor: q4
     chromosome_name: chr2
     build: rn6
-    name: chr2q4 (Rattus norvegicus)
+    name: 2q4 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2979,7 +3075,7 @@ has:
     band_descriptor: q42
     chromosome_name: chr2
     build: rn6
-    name: chr2q42 (Rattus norvegicus)
+    name: 2q42 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -2992,7 +3088,7 @@ has:
     band_descriptor: q43
     chromosome_name: chr2
     build: rn6
-    name: chr2q43 (Rattus norvegicus)
+    name: 2q43 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3005,7 +3101,7 @@ has:
     band_descriptor: q44
     chromosome_name: chr2
     build: rn6
-    name: chr2q44 (Rattus norvegicus)
+    name: 2q44 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3018,7 +3114,7 @@ has:
     band_descriptor: q45
     chromosome_name: chr2
     build: rn6
-    name: chr2q45 (Rattus norvegicus)
+    name: 2q45 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3031,7 +3127,7 @@ has:
     band_descriptor: p12
     chromosome_name: chr20
     build: rn6
-    name: chr20p12 (Rattus norvegicus)
+    name: 20p12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3044,7 +3140,7 @@ has:
     band_descriptor: p1
     chromosome_name: chr20
     build: rn6
-    name: chr20p1 (Rattus norvegicus)
+    name: 20p1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3060,7 +3156,7 @@ has:
     band_descriptor: p
     chromosome_name: chr20
     build: rn6
-    name: chr20p (Rattus norvegicus)
+    name: 20p (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3075,10 +3171,16 @@ has:
     band_descriptor: ''
     chromosome_name: chr20
     build: rn6
-    name: chr20 (Rattus norvegicus)
+    name: chromosome 20 (Rat)
     type:
       text: chromosome
       meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
     start: 0
     end: 56205956
@@ -3088,12 +3190,14 @@ has:
     exact_mappings:
     - refseq:NC_005119.4
     - insdc:CM000091.5
+    broad_synonyms:
+    - '20'
   CHR:10116-chr20p11:
     id: CHR:10116-chr20p11
     band_descriptor: p11
     chromosome_name: chr20
     build: rn6
-    name: chr20p11 (Rattus norvegicus)
+    name: 20p11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3106,7 +3210,7 @@ has:
     band_descriptor: q11
     chromosome_name: chr20
     build: rn6
-    name: chr20q11 (Rattus norvegicus)
+    name: 20q11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3119,7 +3223,7 @@ has:
     band_descriptor: q1
     chromosome_name: chr20
     build: rn6
-    name: chr20q1 (Rattus norvegicus)
+    name: 20q1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3136,7 +3240,7 @@ has:
     band_descriptor: q
     chromosome_name: chr20
     build: rn6
-    name: chr20q (Rattus norvegicus)
+    name: 20q (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3151,7 +3255,7 @@ has:
     band_descriptor: q12
     chromosome_name: chr20
     build: rn6
-    name: chr20q12 (Rattus norvegicus)
+    name: 20q12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3164,7 +3268,7 @@ has:
     band_descriptor: q13
     chromosome_name: chr20
     build: rn6
-    name: chr20q13 (Rattus norvegicus)
+    name: 20q13 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3177,7 +3281,7 @@ has:
     band_descriptor: p13
     chromosome_name: chr3
     build: rn6
-    name: chr3p13 (Rattus norvegicus)
+    name: 3p13 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3190,7 +3294,7 @@ has:
     band_descriptor: p1
     chromosome_name: chr3
     build: rn6
-    name: chr3p1 (Rattus norvegicus)
+    name: 3p1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3207,7 +3311,7 @@ has:
     band_descriptor: p
     chromosome_name: chr3
     build: rn6
-    name: chr3p (Rattus norvegicus)
+    name: 3p (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3222,10 +3326,16 @@ has:
     band_descriptor: ''
     chromosome_name: chr3
     build: rn6
-    name: chr3 (Rattus norvegicus)
+    name: chromosome 3 (Rat)
     type:
       text: chromosome
       meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
     start: 0
     end: 177699992
@@ -3235,12 +3345,14 @@ has:
     exact_mappings:
     - refseq:NC_005102.4
     - insdc:CM000074.5
+    broad_synonyms:
+    - '3'
   CHR:10116-chr3p12:
     id: CHR:10116-chr3p12
     band_descriptor: p12
     chromosome_name: chr3
     build: rn6
-    name: chr3p12 (Rattus norvegicus)
+    name: 3p12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3253,7 +3365,7 @@ has:
     band_descriptor: p11
     chromosome_name: chr3
     build: rn6
-    name: chr3p11 (Rattus norvegicus)
+    name: 3p11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3266,7 +3378,7 @@ has:
     band_descriptor: q11
     chromosome_name: chr3
     build: rn6
-    name: chr3q11 (Rattus norvegicus)
+    name: 3q11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3279,7 +3391,7 @@ has:
     band_descriptor: q1
     chromosome_name: chr3
     build: rn6
-    name: chr3q1 (Rattus norvegicus)
+    name: 3q1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3295,7 +3407,7 @@ has:
     band_descriptor: q
     chromosome_name: chr3
     build: rn6
-    name: chr3q (Rattus norvegicus)
+    name: 3q (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3313,7 +3425,7 @@ has:
     band_descriptor: q12
     chromosome_name: chr3
     build: rn6
-    name: chr3q12 (Rattus norvegicus)
+    name: 3q12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3326,7 +3438,7 @@ has:
     band_descriptor: q21
     chromosome_name: chr3
     build: rn6
-    name: chr3q21 (Rattus norvegicus)
+    name: 3q21 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3339,7 +3451,7 @@ has:
     band_descriptor: q2
     chromosome_name: chr3
     build: rn6
-    name: chr3q2 (Rattus norvegicus)
+    name: 3q2 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3357,7 +3469,7 @@ has:
     band_descriptor: q22
     chromosome_name: chr3
     build: rn6
-    name: chr3q22 (Rattus norvegicus)
+    name: 3q22 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3370,7 +3482,7 @@ has:
     band_descriptor: q23
     chromosome_name: chr3
     build: rn6
-    name: chr3q23 (Rattus norvegicus)
+    name: 3q23 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3383,7 +3495,7 @@ has:
     band_descriptor: q24
     chromosome_name: chr3
     build: rn6
-    name: chr3q24 (Rattus norvegicus)
+    name: 3q24 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3396,7 +3508,7 @@ has:
     band_descriptor: q31
     chromosome_name: chr3
     build: rn6
-    name: chr3q31 (Rattus norvegicus)
+    name: 3q31 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3409,7 +3521,7 @@ has:
     band_descriptor: q3
     chromosome_name: chr3
     build: rn6
-    name: chr3q3 (Rattus norvegicus)
+    name: 3q3 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3429,7 +3541,7 @@ has:
     band_descriptor: q32
     chromosome_name: chr3
     build: rn6
-    name: chr3q32 (Rattus norvegicus)
+    name: 3q32 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3442,7 +3554,7 @@ has:
     band_descriptor: q33
     chromosome_name: chr3
     build: rn6
-    name: chr3q33 (Rattus norvegicus)
+    name: 3q33 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3455,7 +3567,7 @@ has:
     band_descriptor: q34
     chromosome_name: chr3
     build: rn6
-    name: chr3q34 (Rattus norvegicus)
+    name: 3q34 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3468,7 +3580,7 @@ has:
     band_descriptor: q35
     chromosome_name: chr3
     build: rn6
-    name: chr3q35 (Rattus norvegicus)
+    name: 3q35 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3481,7 +3593,7 @@ has:
     band_descriptor: q36
     chromosome_name: chr3
     build: rn6
-    name: chr3q36 (Rattus norvegicus)
+    name: 3q36 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3494,7 +3606,7 @@ has:
     band_descriptor: q41
     chromosome_name: chr3
     build: rn6
-    name: chr3q41 (Rattus norvegicus)
+    name: 3q41 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3507,7 +3619,7 @@ has:
     band_descriptor: q4
     chromosome_name: chr3
     build: rn6
-    name: chr3q4 (Rattus norvegicus)
+    name: 3q4 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3524,7 +3636,7 @@ has:
     band_descriptor: q42
     chromosome_name: chr3
     build: rn6
-    name: chr3q42 (Rattus norvegicus)
+    name: 3q42 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3537,7 +3649,7 @@ has:
     band_descriptor: q43
     chromosome_name: chr3
     build: rn6
-    name: chr3q43 (Rattus norvegicus)
+    name: 3q43 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3550,7 +3662,7 @@ has:
     band_descriptor: q11
     chromosome_name: chr4
     build: rn6
-    name: chr4q11 (Rattus norvegicus)
+    name: 4q11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3563,7 +3675,7 @@ has:
     band_descriptor: q1
     chromosome_name: chr4
     build: rn6
-    name: chr4q1 (Rattus norvegicus)
+    name: 4q1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3580,7 +3692,7 @@ has:
     band_descriptor: q
     chromosome_name: chr4
     build: rn6
-    name: chr4q (Rattus norvegicus)
+    name: 4q (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3598,10 +3710,16 @@ has:
     band_descriptor: ''
     chromosome_name: chr4
     build: rn6
-    name: chr4 (Rattus norvegicus)
+    name: chromosome 4 (Rat)
     type:
       text: chromosome
       meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
     start: 0
     end: 184226339
@@ -3610,12 +3728,14 @@ has:
     exact_mappings:
     - refseq:NC_005103.4
     - insdc:CM000075.5
+    broad_synonyms:
+    - '4'
   CHR:10116-chr4q12:
     id: CHR:10116-chr4q12
     band_descriptor: q12
     chromosome_name: chr4
     build: rn6
-    name: chr4q12 (Rattus norvegicus)
+    name: 4q12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3628,7 +3748,7 @@ has:
     band_descriptor: q13
     chromosome_name: chr4
     build: rn6
-    name: chr4q13 (Rattus norvegicus)
+    name: 4q13 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3641,7 +3761,7 @@ has:
     band_descriptor: q21
     chromosome_name: chr4
     build: rn6
-    name: chr4q21 (Rattus norvegicus)
+    name: 4q21 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3654,7 +3774,7 @@ has:
     band_descriptor: q2
     chromosome_name: chr4
     build: rn6
-    name: chr4q2 (Rattus norvegicus)
+    name: 4q2 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3672,7 +3792,7 @@ has:
     band_descriptor: q22
     chromosome_name: chr4
     build: rn6
-    name: chr4q22 (Rattus norvegicus)
+    name: 4q22 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3685,7 +3805,7 @@ has:
     band_descriptor: q23
     chromosome_name: chr4
     build: rn6
-    name: chr4q23 (Rattus norvegicus)
+    name: 4q23 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3698,7 +3818,7 @@ has:
     band_descriptor: q24
     chromosome_name: chr4
     build: rn6
-    name: chr4q24 (Rattus norvegicus)
+    name: 4q24 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3711,7 +3831,7 @@ has:
     band_descriptor: q31
     chromosome_name: chr4
     build: rn6
-    name: chr4q31 (Rattus norvegicus)
+    name: 4q31 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3724,7 +3844,7 @@ has:
     band_descriptor: q3
     chromosome_name: chr4
     build: rn6
-    name: chr4q3 (Rattus norvegicus)
+    name: 4q3 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3742,7 +3862,7 @@ has:
     band_descriptor: q32
     chromosome_name: chr4
     build: rn6
-    name: chr4q32 (Rattus norvegicus)
+    name: 4q32 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3755,7 +3875,7 @@ has:
     band_descriptor: q33
     chromosome_name: chr4
     build: rn6
-    name: chr4q33 (Rattus norvegicus)
+    name: 4q33 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3768,7 +3888,7 @@ has:
     band_descriptor: q34
     chromosome_name: chr4
     build: rn6
-    name: chr4q34 (Rattus norvegicus)
+    name: 4q34 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3781,7 +3901,7 @@ has:
     band_descriptor: q41
     chromosome_name: chr4
     build: rn6
-    name: chr4q41 (Rattus norvegicus)
+    name: 4q41 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3794,7 +3914,7 @@ has:
     band_descriptor: q4
     chromosome_name: chr4
     build: rn6
-    name: chr4q4 (Rattus norvegicus)
+    name: 4q4 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3812,7 +3932,7 @@ has:
     band_descriptor: q42
     chromosome_name: chr4
     build: rn6
-    name: chr4q42 (Rattus norvegicus)
+    name: 4q42 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3825,7 +3945,7 @@ has:
     band_descriptor: q43
     chromosome_name: chr4
     build: rn6
-    name: chr4q43 (Rattus norvegicus)
+    name: 4q43 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3838,7 +3958,7 @@ has:
     band_descriptor: q44
     chromosome_name: chr4
     build: rn6
-    name: chr4q44 (Rattus norvegicus)
+    name: 4q44 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3851,7 +3971,7 @@ has:
     band_descriptor: q11
     chromosome_name: chr5
     build: rn6
-    name: chr5q11 (Rattus norvegicus)
+    name: 5q11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3864,7 +3984,7 @@ has:
     band_descriptor: q1
     chromosome_name: chr5
     build: rn6
-    name: chr5q1 (Rattus norvegicus)
+    name: 5q1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3881,7 +4001,7 @@ has:
     band_descriptor: q
     chromosome_name: chr5
     build: rn6
-    name: chr5q (Rattus norvegicus)
+    name: 5q (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3898,10 +4018,16 @@ has:
     band_descriptor: ''
     chromosome_name: chr5
     build: rn6
-    name: chr5 (Rattus norvegicus)
+    name: chromosome 5 (Rat)
     type:
       text: chromosome
       meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
     start: 0
     end: 173707219
@@ -3910,12 +4036,14 @@ has:
     exact_mappings:
     - refseq:NC_005104.4
     - insdc:CM000076.5
+    broad_synonyms:
+    - '5'
   CHR:10116-chr5q12:
     id: CHR:10116-chr5q12
     band_descriptor: q12
     chromosome_name: chr5
     build: rn6
-    name: chr5q12 (Rattus norvegicus)
+    name: 5q12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3928,7 +4056,7 @@ has:
     band_descriptor: q13
     chromosome_name: chr5
     build: rn6
-    name: chr5q13 (Rattus norvegicus)
+    name: 5q13 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3941,7 +4069,7 @@ has:
     band_descriptor: q21
     chromosome_name: chr5
     build: rn6
-    name: chr5q21 (Rattus norvegicus)
+    name: 5q21 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3954,7 +4082,7 @@ has:
     band_descriptor: q2
     chromosome_name: chr5
     build: rn6
-    name: chr5q2 (Rattus norvegicus)
+    name: 5q2 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3972,7 +4100,7 @@ has:
     band_descriptor: q22
     chromosome_name: chr5
     build: rn6
-    name: chr5q22 (Rattus norvegicus)
+    name: 5q22 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3985,7 +4113,7 @@ has:
     band_descriptor: q23
     chromosome_name: chr5
     build: rn6
-    name: chr5q23 (Rattus norvegicus)
+    name: 5q23 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -3998,7 +4126,7 @@ has:
     band_descriptor: q24
     chromosome_name: chr5
     build: rn6
-    name: chr5q24 (Rattus norvegicus)
+    name: 5q24 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4011,7 +4139,7 @@ has:
     band_descriptor: q31
     chromosome_name: chr5
     build: rn6
-    name: chr5q31 (Rattus norvegicus)
+    name: 5q31 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4024,7 +4152,7 @@ has:
     band_descriptor: q3
     chromosome_name: chr5
     build: rn6
-    name: chr5q3 (Rattus norvegicus)
+    name: 5q3 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4044,7 +4172,7 @@ has:
     band_descriptor: q32
     chromosome_name: chr5
     build: rn6
-    name: chr5q32 (Rattus norvegicus)
+    name: 5q32 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4057,7 +4185,7 @@ has:
     band_descriptor: q33
     chromosome_name: chr5
     build: rn6
-    name: chr5q33 (Rattus norvegicus)
+    name: 5q33 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4070,7 +4198,7 @@ has:
     band_descriptor: q34
     chromosome_name: chr5
     build: rn6
-    name: chr5q34 (Rattus norvegicus)
+    name: 5q34 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4083,7 +4211,7 @@ has:
     band_descriptor: q35
     chromosome_name: chr5
     build: rn6
-    name: chr5q35 (Rattus norvegicus)
+    name: 5q35 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4096,7 +4224,7 @@ has:
     band_descriptor: q36
     chromosome_name: chr5
     build: rn6
-    name: chr5q36 (Rattus norvegicus)
+    name: 5q36 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4109,7 +4237,7 @@ has:
     band_descriptor: q11
     chromosome_name: chr6
     build: rn6
-    name: chr6q11 (Rattus norvegicus)
+    name: 6q11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4122,7 +4250,7 @@ has:
     band_descriptor: q1
     chromosome_name: chr6
     build: rn6
-    name: chr6q1 (Rattus norvegicus)
+    name: 6q1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4142,7 +4270,7 @@ has:
     band_descriptor: q
     chromosome_name: chr6
     build: rn6
-    name: chr6q (Rattus norvegicus)
+    name: 6q (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4159,10 +4287,16 @@ has:
     band_descriptor: ''
     chromosome_name: chr6
     build: rn6
-    name: chr6 (Rattus norvegicus)
+    name: chromosome 6 (Rat)
     type:
       text: chromosome
       meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
     start: 0
     end: 147991367
@@ -4171,12 +4305,14 @@ has:
     exact_mappings:
     - refseq:NC_005105.4
     - insdc:CM000077.5
+    broad_synonyms:
+    - '6'
   CHR:10116-chr6q12:
     id: CHR:10116-chr6q12
     band_descriptor: q12
     chromosome_name: chr6
     build: rn6
-    name: chr6q12 (Rattus norvegicus)
+    name: 6q12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4189,7 +4325,7 @@ has:
     band_descriptor: q13
     chromosome_name: chr6
     build: rn6
-    name: chr6q13 (Rattus norvegicus)
+    name: 6q13 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4202,7 +4338,7 @@ has:
     band_descriptor: q14
     chromosome_name: chr6
     build: rn6
-    name: chr6q14 (Rattus norvegicus)
+    name: 6q14 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4215,7 +4351,7 @@ has:
     band_descriptor: q15
     chromosome_name: chr6
     build: rn6
-    name: chr6q15 (Rattus norvegicus)
+    name: 6q15 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4228,7 +4364,7 @@ has:
     band_descriptor: q16
     chromosome_name: chr6
     build: rn6
-    name: chr6q16 (Rattus norvegicus)
+    name: 6q16 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4241,7 +4377,7 @@ has:
     band_descriptor: q21
     chromosome_name: chr6
     build: rn6
-    name: chr6q21 (Rattus norvegicus)
+    name: 6q21 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4254,7 +4390,7 @@ has:
     band_descriptor: q2
     chromosome_name: chr6
     build: rn6
-    name: chr6q2 (Rattus norvegicus)
+    name: 6q2 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4272,7 +4408,7 @@ has:
     band_descriptor: q22
     chromosome_name: chr6
     build: rn6
-    name: chr6q22 (Rattus norvegicus)
+    name: 6q22 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4285,7 +4421,7 @@ has:
     band_descriptor: q23
     chromosome_name: chr6
     build: rn6
-    name: chr6q23 (Rattus norvegicus)
+    name: 6q23 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4298,7 +4434,7 @@ has:
     band_descriptor: q24
     chromosome_name: chr6
     build: rn6
-    name: chr6q24 (Rattus norvegicus)
+    name: 6q24 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4311,7 +4447,7 @@ has:
     band_descriptor: q31
     chromosome_name: chr6
     build: rn6
-    name: chr6q31 (Rattus norvegicus)
+    name: 6q31 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4324,7 +4460,7 @@ has:
     band_descriptor: q3
     chromosome_name: chr6
     build: rn6
-    name: chr6q3 (Rattus norvegicus)
+    name: 6q3 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4341,7 +4477,7 @@ has:
     band_descriptor: q32
     chromosome_name: chr6
     build: rn6
-    name: chr6q32 (Rattus norvegicus)
+    name: 6q32 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4354,7 +4490,7 @@ has:
     band_descriptor: q33
     chromosome_name: chr6
     build: rn6
-    name: chr6q33 (Rattus norvegicus)
+    name: 6q33 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4367,7 +4503,7 @@ has:
     band_descriptor: q11
     chromosome_name: chr7
     build: rn6
-    name: chr7q11 (Rattus norvegicus)
+    name: 7q11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4380,7 +4516,7 @@ has:
     band_descriptor: q1
     chromosome_name: chr7
     build: rn6
-    name: chr7q1 (Rattus norvegicus)
+    name: 7q1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4397,7 +4533,7 @@ has:
     band_descriptor: q
     chromosome_name: chr7
     build: rn6
-    name: chr7q (Rattus norvegicus)
+    name: 7q (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4414,10 +4550,16 @@ has:
     band_descriptor: ''
     chromosome_name: chr7
     build: rn6
-    name: chr7 (Rattus norvegicus)
+    name: chromosome 7 (Rat)
     type:
       text: chromosome
       meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
     start: 0
     end: 145729302
@@ -4426,12 +4568,14 @@ has:
     exact_mappings:
     - refseq:NC_005106.4
     - insdc:CM000078.5
+    broad_synonyms:
+    - '7'
   CHR:10116-chr7q12:
     id: CHR:10116-chr7q12
     band_descriptor: q12
     chromosome_name: chr7
     build: rn6
-    name: chr7q12 (Rattus norvegicus)
+    name: 7q12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4444,7 +4588,7 @@ has:
     band_descriptor: q13
     chromosome_name: chr7
     build: rn6
-    name: chr7q13 (Rattus norvegicus)
+    name: 7q13 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4457,7 +4601,7 @@ has:
     band_descriptor: q21
     chromosome_name: chr7
     build: rn6
-    name: chr7q21 (Rattus norvegicus)
+    name: 7q21 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4470,7 +4614,7 @@ has:
     band_descriptor: q2
     chromosome_name: chr7
     build: rn6
-    name: chr7q2 (Rattus norvegicus)
+    name: 7q2 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4486,7 +4630,7 @@ has:
     band_descriptor: q22
     chromosome_name: chr7
     build: rn6
-    name: chr7q22 (Rattus norvegicus)
+    name: 7q22 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4499,7 +4643,7 @@ has:
     band_descriptor: q31
     chromosome_name: chr7
     build: rn6
-    name: chr7q31 (Rattus norvegicus)
+    name: 7q31 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4512,7 +4656,7 @@ has:
     band_descriptor: q3
     chromosome_name: chr7
     build: rn6
-    name: chr7q3 (Rattus norvegicus)
+    name: 7q3 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4532,7 +4676,7 @@ has:
     band_descriptor: q32
     chromosome_name: chr7
     build: rn6
-    name: chr7q32 (Rattus norvegicus)
+    name: 7q32 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4545,7 +4689,7 @@ has:
     band_descriptor: q33
     chromosome_name: chr7
     build: rn6
-    name: chr7q33 (Rattus norvegicus)
+    name: 7q33 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4558,7 +4702,7 @@ has:
     band_descriptor: q34
     chromosome_name: chr7
     build: rn6
-    name: chr7q34 (Rattus norvegicus)
+    name: 7q34 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4571,7 +4715,7 @@ has:
     band_descriptor: q35
     chromosome_name: chr7
     build: rn6
-    name: chr7q35 (Rattus norvegicus)
+    name: 7q35 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4584,7 +4728,7 @@ has:
     band_descriptor: q36
     chromosome_name: chr7
     build: rn6
-    name: chr7q36 (Rattus norvegicus)
+    name: 7q36 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4597,7 +4741,7 @@ has:
     band_descriptor: q11
     chromosome_name: chr8
     build: rn6
-    name: chr8q11 (Rattus norvegicus)
+    name: 8q11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4610,7 +4754,7 @@ has:
     band_descriptor: q1
     chromosome_name: chr8
     build: rn6
-    name: chr8q1 (Rattus norvegicus)
+    name: 8q1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4627,7 +4771,7 @@ has:
     band_descriptor: q
     chromosome_name: chr8
     build: rn6
-    name: chr8q (Rattus norvegicus)
+    name: 8q (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4644,10 +4788,16 @@ has:
     band_descriptor: ''
     chromosome_name: chr8
     build: rn6
-    name: chr8 (Rattus norvegicus)
+    name: chromosome 8 (Rat)
     type:
       text: chromosome
       meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
     start: 0
     end: 133307652
@@ -4656,12 +4806,14 @@ has:
     exact_mappings:
     - refseq:NC_005107.4
     - insdc:CM000079.5
+    broad_synonyms:
+    - '8'
   CHR:10116-chr8q12:
     id: CHR:10116-chr8q12
     band_descriptor: q12
     chromosome_name: chr8
     build: rn6
-    name: chr8q12 (Rattus norvegicus)
+    name: 8q12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4674,7 +4826,7 @@ has:
     band_descriptor: q13
     chromosome_name: chr8
     build: rn6
-    name: chr8q13 (Rattus norvegicus)
+    name: 8q13 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4687,7 +4839,7 @@ has:
     band_descriptor: q21
     chromosome_name: chr8
     build: rn6
-    name: chr8q21 (Rattus norvegicus)
+    name: 8q21 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4700,7 +4852,7 @@ has:
     band_descriptor: q2
     chromosome_name: chr8
     build: rn6
-    name: chr8q2 (Rattus norvegicus)
+    name: 8q2 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4718,7 +4870,7 @@ has:
     band_descriptor: q22
     chromosome_name: chr8
     build: rn6
-    name: chr8q22 (Rattus norvegicus)
+    name: 8q22 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4731,7 +4883,7 @@ has:
     band_descriptor: q23
     chromosome_name: chr8
     build: rn6
-    name: chr8q23 (Rattus norvegicus)
+    name: 8q23 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4744,7 +4896,7 @@ has:
     band_descriptor: q24
     chromosome_name: chr8
     build: rn6
-    name: chr8q24 (Rattus norvegicus)
+    name: 8q24 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4757,7 +4909,7 @@ has:
     band_descriptor: q31
     chromosome_name: chr8
     build: rn6
-    name: chr8q31 (Rattus norvegicus)
+    name: 8q31 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4770,7 +4922,7 @@ has:
     band_descriptor: q3
     chromosome_name: chr8
     build: rn6
-    name: chr8q3 (Rattus norvegicus)
+    name: 8q3 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4786,7 +4938,7 @@ has:
     band_descriptor: q32
     chromosome_name: chr8
     build: rn6
-    name: chr8q32 (Rattus norvegicus)
+    name: 8q32 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4799,7 +4951,7 @@ has:
     band_descriptor: q11
     chromosome_name: chr9
     build: rn6
-    name: chr9q11 (Rattus norvegicus)
+    name: 9q11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4812,7 +4964,7 @@ has:
     band_descriptor: q1
     chromosome_name: chr9
     build: rn6
-    name: chr9q1 (Rattus norvegicus)
+    name: 9q1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4829,7 +4981,7 @@ has:
     band_descriptor: q
     chromosome_name: chr9
     build: rn6
-    name: chr9q (Rattus norvegicus)
+    name: 9q (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4846,10 +4998,16 @@ has:
     band_descriptor: ''
     chromosome_name: chr9
     build: rn6
-    name: chr9 (Rattus norvegicus)
+    name: chromosome 9 (Rat)
     type:
       text: chromosome
       meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
     start: 0
     end: 122095297
@@ -4858,12 +5016,14 @@ has:
     exact_mappings:
     - refseq:NC_005108.4
     - insdc:CM000080.5
+    broad_synonyms:
+    - '9'
   CHR:10116-chr9q12:
     id: CHR:10116-chr9q12
     band_descriptor: q12
     chromosome_name: chr9
     build: rn6
-    name: chr9q12 (Rattus norvegicus)
+    name: 9q12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4876,7 +5036,7 @@ has:
     band_descriptor: q13
     chromosome_name: chr9
     build: rn6
-    name: chr9q13 (Rattus norvegicus)
+    name: 9q13 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4889,7 +5049,7 @@ has:
     band_descriptor: q21
     chromosome_name: chr9
     build: rn6
-    name: chr9q21 (Rattus norvegicus)
+    name: 9q21 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4902,7 +5062,7 @@ has:
     band_descriptor: q2
     chromosome_name: chr9
     build: rn6
-    name: chr9q2 (Rattus norvegicus)
+    name: 9q2 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4918,7 +5078,7 @@ has:
     band_descriptor: q22
     chromosome_name: chr9
     build: rn6
-    name: chr9q22 (Rattus norvegicus)
+    name: 9q22 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4931,7 +5091,7 @@ has:
     band_descriptor: q31
     chromosome_name: chr9
     build: rn6
-    name: chr9q31 (Rattus norvegicus)
+    name: 9q31 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4944,7 +5104,7 @@ has:
     band_descriptor: q3
     chromosome_name: chr9
     build: rn6
-    name: chr9q3 (Rattus norvegicus)
+    name: 9q3 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4966,7 +5126,7 @@ has:
     band_descriptor: q32
     chromosome_name: chr9
     build: rn6
-    name: chr9q32 (Rattus norvegicus)
+    name: 9q32 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4979,7 +5139,7 @@ has:
     band_descriptor: q33
     chromosome_name: chr9
     build: rn6
-    name: chr9q33 (Rattus norvegicus)
+    name: 9q33 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -4992,7 +5152,7 @@ has:
     band_descriptor: q34
     chromosome_name: chr9
     build: rn6
-    name: chr9q34 (Rattus norvegicus)
+    name: 9q34 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -5005,7 +5165,7 @@ has:
     band_descriptor: q35
     chromosome_name: chr9
     build: rn6
-    name: chr9q35 (Rattus norvegicus)
+    name: 9q35 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -5018,7 +5178,7 @@ has:
     band_descriptor: q36
     chromosome_name: chr9
     build: rn6
-    name: chr9q36 (Rattus norvegicus)
+    name: 9q36 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -5031,7 +5191,7 @@ has:
     band_descriptor: q37
     chromosome_name: chr9
     build: rn6
-    name: chr9q37 (Rattus norvegicus)
+    name: 9q37 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -5044,7 +5204,7 @@ has:
     band_descriptor: q38
     chromosome_name: chr9
     build: rn6
-    name: chr9q38 (Rattus norvegicus)
+    name: 9q38 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -5057,22 +5217,27 @@ has:
     band_descriptor: ''
     chromosome_name: chrM
     build: rn6
-    name: chrM (Rattus norvegicus)
+    name: chromosome M (Rat)
     type:
       text: chromosome
       meaning: http://purl.obolibrary.org/obo/GO_0005694
+    cell_location:
+      text: mitochondrion
+      meaning: http://purl.obolibrary.org/obo/GO_0005739
     taxon: NCBITaxon:10116
     start: 0
     end: 16313
     exact_mappings:
     - refseq:NC_001665.2
     - insdc:AY172581.1
+    broad_synonyms:
+    - MT
   CHR:10116-chrXq11:
     id: CHR:10116-chrXq11
     band_descriptor: q11
     chromosome_name: chrX
     build: rn6
-    name: chrXq11 (Rattus norvegicus)
+    name: Xq11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -5085,7 +5250,7 @@ has:
     band_descriptor: q1
     chromosome_name: chrX
     build: rn6
-    name: chrXq1 (Rattus norvegicus)
+    name: Xq1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -5103,7 +5268,7 @@ has:
     band_descriptor: q
     chromosome_name: chrX
     build: rn6
-    name: chrXq (Rattus norvegicus)
+    name: Xq (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -5120,10 +5285,19 @@ has:
     band_descriptor: ''
     chromosome_name: chrX
     build: rn6
-    name: chrX (Rattus norvegicus)
+    name: chromosome X (Rat)
     type:
       text: chromosome
       meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: sex_chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0000803
+    sex_chromosome_type:
+      text: X
+      meaning: http://purl.obolibrary.org/obo/GO_0000805
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
     start: 0
     end: 159970021
@@ -5132,12 +5306,14 @@ has:
     exact_mappings:
     - refseq:NC_005120.4
     - insdc:CM000092.5
+    broad_synonyms:
+    - X
   CHR:10116-chrXq12:
     id: CHR:10116-chrXq12
     band_descriptor: q12
     chromosome_name: chrX
     build: rn6
-    name: chrXq12 (Rattus norvegicus)
+    name: Xq12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -5150,7 +5326,7 @@ has:
     band_descriptor: q13
     chromosome_name: chrX
     build: rn6
-    name: chrXq13 (Rattus norvegicus)
+    name: Xq13 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -5163,7 +5339,7 @@ has:
     band_descriptor: q14
     chromosome_name: chrX
     build: rn6
-    name: chrXq14 (Rattus norvegicus)
+    name: Xq14 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -5176,7 +5352,7 @@ has:
     band_descriptor: q21
     chromosome_name: chrX
     build: rn6
-    name: chrXq21 (Rattus norvegicus)
+    name: Xq21 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -5189,7 +5365,7 @@ has:
     band_descriptor: q2
     chromosome_name: chrX
     build: rn6
-    name: chrXq2 (Rattus norvegicus)
+    name: Xq2 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -5205,7 +5381,7 @@ has:
     band_descriptor: q22
     chromosome_name: chrX
     build: rn6
-    name: chrXq22 (Rattus norvegicus)
+    name: Xq22 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -5218,7 +5394,7 @@ has:
     band_descriptor: q31
     chromosome_name: chrX
     build: rn6
-    name: chrXq31 (Rattus norvegicus)
+    name: Xq31 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -5231,7 +5407,7 @@ has:
     band_descriptor: q3
     chromosome_name: chrX
     build: rn6
-    name: chrXq3 (Rattus norvegicus)
+    name: Xq3 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -5252,7 +5428,7 @@ has:
     band_descriptor: q32
     chromosome_name: chrX
     build: rn6
-    name: chrXq32 (Rattus norvegicus)
+    name: Xq32 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -5265,7 +5441,7 @@ has:
     band_descriptor: q33
     chromosome_name: chrX
     build: rn6
-    name: chrXq33 (Rattus norvegicus)
+    name: Xq33 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -5278,7 +5454,7 @@ has:
     band_descriptor: q34
     chromosome_name: chrX
     build: rn6
-    name: chrXq34 (Rattus norvegicus)
+    name: Xq34 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -5291,7 +5467,7 @@ has:
     band_descriptor: q35
     chromosome_name: chrX
     build: rn6
-    name: chrXq35 (Rattus norvegicus)
+    name: Xq35 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -5304,7 +5480,7 @@ has:
     band_descriptor: q36
     chromosome_name: chrX
     build: rn6
-    name: chrXq36 (Rattus norvegicus)
+    name: Xq36 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -5317,7 +5493,7 @@ has:
     band_descriptor: q37
     chromosome_name: chrX
     build: rn6
-    name: chrXq37 (Rattus norvegicus)
+    name: Xq37 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -5330,7 +5506,7 @@ has:
     band_descriptor: q11
     chromosome_name: chrY
     build: rn6
-    name: chrYq11 (Rattus norvegicus)
+    name: Yq11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -5343,7 +5519,7 @@ has:
     band_descriptor: q1
     chromosome_name: chrY
     build: rn6
-    name: chrYq1 (Rattus norvegicus)
+    name: Yq1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -5359,7 +5535,7 @@ has:
     band_descriptor: q
     chromosome_name: chrY
     build: rn6
-    name: chrYq (Rattus norvegicus)
+    name: Yq (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -5374,10 +5550,19 @@ has:
     band_descriptor: ''
     chromosome_name: chrY
     build: rn6
-    name: chrY (Rattus norvegicus)
+    name: chromosome Y (Rat)
     type:
       text: chromosome
       meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: sex_chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0000803
+    sex_chromosome_type:
+      text: Y
+      meaning: http://purl.obolibrary.org/obo/GO_0000806
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
     start: 0
     end: 3310458
@@ -5386,12 +5571,14 @@ has:
     exact_mappings:
     - refseq:NC_024475.1
     - insdc:CM002824.1
+    broad_synonyms:
+    - Y
   CHR:10116-chrYq12:
     id: CHR:10116-chrYq12
     band_descriptor: q12
     chromosome_name: chrY
     build: rn6
-    name: chrYq12 (Rattus norvegicus)
+    name: Yq12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
@@ -5402,11 +5589,11 @@ has:
 genomes:
   mm:
     id: mm
-    name: Mus musculus
+    name: Mouse
     taxon: NCBITaxon:10090
   hg:
     id: hg
-    name: Homo sapiens
+    name: Human
     taxon: NCBITaxon:9606
   dm:
     id: dm
@@ -5418,13 +5605,13 @@ genomes:
     taxon: NCBITaxon:7955
   rn:
     id: rn
-    name: Rattus norvegicus
+    name: Rat
     taxon: NCBITaxon:10116
     build: rn6
   ce:
     id: ce
-    name: Caenorhabditis elegans
-    taxon: NCBITaxon:10116
+    name: C elegans
+    taxon: NCBITaxon:6239
 taxons:
   NCBITaxon:10090:
     id: NCBITaxon:10090
@@ -5441,3 +5628,6 @@ taxons:
   NCBITaxon:10116:
     id: NCBITaxon:10116
     name: Rattus norvegicus
+  NCBITaxon:6239:
+    id: NCBITaxon:6239
+    name: Caenorhabditis elegans

@@ -259,9 +259,9 @@ enums:
       where in the cell
     permissible_values:
       nucleus:
-        meaning: GO:0000803
+        meaning: GO:0005634
       mitochondrion:
-        meaning: GO:0030849
+        meaning: GO:0005739
   ChromatinType:
     permissible_values:
       heterochromatin:
