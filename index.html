@@ -121,7 +121,7 @@ Additionally they can be translated to OWL</p>
 </ul>
 </li>
 <li><a href="cell_location/">cell_location</a> - which organelle the chromosome is associated with. For eukaryotes this is mitochondrion or nucleus. For prokaryotes the distinction does not make sense</li>
-<li><a href="children/">children</a></li>
+<li><a href="children/">children</a> - Direct parts of this chromosome. zero to many.</li>
 <li><a href="chromosomePartCollection__genomes/">➞genomes</a></li>
 <li><a href="chromosomePartCollection__has/">➞has</a></li>
 <li><a href="chromosomePartCollection__name/">➞name</a></li>
@@ -129,8 +129,8 @@ Additionally they can be translated to OWL</p>
 <li><a href="chromosome_name/">chromosome_name</a> - E.g. chr1, chrM. Some species like C elegans may use roman numerals</li>
 <li><a href="common_name/">common_name</a> - E.g. human, mouse</li>
 <li><a href="download_url/">download_url</a></li>
-<li><a href="end/">end</a></li>
-<li><a href="exact_mappings/">exact_mappings</a></li>
+<li><a href="end/">end</a> - Start location of the chromosomal part. Note we also include this for whole chromosomes - end will be rightmost point</li>
+<li><a href="exact_mappings/">exact_mappings</a> - For a whole chromosome, this may be an assembled sequence in a database such as genbank or ensembl</li>
 <li><a href="exact_synonyms/">exact_synonyms</a></li>
 <li><a href="id/">id</a> - A unique identifier<ul>
 <li><a href="ChromosomePart_id/">ChromosomePart➞id</a></li>
@@ -142,13 +142,13 @@ Additionally they can be translated to OWL</p>
 <li><a href="Genome_name/">Genome➞name</a> - E.g. Homo sapiens</li>
 </ul>
 </li>
-<li><a href="parent/">parent</a></li>
+<li><a href="parent/">parent</a> - Direct chromosomal part which this is a part of. The partonomy forms a tree so this is always zero or one. Different species have different rules but typically the partonomy will be something like 1p31.1 -&gt; 1p31 -&gt; 1p3 -&gt; 1p -&gt; 1</li>
 <li><a href="previous_builds/">previous_builds</a> - List of previous non-current builds</li>
 <li><a href="sex_chromosome_type/">sex_chromosome_type</a> - Only populated for sex chromosomes. Indicates the chromosome type. This is X or Y in mammals, W or Z in avians</li>
 <li><a href="somal_type/">somal_type</a> - indicates whether this is a sex-chromosome or not</li>
-<li><a href="start/">start</a></li>
+<li><a href="start/">start</a> - Start location of the chromosomal part. Note we also include this for whole chromosomes - start will be zero</li>
 <li><a href="strand/">strand</a></li>
-<li><a href="taxon/">taxon</a></li>
+<li><a href="taxon/">taxon</a> - The taxon to which the chromosome part belongs. Always NCBITaxon.</li>
 <li><a href="type/">type</a></li>
 </ul>
 <h3 id="types">Types</h3>
@@ -234,5 +234,5 @@ Additionally they can be translated to OWL</p>
 
 <!--
 MkDocs version : 1.1.2
-Build Date UTC : 2021-06-08 04:07:33.551939+00:00
+Build Date UTC : 2021-06-17 02:05:30.222981+00:00
 -->

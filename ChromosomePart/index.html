@@ -120,6 +120,7 @@
 </ul>
 </li>
 <li><a href="../children/">children</a>  <sub>0..*</sub><ul>
+<li>Description: Direct parts of this chromosome. zero to many.</li>
 <li>range: <a href="./">ChromosomePart</a></li>
 </ul>
 </li>
@@ -129,10 +130,12 @@
 </ul>
 </li>
 <li><a href="../end/">end</a>  <sub>OPT</sub><ul>
+<li>Description: Start location of the chromosomal part. Note we also include this for whole chromosomes - end will be rightmost point</li>
 <li>range: <a href="../types/Integer/">Integer</a></li>
 </ul>
 </li>
 <li><a href="../exact_mappings/">exact_mappings</a>  <sub>0..*</sub><ul>
+<li>Description: For a whole chromosome, this may be an assembled sequence in a database such as genbank or ensembl</li>
 <li>range: <a href="../types/Uriorcurie/">Uriorcurie</a></li>
 </ul>
 </li>
@@ -146,6 +149,7 @@
 </ul>
 </li>
 <li><a href="../parent/">parent</a>  <sub>OPT</sub><ul>
+<li>Description: Direct chromosomal part which this is a part of. The partonomy forms a tree so this is always zero or one. Different species have different rules but typically the partonomy will be something like 1p31.1 -&gt; 1p31 -&gt; 1p3 -&gt; 1p -&gt; 1</li>
 <li>range: <a href="./">ChromosomePart</a></li>
 </ul>
 </li>
@@ -160,10 +164,12 @@
 </ul>
 </li>
 <li><a href="../start/">start</a>  <sub>OPT</sub><ul>
+<li>Description: Start location of the chromosomal part. Note we also include this for whole chromosomes - start will be zero</li>
 <li>range: <a href="../types/Integer/">Integer</a></li>
 </ul>
 </li>
 <li><a href="../taxon/">taxon</a>  <sub>OPT</sub><ul>
+<li>Description: The taxon to which the chromosome part belongs. Always NCBITaxon.</li>
 <li>range: <a href="../types/TaxonIdentifier/">TaxonIdentifier</a></li>
 </ul>
 </li>
