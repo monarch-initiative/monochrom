@@ -93,6 +93,12 @@ def get_parent_band_name(s: BandDescriptor, spcode: GenomeBuildId):
     """
     The UCSC files only has most granular sub-bands - parent bands, arms, and chroms are implicit
 
+    In general the rule to infer a parent is to pop a character from the end, ignoring periods, e.g.
+
+    p31.1 -> p31 -> p3 -> p
+
+    But sometimes there are exceptions; e.g 'cen' denotes a centromere
+
     :param s:
     :return:
     """
@@ -102,6 +108,9 @@ def get_parent_band_name(s: BandDescriptor, spcode: GenomeBuildId):
         # Dmel uses a different system; for now just flatten
         # TODO: 30B10 => 30B => 30 => ''
         return ''
+    if s.endswith('cen'):
+        # see https://github.com/monarch-initiative/monochrom/issues/23
+        return s.replace('cen', '')
     s2 = s[0:-1]
     if s2 == '':
         return ''
