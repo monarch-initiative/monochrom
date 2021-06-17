@@ -1,8 +1,8 @@
 # TODO: parse from yaml
-BUILDS = hg38 ce11 mm10 rn6 galGal4
+BUILDS = hg38 ce11 mm10 rn6 galGal6
 # TODO: dm6
 
-all: all-chromAlias all-cytoBand src/ontology/components/ucsc.owl  all-components
+all: all-chromAlias all-cytoBand src/ontology/components/ucsc.owl  all-components ontology
 all-chromAlias: $(patsubst %, download/%-chromAlias.tsv, $(BUILDS))
 all-cytoBand: $(patsubst %, download/%-cytoBand.tsv, $(BUILDS))
 
