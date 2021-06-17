@@ -85,7 +85,7 @@ all_main: $(MAIN_FILES)
 ## By default this is the cross-product of IMPORT_MODULES x FORMATS
 
 
-IMPORTS =  ro so go geno ncbitaxon
+IMPORTS =  ro go ncbitaxon
 
 IMPORT_ROOTS = $(patsubst %, imports/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -442,7 +442,7 @@ validate_idranges:
 .PHONY: update_repo
 update_repo:
 	sh $(SCRIPTSDIR)/update_repo.sh
-	
+
 
 
 include chr.Makefile
