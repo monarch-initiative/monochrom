@@ -1,1 +1,4 @@
-
+GO:0005739 ## mitochondrion
+GO:0009507 ## chloroplast
+GO:0005829 ## cytosol
+GO:0005634 ## nucleus

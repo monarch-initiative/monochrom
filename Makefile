@@ -11,6 +11,9 @@ all-components: all-components-yaml all-components-owl
 all-components-yaml: $(patsubst %, components/%.yaml, $(BUILDS))
 all-components-owl: $(patsubst %, components/%.owl, $(BUILDS))
 
+ontology:
+	cd src/ontology && make release
+
 test:
 	pytest
 
