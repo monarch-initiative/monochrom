@@ -2204,6 +2204,27 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CARO_0000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CARO_0000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000006"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/caro.owl"/>
+        <rdfs:label xml:lang="en">connected anatomical structure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CARO_0000006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000000"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/caro.owl"/>
+        <rdfs:label xml:lang="en">material anatomical entity</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CARO_0001010 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CARO_0001010">
@@ -2237,6 +2258,16 @@ For example, A and B may be gene products and binding of B by A positively regul
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0003824">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0003674"/>
         <rdfs:label>catalytic activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005634 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005634">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044464"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <rdfs:label xml:lang="en">nucleus</rdfs:label>
     </owl:Class>
     
 
@@ -2279,6 +2310,16 @@ For example, A and B may be gene products and binding of B by A positively regul
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016772">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016740"/>
         <rdfs:label>transferase activity, transferring phosphorus-containing groups</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0044464 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044464">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <rdfs:label xml:lang="en">cell part</rdfs:label>
     </owl:Class>
     
 

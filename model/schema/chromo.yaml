@@ -184,13 +184,21 @@ slots:
       which organelle the chromosome is associated with. For eukaryotes this is mitochondrion
       or nucleus. For prokaryotes the distinction does not make sense
   taxon:
+    description: >-
+      The taxon to which the chromosome part belongs. Always NCBITaxon.
     range: TaxonIdentifier
     required: false
     slot_uri: RO:0002162
   start:
+    description: >-
+      Start location of the chromosomal part.
+      Note we also include this for whole chromosomes - start will be zero
     range: integer
     slot_uri: gff:start
   end:
+    description: >-
+      Start location of the chromosomal part.
+      Note we also include this for whole chromosomes - end will be rightmost point
     range: integer
     slot_uri: gff:end
   strand:
@@ -200,10 +208,17 @@ slots:
       - biolink:strand
     required: true
   children:
+    description: >-
+      Direct parts of this chromosome. zero to many.
     range: ChromosomePart
     multivalued: true
     slot_uri: BFO:0000051
   parent:
+    description: >-
+      Direct chromosomal part which this is a part of. The partonomy forms a tree so this is
+      always zero or one.
+      Different species have different rules but typically the partonomy will be something like
+      1p31.1 -> 1p31 -> 1p3 -> 1p -> 1
     range: ChromosomePart
     slot_uri: BFO:0000050
   exact_synonyms:
@@ -213,6 +228,8 @@ slots:
     multivalued: true
     slot_uri: OIO:hasBroadSynonym
   exact_mappings:
+    description: >-
+      For a whole chromosome, this may be an assembled sequence in a database such as genbank or ensembl
     multivalued: true
     range: uriorcurie
     slot_uri: skos:exactMatch

@@ -1,0 +1,4 @@
+site_name: "Chromosome Ontology"
+theme: readthedocs
+nav:
+  - Index: index.md

@@ -11,9 +11,9 @@
      xmlns:vocab="https://w3id.org/biolink/vocab/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/chr/src/ontology/components/ucsc.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/chr/releases/2021-06-10/src/ontology/components/ucsc.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/chr/releases/2021-06-16/src/ontology/components/ucsc.owl"/>
         <rdfs:label>Chromosome Ontology</rdfs:label>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-06-10</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-06-16</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -23743,6 +23743,2115 @@
         <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16596</gff:end>
         <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
         <vocab:genome_build>danRer10</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>1</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 1 (Chicken)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM000093.5"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_006088.5"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">197608386</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr10 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr10">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>10</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 10 (Chicken)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM000102.5"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_006097.5"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21119840</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250000</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr10cen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr10cen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr10"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>10cen (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500000</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250000</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr10q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr10q">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr10"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>10q (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21119840</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500000</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr11 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr11">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>11</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 11 (Chicken)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM000103.5"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_006098.5"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20200042</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr11cen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr11cen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr11"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>11cen (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3230744</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2980744</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr11p -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr11p">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr11"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>11p (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2730744</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr11q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr11q">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr11"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>11q (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20200042</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3230744</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr12 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr12">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>12</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 12 (Chicken)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM000104.5"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_006099.5"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20387278</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr13 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr13">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>13</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 13 (Chicken)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM000105.5"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_006100.5"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19166714</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250000</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr13cen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr13cen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr13"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>13cen (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500000</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250000</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr13q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr13q">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr13"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>13q (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19166714</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500000</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr14 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr14">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>14</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 14 (Chicken)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM000106.5"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_006101.5"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16219308</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr14cen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr14cen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr14"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>14cen (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15978998</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15728998</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr14p -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr14p">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr14"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>14p (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15478998</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr14q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr14q">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr14"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>14q (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16219308</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15978998</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr15 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr15">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>15</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 15 (Chicken)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM000107.5"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_006102.5"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13062184</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr16 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr16">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>16</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 16 (Chicken)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM000108.5"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_006103.5"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2844601</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250000</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr16cen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr16cen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr16"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>16cen (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500000</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250000</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr16q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr16q">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr16"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>16q (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2844601</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500000</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr17 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr17">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>17</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 17 (Chicken)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM000109.5"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_006104.5"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10762512</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250000</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr17cen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr17cen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr17"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>17cen (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500000</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250000</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr17q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr17q">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr17"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>17q (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10762512</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500000</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr18 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr18">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>18</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 18 (Chicken)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM000110.5"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_006105.5"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11373140</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr19 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr19">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>19</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 19 (Chicken)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM000111.5"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_006106.5"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10323212</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr1cen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr1cen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>1cen (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77108038</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76858038</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr1p -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr1p">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>1p (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76608038</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr1q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr1q">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>1q (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">197608386</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77108038</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>2</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 2 (Chicken)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM000094.5"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_006089.5"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">149682049</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr20 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr20">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>20</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 20 (Chicken)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM000112.5"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_006107.5"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13897287</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr21 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr21">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>21</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 21 (Chicken)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM000113.5"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_006108.5"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6844979</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr22 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr22">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>22</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 22 (Chicken)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM000114.5"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_006109.5"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5459462</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr22cen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr22cen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr22"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>22cen (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3570996</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3320996</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr22p -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr22p">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr22"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>22p (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3070996</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr22q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr22q">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr22"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>22q (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5459462</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3570996</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr23 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr23">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>23</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 23 (Chicken)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM000115.5"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_006110.5"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6149580</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr24 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr24">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>24</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 24 (Chicken)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM000116.5"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_006111.5"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6491222</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr25 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr25">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>25</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 25 (Chicken)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM000124.5"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_006112.4"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3980610</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr25cen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr25cen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr25"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>25cen (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1240762</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">990762</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr25p -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr25p">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr25"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>25p (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">740762</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr25q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr25q">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr25"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>25q (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3980610</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1240762</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr26 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr26">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>26</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 26 (Chicken)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM000117.5"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_006113.5"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6055710</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr26cen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr26cen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr26"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>26cen (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6055710</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5805710</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr26p -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr26p">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr26"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>26p (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5555710</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr27 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr27">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>27</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 27 (Chicken)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM000118.5"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_006114.5"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8080432</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr28 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr28">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>28</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 28 (Chicken)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM000119.5"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_006115.5"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5116882</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr2cen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr2cen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>2cen (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52651238</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52401238</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr2p -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr2p">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>2p (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52151238</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr2q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr2q">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>2q (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">149682049</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52651238</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>3</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 3 (Chicken)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM000095.5"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_006090.5"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110838418</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr30 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr30">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>30</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 30 (Chicken)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM003637.2"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_028739.2"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1818525</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr31 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr31">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>31</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 31 (Chicken)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM003638.2"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_028740.2"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6153034</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr32 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr32">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>32</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 32 (Chicken)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM000120.4"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_006119.4"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">725831</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr33 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr33">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>33</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 33 (Chicken)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM000123.5"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_008465.4"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7821666</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr3cen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr3cen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>3cen (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6301976</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6051976</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr3p -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr3p">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>3p (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5801976</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr3q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr3q">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>3q (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110838418</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6301976</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>4</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 4 (Chicken)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM000096.5"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_006091.5"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91315245</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr4cen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr4cen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>4cen (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19261804</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19011804</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr4p -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr4p">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>4p (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18761804</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr4q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr4q">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>4q (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91315245</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19261804</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr5">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>5</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 5 (Chicken)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM000097.5"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_006092.5"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59809098</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr5cen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr5cen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>5cen (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6509601</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6259601</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr5p -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr5p">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>5p (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6009601</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr5q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr5q">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>5q (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59809098</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6509601</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr6 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr6">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>6</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 6 (Chicken)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM000098.5"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_006093.5"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36374701</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250000</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr6cen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr6cen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>6cen (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500000</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250000</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr6q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr6q">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>6q (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36374701</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500000</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr7 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr7">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>7</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 7 (Chicken)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM000099.5"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_006094.5"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36742308</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr7cen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr7cen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>7cen (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7831533</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7581533</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr7p -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr7p">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>7p (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7331533</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr7q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr7q">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>7q (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36742308</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7831533</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr8 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr8">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>8</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 8 (Chicken)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM000100.5"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_006095.5"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30219446</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr8cen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr8cen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr8"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>8cen (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9826743</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9576743</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr8p -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr8p">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr8"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>8p (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9326743</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr8q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr8q">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr8"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>8q (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30219446</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9826743</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr9 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr9">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>9</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 9 (Chicken)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM000101.5"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_006096.5"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24153086</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250000</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr9cen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr9cen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr9"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>9cen (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500000</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250000</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chr9q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr9q">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9031-chr9"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>9q (Chicken)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24153086</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500000</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chrM -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chrM">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005739"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>MT</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome M (Chicken)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/X52392.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_001323.1"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16775</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chrW -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chrW">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000803"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000804"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>W</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome W (Chicken)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM000121.5"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_006126.5"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6813114</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9031-chrZ -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chrZ">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000803"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000807"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>Z</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome Z (Chicken)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM000122.5"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_006127.5"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">82529921</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>galGal6</vocab:genome_build>
     </owl:Class>
     
 
@@ -55270,6 +57379,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0000804 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000804"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0000805 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000805"/>
@@ -55279,6 +57394,12 @@
     <!-- http://purl.obolibrary.org/obo/GO_0000806 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000806"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000807 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000807"/>
     
 
 
@@ -55333,6 +57454,12 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_7955 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7955"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
     
 
 

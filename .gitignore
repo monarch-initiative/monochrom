@@ -36,6 +36,7 @@ tests/outputs/*ofn
 tests/outputs/*yaml
 .idea
 download/*tsv
+download/*owl
 *.old
 src/ontology/imports/ucsc.ofn
 src/patterns/all_pattern_terms.txt
@@ -43,3 +44,6 @@ src/patterns/data/**/*.ofn
 src/patterns/data/**/*.txt
 src/patterns/imports/seed_sorted.txt
 src/patterns/pattern_owl_seed.txt
+site/
+docs/
+*.pyc

@@ -65,6 +65,19 @@ is_a: CARO:0030000 ! biological entity
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/caro.owl
 
 [Term]
+id: CARO:0000003
+name: connected anatomical structure
+is_a: CARO:0000006 ! material anatomical entity
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/caro.owl
+
+[Term]
+id: CARO:0000006
+name: material anatomical entity
+is_a: BFO:0000040 ! material entity
+is_a: CARO:0000000 ! anatomical entity
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/caro.owl
+
+[Term]
 id: CARO:0001010
 name: organism or virus or viroid
 is_a: BFO:0000040 ! material entity
@@ -10022,6 +10035,932 @@ relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
 property_value: exactMatch NC:002333.2
 property_value: genome:build "danRer10" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "16596" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
+
+[Term]
+id: CHR:9031-chr1
+name: chromosome 1 (Chicken)
+synonym: "1" BROAD []
+is_a: GO:0000228 ! nuclear chromosome
+is_a: GO:0030849 ! autosome
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: exactMatch http://identifiers.org/insdc/CM000093.5
+property_value: exactMatch NC:006088.5
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "197608386" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
+
+[Term]
+id: CHR:9031-chr10
+name: chromosome 10 (Chicken)
+synonym: "10" BROAD []
+is_a: GO:0000228 ! nuclear chromosome
+is_a: GO:0030849 ! autosome
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: exactMatch http://identifiers.org/insdc/CM000102.5
+property_value: exactMatch NC:006097.5
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "21119840" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "250000" xsd:integer
+
+[Term]
+id: CHR:9031-chr10cen
+name: 10cen (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr10 ! chromosome 10 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "500000" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "250000" xsd:integer
+
+[Term]
+id: CHR:9031-chr10q
+name: 10q (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr10 ! chromosome 10 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "21119840" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "500000" xsd:integer
+
+[Term]
+id: CHR:9031-chr11
+name: chromosome 11 (Chicken)
+synonym: "11" BROAD []
+is_a: GO:0000228 ! nuclear chromosome
+is_a: GO:0030849 ! autosome
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: exactMatch http://identifiers.org/insdc/CM000103.5
+property_value: exactMatch NC:006098.5
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "20200042" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
+
+[Term]
+id: CHR:9031-chr11cen
+name: 11cen (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr11 ! chromosome 11 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "3230744" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "2980744" xsd:integer
+
+[Term]
+id: CHR:9031-chr11p
+name: 11p (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr11 ! chromosome 11 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "2730744" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
+
+[Term]
+id: CHR:9031-chr11q
+name: 11q (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr11 ! chromosome 11 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "20200042" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "3230744" xsd:integer
+
+[Term]
+id: CHR:9031-chr12
+name: chromosome 12 (Chicken)
+synonym: "12" BROAD []
+is_a: GO:0000228 ! nuclear chromosome
+is_a: GO:0030849 ! autosome
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: exactMatch http://identifiers.org/insdc/CM000104.5
+property_value: exactMatch NC:006099.5
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "20387278" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
+
+[Term]
+id: CHR:9031-chr13
+name: chromosome 13 (Chicken)
+synonym: "13" BROAD []
+is_a: GO:0000228 ! nuclear chromosome
+is_a: GO:0030849 ! autosome
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: exactMatch http://identifiers.org/insdc/CM000105.5
+property_value: exactMatch NC:006100.5
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "19166714" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "250000" xsd:integer
+
+[Term]
+id: CHR:9031-chr13cen
+name: 13cen (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr13 ! chromosome 13 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "500000" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "250000" xsd:integer
+
+[Term]
+id: CHR:9031-chr13q
+name: 13q (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr13 ! chromosome 13 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "19166714" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "500000" xsd:integer
+
+[Term]
+id: CHR:9031-chr14
+name: chromosome 14 (Chicken)
+synonym: "14" BROAD []
+is_a: GO:0000228 ! nuclear chromosome
+is_a: GO:0030849 ! autosome
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: exactMatch http://identifiers.org/insdc/CM000106.5
+property_value: exactMatch NC:006101.5
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "16219308" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
+
+[Term]
+id: CHR:9031-chr14cen
+name: 14cen (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr14 ! chromosome 14 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "15978998" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "15728998" xsd:integer
+
+[Term]
+id: CHR:9031-chr14p
+name: 14p (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr14 ! chromosome 14 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "15478998" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
+
+[Term]
+id: CHR:9031-chr14q
+name: 14q (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr14 ! chromosome 14 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "16219308" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "15978998" xsd:integer
+
+[Term]
+id: CHR:9031-chr15
+name: chromosome 15 (Chicken)
+synonym: "15" BROAD []
+is_a: GO:0000228 ! nuclear chromosome
+is_a: GO:0030849 ! autosome
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: exactMatch http://identifiers.org/insdc/CM000107.5
+property_value: exactMatch NC:006102.5
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "13062184" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
+
+[Term]
+id: CHR:9031-chr16
+name: chromosome 16 (Chicken)
+synonym: "16" BROAD []
+is_a: GO:0000228 ! nuclear chromosome
+is_a: GO:0030849 ! autosome
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: exactMatch http://identifiers.org/insdc/CM000108.5
+property_value: exactMatch NC:006103.5
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "2844601" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "250000" xsd:integer
+
+[Term]
+id: CHR:9031-chr16cen
+name: 16cen (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr16 ! chromosome 16 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "500000" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "250000" xsd:integer
+
+[Term]
+id: CHR:9031-chr16q
+name: 16q (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr16 ! chromosome 16 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "2844601" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "500000" xsd:integer
+
+[Term]
+id: CHR:9031-chr17
+name: chromosome 17 (Chicken)
+synonym: "17" BROAD []
+is_a: GO:0000228 ! nuclear chromosome
+is_a: GO:0030849 ! autosome
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: exactMatch http://identifiers.org/insdc/CM000109.5
+property_value: exactMatch NC:006104.5
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "10762512" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "250000" xsd:integer
+
+[Term]
+id: CHR:9031-chr17cen
+name: 17cen (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr17 ! chromosome 17 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "500000" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "250000" xsd:integer
+
+[Term]
+id: CHR:9031-chr17q
+name: 17q (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr17 ! chromosome 17 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "10762512" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "500000" xsd:integer
+
+[Term]
+id: CHR:9031-chr18
+name: chromosome 18 (Chicken)
+synonym: "18" BROAD []
+is_a: GO:0000228 ! nuclear chromosome
+is_a: GO:0030849 ! autosome
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: exactMatch http://identifiers.org/insdc/CM000110.5
+property_value: exactMatch NC:006105.5
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "11373140" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
+
+[Term]
+id: CHR:9031-chr19
+name: chromosome 19 (Chicken)
+synonym: "19" BROAD []
+is_a: GO:0000228 ! nuclear chromosome
+is_a: GO:0030849 ! autosome
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: exactMatch http://identifiers.org/insdc/CM000111.5
+property_value: exactMatch NC:006106.5
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "10323212" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
+
+[Term]
+id: CHR:9031-chr1cen
+name: 1cen (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr1 ! chromosome 1 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "77108038" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "76858038" xsd:integer
+
+[Term]
+id: CHR:9031-chr1p
+name: 1p (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr1 ! chromosome 1 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "76608038" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
+
+[Term]
+id: CHR:9031-chr1q
+name: 1q (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr1 ! chromosome 1 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "197608386" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "77108038" xsd:integer
+
+[Term]
+id: CHR:9031-chr2
+name: chromosome 2 (Chicken)
+synonym: "2" BROAD []
+is_a: GO:0000228 ! nuclear chromosome
+is_a: GO:0030849 ! autosome
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: exactMatch http://identifiers.org/insdc/CM000094.5
+property_value: exactMatch NC:006089.5
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "149682049" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
+
+[Term]
+id: CHR:9031-chr20
+name: chromosome 20 (Chicken)
+synonym: "20" BROAD []
+is_a: GO:0000228 ! nuclear chromosome
+is_a: GO:0030849 ! autosome
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: exactMatch http://identifiers.org/insdc/CM000112.5
+property_value: exactMatch NC:006107.5
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "13897287" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
+
+[Term]
+id: CHR:9031-chr21
+name: chromosome 21 (Chicken)
+synonym: "21" BROAD []
+is_a: GO:0000228 ! nuclear chromosome
+is_a: GO:0030849 ! autosome
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: exactMatch http://identifiers.org/insdc/CM000113.5
+property_value: exactMatch NC:006108.5
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "6844979" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
+
+[Term]
+id: CHR:9031-chr22
+name: chromosome 22 (Chicken)
+synonym: "22" BROAD []
+is_a: GO:0000228 ! nuclear chromosome
+is_a: GO:0030849 ! autosome
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: exactMatch http://identifiers.org/insdc/CM000114.5
+property_value: exactMatch NC:006109.5
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "5459462" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
+
+[Term]
+id: CHR:9031-chr22cen
+name: 22cen (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr22 ! chromosome 22 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "3570996" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "3320996" xsd:integer
+
+[Term]
+id: CHR:9031-chr22p
+name: 22p (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr22 ! chromosome 22 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "3070996" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
+
+[Term]
+id: CHR:9031-chr22q
+name: 22q (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr22 ! chromosome 22 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "5459462" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "3570996" xsd:integer
+
+[Term]
+id: CHR:9031-chr23
+name: chromosome 23 (Chicken)
+synonym: "23" BROAD []
+is_a: GO:0000228 ! nuclear chromosome
+is_a: GO:0030849 ! autosome
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: exactMatch http://identifiers.org/insdc/CM000115.5
+property_value: exactMatch NC:006110.5
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "6149580" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
+
+[Term]
+id: CHR:9031-chr24
+name: chromosome 24 (Chicken)
+synonym: "24" BROAD []
+is_a: GO:0000228 ! nuclear chromosome
+is_a: GO:0030849 ! autosome
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: exactMatch http://identifiers.org/insdc/CM000116.5
+property_value: exactMatch NC:006111.5
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "6491222" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
+
+[Term]
+id: CHR:9031-chr25
+name: chromosome 25 (Chicken)
+synonym: "25" BROAD []
+is_a: GO:0000228 ! nuclear chromosome
+is_a: GO:0030849 ! autosome
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: exactMatch http://identifiers.org/insdc/CM000124.5
+property_value: exactMatch NC:006112.4
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "3980610" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
+
+[Term]
+id: CHR:9031-chr25cen
+name: 25cen (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr25 ! chromosome 25 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "1240762" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "990762" xsd:integer
+
+[Term]
+id: CHR:9031-chr25p
+name: 25p (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr25 ! chromosome 25 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "740762" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
+
+[Term]
+id: CHR:9031-chr25q
+name: 25q (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr25 ! chromosome 25 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "3980610" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "1240762" xsd:integer
+
+[Term]
+id: CHR:9031-chr26
+name: chromosome 26 (Chicken)
+synonym: "26" BROAD []
+is_a: GO:0000228 ! nuclear chromosome
+is_a: GO:0030849 ! autosome
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: exactMatch http://identifiers.org/insdc/CM000117.5
+property_value: exactMatch NC:006113.5
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "6055710" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
+
+[Term]
+id: CHR:9031-chr26cen
+name: 26cen (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr26 ! chromosome 26 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "6055710" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "5805710" xsd:integer
+
+[Term]
+id: CHR:9031-chr26p
+name: 26p (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr26 ! chromosome 26 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "5555710" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
+
+[Term]
+id: CHR:9031-chr27
+name: chromosome 27 (Chicken)
+synonym: "27" BROAD []
+is_a: GO:0000228 ! nuclear chromosome
+is_a: GO:0030849 ! autosome
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: exactMatch http://identifiers.org/insdc/CM000118.5
+property_value: exactMatch NC:006114.5
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "8080432" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
+
+[Term]
+id: CHR:9031-chr28
+name: chromosome 28 (Chicken)
+synonym: "28" BROAD []
+is_a: GO:0000228 ! nuclear chromosome
+is_a: GO:0030849 ! autosome
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: exactMatch http://identifiers.org/insdc/CM000119.5
+property_value: exactMatch NC:006115.5
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "5116882" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
+
+[Term]
+id: CHR:9031-chr2cen
+name: 2cen (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr2 ! chromosome 2 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "52651238" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "52401238" xsd:integer
+
+[Term]
+id: CHR:9031-chr2p
+name: 2p (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr2 ! chromosome 2 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "52151238" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
+
+[Term]
+id: CHR:9031-chr2q
+name: 2q (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr2 ! chromosome 2 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "149682049" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "52651238" xsd:integer
+
+[Term]
+id: CHR:9031-chr3
+name: chromosome 3 (Chicken)
+synonym: "3" BROAD []
+is_a: GO:0000228 ! nuclear chromosome
+is_a: GO:0030849 ! autosome
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: exactMatch http://identifiers.org/insdc/CM000095.5
+property_value: exactMatch NC:006090.5
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "110838418" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
+
+[Term]
+id: CHR:9031-chr30
+name: chromosome 30 (Chicken)
+synonym: "30" BROAD []
+is_a: GO:0000228 ! nuclear chromosome
+is_a: GO:0030849 ! autosome
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: exactMatch http://identifiers.org/insdc/CM003637.2
+property_value: exactMatch NC:028739.2
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "1818525" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
+
+[Term]
+id: CHR:9031-chr31
+name: chromosome 31 (Chicken)
+synonym: "31" BROAD []
+is_a: GO:0000228 ! nuclear chromosome
+is_a: GO:0030849 ! autosome
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: exactMatch http://identifiers.org/insdc/CM003638.2
+property_value: exactMatch NC:028740.2
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "6153034" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
+
+[Term]
+id: CHR:9031-chr32
+name: chromosome 32 (Chicken)
+synonym: "32" BROAD []
+is_a: GO:0000228 ! nuclear chromosome
+is_a: GO:0030849 ! autosome
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: exactMatch http://identifiers.org/insdc/CM000120.4
+property_value: exactMatch NC:006119.4
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "725831" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
+
+[Term]
+id: CHR:9031-chr33
+name: chromosome 33 (Chicken)
+synonym: "33" BROAD []
+is_a: GO:0000228 ! nuclear chromosome
+is_a: GO:0030849 ! autosome
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: exactMatch http://identifiers.org/insdc/CM000123.5
+property_value: exactMatch NC:008465.4
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "7821666" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
+
+[Term]
+id: CHR:9031-chr3cen
+name: 3cen (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr3 ! chromosome 3 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "6301976" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "6051976" xsd:integer
+
+[Term]
+id: CHR:9031-chr3p
+name: 3p (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr3 ! chromosome 3 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "5801976" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
+
+[Term]
+id: CHR:9031-chr3q
+name: 3q (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr3 ! chromosome 3 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "110838418" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "6301976" xsd:integer
+
+[Term]
+id: CHR:9031-chr4
+name: chromosome 4 (Chicken)
+synonym: "4" BROAD []
+is_a: GO:0000228 ! nuclear chromosome
+is_a: GO:0030849 ! autosome
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: exactMatch http://identifiers.org/insdc/CM000096.5
+property_value: exactMatch NC:006091.5
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "91315245" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
+
+[Term]
+id: CHR:9031-chr4cen
+name: 4cen (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr4 ! chromosome 4 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "19261804" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "19011804" xsd:integer
+
+[Term]
+id: CHR:9031-chr4p
+name: 4p (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr4 ! chromosome 4 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "18761804" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
+
+[Term]
+id: CHR:9031-chr4q
+name: 4q (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr4 ! chromosome 4 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "91315245" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "19261804" xsd:integer
+
+[Term]
+id: CHR:9031-chr5
+name: chromosome 5 (Chicken)
+synonym: "5" BROAD []
+is_a: GO:0000228 ! nuclear chromosome
+is_a: GO:0030849 ! autosome
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: exactMatch http://identifiers.org/insdc/CM000097.5
+property_value: exactMatch NC:006092.5
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "59809098" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
+
+[Term]
+id: CHR:9031-chr5cen
+name: 5cen (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr5 ! chromosome 5 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "6509601" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "6259601" xsd:integer
+
+[Term]
+id: CHR:9031-chr5p
+name: 5p (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr5 ! chromosome 5 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "6009601" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
+
+[Term]
+id: CHR:9031-chr5q
+name: 5q (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr5 ! chromosome 5 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "59809098" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "6509601" xsd:integer
+
+[Term]
+id: CHR:9031-chr6
+name: chromosome 6 (Chicken)
+synonym: "6" BROAD []
+is_a: GO:0000228 ! nuclear chromosome
+is_a: GO:0030849 ! autosome
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: exactMatch http://identifiers.org/insdc/CM000098.5
+property_value: exactMatch NC:006093.5
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "36374701" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "250000" xsd:integer
+
+[Term]
+id: CHR:9031-chr6cen
+name: 6cen (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr6 ! chromosome 6 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "500000" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "250000" xsd:integer
+
+[Term]
+id: CHR:9031-chr6q
+name: 6q (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr6 ! chromosome 6 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "36374701" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "500000" xsd:integer
+
+[Term]
+id: CHR:9031-chr7
+name: chromosome 7 (Chicken)
+synonym: "7" BROAD []
+is_a: GO:0000228 ! nuclear chromosome
+is_a: GO:0030849 ! autosome
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: exactMatch http://identifiers.org/insdc/CM000099.5
+property_value: exactMatch NC:006094.5
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "36742308" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
+
+[Term]
+id: CHR:9031-chr7cen
+name: 7cen (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr7 ! chromosome 7 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "7831533" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "7581533" xsd:integer
+
+[Term]
+id: CHR:9031-chr7p
+name: 7p (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr7 ! chromosome 7 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "7331533" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
+
+[Term]
+id: CHR:9031-chr7q
+name: 7q (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr7 ! chromosome 7 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "36742308" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "7831533" xsd:integer
+
+[Term]
+id: CHR:9031-chr8
+name: chromosome 8 (Chicken)
+synonym: "8" BROAD []
+is_a: GO:0000228 ! nuclear chromosome
+is_a: GO:0030849 ! autosome
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: exactMatch http://identifiers.org/insdc/CM000100.5
+property_value: exactMatch NC:006095.5
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "30219446" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
+
+[Term]
+id: CHR:9031-chr8cen
+name: 8cen (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr8 ! chromosome 8 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "9826743" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "9576743" xsd:integer
+
+[Term]
+id: CHR:9031-chr8p
+name: 8p (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr8 ! chromosome 8 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "9326743" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
+
+[Term]
+id: CHR:9031-chr8q
+name: 8q (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr8 ! chromosome 8 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "30219446" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "9826743" xsd:integer
+
+[Term]
+id: CHR:9031-chr9
+name: chromosome 9 (Chicken)
+synonym: "9" BROAD []
+is_a: GO:0000228 ! nuclear chromosome
+is_a: GO:0030849 ! autosome
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: exactMatch http://identifiers.org/insdc/CM000101.5
+property_value: exactMatch NC:006096.5
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "24153086" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "250000" xsd:integer
+
+[Term]
+id: CHR:9031-chr9cen
+name: 9cen (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr9 ! chromosome 9 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "500000" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "250000" xsd:integer
+
+[Term]
+id: CHR:9031-chr9q
+name: 9q (Chicken)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9031-chr9 ! chromosome 9 (Chicken)
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "24153086" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "500000" xsd:integer
+
+[Term]
+id: CHR:9031-chrM
+name: chromosome M (Chicken)
+synonym: "MT" BROAD []
+is_a: GO:0000262 ! mitochondrial chromosome
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: exactMatch http://identifiers.org/insdc/X52392.1
+property_value: exactMatch NC:001323.1
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "16775" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
+
+[Term]
+id: CHR:9031-chrW
+name: chromosome W (Chicken)
+synonym: "W" BROAD []
+is_a: GO:0000228 ! nuclear chromosome
+is_a: GO:0000803 ! sex chromosome
+is_a: GO:0000804
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: exactMatch http://identifiers.org/insdc/CM000121.5
+property_value: exactMatch NC:006126.5
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "6813114" xsd:integer
+property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
+
+[Term]
+id: CHR:9031-chrZ
+name: chromosome Z (Chicken)
+synonym: "Z" BROAD []
+is_a: GO:0000228 ! nuclear chromosome
+is_a: GO:0000803 ! sex chromosome
+is_a: GO:0000807
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+property_value: exactMatch http://identifiers.org/insdc/CM000122.5
+property_value: exactMatch NC:006127.5
+property_value: genome:build "galGal6" xsd:string
+property_value: https://w3id.org/biodatamodels/gff/end "82529921" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
 
 [Term]
@@ -23325,6 +24264,8 @@ synonym: "horsetail nucleus" NARROW [GOC:al, GOC:mah, GOC:vw, PMID:15030757]
 xref: NIF_Subcellular:sao1702920020
 xref: Wikipedia:Cell_nucleus
 is_a: GO:0043231 ! intracellular membrane-bounded organelle
+is_a: GO:0044464 ! cell part
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/go.owl
 
 [Term]
 id: GO:0005635
@@ -23853,6 +24794,12 @@ is_a: GO:0031974 ! membrane-enclosed lumen
 intersection_of: GO:0031974 ! membrane-enclosed lumen
 intersection_of: part_of GO:0043226 ! organelle
 relationship: part_of GO:0043226 ! organelle
+
+[Term]
+id: GO:0044464
+name: cell part
+is_a: CARO:0000003 ! connected anatomical structure
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/go.owl
 
 [Term]
 id: GO:0070013

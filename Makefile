@@ -2,7 +2,7 @@
 BUILDS = hg38 ce11 mm10 rn6 galGal6
 # TODO: dm6
 
-all: all-chromAlias all-cytoBand src/ontology/components/ucsc.owl src/ontology/tmp/ucsc.ofn  all-components ontology
+all: all-chromAlias all-cytoBand src/ontology/components/ucsc.owl  all-components ontology
 all-chromAlias: $(patsubst %, download/%-chromAlias.tsv, $(BUILDS))
 all-cytoBand: $(patsubst %, download/%-cytoBand.tsv, $(BUILDS))
 

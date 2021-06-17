@@ -1,5 +1,5 @@
 # Auto generated from chromo.yaml by pythongen.py version: 0.9.0
-# Generation date: 2021-06-10 18:33
+# Generation date: 2021-06-16 19:01
 # Schema: ChromoSchema
 #
 # id: https://w3id.org/biodatamodels/chromoschema
