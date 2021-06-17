@@ -1,0 +1,2075 @@
+name: foo
+has:
+  CHR:9031-chr1p:
+    id: CHR:9031-chr1p
+    band_descriptor: p
+    chromosome_name: chr1
+    build: galGal6
+    name: 1p (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 0
+    end: 76608038
+    parent: CHR:9031-chr1
+  CHR:9031-chr1:
+    id: CHR:9031-chr1
+    band_descriptor: ''
+    chromosome_name: chr1
+    build: galGal6
+    name: chromosome 1 (Chicken)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9031
+    start: 0
+    end: 197608386
+    children:
+    - CHR:9031-chr1p
+    - CHR:9031-chr1c
+    - CHR:9031-chr1q
+    exact_mappings:
+    - insdc:CM000093.5
+    - refseq:NC_006088.5
+    broad_synonyms:
+    - '1'
+  CHR:9031-chr1cen:
+    id: CHR:9031-chr1cen
+    band_descriptor: cen
+    chromosome_name: chr1
+    build: galGal6
+    name: 1cen (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 76858038
+    end: 77108038
+    parent: CHR:9031-chr1ce
+  CHR:9031-chr1ce:
+    id: CHR:9031-chr1ce
+    band_descriptor: ce
+    chromosome_name: chr1
+    build: galGal6
+    name: 1ce (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 76858038
+    end: 77108038
+    children:
+    - CHR:9031-chr1cen
+    parent: CHR:9031-chr1c
+  CHR:9031-chr1c:
+    id: CHR:9031-chr1c
+    band_descriptor: c
+    chromosome_name: chr1
+    build: galGal6
+    name: 1c (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 76858038
+    end: 77108038
+    children:
+    - CHR:9031-chr1ce
+    parent: CHR:9031-chr1
+  CHR:9031-chr1q:
+    id: CHR:9031-chr1q
+    band_descriptor: q
+    chromosome_name: chr1
+    build: galGal6
+    name: 1q (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 77108038
+    end: 197608386
+    parent: CHR:9031-chr1
+  CHR:9031-chr10cen:
+    id: CHR:9031-chr10cen
+    band_descriptor: cen
+    chromosome_name: chr10
+    build: galGal6
+    name: 10cen (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 250000
+    end: 500000
+    parent: CHR:9031-chr10ce
+  CHR:9031-chr10ce:
+    id: CHR:9031-chr10ce
+    band_descriptor: ce
+    chromosome_name: chr10
+    build: galGal6
+    name: 10ce (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 250000
+    end: 500000
+    children:
+    - CHR:9031-chr10cen
+    parent: CHR:9031-chr10c
+  CHR:9031-chr10c:
+    id: CHR:9031-chr10c
+    band_descriptor: c
+    chromosome_name: chr10
+    build: galGal6
+    name: 10c (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 250000
+    end: 500000
+    children:
+    - CHR:9031-chr10ce
+    parent: CHR:9031-chr10
+  CHR:9031-chr10:
+    id: CHR:9031-chr10
+    band_descriptor: ''
+    chromosome_name: chr10
+    build: galGal6
+    name: chromosome 10 (Chicken)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9031
+    start: 250000
+    end: 21119840
+    children:
+    - CHR:9031-chr10c
+    - CHR:9031-chr10q
+    exact_mappings:
+    - insdc:CM000102.5
+    - refseq:NC_006097.5
+    broad_synonyms:
+    - '10'
+  CHR:9031-chr10q:
+    id: CHR:9031-chr10q
+    band_descriptor: q
+    chromosome_name: chr10
+    build: galGal6
+    name: 10q (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 500000
+    end: 21119840
+    parent: CHR:9031-chr10
+  CHR:9031-chr11p:
+    id: CHR:9031-chr11p
+    band_descriptor: p
+    chromosome_name: chr11
+    build: galGal6
+    name: 11p (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 0
+    end: 2730744
+    parent: CHR:9031-chr11
+  CHR:9031-chr11:
+    id: CHR:9031-chr11
+    band_descriptor: ''
+    chromosome_name: chr11
+    build: galGal6
+    name: chromosome 11 (Chicken)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9031
+    start: 0
+    end: 20200042
+    children:
+    - CHR:9031-chr11p
+    - CHR:9031-chr11c
+    - CHR:9031-chr11q
+    exact_mappings:
+    - insdc:CM000103.5
+    - refseq:NC_006098.5
+    broad_synonyms:
+    - '11'
+  CHR:9031-chr11cen:
+    id: CHR:9031-chr11cen
+    band_descriptor: cen
+    chromosome_name: chr11
+    build: galGal6
+    name: 11cen (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 2980744
+    end: 3230744
+    parent: CHR:9031-chr11ce
+  CHR:9031-chr11ce:
+    id: CHR:9031-chr11ce
+    band_descriptor: ce
+    chromosome_name: chr11
+    build: galGal6
+    name: 11ce (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 2980744
+    end: 3230744
+    children:
+    - CHR:9031-chr11cen
+    parent: CHR:9031-chr11c
+  CHR:9031-chr11c:
+    id: CHR:9031-chr11c
+    band_descriptor: c
+    chromosome_name: chr11
+    build: galGal6
+    name: 11c (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 2980744
+    end: 3230744
+    children:
+    - CHR:9031-chr11ce
+    parent: CHR:9031-chr11
+  CHR:9031-chr11q:
+    id: CHR:9031-chr11q
+    band_descriptor: q
+    chromosome_name: chr11
+    build: galGal6
+    name: 11q (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 3230744
+    end: 20200042
+    parent: CHR:9031-chr11
+  CHR:9031-chr12:
+    id: CHR:9031-chr12
+    band_descriptor: ''
+    chromosome_name: chr12
+    build: galGal6
+    name: chromosome 12 (Chicken)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9031
+    start: 0
+    end: 20387278
+    exact_mappings:
+    - insdc:CM000104.5
+    - refseq:NC_006099.5
+    broad_synonyms:
+    - '12'
+  CHR:9031-chr13cen:
+    id: CHR:9031-chr13cen
+    band_descriptor: cen
+    chromosome_name: chr13
+    build: galGal6
+    name: 13cen (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 250000
+    end: 500000
+    parent: CHR:9031-chr13ce
+  CHR:9031-chr13ce:
+    id: CHR:9031-chr13ce
+    band_descriptor: ce
+    chromosome_name: chr13
+    build: galGal6
+    name: 13ce (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 250000
+    end: 500000
+    children:
+    - CHR:9031-chr13cen
+    parent: CHR:9031-chr13c
+  CHR:9031-chr13c:
+    id: CHR:9031-chr13c
+    band_descriptor: c
+    chromosome_name: chr13
+    build: galGal6
+    name: 13c (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 250000
+    end: 500000
+    children:
+    - CHR:9031-chr13ce
+    parent: CHR:9031-chr13
+  CHR:9031-chr13:
+    id: CHR:9031-chr13
+    band_descriptor: ''
+    chromosome_name: chr13
+    build: galGal6
+    name: chromosome 13 (Chicken)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9031
+    start: 250000
+    end: 19166714
+    children:
+    - CHR:9031-chr13c
+    - CHR:9031-chr13q
+    exact_mappings:
+    - insdc:CM000105.5
+    - refseq:NC_006100.5
+    broad_synonyms:
+    - '13'
+  CHR:9031-chr13q:
+    id: CHR:9031-chr13q
+    band_descriptor: q
+    chromosome_name: chr13
+    build: galGal6
+    name: 13q (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 500000
+    end: 19166714
+    parent: CHR:9031-chr13
+  CHR:9031-chr14p:
+    id: CHR:9031-chr14p
+    band_descriptor: p
+    chromosome_name: chr14
+    build: galGal6
+    name: 14p (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 0
+    end: 15478998
+    parent: CHR:9031-chr14
+  CHR:9031-chr14:
+    id: CHR:9031-chr14
+    band_descriptor: ''
+    chromosome_name: chr14
+    build: galGal6
+    name: chromosome 14 (Chicken)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9031
+    start: 0
+    end: 16219308
+    children:
+    - CHR:9031-chr14p
+    - CHR:9031-chr14c
+    - CHR:9031-chr14q
+    exact_mappings:
+    - insdc:CM000106.5
+    - refseq:NC_006101.5
+    broad_synonyms:
+    - '14'
+  CHR:9031-chr14cen:
+    id: CHR:9031-chr14cen
+    band_descriptor: cen
+    chromosome_name: chr14
+    build: galGal6
+    name: 14cen (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 15728998
+    end: 15978998
+    parent: CHR:9031-chr14ce
+  CHR:9031-chr14ce:
+    id: CHR:9031-chr14ce
+    band_descriptor: ce
+    chromosome_name: chr14
+    build: galGal6
+    name: 14ce (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 15728998
+    end: 15978998
+    children:
+    - CHR:9031-chr14cen
+    parent: CHR:9031-chr14c
+  CHR:9031-chr14c:
+    id: CHR:9031-chr14c
+    band_descriptor: c
+    chromosome_name: chr14
+    build: galGal6
+    name: 14c (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 15728998
+    end: 15978998
+    children:
+    - CHR:9031-chr14ce
+    parent: CHR:9031-chr14
+  CHR:9031-chr14q:
+    id: CHR:9031-chr14q
+    band_descriptor: q
+    chromosome_name: chr14
+    build: galGal6
+    name: 14q (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 15978998
+    end: 16219308
+    parent: CHR:9031-chr14
+  CHR:9031-chr15:
+    id: CHR:9031-chr15
+    band_descriptor: ''
+    chromosome_name: chr15
+    build: galGal6
+    name: chromosome 15 (Chicken)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9031
+    start: 0
+    end: 13062184
+    exact_mappings:
+    - insdc:CM000107.5
+    - refseq:NC_006102.5
+    broad_synonyms:
+    - '15'
+  CHR:9031-chr16cen:
+    id: CHR:9031-chr16cen
+    band_descriptor: cen
+    chromosome_name: chr16
+    build: galGal6
+    name: 16cen (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 250000
+    end: 500000
+    parent: CHR:9031-chr16ce
+  CHR:9031-chr16ce:
+    id: CHR:9031-chr16ce
+    band_descriptor: ce
+    chromosome_name: chr16
+    build: galGal6
+    name: 16ce (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 250000
+    end: 500000
+    children:
+    - CHR:9031-chr16cen
+    parent: CHR:9031-chr16c
+  CHR:9031-chr16c:
+    id: CHR:9031-chr16c
+    band_descriptor: c
+    chromosome_name: chr16
+    build: galGal6
+    name: 16c (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 250000
+    end: 500000
+    children:
+    - CHR:9031-chr16ce
+    parent: CHR:9031-chr16
+  CHR:9031-chr16:
+    id: CHR:9031-chr16
+    band_descriptor: ''
+    chromosome_name: chr16
+    build: galGal6
+    name: chromosome 16 (Chicken)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9031
+    start: 250000
+    end: 2844601
+    children:
+    - CHR:9031-chr16c
+    - CHR:9031-chr16q
+    exact_mappings:
+    - insdc:CM000108.5
+    - refseq:NC_006103.5
+    broad_synonyms:
+    - '16'
+  CHR:9031-chr16q:
+    id: CHR:9031-chr16q
+    band_descriptor: q
+    chromosome_name: chr16
+    build: galGal6
+    name: 16q (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 500000
+    end: 2844601
+    parent: CHR:9031-chr16
+  CHR:9031-chr17cen:
+    id: CHR:9031-chr17cen
+    band_descriptor: cen
+    chromosome_name: chr17
+    build: galGal6
+    name: 17cen (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 250000
+    end: 500000
+    parent: CHR:9031-chr17ce
+  CHR:9031-chr17ce:
+    id: CHR:9031-chr17ce
+    band_descriptor: ce
+    chromosome_name: chr17
+    build: galGal6
+    name: 17ce (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 250000
+    end: 500000
+    children:
+    - CHR:9031-chr17cen
+    parent: CHR:9031-chr17c
+  CHR:9031-chr17c:
+    id: CHR:9031-chr17c
+    band_descriptor: c
+    chromosome_name: chr17
+    build: galGal6
+    name: 17c (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 250000
+    end: 500000
+    children:
+    - CHR:9031-chr17ce
+    parent: CHR:9031-chr17
+  CHR:9031-chr17:
+    id: CHR:9031-chr17
+    band_descriptor: ''
+    chromosome_name: chr17
+    build: galGal6
+    name: chromosome 17 (Chicken)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9031
+    start: 250000
+    end: 10762512
+    children:
+    - CHR:9031-chr17c
+    - CHR:9031-chr17q
+    exact_mappings:
+    - insdc:CM000109.5
+    - refseq:NC_006104.5
+    broad_synonyms:
+    - '17'
+  CHR:9031-chr17q:
+    id: CHR:9031-chr17q
+    band_descriptor: q
+    chromosome_name: chr17
+    build: galGal6
+    name: 17q (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 500000
+    end: 10762512
+    parent: CHR:9031-chr17
+  CHR:9031-chr18:
+    id: CHR:9031-chr18
+    band_descriptor: ''
+    chromosome_name: chr18
+    build: galGal6
+    name: chromosome 18 (Chicken)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9031
+    start: 0
+    end: 11373140
+    exact_mappings:
+    - insdc:CM000110.5
+    - refseq:NC_006105.5
+    broad_synonyms:
+    - '18'
+  CHR:9031-chr19:
+    id: CHR:9031-chr19
+    band_descriptor: ''
+    chromosome_name: chr19
+    build: galGal6
+    name: chromosome 19 (Chicken)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9031
+    start: 0
+    end: 10323212
+    exact_mappings:
+    - insdc:CM000111.5
+    - refseq:NC_006106.5
+    broad_synonyms:
+    - '19'
+  CHR:9031-chr2p:
+    id: CHR:9031-chr2p
+    band_descriptor: p
+    chromosome_name: chr2
+    build: galGal6
+    name: 2p (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 0
+    end: 52151238
+    parent: CHR:9031-chr2
+  CHR:9031-chr2:
+    id: CHR:9031-chr2
+    band_descriptor: ''
+    chromosome_name: chr2
+    build: galGal6
+    name: chromosome 2 (Chicken)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9031
+    start: 0
+    end: 149682049
+    children:
+    - CHR:9031-chr2p
+    - CHR:9031-chr2c
+    - CHR:9031-chr2q
+    exact_mappings:
+    - insdc:CM000094.5
+    - refseq:NC_006089.5
+    broad_synonyms:
+    - '2'
+  CHR:9031-chr2cen:
+    id: CHR:9031-chr2cen
+    band_descriptor: cen
+    chromosome_name: chr2
+    build: galGal6
+    name: 2cen (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 52401238
+    end: 52651238
+    parent: CHR:9031-chr2ce
+  CHR:9031-chr2ce:
+    id: CHR:9031-chr2ce
+    band_descriptor: ce
+    chromosome_name: chr2
+    build: galGal6
+    name: 2ce (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 52401238
+    end: 52651238
+    children:
+    - CHR:9031-chr2cen
+    parent: CHR:9031-chr2c
+  CHR:9031-chr2c:
+    id: CHR:9031-chr2c
+    band_descriptor: c
+    chromosome_name: chr2
+    build: galGal6
+    name: 2c (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 52401238
+    end: 52651238
+    children:
+    - CHR:9031-chr2ce
+    parent: CHR:9031-chr2
+  CHR:9031-chr2q:
+    id: CHR:9031-chr2q
+    band_descriptor: q
+    chromosome_name: chr2
+    build: galGal6
+    name: 2q (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 52651238
+    end: 149682049
+    parent: CHR:9031-chr2
+  CHR:9031-chr20:
+    id: CHR:9031-chr20
+    band_descriptor: ''
+    chromosome_name: chr20
+    build: galGal6
+    name: chromosome 20 (Chicken)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9031
+    start: 0
+    end: 13897287
+    exact_mappings:
+    - insdc:CM000112.5
+    - refseq:NC_006107.5
+    broad_synonyms:
+    - '20'
+  CHR:9031-chr21:
+    id: CHR:9031-chr21
+    band_descriptor: ''
+    chromosome_name: chr21
+    build: galGal6
+    name: chromosome 21 (Chicken)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9031
+    start: 0
+    end: 6844979
+    exact_mappings:
+    - insdc:CM000113.5
+    - refseq:NC_006108.5
+    broad_synonyms:
+    - '21'
+  CHR:9031-chr22p:
+    id: CHR:9031-chr22p
+    band_descriptor: p
+    chromosome_name: chr22
+    build: galGal6
+    name: 22p (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 0
+    end: 3070996
+    parent: CHR:9031-chr22
+  CHR:9031-chr22:
+    id: CHR:9031-chr22
+    band_descriptor: ''
+    chromosome_name: chr22
+    build: galGal6
+    name: chromosome 22 (Chicken)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9031
+    start: 0
+    end: 5459462
+    children:
+    - CHR:9031-chr22p
+    - CHR:9031-chr22c
+    - CHR:9031-chr22q
+    exact_mappings:
+    - insdc:CM000114.5
+    - refseq:NC_006109.5
+    broad_synonyms:
+    - '22'
+  CHR:9031-chr22cen:
+    id: CHR:9031-chr22cen
+    band_descriptor: cen
+    chromosome_name: chr22
+    build: galGal6
+    name: 22cen (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 3320996
+    end: 3570996
+    parent: CHR:9031-chr22ce
+  CHR:9031-chr22ce:
+    id: CHR:9031-chr22ce
+    band_descriptor: ce
+    chromosome_name: chr22
+    build: galGal6
+    name: 22ce (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 3320996
+    end: 3570996
+    children:
+    - CHR:9031-chr22cen
+    parent: CHR:9031-chr22c
+  CHR:9031-chr22c:
+    id: CHR:9031-chr22c
+    band_descriptor: c
+    chromosome_name: chr22
+    build: galGal6
+    name: 22c (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 3320996
+    end: 3570996
+    children:
+    - CHR:9031-chr22ce
+    parent: CHR:9031-chr22
+  CHR:9031-chr22q:
+    id: CHR:9031-chr22q
+    band_descriptor: q
+    chromosome_name: chr22
+    build: galGal6
+    name: 22q (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 3570996
+    end: 5459462
+    parent: CHR:9031-chr22
+  CHR:9031-chr23:
+    id: CHR:9031-chr23
+    band_descriptor: ''
+    chromosome_name: chr23
+    build: galGal6
+    name: chromosome 23 (Chicken)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9031
+    start: 0
+    end: 6149580
+    exact_mappings:
+    - insdc:CM000115.5
+    - refseq:NC_006110.5
+    broad_synonyms:
+    - '23'
+  CHR:9031-chr24:
+    id: CHR:9031-chr24
+    band_descriptor: ''
+    chromosome_name: chr24
+    build: galGal6
+    name: chromosome 24 (Chicken)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9031
+    start: 0
+    end: 6491222
+    exact_mappings:
+    - insdc:CM000116.5
+    - refseq:NC_006111.5
+    broad_synonyms:
+    - '24'
+  CHR:9031-chr25p:
+    id: CHR:9031-chr25p
+    band_descriptor: p
+    chromosome_name: chr25
+    build: galGal6
+    name: 25p (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 0
+    end: 740762
+    parent: CHR:9031-chr25
+  CHR:9031-chr25:
+    id: CHR:9031-chr25
+    band_descriptor: ''
+    chromosome_name: chr25
+    build: galGal6
+    name: chromosome 25 (Chicken)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9031
+    start: 0
+    end: 3980610
+    children:
+    - CHR:9031-chr25p
+    - CHR:9031-chr25c
+    - CHR:9031-chr25q
+    exact_mappings:
+    - insdc:CM000124.5
+    - refseq:NC_006112.4
+    broad_synonyms:
+    - '25'
+  CHR:9031-chr25cen:
+    id: CHR:9031-chr25cen
+    band_descriptor: cen
+    chromosome_name: chr25
+    build: galGal6
+    name: 25cen (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 990762
+    end: 1240762
+    parent: CHR:9031-chr25ce
+  CHR:9031-chr25ce:
+    id: CHR:9031-chr25ce
+    band_descriptor: ce
+    chromosome_name: chr25
+    build: galGal6
+    name: 25ce (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 990762
+    end: 1240762
+    children:
+    - CHR:9031-chr25cen
+    parent: CHR:9031-chr25c
+  CHR:9031-chr25c:
+    id: CHR:9031-chr25c
+    band_descriptor: c
+    chromosome_name: chr25
+    build: galGal6
+    name: 25c (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 990762
+    end: 1240762
+    children:
+    - CHR:9031-chr25ce
+    parent: CHR:9031-chr25
+  CHR:9031-chr25q:
+    id: CHR:9031-chr25q
+    band_descriptor: q
+    chromosome_name: chr25
+    build: galGal6
+    name: 25q (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 1240762
+    end: 3980610
+    parent: CHR:9031-chr25
+  CHR:9031-chr26p:
+    id: CHR:9031-chr26p
+    band_descriptor: p
+    chromosome_name: chr26
+    build: galGal6
+    name: 26p (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 0
+    end: 5555710
+    parent: CHR:9031-chr26
+  CHR:9031-chr26:
+    id: CHR:9031-chr26
+    band_descriptor: ''
+    chromosome_name: chr26
+    build: galGal6
+    name: chromosome 26 (Chicken)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9031
+    start: 0
+    end: 6055710
+    children:
+    - CHR:9031-chr26p
+    - CHR:9031-chr26c
+    exact_mappings:
+    - insdc:CM000117.5
+    - refseq:NC_006113.5
+    broad_synonyms:
+    - '26'
+  CHR:9031-chr26cen:
+    id: CHR:9031-chr26cen
+    band_descriptor: cen
+    chromosome_name: chr26
+    build: galGal6
+    name: 26cen (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 5805710
+    end: 6055710
+    parent: CHR:9031-chr26ce
+  CHR:9031-chr26ce:
+    id: CHR:9031-chr26ce
+    band_descriptor: ce
+    chromosome_name: chr26
+    build: galGal6
+    name: 26ce (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 5805710
+    end: 6055710
+    children:
+    - CHR:9031-chr26cen
+    parent: CHR:9031-chr26c
+  CHR:9031-chr26c:
+    id: CHR:9031-chr26c
+    band_descriptor: c
+    chromosome_name: chr26
+    build: galGal6
+    name: 26c (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 5805710
+    end: 6055710
+    children:
+    - CHR:9031-chr26ce
+    parent: CHR:9031-chr26
+  CHR:9031-chr27:
+    id: CHR:9031-chr27
+    band_descriptor: ''
+    chromosome_name: chr27
+    build: galGal6
+    name: chromosome 27 (Chicken)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9031
+    start: 0
+    end: 8080432
+    exact_mappings:
+    - insdc:CM000118.5
+    - refseq:NC_006114.5
+    broad_synonyms:
+    - '27'
+  CHR:9031-chr28:
+    id: CHR:9031-chr28
+    band_descriptor: ''
+    chromosome_name: chr28
+    build: galGal6
+    name: chromosome 28 (Chicken)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9031
+    start: 0
+    end: 5116882
+    exact_mappings:
+    - insdc:CM000119.5
+    - refseq:NC_006115.5
+    broad_synonyms:
+    - '28'
+  CHR:9031-chr3p:
+    id: CHR:9031-chr3p
+    band_descriptor: p
+    chromosome_name: chr3
+    build: galGal6
+    name: 3p (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 0
+    end: 5801976
+    parent: CHR:9031-chr3
+  CHR:9031-chr3:
+    id: CHR:9031-chr3
+    band_descriptor: ''
+    chromosome_name: chr3
+    build: galGal6
+    name: chromosome 3 (Chicken)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9031
+    start: 0
+    end: 110838418
+    children:
+    - CHR:9031-chr3p
+    - CHR:9031-chr3c
+    - CHR:9031-chr3q
+    exact_mappings:
+    - insdc:CM000095.5
+    - refseq:NC_006090.5
+    broad_synonyms:
+    - '3'
+  CHR:9031-chr3cen:
+    id: CHR:9031-chr3cen
+    band_descriptor: cen
+    chromosome_name: chr3
+    build: galGal6
+    name: 3cen (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 6051976
+    end: 6301976
+    parent: CHR:9031-chr3ce
+  CHR:9031-chr3ce:
+    id: CHR:9031-chr3ce
+    band_descriptor: ce
+    chromosome_name: chr3
+    build: galGal6
+    name: 3ce (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 6051976
+    end: 6301976
+    children:
+    - CHR:9031-chr3cen
+    parent: CHR:9031-chr3c
+  CHR:9031-chr3c:
+    id: CHR:9031-chr3c
+    band_descriptor: c
+    chromosome_name: chr3
+    build: galGal6
+    name: 3c (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 6051976
+    end: 6301976
+    children:
+    - CHR:9031-chr3ce
+    parent: CHR:9031-chr3
+  CHR:9031-chr3q:
+    id: CHR:9031-chr3q
+    band_descriptor: q
+    chromosome_name: chr3
+    build: galGal6
+    name: 3q (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 6301976
+    end: 110838418
+    parent: CHR:9031-chr3
+  CHR:9031-chr30:
+    id: CHR:9031-chr30
+    band_descriptor: ''
+    chromosome_name: chr30
+    build: galGal6
+    name: chromosome 30 (Chicken)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9031
+    start: 0
+    end: 1818525
+    exact_mappings:
+    - insdc:CM003637.2
+    - refseq:NC_028739.2
+    broad_synonyms:
+    - '30'
+  CHR:9031-chr31:
+    id: CHR:9031-chr31
+    band_descriptor: ''
+    chromosome_name: chr31
+    build: galGal6
+    name: chromosome 31 (Chicken)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9031
+    start: 0
+    end: 6153034
+    exact_mappings:
+    - insdc:CM003638.2
+    - refseq:NC_028740.2
+    broad_synonyms:
+    - '31'
+  CHR:9031-chr32:
+    id: CHR:9031-chr32
+    band_descriptor: ''
+    chromosome_name: chr32
+    build: galGal6
+    name: chromosome 32 (Chicken)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9031
+    start: 0
+    end: 725831
+    exact_mappings:
+    - insdc:CM000120.4
+    - refseq:NC_006119.4
+    broad_synonyms:
+    - '32'
+  CHR:9031-chr33:
+    id: CHR:9031-chr33
+    band_descriptor: ''
+    chromosome_name: chr33
+    build: galGal6
+    name: chromosome 33 (Chicken)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9031
+    start: 0
+    end: 7821666
+    exact_mappings:
+    - insdc:CM000123.5
+    - refseq:NC_008465.4
+    broad_synonyms:
+    - '33'
+  CHR:9031-chr4p:
+    id: CHR:9031-chr4p
+    band_descriptor: p
+    chromosome_name: chr4
+    build: galGal6
+    name: 4p (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 0
+    end: 18761804
+    parent: CHR:9031-chr4
+  CHR:9031-chr4:
+    id: CHR:9031-chr4
+    band_descriptor: ''
+    chromosome_name: chr4
+    build: galGal6
+    name: chromosome 4 (Chicken)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9031
+    start: 0
+    end: 91315245
+    children:
+    - CHR:9031-chr4p
+    - CHR:9031-chr4c
+    - CHR:9031-chr4q
+    exact_mappings:
+    - insdc:CM000096.5
+    - refseq:NC_006091.5
+    broad_synonyms:
+    - '4'
+  CHR:9031-chr4cen:
+    id: CHR:9031-chr4cen
+    band_descriptor: cen
+    chromosome_name: chr4
+    build: galGal6
+    name: 4cen (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 19011804
+    end: 19261804
+    parent: CHR:9031-chr4ce
+  CHR:9031-chr4ce:
+    id: CHR:9031-chr4ce
+    band_descriptor: ce
+    chromosome_name: chr4
+    build: galGal6
+    name: 4ce (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 19011804
+    end: 19261804
+    children:
+    - CHR:9031-chr4cen
+    parent: CHR:9031-chr4c
+  CHR:9031-chr4c:
+    id: CHR:9031-chr4c
+    band_descriptor: c
+    chromosome_name: chr4
+    build: galGal6
+    name: 4c (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 19011804
+    end: 19261804
+    children:
+    - CHR:9031-chr4ce
+    parent: CHR:9031-chr4
+  CHR:9031-chr4q:
+    id: CHR:9031-chr4q
+    band_descriptor: q
+    chromosome_name: chr4
+    build: galGal6
+    name: 4q (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 19261804
+    end: 91315245
+    parent: CHR:9031-chr4
+  CHR:9031-chr5p:
+    id: CHR:9031-chr5p
+    band_descriptor: p
+    chromosome_name: chr5
+    build: galGal6
+    name: 5p (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 0
+    end: 6009601
+    parent: CHR:9031-chr5
+  CHR:9031-chr5:
+    id: CHR:9031-chr5
+    band_descriptor: ''
+    chromosome_name: chr5
+    build: galGal6
+    name: chromosome 5 (Chicken)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9031
+    start: 0
+    end: 59809098
+    children:
+    - CHR:9031-chr5p
+    - CHR:9031-chr5c
+    - CHR:9031-chr5q
+    exact_mappings:
+    - insdc:CM000097.5
+    - refseq:NC_006092.5
+    broad_synonyms:
+    - '5'
+  CHR:9031-chr5cen:
+    id: CHR:9031-chr5cen
+    band_descriptor: cen
+    chromosome_name: chr5
+    build: galGal6
+    name: 5cen (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 6259601
+    end: 6509601
+    parent: CHR:9031-chr5ce
+  CHR:9031-chr5ce:
+    id: CHR:9031-chr5ce
+    band_descriptor: ce
+    chromosome_name: chr5
+    build: galGal6
+    name: 5ce (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 6259601
+    end: 6509601
+    children:
+    - CHR:9031-chr5cen
+    parent: CHR:9031-chr5c
+  CHR:9031-chr5c:
+    id: CHR:9031-chr5c
+    band_descriptor: c
+    chromosome_name: chr5
+    build: galGal6
+    name: 5c (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 6259601
+    end: 6509601
+    children:
+    - CHR:9031-chr5ce
+    parent: CHR:9031-chr5
+  CHR:9031-chr5q:
+    id: CHR:9031-chr5q
+    band_descriptor: q
+    chromosome_name: chr5
+    build: galGal6
+    name: 5q (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 6509601
+    end: 59809098
+    parent: CHR:9031-chr5
+  CHR:9031-chr6cen:
+    id: CHR:9031-chr6cen
+    band_descriptor: cen
+    chromosome_name: chr6
+    build: galGal6
+    name: 6cen (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 250000
+    end: 500000
+    parent: CHR:9031-chr6ce
+  CHR:9031-chr6ce:
+    id: CHR:9031-chr6ce
+    band_descriptor: ce
+    chromosome_name: chr6
+    build: galGal6
+    name: 6ce (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 250000
+    end: 500000
+    children:
+    - CHR:9031-chr6cen
+    parent: CHR:9031-chr6c
+  CHR:9031-chr6c:
+    id: CHR:9031-chr6c
+    band_descriptor: c
+    chromosome_name: chr6
+    build: galGal6
+    name: 6c (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 250000
+    end: 500000
+    children:
+    - CHR:9031-chr6ce
+    parent: CHR:9031-chr6
+  CHR:9031-chr6:
+    id: CHR:9031-chr6
+    band_descriptor: ''
+    chromosome_name: chr6
+    build: galGal6
+    name: chromosome 6 (Chicken)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9031
+    start: 250000
+    end: 36374701
+    children:
+    - CHR:9031-chr6c
+    - CHR:9031-chr6q
+    exact_mappings:
+    - insdc:CM000098.5
+    - refseq:NC_006093.5
+    broad_synonyms:
+    - '6'
+  CHR:9031-chr6q:
+    id: CHR:9031-chr6q
+    band_descriptor: q
+    chromosome_name: chr6
+    build: galGal6
+    name: 6q (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 500000
+    end: 36374701
+    parent: CHR:9031-chr6
+  CHR:9031-chr7p:
+    id: CHR:9031-chr7p
+    band_descriptor: p
+    chromosome_name: chr7
+    build: galGal6
+    name: 7p (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 0
+    end: 7331533
+    parent: CHR:9031-chr7
+  CHR:9031-chr7:
+    id: CHR:9031-chr7
+    band_descriptor: ''
+    chromosome_name: chr7
+    build: galGal6
+    name: chromosome 7 (Chicken)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9031
+    start: 0
+    end: 36742308
+    children:
+    - CHR:9031-chr7p
+    - CHR:9031-chr7c
+    - CHR:9031-chr7q
+    exact_mappings:
+    - insdc:CM000099.5
+    - refseq:NC_006094.5
+    broad_synonyms:
+    - '7'
+  CHR:9031-chr7cen:
+    id: CHR:9031-chr7cen
+    band_descriptor: cen
+    chromosome_name: chr7
+    build: galGal6
+    name: 7cen (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 7581533
+    end: 7831533
+    parent: CHR:9031-chr7ce
+  CHR:9031-chr7ce:
+    id: CHR:9031-chr7ce
+    band_descriptor: ce
+    chromosome_name: chr7
+    build: galGal6
+    name: 7ce (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 7581533
+    end: 7831533
+    children:
+    - CHR:9031-chr7cen
+    parent: CHR:9031-chr7c
+  CHR:9031-chr7c:
+    id: CHR:9031-chr7c
+    band_descriptor: c
+    chromosome_name: chr7
+    build: galGal6
+    name: 7c (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 7581533
+    end: 7831533
+    children:
+    - CHR:9031-chr7ce
+    parent: CHR:9031-chr7
+  CHR:9031-chr7q:
+    id: CHR:9031-chr7q
+    band_descriptor: q
+    chromosome_name: chr7
+    build: galGal6
+    name: 7q (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 7831533
+    end: 36742308
+    parent: CHR:9031-chr7
+  CHR:9031-chr8p:
+    id: CHR:9031-chr8p
+    band_descriptor: p
+    chromosome_name: chr8
+    build: galGal6
+    name: 8p (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 0
+    end: 9326743
+    parent: CHR:9031-chr8
+  CHR:9031-chr8:
+    id: CHR:9031-chr8
+    band_descriptor: ''
+    chromosome_name: chr8
+    build: galGal6
+    name: chromosome 8 (Chicken)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9031
+    start: 0
+    end: 30219446
+    children:
+    - CHR:9031-chr8p
+    - CHR:9031-chr8c
+    - CHR:9031-chr8q
+    exact_mappings:
+    - insdc:CM000100.5
+    - refseq:NC_006095.5
+    broad_synonyms:
+    - '8'
+  CHR:9031-chr8cen:
+    id: CHR:9031-chr8cen
+    band_descriptor: cen
+    chromosome_name: chr8
+    build: galGal6
+    name: 8cen (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 9576743
+    end: 9826743
+    parent: CHR:9031-chr8ce
+  CHR:9031-chr8ce:
+    id: CHR:9031-chr8ce
+    band_descriptor: ce
+    chromosome_name: chr8
+    build: galGal6
+    name: 8ce (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 9576743
+    end: 9826743
+    children:
+    - CHR:9031-chr8cen
+    parent: CHR:9031-chr8c
+  CHR:9031-chr8c:
+    id: CHR:9031-chr8c
+    band_descriptor: c
+    chromosome_name: chr8
+    build: galGal6
+    name: 8c (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 9576743
+    end: 9826743
+    children:
+    - CHR:9031-chr8ce
+    parent: CHR:9031-chr8
+  CHR:9031-chr8q:
+    id: CHR:9031-chr8q
+    band_descriptor: q
+    chromosome_name: chr8
+    build: galGal6
+    name: 8q (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 9826743
+    end: 30219446
+    parent: CHR:9031-chr8
+  CHR:9031-chr9cen:
+    id: CHR:9031-chr9cen
+    band_descriptor: cen
+    chromosome_name: chr9
+    build: galGal6
+    name: 9cen (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 250000
+    end: 500000
+    parent: CHR:9031-chr9ce
+  CHR:9031-chr9ce:
+    id: CHR:9031-chr9ce
+    band_descriptor: ce
+    chromosome_name: chr9
+    build: galGal6
+    name: 9ce (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 250000
+    end: 500000
+    children:
+    - CHR:9031-chr9cen
+    parent: CHR:9031-chr9c
+  CHR:9031-chr9c:
+    id: CHR:9031-chr9c
+    band_descriptor: c
+    chromosome_name: chr9
+    build: galGal6
+    name: 9c (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 250000
+    end: 500000
+    children:
+    - CHR:9031-chr9ce
+    parent: CHR:9031-chr9
+  CHR:9031-chr9:
+    id: CHR:9031-chr9
+    band_descriptor: ''
+    chromosome_name: chr9
+    build: galGal6
+    name: chromosome 9 (Chicken)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9031
+    start: 250000
+    end: 24153086
+    children:
+    - CHR:9031-chr9c
+    - CHR:9031-chr9q
+    exact_mappings:
+    - insdc:CM000101.5
+    - refseq:NC_006096.5
+    broad_synonyms:
+    - '9'
+  CHR:9031-chr9q:
+    id: CHR:9031-chr9q
+    band_descriptor: q
+    chromosome_name: chr9
+    build: galGal6
+    name: 9q (Chicken)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9031
+    start: 500000
+    end: 24153086
+    parent: CHR:9031-chr9
+  CHR:9031-chrM:
+    id: CHR:9031-chrM
+    band_descriptor: ''
+    chromosome_name: chrM
+    build: galGal6
+    name: chromosome M (Chicken)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    cell_location:
+      text: mitochondrion
+      meaning: http://purl.obolibrary.org/obo/GO_0005739
+    taxon: NCBITaxon:9031
+    start: 0
+    end: 16775
+    exact_mappings:
+    - refseq:NC_001323.1
+    - insdc:X52392.1
+    broad_synonyms:
+    - MT
+  CHR:9031-chrW:
+    id: CHR:9031-chrW
+    band_descriptor: ''
+    chromosome_name: chrW
+    build: galGal6
+    name: chromosome W (Chicken)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: sex_chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0000803
+    sex_chromosome_type:
+      text: W
+      meaning: http://purl.obolibrary.org/obo/GO_0000804
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9031
+    start: 0
+    end: 6813114
+    exact_mappings:
+    - insdc:CM000121.5
+    - refseq:NC_006126.5
+    broad_synonyms:
+    - W
+  CHR:9031-chrZ:
+    id: CHR:9031-chrZ
+    band_descriptor: ''
+    chromosome_name: chrZ
+    build: galGal6
+    name: chromosome Z (Chicken)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: sex_chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0000803
+    sex_chromosome_type:
+      text: Z
+      meaning: http://purl.obolibrary.org/obo/GO_0000807
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9031
+    start: 0
+    end: 82529921
+    exact_mappings:
+    - insdc:CM000122.5
+    - refseq:NC_006127.5
+    broad_synonyms:
+    - Z
+genomes:
+  mm:
+    id: mm
+    name: Mouse
+    taxon: NCBITaxon:10090
+  hg:
+    id: hg
+    name: Human
+    taxon: NCBITaxon:9606
+  dm:
+    id: dm
+    name: Drosophila melanogaster
+    taxon: NCBITaxon:7227
+  danRer:
+    id: danRer
+    name: Danio rerio
+    taxon: NCBITaxon:7955
+  rn:
+    id: rn
+    name: Rat
+    taxon: NCBITaxon:10116
+  ce:
+    id: ce
+    name: C elegans
+    taxon: NCBITaxon:6239
+  galGal:
+    id: galGal
+    name: Chicken
+    taxon: NCBITaxon:9031
+    build: galGal6
+taxons:
+  NCBITaxon:10090:
+    id: NCBITaxon:10090
+    name: Mus musculus
+  NCBITaxon:9606:
+    id: NCBITaxon:9606
+    name: Homo sapiens
+  NCBITaxon:7227:
+    id: NCBITaxon:7227
+    name: Drosophila melanogaster
+  NCBITaxon:7955:
+    id: NCBITaxon:7955
+    name: Danio rerio
+  NCBITaxon:10116:
+    id: NCBITaxon:10116
+    name: Rattus norvegicus
+  NCBITaxon:6239:
+    id: NCBITaxon:6239
+    name: Caenorhabditis elegans

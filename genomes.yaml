@@ -18,6 +18,9 @@ genomes:
   ce:
     taxon: NCBITaxon:6239
     name: C elegans
+  galGal:
+    taxon: NCBITaxon:9031
+    name: Chicken
 taxons:
   NCBITaxon:10090:
     name: Mus musculus

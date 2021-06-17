@@ -1,5 +1,5 @@
 # TODO: parse from yaml
-BUILDS = hg38 ce11 mm10 rn6
+BUILDS = hg38 ce11 mm10 rn6 galGal4
 # TODO: dm6
 
 all: all-chromAlias all-cytoBand src/ontology/components/ucsc.owl  all-components
@@ -25,6 +25,8 @@ download/ce11-cytoBand.tsv:
 	curl -L -s http://hgdownload.cse.ucsc.edu/goldenPath/ce11/database/cytoBandIdeo.txt.gz | gzip -dc > $@
 download/danRer10-cytoBand.tsv:
 	curl -L -s http://hgdownload.cse.ucsc.edu/goldenPath/danRer10/database/cytoBandIdeo.txt.gz | gzip -dc > $@
+download/galGal6-cytoBand.tsv:
+	curl -L -s http://hgdownload.cse.ucsc.edu/goldenPath/galGal6/database/cytoBandIdeo.txt.gz | gzip -dc > $@
 components/%.owl: download/%-cytoBand.tsv download/%-chromAlias.tsv
 	python -m monochrom.monochrom $^ -o $@
 components/%.yaml: download/%-cytoBand.tsv download/%-chromAlias.tsv
