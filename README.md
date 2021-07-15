@@ -15,7 +15,7 @@ Until this is released, you can browse either:
 
 ## About
 
-This "ontology" is a direct conversion of metadata about chromosomes and chromosome bands obtained from UCSC
+This "ontology" is a direct conversion of metadata about chromosomes and chromosome bands obtained from [UCSC chromosome and cytoband data](https://genome.ucsc.edu/cgi-bin/hgTables?db=hg38&hgta_group=map&hgta_track=cytoBand&hgta_table=cytoBand&hgta_doSchema=describe+table+schema)
 
 Each chromosome and chromosomal region is represented as an OWL class, with the following properties:
 
