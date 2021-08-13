@@ -14,7 +14,7 @@
 
   <link rel="stylesheet" href="../css/theme.css" />
   <link rel="stylesheet" href="../css/theme_extra.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
   
   <script>
     // Current page data
@@ -25,9 +25,8 @@
   
   <script src="../js/jquery-2.1.1.min.js" defer></script>
   <script src="../js/modernizr-2.8.3.min.js" defer></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
   <script>hljs.initHighlightingOnLoad();</script> 
-  
 </head>
 
 <body class="wy-body-for-nav" role="document">
@@ -41,7 +40,7 @@
         <a href=".." class="icon icon-home"> Chromosome Ontology</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
   </form>
 </div>
       </div>
@@ -80,30 +79,31 @@
   
   <hr/>
 </div>
+
           <div role="main">
             <div class="section">
               
                 <h1 id="class-genomebuild">Class: GenomeBuild</h1>
 <p>Represents a specific build of a sequenced genome</p>
 <p>URI: <a href="https://w3id.org/biodatamodels/chromoschema/GenomeBuild">chromoschema:GenomeBuild</a></p>
-<p><img alt="img" src="http://yuml.me/diagram/nofunky;dir:TB/class/[Genome]-%20build%200..1&gt;[GenomeBuild&#124;id:string;name:LabelType%20%3F],[ChromosomePart]-%20build%200..1&gt;[GenomeBuild],[Genome]-%20build(i)%200..1&gt;[GenomeBuild],[Genome]-%20previous_builds%200..*&gt;[GenomeBuild],[Genome],[ChromosomePart]" /></p>
+<p><a href="https://yuml.me/diagram/nofunky;dir:TB/class/[Genome]-%20build%200..1&gt;[GenomeBuild&#124;id:string;name:LabelType%20%3F],[ChromosomePart]-%20build%200..1&gt;[GenomeBuild],[Genome]-%20build(i)%200..1&gt;[GenomeBuild],[Genome]-%20previous_builds%200..*&gt;[GenomeBuild],[Genome],[ChromosomePart]"><img alt="img" src="https://yuml.me/diagram/nofunky;dir:TB/class/[Genome]-%20build%200..1&gt;[GenomeBuild&#124;id:string;name:LabelType%20%3F],[ChromosomePart]-%20build%200..1&gt;[GenomeBuild],[Genome]-%20build(i)%200..1&gt;[GenomeBuild],[Genome]-%20previous_builds%200..*&gt;[GenomeBuild],[Genome],[ChromosomePart]" /></a></p>
 <h2 id="referenced-by-class">Referenced by class</h2>
 <ul>
-<li><strong><a href="../Genome/">Genome</a></strong> <em><a href="../Genome_build/">Genome➞build</a></em>  <sub>OPT</sub>  <strong><a href="./">GenomeBuild</a></strong></li>
-<li><strong>None</strong> <em><a href="../build/">build</a></em>  <sub>OPT</sub>  <strong><a href="./">GenomeBuild</a></strong></li>
-<li><strong>None</strong> <em><a href="../previous_builds/">previous_builds</a></em>  <sub>0..<em></sub>  </em><em><a href="./">GenomeBuild</a></em>*</li>
+<li><strong><a href="../Genome/">Genome</a></strong> <em><a href="../Genome_build/">Genome➞build</a></em>  <sub>0..1</sub>  <strong><a href="./">GenomeBuild</a></strong></li>
+<li><strong>None</strong> <em><a href="../build/">build</a></em>  <sub>0..1</sub>  <strong><a href="./">GenomeBuild</a></strong></li>
+<li><strong>None</strong> <em><a href="../previous_builds/">previous_builds</a></em>  <sub>0..*</sub>  <strong><a href="./">GenomeBuild</a></strong></li>
 </ul>
 <h2 id="attributes">Attributes</h2>
 <h3 id="own">Own</h3>
 <ul>
-<li><a href="../GenomeBuild_id/">GenomeBuild➞id</a>  <sub>REQ</sub><ul>
+<li><a href="../GenomeBuild_id/">GenomeBuild➞id</a>  <sub>1..1</sub><ul>
 <li>Description: E.g. mm10</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>Range: <a href="../types/String/">String</a></li>
 </ul>
 </li>
-<li><a href="../name/">name</a>  <sub>OPT</sub><ul>
+<li><a href="../name/">name</a>  <sub>0..1</sub><ul>
 <li>Description: Unique human-readable label for the entity</li>
-<li>range: <a href="../types/LabelType/">LabelType</a></li>
+<li>Range: <a href="../types/LabelType/">LabelType</a></li>
 </ul>
 </li>
 </ul>
@@ -148,13 +148,14 @@
   </div>
 
   <div class="rst-versions" role="note" aria-label="versions">
-    <span class="rst-current-version" data-toggle="rst-current-version">
-      
-      
-      
-    </span>
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
 </div>
     <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
     <script src="../js/theme.js" defer></script>
       <script src="../search/main.js" defer></script>
     <script defer>

@@ -14,7 +14,7 @@
 
   <link rel="stylesheet" href="../css/theme.css" />
   <link rel="stylesheet" href="../css/theme_extra.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
   
   <script>
     // Current page data
@@ -25,9 +25,8 @@
   
   <script src="../js/jquery-2.1.1.min.js" defer></script>
   <script src="../js/modernizr-2.8.3.min.js" defer></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
   <script>hljs.initHighlightingOnLoad();</script> 
-  
 </head>
 
 <body class="wy-body-for-nav" role="document">
@@ -41,7 +40,7 @@
         <a href=".." class="icon icon-home"> Chromosome Ontology</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
   </form>
 </div>
       </div>
@@ -80,101 +79,102 @@
   
   <hr/>
 </div>
+
           <div role="main">
             <div class="section">
               
                 <h1 id="class-chromosomepart">Class: ChromosomePart</h1>
 <p>A Chromosome or a part of a chromosome (includes whole chromosomes, arms, and bands)</p>
 <p>URI: <a href="https://w3id.org/biodatamodels/chromoschema/ChromosomePart">chromoschema:ChromosomePart</a></p>
-<p><img alt="img" src="http://yuml.me/diagram/nofunky;dir:TB/class/[GenomeBuild],[ChromosomePart]&lt;parent%200..1-%20[ChromosomePart&#124;id:string;band_descriptor:BandDescriptor%20%3F;chromosome_name:ChromosomeNameType%20%3F;name:LabelType%20%3F;type:EntityType%20%3F;somal_type:AutosomeVsSexChromosome%20%3F;sex_chromosome_type:SexChromosomeType%20%3F;cell_location:LocationType%20%3F;taxon:TaxonIdentifier%20%3F;start:integer%20%3F;end:integer%20%3F;exact_mappings:uriorcurie%20*;exact_synonyms:string%20*;broad_synonyms:string%20*],[ChromosomePart]&lt;children%200..*-%20[ChromosomePart],[GenomeBuild]&lt;build%200..1-%20[ChromosomePart],[ChromosomePartCollection]++-%20has%200..*&gt;[ChromosomePart],[ChromosomePartCollection]" /></p>
+<p><a href="https://yuml.me/diagram/nofunky;dir:TB/class/[GenomeBuild],[ChromosomePart]&lt;parent%200..1-%20[ChromosomePart&#124;id:string;band_descriptor:BandDescriptor%20%3F;chromosome_name:ChromosomeNameType%20%3F;name:LabelType%20%3F;type:EntityType%20%3F;somal_type:AutosomeVsSexChromosome%20%3F;sex_chromosome_type:SexChromosomeType%20%3F;cell_location:LocationType%20%3F;taxon:TaxonIdentifier%20%3F;start:integer%20%3F;end:integer%20%3F;exact_mappings:uriorcurie%20*;exact_synonyms:string%20*;broad_synonyms:string%20*],[ChromosomePart]&lt;children%200..*-%20[ChromosomePart],[GenomeBuild]&lt;build%200..1-%20[ChromosomePart],[ChromosomePartCollection]++-%20has%200..*&gt;[ChromosomePart],[ChromosomePartCollection]"><img alt="img" src="https://yuml.me/diagram/nofunky;dir:TB/class/[GenomeBuild],[ChromosomePart]&lt;parent%200..1-%20[ChromosomePart&#124;id:string;band_descriptor:BandDescriptor%20%3F;chromosome_name:ChromosomeNameType%20%3F;name:LabelType%20%3F;type:EntityType%20%3F;somal_type:AutosomeVsSexChromosome%20%3F;sex_chromosome_type:SexChromosomeType%20%3F;cell_location:LocationType%20%3F;taxon:TaxonIdentifier%20%3F;start:integer%20%3F;end:integer%20%3F;exact_mappings:uriorcurie%20*;exact_synonyms:string%20*;broad_synonyms:string%20*],[ChromosomePart]&lt;children%200..*-%20[ChromosomePart],[GenomeBuild]&lt;build%200..1-%20[ChromosomePart],[ChromosomePartCollection]++-%20has%200..*&gt;[ChromosomePart],[ChromosomePartCollection]" /></a></p>
 <h2 id="referenced-by-class">Referenced by class</h2>
 <ul>
-<li><strong>None</strong> <em><a href="../children/">children</a></em>  <sub>0..<em></sub>  </em><em><a href="./">ChromosomePart</a></em>*</li>
-<li><strong>None</strong> <em><a href="../chromosomePartCollection__has/">➞has</a></em>  <sub>0..<em></sub>  </em><em><a href="./">ChromosomePart</a></em>*</li>
-<li><strong>None</strong> <em><a href="../parent/">parent</a></em>  <sub>OPT</sub>  <strong><a href="./">ChromosomePart</a></strong></li>
+<li><strong>None</strong> <em><a href="../children/">children</a></em>  <sub>0..*</sub>  <strong><a href="./">ChromosomePart</a></strong></li>
+<li><strong>None</strong> <em><a href="../chromosomePartCollection__has/">➞has</a></em>  <sub>0..*</sub>  <strong><a href="./">ChromosomePart</a></strong></li>
+<li><strong>None</strong> <em><a href="../parent/">parent</a></em>  <sub>0..1</sub>  <strong><a href="./">ChromosomePart</a></strong></li>
 </ul>
 <h2 id="attributes">Attributes</h2>
 <h3 id="own">Own</h3>
 <ul>
-<li><a href="../ChromosomePart_id/">ChromosomePart➞id</a>  <sub>REQ</sub><ul>
-<li>range: <a href="../types/String/">String</a></li>
+<li><a href="../ChromosomePart_id/">ChromosomePart➞id</a>  <sub>1..1</sub><ul>
+<li>Range: <a href="../types/String/">String</a></li>
 </ul>
 </li>
-<li><a href="../band_descriptor/">band_descriptor</a>  <sub>OPT</sub><ul>
+<li><a href="../band_descriptor/">band_descriptor</a>  <sub>0..1</sub><ul>
 <li>Description: A string representing a chromosome band, e.g. p31.1. This is local to the chromosome, so the chromosome is not included in the descriptor</li>
-<li>range: <a href="../types/BandDescriptor/">BandDescriptor</a></li>
+<li>Range: <a href="../types/BandDescriptor/">BandDescriptor</a></li>
 </ul>
 </li>
-<li><a href="../broad_synonyms/">broad_synonyms</a>  <sub>0..*</sub><ul>
-<li>range: <a href="../types/String/">String</a></li>
+<li><a href="../chromosome_name/">chromosome_name</a>  <sub>0..1</sub><ul>
+<li>Description: E.g. chr1, chrM. Some species like C elegans may use roman numerals</li>
+<li>Range: <a href="../types/ChromosomeNameType/">ChromosomeNameType</a></li>
 </ul>
 </li>
-<li><a href="../build/">build</a>  <sub>OPT</sub><ul>
+<li><a href="../build/">build</a>  <sub>0..1</sub><ul>
 <li>Description: A descriptor for the genome and build number. E.g hg38</li>
-<li>range: <a href="../GenomeBuild/">GenomeBuild</a></li>
+<li>Range: <a href="../GenomeBuild/">GenomeBuild</a></li>
 </ul>
 </li>
-<li><a href="../cell_location/">cell_location</a>  <sub>OPT</sub><ul>
+<li><a href="../name/">name</a>  <sub>0..1</sub><ul>
+<li>Description: Unique human-readable label for the entity</li>
+<li>Range: <a href="../types/LabelType/">LabelType</a></li>
+</ul>
+</li>
+<li><a href="../type/">type</a>  <sub>0..1</sub><ul>
+<li>Range: <a href="../EntityType/">EntityType</a></li>
+</ul>
+</li>
+<li><a href="../somal_type/">somal_type</a>  <sub>0..1</sub><ul>
+<li>Description: indicates whether this is a sex-chromosome or not</li>
+<li>Range: <a href="../AutosomeVsSexChromosome/">AutosomeVsSexChromosome</a></li>
+</ul>
+</li>
+<li><a href="../sex_chromosome_type/">sex_chromosome_type</a>  <sub>0..1</sub><ul>
+<li>Description: Only populated for sex chromosomes. Indicates the chromosome type. This is X or Y in mammals, W or Z in avians</li>
+<li>Range: <a href="../SexChromosomeType/">SexChromosomeType</a></li>
+</ul>
+</li>
+<li><a href="../cell_location/">cell_location</a>  <sub>0..1</sub><ul>
 <li>Description: which organelle the chromosome is associated with. For eukaryotes this is mitochondrion or nucleus. For prokaryotes the distinction does not make sense</li>
-<li>range: </li>
+<li>Range: <a href="../LocationType/">LocationType</a></li>
+</ul>
+</li>
+<li><a href="../taxon/">taxon</a>  <sub>0..1</sub><ul>
+<li>Description: The taxon to which the chromosome part belongs. Always NCBITaxon.</li>
+<li>Range: <a href="../types/TaxonIdentifier/">TaxonIdentifier</a></li>
+</ul>
+</li>
+<li><a href="../start/">start</a>  <sub>0..1</sub><ul>
+<li>Description: Start location of the chromosomal part. Note we also include this for whole chromosomes - start will be zero</li>
+<li>Range: <a href="../types/Integer/">Integer</a></li>
+</ul>
+</li>
+<li><a href="../end/">end</a>  <sub>0..1</sub><ul>
+<li>Description: Start location of the chromosomal part. Note we also include this for whole chromosomes - end will be rightmost point</li>
+<li>Range: <a href="../types/Integer/">Integer</a></li>
 </ul>
 </li>
 <li><a href="../children/">children</a>  <sub>0..*</sub><ul>
 <li>Description: Direct parts of this chromosome. zero to many.</li>
-<li>range: <a href="./">ChromosomePart</a></li>
+<li>Range: <a href="./">ChromosomePart</a></li>
 </ul>
 </li>
-<li><a href="../chromosome_name/">chromosome_name</a>  <sub>OPT</sub><ul>
-<li>Description: E.g. chr1, chrM. Some species like C elegans may use roman numerals</li>
-<li>range: <a href="../types/ChromosomeNameType/">ChromosomeNameType</a></li>
-</ul>
-</li>
-<li><a href="../end/">end</a>  <sub>OPT</sub><ul>
-<li>Description: Start location of the chromosomal part. Note we also include this for whole chromosomes - end will be rightmost point</li>
-<li>range: <a href="../types/Integer/">Integer</a></li>
+<li><a href="../parent/">parent</a>  <sub>0..1</sub><ul>
+<li>Description: Direct chromosomal part which this is a part of. The partonomy forms a tree so this is always zero or one. Different species have different rules but typically the partonomy will be something like 1p31.1 -&gt; 1p31 -&gt; 1p3 -&gt; 1p -&gt; 1</li>
+<li>Range: <a href="./">ChromosomePart</a></li>
 </ul>
 </li>
 <li><a href="../exact_mappings/">exact_mappings</a>  <sub>0..*</sub><ul>
 <li>Description: For a whole chromosome, this may be an assembled sequence in a database such as genbank or ensembl</li>
-<li>range: <a href="../types/Uriorcurie/">Uriorcurie</a></li>
+<li>Range: <a href="../types/Uriorcurie/">Uriorcurie</a></li>
 </ul>
 </li>
 <li><a href="../exact_synonyms/">exact_synonyms</a>  <sub>0..*</sub><ul>
-<li>range: <a href="../types/String/">String</a></li>
+<li>Range: <a href="../types/String/">String</a></li>
 </ul>
 </li>
-<li><a href="../name/">name</a>  <sub>OPT</sub><ul>
-<li>Description: Unique human-readable label for the entity</li>
-<li>range: <a href="../types/LabelType/">LabelType</a></li>
-</ul>
-</li>
-<li><a href="../parent/">parent</a>  <sub>OPT</sub><ul>
-<li>Description: Direct chromosomal part which this is a part of. The partonomy forms a tree so this is always zero or one. Different species have different rules but typically the partonomy will be something like 1p31.1 -&gt; 1p31 -&gt; 1p3 -&gt; 1p -&gt; 1</li>
-<li>range: <a href="./">ChromosomePart</a></li>
-</ul>
-</li>
-<li><a href="../sex_chromosome_type/">sex_chromosome_type</a>  <sub>OPT</sub><ul>
-<li>Description: Only populated for sex chromosomes. Indicates the chromosome type. This is X or Y in mammals, W or Z in avians</li>
-<li>range: </li>
-</ul>
-</li>
-<li><a href="../somal_type/">somal_type</a>  <sub>OPT</sub><ul>
-<li>Description: indicates whether this is a sex-chromosome or not</li>
-<li>range: </li>
-</ul>
-</li>
-<li><a href="../start/">start</a>  <sub>OPT</sub><ul>
-<li>Description: Start location of the chromosomal part. Note we also include this for whole chromosomes - start will be zero</li>
-<li>range: <a href="../types/Integer/">Integer</a></li>
-</ul>
-</li>
-<li><a href="../taxon/">taxon</a>  <sub>OPT</sub><ul>
-<li>Description: The taxon to which the chromosome part belongs. Always NCBITaxon.</li>
-<li>range: <a href="../types/TaxonIdentifier/">TaxonIdentifier</a></li>
-</ul>
-</li>
-<li><a href="../type/">type</a>  <sub>OPT</sub><ul>
-<li>range: </li>
+<li><a href="../broad_synonyms/">broad_synonyms</a>  <sub>0..*</sub><ul>
+<li>Range: <a href="../types/String/">String</a></li>
 </ul>
 </li>
 </ul>
@@ -224,13 +224,14 @@
   </div>
 
   <div class="rst-versions" role="note" aria-label="versions">
-    <span class="rst-current-version" data-toggle="rst-current-version">
-      
-      
-      
-    </span>
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
 </div>
     <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
     <script src="../js/theme.js" defer></script>
       <script src="../search/main.js" defer></script>
     <script defer>

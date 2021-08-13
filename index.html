@@ -14,7 +14,7 @@
 
   <link rel="stylesheet" href="css/theme.css" />
   <link rel="stylesheet" href="css/theme_extra.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
   
   <script>
     // Current page data
@@ -25,9 +25,8 @@
   
   <script src="js/jquery-2.1.1.min.js" defer></script>
   <script src="js/modernizr-2.8.3.min.js" defer></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
   <script>hljs.initHighlightingOnLoad();</script> 
-  
 </head>
 
 <body class="wy-body-for-nav" role="document">
@@ -41,7 +40,7 @@
         <a href="." class="icon icon-home"> Chromosome Ontology</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
   </form>
 </div>
       </div>
@@ -55,6 +54,10 @@
     <li class="toctree-l2"><a class="reference internal" href="#mixins">Mixins</a>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#slots">Slots</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#enums">Enums</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#subsets">Subsets</a>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#types">Types</a>
         <ul>
@@ -96,10 +99,11 @@
   
   <hr/>
 </div>
+
           <div role="main">
             <div class="section">
               
-                <h1 id="chromoschema-schema">Chromoschema schema</h1>
+                <h1 id="chromoschema-schema">ChromoSchema schema</h1>
 <p>Schema for representing Chromosomes and Chromosomal Regions.</p>
 <p>Objects created using this schema can be directly worked with in YAML/Python,
 Additionally they can be translated to OWL</p>
@@ -151,6 +155,15 @@ Additionally they can be translated to OWL</p>
 <li><a href="taxon/">taxon</a> - The taxon to which the chromosome part belongs. Always NCBITaxon.</li>
 <li><a href="type/">type</a></li>
 </ul>
+<h3 id="enums">Enums</h3>
+<ul>
+<li><a href="AutosomeVsSexChromosome/">AutosomeVsSexChromosome</a> - sex or autosome</li>
+<li><a href="ChromatinType/">ChromatinType</a></li>
+<li><a href="EntityType/">EntityType</a> - SO or GO type</li>
+<li><a href="LocationType/">LocationType</a> - where in the cell</li>
+<li><a href="SexChromosomeType/">SexChromosomeType</a> - what type of sex chromosome</li>
+</ul>
+<h3 id="subsets">Subsets</h3>
 <h3 id="types">Types</h3>
 <h4 id="built-in">Built in</h4>
 <ul>
@@ -214,13 +227,14 @@ Additionally they can be translated to OWL</p>
   </div>
 
   <div class="rst-versions" role="note" aria-label="versions">
-    <span class="rst-current-version" data-toggle="rst-current-version">
-      
-      
-      
-    </span>
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
 </div>
     <script>var base_url = '.';</script>
+    <script src="js/theme_extra.js" defer></script>
     <script src="js/theme.js" defer></script>
       <script src="search/main.js" defer></script>
     <script defer>
@@ -233,6 +247,6 @@ Additionally they can be translated to OWL</p>
 </html>
 
 <!--
-MkDocs version : 1.1.2
-Build Date UTC : 2021-06-17 02:05:30.222981+00:00
+MkDocs version : 1.2.2
+Build Date UTC : 2021-08-13 00:14:43.016271+00:00
 -->
