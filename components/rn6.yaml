@@ -5612,6 +5612,10 @@ genomes:
     id: ce
     name: C elegans
     taxon: NCBITaxon:6239
+  galGal:
+    id: galGal
+    name: Chicken
+    taxon: NCBITaxon:9031
 taxons:
   NCBITaxon:10090:
     id: NCBITaxon:10090

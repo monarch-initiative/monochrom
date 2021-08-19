@@ -11,9 +11,9 @@
      xmlns:vocab="https://w3id.org/biolink/vocab/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/chr/src/ontology/components/ucsc.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/chr/releases/2021-06-16/src/ontology/components/ucsc.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/chr/releases/2021-08-19/src/ontology/components/ucsc.owl"/>
         <rdfs:label>Chromosome Ontology</rdfs:label>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-06-16</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-08-19</owl:versionInfo>
     </owl:Ontology>
     
 

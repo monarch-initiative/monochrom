@@ -1,5 +1,5 @@
 # Auto generated from chromo.yaml by pythongen.py version: 0.9.0
-# Generation date: 2021-06-16 19:01
+# Generation date: 2021-08-19 12:28
 # Schema: ChromoSchema
 #
 # id: https://w3id.org/biodatamodels/chromoschema
@@ -10,20 +10,21 @@
 import dataclasses
 import sys
 import re
+from jsonasobj2 import JsonObj, as_dict
 from typing import Optional, List, Union, Dict, ClassVar, Any
 from dataclasses import dataclass
-from linkml_model.meta import EnumDefinition, PermissibleValue, PvFormulaOptions
+from linkml_runtime.linkml_model.meta import EnumDefinition, PermissibleValue, PvFormulaOptions
 
-from linkml.utils.slot import Slot
-from linkml.utils.metamodelcore import empty_list, empty_dict, bnode
-from linkml.utils.yamlutils import YAMLRoot, extended_str, extended_float, extended_int
-from linkml.utils.dataclass_extensions_376 import dataclasses_init_fn_with_kwargs
-from linkml.utils.formatutils import camelcase, underscore, sfx
-from linkml.utils.enumerations import EnumDefinitionImpl
+from linkml_runtime.utils.slot import Slot
+from linkml_runtime.utils.metamodelcore import empty_list, empty_dict, bnode
+from linkml_runtime.utils.yamlutils import YAMLRoot, extended_str, extended_float, extended_int
+from linkml_runtime.utils.dataclass_extensions_376 import dataclasses_init_fn_with_kwargs
+from linkml_runtime.utils.formatutils import camelcase, underscore, sfx
+from linkml_runtime.utils.enumerations import EnumDefinitionImpl
 from rdflib import Namespace, URIRef
-from linkml.utils.curienamespace import CurieNamespace
-from linkml.utils.metamodelcore import URI, URIorCURIE
-from linkml_model.types import Integer, String, Uri, Uriorcurie
+from linkml_runtime.utils.curienamespace import CurieNamespace
+from linkml_runtime.linkml_model.types import Integer, String, Uri, Uriorcurie
+from linkml_runtime.utils.metamodelcore import URI, URIorCURIE
 
 metamodel_version = "1.7.0"
 
@@ -130,23 +131,11 @@ class ChromosomePartCollection(YAMLRoot):
         if self.name is not None and not isinstance(self.name, str):
             self.name = str(self.name)
 
-        if self.has is None:
-            self.has = []
-        if not isinstance(self.has, (list, dict)):
-            self.has = [self.has]
-        self._normalize_inlined_slot(slot_name="has", slot_type=ChromosomePart, key_name="id", inlined_as_list=None, keyed=True)
+        self._normalize_inlined_as_dict(slot_name="has", slot_type=ChromosomePart, key_name="id", keyed=True)
 
-        if self.genomes is None:
-            self.genomes = []
-        if not isinstance(self.genomes, (list, dict)):
-            self.genomes = [self.genomes]
-        self._normalize_inlined_slot(slot_name="genomes", slot_type=Genome, key_name="id", inlined_as_list=None, keyed=True)
+        self._normalize_inlined_as_dict(slot_name="genomes", slot_type=Genome, key_name="id", keyed=True)
 
-        if self.taxons is None:
-            self.taxons = []
-        if not isinstance(self.taxons, (list, dict)):
-            self.taxons = [self.taxons]
-        self._normalize_inlined_slot(slot_name="taxons", slot_type=OrganismTaxon, key_name="id", inlined_as_list=None, keyed=True)
+        self._normalize_inlined_as_dict(slot_name="taxons", slot_type=OrganismTaxon, key_name="id", keyed=True)
 
         super().__post_init__(**kwargs)
 
@@ -182,8 +171,8 @@ class ChromosomePart(YAMLRoot):
     broad_synonyms: Optional[Union[str, List[str]]] = empty_list()
 
     def __post_init__(self, *_: List[str], **kwargs: Dict[str, Any]):
-        if self.id is None:
-            raise ValueError("id must be supplied")
+        if self._is_empty(self.id):
+            self.MissingRequiredField("id")
         if not isinstance(self.id, ChromosomePartId):
             self.id = ChromosomePartId(self.id)
 
@@ -220,31 +209,23 @@ class ChromosomePart(YAMLRoot):
         if self.end is not None and not isinstance(self.end, int):
             self.end = int(self.end)
 
-        if self.children is None:
-            self.children = []
         if not isinstance(self.children, list):
-            self.children = [self.children]
+            self.children = [self.children] if self.children is not None else []
         self.children = [v if isinstance(v, ChromosomePartId) else ChromosomePartId(v) for v in self.children]
 
         if self.parent is not None and not isinstance(self.parent, ChromosomePartId):
             self.parent = ChromosomePartId(self.parent)
 
-        if self.exact_mappings is None:
-            self.exact_mappings = []
         if not isinstance(self.exact_mappings, list):
-            self.exact_mappings = [self.exact_mappings]
+            self.exact_mappings = [self.exact_mappings] if self.exact_mappings is not None else []
         self.exact_mappings = [v if isinstance(v, URIorCURIE) else URIorCURIE(v) for v in self.exact_mappings]
 
-        if self.exact_synonyms is None:
-            self.exact_synonyms = []
         if not isinstance(self.exact_synonyms, list):
-            self.exact_synonyms = [self.exact_synonyms]
+            self.exact_synonyms = [self.exact_synonyms] if self.exact_synonyms is not None else []
         self.exact_synonyms = [v if isinstance(v, str) else str(v) for v in self.exact_synonyms]
 
-        if self.broad_synonyms is None:
-            self.broad_synonyms = []
         if not isinstance(self.broad_synonyms, list):
-            self.broad_synonyms = [self.broad_synonyms]
+            self.broad_synonyms = [self.broad_synonyms] if self.broad_synonyms is not None else []
         self.broad_synonyms = [v if isinstance(v, str) else str(v) for v in self.broad_synonyms]
 
         super().__post_init__(**kwargs)
@@ -270,13 +251,13 @@ class Genome(YAMLRoot):
     previous_builds: Optional[Union[Union[str, GenomeBuildId], List[Union[str, GenomeBuildId]]]] = empty_list()
 
     def __post_init__(self, *_: List[str], **kwargs: Dict[str, Any]):
-        if self.id is None:
-            raise ValueError("id must be supplied")
+        if self._is_empty(self.id):
+            self.MissingRequiredField("id")
         if not isinstance(self.id, GenomeId):
             self.id = GenomeId(self.id)
 
-        if self.name is None:
-            raise ValueError("name must be supplied")
+        if self._is_empty(self.name):
+            self.MissingRequiredField("name")
         if not isinstance(self.name, LabelType):
             self.name = LabelType(self.name)
 
@@ -286,10 +267,8 @@ class Genome(YAMLRoot):
         if self.build is not None and not isinstance(self.build, GenomeBuildId):
             self.build = GenomeBuildId(self.build)
 
-        if self.previous_builds is None:
-            self.previous_builds = []
         if not isinstance(self.previous_builds, list):
-            self.previous_builds = [self.previous_builds]
+            self.previous_builds = [self.previous_builds] if self.previous_builds is not None else []
         self.previous_builds = [v if isinstance(v, GenomeBuildId) else GenomeBuildId(v) for v in self.previous_builds]
 
         super().__post_init__(**kwargs)
@@ -311,8 +290,8 @@ class GenomeBuild(YAMLRoot):
     name: Optional[Union[str, LabelType]] = None
 
     def __post_init__(self, *_: List[str], **kwargs: Dict[str, Any]):
-        if self.id is None:
-            raise ValueError("id must be supplied")
+        if self._is_empty(self.id):
+            self.MissingRequiredField("id")
         if not isinstance(self.id, GenomeBuildId):
             self.id = GenomeBuildId(self.id)
 
@@ -339,8 +318,8 @@ class OrganismTaxon(YAMLRoot):
     common_name: Optional[Union[str, LabelType]] = None
 
     def __post_init__(self, *_: List[str], **kwargs: Dict[str, Any]):
-        if self.id is None:
-            raise ValueError("id must be supplied")
+        if self._is_empty(self.id):
+            self.MissingRequiredField("id")
         if not isinstance(self.id, OrganismTaxonId):
             self.id = OrganismTaxonId(self.id)
 

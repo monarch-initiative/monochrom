@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2021-06-16
+data-version: releases/2021-08-19
 subsetdef: gocheck_do_not_annotate ""
 subsetdef: gocheck_do_not_manually_annotate ""
 subsetdef: goslim_agr ""
@@ -24,7 +24,7 @@ ontology: chr
 property_value: http://purl.org/dc/elements/1.1/description "Automatic translation of UCSC chromosome bands to OWL classes" xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Monochrom Ontology" xsd:string
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/publicdomain/zero/1.0/
-property_value: owl:versionInfo "2021-06-16" xsd:string
+property_value: owl:versionInfo "2021-08-19" xsd:string
 
 [Term]
 id: BFO:0000002
