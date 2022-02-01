@@ -24,4 +24,5 @@ Ontology(<http://purl.obolibrary.org/obo/chr.owl>
   Import(<http://purl.obolibrary.org/obo/chr/imports/ro_import.owl>)
   Import(<http://purl.obolibrary.org/obo/chr/imports/ncbitaxon_import.owl>)
   Import(<http://purl.obolibrary.org/obo/chr/components/ucsc.owl>)
+  Import(<http://purl.obolibrary.org/obo/chr/components/humanpartrange.owl>)
 )

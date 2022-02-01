@@ -2,8 +2,9 @@
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
 <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base="">
 
-  
+
   <uri name="http://purl.obolibrary.org/obo/chr/components/ucsc.owl" uri="components/ucsc.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/chr/components/humanpartrange.owl" uri="components/humanpartrange.owl"/>
   <uri name="http://purl.obolibrary.org/obo/chr/imports/ro_import.owl" uri="imports/ro_import.owl"/>
   <uri name="http://purl.obolibrary.org/obo/chr/imports/go_import.owl" uri="imports/go_import.owl"/>
   <uri name="http://purl.obolibrary.org/obo/chr/imports/ro_import.obo" uri="imports/ro_import.obo"/>
@@ -11,7 +12,7 @@
   <uri name="http://purl.obolibrary.org/obo/chr/imports/so_import.obo" uri="imports/so_import.obo"/>
 	<uri name="http://purl.obolibrary.org/obo/chr/imports/geno_import.owl" uri="imports/geno_import.owl"/>
   <uri name="http://purl.obolibrary.org/obo/chr/imports/geno_import.obo" uri="imports/geno_import.obo"/>
-  
+
   <uri name="http://purl.obolibrary.org/obo/chr/imports/ncbitaxon_import.owl" uri="imports/ncbitaxon_import.owl"/>
   <uri name="http://purl.obolibrary.org/obo/chr/imports/ncbitaxon_import.obo" uri="imports/ncbitaxon_import.obo"/>
 
