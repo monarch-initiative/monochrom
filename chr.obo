@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2021-08-19
+data-version: releases/2022-02-02
 subsetdef: gocheck_do_not_annotate ""
 subsetdef: gocheck_do_not_manually_annotate ""
 subsetdef: goslim_agr ""
@@ -24,7 +24,7 @@ ontology: chr
 property_value: http://purl.org/dc/elements/1.1/description "Automatic translation of UCSC chromosome bands to OWL classes" xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Monochrom Ontology" xsd:string
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/publicdomain/zero/1.0/
-property_value: owl:versionInfo "2021-08-19" xsd:string
+property_value: owl:versionInfo "2022-02-02" xsd:string
 
 [Term]
 id: BFO:0000002
@@ -11050,6 +11050,14 @@ property_value: https://w3id.org/biodatamodels/gff/end "38000000" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "34200000" xsd:integer
 
 [Term]
+id: CHR:9606-chr10p11.21-p12.31
+name: 10p11.21-p12.31 (Human)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9606-chr10p ! 10p (Human)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+property_value: genome:build "hg38" xsd:string
+
+[Term]
 id: CHR:9606-chr10p11.22
 name: 10p11.22 (Human)
 is_a: GO:0098687 ! chromosomal region
@@ -11368,6 +11376,14 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: genome:build "hg38" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "80300000" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "75900000" xsd:integer
+
+[Term]
+id: CHR:9606-chr10q22.3-q23.3
+name: 10q22.3-q23.3 (Human)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9606-chr10q ! 10q (Human)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+property_value: genome:build "hg38" xsd:string
 
 [Term]
 id: CHR:9606-chr10q23
@@ -11773,6 +11789,14 @@ property_value: https://w3id.org/biodatamodels/gff/end "22000000" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
 
 [Term]
+id: CHR:9606-chr11p15-p14
+name: 11p15-p14 (Human)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9606-chr11p ! 11p (Human)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+property_value: genome:build "hg38" xsd:string
+
+[Term]
 id: CHR:9606-chr11p15.1
 name: 11p15.1 (Human)
 is_a: GO:0098687 ! chromosomal region
@@ -12041,6 +12065,14 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: genome:build "hg38" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "103000000" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "102300000" xsd:integer
+
+[Term]
+id: CHR:9606-chr11q22.2-q22.3
+name: 11q22.2-q22.3 (Human)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9606-chr11q ! 11q (Human)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+property_value: genome:build "hg38" xsd:string
 
 [Term]
 id: CHR:9606-chr11q22.3
@@ -12504,6 +12536,14 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: genome:build "hg38" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "71100000" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "67300000" xsd:integer
+
+[Term]
+id: CHR:9606-chr12q15-q21.1
+name: 12q15-q21.1 (Human)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9606-chr12q ! 12q (Human)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+property_value: genome:build "hg38" xsd:string
 
 [Term]
 id: CHR:9606-chr12q2
@@ -13432,6 +13472,14 @@ property_value: https://w3id.org/biodatamodels/gff/end "24100000" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "17200000" xsd:integer
 
 [Term]
+id: CHR:9606-chr14q11-q22
+name: 14q11-q22 (Human)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9606-chr14q ! 14q (Human)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+property_value: genome:build "hg38" xsd:string
+
+[Term]
 id: CHR:9606-chr14q11.1
 name: 14q11.1 (Human)
 is_a: GO:0098687 ! chromosomal region
@@ -13562,6 +13610,14 @@ property_value: https://w3id.org/biodatamodels/gff/end "57600000" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "50400000" xsd:integer
 
 [Term]
+id: CHR:9606-chr14q22-q23
+name: 14q22-q23 (Human)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9606-chr14q ! 14q (Human)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+property_value: genome:build "hg38" xsd:string
+
+[Term]
 id: CHR:9606-chr14q22.1
 name: 14q22.1 (Human)
 is_a: GO:0098687 ! chromosomal region
@@ -13650,6 +13706,14 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: genome:build "hg38" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "69800000" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "67400000" xsd:integer
+
+[Term]
+id: CHR:9606-chr14q24.1-q24.3
+name: 14q24.1-q24.3 (Human)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9606-chr14q ! 14q (Human)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+property_value: genome:build "hg38" xsd:string
 
 [Term]
 id: CHR:9606-chr14q24.2
@@ -13933,6 +13997,14 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: genome:build "hg38" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "25500000" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "19000000" xsd:integer
+
+[Term]
+id: CHR:9606-chr15q11-q13
+name: 15q11-q13 (Human)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9606-chr15q ! 15q (Human)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+property_value: genome:build "hg38" xsd:string
 
 [Term]
 id: CHR:9606-chr15q11.1
@@ -14275,6 +14347,14 @@ property_value: https://w3id.org/biodatamodels/gff/end "101991189" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "88500000" xsd:integer
 
 [Term]
+id: CHR:9606-chr15q26-qter
+name: 15q26-qter (Human)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9606-chr15q ! 15q (Human)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+property_value: genome:build "hg38" xsd:string
+
+[Term]
 id: CHR:9606-chr15q26.1
 name: 15q26.1 (Human)
 is_a: GO:0098687 ! chromosomal region
@@ -14368,6 +14448,14 @@ property_value: https://w3id.org/biodatamodels/gff/end "35300000" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "28500000" xsd:integer
 
 [Term]
+id: CHR:9606-chr16p11.2-p12.2
+name: 16p11.2-p12.2 (Human)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9606-chr16p ! 16p (Human)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+property_value: genome:build "hg38" xsd:string
+
+[Term]
 id: CHR:9606-chr16p12
 name: 16p12 (Human)
 is_a: GO:0098687 ! chromosomal region
@@ -14388,6 +14476,14 @@ property_value: https://w3id.org/biodatamodels/gff/end "28500000" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "24200000" xsd:integer
 
 [Term]
+id: CHR:9606-chr16p12.1-p12.3
+name: 16p12.1-p12.3 (Human)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9606-chr16p ! 16p (Human)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+property_value: genome:build "hg38" xsd:string
+
+[Term]
 id: CHR:9606-chr16p12.2
 name: 16p12.2 (Human)
 is_a: GO:0098687 ! chromosomal region
@@ -14396,6 +14492,14 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: genome:build "hg38" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "24200000" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "21200000" xsd:integer
+
+[Term]
+id: CHR:9606-chr16p12.2-p11.2
+name: 16p12.2-p11.2 (Human)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9606-chr16p ! 16p (Human)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+property_value: genome:build "hg38" xsd:string
 
 [Term]
 id: CHR:9606-chr16p12.3
@@ -14989,6 +15093,14 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: genome:build "hg38" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "60200000" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "59500000" xsd:integer
+
+[Term]
+id: CHR:9606-chr17q23.1-q23.2
+name: 17q23.1-q23.2 (Human)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9606-chr17q ! 17q (Human)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+property_value: genome:build "hg38" xsd:string
 
 [Term]
 id: CHR:9606-chr17q23.2
@@ -15987,6 +16099,14 @@ property_value: https://w3id.org/biodatamodels/gff/end "60800000" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "50200000" xsd:integer
 
 [Term]
+id: CHR:9606-chr1p32-p31
+name: 1p32-p31 (Human)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9606-chr1p ! 1p (Human)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+property_value: genome:build "hg38" xsd:string
+
+[Term]
 id: CHR:9606-chr1p32.1
 name: 1p32.1 (Human)
 is_a: GO:0098687 ! chromosomal region
@@ -16277,6 +16397,14 @@ property_value: https://w3id.org/biodatamodels/gff/end "143200000" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "125100000" xsd:integer
 
 [Term]
+id: CHR:9606-chr1q12-q21
+name: 1q12-q21 (Human)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9606-chr1q ! 1q (Human)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+property_value: genome:build "hg38" xsd:string
+
+[Term]
 id: CHR:9606-chr1q2
 name: 1q2 (Human)
 is_a: GO:0098687 ! chromosomal region
@@ -16565,6 +16693,14 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: genome:build "hg38" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "223900000" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "214400000" xsd:integer
+
+[Term]
+id: CHR:9606-chr1q41-q42
+name: 1q41-q42 (Human)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9606-chr1q ! 1q (Human)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+property_value: genome:build "hg38" xsd:string
 
 [Term]
 id: CHR:9606-chr1q42
@@ -16963,6 +17099,14 @@ property_value: https://w3id.org/biodatamodels/gff/end "56400000" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "51200000" xsd:integer
 
 [Term]
+id: CHR:9606-chr20q13.2-q13.3
+name: 20q13.2-q13.3 (Human)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9606-chr20q ! 20q (Human)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+property_value: genome:build "hg38" xsd:string
+
+[Term]
 id: CHR:9606-chr20q13.3
 name: 20q13.3 (Human)
 is_a: GO:0098687 ! chromosomal region
@@ -17216,6 +17360,14 @@ property_value: https://w3id.org/biodatamodels/gff/end "34400000" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "30200000" xsd:integer
 
 [Term]
+id: CHR:9606-chr21q22.11-q22.12
+name: 21q22.11-q22.12 (Human)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9606-chr21q ! 21q (Human)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+property_value: genome:build "hg38" xsd:string
+
+[Term]
 id: CHR:9606-chr21q22.12
 name: 21q22.12 (Human)
 is_a: GO:0098687 ! chromosomal region
@@ -17234,6 +17386,14 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: genome:build "hg38" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "38300000" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "36400000" xsd:integer
+
+[Term]
+id: CHR:9606-chr21q22.13-q22.2
+name: 21q22.13-q22.2 (Human)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9606-chr21q ! 21q (Human)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+property_value: genome:build "hg38" xsd:string
 
 [Term]
 id: CHR:9606-chr21q22.2
@@ -17589,6 +17749,14 @@ property_value: https://w3id.org/biodatamodels/gff/end "83100000" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "74800000" xsd:integer
 
 [Term]
+id: CHR:9606-chr2p12-p11.2
+name: 2p12-p11.2 (Human)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9606-chr2p ! 2p (Human)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+property_value: genome:build "hg38" xsd:string
+
+[Term]
 id: CHR:9606-chr2p13
 name: 2p13 (Human)
 is_a: GO:0098687 ! chromosomal region
@@ -17667,6 +17835,14 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: genome:build "hg38" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "61000000" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "54700000" xsd:integer
+
+[Term]
+id: CHR:9606-chr2p16.1-p15
+name: 2p16.1-p15 (Human)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9606-chr2p ! 2p (Human)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+property_value: genome:build "hg38" xsd:string
 
 [Term]
 id: CHR:9606-chr2p16.2
@@ -18237,6 +18413,14 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: genome:build "hg38" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "196600000" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "182100000" xsd:integer
+
+[Term]
+id: CHR:9606-chr2q32-q33
+name: 2q32-q33 (Human)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9606-chr2q ! 2q (Human)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+property_value: genome:build "hg38" xsd:string
 
 [Term]
 id: CHR:9606-chr2q32.1
@@ -20961,6 +21145,14 @@ property_value: https://w3id.org/biodatamodels/gff/end "2300000" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
 
 [Term]
+id: CHR:9606-chr6pter-p24
+name: 6pter-p24 (Human)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9606-chr6p ! 6p (Human)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+property_value: genome:build "hg38" xsd:string
+
+[Term]
 id: CHR:9606-chr6q
 name: 6q (Human)
 is_a: GO:0098687 ! chromosomal region
@@ -20989,6 +21181,14 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: genome:build "hg38" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "62700000" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "59800000" xsd:integer
+
+[Term]
+id: CHR:9606-chr6q11-q14
+name: 6q11-q14 (Human)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9606-chr6q ! 6q (Human)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+property_value: genome:build "hg38" xsd:string
 
 [Term]
 id: CHR:9606-chr6q11.1
@@ -21261,6 +21461,14 @@ property_value: https://w3id.org/biodatamodels/gff/end "148500000" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "138300000" xsd:integer
 
 [Term]
+id: CHR:9606-chr6q24-q25
+name: 6q24-q25 (Human)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9606-chr6q ! 6q (Human)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+property_value: genome:build "hg38" xsd:string
+
+[Term]
 id: CHR:9606-chr6q24.1
 name: 6q24.1 (Human)
 is_a: GO:0098687 ! chromosomal region
@@ -21412,6 +21620,14 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: genome:build "hg38" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "58100000" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "53900000" xsd:integer
+
+[Term]
+id: CHR:9606-chr7p11.2-p13
+name: 7p11.2-p13 (Human)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9606-chr7p ! 7p (Human)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+property_value: genome:build "hg38" xsd:string
 
 [Term]
 id: CHR:9606-chr7p12
@@ -22327,6 +22543,14 @@ property_value: https://w3id.org/biodatamodels/gff/end "60600000" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "54600000" xsd:integer
 
 [Term]
+id: CHR:9606-chr8q12.1-q21.2
+name: 8q12.1-q21.2 (Human)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9606-chr8q ! 8q (Human)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+property_value: genome:build "hg38" xsd:string
+
+[Term]
 id: CHR:9606-chr8q12.2
 name: 8q12.2 (Human)
 is_a: GO:0098687 ! chromosomal region
@@ -23160,6 +23384,14 @@ property_value: https://w3id.org/biodatamodels/gff/end "105400000" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "99800000" xsd:integer
 
 [Term]
+id: CHR:9606-chr9q31.1-q31.3
+name: 9q31.1-q31.3 (Human)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9606-chr9q ! 9q (Human)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+property_value: genome:build "hg38" xsd:string
+
+[Term]
 id: CHR:9606-chr9q31.2
 name: 9q31.2 (Human)
 is_a: GO:0098687 ! chromosomal region
@@ -23228,6 +23460,14 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: genome:build "hg38" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "127500000" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "123100000" xsd:integer
+
+[Term]
+id: CHR:9606-chr9q33.3-q34.11
+name: 9q33.3-q34.11 (Human)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9606-chr9q ! 9q (Human)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+property_value: genome:build "hg38" xsd:string
 
 [Term]
 id: CHR:9606-chr9q34
@@ -23405,6 +23645,14 @@ property_value: https://w3id.org/biodatamodels/gff/end "50100000" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "47600000" xsd:integer
 
 [Term]
+id: CHR:9606-chrXp11.23-p11.22
+name: Xp11.23-p11.22 (Human)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9606-chrXp ! Xp (Human)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+property_value: genome:build "hg38" xsd:string
+
+[Term]
 id: CHR:9606-chrXp11.3
 name: Xp11.3 (Human)
 is_a: GO:0098687 ! chromosomal region
@@ -23525,6 +23773,14 @@ property_value: https://w3id.org/biodatamodels/gff/end "19200000" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "17400000" xsd:integer
 
 [Term]
+id: CHR:9606-chrXp22.13-p22.2
+name: Xp22.13-p22.2 (Human)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9606-chrXp ! Xp (Human)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+property_value: genome:build "hg38" xsd:string
+
+[Term]
 id: CHR:9606-chrXp22.2
 name: Xp22.2 (Human)
 is_a: GO:0098687 ! chromosomal region
@@ -23633,6 +23889,14 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: genome:build "hg38" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "68500000" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "65400000" xsd:integer
+
+[Term]
+id: CHR:9606-chrXq12-q13.3
+name: Xq12-q13.3 (Human)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9606-chrXq ! Xq (Human)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+property_value: genome:build "hg38" xsd:string
 
 [Term]
 id: CHR:9606-chrXq13
@@ -23903,6 +24167,14 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: genome:build "hg38" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "148000000" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "143000000" xsd:integer
+
+[Term]
+id: CHR:9606-chrXq27.3-q28
+name: Xq27.3-q28 (Human)
+is_a: GO:0098687 ! chromosomal region
+relationship: part_of CHR:9606-chrXq ! Xq (Human)
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+property_value: genome:build "hg38" xsd:string
 
 [Term]
 id: CHR:9606-chrXq28
