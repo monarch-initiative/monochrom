@@ -26,4 +26,5 @@ remove_owl_nothing: true
 components:
   products:
     - filename: ucsc.owl
+    - filename: humanpartrange.owl
 ROBOT_JAVA_ARGS: '-Xmx6G'

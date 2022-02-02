@@ -1,0 +1,959 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/chr/components/humanpartrange.owl#"
+     xml:base="http://purl.obolibrary.org/obo/chr/components/humanpartrange.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vocab="https://w3id.org/biolink/vocab/">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/chr/components/humanpartrange.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/biolink/vocab/genome_build -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/biolink/vocab/genome_build"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002162 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002162"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr10p -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr10p"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr10p11.21-p12.31 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr10p11.21-p12.31">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9606-chr10p"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10p11.21-p12.31 (Human)</rdfs:label>
+        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr10q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr10q"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr10q22.3-q23.3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr10q22.3-q23.3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9606-chr10q"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10q22.3-q23.3 (Human)</rdfs:label>
+        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr11p -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr11p"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr11p15-p14 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr11p15-p14">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9606-chr11p"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11p15-p14 (Human)</rdfs:label>
+        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr11q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr11q"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr11q22.2-q22.3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr11q22.2-q22.3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9606-chr11q"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11q22.2-q22.3 (Human)</rdfs:label>
+        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr12q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr12q"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr12q15-q21.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr12q15-q21.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9606-chr12q"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12q15-q21.1 (Human)</rdfs:label>
+        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr14q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr14q"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr14q11-q22 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr14q11-q22">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9606-chr14q"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14q11-q22 (Human)</rdfs:label>
+        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr14q22-q23 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr14q22-q23">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9606-chr14q"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14q22-q23 (Human)</rdfs:label>
+        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr14q24.1-q24.3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr14q24.1-q24.3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9606-chr14q"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14q24.1-q24.3 (Human)</rdfs:label>
+        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr15q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr15q"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr15q11-q13 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr15q11-q13">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9606-chr15q"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15q11-q13 (Human)</rdfs:label>
+        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr15q26-qter -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr15q26-qter">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9606-chr15q"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15q26-qter (Human)</rdfs:label>
+        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr16p -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr16p"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr16p11.2-p12.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr16p11.2-p12.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9606-chr16p"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16p11.2-p12.2 (Human)</rdfs:label>
+        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr16p12.1-p12.3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr16p12.1-p12.3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9606-chr16p"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16p12.1-p12.3 (Human)</rdfs:label>
+        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr16p12.2-p11.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr16p12.2-p11.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9606-chr16p"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16p12.2-p11.2 (Human)</rdfs:label>
+        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr17q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr17q"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr17q23.1-q23.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr17q23.1-q23.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9606-chr17q"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17q23.1-q23.2 (Human)</rdfs:label>
+        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr1p -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr1p"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr1p32-p31 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr1p32-p31">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9606-chr1p"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1p32-p31 (Human)</rdfs:label>
+        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr1q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr1q"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr1q12-q21 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr1q12-q21">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9606-chr1q"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1q12-q21 (Human)</rdfs:label>
+        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr1q41-q42 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr1q41-q42">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9606-chr1q"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1q41-q42 (Human)</rdfs:label>
+        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr20q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr20q"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr20q13.2-q13.3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr20q13.2-q13.3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9606-chr20q"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20q13.2-q13.3 (Human)</rdfs:label>
+        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr21q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr21q"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr21q22.11-q22.12 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr21q22.11-q22.12">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9606-chr21q"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21q22.11-q22.12 (Human)</rdfs:label>
+        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr21q22.13-q22.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr21q22.13-q22.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9606-chr21q"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21q22.13-q22.2 (Human)</rdfs:label>
+        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr2p -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr2p"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr2p12-p11.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr2p12-p11.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9606-chr2p"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2p12-p11.2 (Human)</rdfs:label>
+        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr2p16.1-p15 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr2p16.1-p15">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9606-chr2p"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2p16.1-p15 (Human)</rdfs:label>
+        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr2q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr2q"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr2q32-q33 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr2q32-q33">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9606-chr2q"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2q32-q33 (Human)</rdfs:label>
+        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr6p -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr6p"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr6pter-p24 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr6pter-p24">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9606-chr6p"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6pter-p24 (Human)</rdfs:label>
+        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr6q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr6q"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr6q11-q14 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr6q11-q14">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9606-chr6q"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6q11-q14 (Human)</rdfs:label>
+        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr6q24-q25 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr6q24-q25">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9606-chr6q"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6q24-q25 (Human)</rdfs:label>
+        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr7p -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr7p"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr7p11.2-p13 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr7p11.2-p13">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9606-chr7p"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7p11.2-p13 (Human)</rdfs:label>
+        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr8q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr8q"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr8q12.1-q21.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr8q12.1-q21.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9606-chr8q"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8q12.1-q21.2 (Human)</rdfs:label>
+        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr9q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr9q"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr9q31.1-q31.3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr9q31.1-q31.3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9606-chr9q"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9q31.1-q31.3 (Human)</rdfs:label>
+        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chr9q33.3-q34.11 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chr9q33.3-q34.11">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9606-chr9q"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9q33.3-q34.11 (Human)</rdfs:label>
+        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chrXp -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chrXp"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chrXp11.23-p11.22 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chrXp11.23-p11.22">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9606-chrXp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xp11.23-p11.22 (Human)</rdfs:label>
+        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chrXp22.13-p22.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chrXp22.13-p22.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9606-chrXp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xp22.13-p22.2 (Human)</rdfs:label>
+        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chrXq -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chrXq"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chrXq12-q13.3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chrXq12-q13.3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9606-chrXq"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xq12-q13.3 (Human)</rdfs:label>
+        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9606-chrXq27.3-q28 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9606-chrXq27.3-q28">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9606-chrXq"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xq27.3-q28 (Human)</rdfs:label>
+        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0098687 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0098687"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+
