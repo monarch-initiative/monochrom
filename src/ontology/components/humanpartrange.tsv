@@ -1,5 +1,5 @@
 ranges from Mondo	ID	name	is_a chromosome part	part_of	in taxon - human	genome:build
-	ID	LABEL	SC is_a %	SC part_of %	SC 'in taxon' %	A oboInOwl:genome_build
+	ID	LABEL	SC %	SC 'part of' some %	SC 'in taxon' some %	A biolink:genome_build
 10p11.21-p12.31	CHR:9606-chr10p11.21-p12.31	10p11.21-p12.31 (Human)	GO:0098687	CHR:9606-chr10p	NCBITaxon:9606	hg38
 10q22.3-q23.3	CHR:9606-chr10q22.3-q23.3	10q22.3-q23.3 (Human)	GO:0098687	CHR:9606-chr10q	NCBITaxon:9606	hg38
 11p15-p14	CHR:9606-chr11p15-p14	11p15-p14 (Human)	GO:0098687	CHR:9606-chr11p	NCBITaxon:9606	hg38

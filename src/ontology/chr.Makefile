@@ -15,5 +15,5 @@ sync_google_sheets:
 
 
 $(COMPONENTSDIR)/%.owl: $(COMPONENTSDIR)/%.tsv $(SRC)
-	$(ROBOT) merge -i $(SRC) template --template $< --prefix "CHR: http://purl.obolibrary.org/obo/CHR_" --output $@ && \
+	$(ROBOT) merge -i $(SRC) template --template $< --prefix "CHR: http://purl.obolibrary.org/obo/CHR_" --prefix "biolink: https://w3id.org/biolink/vocab/" --output $@ && \
 	$(ROBOT) annotate --input $@ --ontology-iri $(ONTBASE)/$@ -o $@
