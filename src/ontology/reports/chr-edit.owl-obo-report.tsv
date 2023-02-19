@@ -946,32 +946,6 @@ WARN	missing_definition	chromosome IV (C elegans)	IAO:0000115
 WARN	missing_definition	chromosome M (C elegans)	IAO:0000115	
 WARN	missing_definition	chromosome V (C elegans)	IAO:0000115	
 WARN	missing_definition	chromosome X (C elegans)	IAO:0000115	
-WARN	missing_definition	chromosome 1 (Danio rerio)	IAO:0000115	
-WARN	missing_definition	chromosome 10 (Danio rerio)	IAO:0000115	
-WARN	missing_definition	chromosome 11 (Danio rerio)	IAO:0000115	
-WARN	missing_definition	chromosome 12 (Danio rerio)	IAO:0000115	
-WARN	missing_definition	chromosome 13 (Danio rerio)	IAO:0000115	
-WARN	missing_definition	chromosome 14 (Danio rerio)	IAO:0000115	
-WARN	missing_definition	chromosome 15 (Danio rerio)	IAO:0000115	
-WARN	missing_definition	chromosome 16 (Danio rerio)	IAO:0000115	
-WARN	missing_definition	chromosome 17 (Danio rerio)	IAO:0000115	
-WARN	missing_definition	chromosome 18 (Danio rerio)	IAO:0000115	
-WARN	missing_definition	chromosome 19 (Danio rerio)	IAO:0000115	
-WARN	missing_definition	chromosome 2 (Danio rerio)	IAO:0000115	
-WARN	missing_definition	chromosome 20 (Danio rerio)	IAO:0000115	
-WARN	missing_definition	chromosome 21 (Danio rerio)	IAO:0000115	
-WARN	missing_definition	chromosome 22 (Danio rerio)	IAO:0000115	
-WARN	missing_definition	chromosome 23 (Danio rerio)	IAO:0000115	
-WARN	missing_definition	chromosome 24 (Danio rerio)	IAO:0000115	
-WARN	missing_definition	chromosome 25 (Danio rerio)	IAO:0000115	
-WARN	missing_definition	chromosome 3 (Danio rerio)	IAO:0000115	
-WARN	missing_definition	chromosome 4 (Danio rerio)	IAO:0000115	
-WARN	missing_definition	chromosome 5 (Danio rerio)	IAO:0000115	
-WARN	missing_definition	chromosome 6 (Danio rerio)	IAO:0000115	
-WARN	missing_definition	chromosome 7 (Danio rerio)	IAO:0000115	
-WARN	missing_definition	chromosome 8 (Danio rerio)	IAO:0000115	
-WARN	missing_definition	chromosome 9 (Danio rerio)	IAO:0000115	
-WARN	missing_definition	chromosome M (Danio rerio)	IAO:0000115	
 WARN	missing_definition	chromosome 1 (Chicken)	IAO:0000115	
 WARN	missing_definition	chromosome 10 (Chicken)	IAO:0000115	
 WARN	missing_definition	10cen (Chicken)	IAO:0000115	

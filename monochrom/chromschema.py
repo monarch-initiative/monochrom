@@ -1,5 +1,5 @@
 # Auto generated from chromo.yaml by pythongen.py version: 0.9.0
-# Generation date: 2021-08-19 12:28
+# Generation date: 2023-02-19T13:25:04
 # Schema: ChromoSchema
 #
 # id: https://w3id.org/biodatamodels/chromoschema
@@ -27,6 +27,7 @@ from linkml_runtime.linkml_model.types import Integer, String, Uri, Uriorcurie
 from linkml_runtime.utils.metamodelcore import URI, URIorCURIE
 
 metamodel_version = "1.7.0"
+version = None
 
 # Overwrite dataclasses _init_fn to add **kwargs in __init__
 dataclasses._init_fn = dataclasses_init_fn_with_kwargs
@@ -492,10 +493,10 @@ slots.Genome_id = Slot(uri=CHROMOSCHEMA.id, name="Genome_id", curie=CHROMOSCHEMA
                    model_uri=CHROMOSCHEMA.Genome_id, domain=Genome, range=Union[str, GenomeId],
                    pattern=re.compile(r'^\\w+$'))
 
-slots.Genome_name = Slot(uri=CHROMOSCHEMA.name, name="Genome_name", curie=CHROMOSCHEMA.curie('name'),
+slots.Genome_name = Slot(uri=RDFS.label, name="Genome_name", curie=RDFS.curie('label'),
                    model_uri=CHROMOSCHEMA.Genome_name, domain=Genome, range=Union[str, LabelType])
 
-slots.Genome_build = Slot(uri=CHROMOSCHEMA.build, name="Genome_build", curie=CHROMOSCHEMA.curie('build'),
+slots.Genome_build = Slot(uri=BIOLINK.genome_build, name="Genome_build", curie=BIOLINK.curie('genome_build'),
                    model_uri=CHROMOSCHEMA.Genome_build, domain=Genome, range=Optional[Union[str, GenomeBuildId]])
 
 slots.GenomeBuild_id = Slot(uri=CHROMOSCHEMA.id, name="GenomeBuild_id", curie=CHROMOSCHEMA.curie('id'),

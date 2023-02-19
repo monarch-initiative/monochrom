@@ -1,9 +1,8 @@
 format-version: 1.2
-data-version: releases/2022-02-02
+data-version: releases/2023-02-19
 subsetdef: gocheck_do_not_annotate ""
 subsetdef: gocheck_do_not_manually_annotate ""
 subsetdef: goslim_agr ""
-subsetdef: goslim_aspergillus ""
 subsetdef: goslim_candida ""
 subsetdef: goslim_chembl ""
 subsetdef: goslim_drosophila ""
@@ -18,13 +17,21 @@ subsetdef: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_gp2term ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_ontology ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_gocam ""
+subsetdef: prokaryote_subset ""
 subsetdef: ro-eco ""
 subsetdef: RO:0002259 ""
+synonymtypedef: blast_name ""
+synonymtypedef: common_name ""
+synonymtypedef: equivalent_name ""
+synonymtypedef: genbank_common_name ""
+synonymtypedef: in_part ""
+synonymtypedef: scientific_name ""
+synonymtypedef: synonym ""
 ontology: chr
 property_value: http://purl.org/dc/elements/1.1/description "Automatic translation of UCSC chromosome bands to OWL classes" xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Monochrom Ontology" xsd:string
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/publicdomain/zero/1.0/
-property_value: owl:versionInfo "2022-02-02" xsd:string
+property_value: owl:versionInfo "2023-02-19" xsd:string
 
 [Term]
 id: BFO:0000002
@@ -44,6 +51,7 @@ id: BFO:0000004
 name: independent continuant
 def: "A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything." []
 is_a: BFO:0000002 ! continuant
+disjoint_from: BFO:0000020 ! specifically dependent continuant
 relationship: part_of BFO:0000004 ! independent continuant
 
 [Term]
@@ -51,6 +59,44 @@ id: BFO:0000015
 name: process
 def: "An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t." []
 is_a: BFO:0000003 ! occurrent
+
+[Term]
+id: BFO:0000016
+name: disposition
+is_a: BFO:0000017 ! realizable entity
+disjoint_from: BFO:0000023 ! role
+
+[Term]
+id: BFO:0000017
+name: realizable entity
+def: "A specifically dependent continuant  that inheres in continuant  entities and are not exhibited in full at every time in which it inheres in an entity or group of entities. The exhibition or actualization of a realizable entity is a particular manifestation, functioning or process that occurs under certain circumstances." []
+is_a: BFO:0000020 ! specifically dependent continuant
+disjoint_from: BFO:0000019 ! quality
+relationship: part_of BFO:0000017 ! realizable entity
+
+[Term]
+id: BFO:0000019
+name: quality
+is_a: BFO:0000020 ! specifically dependent continuant
+relationship: part_of BFO:0000019 ! quality
+
+[Term]
+id: BFO:0000020
+name: specifically dependent continuant
+def: "A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same." []
+is_a: BFO:0000002 ! continuant
+relationship: part_of BFO:0000020 ! specifically dependent continuant
+
+[Term]
+id: BFO:0000023
+name: role
+def: "A realizable entity  the manifestation of which brings about some result or end that is not essential to a continuant  in virtue of the kind of thing that it is but that can be served or participated in by that kind of continuant  in some kinds of natural, social or institutional contexts." []
+is_a: BFO:0000017 ! realizable entity
+
+[Term]
+id: BFO:0000034
+name: function
+is_a: BFO:0000016 ! disposition
 
 [Term]
 id: BFO:0000040
@@ -62,19 +108,6 @@ is_a: BFO:0000004 ! independent continuant
 id: CARO:0000000
 name: anatomical entity
 is_a: CARO:0030000 ! biological entity
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/caro.owl
-
-[Term]
-id: CARO:0000003
-name: connected anatomical structure
-is_a: CARO:0000006 ! material anatomical entity
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/caro.owl
-
-[Term]
-id: CARO:0000006
-name: material anatomical entity
-is_a: BFO:0000040 ! material entity
-is_a: CARO:0000000 ! anatomical entity
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/caro.owl
 
 [Term]
@@ -9702,348 +9735,12 @@ property_value: https://w3id.org/biodatamodels/gff/end "17718942" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
 
 [Term]
-id: CHR:7955-chr1
-name: chromosome 1 (Danio rerio)
-synonym: "1" BROAD []
-is_a: GO:0000228 ! nuclear chromosome
-is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
-property_value: exactMatch http://identifiers.org/insdc/CM002885.1
-property_value: exactMatch NC:007112.6
-property_value: genome:build "danRer10" xsd:string
-property_value: https://w3id.org/biodatamodels/gff/end "58871917" xsd:integer
-property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
-
-[Term]
-id: CHR:7955-chr10
-name: chromosome 10 (Danio rerio)
-synonym: "10" BROAD []
-is_a: GO:0000228 ! nuclear chromosome
-is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
-property_value: exactMatch http://identifiers.org/insdc/CM002894.1
-property_value: exactMatch NC:007121.6
-property_value: genome:build "danRer10" xsd:string
-property_value: https://w3id.org/biodatamodels/gff/end "45574255" xsd:integer
-property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
-
-[Term]
-id: CHR:7955-chr11
-name: chromosome 11 (Danio rerio)
-synonym: "11" BROAD []
-is_a: GO:0000228 ! nuclear chromosome
-is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
-property_value: exactMatch http://identifiers.org/insdc/CM002895.1
-property_value: exactMatch NC:007122.6
-property_value: genome:build "danRer10" xsd:string
-property_value: https://w3id.org/biodatamodels/gff/end "45107271" xsd:integer
-property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
-
-[Term]
-id: CHR:7955-chr12
-name: chromosome 12 (Danio rerio)
-synonym: "12" BROAD []
-is_a: GO:0000228 ! nuclear chromosome
-is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
-property_value: exactMatch http://identifiers.org/insdc/CM002896.1
-property_value: exactMatch NC:007123.6
-property_value: genome:build "danRer10" xsd:string
-property_value: https://w3id.org/biodatamodels/gff/end "49229541" xsd:integer
-property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
-
-[Term]
-id: CHR:7955-chr13
-name: chromosome 13 (Danio rerio)
-synonym: "13" BROAD []
-is_a: GO:0000228 ! nuclear chromosome
-is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
-property_value: exactMatch http://identifiers.org/insdc/CM002897.1
-property_value: exactMatch NC:007124.6
-property_value: genome:build "danRer10" xsd:string
-property_value: https://w3id.org/biodatamodels/gff/end "51780250" xsd:integer
-property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
-
-[Term]
-id: CHR:7955-chr14
-name: chromosome 14 (Danio rerio)
-synonym: "14" BROAD []
-is_a: GO:0000228 ! nuclear chromosome
-is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
-property_value: exactMatch http://identifiers.org/insdc/CM002898.1
-property_value: exactMatch NC:007125.6
-property_value: genome:build "danRer10" xsd:string
-property_value: https://w3id.org/biodatamodels/gff/end "51944548" xsd:integer
-property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
-
-[Term]
-id: CHR:7955-chr15
-name: chromosome 15 (Danio rerio)
-synonym: "15" BROAD []
-is_a: GO:0000228 ! nuclear chromosome
-is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
-property_value: exactMatch http://identifiers.org/insdc/CM002899.1
-property_value: exactMatch NC:007126.6
-property_value: genome:build "danRer10" xsd:string
-property_value: https://w3id.org/biodatamodels/gff/end "47771147" xsd:integer
-property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
-
-[Term]
-id: CHR:7955-chr16
-name: chromosome 16 (Danio rerio)
-synonym: "16" BROAD []
-is_a: GO:0000228 ! nuclear chromosome
-is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
-property_value: exactMatch http://identifiers.org/insdc/CM002900.1
-property_value: exactMatch NC:007127.6
-property_value: genome:build "danRer10" xsd:string
-property_value: https://w3id.org/biodatamodels/gff/end "55381981" xsd:integer
-property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
-
-[Term]
-id: CHR:7955-chr17
-name: chromosome 17 (Danio rerio)
-synonym: "17" BROAD []
-is_a: GO:0000228 ! nuclear chromosome
-is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
-property_value: exactMatch http://identifiers.org/insdc/CM002901.1
-property_value: exactMatch NC:007128.6
-property_value: genome:build "danRer10" xsd:string
-property_value: https://w3id.org/biodatamodels/gff/end "53345113" xsd:integer
-property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
-
-[Term]
-id: CHR:7955-chr18
-name: chromosome 18 (Danio rerio)
-synonym: "18" BROAD []
-is_a: GO:0000228 ! nuclear chromosome
-is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
-property_value: exactMatch http://identifiers.org/insdc/CM002902.1
-property_value: exactMatch NC:007129.6
-property_value: genome:build "danRer10" xsd:string
-property_value: https://w3id.org/biodatamodels/gff/end "51008593" xsd:integer
-property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
-
-[Term]
-id: CHR:7955-chr19
-name: chromosome 19 (Danio rerio)
-synonym: "19" BROAD []
-is_a: GO:0000228 ! nuclear chromosome
-is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
-property_value: exactMatch http://identifiers.org/insdc/CM002903.1
-property_value: exactMatch NC:007130.6
-property_value: genome:build "danRer10" xsd:string
-property_value: https://w3id.org/biodatamodels/gff/end "48790377" xsd:integer
-property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
-
-[Term]
-id: CHR:7955-chr2
-name: chromosome 2 (Danio rerio)
-synonym: "2" BROAD []
-is_a: GO:0000228 ! nuclear chromosome
-is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
-property_value: exactMatch http://identifiers.org/insdc/CM002886.1
-property_value: exactMatch NC:007113.6
-property_value: genome:build "danRer10" xsd:string
-property_value: https://w3id.org/biodatamodels/gff/end "59543403" xsd:integer
-property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
-
-[Term]
-id: CHR:7955-chr20
-name: chromosome 20 (Danio rerio)
-synonym: "20" BROAD []
-is_a: GO:0000228 ! nuclear chromosome
-is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
-property_value: exactMatch http://identifiers.org/insdc/CM002904.1
-property_value: exactMatch NC:007131.6
-property_value: genome:build "danRer10" xsd:string
-property_value: https://w3id.org/biodatamodels/gff/end "55370968" xsd:integer
-property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
-
-[Term]
-id: CHR:7955-chr21
-name: chromosome 21 (Danio rerio)
-synonym: "21" BROAD []
-is_a: GO:0000228 ! nuclear chromosome
-is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
-property_value: exactMatch http://identifiers.org/insdc/CM002905.1
-property_value: exactMatch NC:007132.6
-property_value: genome:build "danRer10" xsd:string
-property_value: https://w3id.org/biodatamodels/gff/end "45895719" xsd:integer
-property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
-
-[Term]
-id: CHR:7955-chr22
-name: chromosome 22 (Danio rerio)
-synonym: "22" BROAD []
-is_a: GO:0000228 ! nuclear chromosome
-is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
-property_value: exactMatch http://identifiers.org/insdc/CM002906.1
-property_value: exactMatch NC:007133.6
-property_value: genome:build "danRer10" xsd:string
-property_value: https://w3id.org/biodatamodels/gff/end "39226288" xsd:integer
-property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
-
-[Term]
-id: CHR:7955-chr23
-name: chromosome 23 (Danio rerio)
-synonym: "23" BROAD []
-is_a: GO:0000228 ! nuclear chromosome
-is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
-property_value: exactMatch http://identifiers.org/insdc/CM002907.1
-property_value: exactMatch NC:007134.6
-property_value: genome:build "danRer10" xsd:string
-property_value: https://w3id.org/biodatamodels/gff/end "46272358" xsd:integer
-property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
-
-[Term]
-id: CHR:7955-chr24
-name: chromosome 24 (Danio rerio)
-synonym: "24" BROAD []
-is_a: GO:0000228 ! nuclear chromosome
-is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
-property_value: exactMatch http://identifiers.org/insdc/CM002908.1
-property_value: exactMatch NC:007135.6
-property_value: genome:build "danRer10" xsd:string
-property_value: https://w3id.org/biodatamodels/gff/end "42251103" xsd:integer
-property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
-
-[Term]
-id: CHR:7955-chr25
-name: chromosome 25 (Danio rerio)
-synonym: "25" BROAD []
-is_a: GO:0000228 ! nuclear chromosome
-is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
-property_value: exactMatch http://identifiers.org/insdc/CM002909.1
-property_value: exactMatch NC:007136.6
-property_value: genome:build "danRer10" xsd:string
-property_value: https://w3id.org/biodatamodels/gff/end "36898761" xsd:integer
-property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
-
-[Term]
-id: CHR:7955-chr3
-name: chromosome 3 (Danio rerio)
-synonym: "3" BROAD []
-is_a: GO:0000228 ! nuclear chromosome
-is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
-property_value: exactMatch http://identifiers.org/insdc/CM002887.1
-property_value: exactMatch NC:007114.6
-property_value: genome:build "danRer10" xsd:string
-property_value: https://w3id.org/biodatamodels/gff/end "62385949" xsd:integer
-property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
-
-[Term]
-id: CHR:7955-chr4
-name: chromosome 4 (Danio rerio)
-synonym: "4" BROAD []
-is_a: GO:0000228 ! nuclear chromosome
-is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
-property_value: exactMatch http://identifiers.org/insdc/CM002888.1
-property_value: exactMatch NC:007115.6
-property_value: genome:build "danRer10" xsd:string
-property_value: https://w3id.org/biodatamodels/gff/end "76625712" xsd:integer
-property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
-
-[Term]
-id: CHR:7955-chr5
-name: chromosome 5 (Danio rerio)
-synonym: "5" BROAD []
-is_a: GO:0000228 ! nuclear chromosome
-is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
-property_value: exactMatch http://identifiers.org/insdc/CM002889.1
-property_value: exactMatch NC:007116.6
-property_value: genome:build "danRer10" xsd:string
-property_value: https://w3id.org/biodatamodels/gff/end "71715914" xsd:integer
-property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
-
-[Term]
-id: CHR:7955-chr6
-name: chromosome 6 (Danio rerio)
-synonym: "6" BROAD []
-is_a: GO:0000228 ! nuclear chromosome
-is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
-property_value: exactMatch http://identifiers.org/insdc/CM002890.1
-property_value: exactMatch NC:007117.6
-property_value: genome:build "danRer10" xsd:string
-property_value: https://w3id.org/biodatamodels/gff/end "60272633" xsd:integer
-property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
-
-[Term]
-id: CHR:7955-chr7
-name: chromosome 7 (Danio rerio)
-synonym: "7" BROAD []
-is_a: GO:0000228 ! nuclear chromosome
-is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
-property_value: exactMatch http://identifiers.org/insdc/CM002891.1
-property_value: exactMatch NC:007118.6
-property_value: genome:build "danRer10" xsd:string
-property_value: https://w3id.org/biodatamodels/gff/end "74082188" xsd:integer
-property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
-
-[Term]
-id: CHR:7955-chr8
-name: chromosome 8 (Danio rerio)
-synonym: "8" BROAD []
-is_a: GO:0000228 ! nuclear chromosome
-is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
-property_value: exactMatch http://identifiers.org/insdc/CM002892.1
-property_value: exactMatch NC:007119.6
-property_value: genome:build "danRer10" xsd:string
-property_value: https://w3id.org/biodatamodels/gff/end "54191831" xsd:integer
-property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
-
-[Term]
-id: CHR:7955-chr9
-name: chromosome 9 (Danio rerio)
-synonym: "9" BROAD []
-is_a: GO:0000228 ! nuclear chromosome
-is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
-property_value: exactMatch http://identifiers.org/insdc/CM002893.1
-property_value: exactMatch NC:007120.6
-property_value: genome:build "danRer10" xsd:string
-property_value: https://w3id.org/biodatamodels/gff/end "56892771" xsd:integer
-property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
-
-[Term]
-id: CHR:7955-chrM
-name: chromosome M (Danio rerio)
-synonym: "MT" BROAD []
-is_a: GO:0000262 ! mitochondrial chromosome
-relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
-property_value: exactMatch NC:002333.2
-property_value: genome:build "danRer10" xsd:string
-property_value: https://w3id.org/biodatamodels/gff/end "16596" xsd:integer
-property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
-
-[Term]
 id: CHR:9031-chr1
 name: chromosome 1 (Chicken)
 synonym: "1" BROAD []
 is_a: GO:0000228 ! nuclear chromosome
 is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: exactMatch http://identifiers.org/insdc/CM000093.5
 property_value: exactMatch NC:006088.5
 property_value: genome:build "galGal6" xsd:string
@@ -10056,7 +9753,7 @@ name: chromosome 10 (Chicken)
 synonym: "10" BROAD []
 is_a: GO:0000228 ! nuclear chromosome
 is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: exactMatch http://identifiers.org/insdc/CM000102.5
 property_value: exactMatch NC:006097.5
 property_value: genome:build "galGal6" xsd:string
@@ -10068,7 +9765,7 @@ id: CHR:9031-chr10cen
 name: 10cen (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr10 ! chromosome 10 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "500000" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "250000" xsd:integer
@@ -10078,7 +9775,7 @@ id: CHR:9031-chr10q
 name: 10q (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr10 ! chromosome 10 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "21119840" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "500000" xsd:integer
@@ -10089,7 +9786,7 @@ name: chromosome 11 (Chicken)
 synonym: "11" BROAD []
 is_a: GO:0000228 ! nuclear chromosome
 is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: exactMatch http://identifiers.org/insdc/CM000103.5
 property_value: exactMatch NC:006098.5
 property_value: genome:build "galGal6" xsd:string
@@ -10101,7 +9798,7 @@ id: CHR:9031-chr11cen
 name: 11cen (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr11 ! chromosome 11 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "3230744" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "2980744" xsd:integer
@@ -10111,7 +9808,7 @@ id: CHR:9031-chr11p
 name: 11p (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr11 ! chromosome 11 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "2730744" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
@@ -10121,7 +9818,7 @@ id: CHR:9031-chr11q
 name: 11q (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr11 ! chromosome 11 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "20200042" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "3230744" xsd:integer
@@ -10132,7 +9829,7 @@ name: chromosome 12 (Chicken)
 synonym: "12" BROAD []
 is_a: GO:0000228 ! nuclear chromosome
 is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: exactMatch http://identifiers.org/insdc/CM000104.5
 property_value: exactMatch NC:006099.5
 property_value: genome:build "galGal6" xsd:string
@@ -10145,7 +9842,7 @@ name: chromosome 13 (Chicken)
 synonym: "13" BROAD []
 is_a: GO:0000228 ! nuclear chromosome
 is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: exactMatch http://identifiers.org/insdc/CM000105.5
 property_value: exactMatch NC:006100.5
 property_value: genome:build "galGal6" xsd:string
@@ -10157,7 +9854,7 @@ id: CHR:9031-chr13cen
 name: 13cen (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr13 ! chromosome 13 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "500000" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "250000" xsd:integer
@@ -10167,7 +9864,7 @@ id: CHR:9031-chr13q
 name: 13q (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr13 ! chromosome 13 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "19166714" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "500000" xsd:integer
@@ -10178,7 +9875,7 @@ name: chromosome 14 (Chicken)
 synonym: "14" BROAD []
 is_a: GO:0000228 ! nuclear chromosome
 is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: exactMatch http://identifiers.org/insdc/CM000106.5
 property_value: exactMatch NC:006101.5
 property_value: genome:build "galGal6" xsd:string
@@ -10190,7 +9887,7 @@ id: CHR:9031-chr14cen
 name: 14cen (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr14 ! chromosome 14 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "15978998" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "15728998" xsd:integer
@@ -10200,7 +9897,7 @@ id: CHR:9031-chr14p
 name: 14p (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr14 ! chromosome 14 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "15478998" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
@@ -10210,7 +9907,7 @@ id: CHR:9031-chr14q
 name: 14q (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr14 ! chromosome 14 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "16219308" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "15978998" xsd:integer
@@ -10221,7 +9918,7 @@ name: chromosome 15 (Chicken)
 synonym: "15" BROAD []
 is_a: GO:0000228 ! nuclear chromosome
 is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: exactMatch http://identifiers.org/insdc/CM000107.5
 property_value: exactMatch NC:006102.5
 property_value: genome:build "galGal6" xsd:string
@@ -10234,7 +9931,7 @@ name: chromosome 16 (Chicken)
 synonym: "16" BROAD []
 is_a: GO:0000228 ! nuclear chromosome
 is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: exactMatch http://identifiers.org/insdc/CM000108.5
 property_value: exactMatch NC:006103.5
 property_value: genome:build "galGal6" xsd:string
@@ -10246,7 +9943,7 @@ id: CHR:9031-chr16cen
 name: 16cen (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr16 ! chromosome 16 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "500000" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "250000" xsd:integer
@@ -10256,7 +9953,7 @@ id: CHR:9031-chr16q
 name: 16q (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr16 ! chromosome 16 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "2844601" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "500000" xsd:integer
@@ -10267,7 +9964,7 @@ name: chromosome 17 (Chicken)
 synonym: "17" BROAD []
 is_a: GO:0000228 ! nuclear chromosome
 is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: exactMatch http://identifiers.org/insdc/CM000109.5
 property_value: exactMatch NC:006104.5
 property_value: genome:build "galGal6" xsd:string
@@ -10279,7 +9976,7 @@ id: CHR:9031-chr17cen
 name: 17cen (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr17 ! chromosome 17 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "500000" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "250000" xsd:integer
@@ -10289,7 +9986,7 @@ id: CHR:9031-chr17q
 name: 17q (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr17 ! chromosome 17 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "10762512" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "500000" xsd:integer
@@ -10300,7 +9997,7 @@ name: chromosome 18 (Chicken)
 synonym: "18" BROAD []
 is_a: GO:0000228 ! nuclear chromosome
 is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: exactMatch http://identifiers.org/insdc/CM000110.5
 property_value: exactMatch NC:006105.5
 property_value: genome:build "galGal6" xsd:string
@@ -10313,7 +10010,7 @@ name: chromosome 19 (Chicken)
 synonym: "19" BROAD []
 is_a: GO:0000228 ! nuclear chromosome
 is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: exactMatch http://identifiers.org/insdc/CM000111.5
 property_value: exactMatch NC:006106.5
 property_value: genome:build "galGal6" xsd:string
@@ -10325,7 +10022,7 @@ id: CHR:9031-chr1cen
 name: 1cen (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr1 ! chromosome 1 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "77108038" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "76858038" xsd:integer
@@ -10335,7 +10032,7 @@ id: CHR:9031-chr1p
 name: 1p (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr1 ! chromosome 1 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "76608038" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
@@ -10345,7 +10042,7 @@ id: CHR:9031-chr1q
 name: 1q (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr1 ! chromosome 1 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "197608386" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "77108038" xsd:integer
@@ -10356,7 +10053,7 @@ name: chromosome 2 (Chicken)
 synonym: "2" BROAD []
 is_a: GO:0000228 ! nuclear chromosome
 is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: exactMatch http://identifiers.org/insdc/CM000094.5
 property_value: exactMatch NC:006089.5
 property_value: genome:build "galGal6" xsd:string
@@ -10369,7 +10066,7 @@ name: chromosome 20 (Chicken)
 synonym: "20" BROAD []
 is_a: GO:0000228 ! nuclear chromosome
 is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: exactMatch http://identifiers.org/insdc/CM000112.5
 property_value: exactMatch NC:006107.5
 property_value: genome:build "galGal6" xsd:string
@@ -10382,7 +10079,7 @@ name: chromosome 21 (Chicken)
 synonym: "21" BROAD []
 is_a: GO:0000228 ! nuclear chromosome
 is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: exactMatch http://identifiers.org/insdc/CM000113.5
 property_value: exactMatch NC:006108.5
 property_value: genome:build "galGal6" xsd:string
@@ -10395,7 +10092,7 @@ name: chromosome 22 (Chicken)
 synonym: "22" BROAD []
 is_a: GO:0000228 ! nuclear chromosome
 is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: exactMatch http://identifiers.org/insdc/CM000114.5
 property_value: exactMatch NC:006109.5
 property_value: genome:build "galGal6" xsd:string
@@ -10407,7 +10104,7 @@ id: CHR:9031-chr22cen
 name: 22cen (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr22 ! chromosome 22 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "3570996" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "3320996" xsd:integer
@@ -10417,7 +10114,7 @@ id: CHR:9031-chr22p
 name: 22p (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr22 ! chromosome 22 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "3070996" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
@@ -10427,7 +10124,7 @@ id: CHR:9031-chr22q
 name: 22q (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr22 ! chromosome 22 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "5459462" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "3570996" xsd:integer
@@ -10438,7 +10135,7 @@ name: chromosome 23 (Chicken)
 synonym: "23" BROAD []
 is_a: GO:0000228 ! nuclear chromosome
 is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: exactMatch http://identifiers.org/insdc/CM000115.5
 property_value: exactMatch NC:006110.5
 property_value: genome:build "galGal6" xsd:string
@@ -10451,7 +10148,7 @@ name: chromosome 24 (Chicken)
 synonym: "24" BROAD []
 is_a: GO:0000228 ! nuclear chromosome
 is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: exactMatch http://identifiers.org/insdc/CM000116.5
 property_value: exactMatch NC:006111.5
 property_value: genome:build "galGal6" xsd:string
@@ -10464,7 +10161,7 @@ name: chromosome 25 (Chicken)
 synonym: "25" BROAD []
 is_a: GO:0000228 ! nuclear chromosome
 is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: exactMatch http://identifiers.org/insdc/CM000124.5
 property_value: exactMatch NC:006112.4
 property_value: genome:build "galGal6" xsd:string
@@ -10476,7 +10173,7 @@ id: CHR:9031-chr25cen
 name: 25cen (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr25 ! chromosome 25 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "1240762" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "990762" xsd:integer
@@ -10486,7 +10183,7 @@ id: CHR:9031-chr25p
 name: 25p (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr25 ! chromosome 25 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "740762" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
@@ -10496,7 +10193,7 @@ id: CHR:9031-chr25q
 name: 25q (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr25 ! chromosome 25 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "3980610" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "1240762" xsd:integer
@@ -10507,7 +10204,7 @@ name: chromosome 26 (Chicken)
 synonym: "26" BROAD []
 is_a: GO:0000228 ! nuclear chromosome
 is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: exactMatch http://identifiers.org/insdc/CM000117.5
 property_value: exactMatch NC:006113.5
 property_value: genome:build "galGal6" xsd:string
@@ -10519,7 +10216,7 @@ id: CHR:9031-chr26cen
 name: 26cen (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr26 ! chromosome 26 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "6055710" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "5805710" xsd:integer
@@ -10529,7 +10226,7 @@ id: CHR:9031-chr26p
 name: 26p (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr26 ! chromosome 26 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "5555710" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
@@ -10540,7 +10237,7 @@ name: chromosome 27 (Chicken)
 synonym: "27" BROAD []
 is_a: GO:0000228 ! nuclear chromosome
 is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: exactMatch http://identifiers.org/insdc/CM000118.5
 property_value: exactMatch NC:006114.5
 property_value: genome:build "galGal6" xsd:string
@@ -10553,7 +10250,7 @@ name: chromosome 28 (Chicken)
 synonym: "28" BROAD []
 is_a: GO:0000228 ! nuclear chromosome
 is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: exactMatch http://identifiers.org/insdc/CM000119.5
 property_value: exactMatch NC:006115.5
 property_value: genome:build "galGal6" xsd:string
@@ -10565,7 +10262,7 @@ id: CHR:9031-chr2cen
 name: 2cen (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr2 ! chromosome 2 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "52651238" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "52401238" xsd:integer
@@ -10575,7 +10272,7 @@ id: CHR:9031-chr2p
 name: 2p (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr2 ! chromosome 2 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "52151238" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
@@ -10585,7 +10282,7 @@ id: CHR:9031-chr2q
 name: 2q (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr2 ! chromosome 2 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "149682049" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "52651238" xsd:integer
@@ -10596,7 +10293,7 @@ name: chromosome 3 (Chicken)
 synonym: "3" BROAD []
 is_a: GO:0000228 ! nuclear chromosome
 is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: exactMatch http://identifiers.org/insdc/CM000095.5
 property_value: exactMatch NC:006090.5
 property_value: genome:build "galGal6" xsd:string
@@ -10609,7 +10306,7 @@ name: chromosome 30 (Chicken)
 synonym: "30" BROAD []
 is_a: GO:0000228 ! nuclear chromosome
 is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: exactMatch http://identifiers.org/insdc/CM003637.2
 property_value: exactMatch NC:028739.2
 property_value: genome:build "galGal6" xsd:string
@@ -10622,7 +10319,7 @@ name: chromosome 31 (Chicken)
 synonym: "31" BROAD []
 is_a: GO:0000228 ! nuclear chromosome
 is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: exactMatch http://identifiers.org/insdc/CM003638.2
 property_value: exactMatch NC:028740.2
 property_value: genome:build "galGal6" xsd:string
@@ -10635,7 +10332,7 @@ name: chromosome 32 (Chicken)
 synonym: "32" BROAD []
 is_a: GO:0000228 ! nuclear chromosome
 is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: exactMatch http://identifiers.org/insdc/CM000120.4
 property_value: exactMatch NC:006119.4
 property_value: genome:build "galGal6" xsd:string
@@ -10648,7 +10345,7 @@ name: chromosome 33 (Chicken)
 synonym: "33" BROAD []
 is_a: GO:0000228 ! nuclear chromosome
 is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: exactMatch http://identifiers.org/insdc/CM000123.5
 property_value: exactMatch NC:008465.4
 property_value: genome:build "galGal6" xsd:string
@@ -10660,7 +10357,7 @@ id: CHR:9031-chr3cen
 name: 3cen (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr3 ! chromosome 3 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "6301976" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "6051976" xsd:integer
@@ -10670,7 +10367,7 @@ id: CHR:9031-chr3p
 name: 3p (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr3 ! chromosome 3 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "5801976" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
@@ -10680,7 +10377,7 @@ id: CHR:9031-chr3q
 name: 3q (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr3 ! chromosome 3 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "110838418" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "6301976" xsd:integer
@@ -10691,7 +10388,7 @@ name: chromosome 4 (Chicken)
 synonym: "4" BROAD []
 is_a: GO:0000228 ! nuclear chromosome
 is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: exactMatch http://identifiers.org/insdc/CM000096.5
 property_value: exactMatch NC:006091.5
 property_value: genome:build "galGal6" xsd:string
@@ -10703,7 +10400,7 @@ id: CHR:9031-chr4cen
 name: 4cen (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr4 ! chromosome 4 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "19261804" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "19011804" xsd:integer
@@ -10713,7 +10410,7 @@ id: CHR:9031-chr4p
 name: 4p (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr4 ! chromosome 4 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "18761804" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
@@ -10723,7 +10420,7 @@ id: CHR:9031-chr4q
 name: 4q (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr4 ! chromosome 4 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "91315245" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "19261804" xsd:integer
@@ -10734,7 +10431,7 @@ name: chromosome 5 (Chicken)
 synonym: "5" BROAD []
 is_a: GO:0000228 ! nuclear chromosome
 is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: exactMatch http://identifiers.org/insdc/CM000097.5
 property_value: exactMatch NC:006092.5
 property_value: genome:build "galGal6" xsd:string
@@ -10746,7 +10443,7 @@ id: CHR:9031-chr5cen
 name: 5cen (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr5 ! chromosome 5 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "6509601" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "6259601" xsd:integer
@@ -10756,7 +10453,7 @@ id: CHR:9031-chr5p
 name: 5p (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr5 ! chromosome 5 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "6009601" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
@@ -10766,7 +10463,7 @@ id: CHR:9031-chr5q
 name: 5q (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr5 ! chromosome 5 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "59809098" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "6509601" xsd:integer
@@ -10777,7 +10474,7 @@ name: chromosome 6 (Chicken)
 synonym: "6" BROAD []
 is_a: GO:0000228 ! nuclear chromosome
 is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: exactMatch http://identifiers.org/insdc/CM000098.5
 property_value: exactMatch NC:006093.5
 property_value: genome:build "galGal6" xsd:string
@@ -10789,7 +10486,7 @@ id: CHR:9031-chr6cen
 name: 6cen (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr6 ! chromosome 6 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "500000" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "250000" xsd:integer
@@ -10799,7 +10496,7 @@ id: CHR:9031-chr6q
 name: 6q (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr6 ! chromosome 6 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "36374701" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "500000" xsd:integer
@@ -10810,7 +10507,7 @@ name: chromosome 7 (Chicken)
 synonym: "7" BROAD []
 is_a: GO:0000228 ! nuclear chromosome
 is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: exactMatch http://identifiers.org/insdc/CM000099.5
 property_value: exactMatch NC:006094.5
 property_value: genome:build "galGal6" xsd:string
@@ -10822,7 +10519,7 @@ id: CHR:9031-chr7cen
 name: 7cen (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr7 ! chromosome 7 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "7831533" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "7581533" xsd:integer
@@ -10832,7 +10529,7 @@ id: CHR:9031-chr7p
 name: 7p (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr7 ! chromosome 7 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "7331533" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
@@ -10842,7 +10539,7 @@ id: CHR:9031-chr7q
 name: 7q (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr7 ! chromosome 7 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "36742308" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "7831533" xsd:integer
@@ -10853,7 +10550,7 @@ name: chromosome 8 (Chicken)
 synonym: "8" BROAD []
 is_a: GO:0000228 ! nuclear chromosome
 is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: exactMatch http://identifiers.org/insdc/CM000100.5
 property_value: exactMatch NC:006095.5
 property_value: genome:build "galGal6" xsd:string
@@ -10865,7 +10562,7 @@ id: CHR:9031-chr8cen
 name: 8cen (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr8 ! chromosome 8 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "9826743" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "9576743" xsd:integer
@@ -10875,7 +10572,7 @@ id: CHR:9031-chr8p
 name: 8p (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr8 ! chromosome 8 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "9326743" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "0" xsd:integer
@@ -10885,7 +10582,7 @@ id: CHR:9031-chr8q
 name: 8q (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr8 ! chromosome 8 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "30219446" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "9826743" xsd:integer
@@ -10896,7 +10593,7 @@ name: chromosome 9 (Chicken)
 synonym: "9" BROAD []
 is_a: GO:0000228 ! nuclear chromosome
 is_a: GO:0030849 ! autosome
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: exactMatch http://identifiers.org/insdc/CM000101.5
 property_value: exactMatch NC:006096.5
 property_value: genome:build "galGal6" xsd:string
@@ -10908,7 +10605,7 @@ id: CHR:9031-chr9cen
 name: 9cen (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr9 ! chromosome 9 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "500000" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "250000" xsd:integer
@@ -10918,7 +10615,7 @@ id: CHR:9031-chr9q
 name: 9q (Chicken)
 is_a: GO:0098687 ! chromosomal region
 relationship: part_of CHR:9031-chr9 ! chromosome 9 (Chicken)
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: genome:build "galGal6" xsd:string
 property_value: https://w3id.org/biodatamodels/gff/end "24153086" xsd:integer
 property_value: https://w3id.org/biodatamodels/gff/start "500000" xsd:integer
@@ -10928,7 +10625,7 @@ id: CHR:9031-chrM
 name: chromosome M (Chicken)
 synonym: "MT" BROAD []
 is_a: GO:0000262 ! mitochondrial chromosome
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: exactMatch http://identifiers.org/insdc/X52392.1
 property_value: exactMatch NC:001323.1
 property_value: genome:build "galGal6" xsd:string
@@ -10940,9 +10637,8 @@ id: CHR:9031-chrW
 name: chromosome W (Chicken)
 synonym: "W" BROAD []
 is_a: GO:0000228 ! nuclear chromosome
-is_a: GO:0000803 ! sex chromosome
-is_a: GO:0000804
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+is_a: GO:0000804 ! W chromosome
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: exactMatch http://identifiers.org/insdc/CM000121.5
 property_value: exactMatch NC:006126.5
 property_value: genome:build "galGal6" xsd:string
@@ -10954,9 +10650,8 @@ id: CHR:9031-chrZ
 name: chromosome Z (Chicken)
 synonym: "Z" BROAD []
 is_a: GO:0000228 ! nuclear chromosome
-is_a: GO:0000803 ! sex chromosome
-is_a: GO:0000807
-relationship: RO:0002162 NCBITaxon:9031 ! in taxon
+is_a: GO:0000807 ! Z chromosome
+relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: exactMatch http://identifiers.org/insdc/CM000122.5
 property_value: exactMatch NC:006127.5
 property_value: genome:build "galGal6" xsd:string
@@ -24413,19 +24108,6 @@ intersection_of: part_of GO:0005634 ! nucleus
 relationship: part_of GO:0031981 ! nuclear lumen
 
 [Term]
-id: GO:0000229
-name: cytoplasmic chromosome
-namespace: cellular_component
-def: "A chromosome found in the cytoplasm." [GOC:mah]
-subset: goslim_chembl
-subset: goslim_generic
-synonym: "cytoplasmic interphase chromosome" NARROW []
-is_a: GO:0005694 ! chromosome
-intersection_of: GO:0005694 ! chromosome
-intersection_of: part_of GO:0005737 ! cytoplasm
-relationship: part_of GO:0005737 ! cytoplasm
-
-[Term]
 id: GO:0000262
 name: mitochondrial chromosome
 namespace: cellular_component
@@ -24434,7 +24116,7 @@ synonym: "mitochondrial DNA" NARROW []
 synonym: "mitochondrial genome" RELATED []
 synonym: "mtDNA" NARROW []
 xref: NIF_Subcellular:sao1186327184
-is_a: GO:0000229 ! cytoplasmic chromosome
+is_a: GO:0005694 ! chromosome
 intersection_of: GO:0005694 ! chromosome
 intersection_of: part_of GO:0005739 ! mitochondrion
 relationship: part_of GO:0042645 ! mitochondrial nucleoid
@@ -24445,6 +24127,15 @@ name: sex chromosome
 namespace: cellular_component
 def: "A chromosome involved in sex determination." [GOC:elh]
 is_a: GO:0005694 ! chromosome
+
+[Term]
+id: GO:0000804
+name: W chromosome
+namespace: cellular_component
+def: "The sex chromosome present in females of species in which the female is the heterogametic sex; generally, the sex chromosome that pairs with the Z chromosome in the heterogametic sex. The W chromosome is absent from the cells of males and present in one copy in the somatic cells of females." [GOC:mah, GOC:mr, ISBN:0321000382, PMID:20622855]
+xref: Wikipedia:ZW_sex-determination_system
+is_a: GO:0000803 ! sex chromosome
+property_value: RO:0002161 NCBITaxon:40674
 
 [Term]
 id: GO:0000805
@@ -24465,6 +24156,15 @@ is_a: GO:0000803 ! sex chromosome
 property_value: RO:0002161 NCBITaxon:8782
 
 [Term]
+id: GO:0000807
+name: Z chromosome
+namespace: cellular_component
+def: "The sex chromosome present in both sexes of species in which the female is the heterogametic sex. Two copies of the Z chromosome are present in each somatic cell of males and one copy is present in females." [GOC:mah, GOC:mr, ISBN:0321000382, PMID:20622855]
+xref: Wikipedia:ZW_sex-determination_system
+is_a: GO:0000803 ! sex chromosome
+property_value: RO:0002161 NCBITaxon:40674
+
+[Term]
 id: GO:0003674
 name: molecular_function
 is_a: BFO:0000015 ! process
@@ -24482,10 +24182,8 @@ namespace: cellular_component
 alt_id: GO:0008372
 def: "A location, relative to cellular compartments and structures, occupied by a macromolecular machine when it carries out a molecular function. There are two ways in which the gene ontology describes locations of gene products: (1) relative to cellular structures (e.g., cytoplasmic side of plasma membrane) or compartments (e.g., mitochondrion), and (2) the stable macromolecular complexes of which they are parts (e.g., the ribosome)." [GOC:pdt, NIF_Subcellular:sao1337158144]
 comment: Note that, in addition to forming the root of the cellular component ontology, this term is recommended for use for the annotation of gene products whose cellular component is unknown. When this term is used for annotation, it indicates that no information was available about the cellular component of the gene product annotated as of the date the annotation was made; the evidence code 'no data' (ND), is used to indicate this.
-subset: goslim_aspergillus
 subset: goslim_candida
 subset: goslim_chembl
-subset: goslim_generic
 subset: goslim_metagenomics
 subset: goslim_pir
 subset: goslim_plant
@@ -24502,7 +24200,6 @@ namespace: cellular_component
 def: "A component of a cell contained within (but not including) the plasma membrane. In eukaryotes it includes the nucleus and cytoplasm." [ISBN:0198506732]
 subset: gocheck_do_not_annotate
 subset: goslim_chembl
-subset: goslim_generic
 subset: goslim_metagenomics
 subset: goslim_plant
 synonym: "internal to cell" EXACT []
@@ -24520,7 +24217,6 @@ name: nucleus
 namespace: cellular_component
 def: "A membrane-bounded organelle of eukaryotic cells in which chromosomes are housed and replicated. In most cells, the nucleus contains all of the cell's chromosomes except the organellar chromosomes, and is the site of RNA synthesis and processing. In some species, or in specialized cell types, RNA metabolism or DNA replication may be absent." [GOC:go_curators]
 subset: goslim_agr
-subset: goslim_aspergillus
 subset: goslim_candida
 subset: goslim_chembl
 subset: goslim_drosophila
@@ -24536,7 +24232,6 @@ synonym: "horsetail nucleus" NARROW [GOC:al, GOC:mah, GOC:vw, PMID:15030757]
 xref: NIF_Subcellular:sao1702920020
 xref: Wikipedia:Cell_nucleus
 is_a: GO:0043231 ! intracellular membrane-bounded organelle
-is_a: GO:0044464 ! cell part
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/go.owl
 
 [Term]
@@ -24558,9 +24253,8 @@ id: GO:0005694
 name: chromosome
 namespace: cellular_component
 def: "A structure composed of a very long molecule of DNA and associated proteins (e.g. histones) that carries hereditary information." [ISBN:0198547684]
-comment: Chromosomes include parts that are not part of the chromatin.  Examples include the kinetochore.
+comment: Chromosomes include parts that are not part of the chromatin. Examples include the kinetochore.
 subset: goslim_agr
-subset: goslim_aspergillus
 subset: goslim_candida
 subset: goslim_chembl
 subset: goslim_drosophila
@@ -24569,6 +24263,7 @@ subset: goslim_generic
 subset: goslim_metagenomics
 subset: goslim_pir
 subset: goslim_yeast
+subset: prokaryote_subset
 synonym: "chromatid" RELATED []
 synonym: "interphase chromosome" NARROW []
 synonym: "prophase chromosome" NARROW []
@@ -24579,17 +24274,18 @@ is_a: GO:0043232 ! intracellular non-membrane-bounded organelle
 id: GO:0005737
 name: cytoplasm
 namespace: cellular_component
-def: "All of the contents of a cell excluding the plasma membrane and nucleus, but including other subcellular structures." [ISBN:0198547684]
+def: "The contents of a cell excluding the plasma membrane and nucleus, but including other subcellular structures." [ISBN:0198547684]
 subset: goslim_candida
 subset: goslim_chembl
-subset: goslim_generic
 subset: goslim_metagenomics
 subset: goslim_pir
 subset: goslim_plant
 subset: goslim_yeast
+subset: prokaryote_subset
 xref: Wikipedia:Cytoplasm
 is_a: GO:0110165 ! cellular anatomical entity
 relationship: part_of GO:0005622 ! intracellular anatomical structure
+property_value: IAO:0000233 https://github.com/geneontology/go-ontology/issues/23023 xsd:anyURI
 
 [Term]
 id: GO:0005739
@@ -24598,7 +24294,6 @@ namespace: cellular_component
 def: "A semiautonomous, self replicating organelle that occurs in varying numbers, shapes, and sizes in the cytoplasm of virtually all eukaryotic cells. It is notably the site of tissue respiration." [GOC:giardia, ISBN:0198506732]
 comment: Some anaerobic or microaerophilic organisms (e.g. Entamoeba histolytica, Giardia intestinalis and several Microsporidia species) do not have mitochondria, and contain mitochondrion-related organelles (MROs) instead, called mitosomes or hydrogenosomes, very likely derived from mitochondria. To annotate gene products located in these mitochondrial relics in species such as Entamoeba histolytica, Giardia intestinalis or others, please use GO:0032047 'mitosome' or GO:0042566 'hydrogenosome'. (See PMID:24316280 for a list of species currently known to contain mitochondrion-related organelles.)
 subset: goslim_agr
-subset: goslim_aspergillus
 subset: goslim_candida
 subset: goslim_chembl
 subset: goslim_drosophila
@@ -24643,7 +24338,6 @@ name: vacuole
 namespace: cellular_component
 def: "A closed structure, found only in eukaryotic cells, that is completely surrounded by unit membrane and contains liquid material. Cells contain one or several vacuoles, that may have different functions from each other. Vacuoles have a diverse array of functions. They can act as a storage organelle for nutrients or waste products, as a degradative compartment, as a cost-effective way of increasing cell size, and as a homeostatic regulator controlling both turgor pressure and pH of the cytosol." [GOC:mtg_sensu, ISBN:0198506732]
 subset: goslim_agr
-subset: goslim_aspergillus
 subset: goslim_candida
 subset: goslim_chembl
 subset: goslim_drosophila
@@ -24674,7 +24368,6 @@ name: cytosol
 namespace: cellular_component
 def: "The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes." [GOC:hjd, GOC:jl]
 subset: goslim_agr
-subset: goslim_aspergillus
 subset: goslim_chembl
 subset: goslim_drosophila
 subset: goslim_flybase_ribbon
@@ -24690,10 +24383,10 @@ relationship: part_of GO:0005737 ! cytoplasm
 id: GO:0005886
 name: plasma membrane
 namespace: cellular_component
+alt_id: GO:0005887
 alt_id: GO:0005904
 def: "The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins." [ISBN:0716731363]
 subset: goslim_agr
-subset: goslim_aspergillus
 subset: goslim_candida
 subset: goslim_chembl
 subset: goslim_drosophila
@@ -24702,11 +24395,14 @@ subset: goslim_metagenomics
 subset: goslim_mouse
 subset: goslim_plant
 subset: goslim_yeast
+subset: prokaryote_subset
 synonym: "bacterial inner membrane" NARROW []
 synonym: "cell membrane" EXACT []
 synonym: "cellular membrane" EXACT [NIF_Subcellular:sao6433132645]
 synonym: "cytoplasmic membrane" EXACT []
 synonym: "inner endospore membrane" NARROW []
+synonym: "integral component of plasma membrane" NARROW []
+synonym: "integral to plasma membrane" NARROW []
 synonym: "juxtamembrane" BROAD []
 synonym: "plasma membrane lipid bilayer" NARROW [GOC:mah]
 synonym: "plasmalemma" EXACT []
@@ -24720,7 +24416,6 @@ id: GO:0005938
 name: cell cortex
 namespace: cellular_component
 def: "The region of a cell that lies just beneath the plasma membrane and often, but not always, contains a network of actin filaments and associated proteins." [GOC:mah, ISBN:0815316194]
-subset: goslim_aspergillus
 subset: goslim_candida
 subset: goslim_yeast
 synonym: "cell periphery" RELATED []
@@ -24762,7 +24457,7 @@ id: GO:0009508
 name: plastid chromosome
 namespace: cellular_component
 def: "A circular DNA molecule containing plastid encoded genes." [ISBN:0943088399]
-is_a: GO:0000229 ! cytoplasmic chromosome
+is_a: GO:0005694 ! chromosome
 intersection_of: GO:0005694 ! chromosome
 intersection_of: part_of GO:0009536 ! plastid
 relationship: part_of GO:0042646 ! plastid nucleoid
@@ -24815,7 +24510,6 @@ id: GO:0012505
 name: endomembrane system
 namespace: cellular_component
 def: "A collection of membranous structures involved in transport within the cell. The main components of the endomembrane system are endoplasmic reticulum, Golgi bodies, vesicles, cell membrane and nuclear envelope. Members of the endomembrane system pass materials through each other or though the use of vesicles." [GOC:lh]
-subset: goslim_aspergillus
 subset: goslim_candida
 subset: goslim_flybase_ribbon
 subset: goslim_yeast
@@ -24828,10 +24522,10 @@ relationship: has_part GO:0005886 ! plasma membrane
 id: GO:0016020
 name: membrane
 namespace: cellular_component
+alt_id: GO:0016021
 alt_id: GO:0098589
 alt_id: GO:0098805
-def: "A lipid bilayer along with all the proteins and protein complexes embedded in it an attached to it." [GOC:dos, GOC:mah, ISBN:0815316194]
-subset: goslim_aspergillus
+def: "A lipid bilayer along with all the proteins and protein complexes embedded in it and attached to it." [GOC:dos, GOC:mah, ISBN:0815316194]
 subset: goslim_candida
 subset: goslim_chembl
 subset: goslim_flybase_ribbon
@@ -24839,10 +24533,14 @@ subset: goslim_metagenomics
 subset: goslim_pir
 subset: goslim_plant
 subset: goslim_yeast
+synonym: "integral component of membrane" NARROW []
+synonym: "integral to membrane" NARROW []
 synonym: "membrane region" NARROW []
 synonym: "region of membrane" NARROW []
+synonym: "transmembrane" RELATED [GOC:mah]
 synonym: "whole membrane" NARROW []
 xref: Wikipedia:Biological_membrane
+xref: Wikipedia:Transmembrane_protein
 is_a: GO:0110165 ! cellular anatomical entity
 creation_date: 2014-03-06T11:37:54Z
 
@@ -24996,6 +24694,7 @@ def: "Organized structure of distinctive morphology and function. Includes the n
 subset: goslim_chembl
 subset: goslim_generic
 subset: goslim_pir
+subset: prokaryote_subset
 xref: NIF_Subcellular:sao1539965131
 xref: Wikipedia:Organelle
 is_a: GO:0110165 ! cellular anatomical entity
@@ -25017,9 +24716,12 @@ id: GO:0043228
 name: non-membrane-bounded organelle
 namespace: cellular_component
 def: "Organized structure of distinctive morphology and function, not bounded by a lipid bilayer membrane. Includes ribosomes, the cytoskeleton and chromosomes." [GOC:go_curators]
+subset: goslim_mouse
+synonym: "biological condensate" NARROW []
 synonym: "non-membrane-enclosed organelle" EXACT []
 xref: NIF_Subcellular:sao1456184038
 is_a: GO:0043226 ! organelle
+property_value: IAO:0000233 https://github.com/geneontology/go-ontology/issues/21881 xsd:anyURI
 
 [Term]
 id: GO:0043229
@@ -25049,7 +24751,6 @@ id: GO:0043232
 name: intracellular non-membrane-bounded organelle
 namespace: cellular_component
 def: "Organized structure of distinctive morphology and function, not bounded by a lipid bilayer membrane and occurring within the cell. Includes ribosomes, the cytoskeleton and chromosomes." [GOC:go_curators]
-subset: goslim_mouse
 subset: goslim_pir
 synonym: "intracellular non-membrane-enclosed organelle" EXACT []
 is_a: GO:0043228 ! non-membrane-bounded organelle
@@ -25062,23 +24763,17 @@ id: GO:0043233
 name: organelle lumen
 namespace: cellular_component
 def: "The internal volume enclosed by the membranes of a particular organelle; includes the volume enclosed by a single organelle membrane, e.g. endoplasmic reticulum lumen, or the volume enclosed by the innermost of the two lipid bilayers of an organelle envelope, e.g. nuclear lumen." [GOC:jl, GOC:mah]
+subset: goslim_mouse
 is_a: GO:0031974 ! membrane-enclosed lumen
 intersection_of: GO:0031974 ! membrane-enclosed lumen
 intersection_of: part_of GO:0043226 ! organelle
 relationship: part_of GO:0043226 ! organelle
 
 [Term]
-id: GO:0044464
-name: cell part
-is_a: CARO:0000003 ! connected anatomical structure
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/go.owl
-
-[Term]
 id: GO:0070013
 name: intracellular organelle lumen
 namespace: cellular_component
 def: "An organelle lumen that is part of an intracellular organelle." [GOC:mah]
-subset: goslim_mouse
 is_a: GO:0043233 ! organelle lumen
 intersection_of: GO:0031974 ! membrane-enclosed lumen
 intersection_of: part_of GO:0043229 ! intracellular organelle
@@ -25114,16 +24809,18 @@ id: GO:0098687
 name: chromosomal region
 namespace: cellular_component
 def: "Any subdivision of a chromosome along its length." [GOC:dos]
-comment: Chromosomal regions include parts that are not part of the chromatin.  Examples include the kinetochore.
+comment: Chromosomal regions include parts that are not part of the chromatin. Examples include the kinetochore.
 synonym: "chromosome region" EXACT []
 is_a: GO:0110165 ! cellular anatomical entity
 relationship: part_of GO:0005694 ! chromosome
 
 [Term]
 id: GO:0099522
-name: region of cytosol
+name: cytosolic region
 namespace: cellular_component
 def: "Any (proper) part of the cytosol of a single cell of sufficient size to still be considered cytosol." [GOC:dos]
+subset: gocheck_do_not_annotate
+synonym: "region of cytosol" EXACT []
 is_a: GO:0005829 ! cytosol
 intersection_of: GO:0005829 ! cytosol
 intersection_of: part_of GO:0005829 ! cytosol
@@ -25134,6 +24831,7 @@ id: GO:0099568
 name: cytoplasmic region
 namespace: cellular_component
 def: "Any (proper) part of the cytoplasm of a single cell of sufficient size to still be considered cytoplasm." [GOC:dos]
+subset: gocheck_do_not_annotate
 is_a: GO:0005737 ! cytoplasm
 intersection_of: GO:0005737 ! cytoplasm
 intersection_of: part_of GO:0005737 ! cytoplasm
@@ -25144,6 +24842,7 @@ id: GO:0099738
 name: cell cortex region
 namespace: cellular_component
 def: "The complete extent of cell cortex that underlies some some region of the plasma membrane." [GOC:dos]
+subset: gocheck_do_not_annotate
 synonym: "perimembrane region" EXACT []
 is_a: GO:0005938 ! cell cortex
 is_a: GO:0099568 ! cytoplasmic region
@@ -25266,6 +24965,18 @@ xref: GC_ID:1
 is_a: NCBITaxon:1 ! root
 
 [Term]
+id: NCBITaxon:1329799
+name: Archelosauria
+namespace: ncbi_taxonomy
+synonym: "Archosauria-Testudines" RELATED synonym []
+synonym: "Testudines + Archosauria group" RELATED synonym []
+xref: GC_ID:1
+xref: PMID:22839753
+xref: PMID:25450099
+is_a: NCBITaxon:32561 ! Sauria
+property_value: has_rank NCBITaxon:clade
+
+[Term]
 id: NCBITaxon:1338369
 name: Dipnotetrapodomorpha
 namespace: ncbi_taxonomy
@@ -25285,55 +24996,14 @@ is_a: NCBITaxon:9347 ! Eutheria
 property_value: has_rank NCBITaxon:clade
 
 [Term]
-id: NCBITaxon:1489341
-name: Osteoglossocephalai
+id: NCBITaxon:1549675
+name: Galloanserae
 namespace: ncbi_taxonomy
+synonym: "ducks, geese, chickens, fowl, quail, currasows and allies" RELATED synonym []
+synonym: "Galloanseri" RELATED synonym []
 xref: GC_ID:1
-is_a: NCBITaxon:32443 ! Teleostei
-property_value: has_rank NCBITaxon:clade
-
-[Term]
-id: NCBITaxon:186623
-name: Actinopteri
-namespace: ncbi_taxonomy
-xref: GC_ID:1
-is_a: NCBITaxon:7898 ! Actinopterygii
-property_value: has_rank NCBITaxon:class
-
-[Term]
-id: NCBITaxon:186625
-name: Clupeocephala
-namespace: ncbi_taxonomy
-xref: GC_ID:1
-is_a: NCBITaxon:1489341 ! Osteoglossocephalai
-
-[Term]
-id: NCBITaxon:186626
-name: Otophysi
-namespace: ncbi_taxonomy
-synonym: "Otophysa" RELATED synonym []
-xref: GC_ID:1
-is_a: NCBITaxon:32519 ! Ostariophysi
-property_value: has_rank NCBITaxon:clade
-
-[Term]
-id: NCBITaxon:186627
-name: Cypriniphysae
-namespace: ncbi_taxonomy
-synonym: "Cypriniphysi" RELATED synonym []
-xref: GC_ID:1
-is_a: NCBITaxon:186626 ! Otophysi
+is_a: NCBITaxon:8825 ! Neognathae
 property_value: has_rank NCBITaxon:superorder
-
-[Term]
-id: NCBITaxon:186634
-name: Otomorpha
-namespace: ncbi_taxonomy
-synonym: "Ostarioclupeomorpha" RELATED synonym []
-synonym: "Otocephala" RELATED synonym []
-xref: GC_ID:1
-is_a: NCBITaxon:186625 ! Clupeocephala
-property_value: has_rank NCBITaxon:cohort
 
 [Term]
 id: NCBITaxon:1963758
@@ -25371,22 +25041,6 @@ is_a: NCBITaxon:2301116 ! Rhabditina
 property_value: has_rank NCBITaxon:infraorder
 
 [Term]
-id: NCBITaxon:2743709
-name: Danionidae
-namespace: ncbi_taxonomy
-xref: GC_ID:1
-is_a: NCBITaxon:30727 ! Cyprinoidei
-property_value: has_rank NCBITaxon:family
-
-[Term]
-id: NCBITaxon:2743711
-name: Danioninae
-namespace: ncbi_taxonomy
-xref: GC_ID:1
-is_a: NCBITaxon:2743709 ! Danionidae
-property_value: has_rank NCBITaxon:subfamily
-
-[Term]
 id: NCBITaxon:2759
 name: Eukaryota
 namespace: ncbi_taxonomy
@@ -25402,15 +25056,6 @@ xref: PMID:23020233
 xref: PMID:30257078
 is_a: NCBITaxon:131567 ! cellular organisms
 property_value: has_rank NCBITaxon:superkingdom
-
-[Term]
-id: NCBITaxon:30727
-name: Cyprinoidei
-namespace: ncbi_taxonomy
-synonym: "Cyprinoidea" RELATED synonym []
-xref: GC_ID:1
-is_a: NCBITaxon:7952 ! Cypriniformes
-property_value: has_rank NCBITaxon:suborder
 
 [Term]
 id: NCBITaxon:314146
@@ -25456,23 +25101,6 @@ is_a: NCBITaxon:9526 ! Catarrhini
 property_value: has_rank NCBITaxon:superfamily
 
 [Term]
-id: NCBITaxon:32443
-name: Teleostei
-namespace: ncbi_taxonomy
-synonym: "teleost fishes" EXACT genbank_common_name []
-xref: GC_ID:1
-is_a: NCBITaxon:41665 ! Neopterygii
-property_value: has_rank NCBITaxon:infraclass
-
-[Term]
-id: NCBITaxon:32519
-name: Ostariophysi
-namespace: ncbi_taxonomy
-xref: GC_ID:1
-is_a: NCBITaxon:186634 ! Otomorpha
-property_value: has_rank NCBITaxon:subcohort
-
-[Term]
 id: NCBITaxon:32523
 name: Tetrapoda
 namespace: ncbi_taxonomy
@@ -25497,6 +25125,16 @@ namespace: ncbi_taxonomy
 synonym: "Theria" EXACT scientific_name []
 xref: GC_ID:1
 is_a: NCBITaxon:40674 ! Mammalia
+property_value: has_rank NCBITaxon:clade
+
+[Term]
+id: NCBITaxon:32561
+name: Sauria
+namespace: ncbi_taxonomy
+synonym: "Diapsida" RELATED synonym []
+synonym: "diapsids" EXACT genbank_common_name []
+xref: GC_ID:1
+is_a: NCBITaxon:8457 ! Sauropsida
 property_value: has_rank NCBITaxon:clade
 
 [Term]
@@ -25584,13 +25222,38 @@ is_a: NCBITaxon:32524 ! Amniota
 property_value: has_rank NCBITaxon:class
 
 [Term]
-id: NCBITaxon:41665
-name: Neopterygii
+id: NCBITaxon:436486
+name: Dinosauria
 namespace: ncbi_taxonomy
-synonym: "Neopterygi" RELATED synonym []
+synonym: "dinosaur" EXACT common_name []
+synonym: "dinosaurs" EXACT common_name []
 xref: GC_ID:1
-is_a: NCBITaxon:186623 ! Actinopteri
-property_value: has_rank NCBITaxon:subclass
+is_a: NCBITaxon:8492 ! Archosauria
+property_value: has_rank NCBITaxon:clade
+
+[Term]
+id: NCBITaxon:436489
+name: Saurischia
+namespace: ncbi_taxonomy
+xref: GC_ID:1
+is_a: NCBITaxon:436486 ! Dinosauria
+property_value: has_rank NCBITaxon:clade
+
+[Term]
+id: NCBITaxon:436491
+name: Theropoda
+namespace: ncbi_taxonomy
+xref: GC_ID:1
+is_a: NCBITaxon:436489 ! Saurischia
+property_value: has_rank NCBITaxon:clade
+
+[Term]
+id: NCBITaxon:436492
+name: Coelurosauria
+namespace: ncbi_taxonomy
+xref: GC_ID:1
+is_a: NCBITaxon:436491 ! Theropoda
+property_value: has_rank NCBITaxon:clade
 
 [Term]
 id: NCBITaxon:55879
@@ -25652,7 +25315,6 @@ id: NCBITaxon:6239
 name: Caenorhabditis elegans
 namespace: ncbi_taxonomy
 synonym: "Rhabditis elegans" RELATED synonym []
-synonym: "roundworm" EXACT common_name []
 xref: GC_ID:1
 is_a: NCBITaxon:6237 ! Caenorhabditis
 property_value: has_rank NCBITaxon:species
@@ -25698,66 +25360,29 @@ is_a: NCBITaxon:7742 ! Vertebrata <vertebrates>
 property_value: has_rank NCBITaxon:clade
 
 [Term]
-id: NCBITaxon:7898
-name: Actinopterygii
-namespace: ncbi_taxonomy
-synonym: "Actinopterygi" RELATED synonym []
-synonym: "bony fishes" RELATED blast_name []
-synonym: "fish" EXACT common_name []
-synonym: "fishes" EXACT common_name []
-synonym: "Osteichthyes" RELATED in_part []
-synonym: "ray-finned fishes" EXACT genbank_common_name []
-xref: GC_ID:1
-is_a: NCBITaxon:117571 ! Euteleostomi
-property_value: has_rank NCBITaxon:superclass
-
-[Term]
-id: NCBITaxon:7952
-name: Cypriniformes
-namespace: ncbi_taxonomy
-synonym: "carps and others" EXACT genbank_common_name []
-xref: GC_ID:1
-is_a: NCBITaxon:186627 ! Cypriniphysae
-property_value: has_rank NCBITaxon:order
-
-[Term]
-id: NCBITaxon:7954
-name: Danio
-namespace: ncbi_taxonomy
-alt_id: NCBITaxon:46777
-alt_id: NCBITaxon:487617
-synonym: "Brachydanio" RELATED synonym []
-synonym: "Celestichthys" RELATED synonym []
-xref: GC_ID:1
-is_a: NCBITaxon:2743711 ! Danioninae
-property_value: has_rank NCBITaxon:genus
-
-[Term]
-id: NCBITaxon:7955
-name: Danio rerio
-namespace: ncbi_taxonomy
-alt_id: NCBITaxon:27702
-alt_id: NCBITaxon:37966
-synonym: "Brachydanio rerio" RELATED synonym []
-synonym: "Brachydanio rerio frankei" RELATED synonym []
-synonym: "Cyprinus rerio" RELATED synonym []
-synonym: "Danio frankei" RELATED synonym []
-synonym: "Danio rerio frankei" RELATED synonym []
-synonym: "leopard danio" EXACT common_name []
-synonym: "zebra danio" EXACT common_name []
-synonym: "zebra fish" EXACT common_name []
-synonym: "zebrafish" EXACT genbank_common_name []
-xref: GC_ID:1
-is_a: NCBITaxon:7954 ! Danio
-property_value: has_rank NCBITaxon:species
-
-[Term]
 id: NCBITaxon:8287
 name: Sarcopterygii
 namespace: ncbi_taxonomy
 xref: GC_ID:1
 is_a: NCBITaxon:117571 ! Euteleostomi
 property_value: has_rank NCBITaxon:superclass
+
+[Term]
+id: NCBITaxon:8457
+name: Sauropsida
+namespace: ncbi_taxonomy
+synonym: "sauropsids" EXACT genbank_common_name []
+xref: GC_ID:1
+is_a: NCBITaxon:32524 ! Amniota
+property_value: has_rank NCBITaxon:clade
+
+[Term]
+id: NCBITaxon:8492
+name: Archosauria
+namespace: ncbi_taxonomy
+xref: GC_ID:1
+is_a: NCBITaxon:1329799 ! Archelosauria
+property_value: has_rank NCBITaxon:clade
 
 [Term]
 id: NCBITaxon:862507
@@ -25769,6 +25394,25 @@ is_a: NCBITaxon:10088 ! Mus <genus>
 property_value: has_rank NCBITaxon:subgenus
 
 [Term]
+id: NCBITaxon:8782
+name: Aves
+namespace: ncbi_taxonomy
+synonym: "avian" RELATED synonym []
+synonym: "birds" EXACT genbank_common_name []
+synonym: "birds" RELATED blast_name []
+xref: GC_ID:1
+is_a: NCBITaxon:436492 ! Coelurosauria
+property_value: has_rank NCBITaxon:class
+
+[Term]
+id: NCBITaxon:8825
+name: Neognathae
+namespace: ncbi_taxonomy
+xref: GC_ID:1
+is_a: NCBITaxon:8782 ! Aves
+property_value: has_rank NCBITaxon:infraclass
+
+[Term]
 id: NCBITaxon:89593
 name: Craniata <chordates>
 namespace: ncbi_taxonomy
@@ -25776,6 +25420,55 @@ synonym: "Craniata" EXACT scientific_name []
 xref: GC_ID:1
 is_a: NCBITaxon:7711 ! Chordata
 property_value: has_rank NCBITaxon:subphylum
+
+[Term]
+id: NCBITaxon:8976
+name: Galliformes
+namespace: ncbi_taxonomy
+synonym: "landfowls" EXACT genbank_common_name []
+xref: GC_ID:1
+is_a: NCBITaxon:1549675 ! Galloanserae
+property_value: has_rank NCBITaxon:order
+
+[Term]
+id: NCBITaxon:9005
+name: Phasianidae
+namespace: ncbi_taxonomy
+alt_id: NCBITaxon:9099
+synonym: "turkeys" EXACT genbank_common_name []
+xref: GC_ID:1
+is_a: NCBITaxon:8976 ! Galliformes
+property_value: has_rank NCBITaxon:family
+
+[Term]
+id: NCBITaxon:9030
+name: Gallus
+namespace: ncbi_taxonomy
+xref: GC_ID:1
+is_a: NCBITaxon:9072 ! Phasianinae
+property_value: has_rank NCBITaxon:genus
+
+[Term]
+id: NCBITaxon:9031
+name: Gallus gallus
+namespace: ncbi_taxonomy
+synonym: "bantam" EXACT common_name []
+synonym: "chicken" EXACT genbank_common_name []
+synonym: "chickens" EXACT common_name []
+synonym: "Gallus domesticus" EXACT equivalent_name []
+synonym: "Gallus gallus domesticus" RELATED synonym []
+synonym: "Phasianus gallus" RELATED synonym []
+xref: GC_ID:1
+is_a: NCBITaxon:9030 ! Gallus
+property_value: has_rank NCBITaxon:species
+
+[Term]
+id: NCBITaxon:9072
+name: Phasianinae
+namespace: ncbi_taxonomy
+xref: GC_ID:1
+is_a: NCBITaxon:9005 ! Phasianidae
+property_value: has_rank NCBITaxon:subfamily
 
 [Term]
 id: NCBITaxon:9347
@@ -25833,7 +25526,6 @@ id: NCBITaxon:9606
 name: Homo sapiens
 namespace: ncbi_taxonomy
 synonym: "human" EXACT genbank_common_name []
-synonym: "man" EXACT common_name []
 xref: GC_ID:1
 is_a: NCBITaxon:9605 ! Homo
 property_value: has_rank NCBITaxon:species
@@ -25847,6 +25539,12 @@ synonym: "rodents" RELATED blast_name []
 xref: GC_ID:1
 is_a: NCBITaxon:314147 ! Glires
 property_value: has_rank NCBITaxon:order
+
+[Term]
+id: PATO:0000001
+name: quality
+is_a: BFO:0000020 ! specifically dependent continuant
+property_value: IAO:0000589 "quality (PATO)" xsd:string
 
 [Typedef]
 id: BFO:0000062
@@ -25878,31 +25576,32 @@ is_transitive: true
 is_a: RO:0002222 ! temporally related to
 
 [Typedef]
-id: BFO:0000066
-name: occurs in
-def: "b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t" []
-comment: Paraphrase of definition: a relation between a process and an independent continuant, in which the process takes place entirely within the independent continuant
-subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
-subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
-subset: http://purl.obolibrary.org/obo/valid_for_gocam
-property_value: IAO:0000111 "occurs in" xsd:string
-property_value: IAO:0000118 "occurs_in" xsd:string
-property_value: IAO:0000118 "unfolds in" xsd:string
-property_value: IAO:0000118 "unfolds_in" xsd:string
-property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
-domain: BFO:0000003 ! occurrent
-range: BFO:0000004 ! independent continuant
-holds_over_chain: part_of BFO:0000066
-inverse_of: BFO:0000067 ! contains process
-transitive_over: part_of ! part of
+id: RO:0000052
+name: characteristic of
+def: "a relation between a specifically dependent continuant (the characteristic) and any other entity (the bearer), in which the characteristic depends on the bearer for its existence." []
+comment: Note that this relation was previously called "inheres in", but was changed to be called "characteristic of" because BFO2 uses "inheres in" in a more restricted fashion. This relation differs from BFO2:inheres_in in two respects: (1) it does not impose a range constraint, and thus it allows qualities of processes, as well as of information entities, whereas BFO2 restricts inheres_in to only apply to independent continuants (2) it is declared functional, i.e. something can only be a characteristic of one thing.
+property_value: IAO:0000111 "inheres in" xsd:string
+property_value: IAO:0000112 "this fragility is a characteristic of this vase" xsd:string
+property_value: IAO:0000112 "this red color is a characteristic of this apple" xsd:string
+property_value: IAO:0000118 "inheres_in" xsd:string
+property_value: RO:0001900 RO:0001901
+is_functional: true
+is_a: RO:0002314 ! characteristic of part of
+inverse_of: RO:0000053 ! has characteristic
 
 [Typedef]
-id: BFO:0000067
-name: contains process
-def: "[copied from inverse property 'occurs in'] b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t" []
-comment: Paraphrase of definition: a relation between an independent continuant and a process, in which the process takes place entirely within the independent continuant
-property_value: IAO:0000111 "site of" xsd:string
-property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
+id: RO:0000053
+name: has characteristic
+def: "Inverse of characteristic_of" []
+property_value: IAO:0000111 "bearer of" xsd:string
+property_value: IAO:0000112 "this apple is bearer of this red color" xsd:string
+property_value: IAO:0000112 "this vase is bearer of this fragility" xsd:string
+property_value: IAO:0000116 "A bearer can have many dependents, and its dependents can exist for different periods of time, but none of its dependents can exist when the bearer does not exist." xsd:string
+property_value: IAO:0000118 "bearer_of" xsd:string
+property_value: IAO:0000118 "is bearer of" xsd:string
+property_value: RO:0001900 RO:0001901
+range: BFO:0000020 ! specifically dependent continuant
+is_inverse_functional: true
 
 [Typedef]
 id: RO:0000056
@@ -25931,6 +25630,92 @@ property_value: IAO:0000118 "has_participant" xsd:string
 domain: BFO:0000003 ! occurrent
 range: BFO:0000002 ! continuant
 holds_over_chain: has_part RO:0000057
+
+[Typedef]
+id: RO:0000079
+name: function of
+def: "a relation between a function and an independent continuant (the bearer), in which the function specifically depends on the bearer for its existence" []
+comment: This relation is modeled after the BFO relation of the same name which was in BFO2, but is used in a more restricted sense - specifically, we model this relation as functional (inherited from characteristic-of). Note that this relation is now removed from BFO2020.
+property_value: IAO:0000112 "this catalysis function is a function of this enzyme" xsd:string
+property_value: IAO:0000116 "A function inheres in its bearer at all times for which the function exists, however the function need not be realized at all the times that the function exists." xsd:string
+property_value: IAO:0000118 "function_of" xsd:string
+property_value: IAO:0000118 "is function of" xsd:string
+domain: BFO:0000034 ! function
+is_a: RO:0000052 ! characteristic of
+inverse_of: RO:0000085 ! has function
+
+[Typedef]
+id: RO:0000080
+name: quality of
+def: "a relation between a quality and an independent continuant (the bearer), in which the quality specifically depends on the bearer for its existence" []
+comment: This relation is modeled after the BFO relation of the same name which was in BFO2, but is used in a more restricted sense - specifically, we model this relation as functional (inherited from characteristic-of). Note that this relation is now removed from BFO2020.
+property_value: IAO:0000112 "this red color is a quality of this apple" xsd:string
+property_value: IAO:0000116 "A quality inheres in its bearer at all times for which the quality exists." xsd:string
+property_value: IAO:0000118 "is quality of" xsd:string
+property_value: IAO:0000118 "quality_of" xsd:string
+is_a: RO:0000052 ! characteristic of
+inverse_of: RO:0000086 ! has quality
+
+[Typedef]
+id: RO:0000081
+name: role of
+def: "a relation between a role and an independent continuant (the bearer), in which the role specifically depends on the bearer for its existence" []
+comment: This relation is modeled after the BFO relation of the same name which was in BFO2, but is used in a more restricted sense - specifically, we model this relation as functional (inherited from characteristic-of). Note that this relation is now removed from BFO2020.
+property_value: IAO:0000112 "this investigator role is a role of this person" xsd:string
+property_value: IAO:0000116 "A role inheres in its bearer at all times for which the role exists, however the role need not be realized at all the times that the role exists." xsd:string
+property_value: IAO:0000118 "is role of" xsd:string
+property_value: IAO:0000118 "role_of" xsd:string
+is_a: RO:0000052 ! characteristic of
+inverse_of: RO:0000087 ! has role
+
+[Typedef]
+id: RO:0000085
+name: has function
+def: "a relation between an independent continuant (the bearer) and a function, in which the function specifically depends on the bearer for its existence" []
+property_value: IAO:0000112 "this enzyme has function this catalysis function (more colloquially: this enzyme has this catalysis function)" xsd:string
+property_value: IAO:0000116 "A bearer can have many functions, and its functions can exist for different periods of time, but none of its functions can exist when the bearer does not exist. A function need not be realized at all the times that the function exists." xsd:string
+property_value: IAO:0000118 "has_function" xsd:string
+domain: BFO:0000004 ! independent continuant
+range: BFO:0000034 ! function
+is_a: RO:0000053 ! has characteristic
+
+[Typedef]
+id: RO:0000086
+name: has quality
+def: "a relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence" []
+property_value: IAO:0000112 "this apple has quality this red color" xsd:string
+property_value: IAO:0000116 "A bearer can have many qualities, and its qualities can exist for different periods of time, but none of its qualities can exist when the bearer does not exist." xsd:string
+property_value: IAO:0000118 "has_quality" xsd:string
+range: BFO:0000019 ! quality
+is_a: RO:0000053 ! has characteristic
+
+[Typedef]
+id: RO:0000087
+name: has role
+def: "a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence" []
+property_value: IAO:0000112 "this person has role this investigator role (more colloquially: this person has this role of investigator)" xsd:string
+property_value: IAO:0000116 "A bearer can have many roles, and its roles can exist for different periods of time, but none of its roles can exist when the bearer does not exist. A role need not be realized at all the times that the role exists." xsd:string
+property_value: IAO:0000118 "has_role" xsd:string
+domain: BFO:0000004 ! independent continuant
+range: BFO:0000023 ! role
+is_a: RO:0000053 ! has characteristic
+
+[Typedef]
+id: RO:0000091
+name: has disposition
+def: "a relation between an independent continuant (the bearer) and a disposition, in which the disposition specifically depends on the bearer for its existence" []
+domain: BFO:0000004 ! independent continuant
+range: BFO:0000016 ! disposition
+is_a: RO:0000053 ! has characteristic
+inverse_of: RO:0000092 ! disposition of
+
+[Typedef]
+id: RO:0000092
+name: disposition of
+def: "inverse of has disposition" []
+comment: This relation is modeled after the BFO relation of the same name which was in BFO2, but is used in a more restricted sense - specifically, we model this relation as functional (inherited from characteristic-of). Note that this relation is now removed from BFO2020.
+subset: RO:0002259
+is_a: RO:0000052 ! characteristic of
 
 [Typedef]
 id: RO:0002013
@@ -26057,6 +25842,7 @@ property_value: RO:0001900 RO:0001901
 holds_over_chain: has_part part_of {http://purl.obolibrary.org/obo/RO_0002582="true"}
 holds_over_chain: has_part RO:0002131
 holds_over_chain: part_of part_of
+is_symmetric: true
 is_a: RO:0002323 ! mereotopologically related to
 transitive_over: part_of ! part of
 expand_expression_to: "http://purl.obolibrary.org/obo/BFO_0000051 some (http://purl.obolibrary.org/obo/BFO_0000050 some ?Y)" []
@@ -26126,12 +25912,10 @@ is_a: RO:0002388 ! has potential to directly develop into
 [Typedef]
 id: RO:0002211
 name: regulates
-def: "process(P1) regulates process(P2) iff: P1 results in the initiation or termination of P2 OR affects the frequency of its initiation or termination OR affects the magnitude or rate of output of P2." []
+def: "p regulates q iff p is causally upstream of q, the execution of p is not constant and varies according to specific conditions, and p influences the rate or magnitude of execution of q due to an effect either on some enabler of q or some enabler of a part of q." []
 subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
 subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
 subset: http://purl.obolibrary.org/obo/valid_for_gocam
-property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000116 "We use 'regulates' here to specifically imply control. However, many colloquial usages of the term correctly correspond to the weaker relation of 'causally upstream of or within' (aka influences). Consider relabeling to make things more explicit" xsd:string
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: IAO:0000117 "David Hill" xsd:string
 property_value: IAO:0000117 "Tanya Berardini" xsd:string
@@ -26151,7 +25935,7 @@ transitive_over: RO:0002025 ! has effector activity
 [Typedef]
 id: RO:0002212
 name: negatively regulates
-def: "Process(P1) negatively regulates process(P2) iff: P1 terminates P2, or P1 descreases the the frequency of initiation of P2 or the magnitude or rate of output of P2." []
+def: "p negatively regulates q iff p regulates q, and p decreases the rate or magnitude of execution of q." []
 subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
 subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
 subset: http://purl.obolibrary.org/obo/valid_for_gocam
@@ -26166,7 +25950,7 @@ inverse_of: RO:0002335 ! negatively regulated by
 [Typedef]
 id: RO:0002213
 name: positively regulates
-def: "Process(P1) postively regulates process(P2) iff: P1 initiates P2, or P1 increases the the frequency of initiation of P2 or the magnitude or rate of output of P2." []
+def: "p positively regulates q iff p regulates q, and p increases the rate or magnitude of execution of q." []
 subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
 subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
 subset: http://purl.obolibrary.org/obo/valid_for_gocam
@@ -26202,7 +25986,7 @@ name: capable of part of
 def: "c stands in this relationship to p if and only if there exists some p' such that c is capable_of p', and p' is part_of p." []
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: IAO:0000118 "has function in" xsd:string
-property_value: seeAlso "defining-property-chains-involving-reflexivity"
+property_value: seeAlso http://purl.obolibrary.org/obo/ro/docs/reflexivity/
 holds_over_chain: RO:0002215 part_of {http://purl.obolibrary.org/obo/RO_0002582="true"}
 is_a: RO:0002328 ! functionally related to
 is_a: RO:0002500 ! causal agent in process
@@ -26305,6 +26089,7 @@ is_a: RO:0002384 ! has developmental potential involving
 [Typedef]
 id: RO:0002304
 name: causally upstream of, positive effect
+def: "p is causally upstream of, positive effect q iff p is casually upstream of q, and the execution of p is required for the execution of q." []
 comment: holds between x and y if and only if x is causally upstream of y and the progression of x increases the frequency, rate or extent of y
 subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
 subset: http://purl.obolibrary.org/obo/valid_for_gocam
@@ -26316,11 +26101,27 @@ is_a: RO:0004047 ! causally upstream of or within, positive effect
 [Typedef]
 id: RO:0002305
 name: causally upstream of, negative effect
-comment: holds between x and y if and only if x is causally upstream of y and the progression of x decreases the frequency, rate or extent of y
+def: "p is causally upstream of, negative effect q iff p is casually upstream of q, and the execution of p decreases the execution of q." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
 property_value: http://purl.org/dc/terms/creator "cjm" xsd:string
 property_value: RO:0004050 RO:0002411
 is_a: RO:0002411 ! causally upstream of
 is_a: RO:0004046 ! causally upstream of or within, negative effect
+
+[Typedef]
+id: RO:0002314
+name: characteristic of part of
+def: "q characteristic of part of w if and only if there exists some p such that q inheres in p and p part of w." []
+property_value: IAO:0000116 "Because part_of is transitive, inheres in is a sub-relation of characteristic of part of" xsd:string
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000118 "inheres in part of" xsd:string
+property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/20064205
+property_value: RO:0001900 RO:0001901
+property_value: seeAlso http://purl.obolibrary.org/obo/ro/docs/reflexivity/
+holds_over_chain: RO:0000052 part_of {http://purl.obolibrary.org/obo/RO_0002582="true"}
+is_a: RO:0002502 ! depends on
+transitive_over: part_of ! part of
 
 [Typedef]
 id: RO:0002320
@@ -26347,6 +26148,7 @@ property_value: IAO:0000232 "Do not use this relation directly. It is ended as a
 [Typedef]
 id: RO:0002327
 name: enables
+def: "c enables p iff c is capable of p and c acts to execute p." []
 subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
 property_value: IAO:0000112 "a particular instances of akt-2 enables some instance of protein kinase activity" xsd:string
 property_value: IAO:0000117 "Chris Mungall" xsd:string
@@ -26356,7 +26158,6 @@ property_value: IAO:0000118 "has" xsd:string
 property_value: IAO:0000118 "is catalyzing" xsd:string
 property_value: IAO:0000118 "is executing" xsd:string
 property_value: IAO:0000232 "This relation differs from the parent relation 'capable of' in that the parent is weaker and only expresses a capability that may not be actually realized, whereas this relation is always realized." xsd:string
-property_value: IAO:0000232 "This relation is currently used experimentally by the Gene Ontology Consortium. It may not be stable and may be obsoleted at some future time." xsd:string
 is_a: RO:0002215 ! capable of
 inverse_of: RO:0002333 ! enabled by
 transitive_over: has_part ! has part
@@ -26492,21 +26293,48 @@ is_a: RO:0002404 ! causally downstream of
 inverse_of: RO:0002412 ! immediately causally upstream of
 
 [Typedef]
+id: RO:0002407
+name: indirectly positively regulates
+def: "p indirectly positively regulates q iff p is indirectly causally upstream of q and p positively regulates q." []
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000118 "indirectly activates" xsd:string
+property_value: RO:0002579 RO:0002213
+holds_over_chain: RO:0002409 RO:0002409
+holds_over_chain: RO:0002629 RO:0002407
+holds_over_chain: RO:0002629 RO:0002629
+is_transitive: true
+is_a: RO:0002213 ! positively regulates
+is_a: RO:0012012 ! indirectly regulates
+transitive_over: RO:0002629 ! directly positively regulates
+
+[Typedef]
+id: RO:0002409
+name: indirectly negatively regulates
+def: "p indirectly negatively regulates q iff p is indirectly causally upstream of q and p negatively regulates q." []
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000118 "indirectly inhibits" xsd:string
+property_value: RO:0002579 RO:0002212
+holds_over_chain: RO:0002630 RO:0002409
+holds_over_chain: RO:0002630 RO:0002630
+is_transitive: true
+is_a: RO:0002212 ! negatively regulates
+is_a: RO:0012012 ! indirectly regulates
+transitive_over: RO:0002630 ! directly negatively regulates
+
+[Typedef]
 id: RO:0002410
 name: causally related to
-def: "This relation groups causal relations between material entities and causal relations between processes" []
-property_value: IAO:0000114 IAO:0000428
-property_value: IAO:0000116 "This branch of the ontology deals with causal relations between entities. It is divided into two branches: causal relations between occurrents/processes, and causal relations between material entities. We take an 'activity flow-centric approach', with the former as primary, and define causal relations between material entities in terms of causal relations between occurrents.\n\nTo define causal relations in an activity-flow type network, we make use of 3 primitives:\n\n * Temporal: how do the intervals of the two occurrents relate? \n * Is the causal relation regulatory?\n * Is the influence positive or negative\n\nThe first of these can be formalized in terms of the Allen Interval Algebra. Informally, the 3 bins we care about are 'direct', 'indirect' or overlapping. Note that all causal relations should be classified under a RO temporal relation (see the branch under 'temporally related to'). Note that all causal relations are temporal, but not all temporal relations are causal. Two occurrents can be related in time without being causally connected. We take causal influence to be primitive, elucidated as being such that has the upstream changed, some qualities of the donwstream would necessarily be modified.\n\nFor the second, we consider a relationship to be regulatory if the system in which the activities occur is capable of altering the relationship to achieve some objective. This could include changing the rate of production of a molecule.\n\nFor the third, we consider the effect of the upstream process on the output(s) of the downstream process. If the level of output is increased, or the rate of production of the output is increased, then the direction is increased. Direction can be positive, negative or neutral or capable of either direction. Two positives in succession yield a positive, two negatives in succession yield a positive, otherwise the default assumption is that the net effect is canceled and the influence is neutral.\n\nEach of these 3 primitives can be composed to yield a cross-product of different relation types." xsd:string
+def: "relation that links two events, processes, states, or objects such that one event, process, state, or object (a cause) contributes to the production of another event, process, state, or object (an effect) where the cause is partly or wholly responsible for the effect, and the effect is partly or wholly dependent on the cause." [https://en.wikipedia.org/wiki/Causality]
+property_value: IAO:0000116 "This branch of the ontology deals with causal relations between entities. It is divided into two branches: causal relations between occurrents/processes, and causal relations between material entities. We take an 'activity flow-centric approach', with the former as primary, and define causal relations between material entities in terms of causal relations between occurrents.\n\nTo define causal relations in an activity-flow type network, we make use of 3 primitives:\n\n * Temporal: how do the intervals of the two occurrents relate? \n * Is the causal relation regulatory?\n * Is the influence positive or negative?\n\nThe first of these can be formalized in terms of the Allen Interval Algebra. Informally, the 3 bins we care about are 'direct', 'indirect' or overlapping. Note that all causal relations should be classified under a RO temporal relation (see the branch under 'temporally related to'). Note that all causal relations are temporal, but not all temporal relations are causal. Two occurrents can be related in time without being causally connected. We take causal influence to be primitive, elucidated as being such that has the upstream changed, some qualities of the donwstream would necessarily be modified.\n\nFor the second, we consider a relationship to be regulatory if the system in which the activities occur is capable of altering the relationship to achieve some objective. This could include changing the rate of production of a molecule.\n\nFor the third, we consider the effect of the upstream process on the output(s) of the downstream process. If the level of output is increased, or the rate of production of the output is increased, then the direction is increased. Direction can be positive, negative or neutral or capable of either direction. Two positives in succession yield a positive, two negatives in succession yield a positive, otherwise the default assumption is that the net effect is canceled and the influence is neutral.\n\nEach of these 3 primitives can be composed to yield a cross-product of different relation types." xsd:string
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: IAO:0000232 "Do not use this relation directly. It is intended as a grouping for a diverse set of relations, all involving cause and effect." xsd:string
 
 [Typedef]
 id: RO:0002411
 name: causally upstream of
-def: "p is causally upstream of q if and only if p precedes q and p and q are linked in a causal chain" []
+def: "p is causally upstream of q iff p is causally related to q, the end of p precedes the end of q, and p is not an occurrent part of q." []
 subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
 subset: http://purl.obolibrary.org/obo/valid_for_gocam
-property_value: IAO:0000114 IAO:0000428
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 is_transitive: true
 is_a: BFO:0000063 ! precedes
@@ -26515,8 +26343,7 @@ is_a: RO:0002418 ! causally upstream of or within
 [Typedef]
 id: RO:0002412
 name: immediately causally upstream of
-def: "p is immediately causally upstream of q iff both (a) p immediately precedes q and (b) p is causally upstream of q. In addition, the output of p  must be an input of q." []
-property_value: IAO:0000114 IAO:0000428
+def: "p is immediately causally upstream of q iff p is causally upstream of q, and the end of p is coincident with the beginning of q." []
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: RO:0002575 RO:0002411
 is_a: RO:0002090 ! immediately precedes
@@ -26525,7 +26352,7 @@ is_a: RO:0002411 ! causally upstream of
 [Typedef]
 id: RO:0002418
 name: causally upstream of or within
-def: "p 'causally upstream or within' q iff (1) the end of p is before the end of q and (2) the execution of p exerts some causal influence over the outputs of q; i.e. if p was abolished or the outputs of p were to be modified, this would necessarily affect q." []
+def: "p is 'causally upstream or within' q iff p is causally related to q, and the end of p precedes, or is coincident with, the end of q." []
 synonym: "affects" RELATED []
 property_value: IAO:0000116 "We would like to make this disjoint with 'preceded by', but this is prohibited in OWL2" xsd:string
 property_value: IAO:0000117 "Chris Mungall" xsd:string
@@ -26586,29 +26413,17 @@ is_a: RO:0002328 ! functionally related to
 is_a: RO:0002500 ! causal agent in process
 
 [Typedef]
-id: RO:0002432
-name: is active in
-def: "c executes activity in d if and only if c enables p and p occurs_in d.  Assuming no action at a distance by gene products, if a gene product enables (is capable of) a process that occurs in some structure, it must have at least some part in that structure." [GOC:cjm, GOC:dos]
-synonym: "enables activity in" EXACT []
-property_value: IAO:0000112 "A protein that enables activity in a cytosol." xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000118 "executes activity in" xsd:string
-holds_over_chain: RO:0002327 BFO:0000066 {http://purl.obolibrary.org/obo/RO_0002581="true"}
-is_a: RO:0002131 ! overlaps
-is_a: RO:0002328 ! functionally related to
-
-[Typedef]
 id: RO:0002434
 name: interacts with
 def: "A relationship that holds between two entities in which the processes executed by the two entities are causally connected." []
 subset: ro-eco
 synonym: "in pairwise interaction with" EXACT []
-property_value: http://xmlns.com/foaf/0.1/page https://github.com/oborel/obo-relations/wiki/InteractionRelations xsd:anyURI
+property_value: closeMatch http://purl.obolibrary.org/obo/MI_0914 xsd:anyURI
 property_value: IAO:0000116 "Considering relabeling as 'pairwise interacts with'" xsd:anyURI
 property_value: IAO:0000116 "This relation and all sub-relations can be applied to either (1) pairs of entities that are interacting at any moment of time (2) populations or species of entity whose members have the disposition to interact (3) classes whose members have the disposition to interact." xsd:string
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: IAO:0000232 "Note that this relationship type, and sub-relationship types may be redundant with process terms from other ontologies. For example, the symbiotic relationship hierarchy parallels GO. The relations are provided as a convenient shortcut. Consider using the more expressive processual form to capture your data. In the future, these relations will be linked to their cognate processes through rules." xsd:string
-property_value: seeAlso http://purl.obolibrary.org/obo/MI_0914 xsd:anyURI
+property_value: seeAlso http://purl.obolibrary.org/obo/ro/docs/interaction-relations/ xsd:anyURI
 domain: BFO:0000040 ! material entity
 range: BFO:0000040 ! material entity
 is_symmetric: true
@@ -26617,11 +26432,11 @@ is_symmetric: true
 id: RO:0002436
 name: molecularly interacts with
 def: "An interaction relationship in which the two partners are molecular entities that directly physically interact with each other for example via a stable binding interaction or a brief interaction during which one modifies the other." []
+property_value: closeMatch http://purl.obolibrary.org/obo/MI_0915 xsd:anyURI
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: IAO:0000118 "binds" xsd:string
 property_value: IAO:0000118 "molecularly binds with" xsd:string
 property_value: seeAlso ECO:0000353
-property_value: seeAlso http://purl.obolibrary.org/obo/MI_0915 xsd:anyURI
 is_symmetric: true
 is_a: RO:0002434 ! interacts with
 
@@ -26676,16 +26491,6 @@ property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: IAO:0000232 "This property or its subproperties is not to be used directly. These properties exist as helper properties that are used to support OWL reasoning." xsd:string
 
 [Typedef]
-id: RO:0002479
-name: has part that occurs in
-def: "p has part that occurs in c if and only if there exists some p1, such that p has_part p1, and p1 occurs in c." []
-subset: ro-eco
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-domain: BFO:0000003 ! occurrent
-range: BFO:0000004 ! independent continuant
-holds_over_chain: has_part BFO:0000066 {http://purl.obolibrary.org/obo/RO_0002581="true"}
-
-[Typedef]
 id: RO:0002481
 name: is kinase activity
 property_value: IAO:0000117 "Chris Mungall" xsd:string
@@ -26702,13 +26507,19 @@ inverse_of: RO:0002608 ! process has causal agent
 [Typedef]
 id: RO:0002501
 name: causal relation between processes
-def: "p is causally related to q if and only if p or any part of p and q or any part of q are linked by a chain of events where each event pair is one of direct activation or direct inhibition. p may be upstream, downstream, part of or a container of q." []
+def: "p is causally related to q if and only if p or any part of p and q or any part of q are linked by a chain of events where each event pair is one where the execution of p influences the execution of q. p may be upstream, downstream, part of, or a container of q." []
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
 property_value: IAO:0000232 "Do not use this relation directly. It is intended as a grouping for a diverse set of relations, all involving cause and effect." xsd:string
 domain: BFO:0000003 ! occurrent
 range: BFO:0000003 ! occurrent
 is_a: RO:0002410 ! causally related to
+
+[Typedef]
+id: RO:0002502
+name: depends on
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: seeAlso BFO:0000169
 
 [Typedef]
 id: RO:0002506
@@ -26733,9 +26544,9 @@ inverse_of: RO:0002566 ! causally influences
 [Typedef]
 id: RO:0002563
 name: interaction relation helper property
-property_value: http://xmlns.com/foaf/0.1/page https://github.com/oborel/obo-relations/wiki/InteractionRelations xsd:anyURI
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: seeAlso http://ontologydesignpatterns.org/wiki/Submissions:N-Ary_Relation_Pattern_%28OWL_2%29
+property_value: seeAlso http://purl.obolibrary.org/obo/ro/docs/interaction-relations/ xsd:anyURI
 is_a: RO:0002464 ! helper property (not for use in curation)
 
 [Typedef]
@@ -26759,7 +26570,7 @@ is_a: RO:0002506 ! causal relation between entities
 [Typedef]
 id: RO:0002578
 name: directly regulates
-def: "Process(P1) directly regulates process(P2) iff: P1 regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  regulates the kinase activity (P2) of protein B then P1 directly regulates P2." []
+def: "p directly regulates q iff p is immediately causally upstream of q and p regulates q." []
 subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
 subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
 subset: http://purl.obolibrary.org/obo/valid_for_gocam
@@ -26827,7 +26638,7 @@ is_a: RO:0002410 ! causally related to
 [Typedef]
 id: RO:0002629
 name: directly positively regulates
-def: "Process(P1) directly postively regulates process(P2) iff: P1 positively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding positively regulates the kinase activity (P2) of protein B then P1 directly positively regulates P2." []
+def: "p directly positively regulates q iff p is immediately causally upstream of q, and p positively regulates q." []
 subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
 subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
 subset: http://purl.obolibrary.org/obo/valid_for_gocam
@@ -26840,7 +26651,7 @@ is_a: RO:0002578 ! directly regulates
 [Typedef]
 id: RO:0002630
 name: directly negatively regulates
-def: "Process(P1) directly negatively regulates process(P2) iff: P1 negatively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  negatively regulates the kinase activity (P2) of protein B then P1 directly negatively regulates P2." []
+def: "p directly negatively regulates q iff p is immediately causally upstream of q, and p negatively regulates q." []
 subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
 subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
 subset: http://purl.obolibrary.org/obo/valid_for_gocam
@@ -26932,6 +26743,63 @@ range: BFO:0000040 ! material entity
 is_a: RO:0002566 ! causally influences
 
 [Typedef]
+id: RO:0012011
+name: indirectly causally upstream of
+def: "p is indirectly causally upstream of q iff p is causally upstream of q and there exists some process r such that p is causally upstream of r and r is causally upstream of q." []
+is_a: RO:0002411 ! causally upstream of
+created_by: pg
+creation_date: 2022-09-26T06:07:17Z
+
+[Typedef]
+id: RO:0012012
+name: indirectly regulates
+def: "p indirectly regulates q iff p is indirectly causally upstream of q and p regulates q." []
+is_a: RO:0002211 ! regulates
+is_a: RO:0012011 ! indirectly causally upstream of
+created_by: pg
+creation_date: 2022-09-26T06:08:01Z
+
+[Typedef]
+id: RO:0017001
+name: device utilizes material
+def: "X device utilizes material Y means X and Y are material entities, and X is capable of some process P that has input Y." []
+synonym: "utilizes" BROAD []
+property_value: IAO:0000112 "A diagnostic testing device utilizes a specimen." xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0001-9625-1899 xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0003-2620-0345 xsd:string
+property_value: IAO:0000232 "A diagnostic testing device utilizes a specimen means that the diagnostic testing device is capable of an assay, and this assay a specimen as its input." xsd:string
+property_value: IAO:0000232 "See github ticket https://github.com/oborel/obo-relations/issues/497" xsd:string
+holds_over_chain: RO:0002215 RO:0002233
+creation_date: 2021-11-08T12:00:00Z
+
+[Typedef]
+id: RO:0019000
+name: regulates characteristic
+def: "A relationship that holds between a process and a characteristic in which process (P) regulates characteristic (C) iff: P results in the existence of C OR affects the intensity or magnitude of C." []
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-8688-6599
+domain: BFO:0000015 ! process
+range: PATO:0000001 ! quality
+holds_over_chain: RO:0002211 RO:0019000
+is_a: RO:0002410 ! causally related to
+
+[Typedef]
+id: RO:0019001
+name: positively regulates characteristic
+def: "A relationship that holds between a process and a characteristic in which process (P) positively regulates characteristic (C) iff: P results in an increase in the intensity or magnitude of C." []
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-8688-6599
+holds_over_chain: RO:0002213 RO:0019001
+is_a: RO:0019000 ! regulates characteristic
+
+[Typedef]
+id: RO:0019002
+name: negatively regulates characteristic
+def: "A relationship that holds between a process and a characteristic in which process (P) negatively regulates characteristic (C) iff: P results in a decrease in the intensity or magnitude of C." []
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-8688-6599
+holds_over_chain: RO:0002212 RO:0019001
+holds_over_chain: RO:0002213 RO:0019002
+is_a: RO:0019000 ! regulates characteristic
+
+[Typedef]
 id: has_part
 name: has part
 namespace: external
@@ -26945,7 +26813,7 @@ property_value: IAO:0000112 "my body has part my brain (continuant parthood, two
 property_value: IAO:0000112 "my stomach has part my stomach cavity (continuant parthood, material entity has part immaterial entity)" xsd:string
 property_value: IAO:0000112 "this year has part this day (occurrent parthood)" xsd:string
 property_value: IAO:0000116 "Everything has itself as a part. Any part of any part of a thing is itself part of that thing. Two distinct things cannot have each other as a part." xsd:string
-property_value: IAO:0000116 "Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See https://code.google.com/p/obo-relations/wiki/ROAndTime" xsd:string
+property_value: IAO:0000116 "Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/" xsd:string
 property_value: IAO:0000116 "Parthood requires the part and the whole to have compatible classes: only an occurrent have an occurrent as part; only a process can have a process as part; only a continuant can have a continuant as part; only an independent continuant can have an independent continuant as part; only a specifically dependent continuant can have a specifically dependent continuant as part; only a generically dependent continuant can have a generically dependent continuant as part. (This list is not exhaustive.)\n\nA continuant cannot have an occurrent as part: use 'participates in'. An occurrent cannot have a continuant as part: use 'has participant'. An immaterial entity cannot have a material entity as part: use 'location of'. An independent continuant cannot have a specifically dependent continuant as part: use 'bearer of'. A specifically dependent continuant cannot have an independent continuant as part: use 'inheres in'." xsd:string
 property_value: IAO:0000118 "has_part" xsd:string
 property_value: RO:0001900 RO:0001901
@@ -26967,7 +26835,7 @@ property_value: IAO:0000112 "my brain is part of my body (continuant parthood, t
 property_value: IAO:0000112 "my stomach cavity is part of my stomach (continuant parthood, immaterial entity is part of material entity)" xsd:string
 property_value: IAO:0000112 "this day is part of this year (occurrent parthood)" xsd:string
 property_value: IAO:0000116 "Everything is part of itself. Any part of any part of a thing is itself part of that thing. Two distinct things cannot be part of each other." xsd:string
-property_value: IAO:0000116 "Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See https://code.google.com/p/obo-relations/wiki/ROAndTime" xsd:string
+property_value: IAO:0000116 "Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/" xsd:string
 property_value: IAO:0000116 "Parthood requires the part and the whole to have compatible classes: only an occurrent can be part of an occurrent; only a process can be part of a process; only a continuant can be part of a continuant; only an independent continuant can be part of an independent continuant; only an immaterial entity can be part of an immaterial entity; only a specifically dependent continuant can be part of a specifically dependent continuant; only a generically dependent continuant can be part of a generically dependent continuant. (This list is not exhaustive.)\n\nA continuant cannot be part of an occurrent: use 'participates in'. An occurrent cannot be part of a continuant: use 'has participant'. A material entity cannot be part of an immaterial entity: use 'has location'. A specifically dependent continuant cannot be part of an independent continuant: use 'inheres in'. An independent continuant cannot be part of a specifically dependent continuant: use 'bearer of'." xsd:string
 property_value: IAO:0000118 "part_of" xsd:string
 property_value: RO:0001900 RO:0001901
