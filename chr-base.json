@@ -16,9 +16,9 @@
         "val" : "https://creativecommons.org/publicdomain/zero/1.0/"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2023-02-19"
+        "val" : "2024-08-06"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/chr/releases/2023-02-19/chr-base.json"
+      "version" : "http://purl.obolibrary.org/obo/chr/releases/2024-08-06/chr-base.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/CHR_10090-chr1",
@@ -15662,6 +15662,679 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_7955-chr1",
+      "lbl" : "chromosome 1 (Danio rerio)",
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "1"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM002885.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_007112.6"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "58871917"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "danRer10"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_7955-chr10",
+      "lbl" : "chromosome 10 (Danio rerio)",
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "10"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM002894.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_007121.6"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "45574255"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "danRer10"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_7955-chr11",
+      "lbl" : "chromosome 11 (Danio rerio)",
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "11"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM002895.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_007122.6"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "45107271"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "danRer10"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_7955-chr12",
+      "lbl" : "chromosome 12 (Danio rerio)",
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "12"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM002896.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_007123.6"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "49229541"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "danRer10"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_7955-chr13",
+      "lbl" : "chromosome 13 (Danio rerio)",
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "13"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM002897.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_007124.6"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "51780250"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "danRer10"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_7955-chr14",
+      "lbl" : "chromosome 14 (Danio rerio)",
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "14"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM002898.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_007125.6"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "51944548"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "danRer10"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_7955-chr15",
+      "lbl" : "chromosome 15 (Danio rerio)",
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "15"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM002899.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_007126.6"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "47771147"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "danRer10"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_7955-chr16",
+      "lbl" : "chromosome 16 (Danio rerio)",
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "16"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM002900.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_007127.6"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "55381981"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "danRer10"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_7955-chr17",
+      "lbl" : "chromosome 17 (Danio rerio)",
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "17"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM002901.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_007128.6"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "53345113"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "danRer10"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_7955-chr18",
+      "lbl" : "chromosome 18 (Danio rerio)",
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "18"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM002902.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_007129.6"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "51008593"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "danRer10"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_7955-chr19",
+      "lbl" : "chromosome 19 (Danio rerio)",
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "19"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM002903.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_007130.6"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "48790377"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "danRer10"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_7955-chr2",
+      "lbl" : "chromosome 2 (Danio rerio)",
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "2"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM002886.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_007113.6"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "59543403"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "danRer10"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_7955-chr20",
+      "lbl" : "chromosome 20 (Danio rerio)",
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "20"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM002904.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_007131.6"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "55370968"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "danRer10"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_7955-chr21",
+      "lbl" : "chromosome 21 (Danio rerio)",
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "21"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM002905.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_007132.6"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "45895719"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "danRer10"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_7955-chr22",
+      "lbl" : "chromosome 22 (Danio rerio)",
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "22"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM002906.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_007133.6"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "39226288"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "danRer10"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_7955-chr23",
+      "lbl" : "chromosome 23 (Danio rerio)",
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "23"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM002907.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_007134.6"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "46272358"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "danRer10"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_7955-chr24",
+      "lbl" : "chromosome 24 (Danio rerio)",
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "24"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM002908.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_007135.6"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "42251103"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "danRer10"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_7955-chr25",
+      "lbl" : "chromosome 25 (Danio rerio)",
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "25"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM002909.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_007136.6"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "36898761"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "danRer10"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_7955-chr3",
+      "lbl" : "chromosome 3 (Danio rerio)",
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "3"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM002887.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_007114.6"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "62385949"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "danRer10"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_7955-chr4",
+      "lbl" : "chromosome 4 (Danio rerio)",
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "4"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM002888.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_007115.6"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "76625712"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "danRer10"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_7955-chr5",
+      "lbl" : "chromosome 5 (Danio rerio)",
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "5"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM002889.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_007116.6"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "71715914"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "danRer10"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_7955-chr6",
+      "lbl" : "chromosome 6 (Danio rerio)",
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "6"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM002890.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_007117.6"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "60272633"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "danRer10"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_7955-chr7",
+      "lbl" : "chromosome 7 (Danio rerio)",
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "7"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM002891.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_007118.6"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "74082188"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "danRer10"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_7955-chr8",
+      "lbl" : "chromosome 8 (Danio rerio)",
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "8"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM002892.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_007119.6"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "54191831"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "danRer10"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_7955-chr9",
+      "lbl" : "chromosome 9 (Danio rerio)",
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "9"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM002893.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_007120.6"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "56892771"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "danRer10"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_7955-chrM",
+      "lbl" : "chromosome M (Danio rerio)",
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "MT"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_002333.2"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "16596"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "danRer10"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/CHR_9031-chr1",
       "lbl" : "chromosome 1 (Chicken)",
       "type" : "CLASS",
@@ -17321,6 +17994,1504 @@
         }, {
           "pred" : "https://w3id.org/biolink/vocab/genome_build",
           "val" : "galGal6"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr1",
+      "lbl" : "chromosome 1 (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM018917.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_048383.1"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "217961735"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr10",
+      "lbl" : "chromosome 10 (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM018926.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_048392.1"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "137671225"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr10cen",
+      "lbl" : "10cen (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "26000075"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "25500075"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr10p",
+      "lbl" : "10p (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "25000075"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr10q",
+      "lbl" : "10q (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "137671225"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "26000075"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr11",
+      "lbl" : "chromosome 11 (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM018927.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_048393.1"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "129688756"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr11cen",
+      "lbl" : "11cen (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "34586013"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "34086013"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr11p",
+      "lbl" : "11p (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "33586013"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr11q",
+      "lbl" : "11q (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "129688756"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "34586013"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr12",
+      "lbl" : "chromosome 12 (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM018928.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_048394.1"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "124486764"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr12cen",
+      "lbl" : "12cen (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "30927646"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "30427646"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr12p",
+      "lbl" : "12p (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "29927646"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr12q",
+      "lbl" : "12q (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "124486764"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "30927646"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr13",
+      "lbl" : "chromosome 13 (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM018929.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_048395.1"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "118934817"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr13cen",
+      "lbl" : "13cen (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "43699764"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "43199764"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr13p",
+      "lbl" : "13p (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "42699764"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr13q",
+      "lbl" : "13q (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "118934817"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "43699764"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr14",
+      "lbl" : "chromosome 14 (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM018930.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_048396.1"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "112090317"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "500000"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr14cen",
+      "lbl" : "14cen (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "1000000"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "500000"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr14q",
+      "lbl" : "14q (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "112090317"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "1000000"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr15",
+      "lbl" : "chromosome 15 (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM018931.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_048397.1"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "99198953"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "500000"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr15cen",
+      "lbl" : "15cen (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "1000000"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "500000"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr15q",
+      "lbl" : "15q (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "99198953"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "1000000"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr16",
+      "lbl" : "chromosome 16 (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM018932.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_048398.1"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "97817134"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "500000"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr16cen",
+      "lbl" : "16cen (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "1000000"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "500000"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr16q",
+      "lbl" : "16q (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "97817134"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "1000000"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr17",
+      "lbl" : "chromosome 17 (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM018933.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_048399.1"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "74942703"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "500000"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr17cen",
+      "lbl" : "17cen (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "1000000"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "500000"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr17q",
+      "lbl" : "17q (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "74942703"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "1000000"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr18",
+      "lbl" : "chromosome 18 (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM018934.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_048400.1"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "47031477"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "500000"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr18cen",
+      "lbl" : "18cen (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "1000000"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "500000"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr18q",
+      "lbl" : "18q (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "47031477"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "1000000"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr19",
+      "lbl" : "chromosome 19 (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM018935.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_048401.1"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "51570929"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "500000"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr19cen",
+      "lbl" : "19cen (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "1000000"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "500000"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr19q",
+      "lbl" : "19q (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "51570929"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "1000000"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr1cen",
+      "lbl" : "1cen (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "81783914"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "81283914"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr1p",
+      "lbl" : "1p (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "80783914"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr1q",
+      "lbl" : "1q (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "217961735"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "81783914"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr2",
+      "lbl" : "chromosome 2 (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM018918.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_048384.1"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "204486479"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr20",
+      "lbl" : "chromosome 20 (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM018936.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_048402.1"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "45615054"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "500000"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr20cen",
+      "lbl" : "20cen (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "1000000"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "500000"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr20q",
+      "lbl" : "20q (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "45615054"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "1000000"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr21",
+      "lbl" : "chromosome 21 (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM018937.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_048403.1"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "51259342"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr22",
+      "lbl" : "chromosome 22 (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM018938.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_048404.1"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "51300780"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr22cen",
+      "lbl" : "22cen (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "24196811"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "23696811"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr22p",
+      "lbl" : "22p (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "23196811"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr22q",
+      "lbl" : "22q (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "51300780"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "24196811"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr2cen",
+      "lbl" : "2cen (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "59260311"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "58760311"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr2p",
+      "lbl" : "2p (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "58260311"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr2q",
+      "lbl" : "2q (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "204486479"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "59260311"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr3",
+      "lbl" : "chromosome 3 (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM018919.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_048385.1"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "191910223"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr3cen",
+      "lbl" : "3cen (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "26663142"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "26163142"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr3p",
+      "lbl" : "3p (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "25663142"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr3q",
+      "lbl" : "3q (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "191910223"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "26663142"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr4",
+      "lbl" : "chromosome 4 (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM018920.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_048386.1"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "174041770"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr4cen",
+      "lbl" : "4cen (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "31853243"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "31353243"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr4p",
+      "lbl" : "4p (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "30853243"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr4q",
+      "lbl" : "4q (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "174041770"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "31853243"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr5",
+      "lbl" : "chromosome 5 (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM018921.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_048387.1"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "164351765"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr5cen",
+      "lbl" : "5cen (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "59097111"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "58597111"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr5p",
+      "lbl" : "5p (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "58097111"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr5q",
+      "lbl" : "5q (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "164351765"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "59097111"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr6",
+      "lbl" : "chromosome 6 (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM018922.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_048388.1"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "161003406"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr6cen",
+      "lbl" : "6cen (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "30512457"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "30012457"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr6p",
+      "lbl" : "6p (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "29512457"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr6q",
+      "lbl" : "6q (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "161003406"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "30512457"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr7",
+      "lbl" : "chromosome 7 (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM018923.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_048389.1"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "157546058"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr7cen",
+      "lbl" : "7cen (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "37306574"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "36806574"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr7p",
+      "lbl" : "7p (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "36306574"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr7q",
+      "lbl" : "7q (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "157546058"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "37306574"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr8",
+      "lbl" : "chromosome 8 (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM018924.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_048390.1"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "126850804"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr8cen",
+      "lbl" : "8cen (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "24112397"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "23612397"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr8p",
+      "lbl" : "8p (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "23112397"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr8q",
+      "lbl" : "8q (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "126850804"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "24112397"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr9",
+      "lbl" : "chromosome 9 (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM018925.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_048391.1"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "134044658"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr9cen",
+      "lbl" : "9cen (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "24434627"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "23934627"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr9p",
+      "lbl" : "9p (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "23434627"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chr9q",
+      "lbl" : "9q (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "134044658"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "24434627"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chrM",
+      "lbl" : "chromosome M (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "MT"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/KM588314.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_025586.1"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "16499"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chrX",
+      "lbl" : "chromosome X (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM018939.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_048405.1"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "148168104"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chrXcen",
+      "lbl" : "Xcen (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "57661510"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "57161510"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chrXp",
+      "lbl" : "Xp (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "56661510"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chrXq",
+      "lbl" : "Xq (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "148168104"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "57661510"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHR_9483-chrY",
+      "lbl" : "chromosome Y (Marmoset)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/insdc/CM023155.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://identifiers.org/refseq/NC_048406.1"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/end",
+          "val" : "8228174"
+        }, {
+          "pred" : "https://w3id.org/biodatamodels/gff/start",
+          "val" : "0"
+        }, {
+          "pred" : "https://w3id.org/biolink/vocab/genome_build",
+          "val" : "calJac4"
         } ]
       }
     }, {
@@ -38857,6 +41028,101 @@
           "val" : "hg38"
         } ]
       }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0000803",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0000804",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0000805",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0000806",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0000807",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005694",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005739",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0030849",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0098687",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_10090",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_10116",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_6239",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_7955",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_9031",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_9483",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT"
+    }, {
+      "id" : "http://purl.org/dc/elements/1.1/description",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.org/dc/elements/1.1/title",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.org/dc/elements/1.1/type",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.org/dc/terms/license",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "https://w3id.org/biodatamodels/gff/end",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "https://w3id.org/biodatamodels/gff/start",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "https://w3id.org/biolink/vocab/genome_build",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
     } ],
     "edges" : [ {
       "sub" : "http://purl.obolibrary.org/obo/CHR_10090-chr1",
@@ -50439,6 +52705,418 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_6239"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr1",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr1",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr1",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr1",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_7955"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr10",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr10",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr10",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr10",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_7955"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr11",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr11",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr11",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr11",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_7955"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr12",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr12",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr12",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr12",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_7955"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr13",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr13",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr13",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr13",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_7955"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr14",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr14",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr14",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr14",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_7955"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr15",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr15",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr15",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr15",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_7955"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr16",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr16",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr16",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr16",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_7955"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr17",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr17",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr17",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr17",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_7955"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr18",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr18",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr18",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr18",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_7955"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr19",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr19",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr19",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr19",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_7955"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr2",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr2",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr2",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr2",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_7955"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr20",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr20",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr20",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr20",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_7955"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr21",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr21",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr21",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr21",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_7955"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr22",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr22",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr22",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr22",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_7955"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr23",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr23",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr23",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr23",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_7955"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr24",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr24",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr24",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr24",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_7955"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr25",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr25",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr25",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr25",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_7955"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr3",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr3",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr3",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr3",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_7955"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr4",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr4",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr4",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr4",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_7955"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr5",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr5",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr5",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr5",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_7955"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr6",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr6",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr6",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr6",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_7955"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr7",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr7",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr7",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr7",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_7955"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr8",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr8",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr8",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr8",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_7955"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr9",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr9",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr9",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chr9",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_7955"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chrM",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chrM",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005739"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_7955-chrM",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_7955"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHR_9031-chr1",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
@@ -51566,6 +54244,1118 @@
       "sub" : "http://purl.obolibrary.org/obo/CHR_9031-chrZ",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9031"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr1",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr1",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr1",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr1",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr10",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr10",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr10",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr10",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr10cen",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr10cen",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr10"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr10cen",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr10p",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr10p",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr10"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr10p",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr10q",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr10q",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr10"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr10q",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr11",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr11",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr11",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr11",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr11cen",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr11cen",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr11"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr11cen",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr11p",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr11p",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr11"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr11p",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr11q",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr11q",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr11"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr11q",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr12",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr12",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr12",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr12",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr12cen",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr12cen",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr12"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr12cen",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr12p",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr12p",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr12"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr12p",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr12q",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr12q",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr12"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr12q",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr13",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr13",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr13",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr13",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr13cen",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr13cen",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr13"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr13cen",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr13p",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr13p",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr13"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr13p",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr13q",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr13q",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr13"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr13q",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr14",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr14",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr14",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr14",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr14cen",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr14cen",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr14"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr14cen",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr14q",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr14q",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr14"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr14q",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr15",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr15",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr15",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr15",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr15cen",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr15cen",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr15"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr15cen",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr15q",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr15q",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr15"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr15q",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr16",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr16",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr16",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr16",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr16cen",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr16cen",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr16"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr16cen",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr16q",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr16q",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr16"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr16q",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr17",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr17",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr17",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr17",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr17cen",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr17cen",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr17"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr17cen",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr17q",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr17q",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr17"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr17q",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr18",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr18",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr18",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr18",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr18cen",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr18cen",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr18"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr18cen",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr18q",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr18q",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr18"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr18q",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr19",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr19",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr19",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr19",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr19cen",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr19cen",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr19"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr19cen",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr19q",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr19q",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr19"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr19q",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr1cen",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr1cen",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr1"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr1cen",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr1p",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr1p",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr1"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr1p",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr1q",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr1q",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr1"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr1q",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr2",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr2",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr2",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr2",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr20",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr20",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr20",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr20",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr20cen",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr20cen",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr20"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr20cen",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr20q",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr20q",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr20"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr20q",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr21",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr21",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr21",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr21",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr22",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr22",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr22",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr22",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr22cen",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr22cen",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr22"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr22cen",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr22p",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr22p",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr22"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr22p",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr22q",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr22q",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr22"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr22q",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr2cen",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr2cen",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr2cen",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr2p",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr2p",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr2p",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr2q",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr2q",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr2q",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr3",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr3",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr3",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr3",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr3cen",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr3cen",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr3"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr3cen",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr3p",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr3p",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr3"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr3p",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr3q",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr3q",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr3"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr3q",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr4",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr4",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr4",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr4",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr4cen",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr4cen",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr4"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr4cen",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr4p",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr4p",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr4"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr4p",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr4q",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr4q",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr4"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr4q",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr5",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr5",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr5",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr5",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr5cen",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr5cen",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr5"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr5cen",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr5p",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr5p",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr5"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr5p",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr5q",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr5q",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr5"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr5q",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr6",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr6",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr6",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr6",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr6cen",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr6cen",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr6"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr6cen",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr6p",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr6p",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr6"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr6p",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr6q",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr6q",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr6"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr6q",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr7",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr7",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr7",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr7",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr7cen",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr7cen",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr7"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr7cen",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr7p",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr7p",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr7"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr7p",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr7q",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr7q",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr7"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr7q",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr8",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr8",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr8",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr8",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr8cen",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr8cen",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr8"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr8cen",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr8p",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr8p",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr8"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr8p",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr8q",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr8q",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr8"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr8q",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr9",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr9",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0030849"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr9",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr9",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr9cen",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr9cen",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr9"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr9cen",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr9p",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr9p",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr9"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr9p",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr9q",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr9q",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chr9"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chr9q",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chrM",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chrM",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005739"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chrM",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chrX",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0000803"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chrX",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0000805"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chrX",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chrX",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chrX",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chrXcen",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chrXcen",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chrX"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chrXcen",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chrXp",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chrXp",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chrX"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chrXp",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chrXq",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098687"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chrXq",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHR_9483-chrX"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chrXq",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chrY",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0000803"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chrY",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0000806"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chrY",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005694"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chrY",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0005634"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHR_9483-chrY",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9483"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHR_9606-chr1",
       "pred" : "is_a",

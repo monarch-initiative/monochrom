@@ -86,7 +86,7 @@ http://purl.obolibrary.org/obo/chr.owl  (once this ontology is registered)
 From the top level of this repo:
 
 ```bash
-pip install -r requirements.txt
+poetry install
 make
 ```
 
@@ -99,7 +99,7 @@ make prepare_release
 
 The [Makefile](Makefile) and the metadata file [genomes.yaml](genomes.yaml) drive the python code in [monochrom/](monochrom/).
 
-To add more genomes, it is necessary to etxend both the Makefile and the genomes metadata file, but this could be made more elegant in the future.
+To add more genomes, it is necessary to extend both the Makefile and the genomes metadata file, but this could be made more elegant in the future.
 
 If you wish to modify the code, here is how it is structured, and the underlying philosophy.
 

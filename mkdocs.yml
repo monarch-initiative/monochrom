@@ -1,4 +1,7 @@
 site_name: "Chromosome Ontology"
-theme: readthedocs
+theme:
+  name: readthedocs
+  analytics:
+    gtag: G-2SYBSJVZ23
 nav:
   - Index: index.md

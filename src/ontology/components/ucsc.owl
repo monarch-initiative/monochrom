@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/chr/src/ontology/components/ucsc.owl#"
      xml:base="http://purl.obolibrary.org/obo/chr/src/ontology/components/ucsc.owl"
+     xmlns:CHR="http://purl.obolibrary.org/obo/CHR_"
      xmlns:gff="https://w3id.org/biodatamodels/gff/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -8,12 +9,15 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:insdc="http://identifiers.org/insdc/"
      xmlns:vocab="https://w3id.org/biolink/vocab/"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+     xmlns:refseq="http://identifiers.org/refseq/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:NCBITaxon="http://purl.obolibrary.org/obo/NCBITaxon_">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/chr/src/ontology/components/ucsc.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/chr/releases/2023-02-19/src/ontology/components/ucsc.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/chr/releases/2024-08-06/src/ontology/components/ucsc.owl"/>
         <rdfs:label>Chromosome Ontology</rdfs:label>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-02-19</owl:versionInfo>
+        <owl:versionInfo>2024-08-06</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -23021,6 +23025,732 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHR_7955-chr1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_7955-chr1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7955"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>1</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 1 (Danio rerio)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM002885.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_007112.6"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58871917</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>danRer10</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_7955-chr10 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_7955-chr10">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7955"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>10</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 10 (Danio rerio)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM002894.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_007121.6"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45574255</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>danRer10</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_7955-chr11 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_7955-chr11">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7955"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>11</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 11 (Danio rerio)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM002895.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_007122.6"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45107271</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>danRer10</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_7955-chr12 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_7955-chr12">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7955"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>12</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 12 (Danio rerio)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM002896.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_007123.6"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49229541</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>danRer10</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_7955-chr13 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_7955-chr13">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7955"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>13</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 13 (Danio rerio)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM002897.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_007124.6"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51780250</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>danRer10</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_7955-chr14 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_7955-chr14">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7955"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>14</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 14 (Danio rerio)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM002898.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_007125.6"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51944548</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>danRer10</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_7955-chr15 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_7955-chr15">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7955"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>15</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 15 (Danio rerio)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM002899.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_007126.6"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47771147</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>danRer10</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_7955-chr16 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_7955-chr16">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7955"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>16</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 16 (Danio rerio)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM002900.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_007127.6"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55381981</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>danRer10</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_7955-chr17 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_7955-chr17">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7955"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>17</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 17 (Danio rerio)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM002901.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_007128.6"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53345113</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>danRer10</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_7955-chr18 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_7955-chr18">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7955"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>18</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 18 (Danio rerio)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM002902.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_007129.6"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51008593</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>danRer10</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_7955-chr19 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_7955-chr19">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7955"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>19</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 19 (Danio rerio)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM002903.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_007130.6"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48790377</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>danRer10</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_7955-chr2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_7955-chr2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7955"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>2</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 2 (Danio rerio)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM002886.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_007113.6"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59543403</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>danRer10</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_7955-chr20 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_7955-chr20">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7955"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>20</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 20 (Danio rerio)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM002904.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_007131.6"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55370968</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>danRer10</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_7955-chr21 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_7955-chr21">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7955"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>21</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 21 (Danio rerio)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM002905.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_007132.6"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45895719</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>danRer10</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_7955-chr22 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_7955-chr22">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7955"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>22</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 22 (Danio rerio)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM002906.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_007133.6"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39226288</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>danRer10</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_7955-chr23 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_7955-chr23">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7955"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>23</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 23 (Danio rerio)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM002907.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_007134.6"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46272358</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>danRer10</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_7955-chr24 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_7955-chr24">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7955"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>24</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 24 (Danio rerio)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM002908.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_007135.6"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42251103</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>danRer10</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_7955-chr25 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_7955-chr25">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7955"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>25</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 25 (Danio rerio)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM002909.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_007136.6"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36898761</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>danRer10</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_7955-chr3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_7955-chr3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7955"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>3</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 3 (Danio rerio)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM002887.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_007114.6"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62385949</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>danRer10</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_7955-chr4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_7955-chr4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7955"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>4</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 4 (Danio rerio)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM002888.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_007115.6"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76625712</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>danRer10</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_7955-chr5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_7955-chr5">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7955"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>5</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 5 (Danio rerio)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM002889.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_007116.6"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71715914</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>danRer10</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_7955-chr6 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_7955-chr6">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7955"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>6</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 6 (Danio rerio)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM002890.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_007117.6"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60272633</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>danRer10</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_7955-chr7 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_7955-chr7">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7955"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>7</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 7 (Danio rerio)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM002891.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_007118.6"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74082188</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>danRer10</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_7955-chr8 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_7955-chr8">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7955"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>8</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 8 (Danio rerio)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM002892.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_007119.6"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54191831</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>danRer10</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_7955-chr9 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_7955-chr9">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7955"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>9</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome 9 (Danio rerio)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM002893.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_007120.6"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56892771</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>danRer10</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_7955-chrM -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_7955-chrM">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005739"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7955"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>MT</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome M (Danio rerio)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_002333.2"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16596</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>danRer10</vocab:genome_build>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHR_9031-chr1 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9031-chr1">
@@ -25126,6 +25856,2099 @@
         <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">82529921</gff:end>
         <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
         <vocab:genome_build>galGal6</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>chromosome 1 (Marmoset)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM018917.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_048383.1"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">217961735</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr10 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr10">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>chromosome 10 (Marmoset)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM018926.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_048392.1"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">137671225</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr10cen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr10cen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr10"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>10cen (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26000075</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25500075</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr10p -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr10p">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr10"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>10p (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25000075</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr10q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr10q">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr10"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>10q (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">137671225</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26000075</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr11 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr11">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>chromosome 11 (Marmoset)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM018927.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_048393.1"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">129688756</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr11cen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr11cen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr11"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>11cen (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34586013</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34086013</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr11p -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr11p">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr11"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>11p (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33586013</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr11q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr11q">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr11"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>11q (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">129688756</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34586013</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr12 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr12">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>chromosome 12 (Marmoset)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM018928.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_048394.1"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124486764</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr12cen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr12cen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr12"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>12cen (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30927646</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30427646</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr12p -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr12p">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr12"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>12p (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29927646</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr12q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr12q">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr12"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>12q (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124486764</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30927646</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr13 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr13">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>chromosome 13 (Marmoset)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM018929.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_048395.1"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">118934817</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr13cen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr13cen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr13"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>13cen (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43699764</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43199764</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr13p -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr13p">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr13"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>13p (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42699764</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr13q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr13q">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr13"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>13q (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">118934817</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43699764</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr14 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr14">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>chromosome 14 (Marmoset)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM018930.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_048396.1"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">112090317</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500000</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr14cen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr14cen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr14"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>14cen (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000000</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500000</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr14q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr14q">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr14"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>14q (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">112090317</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000000</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr15 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr15">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>chromosome 15 (Marmoset)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM018931.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_048397.1"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99198953</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500000</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr15cen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr15cen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr15"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>15cen (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000000</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500000</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr15q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr15q">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr15"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>15q (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99198953</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000000</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr16 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr16">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>chromosome 16 (Marmoset)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM018932.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_048398.1"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">97817134</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500000</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr16cen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr16cen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr16"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>16cen (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000000</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500000</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr16q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr16q">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr16"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>16q (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">97817134</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000000</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr17 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr17">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>chromosome 17 (Marmoset)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM018933.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_048399.1"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74942703</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500000</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr17cen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr17cen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr17"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>17cen (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000000</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500000</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr17q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr17q">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr17"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>17q (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74942703</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000000</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr18 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr18">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>chromosome 18 (Marmoset)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM018934.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_048400.1"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47031477</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500000</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr18cen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr18cen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr18"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>18cen (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000000</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500000</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr18q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr18q">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr18"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>18q (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47031477</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000000</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr19 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr19">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>chromosome 19 (Marmoset)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM018935.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_048401.1"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51570929</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500000</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr19cen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr19cen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr19"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>19cen (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000000</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500000</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr19q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr19q">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr19"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>19q (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51570929</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000000</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr1cen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr1cen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>1cen (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81783914</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81283914</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr1p -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr1p">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>1p (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80783914</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr1q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr1q">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>1q (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">217961735</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81783914</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>chromosome 2 (Marmoset)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM018918.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_048384.1"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">204486479</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr20 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr20">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>chromosome 20 (Marmoset)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM018936.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_048402.1"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45615054</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500000</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr20cen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr20cen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr20"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>20cen (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000000</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500000</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr20q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr20q">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr20"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>20q (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45615054</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000000</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr21 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr21">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>chromosome 21 (Marmoset)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM018937.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_048403.1"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51259342</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr22 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr22">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>chromosome 22 (Marmoset)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM018938.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_048404.1"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51300780</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr22cen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr22cen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr22"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>22cen (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24196811</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23696811</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr22p -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr22p">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr22"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>22p (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23196811</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr22q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr22q">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr22"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>22q (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51300780</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24196811</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr2cen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr2cen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>2cen (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59260311</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58760311</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr2p -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr2p">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>2p (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58260311</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr2q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr2q">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>2q (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">204486479</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59260311</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>chromosome 3 (Marmoset)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM018919.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_048385.1"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">191910223</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr3cen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr3cen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>3cen (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26663142</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26163142</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr3p -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr3p">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>3p (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25663142</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr3q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr3q">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>3q (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">191910223</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26663142</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>chromosome 4 (Marmoset)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM018920.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_048386.1"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">174041770</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr4cen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr4cen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>4cen (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31853243</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31353243</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr4p -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr4p">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>4p (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30853243</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr4q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr4q">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>4q (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">174041770</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31853243</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr5">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>chromosome 5 (Marmoset)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM018921.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_048387.1"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">164351765</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr5cen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr5cen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>5cen (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59097111</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58597111</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr5p -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr5p">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>5p (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58097111</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr5q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr5q">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>5q (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">164351765</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59097111</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr6 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr6">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>chromosome 6 (Marmoset)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM018922.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_048388.1"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">161003406</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr6cen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr6cen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>6cen (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30512457</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30012457</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr6p -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr6p">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>6p (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29512457</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr6q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr6q">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>6q (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">161003406</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30512457</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr7 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr7">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>chromosome 7 (Marmoset)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM018923.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_048389.1"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">157546058</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr7cen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr7cen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>7cen (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37306574</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36806574</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr7p -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr7p">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>7p (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36306574</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr7q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr7q">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>7q (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">157546058</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37306574</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr8 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr8">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>chromosome 8 (Marmoset)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM018924.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_048390.1"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">126850804</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr8cen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr8cen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr8"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>8cen (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24112397</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23612397</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr8p -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr8p">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr8"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>8p (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23112397</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr8q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr8q">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr8"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>8q (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">126850804</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24112397</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr9 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr9">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030849"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>chromosome 9 (Marmoset)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM018925.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_048391.1"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">134044658</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr9cen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr9cen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr9"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>9cen (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24434627</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23934627</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr9p -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr9p">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr9"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>9p (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23434627</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chr9q -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chr9q">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chr9"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>9q (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">134044658</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24434627</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chrM -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chrM">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005739"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasBroadSynonym>MT</oboInOwl:hasBroadSynonym>
+        <rdfs:label>chromosome M (Marmoset)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/KM588314.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_025586.1"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16499</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chrX -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chrX">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000803"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000805"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>chromosome X (Marmoset)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM018939.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_048405.1"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">148168104</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chrXcen -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chrXcen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chrX"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Xcen (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57661510</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57161510</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chrXp -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chrXp">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chrX"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Xp (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56661510</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chrXq -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chrXq">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHR_9483-chrX"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Xq (Marmoset)</rdfs:label>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">148168104</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57661510</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHR_9483-chrY -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHR_9483-chrY">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000803"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000806"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>chromosome Y (Marmoset)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/insdc/CM023155.1"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/refseq/NC_048406.1"/>
+        <gff:end rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8228174</gff:end>
+        <gff:start rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</gff:start>
+        <vocab:genome_build>calJac4</vocab:genome_build>
     </owl:Class>
     
 
@@ -56725,9 +59548,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7955 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7955"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9031 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9483 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9483"/>
     
 
 
@@ -56738,5 +59573,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
 

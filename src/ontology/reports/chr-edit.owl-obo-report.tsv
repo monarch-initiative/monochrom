@@ -946,6 +946,32 @@ WARN	missing_definition	chromosome IV (C elegans)	IAO:0000115
 WARN	missing_definition	chromosome M (C elegans)	IAO:0000115	
 WARN	missing_definition	chromosome V (C elegans)	IAO:0000115	
 WARN	missing_definition	chromosome X (C elegans)	IAO:0000115	
+WARN	missing_definition	chromosome 1 (Danio rerio)	IAO:0000115	
+WARN	missing_definition	chromosome 10 (Danio rerio)	IAO:0000115	
+WARN	missing_definition	chromosome 11 (Danio rerio)	IAO:0000115	
+WARN	missing_definition	chromosome 12 (Danio rerio)	IAO:0000115	
+WARN	missing_definition	chromosome 13 (Danio rerio)	IAO:0000115	
+WARN	missing_definition	chromosome 14 (Danio rerio)	IAO:0000115	
+WARN	missing_definition	chromosome 15 (Danio rerio)	IAO:0000115	
+WARN	missing_definition	chromosome 16 (Danio rerio)	IAO:0000115	
+WARN	missing_definition	chromosome 17 (Danio rerio)	IAO:0000115	
+WARN	missing_definition	chromosome 18 (Danio rerio)	IAO:0000115	
+WARN	missing_definition	chromosome 19 (Danio rerio)	IAO:0000115	
+WARN	missing_definition	chromosome 2 (Danio rerio)	IAO:0000115	
+WARN	missing_definition	chromosome 20 (Danio rerio)	IAO:0000115	
+WARN	missing_definition	chromosome 21 (Danio rerio)	IAO:0000115	
+WARN	missing_definition	chromosome 22 (Danio rerio)	IAO:0000115	
+WARN	missing_definition	chromosome 23 (Danio rerio)	IAO:0000115	
+WARN	missing_definition	chromosome 24 (Danio rerio)	IAO:0000115	
+WARN	missing_definition	chromosome 25 (Danio rerio)	IAO:0000115	
+WARN	missing_definition	chromosome 3 (Danio rerio)	IAO:0000115	
+WARN	missing_definition	chromosome 4 (Danio rerio)	IAO:0000115	
+WARN	missing_definition	chromosome 5 (Danio rerio)	IAO:0000115	
+WARN	missing_definition	chromosome 6 (Danio rerio)	IAO:0000115	
+WARN	missing_definition	chromosome 7 (Danio rerio)	IAO:0000115	
+WARN	missing_definition	chromosome 8 (Danio rerio)	IAO:0000115	
+WARN	missing_definition	chromosome 9 (Danio rerio)	IAO:0000115	
+WARN	missing_definition	chromosome M (Danio rerio)	IAO:0000115	
 WARN	missing_definition	chromosome 1 (Chicken)	IAO:0000115	
 WARN	missing_definition	chromosome 10 (Chicken)	IAO:0000115	
 WARN	missing_definition	10cen (Chicken)	IAO:0000115	
@@ -1028,6 +1054,90 @@ WARN	missing_definition	9q (Chicken)	IAO:0000115
 WARN	missing_definition	chromosome M (Chicken)	IAO:0000115	
 WARN	missing_definition	chromosome W (Chicken)	IAO:0000115	
 WARN	missing_definition	chromosome Z (Chicken)	IAO:0000115	
+WARN	missing_definition	chromosome 1 (Marmoset)	IAO:0000115	
+WARN	missing_definition	chromosome 10 (Marmoset)	IAO:0000115	
+WARN	missing_definition	10cen (Marmoset)	IAO:0000115	
+WARN	missing_definition	10p (Marmoset)	IAO:0000115	
+WARN	missing_definition	10q (Marmoset)	IAO:0000115	
+WARN	missing_definition	chromosome 11 (Marmoset)	IAO:0000115	
+WARN	missing_definition	11cen (Marmoset)	IAO:0000115	
+WARN	missing_definition	11p (Marmoset)	IAO:0000115	
+WARN	missing_definition	11q (Marmoset)	IAO:0000115	
+WARN	missing_definition	chromosome 12 (Marmoset)	IAO:0000115	
+WARN	missing_definition	12cen (Marmoset)	IAO:0000115	
+WARN	missing_definition	12p (Marmoset)	IAO:0000115	
+WARN	missing_definition	12q (Marmoset)	IAO:0000115	
+WARN	missing_definition	chromosome 13 (Marmoset)	IAO:0000115	
+WARN	missing_definition	13cen (Marmoset)	IAO:0000115	
+WARN	missing_definition	13p (Marmoset)	IAO:0000115	
+WARN	missing_definition	13q (Marmoset)	IAO:0000115	
+WARN	missing_definition	chromosome 14 (Marmoset)	IAO:0000115	
+WARN	missing_definition	14cen (Marmoset)	IAO:0000115	
+WARN	missing_definition	14q (Marmoset)	IAO:0000115	
+WARN	missing_definition	chromosome 15 (Marmoset)	IAO:0000115	
+WARN	missing_definition	15cen (Marmoset)	IAO:0000115	
+WARN	missing_definition	15q (Marmoset)	IAO:0000115	
+WARN	missing_definition	chromosome 16 (Marmoset)	IAO:0000115	
+WARN	missing_definition	16cen (Marmoset)	IAO:0000115	
+WARN	missing_definition	16q (Marmoset)	IAO:0000115	
+WARN	missing_definition	chromosome 17 (Marmoset)	IAO:0000115	
+WARN	missing_definition	17cen (Marmoset)	IAO:0000115	
+WARN	missing_definition	17q (Marmoset)	IAO:0000115	
+WARN	missing_definition	chromosome 18 (Marmoset)	IAO:0000115	
+WARN	missing_definition	18cen (Marmoset)	IAO:0000115	
+WARN	missing_definition	18q (Marmoset)	IAO:0000115	
+WARN	missing_definition	chromosome 19 (Marmoset)	IAO:0000115	
+WARN	missing_definition	19cen (Marmoset)	IAO:0000115	
+WARN	missing_definition	19q (Marmoset)	IAO:0000115	
+WARN	missing_definition	1cen (Marmoset)	IAO:0000115	
+WARN	missing_definition	1p (Marmoset)	IAO:0000115	
+WARN	missing_definition	1q (Marmoset)	IAO:0000115	
+WARN	missing_definition	chromosome 2 (Marmoset)	IAO:0000115	
+WARN	missing_definition	chromosome 20 (Marmoset)	IAO:0000115	
+WARN	missing_definition	20cen (Marmoset)	IAO:0000115	
+WARN	missing_definition	20q (Marmoset)	IAO:0000115	
+WARN	missing_definition	chromosome 21 (Marmoset)	IAO:0000115	
+WARN	missing_definition	chromosome 22 (Marmoset)	IAO:0000115	
+WARN	missing_definition	22cen (Marmoset)	IAO:0000115	
+WARN	missing_definition	22p (Marmoset)	IAO:0000115	
+WARN	missing_definition	22q (Marmoset)	IAO:0000115	
+WARN	missing_definition	2cen (Marmoset)	IAO:0000115	
+WARN	missing_definition	2p (Marmoset)	IAO:0000115	
+WARN	missing_definition	2q (Marmoset)	IAO:0000115	
+WARN	missing_definition	chromosome 3 (Marmoset)	IAO:0000115	
+WARN	missing_definition	3cen (Marmoset)	IAO:0000115	
+WARN	missing_definition	3p (Marmoset)	IAO:0000115	
+WARN	missing_definition	3q (Marmoset)	IAO:0000115	
+WARN	missing_definition	chromosome 4 (Marmoset)	IAO:0000115	
+WARN	missing_definition	4cen (Marmoset)	IAO:0000115	
+WARN	missing_definition	4p (Marmoset)	IAO:0000115	
+WARN	missing_definition	4q (Marmoset)	IAO:0000115	
+WARN	missing_definition	chromosome 5 (Marmoset)	IAO:0000115	
+WARN	missing_definition	5cen (Marmoset)	IAO:0000115	
+WARN	missing_definition	5p (Marmoset)	IAO:0000115	
+WARN	missing_definition	5q (Marmoset)	IAO:0000115	
+WARN	missing_definition	chromosome 6 (Marmoset)	IAO:0000115	
+WARN	missing_definition	6cen (Marmoset)	IAO:0000115	
+WARN	missing_definition	6p (Marmoset)	IAO:0000115	
+WARN	missing_definition	6q (Marmoset)	IAO:0000115	
+WARN	missing_definition	chromosome 7 (Marmoset)	IAO:0000115	
+WARN	missing_definition	7cen (Marmoset)	IAO:0000115	
+WARN	missing_definition	7p (Marmoset)	IAO:0000115	
+WARN	missing_definition	7q (Marmoset)	IAO:0000115	
+WARN	missing_definition	chromosome 8 (Marmoset)	IAO:0000115	
+WARN	missing_definition	8cen (Marmoset)	IAO:0000115	
+WARN	missing_definition	8p (Marmoset)	IAO:0000115	
+WARN	missing_definition	8q (Marmoset)	IAO:0000115	
+WARN	missing_definition	chromosome 9 (Marmoset)	IAO:0000115	
+WARN	missing_definition	9cen (Marmoset)	IAO:0000115	
+WARN	missing_definition	9p (Marmoset)	IAO:0000115	
+WARN	missing_definition	9q (Marmoset)	IAO:0000115	
+WARN	missing_definition	chromosome M (Marmoset)	IAO:0000115	
+WARN	missing_definition	chromosome X (Marmoset)	IAO:0000115	
+WARN	missing_definition	Xcen (Marmoset)	IAO:0000115	
+WARN	missing_definition	Xp (Marmoset)	IAO:0000115	
+WARN	missing_definition	Xq (Marmoset)	IAO:0000115	
+WARN	missing_definition	chromosome Y (Marmoset)	IAO:0000115	
 WARN	missing_definition	chromosome 1 (Human)	IAO:0000115	
 WARN	missing_definition	chromosome 10 (Human)	IAO:0000115	
 WARN	missing_definition	10p (Human)	IAO:0000115	
