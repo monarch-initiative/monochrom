@@ -21,6 +21,7 @@
      xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
      xmlns:vocab="https://w3id.org/biolink/vocab/"
+     xmlns:refseq="http://identifiers.org/refseq/"
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
@@ -28,11 +29,11 @@
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#"
      xmlns:MonarchData="https://data.monarchinitiative.org/ttl/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/chr.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/chr/releases/2024-08-06/chr.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/chr/releases/2025-02-15/chr.owl"/>
         <dce:description>Automatic translation of UCSC chromosome bands to OWL classes</dce:description>
         <dce:title>Monochrom Ontology</dce:title>
         <dcterms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
-        <owl:versionInfo>2024-08-06</owl:versionInfo>
+        <owl:versionInfo>2025-02-15</owl:versionInfo>
     </owl:Ontology>
     
 

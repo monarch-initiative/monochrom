@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: chr/releases/2024-08-06/chr-full.owl
+data-version: chr/releases/2025-02-15/chr-full.owl
 subsetdef: common_anatomy ""
 subsetdef: gocheck_do_not_annotate ""
 subsetdef: goslim_agr ""
@@ -37,6 +37,7 @@ idspace: foaf http://xmlns.com/foaf/0.1/
 idspace: gff https://w3id.org/biodatamodels/gff/ 
 idspace: MonarchData https://data.monarchinitiative.org/ttl/ 
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
+idspace: refseq http://identifiers.org/refseq/ 
 idspace: skos http://www.w3.org/2004/02/skos/core# 
 idspace: swrl http://www.w3.org/2003/11/swrl# 
 idspace: swrla http://swrl.stanford.edu/ontologies/3.3/swrla.owl# 
@@ -46,7 +47,7 @@ ontology: chr/chr-full
 property_value: dce:description "Automatic translation of UCSC chromosome bands to OWL classes" xsd:string
 property_value: dce:title "Monochrom Ontology" xsd:string
 property_value: dcterms:license https://creativecommons.org/publicdomain/zero/1.0/
-property_value: owl:versionInfo "2024-08-06" xsd:string
+property_value: owl:versionInfo "2025-02-15" xsd:string
 
 [Term]
 id: BFO:0000002
@@ -136,7 +137,7 @@ relationship: RO:0002162 NCBITaxon:10090 ! in taxon Mus musculus
 property_value: gff:end "195471971" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000994.2
-property_value: skos:exactMatch NC:000067.6
+property_value: skos:exactMatch refseq:NC_000067.6
 property_value: vocab:genome_build "mm10" xsd:string
 
 [Term]
@@ -149,7 +150,7 @@ relationship: RO:0002162 NCBITaxon:10090 ! in taxon Mus musculus
 property_value: gff:end "130694993" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM001003.2
-property_value: skos:exactMatch NC:000076.6
+property_value: skos:exactMatch refseq:NC_000076.6
 property_value: vocab:genome_build "mm10" xsd:string
 
 [Term]
@@ -392,7 +393,7 @@ relationship: RO:0002162 NCBITaxon:10090 ! in taxon Mus musculus
 property_value: gff:end "122082543" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM001004.2
-property_value: skos:exactMatch NC:000077.6
+property_value: skos:exactMatch refseq:NC_000077.6
 property_value: vocab:genome_build "mm10" xsd:string
 
 [Term]
@@ -645,7 +646,7 @@ relationship: RO:0002162 NCBITaxon:10090 ! in taxon Mus musculus
 property_value: gff:end "120129022" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM001005.2
-property_value: skos:exactMatch NC:000078.6
+property_value: skos:exactMatch refseq:NC_000078.6
 property_value: vocab:genome_build "mm10" xsd:string
 
 [Term]
@@ -898,7 +899,7 @@ relationship: RO:0002162 NCBITaxon:10090 ! in taxon Mus musculus
 property_value: gff:end "120421639" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM001006.2
-property_value: skos:exactMatch NC:000079.6
+property_value: skos:exactMatch refseq:NC_000079.6
 property_value: vocab:genome_build "mm10" xsd:string
 
 [Term]
@@ -1151,7 +1152,7 @@ relationship: RO:0002162 NCBITaxon:10090 ! in taxon Mus musculus
 property_value: gff:end "124902244" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM001007.2
-property_value: skos:exactMatch NC:000080.6
+property_value: skos:exactMatch refseq:NC_000080.6
 property_value: vocab:genome_build "mm10" xsd:string
 
 [Term]
@@ -1394,7 +1395,7 @@ relationship: RO:0002162 NCBITaxon:10090 ! in taxon Mus musculus
 property_value: gff:end "104043685" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM001008.2
-property_value: skos:exactMatch NC:000081.6
+property_value: skos:exactMatch refseq:NC_000081.6
 property_value: vocab:genome_build "mm10" xsd:string
 
 [Term]
@@ -1647,7 +1648,7 @@ relationship: RO:0002162 NCBITaxon:10090 ! in taxon Mus musculus
 property_value: gff:end "98207768" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM001009.2
-property_value: skos:exactMatch NC:000082.6
+property_value: skos:exactMatch refseq:NC_000082.6
 property_value: vocab:genome_build "mm10" xsd:string
 
 [Term]
@@ -1880,7 +1881,7 @@ relationship: RO:0002162 NCBITaxon:10090 ! in taxon Mus musculus
 property_value: gff:end "94987271" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM001010.2
-property_value: skos:exactMatch NC:000083.6
+property_value: skos:exactMatch refseq:NC_000083.6
 property_value: vocab:genome_build "mm10" xsd:string
 
 [Term]
@@ -2123,7 +2124,7 @@ relationship: RO:0002162 NCBITaxon:10090 ! in taxon Mus musculus
 property_value: gff:end "90702639" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM001011.2
-property_value: skos:exactMatch NC:000084.6
+property_value: skos:exactMatch refseq:NC_000084.6
 property_value: vocab:genome_build "mm10" xsd:string
 
 [Term]
@@ -2316,7 +2317,7 @@ relationship: RO:0002162 NCBITaxon:10090 ! in taxon Mus musculus
 property_value: gff:end "61431566" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM001012.2
-property_value: skos:exactMatch NC:000085.6
+property_value: skos:exactMatch refseq:NC_000085.6
 property_value: vocab:genome_build "mm10" xsd:string
 
 [Term]
@@ -2869,7 +2870,7 @@ relationship: RO:0002162 NCBITaxon:10090 ! in taxon Mus musculus
 property_value: gff:end "182113224" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000995.2
-property_value: skos:exactMatch NC:000068.7
+property_value: skos:exactMatch refseq:NC_000068.7
 property_value: vocab:genome_build "mm10" xsd:string
 
 [Term]
@@ -3212,7 +3213,7 @@ relationship: RO:0002162 NCBITaxon:10090 ! in taxon Mus musculus
 property_value: gff:end "160039680" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000996.2
-property_value: skos:exactMatch NC:000069.6
+property_value: skos:exactMatch refseq:NC_000069.6
 property_value: vocab:genome_build "mm10" xsd:string
 
 [Term]
@@ -3505,7 +3506,7 @@ relationship: RO:0002162 NCBITaxon:10090 ! in taxon Mus musculus
 property_value: gff:end "156508116" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000997.2
-property_value: skos:exactMatch NC:000070.6
+property_value: skos:exactMatch refseq:NC_000070.6
 property_value: vocab:genome_build "mm10" xsd:string
 
 [Term]
@@ -3808,7 +3809,7 @@ relationship: RO:0002162 NCBITaxon:10090 ! in taxon Mus musculus
 property_value: gff:end "151834684" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000998.2
-property_value: skos:exactMatch NC:000071.6
+property_value: skos:exactMatch refseq:NC_000071.6
 property_value: vocab:genome_build "mm10" xsd:string
 
 [Term]
@@ -4131,7 +4132,7 @@ relationship: RO:0002162 NCBITaxon:10090 ! in taxon Mus musculus
 property_value: gff:end "149736546" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000999.2
-property_value: skos:exactMatch NC:000072.6
+property_value: skos:exactMatch refseq:NC_000072.6
 property_value: vocab:genome_build "mm10" xsd:string
 
 [Term]
@@ -4494,7 +4495,7 @@ relationship: RO:0002162 NCBITaxon:10090 ! in taxon Mus musculus
 property_value: gff:end "145441459" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM001000.2
-property_value: skos:exactMatch NC:000073.6
+property_value: skos:exactMatch refseq:NC_000073.6
 property_value: vocab:genome_build "mm10" xsd:string
 
 [Term]
@@ -4767,7 +4768,7 @@ relationship: RO:0002162 NCBITaxon:10090 ! in taxon Mus musculus
 property_value: gff:end "129401213" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM001001.2
-property_value: skos:exactMatch NC:000074.6
+property_value: skos:exactMatch refseq:NC_000074.6
 property_value: vocab:genome_build "mm10" xsd:string
 
 [Term]
@@ -5100,7 +5101,7 @@ relationship: RO:0002162 NCBITaxon:10090 ! in taxon Mus musculus
 property_value: gff:end "124595110" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM001002.2
-property_value: skos:exactMatch NC:000075.6
+property_value: skos:exactMatch refseq:NC_000075.6
 property_value: vocab:genome_build "mm10" xsd:string
 
 [Term]
@@ -5373,7 +5374,7 @@ relationship: RO:0002162 NCBITaxon:10090 ! in taxon Mus musculus
 property_value: gff:end "171031299" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM001013.2
-property_value: skos:exactMatch NC:000086.7
+property_value: skos:exactMatch refseq:NC_000086.7
 property_value: vocab:genome_build "mm10" xsd:string
 
 [Term]
@@ -5726,7 +5727,7 @@ relationship: RO:0002162 NCBITaxon:10090 ! in taxon Mus musculus
 property_value: gff:end "91744698" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM001014.2
-property_value: skos:exactMatch NC:000087.7
+property_value: skos:exactMatch refseq:NC_000087.7
 property_value: vocab:genome_build "mm10" xsd:string
 
 [Term]
@@ -5849,7 +5850,7 @@ relationship: RO:0002162 NCBITaxon:10116 ! in taxon Rattus norvegicus
 property_value: gff:end "282763074" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000072.5
-property_value: skos:exactMatch NC:005100.4
+property_value: skos:exactMatch refseq:NC_005100.4
 property_value: vocab:genome_build "rn6" xsd:string
 
 [Term]
@@ -5862,7 +5863,7 @@ relationship: RO:0002162 NCBITaxon:10116 ! in taxon Rattus norvegicus
 property_value: gff:end "112626471" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000081.5
-property_value: skos:exactMatch NC:005109.4
+property_value: skos:exactMatch refseq:NC_005109.4
 property_value: vocab:genome_build "rn6" xsd:string
 
 [Term]
@@ -6045,7 +6046,7 @@ relationship: RO:0002162 NCBITaxon:10116 ! in taxon Rattus norvegicus
 property_value: gff:end "90463843" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000082.5
-property_value: skos:exactMatch NC:005110.4
+property_value: skos:exactMatch refseq:NC_005110.4
 property_value: vocab:genome_build "rn6" xsd:string
 
 [Term]
@@ -6178,7 +6179,7 @@ relationship: RO:0002162 NCBITaxon:10116 ! in taxon Rattus norvegicus
 property_value: gff:end "52716770" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000083.5
-property_value: skos:exactMatch NC:005111.4
+property_value: skos:exactMatch refseq:NC_005111.4
 property_value: vocab:genome_build "rn6" xsd:string
 
 [Term]
@@ -6311,7 +6312,7 @@ relationship: RO:0002162 NCBITaxon:10116 ! in taxon Rattus norvegicus
 property_value: gff:end "114033958" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000084.5
-property_value: skos:exactMatch NC:005112.4
+property_value: skos:exactMatch refseq:NC_005112.4
 property_value: vocab:genome_build "rn6" xsd:string
 
 [Term]
@@ -6504,7 +6505,7 @@ relationship: RO:0002162 NCBITaxon:10116 ! in taxon Rattus norvegicus
 property_value: gff:end "115493446" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000085.5
-property_value: skos:exactMatch NC:005113.4
+property_value: skos:exactMatch refseq:NC_005113.4
 property_value: vocab:genome_build "rn6" xsd:string
 
 [Term]
@@ -6637,7 +6638,7 @@ relationship: RO:0002162 NCBITaxon:10116 ! in taxon Rattus norvegicus
 property_value: gff:end "111246239" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000086.5
-property_value: skos:exactMatch NC:005114.4
+property_value: skos:exactMatch refseq:NC_005114.4
 property_value: vocab:genome_build "rn6" xsd:string
 
 [Term]
@@ -6830,7 +6831,7 @@ relationship: RO:0002162 NCBITaxon:10116 ! in taxon Rattus norvegicus
 property_value: gff:end "90668790" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000087.5
-property_value: skos:exactMatch NC:005115.4
+property_value: skos:exactMatch refseq:NC_005115.4
 property_value: vocab:genome_build "rn6" xsd:string
 
 [Term]
@@ -7013,7 +7014,7 @@ relationship: RO:0002162 NCBITaxon:10116 ! in taxon Rattus norvegicus
 property_value: gff:end "90843779" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000088.5
-property_value: skos:exactMatch NC:005116.4
+property_value: skos:exactMatch refseq:NC_005116.4
 property_value: vocab:genome_build "rn6" xsd:string
 
 [Term]
@@ -7156,7 +7157,7 @@ relationship: RO:0002162 NCBITaxon:10116 ! in taxon Rattus norvegicus
 property_value: gff:end "88201929" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000089.5
-property_value: skos:exactMatch NC:005117.4
+property_value: skos:exactMatch refseq:NC_005117.4
 property_value: vocab:genome_build "rn6" xsd:string
 
 [Term]
@@ -7299,7 +7300,7 @@ relationship: RO:0002162 NCBITaxon:10116 ! in taxon Rattus norvegicus
 property_value: gff:end "62275575" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000090.5
-property_value: skos:exactMatch NC:005118.4
+property_value: skos:exactMatch refseq:NC_005118.4
 property_value: vocab:genome_build "rn6" xsd:string
 
 [Term]
@@ -7712,7 +7713,7 @@ relationship: RO:0002162 NCBITaxon:10116 ! in taxon Rattus norvegicus
 property_value: gff:end "266435125" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000073.5
-property_value: skos:exactMatch NC:005101.4
+property_value: skos:exactMatch refseq:NC_005101.4
 property_value: vocab:genome_build "rn6" xsd:string
 
 [Term]
@@ -7725,7 +7726,7 @@ relationship: RO:0002162 NCBITaxon:10116 ! in taxon Rattus norvegicus
 property_value: gff:end "56205956" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000091.5
-property_value: skos:exactMatch NC:005119.4
+property_value: skos:exactMatch refseq:NC_005119.4
 property_value: vocab:genome_build "rn6" xsd:string
 
 [Term]
@@ -8088,7 +8089,7 @@ relationship: RO:0002162 NCBITaxon:10116 ! in taxon Rattus norvegicus
 property_value: gff:end "177699992" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000074.5
-property_value: skos:exactMatch NC:005102.4
+property_value: skos:exactMatch refseq:NC_005102.4
 property_value: vocab:genome_build "rn6" xsd:string
 
 [Term]
@@ -8351,7 +8352,7 @@ relationship: RO:0002162 NCBITaxon:10116 ! in taxon Rattus norvegicus
 property_value: gff:end "184226339" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000075.5
-property_value: skos:exactMatch NC:005103.4
+property_value: skos:exactMatch refseq:NC_005103.4
 property_value: vocab:genome_build "rn6" xsd:string
 
 [Term]
@@ -8564,7 +8565,7 @@ relationship: RO:0002162 NCBITaxon:10116 ! in taxon Rattus norvegicus
 property_value: gff:end "173707219" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000076.5
-property_value: skos:exactMatch NC:005104.4
+property_value: skos:exactMatch refseq:NC_005104.4
 property_value: vocab:genome_build "rn6" xsd:string
 
 [Term]
@@ -8747,7 +8748,7 @@ relationship: RO:0002162 NCBITaxon:10116 ! in taxon Rattus norvegicus
 property_value: gff:end "147991367" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000077.5
-property_value: skos:exactMatch NC:005105.4
+property_value: skos:exactMatch refseq:NC_005105.4
 property_value: vocab:genome_build "rn6" xsd:string
 
 [Term]
@@ -8930,7 +8931,7 @@ relationship: RO:0002162 NCBITaxon:10116 ! in taxon Rattus norvegicus
 property_value: gff:end "145729302" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000078.5
-property_value: skos:exactMatch NC:005106.4
+property_value: skos:exactMatch refseq:NC_005106.4
 property_value: vocab:genome_build "rn6" xsd:string
 
 [Term]
@@ -9093,7 +9094,7 @@ relationship: RO:0002162 NCBITaxon:10116 ! in taxon Rattus norvegicus
 property_value: gff:end "133307652" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000079.5
-property_value: skos:exactMatch NC:005107.4
+property_value: skos:exactMatch refseq:NC_005107.4
 property_value: vocab:genome_build "rn6" xsd:string
 
 [Term]
@@ -9236,7 +9237,7 @@ relationship: RO:0002162 NCBITaxon:10116 ! in taxon Rattus norvegicus
 property_value: gff:end "122095297" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000080.5
-property_value: skos:exactMatch NC:005108.4
+property_value: skos:exactMatch refseq:NC_005108.4
 property_value: vocab:genome_build "rn6" xsd:string
 
 [Term]
@@ -9418,7 +9419,7 @@ relationship: RO:0002162 NCBITaxon:10116 ! in taxon Rattus norvegicus
 property_value: gff:end "16313" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/AY172581.1
-property_value: skos:exactMatch NC:001665.2
+property_value: skos:exactMatch refseq:NC_001665.2
 property_value: vocab:genome_build "rn6" xsd:string
 
 [Term]
@@ -9431,7 +9432,7 @@ relationship: RO:0002162 NCBITaxon:10116 ! in taxon Rattus norvegicus
 property_value: gff:end "159970021" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000092.5
-property_value: skos:exactMatch NC:005120.4
+property_value: skos:exactMatch refseq:NC_005120.4
 property_value: vocab:genome_build "rn6" xsd:string
 
 [Term]
@@ -9614,7 +9615,7 @@ relationship: RO:0002162 NCBITaxon:10116 ! in taxon Rattus norvegicus
 property_value: gff:end "3310458" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM002824.1
-property_value: skos:exactMatch NC:024475.1
+property_value: skos:exactMatch refseq:NC_024475.1
 property_value: vocab:genome_build "rn6" xsd:string
 
 [Term]
@@ -9666,7 +9667,7 @@ is_a: GO:0030849 ! autosome
 relationship: RO:0002162 NCBITaxon:6239 ! in taxon Caenorhabditis elegans
 property_value: gff:end "15072434" xsd:integer
 property_value: gff:start "0" xsd:integer
-property_value: skos:exactMatch NC:003279.8
+property_value: skos:exactMatch refseq:NC_003279.8
 property_value: vocab:genome_build "ce11" xsd:string
 
 [Term]
@@ -9678,7 +9679,7 @@ is_a: GO:0030849 ! autosome
 relationship: RO:0002162 NCBITaxon:6239 ! in taxon Caenorhabditis elegans
 property_value: gff:end "15279421" xsd:integer
 property_value: gff:start "0" xsd:integer
-property_value: skos:exactMatch NC:003280.10
+property_value: skos:exactMatch refseq:NC_003280.10
 property_value: vocab:genome_build "ce11" xsd:string
 
 [Term]
@@ -9690,7 +9691,7 @@ is_a: GO:0030849 ! autosome
 relationship: RO:0002162 NCBITaxon:6239 ! in taxon Caenorhabditis elegans
 property_value: gff:end "13783801" xsd:integer
 property_value: gff:start "0" xsd:integer
-property_value: skos:exactMatch NC:003281.10
+property_value: skos:exactMatch refseq:NC_003281.10
 property_value: vocab:genome_build "ce11" xsd:string
 
 [Term]
@@ -9702,7 +9703,7 @@ is_a: GO:0030849 ! autosome
 relationship: RO:0002162 NCBITaxon:6239 ! in taxon Caenorhabditis elegans
 property_value: gff:end "17493829" xsd:integer
 property_value: gff:start "0" xsd:integer
-property_value: skos:exactMatch NC:003282.8
+property_value: skos:exactMatch refseq:NC_003282.8
 property_value: vocab:genome_build "ce11" xsd:string
 
 [Term]
@@ -9713,7 +9714,7 @@ is_a: GO:0000262 ! mitochondrial chromosome
 relationship: RO:0002162 NCBITaxon:6239 ! in taxon Caenorhabditis elegans
 property_value: gff:end "13794" xsd:integer
 property_value: gff:start "0" xsd:integer
-property_value: skos:exactMatch NC:001328.1
+property_value: skos:exactMatch refseq:NC_001328.1
 property_value: vocab:genome_build "ce11" xsd:string
 
 [Term]
@@ -9725,7 +9726,7 @@ is_a: GO:0030849 ! autosome
 relationship: RO:0002162 NCBITaxon:6239 ! in taxon Caenorhabditis elegans
 property_value: gff:end "20924180" xsd:integer
 property_value: gff:start "0" xsd:integer
-property_value: skos:exactMatch NC:003283.11
+property_value: skos:exactMatch refseq:NC_003283.11
 property_value: vocab:genome_build "ce11" xsd:string
 
 [Term]
@@ -9737,7 +9738,7 @@ is_a: GO:0000805 ! X chromosome
 relationship: RO:0002162 NCBITaxon:6239 ! in taxon Caenorhabditis elegans
 property_value: gff:end "17718942" xsd:integer
 property_value: gff:start "0" xsd:integer
-property_value: skos:exactMatch NC:003284.9
+property_value: skos:exactMatch refseq:NC_003284.9
 property_value: vocab:genome_build "ce11" xsd:string
 
 [Term]
@@ -9750,7 +9751,7 @@ relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
 property_value: gff:end "58871917" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM002885.1
-property_value: skos:exactMatch NC:007112.6
+property_value: skos:exactMatch refseq:NC_007112.6
 property_value: vocab:genome_build "danRer10" xsd:string
 
 [Term]
@@ -9763,7 +9764,7 @@ relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
 property_value: gff:end "45574255" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM002894.1
-property_value: skos:exactMatch NC:007121.6
+property_value: skos:exactMatch refseq:NC_007121.6
 property_value: vocab:genome_build "danRer10" xsd:string
 
 [Term]
@@ -9776,7 +9777,7 @@ relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
 property_value: gff:end "45107271" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM002895.1
-property_value: skos:exactMatch NC:007122.6
+property_value: skos:exactMatch refseq:NC_007122.6
 property_value: vocab:genome_build "danRer10" xsd:string
 
 [Term]
@@ -9789,7 +9790,7 @@ relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
 property_value: gff:end "49229541" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM002896.1
-property_value: skos:exactMatch NC:007123.6
+property_value: skos:exactMatch refseq:NC_007123.6
 property_value: vocab:genome_build "danRer10" xsd:string
 
 [Term]
@@ -9802,7 +9803,7 @@ relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
 property_value: gff:end "51780250" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM002897.1
-property_value: skos:exactMatch NC:007124.6
+property_value: skos:exactMatch refseq:NC_007124.6
 property_value: vocab:genome_build "danRer10" xsd:string
 
 [Term]
@@ -9815,7 +9816,7 @@ relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
 property_value: gff:end "51944548" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM002898.1
-property_value: skos:exactMatch NC:007125.6
+property_value: skos:exactMatch refseq:NC_007125.6
 property_value: vocab:genome_build "danRer10" xsd:string
 
 [Term]
@@ -9828,7 +9829,7 @@ relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
 property_value: gff:end "47771147" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM002899.1
-property_value: skos:exactMatch NC:007126.6
+property_value: skos:exactMatch refseq:NC_007126.6
 property_value: vocab:genome_build "danRer10" xsd:string
 
 [Term]
@@ -9841,7 +9842,7 @@ relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
 property_value: gff:end "55381981" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM002900.1
-property_value: skos:exactMatch NC:007127.6
+property_value: skos:exactMatch refseq:NC_007127.6
 property_value: vocab:genome_build "danRer10" xsd:string
 
 [Term]
@@ -9854,7 +9855,7 @@ relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
 property_value: gff:end "53345113" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM002901.1
-property_value: skos:exactMatch NC:007128.6
+property_value: skos:exactMatch refseq:NC_007128.6
 property_value: vocab:genome_build "danRer10" xsd:string
 
 [Term]
@@ -9867,7 +9868,7 @@ relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
 property_value: gff:end "51008593" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM002902.1
-property_value: skos:exactMatch NC:007129.6
+property_value: skos:exactMatch refseq:NC_007129.6
 property_value: vocab:genome_build "danRer10" xsd:string
 
 [Term]
@@ -9880,7 +9881,7 @@ relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
 property_value: gff:end "48790377" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM002903.1
-property_value: skos:exactMatch NC:007130.6
+property_value: skos:exactMatch refseq:NC_007130.6
 property_value: vocab:genome_build "danRer10" xsd:string
 
 [Term]
@@ -9893,7 +9894,7 @@ relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
 property_value: gff:end "59543403" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM002886.1
-property_value: skos:exactMatch NC:007113.6
+property_value: skos:exactMatch refseq:NC_007113.6
 property_value: vocab:genome_build "danRer10" xsd:string
 
 [Term]
@@ -9906,7 +9907,7 @@ relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
 property_value: gff:end "55370968" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM002904.1
-property_value: skos:exactMatch NC:007131.6
+property_value: skos:exactMatch refseq:NC_007131.6
 property_value: vocab:genome_build "danRer10" xsd:string
 
 [Term]
@@ -9919,7 +9920,7 @@ relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
 property_value: gff:end "45895719" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM002905.1
-property_value: skos:exactMatch NC:007132.6
+property_value: skos:exactMatch refseq:NC_007132.6
 property_value: vocab:genome_build "danRer10" xsd:string
 
 [Term]
@@ -9932,7 +9933,7 @@ relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
 property_value: gff:end "39226288" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM002906.1
-property_value: skos:exactMatch NC:007133.6
+property_value: skos:exactMatch refseq:NC_007133.6
 property_value: vocab:genome_build "danRer10" xsd:string
 
 [Term]
@@ -9945,7 +9946,7 @@ relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
 property_value: gff:end "46272358" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM002907.1
-property_value: skos:exactMatch NC:007134.6
+property_value: skos:exactMatch refseq:NC_007134.6
 property_value: vocab:genome_build "danRer10" xsd:string
 
 [Term]
@@ -9958,7 +9959,7 @@ relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
 property_value: gff:end "42251103" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM002908.1
-property_value: skos:exactMatch NC:007135.6
+property_value: skos:exactMatch refseq:NC_007135.6
 property_value: vocab:genome_build "danRer10" xsd:string
 
 [Term]
@@ -9971,7 +9972,7 @@ relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
 property_value: gff:end "36898761" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM002909.1
-property_value: skos:exactMatch NC:007136.6
+property_value: skos:exactMatch refseq:NC_007136.6
 property_value: vocab:genome_build "danRer10" xsd:string
 
 [Term]
@@ -9984,7 +9985,7 @@ relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
 property_value: gff:end "62385949" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM002887.1
-property_value: skos:exactMatch NC:007114.6
+property_value: skos:exactMatch refseq:NC_007114.6
 property_value: vocab:genome_build "danRer10" xsd:string
 
 [Term]
@@ -9997,7 +9998,7 @@ relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
 property_value: gff:end "76625712" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM002888.1
-property_value: skos:exactMatch NC:007115.6
+property_value: skos:exactMatch refseq:NC_007115.6
 property_value: vocab:genome_build "danRer10" xsd:string
 
 [Term]
@@ -10010,7 +10011,7 @@ relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
 property_value: gff:end "71715914" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM002889.1
-property_value: skos:exactMatch NC:007116.6
+property_value: skos:exactMatch refseq:NC_007116.6
 property_value: vocab:genome_build "danRer10" xsd:string
 
 [Term]
@@ -10023,7 +10024,7 @@ relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
 property_value: gff:end "60272633" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM002890.1
-property_value: skos:exactMatch NC:007117.6
+property_value: skos:exactMatch refseq:NC_007117.6
 property_value: vocab:genome_build "danRer10" xsd:string
 
 [Term]
@@ -10036,7 +10037,7 @@ relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
 property_value: gff:end "74082188" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM002891.1
-property_value: skos:exactMatch NC:007118.6
+property_value: skos:exactMatch refseq:NC_007118.6
 property_value: vocab:genome_build "danRer10" xsd:string
 
 [Term]
@@ -10049,7 +10050,7 @@ relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
 property_value: gff:end "54191831" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM002892.1
-property_value: skos:exactMatch NC:007119.6
+property_value: skos:exactMatch refseq:NC_007119.6
 property_value: vocab:genome_build "danRer10" xsd:string
 
 [Term]
@@ -10062,7 +10063,7 @@ relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
 property_value: gff:end "56892771" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM002893.1
-property_value: skos:exactMatch NC:007120.6
+property_value: skos:exactMatch refseq:NC_007120.6
 property_value: vocab:genome_build "danRer10" xsd:string
 
 [Term]
@@ -10073,7 +10074,7 @@ is_a: GO:0000262 ! mitochondrial chromosome
 relationship: RO:0002162 NCBITaxon:7955 ! in taxon Danio rerio
 property_value: gff:end "16596" xsd:integer
 property_value: gff:start "0" xsd:integer
-property_value: skos:exactMatch NC:002333.2
+property_value: skos:exactMatch refseq:NC_002333.2
 property_value: vocab:genome_build "danRer10" xsd:string
 
 [Term]
@@ -10086,7 +10087,7 @@ relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: gff:end "197608386" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000093.5
-property_value: skos:exactMatch NC:006088.5
+property_value: skos:exactMatch refseq:NC_006088.5
 property_value: vocab:genome_build "galGal6" xsd:string
 
 [Term]
@@ -10099,7 +10100,7 @@ relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: gff:end "21119840" xsd:integer
 property_value: gff:start "250000" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000102.5
-property_value: skos:exactMatch NC:006097.5
+property_value: skos:exactMatch refseq:NC_006097.5
 property_value: vocab:genome_build "galGal6" xsd:string
 
 [Term]
@@ -10132,7 +10133,7 @@ relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: gff:end "20200042" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000103.5
-property_value: skos:exactMatch NC:006098.5
+property_value: skos:exactMatch refseq:NC_006098.5
 property_value: vocab:genome_build "galGal6" xsd:string
 
 [Term]
@@ -10175,7 +10176,7 @@ relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: gff:end "20387278" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000104.5
-property_value: skos:exactMatch NC:006099.5
+property_value: skos:exactMatch refseq:NC_006099.5
 property_value: vocab:genome_build "galGal6" xsd:string
 
 [Term]
@@ -10188,7 +10189,7 @@ relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: gff:end "19166714" xsd:integer
 property_value: gff:start "250000" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000105.5
-property_value: skos:exactMatch NC:006100.5
+property_value: skos:exactMatch refseq:NC_006100.5
 property_value: vocab:genome_build "galGal6" xsd:string
 
 [Term]
@@ -10221,7 +10222,7 @@ relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: gff:end "16219308" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000106.5
-property_value: skos:exactMatch NC:006101.5
+property_value: skos:exactMatch refseq:NC_006101.5
 property_value: vocab:genome_build "galGal6" xsd:string
 
 [Term]
@@ -10264,7 +10265,7 @@ relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: gff:end "13062184" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000107.5
-property_value: skos:exactMatch NC:006102.5
+property_value: skos:exactMatch refseq:NC_006102.5
 property_value: vocab:genome_build "galGal6" xsd:string
 
 [Term]
@@ -10277,7 +10278,7 @@ relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: gff:end "2844601" xsd:integer
 property_value: gff:start "250000" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000108.5
-property_value: skos:exactMatch NC:006103.5
+property_value: skos:exactMatch refseq:NC_006103.5
 property_value: vocab:genome_build "galGal6" xsd:string
 
 [Term]
@@ -10310,7 +10311,7 @@ relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: gff:end "10762512" xsd:integer
 property_value: gff:start "250000" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000109.5
-property_value: skos:exactMatch NC:006104.5
+property_value: skos:exactMatch refseq:NC_006104.5
 property_value: vocab:genome_build "galGal6" xsd:string
 
 [Term]
@@ -10343,7 +10344,7 @@ relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: gff:end "11373140" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000110.5
-property_value: skos:exactMatch NC:006105.5
+property_value: skos:exactMatch refseq:NC_006105.5
 property_value: vocab:genome_build "galGal6" xsd:string
 
 [Term]
@@ -10356,7 +10357,7 @@ relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: gff:end "10323212" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000111.5
-property_value: skos:exactMatch NC:006106.5
+property_value: skos:exactMatch refseq:NC_006106.5
 property_value: vocab:genome_build "galGal6" xsd:string
 
 [Term]
@@ -10399,7 +10400,7 @@ relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: gff:end "149682049" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000094.5
-property_value: skos:exactMatch NC:006089.5
+property_value: skos:exactMatch refseq:NC_006089.5
 property_value: vocab:genome_build "galGal6" xsd:string
 
 [Term]
@@ -10412,7 +10413,7 @@ relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: gff:end "13897287" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000112.5
-property_value: skos:exactMatch NC:006107.5
+property_value: skos:exactMatch refseq:NC_006107.5
 property_value: vocab:genome_build "galGal6" xsd:string
 
 [Term]
@@ -10425,7 +10426,7 @@ relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: gff:end "6844979" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000113.5
-property_value: skos:exactMatch NC:006108.5
+property_value: skos:exactMatch refseq:NC_006108.5
 property_value: vocab:genome_build "galGal6" xsd:string
 
 [Term]
@@ -10438,7 +10439,7 @@ relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: gff:end "5459462" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000114.5
-property_value: skos:exactMatch NC:006109.5
+property_value: skos:exactMatch refseq:NC_006109.5
 property_value: vocab:genome_build "galGal6" xsd:string
 
 [Term]
@@ -10481,7 +10482,7 @@ relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: gff:end "6149580" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000115.5
-property_value: skos:exactMatch NC:006110.5
+property_value: skos:exactMatch refseq:NC_006110.5
 property_value: vocab:genome_build "galGal6" xsd:string
 
 [Term]
@@ -10494,7 +10495,7 @@ relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: gff:end "6491222" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000116.5
-property_value: skos:exactMatch NC:006111.5
+property_value: skos:exactMatch refseq:NC_006111.5
 property_value: vocab:genome_build "galGal6" xsd:string
 
 [Term]
@@ -10507,7 +10508,7 @@ relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: gff:end "3980610" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000124.5
-property_value: skos:exactMatch NC:006112.4
+property_value: skos:exactMatch refseq:NC_006112.4
 property_value: vocab:genome_build "galGal6" xsd:string
 
 [Term]
@@ -10550,7 +10551,7 @@ relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: gff:end "6055710" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000117.5
-property_value: skos:exactMatch NC:006113.5
+property_value: skos:exactMatch refseq:NC_006113.5
 property_value: vocab:genome_build "galGal6" xsd:string
 
 [Term]
@@ -10583,7 +10584,7 @@ relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: gff:end "8080432" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000118.5
-property_value: skos:exactMatch NC:006114.5
+property_value: skos:exactMatch refseq:NC_006114.5
 property_value: vocab:genome_build "galGal6" xsd:string
 
 [Term]
@@ -10596,7 +10597,7 @@ relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: gff:end "5116882" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000119.5
-property_value: skos:exactMatch NC:006115.5
+property_value: skos:exactMatch refseq:NC_006115.5
 property_value: vocab:genome_build "galGal6" xsd:string
 
 [Term]
@@ -10639,7 +10640,7 @@ relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: gff:end "110838418" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000095.5
-property_value: skos:exactMatch NC:006090.5
+property_value: skos:exactMatch refseq:NC_006090.5
 property_value: vocab:genome_build "galGal6" xsd:string
 
 [Term]
@@ -10652,7 +10653,7 @@ relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: gff:end "1818525" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM003637.2
-property_value: skos:exactMatch NC:028739.2
+property_value: skos:exactMatch refseq:NC_028739.2
 property_value: vocab:genome_build "galGal6" xsd:string
 
 [Term]
@@ -10665,7 +10666,7 @@ relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: gff:end "6153034" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM003638.2
-property_value: skos:exactMatch NC:028740.2
+property_value: skos:exactMatch refseq:NC_028740.2
 property_value: vocab:genome_build "galGal6" xsd:string
 
 [Term]
@@ -10678,7 +10679,7 @@ relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: gff:end "725831" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000120.4
-property_value: skos:exactMatch NC:006119.4
+property_value: skos:exactMatch refseq:NC_006119.4
 property_value: vocab:genome_build "galGal6" xsd:string
 
 [Term]
@@ -10691,7 +10692,7 @@ relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: gff:end "7821666" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000123.5
-property_value: skos:exactMatch NC:008465.4
+property_value: skos:exactMatch refseq:NC_008465.4
 property_value: vocab:genome_build "galGal6" xsd:string
 
 [Term]
@@ -10734,7 +10735,7 @@ relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: gff:end "91315245" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000096.5
-property_value: skos:exactMatch NC:006091.5
+property_value: skos:exactMatch refseq:NC_006091.5
 property_value: vocab:genome_build "galGal6" xsd:string
 
 [Term]
@@ -10777,7 +10778,7 @@ relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: gff:end "59809098" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000097.5
-property_value: skos:exactMatch NC:006092.5
+property_value: skos:exactMatch refseq:NC_006092.5
 property_value: vocab:genome_build "galGal6" xsd:string
 
 [Term]
@@ -10820,7 +10821,7 @@ relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: gff:end "36374701" xsd:integer
 property_value: gff:start "250000" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000098.5
-property_value: skos:exactMatch NC:006093.5
+property_value: skos:exactMatch refseq:NC_006093.5
 property_value: vocab:genome_build "galGal6" xsd:string
 
 [Term]
@@ -10853,7 +10854,7 @@ relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: gff:end "36742308" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000099.5
-property_value: skos:exactMatch NC:006094.5
+property_value: skos:exactMatch refseq:NC_006094.5
 property_value: vocab:genome_build "galGal6" xsd:string
 
 [Term]
@@ -10896,7 +10897,7 @@ relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: gff:end "30219446" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000100.5
-property_value: skos:exactMatch NC:006095.5
+property_value: skos:exactMatch refseq:NC_006095.5
 property_value: vocab:genome_build "galGal6" xsd:string
 
 [Term]
@@ -10939,7 +10940,7 @@ relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: gff:end "24153086" xsd:integer
 property_value: gff:start "250000" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000101.5
-property_value: skos:exactMatch NC:006096.5
+property_value: skos:exactMatch refseq:NC_006096.5
 property_value: vocab:genome_build "galGal6" xsd:string
 
 [Term]
@@ -10971,7 +10972,7 @@ relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: gff:end "16775" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/X52392.1
-property_value: skos:exactMatch NC:001323.1
+property_value: skos:exactMatch refseq:NC_001323.1
 property_value: vocab:genome_build "galGal6" xsd:string
 
 [Term]
@@ -10984,7 +10985,7 @@ relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: gff:end "6813114" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000121.5
-property_value: skos:exactMatch NC:006126.5
+property_value: skos:exactMatch refseq:NC_006126.5
 property_value: vocab:genome_build "galGal6" xsd:string
 
 [Term]
@@ -10997,7 +10998,7 @@ relationship: RO:0002162 NCBITaxon:9031 ! in taxon Gallus gallus
 property_value: gff:end "82529921" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000122.5
-property_value: skos:exactMatch NC:006127.5
+property_value: skos:exactMatch refseq:NC_006127.5
 property_value: vocab:genome_build "galGal6" xsd:string
 
 [Term]
@@ -11009,7 +11010,7 @@ relationship: RO:0002162 NCBITaxon:9483 ! in taxon Callithrix jacchus
 property_value: gff:end "217961735" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM018917.1
-property_value: skos:exactMatch NC:048383.1
+property_value: skos:exactMatch refseq:NC_048383.1
 property_value: vocab:genome_build "calJac4" xsd:string
 
 [Term]
@@ -11021,7 +11022,7 @@ relationship: RO:0002162 NCBITaxon:9483 ! in taxon Callithrix jacchus
 property_value: gff:end "137671225" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM018926.1
-property_value: skos:exactMatch NC:048392.1
+property_value: skos:exactMatch refseq:NC_048392.1
 property_value: vocab:genome_build "calJac4" xsd:string
 
 [Term]
@@ -11063,7 +11064,7 @@ relationship: RO:0002162 NCBITaxon:9483 ! in taxon Callithrix jacchus
 property_value: gff:end "129688756" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM018927.1
-property_value: skos:exactMatch NC:048393.1
+property_value: skos:exactMatch refseq:NC_048393.1
 property_value: vocab:genome_build "calJac4" xsd:string
 
 [Term]
@@ -11105,7 +11106,7 @@ relationship: RO:0002162 NCBITaxon:9483 ! in taxon Callithrix jacchus
 property_value: gff:end "124486764" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM018928.1
-property_value: skos:exactMatch NC:048394.1
+property_value: skos:exactMatch refseq:NC_048394.1
 property_value: vocab:genome_build "calJac4" xsd:string
 
 [Term]
@@ -11147,7 +11148,7 @@ relationship: RO:0002162 NCBITaxon:9483 ! in taxon Callithrix jacchus
 property_value: gff:end "118934817" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM018929.1
-property_value: skos:exactMatch NC:048395.1
+property_value: skos:exactMatch refseq:NC_048395.1
 property_value: vocab:genome_build "calJac4" xsd:string
 
 [Term]
@@ -11189,7 +11190,7 @@ relationship: RO:0002162 NCBITaxon:9483 ! in taxon Callithrix jacchus
 property_value: gff:end "112090317" xsd:integer
 property_value: gff:start "500000" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM018930.1
-property_value: skos:exactMatch NC:048396.1
+property_value: skos:exactMatch refseq:NC_048396.1
 property_value: vocab:genome_build "calJac4" xsd:string
 
 [Term]
@@ -11221,7 +11222,7 @@ relationship: RO:0002162 NCBITaxon:9483 ! in taxon Callithrix jacchus
 property_value: gff:end "99198953" xsd:integer
 property_value: gff:start "500000" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM018931.1
-property_value: skos:exactMatch NC:048397.1
+property_value: skos:exactMatch refseq:NC_048397.1
 property_value: vocab:genome_build "calJac4" xsd:string
 
 [Term]
@@ -11253,7 +11254,7 @@ relationship: RO:0002162 NCBITaxon:9483 ! in taxon Callithrix jacchus
 property_value: gff:end "97817134" xsd:integer
 property_value: gff:start "500000" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM018932.1
-property_value: skos:exactMatch NC:048398.1
+property_value: skos:exactMatch refseq:NC_048398.1
 property_value: vocab:genome_build "calJac4" xsd:string
 
 [Term]
@@ -11285,7 +11286,7 @@ relationship: RO:0002162 NCBITaxon:9483 ! in taxon Callithrix jacchus
 property_value: gff:end "74942703" xsd:integer
 property_value: gff:start "500000" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM018933.1
-property_value: skos:exactMatch NC:048399.1
+property_value: skos:exactMatch refseq:NC_048399.1
 property_value: vocab:genome_build "calJac4" xsd:string
 
 [Term]
@@ -11317,7 +11318,7 @@ relationship: RO:0002162 NCBITaxon:9483 ! in taxon Callithrix jacchus
 property_value: gff:end "47031477" xsd:integer
 property_value: gff:start "500000" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM018934.1
-property_value: skos:exactMatch NC:048400.1
+property_value: skos:exactMatch refseq:NC_048400.1
 property_value: vocab:genome_build "calJac4" xsd:string
 
 [Term]
@@ -11349,7 +11350,7 @@ relationship: RO:0002162 NCBITaxon:9483 ! in taxon Callithrix jacchus
 property_value: gff:end "51570929" xsd:integer
 property_value: gff:start "500000" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM018935.1
-property_value: skos:exactMatch NC:048401.1
+property_value: skos:exactMatch refseq:NC_048401.1
 property_value: vocab:genome_build "calJac4" xsd:string
 
 [Term]
@@ -11411,7 +11412,7 @@ relationship: RO:0002162 NCBITaxon:9483 ! in taxon Callithrix jacchus
 property_value: gff:end "204486479" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM018918.1
-property_value: skos:exactMatch NC:048384.1
+property_value: skos:exactMatch refseq:NC_048384.1
 property_value: vocab:genome_build "calJac4" xsd:string
 
 [Term]
@@ -11423,7 +11424,7 @@ relationship: RO:0002162 NCBITaxon:9483 ! in taxon Callithrix jacchus
 property_value: gff:end "45615054" xsd:integer
 property_value: gff:start "500000" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM018936.1
-property_value: skos:exactMatch NC:048402.1
+property_value: skos:exactMatch refseq:NC_048402.1
 property_value: vocab:genome_build "calJac4" xsd:string
 
 [Term]
@@ -11455,7 +11456,7 @@ relationship: RO:0002162 NCBITaxon:9483 ! in taxon Callithrix jacchus
 property_value: gff:end "51259342" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM018937.1
-property_value: skos:exactMatch NC:048403.1
+property_value: skos:exactMatch refseq:NC_048403.1
 property_value: vocab:genome_build "calJac4" xsd:string
 
 [Term]
@@ -11467,7 +11468,7 @@ relationship: RO:0002162 NCBITaxon:9483 ! in taxon Callithrix jacchus
 property_value: gff:end "51300780" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM018938.1
-property_value: skos:exactMatch NC:048404.1
+property_value: skos:exactMatch refseq:NC_048404.1
 property_value: vocab:genome_build "calJac4" xsd:string
 
 [Term]
@@ -11539,7 +11540,7 @@ relationship: RO:0002162 NCBITaxon:9483 ! in taxon Callithrix jacchus
 property_value: gff:end "191910223" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM018919.1
-property_value: skos:exactMatch NC:048385.1
+property_value: skos:exactMatch refseq:NC_048385.1
 property_value: vocab:genome_build "calJac4" xsd:string
 
 [Term]
@@ -11581,7 +11582,7 @@ relationship: RO:0002162 NCBITaxon:9483 ! in taxon Callithrix jacchus
 property_value: gff:end "174041770" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM018920.1
-property_value: skos:exactMatch NC:048386.1
+property_value: skos:exactMatch refseq:NC_048386.1
 property_value: vocab:genome_build "calJac4" xsd:string
 
 [Term]
@@ -11623,7 +11624,7 @@ relationship: RO:0002162 NCBITaxon:9483 ! in taxon Callithrix jacchus
 property_value: gff:end "164351765" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM018921.1
-property_value: skos:exactMatch NC:048387.1
+property_value: skos:exactMatch refseq:NC_048387.1
 property_value: vocab:genome_build "calJac4" xsd:string
 
 [Term]
@@ -11665,7 +11666,7 @@ relationship: RO:0002162 NCBITaxon:9483 ! in taxon Callithrix jacchus
 property_value: gff:end "161003406" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM018922.1
-property_value: skos:exactMatch NC:048388.1
+property_value: skos:exactMatch refseq:NC_048388.1
 property_value: vocab:genome_build "calJac4" xsd:string
 
 [Term]
@@ -11707,7 +11708,7 @@ relationship: RO:0002162 NCBITaxon:9483 ! in taxon Callithrix jacchus
 property_value: gff:end "157546058" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM018923.1
-property_value: skos:exactMatch NC:048389.1
+property_value: skos:exactMatch refseq:NC_048389.1
 property_value: vocab:genome_build "calJac4" xsd:string
 
 [Term]
@@ -11749,7 +11750,7 @@ relationship: RO:0002162 NCBITaxon:9483 ! in taxon Callithrix jacchus
 property_value: gff:end "126850804" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM018924.1
-property_value: skos:exactMatch NC:048390.1
+property_value: skos:exactMatch refseq:NC_048390.1
 property_value: vocab:genome_build "calJac4" xsd:string
 
 [Term]
@@ -11791,7 +11792,7 @@ relationship: RO:0002162 NCBITaxon:9483 ! in taxon Callithrix jacchus
 property_value: gff:end "134044658" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM018925.1
-property_value: skos:exactMatch NC:048391.1
+property_value: skos:exactMatch refseq:NC_048391.1
 property_value: vocab:genome_build "calJac4" xsd:string
 
 [Term]
@@ -11833,7 +11834,7 @@ relationship: RO:0002162 NCBITaxon:9483 ! in taxon Callithrix jacchus
 property_value: gff:end "16499" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/KM588314.1
-property_value: skos:exactMatch NC:025586.1
+property_value: skos:exactMatch refseq:NC_025586.1
 property_value: vocab:genome_build "calJac4" xsd:string
 
 [Term]
@@ -11845,7 +11846,7 @@ relationship: RO:0002162 NCBITaxon:9483 ! in taxon Callithrix jacchus
 property_value: gff:end "148168104" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM018939.1
-property_value: skos:exactMatch NC:048405.1
+property_value: skos:exactMatch refseq:NC_048405.1
 property_value: vocab:genome_build "calJac4" xsd:string
 
 [Term]
@@ -11887,7 +11888,7 @@ relationship: RO:0002162 NCBITaxon:9483 ! in taxon Callithrix jacchus
 property_value: gff:end "8228174" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM023155.1
-property_value: skos:exactMatch NC:048406.1
+property_value: skos:exactMatch refseq:NC_048406.1
 property_value: vocab:genome_build "calJac4" xsd:string
 
 [Term]
@@ -11900,7 +11901,7 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: gff:end "248956422" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000663.2
-property_value: skos:exactMatch NC:000001.11
+property_value: skos:exactMatch refseq:NC_000001.11
 property_value: vocab:genome_build "hg38" xsd:string
 
 [Term]
@@ -11913,7 +11914,7 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: gff:end "133797422" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000672.2
-property_value: skos:exactMatch NC:000010.11
+property_value: skos:exactMatch refseq:NC_000010.11
 property_value: vocab:genome_build "hg38" xsd:string
 
 [Term]
@@ -12572,7 +12573,7 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: gff:end "135086622" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000673.2
-property_value: skos:exactMatch NC:000011.10
+property_value: skos:exactMatch refseq:NC_000011.10
 property_value: vocab:genome_build "hg38" xsd:string
 
 [Term]
@@ -13111,7 +13112,7 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: gff:end "133275309" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000674.2
-property_value: skos:exactMatch NC:000012.12
+property_value: skos:exactMatch refseq:NC_000012.12
 property_value: vocab:genome_build "hg38" xsd:string
 
 [Term]
@@ -13742,7 +13743,7 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: gff:end "114364328" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000675.2
-property_value: skos:exactMatch NC:000013.11
+property_value: skos:exactMatch refseq:NC_000013.11
 property_value: vocab:genome_build "hg38" xsd:string
 
 [Term]
@@ -14295,7 +14296,7 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: gff:end "107043718" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000676.2
-property_value: skos:exactMatch NC:000014.9
+property_value: skos:exactMatch refseq:NC_000014.9
 property_value: vocab:genome_build "hg38" xsd:string
 
 [Term]
@@ -14822,7 +14823,7 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: gff:end "101991189" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000677.2
-property_value: skos:exactMatch NC:000015.10
+property_value: skos:exactMatch refseq:NC_000015.10
 property_value: vocab:genome_build "hg38" xsd:string
 
 [Term]
@@ -15321,7 +15322,7 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: gff:end "90338345" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000678.2
-property_value: skos:exactMatch NC:000016.10
+property_value: skos:exactMatch refseq:NC_000016.10
 property_value: vocab:genome_build "hg38" xsd:string
 
 [Term]
@@ -15748,7 +15749,7 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: gff:end "83257441" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000679.2
-property_value: skos:exactMatch NC:000017.11
+property_value: skos:exactMatch refseq:NC_000017.11
 property_value: vocab:genome_build "hg38" xsd:string
 
 [Term]
@@ -16139,7 +16140,7 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: gff:end "80373285" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000680.2
-property_value: skos:exactMatch NC:000018.10
+property_value: skos:exactMatch refseq:NC_000018.10
 property_value: vocab:genome_build "hg38" xsd:string
 
 [Term]
@@ -16482,7 +16483,7 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: gff:end "58617616" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000681.2
-property_value: skos:exactMatch NC:000019.10
+property_value: skos:exactMatch refseq:NC_000019.10
 property_value: vocab:genome_build "hg38" xsd:string
 
 [Term]
@@ -17729,7 +17730,7 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: gff:end "242193529" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000664.2
-property_value: skos:exactMatch NC:000002.12
+property_value: skos:exactMatch refseq:NC_000002.12
 property_value: vocab:genome_build "hg38" xsd:string
 
 [Term]
@@ -17742,7 +17743,7 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: gff:end "64444167" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000682.2
-property_value: skos:exactMatch NC:000020.11
+property_value: skos:exactMatch refseq:NC_000020.11
 property_value: vocab:genome_build "hg38" xsd:string
 
 [Term]
@@ -18083,7 +18084,7 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: gff:end "46709983" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000683.2
-property_value: skos:exactMatch NC:000021.9
+property_value: skos:exactMatch refseq:NC_000021.9
 property_value: vocab:genome_build "hg38" xsd:string
 
 [Term]
@@ -18352,7 +18353,7 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: gff:end "50818468" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000684.2
-property_value: skos:exactMatch NC:000022.11
+property_value: skos:exactMatch refseq:NC_000022.11
 property_value: vocab:genome_build "hg38" xsd:string
 
 [Term]
@@ -19529,7 +19530,7 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: gff:end "198295559" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000665.2
-property_value: skos:exactMatch NC:000003.12
+property_value: skos:exactMatch refseq:NC_000003.12
 property_value: vocab:genome_build "hg38" xsd:string
 
 [Term]
@@ -20432,7 +20433,7 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: gff:end "190214555" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000666.2
-property_value: skos:exactMatch NC:000004.12
+property_value: skos:exactMatch refseq:NC_000004.12
 property_value: vocab:genome_build "hg38" xsd:string
 
 [Term]
@@ -21105,7 +21106,7 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: gff:end "181538259" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000667.2
-property_value: skos:exactMatch NC:000005.10
+property_value: skos:exactMatch refseq:NC_000005.10
 property_value: vocab:genome_build "hg38" xsd:string
 
 [Term]
@@ -21768,7 +21769,7 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: gff:end "170805979" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000668.2
-property_value: skos:exactMatch NC:000006.12
+property_value: skos:exactMatch refseq:NC_000006.12
 property_value: vocab:genome_build "hg38" xsd:string
 
 [Term]
@@ -22495,7 +22496,7 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: gff:end "159345973" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000669.2
-property_value: skos:exactMatch NC:000007.14
+property_value: skos:exactMatch refseq:NC_000007.14
 property_value: vocab:genome_build "hg38" xsd:string
 
 [Term]
@@ -23176,7 +23177,7 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: gff:end "145138636" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000670.2
-property_value: skos:exactMatch NC:000008.11
+property_value: skos:exactMatch refseq:NC_000008.11
 property_value: vocab:genome_build "hg38" xsd:string
 
 [Term]
@@ -23807,7 +23808,7 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: gff:end "138394717" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000671.2
-property_value: skos:exactMatch NC:000009.12
+property_value: skos:exactMatch refseq:NC_000009.12
 property_value: vocab:genome_build "hg38" xsd:string
 
 [Term]
@@ -24475,7 +24476,7 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: gff:end "16569" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/J01415.2
-property_value: skos:exactMatch NC:012920.1
+property_value: skos:exactMatch refseq:NC_012920.1
 property_value: vocab:genome_build "hg38" xsd:string
 
 [Term]
@@ -24488,7 +24489,7 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: gff:end "156040895" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000685.2
-property_value: skos:exactMatch NC:000023.11
+property_value: skos:exactMatch refseq:NC_000023.11
 property_value: vocab:genome_build "hg38" xsd:string
 
 [Term]
@@ -25123,7 +25124,7 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 property_value: gff:end "57227415" xsd:integer
 property_value: gff:start "0" xsd:integer
 property_value: skos:exactMatch http://identifiers.org/insdc/CM000686.2
-property_value: skos:exactMatch NC:000024.10
+property_value: skos:exactMatch refseq:NC_000024.10
 property_value: vocab:genome_build "hg38" xsd:string
 
 [Term]
