@@ -1,6 +1,8 @@
 dosdp_tools_options: --obo-prefixes=true
 git_main_branch: master
 edit_format: owl
+workflows:
+ - qc
 export_formats:
 - owl
 - obo
