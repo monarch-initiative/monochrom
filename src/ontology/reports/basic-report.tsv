@@ -34,10 +34,9 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr15q13>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr15qB3.2>		
 <http://purl.obolibrary.org/obo/CHR_9031-chr3>		
-<http://purl.obolibrary.org/obo/NCBITaxon_9347>		"GC_ID:1"
-<http://purl.obolibrary.org/obo/GO_0005575>	"A location, relative to cellular compartments and structures, occupied by a macromolecular machine. There are three types of cellular components described in the gene ontology: (1) the cellular anatomical entity where a gene product carries out a molecular function (e.g., plasma membrane, cytoskeleton) or membrane-enclosed compartments (e.g., mitochondrion); (2) virion components, where viral proteins act, and (3) the stable macromolecular complexes of which gene product are parts (e.g., the clathrin complex)."	"NIF_Subcellular:sao1337158144"
+<http://purl.obolibrary.org/obo/NCBITaxon_9347>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr12q24.33>		
-<http://purl.obolibrary.org/obo/NCBITaxon_314293>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_314293>		
 <http://purl.obolibrary.org/obo/CHR_9483-chr13>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr2q12.3>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr1q43>		
@@ -48,9 +47,10 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chrYp>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr17p13.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr12q24.31>		
-<http://purl.obolibrary.org/obo/NCBITaxon_55885>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_55885>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr22q12.2>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr9qE3.1>		
+<http://purl.obolibrary.org/obo/GO_0009295>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr2q22>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr13q12.13>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr10qB1>		
@@ -59,7 +59,6 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr18q21.33>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr5qC3.3>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr9q>		
-<http://purl.obolibrary.org/obo/GO_0009536>	"Any member of a family of organelles found in the cytoplasm of plants and some protists, which are membrane-bounded and contain DNA. Plant plastids develop from a common type, the proplastid."	"Wikipedia:Plastid"
 <http://purl.obolibrary.org/obo/CHR_10090-chrXqA1.3>		
 <http://purl.obolibrary.org/obo/CHR_9483-chr16>		
 <http://purl.obolibrary.org/obo/CHR_9031-chr17q>		
@@ -73,20 +72,20 @@
 <http://purl.obolibrary.org/obo/CHR_10116-chr11p12>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr10qB2>		
 <http://purl.obolibrary.org/obo/CHR_6239-chrIII>		
-<http://purl.obolibrary.org/obo/NCBITaxon_2759>		"PMID:30257078 GC_ID:1 PMID:23020233"
+<http://purl.obolibrary.org/obo/NCBITaxon_2759>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr15q15>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr11p11.12>		
-<http://purl.obolibrary.org/obo/NCBITaxon_314295>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_314295>		
 <http://purl.obolibrary.org/obo/CHR_9031-chr2q>		
 <http://purl.obolibrary.org/obo/CHR_9031-chr1>		
 <http://purl.obolibrary.org/obo/CHR_9483-chr15>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr5qC3.2>		
-<http://purl.obolibrary.org/obo/NCBITaxon_89593>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_89593>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr1q41>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr6qF>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr17qA2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr3p14.1>		
-<http://purl.obolibrary.org/obo/NCBITaxon_376913>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_376913>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr2q24.3>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr10qB3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1p1>		
@@ -97,6 +96,7 @@
 <http://purl.obolibrary.org/obo/CHR_9483-chr10>		
 <http://purl.obolibrary.org/obo/CHR_9031-chr2p>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr16qC2>		
+<http://purl.obolibrary.org/obo/OBI_0000571>	"Manufacturer role is a role which inheres in a person or organization and which is realized by a manufacturing process."	
 <http://purl.obolibrary.org/obo/CHR_9606-chr9q21.33>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr2q36.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr18q22.2>		
@@ -107,12 +107,13 @@
 <http://purl.obolibrary.org/obo/CHR_10090-chr10qB4>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr3p14.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr2q24.2>		
+<http://purl.obolibrary.org/obo/OBI_0200041>	"A k-means clustering is a data transformation which achieves a class discovery or partitioning objective, which takes as input a collection of objects (represented as points in multidimensional space) and which partitions them into a specified number k of clusters. The algorithm attempts to find the centers of natural clusters in the data. The most common form of the algorithm starts by partitioning the input points into k initial sets, either at random or using some heuristic data. It then calculates the mean point, or centroid, of each set. It constructs a new partition by associating each point with the closest centroid. Then the centroids are recalculated for the new clusters, and the algorithm repeated by alternate applications of these two steps until convergence, which is obtained when the points no longer switch clusters (or alternatively centroids are no longer changed)."@en	
 <http://purl.obolibrary.org/obo/CHR_9606-chr22q13>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr18q22.1>		
 <http://purl.obolibrary.org/obo/CHR_9483-chr6cen>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr7q36.2>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr16qC1>		
-<http://purl.obolibrary.org/obo/NCBITaxon_32525>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_32525>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr18q1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr9p11>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr9q21.32>		
@@ -122,7 +123,7 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr9q21.31>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1p3>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr2q26>		
-<http://purl.obolibrary.org/obo/NCBITaxon_6231>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_6231>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr19q1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr2q24.1>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr10qB5>		
@@ -148,7 +149,7 @@
 <http://purl.obolibrary.org/obo/CHR_10116-chr8q32>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr2q25>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1p2>		
-<http://purl.obolibrary.org/obo/NCBITaxon_8457>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_8457>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr1qH2.2>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr15qE2>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr20q1>		
@@ -181,15 +182,16 @@
 <http://purl.obolibrary.org/obo/CHR_10090-chr8qA2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr12p13.2>		
 <http://purl.obolibrary.org/obo/CHR_7955-chr12>		
-<http://purl.obolibrary.org/obo/NCBITaxon_9526>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_9526>		
+<http://purl.obolibrary.org/obo/GO_0099568>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr5q35.3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chrXq2>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr17qE5>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr6qE1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr13q13>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr8q24.1>		
-<http://purl.obolibrary.org/obo/NCBITaxon_6236>		"GC_ID:1"
-<http://purl.obolibrary.org/obo/NCBITaxon_6237>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_6236>		
+<http://purl.obolibrary.org/obo/NCBITaxon_6237>		
 <http://purl.obolibrary.org/obo/CHR_9031-chr13cen>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr13p11>		
 <http://purl.obolibrary.org/obo/CHR_9483-chr2>		
@@ -199,13 +201,11 @@
 <http://purl.obolibrary.org/obo/CHR_9483-chr3q>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr20q11.21>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr12q1>		
-<http://purl.obolibrary.org/obo/GO_0031974>	"The enclosed volume within a sealed membrane or between two sealed membranes. Encompasses the volume enclosed by the membranes of a particular organelle, e.g. endoplasmic reticulum lumen, or the space between the two lipid bilayers of a double membrane surrounding an organelle, e.g. nuclear envelope lumen."	
 <http://purl.obolibrary.org/obo/CHR_9606-chr8q12.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr6q24.2>		
 <http://purl.obolibrary.org/obo/CHR_7955-chr13>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr16q12.1>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr16p>		
-<http://purl.obolibrary.org/obo/GO_0099522>	"Any (proper) part of the cytosol of a single cell of sufficient size to still be considered cytosol."	
 <http://purl.obolibrary.org/obo/CHR_9606-chr20p11.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr8q22>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr8q24.2>		
@@ -214,36 +214,39 @@
 <http://purl.obolibrary.org/obo/CHR_9483-chr3>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr13p12>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr16>		
-<http://purl.obolibrary.org/obo/NCBITaxon_32524>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/OBI_0000450>	"A regulatory agency is a organization that has responsibility over or for  the legislation (acts and regulations) for a given sector of the government."@en	
+<http://purl.obolibrary.org/obo/NCBITaxon_32524>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr15p15>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr8p2>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr7q1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr6q24.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr2q36.3>		
+<http://purl.obolibrary.org/obo/OBI_0002306>	"A categorical value specification that is a pathologic finding about one or more characteristics of renal cancer following the rules of the TNM AJCC v7 classification system as they pertain to distant metastases. TNM pathologic distant metastasis findings are based on clinical findings supplemented by histopathologic examination of one or more tissue specimens acquired during surgery."	
 <http://purl.obolibrary.org/obo/CHR_7955-chr14>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr16q12.2>		
-<http://purl.obolibrary.org/obo/NCBITaxon_186627>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_186627>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr16q>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr15q26.3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr8q24.3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr2p22.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr8q21>		
-<http://purl.obolibrary.org/obo/GO_0016301>	"Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule."	"Reactome:R-HSA-6788855 Reactome:R-HSA-6788867"
 <http://purl.obolibrary.org/obo/CHR_9606-chr8p1>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr13p13>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr17>		
 <http://purl.obolibrary.org/obo/CHR_9483-chr4>		
 <http://purl.obolibrary.org/obo/CHR_9031-chr6q>		
-<http://purl.obolibrary.org/obo/NCBITaxon_32523>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_32523>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr15p14>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1p11.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr2q36.2>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr7q2>		
 <http://purl.obolibrary.org/obo/CHR_7955-chr15>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr17q25.2>		
-<http://purl.obolibrary.org/obo/NCBITaxon_186626>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_186626>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr20q13>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr17qE2>		
+<http://purl.obolibrary.org/obo/UO_0000051>		
+<http://purl.obolibrary.org/obo/OBI_0000963>	"A label that is part of a categorical datum and that indicates the value of the data item on the categorical scale."	
 <http://purl.obolibrary.org/obo/CHR_10116-chr16q12.3>		
 <http://purl.obolibrary.org/obo/CHR_9483-chr13cen>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr11q11>		
@@ -258,29 +261,30 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chrXq22.3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr5q23.3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr18q21.31>		
+<http://purl.obolibrary.org/obo/GO_0005773>		
 <http://purl.obolibrary.org/obo/CHR_9483-chr8cen>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr14>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr4q35.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr7q21.13>		
-<http://purl.obolibrary.org/obo/NCBITaxon_186625>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_186625>		
 <http://purl.obolibrary.org/obo/CHR_9606-chrYp1>		
+<http://purl.obolibrary.org/obo/UO_0000270>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr17q25.3>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr17qE1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr20q12>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr16q12.4>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr10p12.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr17q23.1-q23.2>		
-<http://purl.obolibrary.org/obo/GO_0009570>	"The space enclosed by the double membrane of a chloroplast but excluding the thylakoid space. It contains DNA, ribosomes and some temporary products of photosynthesis."	
 <http://purl.obolibrary.org/obo/CHR_9606-chr12p>		
 <http://purl.obolibrary.org/obo/CHR_9031-chr8>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr2p22.3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr8q23>		
 <http://purl.obolibrary.org/obo/CHR_7955-chr16>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr11q12>		
-<http://purl.obolibrary.org/obo/NCBITaxon_7742>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_7742>		
 <http://purl.obolibrary.org/obo/CHR_9031-chr7>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr15>		
-<http://purl.obolibrary.org/obo/NCBITaxon_2301116>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_2301116>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr20p11.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr18q21.32>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1p35.1>		
@@ -298,6 +302,7 @@
 <http://purl.obolibrary.org/obo/CHR_10090-chr5qG1>		
 <http://purl.obolibrary.org/obo/CHR_9031-chr4>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr11q1>		
+<http://purl.obolibrary.org/obo/GO_0005775>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr5q23.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1p35.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr3p22.1>		
@@ -305,25 +310,23 @@
 <http://purl.obolibrary.org/obo/CHR_10116-chr7q12>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr16qA>		
 <http://purl.obolibrary.org/obo/CHR_9606-chrXq22.1>		
-<http://purl.obolibrary.org/obo/GO_0031090>	"A membrane that is one of the two lipid bilayers of an organelle envelope or the outermost membrane of single membrane bound organelle."	"NIF_Subcellular:sao830981606"
 <http://purl.obolibrary.org/obo/CHR_10116-chr6q32>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr20p11.23>		
-<http://purl.obolibrary.org/obo/NCBITaxon_10090>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_10090>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr8qA3>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr12>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr17qE3>		
-<http://purl.obolibrary.org/obo/NCBITaxon_186623>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_186623>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr20p11.21>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr14q22>		
-<http://purl.obolibrary.org/obo/GO_0005759>	"The gel-like material, with considerable fine structure, that lies in the matrix space, or lumen, of a mitochondrion. It contains the enzymes of the tricarboxylic acid cycle and, in some organisms, the enzymes concerned with fatty acid oxidation."	"Wikipedia:Mitochondrial_matrix NIF_Subcellular:sao1804523077"
 <http://purl.obolibrary.org/obo/CHR_10090-chr6qE3>		
+<http://purl.obolibrary.org/obo/GO_0099522>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr5q35.1>		
-<http://purl.obolibrary.org/obo/NCBITaxon_1338369>		"GC_ID:1"
-<http://purl.obolibrary.org/obo/GO_0071944>	"The broad region around and including the plasma membrane of a cell, encompassing the cell cortex (inside the cell), the plasma membrane, and any external encapsulating structures."	
+<http://purl.obolibrary.org/obo/NCBITaxon_1338369>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr16p13.1>		
 <http://purl.obolibrary.org/obo/CHR_7955-chr18>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr7p12>		
-<http://purl.obolibrary.org/obo/NCBITaxon_6239>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_6239>		
 <http://purl.obolibrary.org/obo/CHR_9031-chr5>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr5q23.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1p35.3>		
@@ -336,17 +339,16 @@
 <http://purl.obolibrary.org/obo/CHR_10116-chr13>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr20p11.22>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr8qA4>		
+<http://purl.obolibrary.org/obo/UO_0000095>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr2qF>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr6p22.3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr3q13.11>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr3qF1>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr5qB1>		
-<http://purl.obolibrary.org/obo/GO_0031965>	"Either of the lipid bilayers that surround the nucleus and form the nuclear envelope; excludes the intermembrane space."	"NIF_Subcellular:sao1687101204"
 <http://purl.obolibrary.org/obo/CHR_9606-chr1q24.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr10q26.3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr13q14.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr5p1>		
-<http://purl.obolibrary.org/obo/GO_0005622>	"A component of a cell contained within (but not including) the plasma membrane. In eukaryotes it includes the nucleus and cytoplasm."	"Wikipedia:Intracellular"
 <http://purl.obolibrary.org/obo/CHR_9606-chr7q32.3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr14q2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr7q31.31>		
@@ -374,6 +376,7 @@
 <http://purl.obolibrary.org/obo/CHR_10090-chr2qD>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr11>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr2qH>		
+<http://purl.obolibrary.org/obo/OBI_0200050>	"A dimensionality reduction is data partitioning which transforms each input m-dimensional vector (x_1, x_2, ..., x_m) into an output n-dimensional vector (y_1, y_2, ..., y_n), where n is smaller than m."@en	
 <http://purl.obolibrary.org/obo/CHR_9606-chr17q>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr6p22>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr2qH4>		
@@ -381,7 +384,8 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr7q31.33>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr5qB3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr11q13>		
-<http://purl.obolibrary.org/obo/NCBITaxon_32443>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_32443>		
+<http://purl.obolibrary.org/obo/GO_0005634>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1p31.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr3q12.3>		
 <http://purl.obolibrary.org/obo/CHR_9483-chr2cen>		
@@ -391,6 +395,7 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr7q32.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1p36.12>		
 <http://purl.obolibrary.org/obo/CHR_9031-chr11cen>		
+<http://purl.obolibrary.org/obo/OBI_0002219>	"A histologic grade for ovarian tumor that is from a histological classification by the World Health Organization (WHO)."	
 <http://purl.obolibrary.org/obo/CHR_9606-chr10>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr2qG>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr1q>		
@@ -398,25 +403,31 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr17p>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr11q14>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr7qB5>		
+<http://purl.obolibrary.org/obo/GO_0003674>		
 <http://purl.obolibrary.org/obo/CHR_9031-chr26cen>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr13q14.3>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr12qB3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr10q26.2>		
+<http://purl.obolibrary.org/obo/OBI_0000700>	"A support vector machine is a data transformation with a class prediction objective based on the construction of a separating hyperplane that maximizes the margin between two data sets of vectors in n-dimensional space."	
+<http://purl.obolibrary.org/obo/GO_0005635>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1p36.11>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr17q12>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr14q3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1p31.3>		
+<http://purl.obolibrary.org/obo/OBI_0200051>	"A principal components analysis dimensionality reduction is a dimensionality reduction achieved by applying principal components analysis and by keeping low-order principal components and excluding higher-order ones."@en	
 <http://purl.obolibrary.org/obo/CHR_10090-chr2qH3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr3q12.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr6p24>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr14q32.31>		
 <http://purl.obolibrary.org/obo/CHR_9483-chr12p>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr15p>		
+<http://purl.obolibrary.org/obo/OBI_0000792>	"A data transformation which assesses how the results of a statistical analysis will generalize to an independent data set."	
 <http://purl.obolibrary.org/obo/CHR_9606-chr5q34>		
-<http://purl.obolibrary.org/obo/NCBITaxon_9481>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_9481>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr12qB2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr10p11.23>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr19qB>		
+<http://purl.obolibrary.org/obo/OBI_0001933>	"An information content entity that specifies a value within a classification scheme or on a quantitative scale."	
 <http://purl.obolibrary.org/obo/CHR_9606-chr15q26.2>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr2qA>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr14q22-q23>		
@@ -434,23 +445,25 @@
 <http://purl.obolibrary.org/obo/CHR_10116-chr15q>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr5q35>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr19qD>		
+<http://purl.obolibrary.org/obo/NCBITaxon_10239>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr10p11.22>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr12qB1>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr19qC>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr15q26.1>		
 <http://purl.obolibrary.org/obo/CHR_10116-chrYq11>		
-<http://purl.obolibrary.org/obo/NCBITaxon_9480>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_9480>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr17q22>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr14q32.33>		
+<http://purl.obolibrary.org/obo/GO_0099738>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr6q15>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr6p22.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr6q11>		
 <http://purl.obolibrary.org/obo/CHR_9606-chrXp21.2>		
 <http://purl.obolibrary.org/obo/CHR_7955-chr21>		
-<http://purl.obolibrary.org/obo/GO_0098590>	"A membrane that is a (regional) part of the plasma membrane."	
 <http://purl.obolibrary.org/obo/CHR_9606-chr13q14.12>		
+<http://purl.obolibrary.org/obo/OBI_0200033>	"is a data transformation :  leave-one-out cross-validation (LOOCV) involves using a single observation from the original sample as the validation data, and the remaining observations as the training data. This is repeated such that each observation in the sample is used once as the validation data"	
 <http://purl.obolibrary.org/obo/CHR_9606-chr10p11.21>		
-<http://purl.obolibrary.org/obo/NCBITaxon_9483>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_9483>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1q24.3>		
 <http://purl.obolibrary.org/obo/CHR_9483-chr7p>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr5q12>		
@@ -481,7 +494,6 @@
 <http://purl.obolibrary.org/obo/CHR_10090-chr2qB>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr6qB>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr19q13.42>		
-<http://purl.obolibrary.org/obo/GO_0099738>	"The complete extent of cell cortex that underlies some some region of the plasma membrane."	
 <http://purl.obolibrary.org/obo/CHR_10116-chrXq34>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1q32.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr6p21.32>		
@@ -491,6 +503,7 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr15q22.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chrXq26.3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr2q32.1>		
+<http://purl.obolibrary.org/obo/GO_0070013>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr5p14.3>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr12qC>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr17q25>		
@@ -513,6 +526,7 @@
 <http://purl.obolibrary.org/obo/CHR_10116-chr5q13>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr12qD>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr13q22.3>		
+<http://purl.obolibrary.org/obo/IAO_0000038>	"A diagram that presents one or more tuples of information by mapping those tuples in to a two dimensional space in a non arbitrary way."@en	
 <http://purl.obolibrary.org/obo/CHR_9031-chr25q>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr3q25.33>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr10q23>		
@@ -521,6 +535,7 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr7p14.2>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr6qD>		
 <http://purl.obolibrary.org/obo/CHR_10116-chrXq32>		
+<http://purl.obolibrary.org/obo/OBI_0000047>	"Is a material entity that is created or changed during material processing."@en	
 <http://purl.obolibrary.org/obo/CHR_9606-chr3p14.3>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr17p1>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr20q>		
@@ -539,18 +554,20 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chrXp21>		
 <http://purl.obolibrary.org/obo/CHR_10116-chrXq33>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr5q>		
-<http://purl.obolibrary.org/obo/NCBITaxon_8287>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_8287>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1q32.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr22q11>		
+<http://purl.obolibrary.org/obo/OBI_0002270>	"A categorical value specification that is a pathologic finding about one or more characteristics of colorectal cancer following the rules of the TNM AJCC v7 classification system as they pertain to staging of regional lymph nodes."	
 <http://purl.obolibrary.org/obo/CHR_9606-chrXq26.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr11q22.3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr6q24-q25>		
+<http://purl.obolibrary.org/obo/OBI_0001000>	"A document with a set of printed or written questions with a choice of answers, devised for the purposes of a survey or statistical study."@en	
 <http://purl.obolibrary.org/obo/CHR_9483-chrXcen>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr3p26.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr21q22.11-q22.12>		
-<http://purl.obolibrary.org/obo/NCBITaxon_862507>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_862507>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr12qB>		
-<http://purl.obolibrary.org/obo/NCBITaxon_1549675>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_1549675>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr10q25>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr14q22.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chrXq13>		
@@ -558,15 +575,15 @@
 <http://purl.obolibrary.org/obo/CHR_10116-chr11p>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr4q2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr13q12.11>		
-<http://purl.obolibrary.org/obo/NCBITaxon_40674>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_40674>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr13qD2>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr2q32>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr11q22.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr11q14.1>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr3q11>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr15p1>		
-<http://purl.obolibrary.org/obo/NCBITaxon_9005>		"GC_ID:1"
-<http://purl.obolibrary.org/obo/NCBITaxon_33154>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_9005>		
+<http://purl.obolibrary.org/obo/NCBITaxon_33154>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr15q22>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr12qF2>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr1q52>		
@@ -575,6 +592,7 @@
 <http://purl.obolibrary.org/obo/CHR_9483-chr16q>		
 <http://purl.obolibrary.org/obo/CHR_9606-chrYq>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr9p22.2>		
+<http://purl.obolibrary.org/obo/IAO_0000027>	"An information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements."@en	
 <http://purl.obolibrary.org/obo/CHR_9606-chr2p21>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr10q22.3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr16q22.3>		
@@ -586,8 +604,9 @@
 <http://purl.obolibrary.org/obo/CHR_10090-chr13qD1>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr2q31>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr16q1>		
-<http://purl.obolibrary.org/obo/GO_0042646>	"The region of a plastid to which the DNA is confined."	
+<http://purl.obolibrary.org/obo/BFO_0000001>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr3q12>		
+<http://purl.obolibrary.org/obo/OBI_0200188>	"A cross validation objective is a data transformation objective in which the aim is to partition a sample of data into subsets such that the analysis is initially performed on a single subset, while the other subset(s) are retained for subsequent use in confirming and validating the initial analysis."@en	
 <http://purl.obolibrary.org/obo/CHR_10090-chr12qF1>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr1q51>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr9p22.3>		
@@ -604,16 +623,18 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr12q14.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr10q22.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr16q22.2>		
+<http://purl.obolibrary.org/obo/UO_0000005>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr5p15.33>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr11q14.3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr14p11>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr2q32.3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr15q24>		
+<http://purl.obolibrary.org/obo/UO_0000006>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr5p14.1>		
 <http://purl.obolibrary.org/obo/CHR_10116-chrXq36>		
 <http://purl.obolibrary.org/obo/CHR_9031-chr9cen>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr4q13>		
-<http://purl.obolibrary.org/obo/NCBITaxon_9443>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_9443>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr10q22>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr7p>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr7q>		
@@ -623,16 +644,17 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr16q22.1>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr11q>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr2q32.2>		
-<http://purl.obolibrary.org/obo/GO_0005775>	"The volume enclosed within the vacuolar membrane."	
-<http://purl.obolibrary.org/obo/NCBITaxon_1489341>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_1489341>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr15q23>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr4q3>		
+<http://purl.obolibrary.org/obo/IAO_0000003>	"A measurement unit label is as a label that is part of a scalar measurement datum and denotes a unit of measure."@en	
 <http://purl.obolibrary.org/obo/CHR_9606-chr15q22.3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr5p14.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr10q22.1>		
 <http://purl.obolibrary.org/obo/BFO_0000040>	"An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time."@en	
 <http://purl.obolibrary.org/obo/CHR_10116-chr10q21>		
 <http://purl.obolibrary.org/obo/CHR_10116-chrXq37>		
+<http://purl.obolibrary.org/obo/IAO_0000409>	"A denotator type indicates how a term should be interpreted from an ontological perspective."@en	
 <http://purl.obolibrary.org/obo/CHR_9606-chr4q12>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr20p12>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr14q22>		
@@ -646,7 +668,6 @@
 <http://purl.obolibrary.org/obo/CHR_10116-chr19p1>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr10qC1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr4q21.23>		
-<http://purl.obolibrary.org/obo/GO_0031966>	"Either of the lipid bilayers that surround the mitochondrion and form the mitochondrial envelope."	"NIF_Subcellular:sao1045389829"
 <http://purl.obolibrary.org/obo/CHR_9606-chr16q24.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr3q27>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1p35>		
@@ -676,14 +697,13 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr3q26>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1p36>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr9q33.3-q34.11>		
-<http://purl.obolibrary.org/obo/NCBITaxon_1963758>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_1963758>		
 <http://purl.obolibrary.org/obo/CHR_9031-chr1q>		
 <http://purl.obolibrary.org/obo/CHR_9031-chr33>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr18q12.3>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr1qC3>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr8qB1.1>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr14qD2>		
-<http://purl.obolibrary.org/obo/UBERON_0001062>	"Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species."	"MA:0000001 TAO:0100000 AAO:0010841 HAO:0000000 ZFA:0100000 FMA:62955 WBbt:0000100 UMLS:C1515976 TGMA:0001822 BFO:0000004 BILA:0000000 AEO:0000000 NCIT:C12219 XAO:0000000 EHDAA2:0002229 CARO:0000000 BIRNLEX:6"
 <http://purl.obolibrary.org/obo/BFO_0000015>	"p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])"@en	
 <http://purl.obolibrary.org/obo/CHR_9606-chr19p13.2>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr1q31>		
@@ -691,6 +711,9 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr14q24>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr9qC>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr2p12>		
+<http://purl.obolibrary.org/obo/GO_0000228>		
+<http://purl.obolibrary.org/obo/OBI_0000749>	"A CART (classification and regression trees) is a data transformation method for producing a classification or regression model with a tree-based structure."@en	
+<http://purl.obolibrary.org/obo/OBI_0000011>	"A processual entity that realizes a plan which is the concretization of a plan specification."	
 <http://purl.obolibrary.org/obo/CHR_9606-chr4q21.21>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr19q13.12>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1q1>		
@@ -703,6 +726,7 @@
 <http://purl.obolibrary.org/obo/CHR_10090-chr8qB1.2>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr9qA5.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr19p13.3>		
+<http://purl.obolibrary.org/obo/OBI_0000245>	"An entity that can bear roles, has members, and has a set of organization rules. Members of organizations are either organizations themselves or individual people. Members can bear specific organization member roles that are determined in the organization rules. The organization rules also determine how decisions are made on behalf of the organization by the organization members."@en	
 <http://purl.obolibrary.org/obo/CHR_9606-chr13q21.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr14q23>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr4q2>		
@@ -714,13 +738,14 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr4q21.22>		
 <http://purl.obolibrary.org/obo/CHR_9606-chrXp22.11>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr7q11.2>		
+<http://purl.obolibrary.org/obo/IAO_0000096>	"A source code module is a directive information entity that specifies, using a programming language, some algorithm."@en	
 <http://purl.obolibrary.org/obo/CHR_9606-chr3q24>		
 <http://purl.obolibrary.org/obo/CHR_9031-chr31>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr1qC5>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1q23>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr6q11-q14>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr8qB1.3>		
-<http://purl.obolibrary.org/obo/NCBITaxon_32519>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_32519>		
 <http://purl.obolibrary.org/obo/CHR_9483-chrM>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr4q3>		
 <http://purl.obolibrary.org/obo/CHR_6239-chrIV>		
@@ -741,6 +766,7 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr16q12.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr13q21.3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr4q32.3>		
+<http://purl.obolibrary.org/obo/GO_0098590>		
 <http://purl.obolibrary.org/obo/CHR_10116-chrY>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr17qB3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr16p11.2-p12.2>		
@@ -748,8 +774,10 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr10p15.1>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr2q15>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr2p16.1-p15>		
+<http://purl.obolibrary.org/obo/GO_0031981>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1q2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr13q33.1>		
+<http://purl.obolibrary.org/obo/OBI_0000953>	"A specimen that has been intentionally physically modified."	
 <http://purl.obolibrary.org/obo/CHR_10116-chr13q12>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr11q24.3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr19>		
@@ -767,11 +795,12 @@
 <http://purl.obolibrary.org/obo/CHR_10090-chr2qA2>		
 <http://purl.obolibrary.org/obo/CHR_10116-chrX>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr22q13.32>		
+<http://purl.obolibrary.org/obo/IAO_0000178>	"A material entity in which a concretization of an information content entity inheres."@en	
 <http://purl.obolibrary.org/obo/CHR_9606-chr5q14.2>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr2q14>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr13q33.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr8p21>		
-<http://purl.obolibrary.org/obo/NCBITaxon_6243>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_6243>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr22q13.3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr7p21.3>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr15qF3>		
@@ -782,6 +811,7 @@
 <http://purl.obolibrary.org/obo/CHR_10090-chr1qC2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1p33>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr1q34>		
+<http://purl.obolibrary.org/obo/GO_0005694>		
 <http://purl.obolibrary.org/obo/CHR_9031-chrM>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr8q21.13>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr3q29>		
@@ -820,6 +850,7 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr22p11.1>		
 <http://purl.obolibrary.org/obo/CHR_7955-chr23>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr17p>		
+<http://purl.obolibrary.org/obo/NCBITaxon_2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr3q25.3>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr8q21>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr2qC1.3>		
@@ -827,13 +858,14 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr8p23>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr15qF1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr8q2>		
-<http://purl.obolibrary.org/obo/GO_0009526>	"The double lipid bilayer enclosing a plastid and separating its contents from the rest of the cytoplasm; includes the intermembrane space."	
 <http://purl.obolibrary.org/obo/CHR_9606-chr11p1>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr17qD>		
+<http://purl.obolibrary.org/obo/GO_0098687>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr16>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr14q32.12>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr8q21.11>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr12q23>		
+<http://purl.obolibrary.org/obo/OBI_0002363>	"A performance status value specification designed for classifying patients 16 years of age or older by their functional impairment."	
 <http://purl.obolibrary.org/obo/CHR_7955-chr24>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr20q11>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr17q>		
@@ -852,7 +884,7 @@
 <http://purl.obolibrary.org/obo/CHR_10090-chr17qE>		
 <http://purl.obolibrary.org/obo/CHR_9606-chrXp22.13-p22.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr15>		
-<http://purl.obolibrary.org/obo/NCBITaxon_1>		"PMID:32761142 PMID:30365038 GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr12q24>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr14q32.13>		
 <http://purl.obolibrary.org/obo/CHR_9606-chrXq27.3-q28>		
@@ -876,8 +908,10 @@
 <http://purl.obolibrary.org/obo/CHR_10090-chr17qB>		
 <http://purl.obolibrary.org/obo/CHR_9483-chr20>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1p34.1>		
+<http://purl.obolibrary.org/obo/OBI_0000659>	"A planned process with the objective of collecting a specimen."	
 <http://purl.obolibrary.org/obo/CHR_9606-chr12q21>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr8q13.2>		
+<http://purl.obolibrary.org/obo/OBI_0200179>	"A class prediction objective (sometimes called supervised classification) is a data transformation objective where the aim is to create a predictor from training data through a machine learning technique. The training data consist of pairs of objects (typically vectors of attributes) and\nclass labels for these objects. The resulting predictor can be used to attach class labels to any valid novel input object. Depending on usage, the prediction can be definite or probabilistic. A classification is learned from the training data and can then be tested on test data."@en	
 <http://purl.obolibrary.org/obo/CHR_10090-chr6qF1>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr20q13>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr12p12.3>		
@@ -886,6 +920,7 @@
 <http://purl.obolibrary.org/obo/CHR_10116-chr8q24>		
 <http://purl.obolibrary.org/obo/CHR_9606-chrYq1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr2q32-q33>		
+<http://purl.obolibrary.org/obo/PATO_0000001>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr13p>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr7qD1>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr1q37>		
@@ -899,13 +934,12 @@
 <http://purl.obolibrary.org/obo/CHR_10116-chr12p1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr3p11.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr13p11.2>		
-<http://purl.obolibrary.org/obo/GO_0008150>	"A process that emerges from two or more causally-connected macromolecular activities and has evolved to achieve a biological objective."	"Wikipedia:Biological_process"
 <http://purl.obolibrary.org/obo/CHR_10090-chr9qE>		
 <http://purl.obolibrary.org/obo/CHR_9606-chrXq11.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr11p14>		
 <http://purl.obolibrary.org/obo/CHR_9606-chrXp22.12>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr8q12>		
-<http://purl.obolibrary.org/obo/NCBITaxon_39107>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_39107>		
 <http://purl.obolibrary.org/obo/CHR_9031-chr5cen>		
 <http://purl.obolibrary.org/obo/CHR_9483-chr4p>		
 <http://purl.obolibrary.org/obo/CHR_9031-chrW>		
@@ -936,6 +970,7 @@
 <http://purl.obolibrary.org/obo/CHR_10090-chr11qA3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr11>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr3q13.1>		
+<http://purl.obolibrary.org/obo/GO_0009526>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr3q25.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr22q1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr22p>		
@@ -944,32 +979,38 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr11p12>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr7q35>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr7q34>		
+<http://purl.obolibrary.org/obo/OBI_0000947>	"is a role which inheres in a person or organization and is realized in in a planned process which provides access to training, materials or execution of protocols for an organization or person"	
 <http://purl.obolibrary.org/obo/CHR_9606-chr12p13.32>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr18q12.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr14>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr11qA2>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr11q1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chrM>		
-<http://purl.obolibrary.org/obo/NCBITaxon_33317>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_33317>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr3p11.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr3q25.2>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr19q>		
 <http://purl.obolibrary.org/obo/CHR_9606-chrXq11.1>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr9qF>		
+<http://purl.obolibrary.org/obo/OBI_0000707>	"A decision tree building data transformation is a data transformation that has objective decision tree induction."@en	
 <http://purl.obolibrary.org/obo/CHR_9606-chr11p13>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr18p11.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr10q26.11>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr8q13>		
-<http://purl.obolibrary.org/obo/GO_0043232>	"Organized structure of distinctive morphology and function, not bounded by a lipid bilayer membrane and occurring within the cell. Includes ribosomes, the cytoskeleton and chromosomes."	
 <http://purl.obolibrary.org/obo/CHR_9606-chr7q33>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr12p13.33>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr3q13.3>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr18q12.1>		
 <http://purl.obolibrary.org/obo/CHR_9483-chr4q>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr9p2>		
+<http://purl.obolibrary.org/obo/OBI_0002314>	"A categorical value specification that is an assessment of the stage of a cancer according to the American Joint Committee on Cancer (AJCC) v7 staging systems."	
+<http://purl.obolibrary.org/obo/APOLLO_SV_00000796>	"A planned process that has a data set as its specified output."@en	
 <http://purl.obolibrary.org/obo/CHR_9606-chr13>		
+<http://purl.obolibrary.org/obo/IAO_0000101>	"An image is an affine projection to a two dimensional surface, of measurements of some quality of an entity or entities repeated at regular intervals across a spatial range, where the measurements are represented as color and luminosity on the projected on surface."@en	
+<http://purl.obolibrary.org/obo/GO_0005740>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr11q2>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr11qA1>		
+<http://purl.obolibrary.org/obo/OBI_0002341>	"A categorical value specification that is a pathologic finding about one or more characteristics of ovarian cancer following the rules of the FIGO classification system."	
 <http://purl.obolibrary.org/obo/CHR_9606-chr2p13.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr6p12>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr18q>		
@@ -979,6 +1020,7 @@
 <http://purl.obolibrary.org/obo/CHR_10090-chr3qG3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr14q31.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr10q26.12>		
+<http://purl.obolibrary.org/obo/GO_0000262>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr6q16.1>		
 <http://purl.obolibrary.org/obo/CHR_9483-chr12cen>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr2>		
@@ -992,7 +1034,6 @@
 <http://purl.obolibrary.org/obo/CHR_10090-chr6qA2>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr3qF2.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr20>		
-<http://purl.obolibrary.org/obo/GO_0110165>	"A part of a cellular organism that is either an immaterial entity or a material entity with granularity above the level of a protein complex but below that of an anatomical system. Or, a substance produced by a cellular organism with granularity above the level of a protein complex."	
 <http://purl.obolibrary.org/obo/CHR_9606-chr4q28.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr10q24>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr21q22.13-q22.2>		
@@ -1002,12 +1043,12 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr5q11.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr18p>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr16p12>		
-<http://purl.obolibrary.org/obo/NCBITaxon_10114>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_10114>		
 <http://purl.obolibrary.org/obo/CHR_10116-chrXq3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr16p13.3>		
-<http://purl.obolibrary.org/obo/NCBITaxon_32561>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_32561>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr10q26.13>		
-<http://purl.obolibrary.org/obo/NCBITaxon_7711>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_7711>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr8q21.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr8q21.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1q42.13>		
@@ -1020,6 +1061,7 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr6p11.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr10q23>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr3qF2.2>		
+<http://purl.obolibrary.org/obo/IAO_0000180>	"A heatmap is a report graph which is a graphical representation of data\nwhere the values taken by a variable(s) are shown as colors in a\ntwo-dimensional map."@en	
 <http://purl.obolibrary.org/obo/CHR_9606-chr20q13.12>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr6q24>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr14q31.3>		
@@ -1029,10 +1071,11 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr8q21.3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr2p13.3>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr15q1>		
-<http://purl.obolibrary.org/obo/NCBITaxon_2301119>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_2301119>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr18qD1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr10p12.1>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr20>		
+<http://purl.obolibrary.org/obo/GO_0043228>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr4q28.3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr15q13.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr22>		
@@ -1044,7 +1087,8 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr2p25.1>		
 <http://purl.obolibrary.org/obo/CHR_10090-chrXqC1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr6p11>		
-<http://purl.obolibrary.org/obo/GO_0005938>	"The region of a cell that lies just beneath the plasma membrane and often, but not always, contains a network of actin filaments and associated proteins."	"Wikipedia:Cell_cortex"
+<http://purl.obolibrary.org/obo/OBI_0000094>	"A planned process which results in physical changes in a specified input material"@en	
+<http://purl.obolibrary.org/obo/BFO_0000004>	"A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything."@en	
 <http://purl.obolibrary.org/obo/CHR_10090-chr13qA5>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr20q13.11>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr6q23>		
@@ -1058,6 +1102,7 @@
 <http://purl.obolibrary.org/obo/CHR_10090-chr18qD2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr14p1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr7q31.3>		
+<http://purl.obolibrary.org/obo/GO_0043229>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr10q21>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr21>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr1qE2.1>		
@@ -1113,13 +1158,14 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr13q21.31>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr11qE2>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr12qC2>		
-<http://purl.obolibrary.org/obo/NCBITaxon_8825>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_8825>		
 <http://purl.obolibrary.org/obo/CHR_9483-chr7>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr4>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr5qC1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr15q25.3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr13q3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr10q23.31>		
+<http://purl.obolibrary.org/obo/NCBITaxon_2157>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr4qE1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr17q11>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr3qF2.3>		
@@ -1127,7 +1173,6 @@
 <http://purl.obolibrary.org/obo/CHR_10090-chr1qF>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr6p11.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr12q23.1>		
-<http://purl.obolibrary.org/obo/GO_0009295>	"The region of a virus, bacterial cell, mitochondrion or chloroplast to which the nucleic acid is confined."	"Wikipedia:Nucleoid"
 <http://purl.obolibrary.org/obo/CHR_10090-chr16qC1.3>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr13qA1>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr16p14>		
@@ -1137,8 +1182,7 @@
 <http://purl.obolibrary.org/obo/CHR_9483-chr9>		
 <http://purl.obolibrary.org/obo/CHR_9483-chr11q>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr9p13.2>		
-<http://purl.obolibrary.org/obo/NCBITaxon_10116>		"GC_ID:1"
-<http://purl.obolibrary.org/obo/GO_0008150>	"A biological process is the execution of a genetically-encoded biological module or program. It consists of all the steps required to achieve the specific biological objective of the module. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence."	"Wikipedia:Biological_process"
+<http://purl.obolibrary.org/obo/NCBITaxon_10116>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr11qE1>		
 <http://purl.obolibrary.org/obo/CHR_9483-chr8q>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr10q25.1>		
@@ -1161,7 +1205,6 @@
 <http://purl.obolibrary.org/obo/CHR_10090-chr5qE>		
 <http://purl.obolibrary.org/obo/CHR_10116-chrXq22>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr15q22.32>		
-<http://purl.obolibrary.org/obo/GO_0009508>	"A circular DNA molecule containing plastid encoded genes."	
 <http://purl.obolibrary.org/obo/CHR_10090-chr6qA3.1>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr18p12>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr2qE4>		
@@ -1171,10 +1214,11 @@
 <http://purl.obolibrary.org/obo/CHR_10116-chr3q43>		
 <http://purl.obolibrary.org/obo/BFO_0000034>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr18q21.1>		
-<http://purl.obolibrary.org/obo/GO_0016020>	"A lipid bilayer along with all the proteins and protein complexes embedded in it and attached to it."	"Wikipedia:Transmembrane_protein Wikipedia:Biological_membrane"
+<http://purl.obolibrary.org/obo/GO_0005737>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr10q23.33>		
 <http://purl.obolibrary.org/obo/CHR_9031-chr17cen>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr17q1>		
+<http://purl.obolibrary.org/obo/OBI_0000112>	"a role borne by a material entity that is gained during a specimen collection process and that can be realized by use of the specimen in an investigation"@en	
 <http://purl.obolibrary.org/obo/CHR_9606-chr4p14>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr4qA3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1q21.2>		
@@ -1197,18 +1241,19 @@
 <http://purl.obolibrary.org/obo/CHR_10090-chr1qG3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr10q23.32>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr5p15.1>		
+<http://purl.obolibrary.org/obo/IAO_0000100>	"A data item that is an aggregate of other data items of the same type that have something in common. Averages and distributions can be determined for data sets."@en	
 <http://purl.obolibrary.org/obo/CHR_9606-chr4p13>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr13qA>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr4q>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr12q23.3>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr4qA4>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1q21.1>		
-<http://purl.obolibrary.org/obo/GO_0031981>	"The volume enclosed by the nuclear inner membrane."	
 <http://purl.obolibrary.org/obo/CHR_9606-chr5q31.2>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr4q21>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr5qG>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr3q21.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr8>		
+<http://purl.obolibrary.org/obo/GO_0005739>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr22p13>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr3q41>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr21q22.2>		
@@ -1216,8 +1261,10 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr17q11.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr2q31.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr5p15.2>		
-<http://purl.obolibrary.org/obo/NCBITaxon_10066>		"PMID:15371245 GC_ID:1"
-<http://purl.obolibrary.org/obo/NCBITaxon_1965096>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/OBI_0000713>	"a software that provides access to more than 100 tools for gene expression analysis, proteomics, SNP analysis and common data processing tasks."	
+<http://purl.obolibrary.org/obo/GO_0031974>		
+<http://purl.obolibrary.org/obo/NCBITaxon_10066>		
+<http://purl.obolibrary.org/obo/NCBITaxon_1965096>		
 <http://purl.obolibrary.org/obo/CHR_9031-chr13q>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr4p12>		
 <http://purl.obolibrary.org/obo/CHR_9606-chrYp11.31>		
@@ -1232,10 +1279,8 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr5q31.1>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr1p1>		
 <http://purl.obolibrary.org/obo/CHR_10116-chrXq21>		
-<http://purl.obolibrary.org/obo/GO_0031967>	"A double membrane structure enclosing an organelle, including two lipid bilayers and the region between them. In some cases, an organelle envelope may have more than two membranes."	
-<http://purl.obolibrary.org/obo/NCBITaxon_6072>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_6072>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr14q11.1>		
-<http://purl.obolibrary.org/obo/GO_0000805>	"The sex chromosome present in both sexes of species in which the male is the heterogametic sex. Two copies of the X chromosome are present in each somatic cell of females and one copy is present in males."	"Wikipedia:X_chromosome"
 <http://purl.obolibrary.org/obo/CHR_9606-chr7>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr3q21.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr15q21.2>		
@@ -1243,22 +1288,26 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr21q22.3>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr3q42>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr2q31.1>		
+<http://purl.obolibrary.org/obo/OBI_0002243>	"A categorical value specification that is a pathologic finding about one or more characteristics of renal cancer following the rules of the TNM AJCC v7 classification system as they pertain to staging of the primary tumor. TNM pathologic primary tumor findings are based on clinical findings supplemented by histopathologic examination of one or more tissue specimens acquired during surgery."	
+<http://purl.obolibrary.org/obo/IAO_0000183>	"A dendrogram is a report graph which is a tree diagram\nfrequently used to illustrate the arrangement of the clusters produced by a\nclustering algorithm."@en	
 <http://purl.obolibrary.org/obo/CHR_9606-chr17q2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr4p11>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr5p15.3>		
-<http://purl.obolibrary.org/obo/NCBITaxon_9498>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_9498>		
 <http://purl.obolibrary.org/obo/CHR_10090-chrXqC2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr8q>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr22q11.23>		
+<http://purl.obolibrary.org/obo/GO_0043226>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr11q12>		
+<http://purl.obolibrary.org/obo/OBI_0001930>	"A value specification that is specifies one category out of a fixed number of nominal categories"	
 <http://purl.obolibrary.org/obo/CHR_9606-chr13q13.1>		
 <http://purl.obolibrary.org/obo/CHR_10090-chrYqA2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr8p23.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr3q23>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr10q32>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr14qC3>		
+<http://purl.obolibrary.org/obo/OBI_0000011>	"A process that realizes a plan which is the concretization of a plan specification."@en	
 <http://purl.obolibrary.org/obo/CHR_9483-chr18>		
-<http://purl.obolibrary.org/obo/GO_0009507>	"A chlorophyll-containing plastid with thylakoids organized into grana and frets, or stroma thylakoids, and embedded in a stroma."	"Wikipedia:Chloroplast"
 <http://purl.obolibrary.org/obo/CHR_9606-chr8q11.22>		
 <http://purl.obolibrary.org/obo/CHR_9606-chrXq26>		
 <http://purl.obolibrary.org/obo/CHR_9606-chrXq24>		
@@ -1267,24 +1316,25 @@
 <http://purl.obolibrary.org/obo/CHR_10090-chrXqC3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr8p>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr22q11.22>		
+<http://purl.obolibrary.org/obo/OBI_0000456>	"an objective specifiction that creates an specific output object from input materials."@en	
 <http://purl.obolibrary.org/obo/CHR_10116-chr11q11>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr8p23.3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr3q22>		
 <http://purl.obolibrary.org/obo/CHR_9031-chr1cen>		
+<http://purl.obolibrary.org/obo/GO_0043227>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr10q31>		
 <http://purl.obolibrary.org/obo/CHR_9606-chrXq25>		
 <http://purl.obolibrary.org/obo/CHR_9483-chr17>		
 <http://purl.obolibrary.org/obo/CHR_9606-chrXq23>		
-<http://purl.obolibrary.org/obo/PATO_0000001>	"A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities"	
+<http://purl.obolibrary.org/obo/BFO_0000020>	"A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same."@en	
 <http://purl.obolibrary.org/obo/CHR_10090-chr5qC>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr8p11.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr21q22.12>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr22q11.21>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr2qE2>		
-<http://purl.obolibrary.org/obo/GO_0000803>	"A chromosome involved in sex determination."	
 <http://purl.obolibrary.org/obo/CHR_10090-chr15qA1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr5q1>		
-<http://purl.obolibrary.org/obo/NCBITaxon_1206794>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_1206794>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr14q32>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr3p12>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr1qG2>		
@@ -1296,6 +1346,7 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr3q21>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr14qC1>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr4qA1>		
+<http://purl.obolibrary.org/obo/OBI_0200178>	"A class discovery objective (sometimes called unsupervised classification) is a data transformation objective where the aim is to organize input data  (typically vectors of attributes) into classes, where the number of classes and their specifications are not known a priori. Depending on usage, the class assignment can be definite or probabilistic."@en	
 <http://purl.obolibrary.org/obo/CHR_9606-chr8p11.1>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr5qB>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr6q16.3>		
@@ -1309,6 +1360,7 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr13q13.2>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr16p1>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr1qG1>		
+<http://purl.obolibrary.org/obo/GO_0005829>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr14q31>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr14q23.3>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr3p13>		
@@ -1348,11 +1400,10 @@
 <http://purl.obolibrary.org/obo/CHR_9483-chr18q>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr9p21.1>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr8qC>		
-<http://purl.obolibrary.org/obo/GO_0000807>	"The sex chromosome present in both sexes of species in which the female is the heterogametic sex. Two copies of the Z chromosome are present in each somatic cell of males and one copy is present in females."	"Wikipedia:ZW_sex-determination_system"
-<http://purl.obolibrary.org/obo/NCBITaxon_8782>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_8782>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr10p>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr18q12.1>		
-<http://purl.obolibrary.org/obo/GO_0000262>	"A chromosome found in the mitochondrion of a eukaryotic cell."	"NIF_Subcellular:sao1186327184"
+<http://purl.obolibrary.org/obo/IAO_0000064>	"A plan specification which describes the inputs and output of mathematical functions as well as workflow of execution for achieving an predefined objective. Algorithms are realized usually by means of implementation as computer programs for execution by automata."@en	
 <http://purl.obolibrary.org/obo/CHR_10090-chrYqA>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr16qA1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1p13.2>		
@@ -1369,6 +1420,7 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr2q33>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr11p11.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr2q22.3>		
+<http://purl.obolibrary.org/obo/GENO_0000904>	"A material entity that is an organism, derived from an organism, or composed of organisms (e.g. a cell line, biosample, tissue culture, population, etc)."	
 <http://purl.obolibrary.org/obo/CHR_10116-chr11q22>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr13q32>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr16q23.3>		
@@ -1377,7 +1429,6 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr13q32.2>		
 <http://purl.obolibrary.org/obo/CHR_10090-chrYqD>		
 <http://purl.obolibrary.org/obo/CHR_9031-chr20>		
-<http://purl.obolibrary.org/obo/GO_0042645>	"The region of a mitochondrion to which the DNA is confined."	
 <http://purl.obolibrary.org/obo/CHR_9606-chr9q21.1>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr14qC>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr19p13>		
@@ -1406,6 +1457,7 @@
 <http://purl.obolibrary.org/obo/CHR_10116-chr11q21>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr19p12>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr5p13.1>		
+<http://purl.obolibrary.org/obo/OBI_0000014>	"a regulatory role involved with making and/or enforcing relevant legislation and governmental orders"@en	
 <http://purl.obolibrary.org/obo/CHR_9606-chr13q32.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr3q12>		
 <http://purl.obolibrary.org/obo/CHR_10090-chrYqC>		
@@ -1415,6 +1467,7 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr1q11>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr10q1>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr14qE2>		
+<http://purl.obolibrary.org/obo/UO_0000003>	"A unit which is a standard measure of the dimension in which events occur in sequence."	
 <http://purl.obolibrary.org/obo/CHR_9606-chrXq27>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr9qE4>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr8q11.21>		
@@ -1429,7 +1482,7 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr4p15.33>		
 <http://purl.obolibrary.org/obo/CHR_9606-chrXq12-q13.3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr13q34>		
-<http://purl.obolibrary.org/obo/NCBITaxon_436489>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_436489>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr9q33>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr19p11>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr7qE2>		
@@ -1442,12 +1495,15 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr1q12-q21>		
 <http://purl.obolibrary.org/obo/CHR_10090-chrXqA3.3>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr9qA1>		
+<http://purl.obolibrary.org/obo/OBI_0002205>	"A categorical value specification that is a histologic grade assigned to a tumor slide specimen according to the American Joint Committee on Cancer (AJCC) 7th Edition grading system."	
 <http://purl.obolibrary.org/obo/CHR_10090-chrXqA6>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr1q5>		
+<http://purl.obolibrary.org/obo/GO_0043231>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr6qG1>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr8qC2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr14q13>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr4p15.32>		
+<http://purl.obolibrary.org/obo/BFO_0000015>	"An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t."@en	
 <http://purl.obolibrary.org/obo/CHR_10116-chr8>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr11qA3.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr9q21.3>		
@@ -1462,7 +1518,9 @@
 <http://purl.obolibrary.org/obo/CHR_10090-chr7qE1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr9q21.2>		
 <http://purl.obolibrary.org/obo/CHR_10090-chrXqA7>		
+<http://purl.obolibrary.org/obo/OBI_0200042>	"A hierarchical clustering is a data transformation which achieves a class discovery objective, which takes as input data item and builds a hierarchy of clusters. The traditional representation of this hierarchy is a tree (visualized by a dendrogram), with the individual input objects at one end (leaves) and a single cluster containing every object at the other (root)."@en	
 <http://purl.obolibrary.org/obo/CHR_9606-chr1q42.3>		
+<http://purl.obolibrary.org/obo/UO_0000002>	"A unit which is a standard measure of the amount of matter/energy of a physical object."	
 <http://purl.obolibrary.org/obo/CHR_10090-chrYq>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr11qA3.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr12q24.13>		
@@ -1482,8 +1540,7 @@
 <http://purl.obolibrary.org/obo/CHR_10090-chr7q>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr1q22>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr3p24.3>		
-<http://purl.obolibrary.org/obo/GO_0000804>	"The sex chromosome present in females of species in which the female is the heterogametic sex; generally, the sex chromosome that pairs with the Z chromosome in the heterogametic sex. The W chromosome is absent from the cells of males and present in one copy in the somatic cells of females."	"Wikipedia:ZW_sex-determination_system"
-<http://purl.obolibrary.org/obo/GO_0099568>	"Any (proper) part of the cytoplasm of a single cell of sufficient size to still be considered cytoplasm."	
+<http://purl.obolibrary.org/obo/GO_0031090>		
 <http://purl.obolibrary.org/obo/CHR_10090-chrXqA3.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr12p11.21>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr8qA>		
@@ -1502,6 +1559,8 @@
 <http://purl.obolibrary.org/obo/CHR_10090-chrXqA3.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr9q33.3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1q42.1>		
+<http://purl.obolibrary.org/obo/OBI_0000017>	"a role which inheres in material entities and is realized in the processes of making, enforcing or being defined by legislation or orders issued by a governmental body."@en	
+<http://purl.obolibrary.org/obo/OBI_0000457>	"Manufacturing is a process with the intent to produce a processed material which will have a function for future use. A person or organization (having manufacturer role) is a participant in this process"@en	
 <http://purl.obolibrary.org/obo/CHR_10116-chr1q21>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr9q22>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr9qA5>		
@@ -1515,13 +1574,17 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr14q>		
 <http://purl.obolibrary.org/obo/CHR_9031-chr4p>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr12q21.31>		
+<http://purl.obolibrary.org/obo/GO_0042646>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr18qA1>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr18qA>		
+<http://purl.obolibrary.org/obo/IAO_0000104>	"A directive information entity with action specifications and objective specifications as parts that, when concretized, is realized in a process in which the bearer tries to achieve the objectives by taking the actions specified."@en	
+<http://purl.obolibrary.org/obo/GO_0005575>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr4>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr12q11>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr8qC5>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr11p1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr14p>		
+<http://purl.obolibrary.org/obo/OBI_0200190>	"A data visualization which has input of a clustered data set and produces an output of a report graph which is capable of rendering data of this type."	
 <http://purl.obolibrary.org/obo/CHR_9606-chr3q26.1>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr18q>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr17p11.2>		
@@ -1540,13 +1603,14 @@
 <http://purl.obolibrary.org/obo/CHR_10090-chr8qC3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr4p15.31>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr1qC1.2>		
-<http://purl.obolibrary.org/obo/NCBITaxon_9989>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_9989>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr8q11>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr3q26.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr5q13.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr9q1>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr13q21>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr9q22.31>		
+<http://purl.obolibrary.org/obo/GO_0042644>		
 <http://purl.obolibrary.org/obo/CHR_9483-chr1p>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr5qE1>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr15q24>		
@@ -1569,6 +1633,8 @@
 <http://purl.obolibrary.org/obo/CHR_10090-chr1qC1.3>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr13q22>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr7qE3>		
+<http://purl.obolibrary.org/obo/OBI_0000458>	"is the objective to manufacture a material of a certain function (device)"@en	
+<http://purl.obolibrary.org/obo/GO_0042645>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr15q23>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr7q31>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1q25.3>		
@@ -1583,6 +1649,7 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr21q2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr7q22.3>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr7qA2>		
+<http://purl.obolibrary.org/obo/IAO_0000015>	"A quality of an information bearer that imparts the information content"@en	
 <http://purl.obolibrary.org/obo/CHR_9606-chr1q12>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr7q34>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr9q3>		
@@ -1605,9 +1672,11 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr4q13.2>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr18p>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr12p11.1>		
+<http://purl.obolibrary.org/obo/GO_0071944>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr7q22.1>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr7q36>		
 <http://purl.obolibrary.org/obo/CHR_9483-chr22cen>		
+<http://purl.obolibrary.org/obo/GO_0042648>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr7q22>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1p13.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr12q13>		
@@ -1615,14 +1684,14 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr2q14.2>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr5q3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr6q22.3>		
+<http://purl.obolibrary.org/obo/IAO_0000009>	"A label is a symbol that is part of some other datum and is used to either partially define  the denotation of that datum or to provide a means for identifying the datum as a member of the set of data with the same label"@en	
 <http://purl.obolibrary.org/obo/CHR_9606-chr12p11.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr4q13.1>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr18q>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr7q35>		
-<http://purl.obolibrary.org/obo/GO_0005740>	"The double lipid bilayer enclosing the mitochondrion and separating its contents from the cell cytoplasm; includes the intermembrane space."	
-<http://purl.obolibrary.org/obo/GO_0043229>	"Organized structure of distinctive morphology and function, occurring within the cell. Includes the nucleus, mitochondria, plastids, vacuoles, vesicles, ribosomes and the cytoskeleton. Excludes the plasma membrane."	
-<http://purl.obolibrary.org/obo/NCBITaxon_7898>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_7898>		
 <http://purl.obolibrary.org/obo/CHR_9031-chr8q>		
+<http://purl.obolibrary.org/obo/GO_0009536>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr7q21>		
 <http://purl.obolibrary.org/obo/CHR_6239-chrX>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr10p1>		
@@ -1634,6 +1703,7 @@
 <http://purl.obolibrary.org/obo/CHR_10090-chrXqF4>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr17q24.1>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr19qC1>		
+<http://purl.obolibrary.org/obo/GO_0000804>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr13p>		
 <http://purl.obolibrary.org/obo/CHR_9483-chr10p>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr18qE1>		
@@ -1647,22 +1717,24 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr1p>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr11qB2>		
 <http://purl.obolibrary.org/obo/CHR_10090-chrXqF5>		
+<http://purl.obolibrary.org/obo/GO_0000805>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr19qC2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr17q24.2>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr13q>		
 <http://purl.obolibrary.org/obo/CHR_9483-chr10q>		
 <http://purl.obolibrary.org/obo/CHR_9031-chr9q>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr2p24.1>		
+<http://purl.obolibrary.org/obo/OBI_0000704>	"A decision tree induction objective is a data transformation objective in which a tree-like graph of edges and nodes is created and from which the selection of each branch requires that some type of logical decision is made."	
 <http://purl.obolibrary.org/obo/CHR_9606-chr7q11>		
 <http://purl.obolibrary.org/obo/CHR_6239-chrV>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr10p11.1>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr18qE2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr5q22.3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr15q24.3>		
+<http://purl.obolibrary.org/obo/OBI_0200175>	"A class discovery data transformation (sometimes called unsupervised classification) is a data transformation that has objective class discovery."@en	
 <http://purl.obolibrary.org/obo/CHR_10090-chr6qB3>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr10qB>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr1qE1.2>		
-<http://purl.obolibrary.org/obo/GO_0043226>	"Organized structure of distinctive morphology and function. Includes the nucleus, mitochondria, plastids, vacuoles, vesicles, ribosomes and the cytoskeleton, and prokaryotic structures such as anammoxosomes and pirellulosomes. Excludes the plasma membrane."	"Wikipedia:Organelle NIF_Subcellular:sao1539965131"
 <http://purl.obolibrary.org/obo/CHR_9606-chr8q24.13>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr10q11>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr11qB1>		
@@ -1679,17 +1751,20 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr6q2>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr18qE3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr15q24.2>		
-<http://purl.obolibrary.org/obo/NCBITaxon_1329799>		"PMID:25450099 GC_ID:1 PMID:22839753"
+<http://purl.obolibrary.org/obo/NCBITaxon_1329799>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr1p>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr6qB2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr6p12.2>		
+<http://purl.obolibrary.org/obo/IAO_0000225>	"The reason for which a term has been deprecated. The allowed values come from an enumerated list of predefined terms. See the specification of these instances for more detailed definitions of each enumerated value."@en	
 <http://purl.obolibrary.org/obo/CHR_10090-chr4qA>		
+<http://purl.obolibrary.org/obo/GO_0000803>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr2p24.3>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr6qB1>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr13qD2.1>		
-<http://purl.obolibrary.org/obo/GO_0005886>	"The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins."	"NIF_Subcellular:sao1663586795 Wikipedia:Cell_membrane"
+<http://purl.obolibrary.org/obo/OBI_0000023>	"A data set that is produced as the output of a class prediction data transformation and consists of a data set with assigned class labels."@en	
 <http://purl.obolibrary.org/obo/CHR_10090-chr5qG1.2>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr5q31>		
+<http://purl.obolibrary.org/obo/IAO_0000309>	"A figure that expresses one or more propositions"@en	
 <http://purl.obolibrary.org/obo/CHR_10090-chr1>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr13q>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr14p21>		
@@ -1697,6 +1772,7 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr5q22.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr6q1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr15q24.1>		
+<http://purl.obolibrary.org/obo/GO_0009532>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr18qE4>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr6q11>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1q>		
@@ -1704,19 +1780,19 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr6p12.1>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr1q>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr12>		
+<http://purl.obolibrary.org/obo/OBI_0000684>	"A objective specification to obtain a material entity for potential use as an input during an investigation."	
 <http://purl.obolibrary.org/obo/CHR_10116-chr6q14>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr14q32.2>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr3qH1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr3q13.31>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr8q22.2>		
-<http://purl.obolibrary.org/obo/GO_0070013>	"An organelle lumen that is part of an intracellular organelle."	
 <http://purl.obolibrary.org/obo/CHR_10116-chr5q34>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr11p14.3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr17p12>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr11>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr1qC1.1>		
 <http://purl.obolibrary.org/obo/CHR_10090-chrXqF1>		
-<http://purl.obolibrary.org/obo/NCBITaxon_337687>		"PMID:15371245 PMID:15019624 GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_337687>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr6q13>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr14q32.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1p21.1>		
@@ -1726,17 +1802,19 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr8q22.3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr3q13.32>		
 <http://purl.obolibrary.org/obo/CHR_9483-chr9q>		
-<http://purl.obolibrary.org/obo/GO_0030849>	"Any chromosome other than a sex chromosome."	"Wikipedia:Autosome"
+<http://purl.obolibrary.org/obo/OBI_0002287>	"A categorical value specification that is a pathologic finding about one or more characteristics of ovarian cancer following the rules of the TNM AJCC v7 classification system as they pertain to staging of regional lymph nodes."	
 <http://purl.obolibrary.org/obo/CHR_9606-chr11p14.2>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr5q33>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1p36.33>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr17p13>		
+<http://purl.obolibrary.org/obo/IAO_0000098>	"A data format specification is the information content borne by the document published defining the specification.\nExample: The ISO document specifying what encompasses an XML document; The instructions in a XSD file"@en	
 <http://purl.obolibrary.org/obo/CHR_9606-chr6q25.3>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr8q1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr15q>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr6q16>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr9q34.11>		
-<http://purl.obolibrary.org/obo/NCBITaxon_207598>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/GO_0000806>		
+<http://purl.obolibrary.org/obo/NCBITaxon_207598>		
 <http://purl.obolibrary.org/obo/CHR_10090-chrXqF2>		
 <http://purl.obolibrary.org/obo/CHR_9483-chr3cen>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr3q22.2>		
@@ -1745,21 +1823,21 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr1p21.2>		
 <http://purl.obolibrary.org/obo/CHR_9483-chrY>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr14>		
-<http://purl.obolibrary.org/obo/NCBITaxon_30727>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_30727>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr7p1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1p36.32>		
 <http://purl.obolibrary.org/obo/CHR_9483-chrX>		
-<http://purl.obolibrary.org/obo/GO_0005737>	"The contents of a cell excluding the plasma membrane and nucleus, but including other subcellular structures."	"Wikipedia:Cytoplasm"
 <http://purl.obolibrary.org/obo/CHR_10116-chr5q36>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr15p11.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr13p1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr8q24.12>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr6q25.2>		
+<http://purl.obolibrary.org/obo/OBI_0200172>	"A partitioning objective is a data transformation objective where the aim is to generate a collection of disjoint non-empty subsets whose union equals a non-empty input set."@en	
 <http://purl.obolibrary.org/obo/CHR_10116-chr8q2>		
-<http://purl.obolibrary.org/obo/GO_0042170>	"Either of the lipid bilayers that surround a plastid and form the plastid envelope."	
 <http://purl.obolibrary.org/obo/CHR_10090-chr13>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr15p>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr13qB3>		
+<http://purl.obolibrary.org/obo/GO_0000807>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr6q15>		
 <http://purl.obolibrary.org/obo/BFO_0000004>	"b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])"@en	
 <http://purl.obolibrary.org/obo/CHR_9606-chr12q15-q21.1>		
@@ -1795,6 +1873,7 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr10q24.2>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr3q31>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr1qH6>		
+<http://purl.obolibrary.org/obo/OBI_0002989>	"A person or organization that provides material supplies to other people or organizations."	
 <http://purl.obolibrary.org/obo/CHR_9606-chr4q35>		
 <http://purl.obolibrary.org/obo/CHR_9031-chr14q>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr12p11.23>		
@@ -1804,6 +1883,7 @@
 <http://purl.obolibrary.org/obo/CHR_10090-chr12qD2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr18p11.31>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr4q12>		
+<http://purl.obolibrary.org/obo/OBI_0002215>	"A categorical value specification that is a histologic grade assigned to a ovarian tumor."	
 <http://purl.obolibrary.org/obo/CHR_10116-chr1q1>		
 <http://purl.obolibrary.org/obo/CHR_10116-chrXq11>		
 <http://purl.obolibrary.org/obo/CHR_9483-chr5cen>		
@@ -1812,7 +1892,7 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr3p21>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr10q24.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chrXp11.2>		
-<http://purl.obolibrary.org/obo/NCBITaxon_436486>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_436486>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr16q22>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr2q3>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr13qB1>		
@@ -1827,6 +1907,7 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr9p24.1>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr12qD1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr21q11.2>		
+<http://purl.obolibrary.org/obo/GO_0043232>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr1q2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr12q24.1>		
 <http://purl.obolibrary.org/obo/CHR_6239-chrM>		
@@ -1836,12 +1917,13 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr13q12.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr16q23>		
 <http://purl.obolibrary.org/obo/CHR_9606-chrYq11.22>		
+<http://purl.obolibrary.org/obo/GO_0009570>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr3p1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chrY>		
 <http://purl.obolibrary.org/obo/CHR_9606-chrXp11.3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr2p16.2>		
 <http://purl.obolibrary.org/obo/CHR_9483-chr9p>		
-<http://purl.obolibrary.org/obo/NCBITaxon_314147>		"PMID:15522813 PMID:12082125 GC_ID:1 PMID:11214319"
+<http://purl.obolibrary.org/obo/NCBITaxon_314147>		
 <http://purl.obolibrary.org/obo/CHR_9483-chr18cen>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr17p1>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr8>		
@@ -1850,6 +1932,7 @@
 <http://purl.obolibrary.org/obo/CHR_9031-chr28>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr5p>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr1q3>		
+<http://purl.obolibrary.org/obo/GO_0043233>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr16q24>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr4q31>		
 <http://purl.obolibrary.org/obo/CHR_9606-chrXp11.4>		
@@ -1860,7 +1943,7 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chrYq11.23>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr18q1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr2p16.1>		
-<http://purl.obolibrary.org/obo/NCBITaxon_314146>		"PMID:11214319 PMID:12082125 PMID:12878460 GC_ID:1 PMID:15522813"
+<http://purl.obolibrary.org/obo/NCBITaxon_314146>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr9>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr4q32>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr5q>		
@@ -1907,8 +1990,9 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr13q12.3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr3p25>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr1qH1>		
+<http://purl.obolibrary.org/obo/IAO_0000037>	"A dot plot is a report graph which is a graphical representation of data where each data point is represented by a single dot placed on coordinates corresponding to data point values in particular dimensions."@en	
 <http://purl.obolibrary.org/obo/CHR_9606-chr14q24.2>		
-<http://purl.obolibrary.org/obo/GO_0000806>	"The sex chromosome present in males of species in which the male is the heterogametic sex; generally, the sex chromosome that pairs with the X chromosome in the heterogametic sex. The Y chromosome is absent from the cells of females and present in one copy in the somatic cells of males."	"Wikipedia:Y_chromosome"
+<http://purl.obolibrary.org/obo/GO_0031965>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr3q36>		
 <http://purl.obolibrary.org/obo/CHR_9606-chrYp11.3>		
 <http://purl.obolibrary.org/obo/CHR_9031-chr25>		
@@ -1929,20 +2013,21 @@
 <http://purl.obolibrary.org/obo/CHR_10116-chr18q11>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr15qB3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr6p24.3>		
-<http://purl.obolibrary.org/obo/GO_0005829>	"The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes."	"Wikipedia:Cytosol NIF_Subcellular:sao101633890"
 <http://purl.obolibrary.org/obo/CHR_10090-chr4>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr3p24>		
-<http://purl.obolibrary.org/obo/GO_0012505>	"A collection of membranous structures involved in transport within the cell. The main components of the endomembrane system are endoplasmic reticulum, Golgi bodies, vesicles, cell membrane and nuclear envelope. Members of the endomembrane system pass materials through each other or though the use of vesicles."	"Wikipedia:Endomembrane_system"
 <http://purl.obolibrary.org/obo/CHR_10090-chr10qD1>		
-<http://purl.obolibrary.org/obo/GO_0003674>	"A molecular process that can be carried out by the action of a single macromolecular machine, usually via direct physical interactions with other molecular entities. Function in this sense denotes an action, or activity, that a gene product (or a complex) performs."	
+<http://purl.obolibrary.org/obo/OBI_0002076>	"A material entity that has two or more specimens as its parts."@en	
 <http://purl.obolibrary.org/obo/CHR_10116-chr3q33>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr1qH4>		
+<http://purl.obolibrary.org/obo/GO_0031966>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr16q2>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr6qB2.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr22q11.1>		
+<http://purl.obolibrary.org/obo/OBI_0002279>	"A categorical value specification that is a pathologic finding about one or more characteristics of lung cancer following the rules of the TNM AJCC v7 classification system as they pertain to staging of regional lymph nodes."	
 <http://purl.obolibrary.org/obo/CHR_9031-chr24>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr7p12.1>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr10qC>		
+<http://purl.obolibrary.org/obo/GO_0008150>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr4qB3>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr14qD3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chrYq11.221>		
@@ -1961,17 +2046,20 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr3p23>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr10qD2>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr6qB2.2>		
-<http://purl.obolibrary.org/obo/GO_0005694>	"A structure composed of a very long molecule of DNA and associated proteins (e.g. histones) that carries hereditary information."	"Wikipedia:Chromosome"
+<http://purl.obolibrary.org/obo/GO_0031967>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr3q34>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr1qH3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr16q1>		
+<http://purl.obolibrary.org/obo/OBI_0100051>	"A material entity that has the specimen role."@en	
 <http://purl.obolibrary.org/obo/CHR_9606-chr22q11.2>		
 <http://purl.obolibrary.org/obo/CHR_9031-chr23>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr10qD>		
+<http://purl.obolibrary.org/obo/OBI_0002356>	"A categorical value specification that is an assessment of a participant's performance status (general well-being and activities of daily life)."	
 <http://purl.obolibrary.org/obo/CHR_9606-chr7p12.2>		
+<http://purl.obolibrary.org/obo/GO_0016301>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr20q1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr2q23>		
-<http://purl.obolibrary.org/obo/NCBITaxon_186634>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_186634>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr14p13>		
 <http://purl.obolibrary.org/obo/CHR_9031-chr4cen>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr5p15.31>		
@@ -1991,6 +2079,7 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr1p11>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1q44>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr7p11.2>		
+<http://purl.obolibrary.org/obo/OBI_0000648>	"A data set that is produced as the output of a class discovery data transformation and consists of a data set with assigned discovered class labels."@en	
 <http://purl.obolibrary.org/obo/CHR_9606-chr4q34.1>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr12q11>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr3p1>		
@@ -2015,6 +2104,7 @@
 <http://purl.obolibrary.org/obo/CHR_10090-chr14qE2.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr14q13.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr2q21>		
+<http://purl.obolibrary.org/obo/IAO_0000308>	"An information content entity consisting of a two dimensional arrangement of information content entities such that the arrangement itself is about something."@en	
 <http://purl.obolibrary.org/obo/CHR_9606-chr20p>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr15qD3>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr2q34>		
@@ -2024,7 +2114,7 @@
 <http://purl.obolibrary.org/obo/CHR_10116-chr12q13>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr7q11.22>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr2p12-p11.2>		
-<http://purl.obolibrary.org/obo/NCBITaxon_131567>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_131567>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr1q54>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr4q34.3>		
 <http://purl.obolibrary.org/obo/CHR_9483-chr17q>		
@@ -2032,6 +2122,7 @@
 <http://purl.obolibrary.org/obo/CHR_10116-chr2q33>		
 <http://purl.obolibrary.org/obo/CHR_9606-chrYq11.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chrYq11.1>		
+<http://purl.obolibrary.org/obo/UBERON_0001062>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr14qE2.3>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr15qA>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr13qA3.1>		
@@ -2052,7 +2143,6 @@
 <http://purl.obolibrary.org/obo/CHR_10090-chr8qD3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr18q11.1>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr2q1>		
-<http://purl.obolibrary.org/obo/GO_0043227>	"Organized structure of distinctive morphology and function, bounded by a single or double lipid bilayer membrane. Includes the nucleus, mitochondria, plastids, vacuoles, and vesicles. Excludes the plasma membrane."	"NIF_Subcellular:sao414196390"
 <http://purl.obolibrary.org/obo/CHR_9606-chr1q31.1>		
 <http://purl.obolibrary.org/obo/CHR_7955-chr9>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr15qD1>		
@@ -2063,16 +2153,18 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr21p12>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr3p21.31>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr3qA3>		
-<http://purl.obolibrary.org/obo/NCBITaxon_10088>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_10088>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr9q21>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr1qE4>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr19p11>		
+<http://purl.obolibrary.org/obo/OBI_0002326>	"A categorical value specification that is an assessment of the stage of a gynecologic cancer according to the International Federation of Gynecology and Obstetrics (FIGO) staging systems."	
 <http://purl.obolibrary.org/obo/CHR_9606-chr9p22>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr1q12>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr14p11.1>		
 <http://purl.obolibrary.org/obo/CHR_9031-chr16q>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr3p25.2>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr8q>		
+<http://purl.obolibrary.org/obo/OBI_0200171>	"A partitioning data transformation is a data transformation that has objective partitioning."@en	
 <http://purl.obolibrary.org/obo/CHR_9606-chr3q27.2>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr2qC3>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr7qB>		
@@ -2108,7 +2200,7 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr9q22.3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr21q21.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr19q1>		
-<http://purl.obolibrary.org/obo/NCBITaxon_2743709>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_2743709>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr19p13>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1q42>		
 <http://purl.obolibrary.org/obo/CHR_10090-chrXqC>		
@@ -2120,6 +2212,7 @@
 <http://purl.obolibrary.org/obo/CHR_10090-chr7qF2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1q41-q42>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr9q34.1>		
+<http://purl.obolibrary.org/obo/GO_0009507>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr9p24>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr2q24>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr2q4>		
@@ -2136,14 +2229,18 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr21p13>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr3p21.32>		
 <http://purl.obolibrary.org/obo/CHR_10090-chrXqB>		
+<http://purl.obolibrary.org/obo/IAO_0000030>	"A generically dependent continuant that is about some thing."@en	
 <http://purl.obolibrary.org/obo/CHR_10090-chr8qA1.3>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr16qB1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr3p25.1>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr19p12>		
+<http://purl.obolibrary.org/obo/UO_0000001>	"A unit which is a standard measure of the distance between two points."	
 <http://purl.obolibrary.org/obo/CHR_10090-chr7qF1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr9q22.1>		
-<http://purl.obolibrary.org/obo/NCBITaxon_119089>		"GC_ID:1"
-<http://purl.obolibrary.org/obo/NCBITaxon_55879>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/GO_0009508>		
+<http://purl.obolibrary.org/obo/NCBITaxon_119089>		
+<http://purl.obolibrary.org/obo/IAO_0000184>	"A scatterplot is a graph which uses Cartesian coordinates to display values for two variables for a set of data. The data is displayed as a collection of points, each having the value of one variable determining the position on the horizontal axis and the value of the other variable determining the position on the vertical axis."@en	
+<http://purl.obolibrary.org/obo/NCBITaxon_55879>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr14q11>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr4qD2.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chrXp1>		
@@ -2163,6 +2260,8 @@
 <http://purl.obolibrary.org/obo/CHR_10116-chr6q2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr9q11>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr4qD2.2>		
+<http://purl.obolibrary.org/obo/OBI_0002232>	"A categorical value specification that is a pathologic finding about one or more characteristics of lung cancer following the rules of the TNM American Joint Committee on Cancer (AJCC) version 7 classification system as they pertain to staging of the primary tumor. TNM pathologic primary tumor findings are based on clinical findings supplemented by histopathologic examination of one or more tissue specimens acquired during surgery."	
+<http://purl.obolibrary.org/obo/OBI_0000726>	"Peak matching is a data transformation performed on a dataset of a graph of ordered data points (e.g. a spectrum) with the objective of pattern matching local maxima above a noise threshold"	
 <http://purl.obolibrary.org/obo/CHR_9606-chr20p12.2>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr15>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr7p2>		
@@ -2172,7 +2271,6 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr9q34.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr2q37.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr17q21.32>		
-<http://purl.obolibrary.org/obo/GO_0042648>	"A circular DNA molecule containing chloroplast encoded genes."	
 <http://purl.obolibrary.org/obo/CHR_9606-chr9q12>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr6q3>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr4qD2.3>		
@@ -2189,6 +2287,7 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr6p21.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chrXp2>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr17q>		
+<http://purl.obolibrary.org/obo/OBI_0000727>	"A k-nearest neighbors is a data transformation which achieves a class discovery or partitioning objective, in which an input data object with vector y is assigned to a class label based upon the k closest training data set points to y; where k is the largest value that class label is assigned."@en	
 <http://purl.obolibrary.org/obo/CHR_9031-chr6cen>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr21p11.1>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr17>		
@@ -2202,8 +2301,9 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr12p13>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr6q23.3>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr19p>		
+<http://purl.obolibrary.org/obo/GO_0110165>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr10q11.21>		
-<http://purl.obolibrary.org/obo/NCBITaxon_9604>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_9604>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr19q13.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr5q12.2>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr14p22>		
@@ -2211,7 +2311,7 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr16p12.3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr2p23.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr11q23>		
-<http://purl.obolibrary.org/obo/NCBITaxon_8976>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_8976>		
 <http://purl.obolibrary.org/obo/CHR_7955-chr1>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr15qF>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr7q22>		
@@ -2222,6 +2322,7 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr10q11.22>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr6q23.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr2p11.2>		
+<http://purl.obolibrary.org/obo/GO_0042170>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr19q>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr6qD3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr19q13.3>		
@@ -2232,21 +2333,23 @@
 <http://purl.obolibrary.org/obo/CHR_10090-chr7qB3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr11q24>		
 <http://purl.obolibrary.org/obo/CHR_9031-chr7q>		
+<http://purl.obolibrary.org/obo/OBI_0002310>	"A categorical value specification that is a  pathologic finding about one or more characteristics of ovarian cancer following the rules of the TNM AJCC v7 classification system as they pertain to distant metastases. TNM pathologic distant metastasis findings are based on clinical findings supplemented by histopathologic examination of one or more tissue specimens acquired during surgery."	
 <http://purl.obolibrary.org/obo/CHR_9606-chr7p22>		
-<http://purl.obolibrary.org/obo/NCBITaxon_9072>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_9072>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr7q21>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr1qA3>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr17q12.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr6q23.1>		
+<http://purl.obolibrary.org/obo/BFO_0000031>	"A continuant that is dependent on one or other independent continuant bearers. For every instance of A requires some instance of (an independent continuant type) B but which instance of B serves can change from time to time."@en	
 <http://purl.obolibrary.org/obo/CHR_9606-chr10q11.23>		
+<http://purl.obolibrary.org/obo/GO_0016020>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr2p23.3>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr6qD2>		
-<http://purl.obolibrary.org/obo/NCBITaxon_9606>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_9606>		
 <http://purl.obolibrary.org/obo/CHR_9606-chrXq21.33>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr11q21>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr6q11.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr11q>		
-<http://purl.obolibrary.org/obo/GO_0098687>	"Any subdivision of a chromosome along its length."	
 <http://purl.obolibrary.org/obo/CHR_9606-chr11p15-p14>		
 <http://purl.obolibrary.org/obo/CHR_9031-chr7p>		
 <http://purl.obolibrary.org/obo/CHR_7955-chr3>		
@@ -2255,10 +2358,11 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr13q31.1>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr18qB1>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr17q12.3>		
+<http://purl.obolibrary.org/obo/UO_0000280>		
 <http://purl.obolibrary.org/obo/BFO_0000020>	"b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])"@en	
-<http://purl.obolibrary.org/obo/NCBITaxon_33511>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_33511>		
 <http://purl.obolibrary.org/obo/CHR_9483-chr1cen>		
-<http://purl.obolibrary.org/obo/NCBITaxon_9605>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_9605>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr19q13.1>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr6qD1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr7q21.3>		
@@ -2266,10 +2370,11 @@
 <http://purl.obolibrary.org/obo/CHR_10090-chr17qE1.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr5q12.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr6q11.1>		
-<http://purl.obolibrary.org/obo/NCBITaxon_33208>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_33208>		
+<http://purl.obolibrary.org/obo/OBI_0002256>	"A categorical value specification that is a pathologic finding about one or more characteristics of ovarian cancer following the rules of the TNM AJCC v7 classification system as they pertain to staging of the primary tumor. TNM pathologic primary tumor findings are based on clinical findings supplemented by histopathologic examination of one or more tissue specimens acquired during surgery."	
 <http://purl.obolibrary.org/obo/CHR_9606-chr11p>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr2p23.2>		
-<http://purl.obolibrary.org/obo/NCBITaxon_7776>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_7776>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr15qE>		
 <http://purl.obolibrary.org/obo/CHR_7955-chr2>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr7qB1>		
@@ -2278,10 +2383,8 @@
 <http://purl.obolibrary.org/obo/CHR_10090-chr1qA5>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr6q1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr2q37.3>		
-<http://purl.obolibrary.org/obo/GO_0043228>	"Organized structure of distinctive morphology and function, not bounded by a lipid bilayer membrane. Includes ribosomes, the cytoskeleton and chromosomes."	"NIF_Subcellular:sao1456184038"
 <http://purl.obolibrary.org/obo/CHR_9606-chr6q21>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr7q21.2>		
-<http://purl.obolibrary.org/obo/GO_0000228>	"A chromosome that encodes the nuclear genome and is found in the nucleus of a eukaryotic cell during the cell cycle phases when the nucleus is intact."	
 <http://purl.obolibrary.org/obo/CHR_10090-chrXqE2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr5q33.2>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr19qD3>		
@@ -2291,11 +2394,12 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr4q31.21>		
 <http://purl.obolibrary.org/obo/CHR_10090-chrYqC2>		
 <http://purl.obolibrary.org/obo/CHR_9483-chr6p>		
-<http://purl.obolibrary.org/obo/NCBITaxon_2743711>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/GO_0005886>		
+<http://purl.obolibrary.org/obo/NCBITaxon_2743711>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr10p15>		
+<http://purl.obolibrary.org/obo/OBI_0002290>	"A categorical value specification that is a pathologic finding about one or more characteristics of colon cancer following the rules of the TNM AJCC v7 classification system as they pertain to distant metastases. TNM pathologic distant metastasis findings are based on clinical findings supplemented by histopathologic examination of one or more tissue specimens acquired during surgery."	
 <http://purl.obolibrary.org/obo/CHR_10116-chr9q1>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr3qB>		
-<http://purl.obolibrary.org/obo/GO_0005773>	"A closed structure, found only in eukaryotic cells, that is completely surrounded by unit membrane and contains liquid material. Cells contain one or several vacuoles, that may have different functions from each other. Vacuoles have a diverse array of functions. They can act as a storage organelle for nutrients or waste products, as a degradative compartment, as a cost-effective way of increasing cell size, and as a homeostatic regulator controlling both turgor pressure and pH of the cytosol."	"Wikipedia:Vacuole"
 <http://purl.obolibrary.org/obo/CHR_10090-chrXqE3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr5q33.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr12q21.1>		
@@ -2303,14 +2407,16 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr7q21.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr20q13.33>		
 <http://purl.obolibrary.org/obo/CHR_9606-chrXq13.1>		
+<http://purl.obolibrary.org/obo/IAO_0000010>	"Software is a plan specification composed of a series of instructions that can be \ninterpreted by or directly executed by a processing unit."@en	
 <http://purl.obolibrary.org/obo/CHR_9606-chr7p15>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr10qB5.3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1q23.3>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr14p1>		
 <http://purl.obolibrary.org/obo/BFO_0000003>	"An entity that has temporal parts and that happens, unfolds or develops through time."@en	
-<http://purl.obolibrary.org/obo/NCBITaxon_7952>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_7952>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr12qA3>		
 <http://purl.obolibrary.org/obo/CHR_10090-chrYqC3>		
+<http://purl.obolibrary.org/obo/OBI_0002357>	"A performance status value specification designed by the Eastern Cooperative Oncology Group to assess disease progression and its affect on the daily living abilities of the patient."	
 <http://purl.obolibrary.org/obo/CHR_7955-chrM>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr11p15.3>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr9q2>		
@@ -2322,7 +2428,6 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr10q24.31>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr7q21.11>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr3qE>		
-<http://purl.obolibrary.org/obo/GO_0043233>	"The internal volume enclosed by the membranes of a particular organelle; includes the volume enclosed by a single organelle membrane, e.g. endoplasmic reticulum lumen, or the volume enclosed by the innermost of the two lipid bilayers of an organelle envelope, e.g. nuclear lumen."	
 <http://purl.obolibrary.org/obo/CHR_10090-chr5qA1>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr3qE1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr8p21.1>		
@@ -2330,17 +2435,19 @@
 <http://purl.obolibrary.org/obo/CHR_10090-chr10qB5.2>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr14p2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr4q31.23>		
-<http://purl.obolibrary.org/obo/NCBITaxon_9031>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_9031>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr12qA2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1q23.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr15q1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr5q21.3>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr17p14>		
+<http://purl.obolibrary.org/obo/GO_0005622>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr4qC1>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr9q3>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr2qG2>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr3qD>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr10p13>		
+<http://purl.obolibrary.org/obo/OBI_0002284>	"A categorical value specification that is a pathologic finding about one or more characteristics of renal cancer following the rules of the TNM AJCC v7 classification system as they pertain to staging of regional lymph nodes."	
 <http://purl.obolibrary.org/obo/CHR_9483-chr11cen>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr12q21.3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr5q33.3>		
@@ -2354,16 +2461,18 @@
 <http://purl.obolibrary.org/obo/CHR_9483-chr6q>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr11p15.5>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr4q31.22>		
-<http://purl.obolibrary.org/obo/NCBITaxon_9030>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_9030>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1q23.1>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr11qB1.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr8p21.3>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr3qE2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1p36.23>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr4qC2>		
+<http://purl.obolibrary.org/obo/OBI_0200000>	"A planned process that produces output data from input data."@en	
 <http://purl.obolibrary.org/obo/CHR_10090-chr2qG1>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr6qC3>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr3qC>		
+<http://purl.obolibrary.org/obo/OBI_0002224>	"A categorical value specification that is a pathologic finding about one or more characteristics of colorectal cancer following the rules of the TNM American Joint Committee on Cancer (AJCC) version 7 classification system as they pertain to staging of the primary tumor. TNM pathologic primary tumor findings are based on clinical findings supplemented by histopathologic examination of one or more tissue specimens acquired during surgery."	
 <http://purl.obolibrary.org/obo/CHR_9606-chr10p12>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr16q>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr6p21.2>		
@@ -2377,18 +2486,20 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr18p11.23>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr7q1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr19p13.12>		
+<http://purl.obolibrary.org/obo/APOLLO_SV_00000008>	"A planned process that has specified output a software product and that involves the creation of source code."@en	
 <http://purl.obolibrary.org/obo/CHR_9606-chr1p32.1>		
+<http://purl.obolibrary.org/obo/GO_0012505>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr5q22>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr15p13>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr5qE3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1p36.22>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr15q15.1>		
-<http://purl.obolibrary.org/obo/NCBITaxon_117570>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_117570>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr8p11.23>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr14q21.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr8q11.2>		
+<http://purl.obolibrary.org/obo/OBI_0002210>	"A categorical value specification that is a histologic grade assigned to a tumor slide specimen according to the Fuhrman Nuclear Grading System."	
 <http://purl.obolibrary.org/obo/CHR_9606-chr6q26>		
-<http://purl.obolibrary.org/obo/GO_0043231>	"Organized structure of distinctive morphology and function, bounded by a single or double lipid bilayer membrane and occurring within the cell. Includes the nucleus, mitochondria, plastids, vacuoles, and vesicles. Excludes the plasma membrane."	
 <http://purl.obolibrary.org/obo/CHR_10116-chr13q1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr8q24.22>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr10q24.32>		
@@ -2396,6 +2507,7 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr6p21.3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr16p>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr4q44>		
+<http://purl.obolibrary.org/obo/IAO_0000007>	"A directive information entity that describes an action the bearer will take."@en	
 <http://purl.obolibrary.org/obo/CHR_10090-chr5qE4>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr5q21>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr5p14>		
@@ -2404,7 +2516,7 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr18p11.22>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr19p13.11>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1p36.21>		
-<http://purl.obolibrary.org/obo/NCBITaxon_117571>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_117571>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1p32.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr8p11.22>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr2q>		
@@ -2416,19 +2528,23 @@
 <http://purl.obolibrary.org/obo/CHR_10116-chr13q2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr8q24.21>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr7p15.3>		
-<http://purl.obolibrary.org/obo/NCBITaxon_33213>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/OBI_0002298>	"A categorical value specification that is a pathologic finding about one or more characteristics of lung cancer following the rules of the TNM AJCC v7 classification system as they pertain to distant metastases. TNM pathologic distant metastasis findings are based on clinical findings supplemented by histopathologic examination of one or more tissue specimens acquired during surgery."	
+<http://purl.obolibrary.org/obo/NCBITaxon_33213>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr20q13.32>		
 <http://purl.obolibrary.org/obo/CHR_9606-chrXq1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chrXq13.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr8p11.21>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr14p>		
+<http://purl.obolibrary.org/obo/OBI_0000663>	"A class prediction data transformation (sometimes called supervised classification) is a data transformation that has objective class prediction."@en	
 <http://purl.obolibrary.org/obo/CHR_10090-chr5qE5>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr6q14.1>		
-<http://purl.obolibrary.org/obo/NCBITaxon_7954>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_7954>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr8q23.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr18p11.21>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr7q3>		
 <http://purl.obolibrary.org/obo/CHR_9483-chrXq>		
+<http://purl.obolibrary.org/obo/IAO_0000030>	"an information content entity is an entity that is generically dependent on some artifact and stands in relation of aboutness to some entity"@en	
+<http://purl.obolibrary.org/obo/GO_0005759>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr18qC>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr11p15.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr1p32.3>		
@@ -2452,9 +2568,10 @@
 <http://purl.obolibrary.org/obo/CHR_9483-chr22p>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr14q>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr18qE>		
-<http://purl.obolibrary.org/obo/NCBITaxon_7955>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_7955>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr5p12>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr8q23.2>		
+<http://purl.obolibrary.org/obo/GO_0030849>		
 <http://purl.obolibrary.org/obo/CHR_9483-chrXp>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr7q2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr5p11>		
@@ -2474,17 +2591,16 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chrXp22.1>		
 <http://purl.obolibrary.org/obo/CHR_10090-chrXqA2>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr8qB3.2>		
-<http://purl.obolibrary.org/obo/GO_0009532>	"The proteinaceous ground substance of plastids."	
 <http://purl.obolibrary.org/obo/CHR_9606-chr17q21.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr3q1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr6p25.2>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr1qH2.3>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr17q1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr4p15.1>		
-<http://purl.obolibrary.org/obo/GO_0005739>	"A semiautonomous, self replicating organelle that occurs in varying numbers, shapes, and sizes in the cytoplasm of virtually all eukaryotic cells. It is notably the site of tissue respiration."	"NIF_Subcellular:sao1860313010 Wikipedia:Mitochondrion"
 <http://purl.obolibrary.org/obo/CHR_9606-chr11q23.3>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr14qA3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr4q31.2>		
+<http://purl.obolibrary.org/obo/IAO_0000005>	"A directive information entity that describes an intended process endpoint. When part of a plan specification the concretization is realized in a planned process in which the bearer tries to effect the world so that the process endpoint is achieved."@en	
 <http://purl.obolibrary.org/obo/CHR_9606-chr4q23>		
 <http://purl.obolibrary.org/obo/CHR_9606-chrXp22.2>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr12qA1.1>		
@@ -2497,14 +2613,17 @@
 <http://purl.obolibrary.org/obo/CHR_10090-chr13qC3>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr8qB3.3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr17q21.3>		
+<http://purl.obolibrary.org/obo/OBI_0000018>	"a role realized through the process of supplying materials such as animal subjects, reagents or other materials used in an investigation."@en	
 <http://purl.obolibrary.org/obo/CHR_9031-chr2cen>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr6p25.3>		
+<http://purl.obolibrary.org/obo/OBI_0000835>	"A person or organization that has a manufacturer role"	
 <http://purl.obolibrary.org/obo/CHR_10116-chr19p14>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr11q23.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr16p1>		
 <http://purl.obolibrary.org/obo/CHR_10090-chrX>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr4q22>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr4q31.1>		
+<http://purl.obolibrary.org/obo/OBI_0002216>	"A histologic grade for ovarian tumor that is from a two-tier histological classification of tumors. "	
 <http://purl.obolibrary.org/obo/CHR_9606-chr16q11.1>		
 <http://purl.obolibrary.org/obo/CHR_9031-chr17>		
 <http://purl.obolibrary.org/obo/CHR_10090-chrXqA3>		
@@ -2512,7 +2631,7 @@
 <http://purl.obolibrary.org/obo/CHR_10116-chr10q11>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr7qA>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr11q13.2>		
-<http://purl.obolibrary.org/obo/NCBITaxon_8492>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_8492>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr2qC2>		
 <http://purl.obolibrary.org/obo/CHR_9483-chr13p>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr10q23.3>		
@@ -2524,6 +2643,7 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr5p15>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr1qE2>		
 <http://purl.obolibrary.org/obo/CHR_10090-chrY>		
+<http://purl.obolibrary.org/obo/IAO_0000102>	"Data about an ontology part is a data item about a part of an ontology, for example a term"@en	
 <http://purl.obolibrary.org/obo/CHR_10090-chr3qA1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr12q13.1>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr11qD>		
@@ -2531,6 +2651,7 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr4q21>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr14qA1>		
 <http://purl.obolibrary.org/obo/CHR_9031-chr16>		
+<http://purl.obolibrary.org/obo/OBI_0200166>	"An objective specification to transformation input data into output data"@en	
 <http://purl.obolibrary.org/obo/CHR_10090-chrXqA4>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr12qA1.3>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr16qC3.1>		
@@ -2568,15 +2689,15 @@
 <http://purl.obolibrary.org/obo/CHR_10116-chr3q23>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr9p11.2>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr17p12>		
+<http://purl.obolibrary.org/obo/UO_0000105>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr11qB1.2>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr3qE3>		
-<http://purl.obolibrary.org/obo/GO_0005635>	"The double lipid bilayer enclosing the nucleus and separating its contents from the rest of the cytoplasm; includes the intermembrane space, a gap of width 20-40 nm (also called the perinuclear space)."	"Wikipedia:Nuclear_envelope"
 <http://purl.obolibrary.org/obo/CHR_10090-chr11qB>		
 <http://purl.obolibrary.org/obo/CHR_9031-chr14>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr12q15>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr4qC3>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr9qF3>		
-<http://purl.obolibrary.org/obo/NCBITaxon_41665>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_41665>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr4q27>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr16qC3.3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr14q13.1>		
@@ -2588,6 +2709,7 @@
 <http://purl.obolibrary.org/obo/CHR_10090-chr4q>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr6q>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr10q11.2>		
+<http://purl.obolibrary.org/obo/IAO_0000179>	"A histogram is a report graph which is a statistical description of a\ndistribution in terms of occurrence frequencies of different event classes."@en	
 <http://purl.obolibrary.org/obo/CHR_9606-chr12q13.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr3p13>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr10q32.2>		
@@ -2596,7 +2718,7 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr5p13.3>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr10q32.3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr9p11.1>		
-<http://purl.obolibrary.org/obo/GO_0005634>	"A membrane-bounded organelle of eukaryotic cells in which chromosomes are housed and replicated. In most cells, the nucleus contains all of the cell's chromosomes except the organellar chromosomes, and is the site of RNA synthesis and processing. In some species, or in specialized cell types, RNA metabolism or DNA replication may be absent."	"NIF_Subcellular:sao1702920020 Wikipedia:Cell_nucleus"
+<http://purl.obolibrary.org/obo/IAO_0000033>	"An information content entity whose concretizations indicate to their bearer how to realize them in a process."@en	
 <http://purl.obolibrary.org/obo/CHR_9606-chr2q33.1>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr3q24>		
 <http://purl.obolibrary.org/obo/CHR_9031-chr11p>		
@@ -2607,12 +2729,14 @@
 <http://purl.obolibrary.org/obo/CHR_10116-chr12q16>		
 <http://purl.obolibrary.org/obo/CHR_9031-chr13>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr11qC>		
+<http://purl.obolibrary.org/obo/IAO_0000310>	"A collection of information content entities intended to be understood together as a whole"@en	
 <http://purl.obolibrary.org/obo/CHR_10090-chr9qF4>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr4qC4>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr4q26>		
+<http://purl.obolibrary.org/obo/OBI_0200111>	"An planned process that creates images, diagrams or animations from the input data."@en	
 <http://purl.obolibrary.org/obo/CHR_9606-chr4p15.3>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr2q21.2>		
-<http://purl.obolibrary.org/obo/NCBITaxon_436491>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_436491>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr9q31.1>		
 <http://purl.obolibrary.org/obo/CHR_10116-chrXq>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr3p12>		
@@ -2623,7 +2747,7 @@
 <http://purl.obolibrary.org/obo/CHR_9031-chr11q>		
 <http://purl.obolibrary.org/obo/CHR_9031-chr12>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr10q11.1>		
-<http://purl.obolibrary.org/obo/NCBITaxon_9479>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_9479>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr9qF1>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr14qE5>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr4qC5>		
@@ -2634,19 +2758,19 @@
 <http://purl.obolibrary.org/obo/CHR_10090-chrXqA1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr15q11.2>		
 <http://purl.obolibrary.org/obo/CHR_9606-chrXq>		
-<http://purl.obolibrary.org/obo/NCBITaxon_436492>		"GC_ID:1"
+<http://purl.obolibrary.org/obo/NCBITaxon_436492>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr3p11>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr17q21.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr6p25.1>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr4p1>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr10q>		
+<http://purl.obolibrary.org/obo/GO_0005938>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr2q41>		
 <http://purl.obolibrary.org/obo/CHR_10116-chr3q22>		
-<http://purl.obolibrary.org/obo/GO_0042644>	"The region of a chloroplast to which the DNA is confined."	
 <http://purl.obolibrary.org/obo/CHR_10116-chr17p11>		
 <http://purl.obolibrary.org/obo/CHR_9031-chr11>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr9qF2>		
-<http://purl.obolibrary.org/obo/NCBITaxon_1437010>		"PMID:11791233 GC_ID:1 PMID:11743200"
+<http://purl.obolibrary.org/obo/NCBITaxon_1437010>		
 <http://purl.obolibrary.org/obo/CHR_9606-chr4q24>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr11qA>		
 <http://purl.obolibrary.org/obo/CHR_10090-chr4qC6>		

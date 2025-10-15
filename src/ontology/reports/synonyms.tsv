@@ -1,15 +1,182 @@
 ?cls	?pred	?val	?synType
+<http://purl.obolibrary.org/obo/OBI_0000713>	<http://www.w3.org/2000/01/rdf-schema#label>	"GenePattern software"	
+<http://purl.obolibrary.org/obo/OBI_0200050>	<http://www.w3.org/2000/01/rdf-schema#label>	"dimensionality reduction"@en	
+<http://purl.obolibrary.org/obo/OBI_0200171>	<http://www.w3.org/2000/01/rdf-schema#label>	"partitioning data transformation"@en	
+<http://purl.obolibrary.org/obo/OBI_0002270>	<http://www.w3.org/2000/01/rdf-schema#label>	"pathologic lymph node stage for colon and rectum according to AJCC 7th edition"	
+<http://purl.obolibrary.org/obo/IAO_0000409>	<http://www.w3.org/2000/01/rdf-schema#label>	"denotator type"@en	
+<http://purl.obolibrary.org/obo/OBI_0000648>	<http://www.w3.org/2000/01/rdf-schema#label>	"clustered data set"@en	
+<http://purl.obolibrary.org/obo/IAO_0000015>	<http://www.w3.org/2000/01/rdf-schema#label>	"information carrier"@en	
+<http://purl.obolibrary.org/obo/NCBITaxon_40674>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mammalia"	
+<http://purl.obolibrary.org/obo/IAO_0000027>	<http://www.w3.org/2000/01/rdf-schema#label>	"data item"@en	
+<http://purl.obolibrary.org/obo/OBI_0002357>	<http://www.w3.org/2000/01/rdf-schema#label>	"Eastern Cooperative Oncology Group score value specification"	
+<http://purl.obolibrary.org/obo/OBI_0000458>	<http://www.w3.org/2000/01/rdf-schema#label>	"manufacturing objective"@en	
+<http://purl.obolibrary.org/obo/BFO_0000017>	<http://www.w3.org/2000/01/rdf-schema#label>	"realizable entity"@en	
+<http://purl.obolibrary.org/obo/BFO_0000017>	<http://www.w3.org/2000/01/rdf-schema#label>	"realizable entity"	
+<http://purl.obolibrary.org/obo/IAO_0000078>	<http://www.w3.org/2000/01/rdf-schema#label>	"curation status specification"@en	
+<http://purl.obolibrary.org/obo/OBI_0200033>	<http://www.w3.org/2000/01/rdf-schema#label>	"leave one out cross validation method"@en	
+<http://purl.obolibrary.org/obo/OBI_0000663>	<http://www.w3.org/2000/01/rdf-schema#label>	"class prediction data transformation"@en	
+<http://purl.obolibrary.org/obo/OBI_0002215>	<http://www.w3.org/2000/01/rdf-schema#label>	"histologic grade for ovarian tumor"	
+<http://purl.obolibrary.org/obo/OBI_0000835>	<http://www.w3.org/2000/01/rdf-schema#label>	"manufacturer"	
+<http://purl.obolibrary.org/obo/IAO_0000003>	<http://www.w3.org/2000/01/rdf-schema#label>	"measurement unit label"@en	
+<http://purl.obolibrary.org/obo/IAO_0000030>	<http://www.w3.org/2000/01/rdf-schema#label>	"information content entity"@en	
+<http://purl.obolibrary.org/obo/IAO_0000030>	<http://www.w3.org/2000/01/rdf-schema#label>	"information content entity"	
+<http://purl.obolibrary.org/obo/IAO_0000310>	<http://www.w3.org/2000/01/rdf-schema#label>	"document"@en	
+<http://purl.obolibrary.org/obo/UO_0000005>	<http://www.w3.org/2000/01/rdf-schema#label>	"temperature unit"	
+<http://purl.obolibrary.org/obo/BFO_0000040>	<http://www.w3.org/2000/01/rdf-schema#label>	"material entity"@en	
+<http://purl.obolibrary.org/obo/BFO_0000040>	<http://www.w3.org/2000/01/rdf-schema#label>	"material entity"	
+<http://purl.obolibrary.org/obo/OBI_0002326>	<http://www.w3.org/2000/01/rdf-schema#label>	"International Federation of Gynecology and Obstetrics cervical cancer stage value specification"	
+<http://purl.obolibrary.org/obo/IAO_0000010>	<http://www.w3.org/2000/01/rdf-schema#label>	"software"@en	
+<http://purl.obolibrary.org/obo/IAO_0000104>	<http://www.w3.org/2000/01/rdf-schema#label>	"plan specification"@en	
+<http://purl.obolibrary.org/obo/IAO_0000225>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolescence reason specification"@en	
+<http://purl.obolibrary.org/obo/OBI_0002310>	<http://www.w3.org/2000/01/rdf-schema#label>	"pathologic distant metastases stage for ovary according to AJCC 7th edition"	
+<http://purl.obolibrary.org/obo/OBI_0001933>	<http://www.w3.org/2000/01/rdf-schema#label>	"value specification"	
+<http://purl.obolibrary.org/obo/OBI_0002219>	<http://www.w3.org/2000/01/rdf-schema#label>	"histologic grade for ovarian tumor according to the World Health Organization"	
+<http://purl.obolibrary.org/obo/OBI_0200178>	<http://www.w3.org/2000/01/rdf-schema#label>	"class discovery objective"@en	
+<http://purl.obolibrary.org/obo/BFO_0000023>	<http://www.w3.org/2000/01/rdf-schema#label>	"role"@en	
+<http://purl.obolibrary.org/obo/BFO_0000023>	<http://www.w3.org/2000/01/rdf-schema#label>	"role"	
+<http://purl.obolibrary.org/obo/OBI_0200188>	<http://www.w3.org/2000/01/rdf-schema#label>	"cross validation objective"@en	
+<http://purl.obolibrary.org/obo/IAO_0000064>	<http://www.w3.org/2000/01/rdf-schema#label>	"algorithm"@en	
+<http://purl.obolibrary.org/obo/OBI_0000245>	<http://www.w3.org/2000/01/rdf-schema#label>	"organization"@en	
+<http://purl.obolibrary.org/obo/BFO_0000004>	<http://www.w3.org/2000/01/rdf-schema#label>	"independent continuant"@en	
+<http://purl.obolibrary.org/obo/BFO_0000004>	<http://www.w3.org/2000/01/rdf-schema#label>	"independent continuant"	
+<http://purl.obolibrary.org/obo/OBI_0002224>	<http://www.w3.org/2000/01/rdf-schema#label>	"pathologic primary tumor stage for colon and rectum according to AJCC 7th edition"	
+<http://purl.obolibrary.org/obo/BFO_0000031>	<http://www.w3.org/2000/01/rdf-schema#label>	"generically dependent continuant"@en	
+<http://purl.obolibrary.org/obo/BFO_0000031>	<http://www.w3.org/2000/01/rdf-schema#label>	"generically dependent continuant"	
+<http://purl.obolibrary.org/obo/OBI_0002306>	<http://www.w3.org/2000/01/rdf-schema#label>	"pathologic distant metastases stage for kidney according to AJCC 7th edition"	
+<http://purl.obolibrary.org/obo/UO_0000280>	<http://www.w3.org/2000/01/rdf-schema#label>	"rate unit"	
+<http://purl.obolibrary.org/obo/OBI_0000450>	<http://www.w3.org/2000/01/rdf-schema#label>	"regulatory agency"@en	
+<http://purl.obolibrary.org/obo/OBI_0000726>	<http://www.w3.org/2000/01/rdf-schema#label>	"peak matching"	
+<http://purl.obolibrary.org/obo/OBI_0000017>	<http://www.w3.org/2000/01/rdf-schema#label>	"regulatory role"@en	
+<http://purl.obolibrary.org/obo/OBI_0002205>	<http://www.w3.org/2000/01/rdf-schema#label>	"histologic grade according to AJCC 7th edition"	
+<http://purl.obolibrary.org/obo/GO_0003674>	<http://www.w3.org/2000/01/rdf-schema#label>	"molecular_function"	
+<http://purl.obolibrary.org/obo/GO_0003674>	<http://www.w3.org/2000/01/rdf-schema#label>	"gene product or complex activity"@en	
+<http://purl.obolibrary.org/obo/IAO_0000005>	<http://www.w3.org/2000/01/rdf-schema#label>	"objective specification"@en	
+<http://purl.obolibrary.org/obo/NCBITaxon_7955>	<http://www.w3.org/2000/01/rdf-schema#label>	"Danio rerio"	
+<http://purl.obolibrary.org/obo/OBI_0200111>	<http://www.w3.org/2000/01/rdf-schema#label>	"data visualization"@en	
+<http://purl.obolibrary.org/obo/IAO_0000007>	<http://www.w3.org/2000/01/rdf-schema#label>	"action specification"@en	
+<http://purl.obolibrary.org/obo/OBI_0000094>	<http://www.w3.org/2000/01/rdf-schema#label>	"material processing"@en	
+<http://purl.obolibrary.org/obo/OBI_0002341>	<http://www.w3.org/2000/01/rdf-schema#label>	"International Federation of Gynecology and Obstetrics ovarian cancer stage value specification"	
+<http://purl.obolibrary.org/obo/APOLLO_SV_00000008>	<http://www.w3.org/2000/01/rdf-schema#label>	"software development"@en	
+<http://purl.obolibrary.org/obo/NCBITaxon_2759>	<http://www.w3.org/2000/01/rdf-schema#label>	"Eukaryota"	
+<http://purl.obolibrary.org/obo/OBI_0000014>	<http://www.w3.org/2000/01/rdf-schema#label>	"regulator role"@en	
+<http://purl.obolibrary.org/obo/OBI_0000727>	<http://www.w3.org/2000/01/rdf-schema#label>	"k-nearest neighbors"@en	
+<http://purl.obolibrary.org/obo/IAO_0000184>	<http://www.w3.org/2000/01/rdf-schema#label>	"scatter plot"@en	
+<http://purl.obolibrary.org/obo/UO_0000002>	<http://www.w3.org/2000/01/rdf-schema#label>	"mass unit"	
+<http://purl.obolibrary.org/obo/OBI_0002216>	<http://www.w3.org/2000/01/rdf-schema#label>	"histologic grade for ovarian tumor according to a two-tier grading system"	
+<http://purl.obolibrary.org/obo/OBI_0002290>	<http://www.w3.org/2000/01/rdf-schema#label>	"pathologic distant metastases stage for colon according to AJCC 7th edition"	
+<http://purl.obolibrary.org/obo/OBI_0002243>	<http://www.w3.org/2000/01/rdf-schema#label>	"pathologic primary tumor stage for kidney according to AJCC 7th edition"	
+<http://purl.obolibrary.org/obo/NCBITaxon_7742>	<http://www.w3.org/2000/01/rdf-schema#label>	"Vertebrata <vertebrates>"	
+<http://purl.obolibrary.org/obo/NCBITaxon_32523>	<http://www.w3.org/2000/01/rdf-schema#label>	"Tetrapoda"	
+<http://purl.obolibrary.org/obo/OBI_0002210>	<http://www.w3.org/2000/01/rdf-schema#label>	"histologic grade according to the Fuhrman Nuclear Grading System"	
+<http://purl.obolibrary.org/obo/OBI_0002279>	<http://www.w3.org/2000/01/rdf-schema#label>	"pathologic lymph node stage for lung according to AJCC 7th edition"	
+<http://purl.obolibrary.org/obo/OBI_0200041>	<http://www.w3.org/2000/01/rdf-schema#label>	"k-means clustering"@en	
+<http://purl.obolibrary.org/obo/OBI_0000792>	<http://www.w3.org/2000/01/rdf-schema#label>	"statistical model validation"	
+<http://purl.obolibrary.org/obo/GENO_0000904>	<http://www.w3.org/2000/01/rdf-schema#label>	"organismal entity"@en	
+<http://purl.obolibrary.org/obo/NCBITaxon_10090>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mus musculus"	
+<http://purl.obolibrary.org/obo/UO_0000006>	<http://www.w3.org/2000/01/rdf-schema#label>	"substance unit"	
+<http://purl.obolibrary.org/obo/OBI_0002989>	<http://www.w3.org/2000/01/rdf-schema#label>	"material supplier"	
+<http://purl.obolibrary.org/obo/BFO_0000019>	<http://www.w3.org/2000/01/rdf-schema#label>	"quality"@en	
+<http://purl.obolibrary.org/obo/BFO_0000019>	<http://www.w3.org/2000/01/rdf-schema#label>	"quality"	
+<http://purl.obolibrary.org/obo/IAO_0000183>	<http://www.w3.org/2000/01/rdf-schema#label>	"dendrogram"@en	
+<http://purl.obolibrary.org/obo/NCBITaxon_33154>	<http://www.w3.org/2000/01/rdf-schema#label>	"Opisthokonta"	
+<http://purl.obolibrary.org/obo/IAO_0000308>	<http://www.w3.org/2000/01/rdf-schema#label>	"figure"@en	
+<http://purl.obolibrary.org/obo/UO_0000001>	<http://www.w3.org/2000/01/rdf-schema#label>	"length unit"	
+<http://purl.obolibrary.org/obo/OBI_0200166>	<http://www.w3.org/2000/01/rdf-schema#label>	"data transformation objective"@en	
+<http://purl.obolibrary.org/obo/IAO_0000180>	<http://www.w3.org/2000/01/rdf-schema#label>	"heatmap"@en	
+<http://purl.obolibrary.org/obo/NCBITaxon_10239>	<http://www.w3.org/2000/01/rdf-schema#label>	"Viruses"	
+<http://purl.obolibrary.org/obo/OBI_0200179>	<http://www.w3.org/2000/01/rdf-schema#label>	"class prediction objective"@en	
+<http://purl.obolibrary.org/obo/NCBITaxon_32524>	<http://www.w3.org/2000/01/rdf-schema#label>	"Amniota"	
+<http://purl.obolibrary.org/obo/IAO_0000100>	<http://www.w3.org/2000/01/rdf-schema#label>	"data set"@en	
+<http://purl.obolibrary.org/obo/OBI_0002076>	<http://www.w3.org/2000/01/rdf-schema#label>	"collection of specimens"@en	
+<http://purl.obolibrary.org/obo/OBI_0200042>	<http://www.w3.org/2000/01/rdf-schema#label>	"hierarchical clustering"@en	
+<http://purl.obolibrary.org/obo/OBI_0000684>	<http://www.w3.org/2000/01/rdf-schema#label>	"specimen collection objective"	
+<http://purl.obolibrary.org/obo/OBI_0000704>	<http://www.w3.org/2000/01/rdf-schema#label>	"decision tree induction objective"	
+<http://purl.obolibrary.org/obo/OBI_0000700>	<http://www.w3.org/2000/01/rdf-schema#label>	"support vector machine"	
+<http://purl.obolibrary.org/obo/NCBITaxon_33208>	<http://www.w3.org/2000/01/rdf-schema#label>	"Metazoa"	
+<http://purl.obolibrary.org/obo/BFO_0000001>	<http://www.w3.org/2000/01/rdf-schema#label>	"entity"@en	
+<http://purl.obolibrary.org/obo/OBI_0000018>	<http://www.w3.org/2000/01/rdf-schema#label>	"material supplier role"@en	
+<http://purl.obolibrary.org/obo/OBI_0001000>	<http://www.w3.org/2000/01/rdf-schema#label>	"questionnaire"	
+<http://purl.obolibrary.org/obo/OBI_0000659>	<http://www.w3.org/2000/01/rdf-schema#label>	"specimen collection process"	
+<http://purl.obolibrary.org/obo/IAO_0000038>	<http://www.w3.org/2000/01/rdf-schema#label>	"graph"@en	
+<http://purl.obolibrary.org/obo/OBI_0001930>	<http://www.w3.org/2000/01/rdf-schema#label>	"categorical value specification"	
+<http://purl.obolibrary.org/obo/IAO_0000178>	<http://www.w3.org/2000/01/rdf-schema#label>	"material information bearer"@en	
+<http://purl.obolibrary.org/obo/IAO_0000098>	<http://www.w3.org/2000/01/rdf-schema#label>	"data format specification"@en	
+<http://purl.obolibrary.org/obo/BFO_0000020>	<http://www.w3.org/2000/01/rdf-schema#label>	"specifically dependent continuant"@en	
+<http://purl.obolibrary.org/obo/BFO_0000020>	<http://www.w3.org/2000/01/rdf-schema#label>	"specifically dependent continuant"	
+<http://purl.obolibrary.org/obo/OBI_0000047>	<http://www.w3.org/2000/01/rdf-schema#label>	"processed material"@en	
+<http://purl.obolibrary.org/obo/OBI_0200000>	<http://www.w3.org/2000/01/rdf-schema#label>	"data transformation"@en	
+<http://purl.obolibrary.org/obo/UO_0000003>	<http://www.w3.org/2000/01/rdf-schema#label>	"time unit"	
+<http://purl.obolibrary.org/obo/IAO_0000037>	<http://www.w3.org/2000/01/rdf-schema#label>	"dot plot"@en	
+<http://purl.obolibrary.org/obo/OBI_0000571>	<http://www.w3.org/2000/01/rdf-schema#label>	"manufacturer role"	
+<http://purl.obolibrary.org/obo/PATO_0000001>	<http://www.w3.org/2000/01/rdf-schema#label>	"quality"	
+<http://purl.obolibrary.org/obo/BFO_0000016>	<http://www.w3.org/2000/01/rdf-schema#label>	"disposition"@en	
+<http://purl.obolibrary.org/obo/BFO_0000016>	<http://www.w3.org/2000/01/rdf-schema#label>	"disposition"	
+<http://purl.obolibrary.org/obo/NCBITaxon_2157>	<http://www.w3.org/2000/01/rdf-schema#label>	"Archaea"	
+<http://purl.obolibrary.org/obo/NCBITaxon_2>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bacteria"	
+<http://purl.obolibrary.org/obo/OBI_0002232>	<http://www.w3.org/2000/01/rdf-schema#label>	"pathologic primary tumor stage for lung according to AJCC 7th edition"	
+<http://purl.obolibrary.org/obo/NCBITaxon_314146>	<http://www.w3.org/2000/01/rdf-schema#label>	"Euarchontoglires"	
+<http://purl.obolibrary.org/obo/UO_0000051>	<http://www.w3.org/2000/01/rdf-schema#label>	"concentration unit"	
+<http://purl.obolibrary.org/obo/IAO_0000309>	<http://www.w3.org/2000/01/rdf-schema#label>	"diagram"@en	
+<http://purl.obolibrary.org/obo/OBI_0002287>	<http://www.w3.org/2000/01/rdf-schema#label>	"pathologic lymph node stage for ovary according to AJCC 7th edition"	
+<http://purl.obolibrary.org/obo/NCBITaxon_33213>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bilateria"	
+<http://purl.obolibrary.org/obo/OBI_0002356>	<http://www.w3.org/2000/01/rdf-schema#label>	"performance status value specification"	
+<http://purl.obolibrary.org/obo/OBI_0000457>	<http://www.w3.org/2000/01/rdf-schema#label>	"manufacturing"@en	
+<http://purl.obolibrary.org/obo/OBI_0002314>	<http://www.w3.org/2000/01/rdf-schema#label>	"clinical tumor stage group according to AJCC 7th edition"	
+<http://purl.obolibrary.org/obo/IAO_0000033>	<http://www.w3.org/2000/01/rdf-schema#label>	"directive information entity"@en	
+<http://purl.obolibrary.org/obo/BFO_0000015>	<http://www.w3.org/2000/01/rdf-schema#label>	"process"@en	
+<http://purl.obolibrary.org/obo/BFO_0000015>	<http://www.w3.org/2000/01/rdf-schema#label>	"process"	
+<http://purl.obolibrary.org/obo/GO_0016301>	<http://www.w3.org/2000/01/rdf-schema#label>	"kinase activity"	
+<http://purl.obolibrary.org/obo/OBI_0000023>	<http://www.w3.org/2000/01/rdf-schema#label>	"classified data set"@en	
+<http://purl.obolibrary.org/obo/IAO_0000101>	<http://www.w3.org/2000/01/rdf-schema#label>	"image"@en	
+<http://purl.obolibrary.org/obo/NCBITaxon_117571>	<http://www.w3.org/2000/01/rdf-schema#label>	"Euteleostomi"	
+<http://purl.obolibrary.org/obo/UO_0000095>	<http://www.w3.org/2000/01/rdf-schema#label>	"volume unit"	
+<http://purl.obolibrary.org/obo/UO_0000105>	<http://www.w3.org/2000/01/rdf-schema#label>	"frequency unit"	
+<http://purl.obolibrary.org/obo/OBI_0000707>	<http://www.w3.org/2000/01/rdf-schema#label>	"decision tree building data transformation"@en	
+<http://purl.obolibrary.org/obo/OBI_0000112>	<http://www.w3.org/2000/01/rdf-schema#label>	"specimen role"@en	
+<http://purl.obolibrary.org/obo/BFO_0000034>	<http://www.w3.org/2000/01/rdf-schema#label>	"function"@en	
+<http://purl.obolibrary.org/obo/OBI_0000011>	<http://www.w3.org/2000/01/rdf-schema#label>	"planned process"@en	
+<http://purl.obolibrary.org/obo/OBI_0000011>	<http://www.w3.org/2000/01/rdf-schema#label>	"planned process"	
+<http://purl.obolibrary.org/obo/OBI_0002298>	<http://www.w3.org/2000/01/rdf-schema#label>	"pathologic distant metastases stage for lung according to AJCC 7th edition"	
+<http://purl.obolibrary.org/obo/OBI_0000456>	<http://www.w3.org/2000/01/rdf-schema#label>	"material transformation objective"@en	
+<http://purl.obolibrary.org/obo/OBI_0002256>	<http://www.w3.org/2000/01/rdf-schema#label>	"pathologic primary tumor stage for ovary according to AJCC 7th edition"	
+<http://purl.obolibrary.org/obo/BFO_0000002>	<http://www.w3.org/2000/01/rdf-schema#label>	"continuant"@en	
+<http://purl.obolibrary.org/obo/BFO_0000002>	<http://www.w3.org/2000/01/rdf-schema#label>	"continuant"	
+<http://purl.obolibrary.org/obo/NCBITaxon_39107>	<http://www.w3.org/2000/01/rdf-schema#label>	"Murinae"	
+<http://purl.obolibrary.org/obo/OBI_0000963>	<http://www.w3.org/2000/01/rdf-schema#label>	"categorical label"	
+<http://purl.obolibrary.org/obo/OBI_0100051>	<http://www.w3.org/2000/01/rdf-schema#label>	"specimen"@en	
+<http://purl.obolibrary.org/obo/IAO_0000102>	<http://www.w3.org/2000/01/rdf-schema#label>	"data about an ontology part"@en	
+<http://purl.obolibrary.org/obo/IAO_0000102>	<http://www.w3.org/2000/01/rdf-schema#label>	"data about an ontology part"	
+<http://purl.obolibrary.org/obo/UO_0000270>	<http://www.w3.org/2000/01/rdf-schema#label>	"volumetric flow rate unit"	
+<http://purl.obolibrary.org/obo/OBI_0200175>	<http://www.w3.org/2000/01/rdf-schema#label>	"class discovery data transformation"@en	
+<http://purl.obolibrary.org/obo/IAO_0000096>	<http://www.w3.org/2000/01/rdf-schema#label>	"source code module"@en	
+<http://purl.obolibrary.org/obo/OBI_0200051>	<http://www.w3.org/2000/01/rdf-schema#label>	"principal components analysis dimensionality reduction"@en	
+<http://purl.obolibrary.org/obo/APOLLO_SV_00000796>	<http://www.w3.org/2000/01/rdf-schema#label>	"dataset creating"@en	
+<http://purl.obolibrary.org/obo/OBI_0000947>	<http://www.w3.org/2000/01/rdf-schema#label>	"service provider role"	
+<http://purl.obolibrary.org/obo/OBI_0200172>	<http://www.w3.org/2000/01/rdf-schema#label>	"partitioning objective"@en	
+<http://purl.obolibrary.org/obo/IAO_0000009>	<http://www.w3.org/2000/01/rdf-schema#label>	"datum label"@en	
+<http://purl.obolibrary.org/obo/OBI_0000953>	<http://www.w3.org/2000/01/rdf-schema#label>	"processed specimen"	
+<http://purl.obolibrary.org/obo/BFO_0000003>	<http://www.w3.org/2000/01/rdf-schema#label>	"occurrent"@en	
+<http://purl.obolibrary.org/obo/BFO_0000003>	<http://www.w3.org/2000/01/rdf-schema#label>	"occurrent"	
+<http://purl.obolibrary.org/obo/OBI_0002284>	<http://www.w3.org/2000/01/rdf-schema#label>	"pathologic lymph node stage for kidney according to AJCC 7th edition"	
+<http://purl.obolibrary.org/obo/OBI_0002363>	<http://www.w3.org/2000/01/rdf-schema#label>	"Karnofsky score vaue specification"	
+<http://purl.obolibrary.org/obo/OBI_0100026>	<http://www.w3.org/2000/01/rdf-schema#label>	"organism"@en	
+<http://purl.obolibrary.org/obo/OBI_0100026>	<http://www.w3.org/2000/01/rdf-schema#label>	"organism"	
+<http://purl.obolibrary.org/obo/OBI_0200190>	<http://www.w3.org/2000/01/rdf-schema#label>	"clustered data visualization"	
+<http://purl.obolibrary.org/obo/NCBITaxon_9989>	<http://www.w3.org/2000/01/rdf-schema#label>	"Rodentia"	
+<http://purl.obolibrary.org/obo/OBI_0000749>	<http://www.w3.org/2000/01/rdf-schema#label>	"CART"@en	
+<http://purl.obolibrary.org/obo/NCBITaxon_9606>	<http://www.w3.org/2000/01/rdf-schema#label>	"Homo sapiens"	
+<http://purl.obolibrary.org/obo/IAO_0000179>	<http://www.w3.org/2000/01/rdf-schema#label>	"histogram"@en	
 <http://purl.obolibrary.org/obo/GO_0098590>	<http://www.w3.org/2000/01/rdf-schema#label>	"plasma membrane region"	
 <http://purl.obolibrary.org/obo/GO_0031965>	<http://www.w3.org/2000/01/rdf-schema#label>	"nuclear membrane"	
 <http://purl.obolibrary.org/obo/GO_0071944>	<http://www.w3.org/2000/01/rdf-schema#label>	"cell periphery"	
 <http://purl.obolibrary.org/obo/GO_0099522>	<http://www.w3.org/2000/01/rdf-schema#label>	"cytosolic region"	
 <http://purl.obolibrary.org/obo/GO_0005622>	<http://www.w3.org/2000/01/rdf-schema#label>	"intracellular anatomical structure"	
-<http://purl.obolibrary.org/obo/GO_0110165>	<http://www.w3.org/2000/01/rdf-schema#label>	"cellular anatomical entity"	
+<http://purl.obolibrary.org/obo/GO_0110165>	<http://www.w3.org/2000/01/rdf-schema#label>	"cellular anatomical structure"	
 <http://purl.obolibrary.org/obo/GO_0099738>	<http://www.w3.org/2000/01/rdf-schema#label>	"cell cortex region"	
 <http://purl.obolibrary.org/obo/GO_0042648>	<http://www.w3.org/2000/01/rdf-schema#label>	"chloroplast chromosome"	
 <http://purl.obolibrary.org/obo/GO_0043226>	<http://www.w3.org/2000/01/rdf-schema#label>	"organelle"	
-<http://purl.obolibrary.org/obo/GO_0005739>	<http://www.w3.org/2000/01/rdf-schema#label>	"mitochondrion"	
 <http://purl.obolibrary.org/obo/GO_0030849>	<http://www.w3.org/2000/01/rdf-schema#label>	"autosome"	
+<http://purl.obolibrary.org/obo/GO_0005739>	<http://www.w3.org/2000/01/rdf-schema#label>	"mitochondrion"	
 <http://purl.obolibrary.org/obo/GO_0070013>	<http://www.w3.org/2000/01/rdf-schema#label>	"intracellular organelle lumen"	
 <http://purl.obolibrary.org/obo/GO_0031974>	<http://www.w3.org/2000/01/rdf-schema#label>	"membrane-enclosed lumen"	
 <http://purl.obolibrary.org/obo/GO_0043233>	<http://www.w3.org/2000/01/rdf-schema#label>	"organelle lumen"	
@@ -32,7 +199,7 @@
 <http://purl.obolibrary.org/obo/GO_0031967>	<http://www.w3.org/2000/01/rdf-schema#label>	"organelle envelope"	
 <http://purl.obolibrary.org/obo/GO_0042170>	<http://www.w3.org/2000/01/rdf-schema#label>	"plastid membrane"	
 <http://purl.obolibrary.org/obo/GO_0009532>	<http://www.w3.org/2000/01/rdf-schema#label>	"plastid stroma"	
-<http://purl.obolibrary.org/obo/GO_0043232>	<http://www.w3.org/2000/01/rdf-schema#label>	"intracellular non-membrane-bounded organelle"	
+<http://purl.obolibrary.org/obo/GO_0043232>	<http://www.w3.org/2000/01/rdf-schema#label>	"intracellular membraneless organelle"	
 <http://purl.obolibrary.org/obo/GO_0000806>	<http://www.w3.org/2000/01/rdf-schema#label>	"Y chromosome"	
 <http://purl.obolibrary.org/obo/GO_0042646>	<http://www.w3.org/2000/01/rdf-schema#label>	"plastid nucleoid"	
 <http://purl.obolibrary.org/obo/GO_0005575>	<http://www.w3.org/2000/01/rdf-schema#label>	"cellular_component"	
@@ -42,8 +209,7 @@
 <http://purl.obolibrary.org/obo/GO_0005737>	<http://www.w3.org/2000/01/rdf-schema#label>	"cytoplasm"	
 <http://purl.obolibrary.org/obo/GO_0012505>	<http://www.w3.org/2000/01/rdf-schema#label>	"endomembrane system"	
 <http://purl.obolibrary.org/obo/GO_0005634>	<http://www.w3.org/2000/01/rdf-schema#label>	"nucleus"	
-<http://purl.obolibrary.org/obo/GO_0005634>	<http://www.w3.org/2000/01/rdf-schema#label>	"cell nucleus"@en	
-<http://purl.obolibrary.org/obo/GO_0043228>	<http://www.w3.org/2000/01/rdf-schema#label>	"non-membrane-bounded organelle"	
+<http://purl.obolibrary.org/obo/GO_0043228>	<http://www.w3.org/2000/01/rdf-schema#label>	"membraneless organelle"	
 <http://purl.obolibrary.org/obo/GO_0005938>	<http://www.w3.org/2000/01/rdf-schema#label>	"cell cortex"	
 <http://purl.obolibrary.org/obo/GO_0005759>	<http://www.w3.org/2000/01/rdf-schema#label>	"mitochondrial matrix"	
 <http://purl.obolibrary.org/obo/GO_0000804>	<http://www.w3.org/2000/01/rdf-schema#label>	"W chromosome"	
@@ -57,41 +223,18 @@
 <http://purl.obolibrary.org/obo/GO_0009536>	<http://www.w3.org/2000/01/rdf-schema#label>	"plastid"	
 <http://purl.obolibrary.org/obo/GO_0043227>	<http://www.w3.org/2000/01/rdf-schema#label>	"membrane-bounded organelle"	
 <http://purl.obolibrary.org/obo/GO_0005773>	<http://www.w3.org/2000/01/rdf-schema#label>	"vacuole"	
-<http://purl.obolibrary.org/obo/BFO_0000002>	<http://www.w3.org/2000/01/rdf-schema#label>	"continuant"@en	
-<http://purl.obolibrary.org/obo/BFO_0000003>	<http://www.w3.org/2000/01/rdf-schema#label>	"occurrent"@en	
-<http://purl.obolibrary.org/obo/GO_0016301>	<http://www.w3.org/2000/01/rdf-schema#label>	"kinase activity"	
-<http://purl.obolibrary.org/obo/IAO_0000078>	<http://www.w3.org/2000/01/rdf-schema#label>	"curation status specification"@en	
-<http://purl.obolibrary.org/obo/OBI_0100026>	<http://www.w3.org/2000/01/rdf-schema#label>	"organism"@en	
 <http://purl.obolibrary.org/obo/UBERON_0001062>	<http://www.w3.org/2000/01/rdf-schema#label>	"anatomical entity"	
-<http://purl.obolibrary.org/obo/BFO_0000034>	<http://www.w3.org/2000/01/rdf-schema#label>	"function"@en	
-<http://purl.obolibrary.org/obo/BFO_0000016>	<http://www.w3.org/2000/01/rdf-schema#label>	"disposition"@en	
-<http://purl.obolibrary.org/obo/BFO_0000019>	<http://www.w3.org/2000/01/rdf-schema#label>	"quality"@en	
-<http://purl.obolibrary.org/obo/PATO_0000001>	<http://www.w3.org/2000/01/rdf-schema#label>	"quality"	
-<http://purl.obolibrary.org/obo/BFO_0000040>	<http://www.w3.org/2000/01/rdf-schema#label>	"material entity"@en	
-<http://purl.obolibrary.org/obo/BFO_0000023>	<http://www.w3.org/2000/01/rdf-schema#label>	"role"@en	
-<http://purl.obolibrary.org/obo/GO_0003674>	<http://www.w3.org/2000/01/rdf-schema#label>	"molecular_function"	
-<http://purl.obolibrary.org/obo/GO_0003674>	<http://www.w3.org/2000/01/rdf-schema#label>	"gene product or complex activity"@en	
-<http://purl.obolibrary.org/obo/BFO_0000017>	<http://www.w3.org/2000/01/rdf-schema#label>	"realizable entity"@en	
-<http://purl.obolibrary.org/obo/BFO_0000017>	<http://www.w3.org/2000/01/rdf-schema#label>	"realizable"@en	
 <http://purl.obolibrary.org/obo/GO_0008150>	<http://www.w3.org/2000/01/rdf-schema#label>	"biological_process"	
 <http://purl.obolibrary.org/obo/GO_0008150>	<http://www.w3.org/2000/01/rdf-schema#label>	"biological process"@en	
-<http://purl.obolibrary.org/obo/BFO_0000020>	<http://www.w3.org/2000/01/rdf-schema#label>	"specifically dependent continuant"@en	
-<http://purl.obolibrary.org/obo/BFO_0000020>	<http://www.w3.org/2000/01/rdf-schema#label>	"characteristic"@en	
-<http://purl.obolibrary.org/obo/BFO_0000004>	<http://www.w3.org/2000/01/rdf-schema#label>	"independent continuant"@en	
-<http://purl.obolibrary.org/obo/BFO_0000015>	<http://www.w3.org/2000/01/rdf-schema#label>	"process"@en	
 <http://purl.obolibrary.org/obo/NCBITaxon_33317>	<http://www.w3.org/2000/01/rdf-schema#label>	"Protostomia"	
 <http://purl.obolibrary.org/obo/NCBITaxon_33511>	<http://www.w3.org/2000/01/rdf-schema#label>	"Deuterostomia"	
-<http://purl.obolibrary.org/obo/NCBITaxon_33213>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bilateria"	
 <http://purl.obolibrary.org/obo/NCBITaxon_6237>	<http://www.w3.org/2000/01/rdf-schema#label>	"Caenorhabditis"	
 <http://purl.obolibrary.org/obo/NCBITaxon_186626>	<http://www.w3.org/2000/01/rdf-schema#label>	"Otophysi"	
 <http://purl.obolibrary.org/obo/NCBITaxon_9005>	<http://www.w3.org/2000/01/rdf-schema#label>	"Phasianidae"	
 <http://purl.obolibrary.org/obo/NCBITaxon_2301116>	<http://www.w3.org/2000/01/rdf-schema#label>	"Rhabditina"	
 <http://purl.obolibrary.org/obo/NCBITaxon_9479>	<http://www.w3.org/2000/01/rdf-schema#label>	"Platyrrhini"	
 <http://purl.obolibrary.org/obo/NCBITaxon_89593>	<http://www.w3.org/2000/01/rdf-schema#label>	"Craniata <chordates>"	
-<http://purl.obolibrary.org/obo/NCBITaxon_10090>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mus musculus"	
 <http://purl.obolibrary.org/obo/NCBITaxon_8287>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sarcopterygii"	
-<http://purl.obolibrary.org/obo/NCBITaxon_314146>	<http://www.w3.org/2000/01/rdf-schema#label>	"Euarchontoglires"	
-<http://purl.obolibrary.org/obo/NCBITaxon_39107>	<http://www.w3.org/2000/01/rdf-schema#label>	"Murinae"	
 <http://purl.obolibrary.org/obo/NCBITaxon_117570>	<http://www.w3.org/2000/01/rdf-schema#label>	"Teleostomi"	
 <http://purl.obolibrary.org/obo/NCBITaxon_9481>	<http://www.w3.org/2000/01/rdf-schema#label>	"Callithrix <genus>"	
 <http://purl.obolibrary.org/obo/NCBITaxon_2743709>	<http://www.w3.org/2000/01/rdf-schema#label>	"Danionidae"	
@@ -108,7 +251,6 @@
 <http://purl.obolibrary.org/obo/NCBITaxon_1329799>	<http://www.w3.org/2000/01/rdf-schema#label>	"Archelosauria"	
 <http://purl.obolibrary.org/obo/NCBITaxon_1>	<http://www.w3.org/2000/01/rdf-schema#label>	"root"	
 <http://purl.obolibrary.org/obo/NCBITaxon_436489>	<http://www.w3.org/2000/01/rdf-schema#label>	"Saurischia"	
-<http://purl.obolibrary.org/obo/NCBITaxon_33208>	<http://www.w3.org/2000/01/rdf-schema#label>	"Metazoa"	
 <http://purl.obolibrary.org/obo/NCBITaxon_1338369>	<http://www.w3.org/2000/01/rdf-schema#label>	"Dipnotetrapodomorpha"	
 <http://purl.obolibrary.org/obo/NCBITaxon_314295>	<http://www.w3.org/2000/01/rdf-schema#label>	"Hominoidea"	
 <http://purl.obolibrary.org/obo/NCBITaxon_6231>	<http://www.w3.org/2000/01/rdf-schema#label>	"Nematoda"	
@@ -125,17 +267,13 @@
 <http://purl.obolibrary.org/obo/NCBITaxon_436486>	<http://www.w3.org/2000/01/rdf-schema#label>	"Dinosauria"	
 <http://purl.obolibrary.org/obo/NCBITaxon_9498>	<http://www.w3.org/2000/01/rdf-schema#label>	"Cebidae"	
 <http://purl.obolibrary.org/obo/NCBITaxon_32525>	<http://www.w3.org/2000/01/rdf-schema#label>	"Theria <mammals>"	
-<http://purl.obolibrary.org/obo/NCBITaxon_33154>	<http://www.w3.org/2000/01/rdf-schema#label>	"Opisthokonta"	
 <http://purl.obolibrary.org/obo/NCBITaxon_1437010>	<http://www.w3.org/2000/01/rdf-schema#label>	"Boreoeutheria"	
-<http://purl.obolibrary.org/obo/NCBITaxon_9606>	<http://www.w3.org/2000/01/rdf-schema#label>	"Homo sapiens"	
 <http://purl.obolibrary.org/obo/NCBITaxon_186623>	<http://www.w3.org/2000/01/rdf-schema#label>	"Actinopteri"	
 <http://purl.obolibrary.org/obo/NCBITaxon_7776>	<http://www.w3.org/2000/01/rdf-schema#label>	"Gnathostomata <vertebrates>"	
 <http://purl.obolibrary.org/obo/NCBITaxon_55885>	<http://www.w3.org/2000/01/rdf-schema#label>	"Peloderinae"	
 <http://purl.obolibrary.org/obo/NCBITaxon_436491>	<http://www.w3.org/2000/01/rdf-schema#label>	"Theropoda"	
 <http://purl.obolibrary.org/obo/NCBITaxon_9443>	<http://www.w3.org/2000/01/rdf-schema#label>	"Primates"	
 <http://purl.obolibrary.org/obo/NCBITaxon_32443>	<http://www.w3.org/2000/01/rdf-schema#label>	"Teleostei"	
-<http://purl.obolibrary.org/obo/NCBITaxon_32523>	<http://www.w3.org/2000/01/rdf-schema#label>	"Tetrapoda"	
-<http://purl.obolibrary.org/obo/NCBITaxon_7742>	<http://www.w3.org/2000/01/rdf-schema#label>	"Vertebrata <vertebrates>"	
 <http://purl.obolibrary.org/obo/NCBITaxon_9030>	<http://www.w3.org/2000/01/rdf-schema#label>	"Gallus"	
 <http://purl.obolibrary.org/obo/NCBITaxon_1963758>	<http://www.w3.org/2000/01/rdf-schema#label>	"Myomorpha"	
 <http://purl.obolibrary.org/obo/NCBITaxon_376913>	<http://www.w3.org/2000/01/rdf-schema#label>	"Haplorrhini"	
@@ -149,8 +287,6 @@
 <http://purl.obolibrary.org/obo/NCBITaxon_6072>	<http://www.w3.org/2000/01/rdf-schema#label>	"Eumetazoa"	
 <http://purl.obolibrary.org/obo/NCBITaxon_1206794>	<http://www.w3.org/2000/01/rdf-schema#label>	"Ecdysozoa"	
 <http://purl.obolibrary.org/obo/NCBITaxon_436492>	<http://www.w3.org/2000/01/rdf-schema#label>	"Coelurosauria"	
-<http://purl.obolibrary.org/obo/NCBITaxon_40674>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mammalia"	
-<http://purl.obolibrary.org/obo/NCBITaxon_32524>	<http://www.w3.org/2000/01/rdf-schema#label>	"Amniota"	
 <http://purl.obolibrary.org/obo/NCBITaxon_9347>	<http://www.w3.org/2000/01/rdf-schema#label>	"Eutheria"	
 <http://purl.obolibrary.org/obo/NCBITaxon_9072>	<http://www.w3.org/2000/01/rdf-schema#label>	"Phasianinae"	
 <http://purl.obolibrary.org/obo/NCBITaxon_6239>	<http://www.w3.org/2000/01/rdf-schema#label>	"Caenorhabditis elegans"	
@@ -158,19 +294,15 @@
 <http://purl.obolibrary.org/obo/NCBITaxon_8492>	<http://www.w3.org/2000/01/rdf-schema#label>	"Archosauria"	
 <http://purl.obolibrary.org/obo/NCBITaxon_41665>	<http://www.w3.org/2000/01/rdf-schema#label>	"Neopterygii"	
 <http://purl.obolibrary.org/obo/NCBITaxon_8457>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sauropsida"	
-<http://purl.obolibrary.org/obo/NCBITaxon_2759>	<http://www.w3.org/2000/01/rdf-schema#label>	"Eukaryota"	
 <http://purl.obolibrary.org/obo/NCBITaxon_55879>	<http://www.w3.org/2000/01/rdf-schema#label>	"Rhabditoidea"	
 <http://purl.obolibrary.org/obo/NCBITaxon_32561>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sauria"	
 <http://purl.obolibrary.org/obo/NCBITaxon_314293>	<http://www.w3.org/2000/01/rdf-schema#label>	"Simiiformes"	
 <http://purl.obolibrary.org/obo/NCBITaxon_186627>	<http://www.w3.org/2000/01/rdf-schema#label>	"Cypriniphysae"	
 <http://purl.obolibrary.org/obo/NCBITaxon_119089>	<http://www.w3.org/2000/01/rdf-schema#label>	"Chromadorea"	
-<http://purl.obolibrary.org/obo/NCBITaxon_7955>	<http://www.w3.org/2000/01/rdf-schema#label>	"Danio rerio"	
-<http://purl.obolibrary.org/obo/NCBITaxon_9989>	<http://www.w3.org/2000/01/rdf-schema#label>	"Rodentia"	
 <http://purl.obolibrary.org/obo/NCBITaxon_10066>	<http://www.w3.org/2000/01/rdf-schema#label>	"Muridae"	
 <http://purl.obolibrary.org/obo/NCBITaxon_9483>	<http://www.w3.org/2000/01/rdf-schema#label>	"Callithrix jacchus"	
 <http://purl.obolibrary.org/obo/NCBITaxon_9605>	<http://www.w3.org/2000/01/rdf-schema#label>	"Homo"	
 <http://purl.obolibrary.org/obo/NCBITaxon_10114>	<http://www.w3.org/2000/01/rdf-schema#label>	"Rattus"	
-<http://purl.obolibrary.org/obo/NCBITaxon_117571>	<http://www.w3.org/2000/01/rdf-schema#label>	"Euteleostomi"	
 <http://purl.obolibrary.org/obo/NCBITaxon_10088>	<http://www.w3.org/2000/01/rdf-schema#label>	"Mus <genus>"	
 <http://purl.obolibrary.org/obo/CHR_10116-chr13q2>	<http://www.w3.org/2000/01/rdf-schema#label>	"13q2 (Rat)"	
 <http://purl.obolibrary.org/obo/CHR_10090-chr11qB2>	<http://www.w3.org/2000/01/rdf-schema#label>	"11qB2 (Mouse)"	
@@ -2654,96 +2786,6 @@
 <http://purl.obolibrary.org/obo/CHR_9606-chr6q24-q25>	<http://www.w3.org/2000/01/rdf-schema#label>	"6q24-q25 (Human)"	
 <http://purl.obolibrary.org/obo/CHR_9606-chr1q12-q21>	<http://www.w3.org/2000/01/rdf-schema#label>	"1q12-q21 (Human)"	
 <http://purl.obolibrary.org/obo/CHR_9606-chr9q31.1-q31.3>	<http://www.w3.org/2000/01/rdf-schema#label>	"9q31.1-q31.3 (Human)"	
-<http://purl.obolibrary.org/obo/GO_0005622>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"nucleocytoplasm"	
-<http://purl.obolibrary.org/obo/GO_0005622>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"protoplast"	
-<http://purl.obolibrary.org/obo/GO_0016020>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"transmembrane"	
-<http://purl.obolibrary.org/obo/GO_0000262>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"mitochondrial genome"	
-<http://purl.obolibrary.org/obo/GO_0031090>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"intracellular membrane"	
-<http://purl.obolibrary.org/obo/GO_0005575>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"subcellular entity"	
-<http://purl.obolibrary.org/obo/GO_0043228>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"biological condensate"	
-<http://purl.obolibrary.org/obo/GO_0005938>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"peripheral cytoplasm"	
-<http://purl.obolibrary.org/obo/GO_0005938>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"cell periphery"	
-<http://purl.obolibrary.org/obo/GO_0005694>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"chromatid"	
-<http://purl.obolibrary.org/obo/GO_0005773>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"vacuolar carboxypeptidase Y"	
-<http://purl.obolibrary.org/obo/GO_0008150>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"single-organism process"	
-<http://purl.obolibrary.org/obo/GO_0008150>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"single organism process"	
-<http://purl.obolibrary.org/obo/NCBITaxon_186626>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Otophysa"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_30727>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Cyprinoidea"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_7898>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Osteichthyes"	<http://purl.obolibrary.org/obo/ncbitaxon#in_part>
-<http://purl.obolibrary.org/obo/NCBITaxon_7898>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Actinopterygi"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_7898>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"bony fishes"	<http://purl.obolibrary.org/obo/ncbitaxon#blast_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_1549675>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"ducks, geese, chickens, fowl, quail, currasows and allies"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_1549675>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Galloanseri"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_9480>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Callitrichidae"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_9480>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Callithricidae"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_9031>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Gallus gallus domesticus"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_9031>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Phasianus gallus"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_1329799>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Archosauria-Testudines"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_1329799>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Testudines + Archosauria group"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_1>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"all"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_33208>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"animals"	<http://purl.obolibrary.org/obo/ncbitaxon#blast_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_33208>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Animalia"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_6231>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Nemata"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_6231>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"nematodes"	<http://purl.obolibrary.org/obo/ncbitaxon#blast_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_6236>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Strongylida"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_7711>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"chordates"	<http://purl.obolibrary.org/obo/ncbitaxon#blast_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_8782>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"avian"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_8782>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"birds"	<http://purl.obolibrary.org/obo/ncbitaxon#blast_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_10116>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Mus norvegicus"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_186634>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Otocephala"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_186634>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Ostarioclupeomorpha"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_33154>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"opisthokonts"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_33154>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Fungi/Metazoa group"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_1437010>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Boreotheria"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_9443>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"primates"	<http://purl.obolibrary.org/obo/ncbitaxon#blast_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_9443>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Primata"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_7742>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"vertebrates"	<http://purl.obolibrary.org/obo/ncbitaxon#blast_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_1963758>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Sciurognathi"	<http://purl.obolibrary.org/obo/ncbitaxon#in_part>
-<http://purl.obolibrary.org/obo/NCBITaxon_131567>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"biota"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_7954>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Brachydanio"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_7954>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Celestichthys"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_207598>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Homo/Pan/Gorilla group"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_9604>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Pongidae"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_40674>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"mammals"	<http://purl.obolibrary.org/obo/ncbitaxon#blast_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_9347>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"placentals"	<http://purl.obolibrary.org/obo/ncbitaxon#blast_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_9347>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Placentalia"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_6239>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Rhabditis elegans"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_41665>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Neopterygi"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_2759>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"eukaryotes"	<http://purl.obolibrary.org/obo/ncbitaxon#blast_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_2759>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Eucaryotae"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_2759>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Eukarya"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_2759>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Eucarya"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_2759>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Eukaryotae"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_32561>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Diapsida"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_314293>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Anthropoidea"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_186627>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Cypriniphysi"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_119089>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Adenophorea"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_7955>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Brachydanio rerio"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_7955>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Danio rerio frankei"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_7955>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Brachydanio rerio frankei"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_7955>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Cyprinus rerio"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_7955>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Danio frankei"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_9989>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"rodents"	<http://purl.obolibrary.org/obo/ncbitaxon#blast_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_9483>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Callithrix jacchus jacchus"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/NCBITaxon_9483>	<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>	"Simia jacchus"	<http://purl.obolibrary.org/obo/ncbitaxon#synonym>
-<http://purl.obolibrary.org/obo/GO_0016020>	<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym>	"integral component of membrane"	
-<http://purl.obolibrary.org/obo/GO_0016020>	<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym>	"region of membrane"	
-<http://purl.obolibrary.org/obo/GO_0016020>	<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym>	"integral to membrane"	
-<http://purl.obolibrary.org/obo/GO_0016020>	<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym>	"membrane region"	
-<http://purl.obolibrary.org/obo/GO_0016020>	<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym>	"whole membrane"	
-<http://purl.obolibrary.org/obo/GO_0000262>	<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym>	"mtDNA"	
-<http://purl.obolibrary.org/obo/GO_0000262>	<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym>	"mitochondrial DNA"	
-<http://purl.obolibrary.org/obo/GO_0005886>	<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym>	"bacterial inner membrane"	
-<http://purl.obolibrary.org/obo/GO_0005886>	<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym>	"integral to plasma membrane"	
-<http://purl.obolibrary.org/obo/GO_0005886>	<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym>	"plasma membrane lipid bilayer"	
-<http://purl.obolibrary.org/obo/GO_0005886>	<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym>	"inner endospore membrane"	
-<http://purl.obolibrary.org/obo/GO_0005886>	<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym>	"integral component of plasma membrane"	
-<http://purl.obolibrary.org/obo/GO_0005634>	<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym>	"horsetail nucleus"	
-<http://purl.obolibrary.org/obo/GO_0005938>	<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym>	"ectoplasm"	
-<http://purl.obolibrary.org/obo/GO_0005759>	<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym>	"mitochondrial stroma"	
-<http://purl.obolibrary.org/obo/GO_0005694>	<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym>	"prophase chromosome"	
-<http://purl.obolibrary.org/obo/GO_0005694>	<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym>	"interphase chromosome"	
-<http://purl.obolibrary.org/obo/GO_0000228>	<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym>	"nuclear interphase chromosome"	
 <http://purl.obolibrary.org/obo/GO_0005886>	<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym>	"juxtamembrane"	
 <http://purl.obolibrary.org/obo/CHR_10116-chr5>	<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym>	"5"	
 <http://purl.obolibrary.org/obo/CHR_9606-chrX>	<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym>	"X"	
@@ -2883,100 +2925,3 @@
 <http://purl.obolibrary.org/obo/CHR_9031-chr20>	<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym>	"20"	
 <http://purl.obolibrary.org/obo/CHR_7955-chr20>	<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym>	"20"	
 <http://purl.obolibrary.org/obo/CHR_9031-chr7>	<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym>	"7"	
-<http://purl.obolibrary.org/obo/GO_0098590>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"region of plasma membrane"	
-<http://purl.obolibrary.org/obo/GO_0099522>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"region of cytosol"	
-<http://purl.obolibrary.org/obo/GO_0005622>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"internal to cell"	
-<http://purl.obolibrary.org/obo/GO_0005622>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"protoplasm"	
-<http://purl.obolibrary.org/obo/GO_0005622>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"intracellular"	
-<http://purl.obolibrary.org/obo/GO_0099738>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"perimembrane region"	
-<http://purl.obolibrary.org/obo/GO_0005739>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"mitochondria"	
-<http://purl.obolibrary.org/obo/GO_0043231>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"intracellular membrane-enclosed organelle"	
-<http://purl.obolibrary.org/obo/GO_0005886>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"cell membrane"	
-<http://purl.obolibrary.org/obo/GO_0005886>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"cellular membrane"	
-<http://purl.obolibrary.org/obo/GO_0005886>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"plasmalemma"	
-<http://purl.obolibrary.org/obo/GO_0005886>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"cytoplasmic membrane"	
-<http://purl.obolibrary.org/obo/GO_0098687>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"chromosome region"	
-<http://purl.obolibrary.org/obo/GO_0043232>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"intracellular non-membrane-enclosed organelle"	
-<http://purl.obolibrary.org/obo/GO_0005575>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"cell or subcellular entity"	
-<http://purl.obolibrary.org/obo/GO_0005575>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"cellular component"	
-<http://purl.obolibrary.org/obo/GO_0005634>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"cell nucleus"	
-<http://purl.obolibrary.org/obo/GO_0043228>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"non-membrane-enclosed organelle"	
-<http://purl.obolibrary.org/obo/GO_0005759>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"mitochondrial lumen"	
-<http://purl.obolibrary.org/obo/GO_0043227>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"membrane-enclosed organelle"	
-<http://purl.obolibrary.org/obo/GO_0016301>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"phosphokinase activity"	
-<http://purl.obolibrary.org/obo/GO_0003674>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"molecular function"	
-<http://purl.obolibrary.org/obo/GO_0008150>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"physiological process"	
-<http://purl.obolibrary.org/obo/GO_0008150>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"biological process"	
-<http://purl.obolibrary.org/obo/NCBITaxon_33511>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"deuterostomes"	<http://purl.obolibrary.org/obo/OMO_0003003>
-<http://purl.obolibrary.org/obo/NCBITaxon_9005>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"turkeys"	<http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_9479>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"monkeys"	<http://purl.obolibrary.org/obo/OMO_0003003>
-<http://purl.obolibrary.org/obo/NCBITaxon_9479>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"monkey"	<http://purl.obolibrary.org/obo/OMO_0003003>
-<http://purl.obolibrary.org/obo/NCBITaxon_9479>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"New World monkeys"	<http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_89593>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Craniata"	<http://purl.obolibrary.org/obo/ncbitaxon#scientific_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_10090>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"house mouse"	<http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_10090>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"mouse"	<http://purl.obolibrary.org/obo/OMO_0003003>
-<http://purl.obolibrary.org/obo/NCBITaxon_9481>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Callithrix"	<http://purl.obolibrary.org/obo/ncbitaxon#scientific_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_7898>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"ray-finned fishes"	<http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_7898>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"fish"	<http://purl.obolibrary.org/obo/OMO_0003003>
-<http://purl.obolibrary.org/obo/NCBITaxon_7898>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"fishes"	<http://purl.obolibrary.org/obo/OMO_0003003>
-<http://purl.obolibrary.org/obo/NCBITaxon_8976>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"landfowls"	<http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_9480>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"marmosets and tamarins"	<http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_314147>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Rodents and rabbits"	<http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_9031>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"bantam"	<http://purl.obolibrary.org/obo/OMO_0003003>
-<http://purl.obolibrary.org/obo/NCBITaxon_9031>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Gallus domesticus"	<http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_9031>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"chickens"	<http://purl.obolibrary.org/obo/OMO_0003003>
-<http://purl.obolibrary.org/obo/NCBITaxon_9031>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"chicken"	<http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_33208>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"metazoans"	<http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_33208>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"multicellular animals"	<http://purl.obolibrary.org/obo/OMO_0003003>
-<http://purl.obolibrary.org/obo/NCBITaxon_314295>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"apes"	<http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_314295>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"ape"	<http://purl.obolibrary.org/obo/OMO_0003003>
-<http://purl.obolibrary.org/obo/NCBITaxon_6231>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"nematodes"	<http://purl.obolibrary.org/obo/OMO_0003003>
-<http://purl.obolibrary.org/obo/NCBITaxon_6231>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"roundworm"	<http://purl.obolibrary.org/obo/OMO_0003003>
-<http://purl.obolibrary.org/obo/NCBITaxon_6231>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"nematode"	<http://purl.obolibrary.org/obo/OMO_0003003>
-<http://purl.obolibrary.org/obo/NCBITaxon_6231>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"roundworms"	<http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_7711>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"chordates"	<http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_8782>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"birds"	<http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_10116>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Norway rat"	<http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_10116>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"rats"	<http://purl.obolibrary.org/obo/OMO_0003003>
-<http://purl.obolibrary.org/obo/NCBITaxon_10116>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"rat"	<http://purl.obolibrary.org/obo/OMO_0003003>
-<http://purl.obolibrary.org/obo/NCBITaxon_10116>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"brown rat"	<http://purl.obolibrary.org/obo/OMO_0003003>
-<http://purl.obolibrary.org/obo/NCBITaxon_7952>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"carps and others"	<http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_436486>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"dinosaurs"	<http://purl.obolibrary.org/obo/OMO_0003003>
-<http://purl.obolibrary.org/obo/NCBITaxon_436486>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"dinosaur"	<http://purl.obolibrary.org/obo/OMO_0003003>
-<http://purl.obolibrary.org/obo/NCBITaxon_32525>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Theria"	<http://purl.obolibrary.org/obo/ncbitaxon#scientific_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_9606>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"human"	<http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_7776>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"jawed vertebrates"	<http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_7776>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Gnathostomata"	<http://purl.obolibrary.org/obo/ncbitaxon#scientific_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_9443>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"primate"	<http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_32443>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"teleost fishes"	<http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_32523>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"tetrapods"	<http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_7742>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"vertebrates"	<http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_7742>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Vertebrata"	<http://purl.obolibrary.org/obo/ncbitaxon#scientific_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_1963758>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"mice and others"	<http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_1965096>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Callithrix"	<http://purl.obolibrary.org/obo/ncbitaxon#scientific_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_862507>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Mus"	<http://purl.obolibrary.org/obo/ncbitaxon#scientific_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_9604>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"great apes"	<http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_40674>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"mammals"	<http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_32524>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"amniotes"	<http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_9347>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"eutherian mammals"	<http://purl.obolibrary.org/obo/OMO_0003003>
-<http://purl.obolibrary.org/obo/NCBITaxon_9347>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"placentals"	<http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_9347>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"placental mammals"	<http://purl.obolibrary.org/obo/OMO_0003003>
-<http://purl.obolibrary.org/obo/NCBITaxon_8457>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"sauropsids"	<http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_2759>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"eukaryotes"	<http://purl.obolibrary.org/obo/OMO_0003003>
-<http://purl.obolibrary.org/obo/NCBITaxon_2759>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"eucaryotes"	<http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_32561>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"diapsids"	<http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_7955>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"zebrafish"	<http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_7955>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"zebra fish"	<http://purl.obolibrary.org/obo/OMO_0003003>
-<http://purl.obolibrary.org/obo/NCBITaxon_7955>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"zebra danio"	<http://purl.obolibrary.org/obo/OMO_0003003>
-<http://purl.obolibrary.org/obo/NCBITaxon_7955>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"leopard danio"	<http://purl.obolibrary.org/obo/OMO_0003003>
-<http://purl.obolibrary.org/obo/NCBITaxon_9989>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"rodent"	<http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_9483>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"common marmoset"	<http://purl.obolibrary.org/obo/OMO_0003003>
-<http://purl.obolibrary.org/obo/NCBITaxon_9483>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"white ear-tufted marmoset"	<http://purl.obolibrary.org/obo/OMO_0003003>
-<http://purl.obolibrary.org/obo/NCBITaxon_9483>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"white-tufted-ear marmoset"	<http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_9605>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"humans"	<http://purl.obolibrary.org/obo/OMO_0003003>
-<http://purl.obolibrary.org/obo/NCBITaxon_10114>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"rats"	<http://purl.obolibrary.org/obo/OMO_0003003>
-<http://purl.obolibrary.org/obo/NCBITaxon_10114>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"rat"	<http://purl.obolibrary.org/obo/OMO_0003003>
-<http://purl.obolibrary.org/obo/NCBITaxon_117571>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"bony vertebrates"	<http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_10088>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"Mus"	<http://purl.obolibrary.org/obo/ncbitaxon#scientific_name>
-<http://purl.obolibrary.org/obo/NCBITaxon_10088>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"mouse"	<http://purl.obolibrary.org/obo/OMO_0003003>
-<http://purl.obolibrary.org/obo/NCBITaxon_10088>	<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>	"mice"	<http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>

@@ -1,0 +1,1436 @@
+name: foo
+has:
+  CHR:9483-chr1p:
+    id: CHR:9483-chr1p
+    band_descriptor: p
+    chromosome_name: chr1
+    build: calJac4
+    name: 1p (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 0
+    end: 80783914
+    parent: CHR:9483-chr1
+  CHR:9483-chr1:
+    id: CHR:9483-chr1
+    band_descriptor: ''
+    chromosome_name: chr1
+    build: calJac4
+    name: chromosome 1 (Marmoset)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9483
+    start: 0
+    end: 217961735
+    children:
+    - CHR:9483-chr1p
+    - CHR:9483-chr1cen
+    - CHR:9483-chr1q
+    exact_mappings:
+    - insdc:CM018917.1
+    - refseq:NC_048383.1
+  CHR:9483-chr1cen:
+    id: CHR:9483-chr1cen
+    band_descriptor: cen
+    chromosome_name: chr1
+    build: calJac4
+    name: 1cen (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 81283914
+    end: 81783914
+    parent: CHR:9483-chr1
+  CHR:9483-chr1q:
+    id: CHR:9483-chr1q
+    band_descriptor: q
+    chromosome_name: chr1
+    build: calJac4
+    name: 1q (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 81783914
+    end: 217961735
+    parent: CHR:9483-chr1
+  CHR:9483-chr10p:
+    id: CHR:9483-chr10p
+    band_descriptor: p
+    chromosome_name: chr10
+    build: calJac4
+    name: 10p (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 0
+    end: 25000075
+    parent: CHR:9483-chr10
+  CHR:9483-chr10:
+    id: CHR:9483-chr10
+    band_descriptor: ''
+    chromosome_name: chr10
+    build: calJac4
+    name: chromosome 10 (Marmoset)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9483
+    start: 0
+    end: 137671225
+    children:
+    - CHR:9483-chr10p
+    - CHR:9483-chr10cen
+    - CHR:9483-chr10q
+    exact_mappings:
+    - insdc:CM018926.1
+    - refseq:NC_048392.1
+  CHR:9483-chr10cen:
+    id: CHR:9483-chr10cen
+    band_descriptor: cen
+    chromosome_name: chr10
+    build: calJac4
+    name: 10cen (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 25500075
+    end: 26000075
+    parent: CHR:9483-chr10
+  CHR:9483-chr10q:
+    id: CHR:9483-chr10q
+    band_descriptor: q
+    chromosome_name: chr10
+    build: calJac4
+    name: 10q (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 26000075
+    end: 137671225
+    parent: CHR:9483-chr10
+  CHR:9483-chr11p:
+    id: CHR:9483-chr11p
+    band_descriptor: p
+    chromosome_name: chr11
+    build: calJac4
+    name: 11p (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 0
+    end: 33586013
+    parent: CHR:9483-chr11
+  CHR:9483-chr11:
+    id: CHR:9483-chr11
+    band_descriptor: ''
+    chromosome_name: chr11
+    build: calJac4
+    name: chromosome 11 (Marmoset)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9483
+    start: 0
+    end: 129688756
+    children:
+    - CHR:9483-chr11p
+    - CHR:9483-chr11cen
+    - CHR:9483-chr11q
+    exact_mappings:
+    - insdc:CM018927.1
+    - refseq:NC_048393.1
+  CHR:9483-chr11cen:
+    id: CHR:9483-chr11cen
+    band_descriptor: cen
+    chromosome_name: chr11
+    build: calJac4
+    name: 11cen (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 34086013
+    end: 34586013
+    parent: CHR:9483-chr11
+  CHR:9483-chr11q:
+    id: CHR:9483-chr11q
+    band_descriptor: q
+    chromosome_name: chr11
+    build: calJac4
+    name: 11q (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 34586013
+    end: 129688756
+    parent: CHR:9483-chr11
+  CHR:9483-chr12p:
+    id: CHR:9483-chr12p
+    band_descriptor: p
+    chromosome_name: chr12
+    build: calJac4
+    name: 12p (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 0
+    end: 29927646
+    parent: CHR:9483-chr12
+  CHR:9483-chr12:
+    id: CHR:9483-chr12
+    band_descriptor: ''
+    chromosome_name: chr12
+    build: calJac4
+    name: chromosome 12 (Marmoset)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9483
+    start: 0
+    end: 124486764
+    children:
+    - CHR:9483-chr12p
+    - CHR:9483-chr12cen
+    - CHR:9483-chr12q
+    exact_mappings:
+    - insdc:CM018928.1
+    - refseq:NC_048394.1
+  CHR:9483-chr12cen:
+    id: CHR:9483-chr12cen
+    band_descriptor: cen
+    chromosome_name: chr12
+    build: calJac4
+    name: 12cen (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 30427646
+    end: 30927646
+    parent: CHR:9483-chr12
+  CHR:9483-chr12q:
+    id: CHR:9483-chr12q
+    band_descriptor: q
+    chromosome_name: chr12
+    build: calJac4
+    name: 12q (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 30927646
+    end: 124486764
+    parent: CHR:9483-chr12
+  CHR:9483-chr13p:
+    id: CHR:9483-chr13p
+    band_descriptor: p
+    chromosome_name: chr13
+    build: calJac4
+    name: 13p (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 0
+    end: 42699764
+    parent: CHR:9483-chr13
+  CHR:9483-chr13:
+    id: CHR:9483-chr13
+    band_descriptor: ''
+    chromosome_name: chr13
+    build: calJac4
+    name: chromosome 13 (Marmoset)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9483
+    start: 0
+    end: 118934817
+    children:
+    - CHR:9483-chr13p
+    - CHR:9483-chr13cen
+    - CHR:9483-chr13q
+    exact_mappings:
+    - insdc:CM018929.1
+    - refseq:NC_048395.1
+  CHR:9483-chr13cen:
+    id: CHR:9483-chr13cen
+    band_descriptor: cen
+    chromosome_name: chr13
+    build: calJac4
+    name: 13cen (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 43199764
+    end: 43699764
+    parent: CHR:9483-chr13
+  CHR:9483-chr13q:
+    id: CHR:9483-chr13q
+    band_descriptor: q
+    chromosome_name: chr13
+    build: calJac4
+    name: 13q (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 43699764
+    end: 118934817
+    parent: CHR:9483-chr13
+  CHR:9483-chr14cen:
+    id: CHR:9483-chr14cen
+    band_descriptor: cen
+    chromosome_name: chr14
+    build: calJac4
+    name: 14cen (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 500000
+    end: 1000000
+    parent: CHR:9483-chr14
+  CHR:9483-chr14:
+    id: CHR:9483-chr14
+    band_descriptor: ''
+    chromosome_name: chr14
+    build: calJac4
+    name: chromosome 14 (Marmoset)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9483
+    start: 500000
+    end: 112090317
+    children:
+    - CHR:9483-chr14cen
+    - CHR:9483-chr14q
+    exact_mappings:
+    - insdc:CM018930.1
+    - refseq:NC_048396.1
+  CHR:9483-chr14q:
+    id: CHR:9483-chr14q
+    band_descriptor: q
+    chromosome_name: chr14
+    build: calJac4
+    name: 14q (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 1000000
+    end: 112090317
+    parent: CHR:9483-chr14
+  CHR:9483-chr15cen:
+    id: CHR:9483-chr15cen
+    band_descriptor: cen
+    chromosome_name: chr15
+    build: calJac4
+    name: 15cen (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 500000
+    end: 1000000
+    parent: CHR:9483-chr15
+  CHR:9483-chr15:
+    id: CHR:9483-chr15
+    band_descriptor: ''
+    chromosome_name: chr15
+    build: calJac4
+    name: chromosome 15 (Marmoset)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9483
+    start: 500000
+    end: 99198953
+    children:
+    - CHR:9483-chr15cen
+    - CHR:9483-chr15q
+    exact_mappings:
+    - insdc:CM018931.1
+    - refseq:NC_048397.1
+  CHR:9483-chr15q:
+    id: CHR:9483-chr15q
+    band_descriptor: q
+    chromosome_name: chr15
+    build: calJac4
+    name: 15q (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 1000000
+    end: 99198953
+    parent: CHR:9483-chr15
+  CHR:9483-chr16cen:
+    id: CHR:9483-chr16cen
+    band_descriptor: cen
+    chromosome_name: chr16
+    build: calJac4
+    name: 16cen (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 500000
+    end: 1000000
+    parent: CHR:9483-chr16
+  CHR:9483-chr16:
+    id: CHR:9483-chr16
+    band_descriptor: ''
+    chromosome_name: chr16
+    build: calJac4
+    name: chromosome 16 (Marmoset)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9483
+    start: 500000
+    end: 97817134
+    children:
+    - CHR:9483-chr16cen
+    - CHR:9483-chr16q
+    exact_mappings:
+    - insdc:CM018932.1
+    - refseq:NC_048398.1
+  CHR:9483-chr16q:
+    id: CHR:9483-chr16q
+    band_descriptor: q
+    chromosome_name: chr16
+    build: calJac4
+    name: 16q (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 1000000
+    end: 97817134
+    parent: CHR:9483-chr16
+  CHR:9483-chr17cen:
+    id: CHR:9483-chr17cen
+    band_descriptor: cen
+    chromosome_name: chr17
+    build: calJac4
+    name: 17cen (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 500000
+    end: 1000000
+    parent: CHR:9483-chr17
+  CHR:9483-chr17:
+    id: CHR:9483-chr17
+    band_descriptor: ''
+    chromosome_name: chr17
+    build: calJac4
+    name: chromosome 17 (Marmoset)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9483
+    start: 500000
+    end: 74942703
+    children:
+    - CHR:9483-chr17cen
+    - CHR:9483-chr17q
+    exact_mappings:
+    - insdc:CM018933.1
+    - refseq:NC_048399.1
+  CHR:9483-chr17q:
+    id: CHR:9483-chr17q
+    band_descriptor: q
+    chromosome_name: chr17
+    build: calJac4
+    name: 17q (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 1000000
+    end: 74942703
+    parent: CHR:9483-chr17
+  CHR:9483-chr18cen:
+    id: CHR:9483-chr18cen
+    band_descriptor: cen
+    chromosome_name: chr18
+    build: calJac4
+    name: 18cen (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 500000
+    end: 1000000
+    parent: CHR:9483-chr18
+  CHR:9483-chr18:
+    id: CHR:9483-chr18
+    band_descriptor: ''
+    chromosome_name: chr18
+    build: calJac4
+    name: chromosome 18 (Marmoset)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9483
+    start: 500000
+    end: 47031477
+    children:
+    - CHR:9483-chr18cen
+    - CHR:9483-chr18q
+    exact_mappings:
+    - insdc:CM018934.1
+    - refseq:NC_048400.1
+  CHR:9483-chr18q:
+    id: CHR:9483-chr18q
+    band_descriptor: q
+    chromosome_name: chr18
+    build: calJac4
+    name: 18q (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 1000000
+    end: 47031477
+    parent: CHR:9483-chr18
+  CHR:9483-chr19cen:
+    id: CHR:9483-chr19cen
+    band_descriptor: cen
+    chromosome_name: chr19
+    build: calJac4
+    name: 19cen (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 500000
+    end: 1000000
+    parent: CHR:9483-chr19
+  CHR:9483-chr19:
+    id: CHR:9483-chr19
+    band_descriptor: ''
+    chromosome_name: chr19
+    build: calJac4
+    name: chromosome 19 (Marmoset)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9483
+    start: 500000
+    end: 51570929
+    children:
+    - CHR:9483-chr19cen
+    - CHR:9483-chr19q
+    exact_mappings:
+    - insdc:CM018935.1
+    - refseq:NC_048401.1
+  CHR:9483-chr19q:
+    id: CHR:9483-chr19q
+    band_descriptor: q
+    chromosome_name: chr19
+    build: calJac4
+    name: 19q (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 1000000
+    end: 51570929
+    parent: CHR:9483-chr19
+  CHR:9483-chr2p:
+    id: CHR:9483-chr2p
+    band_descriptor: p
+    chromosome_name: chr2
+    build: calJac4
+    name: 2p (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 0
+    end: 58260311
+    parent: CHR:9483-chr2
+  CHR:9483-chr2:
+    id: CHR:9483-chr2
+    band_descriptor: ''
+    chromosome_name: chr2
+    build: calJac4
+    name: chromosome 2 (Marmoset)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9483
+    start: 0
+    end: 204486479
+    children:
+    - CHR:9483-chr2p
+    - CHR:9483-chr2cen
+    - CHR:9483-chr2q
+    exact_mappings:
+    - insdc:CM018918.1
+    - refseq:NC_048384.1
+  CHR:9483-chr2cen:
+    id: CHR:9483-chr2cen
+    band_descriptor: cen
+    chromosome_name: chr2
+    build: calJac4
+    name: 2cen (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 58760311
+    end: 59260311
+    parent: CHR:9483-chr2
+  CHR:9483-chr2q:
+    id: CHR:9483-chr2q
+    band_descriptor: q
+    chromosome_name: chr2
+    build: calJac4
+    name: 2q (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 59260311
+    end: 204486479
+    parent: CHR:9483-chr2
+  CHR:9483-chr20cen:
+    id: CHR:9483-chr20cen
+    band_descriptor: cen
+    chromosome_name: chr20
+    build: calJac4
+    name: 20cen (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 500000
+    end: 1000000
+    parent: CHR:9483-chr20
+  CHR:9483-chr20:
+    id: CHR:9483-chr20
+    band_descriptor: ''
+    chromosome_name: chr20
+    build: calJac4
+    name: chromosome 20 (Marmoset)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9483
+    start: 500000
+    end: 45615054
+    children:
+    - CHR:9483-chr20cen
+    - CHR:9483-chr20q
+    exact_mappings:
+    - insdc:CM018936.1
+    - refseq:NC_048402.1
+  CHR:9483-chr20q:
+    id: CHR:9483-chr20q
+    band_descriptor: q
+    chromosome_name: chr20
+    build: calJac4
+    name: 20q (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 1000000
+    end: 45615054
+    parent: CHR:9483-chr20
+  CHR:9483-chr21:
+    id: CHR:9483-chr21
+    band_descriptor: ''
+    chromosome_name: chr21
+    build: calJac4
+    name: chromosome 21 (Marmoset)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9483
+    start: 0
+    end: 51259342
+    exact_mappings:
+    - insdc:CM018937.1
+    - refseq:NC_048403.1
+  CHR:9483-chr22p:
+    id: CHR:9483-chr22p
+    band_descriptor: p
+    chromosome_name: chr22
+    build: calJac4
+    name: 22p (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 0
+    end: 23196811
+    parent: CHR:9483-chr22
+  CHR:9483-chr22:
+    id: CHR:9483-chr22
+    band_descriptor: ''
+    chromosome_name: chr22
+    build: calJac4
+    name: chromosome 22 (Marmoset)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9483
+    start: 0
+    end: 51300780
+    children:
+    - CHR:9483-chr22p
+    - CHR:9483-chr22cen
+    - CHR:9483-chr22q
+    exact_mappings:
+    - insdc:CM018938.1
+    - refseq:NC_048404.1
+  CHR:9483-chr22cen:
+    id: CHR:9483-chr22cen
+    band_descriptor: cen
+    chromosome_name: chr22
+    build: calJac4
+    name: 22cen (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 23696811
+    end: 24196811
+    parent: CHR:9483-chr22
+  CHR:9483-chr22q:
+    id: CHR:9483-chr22q
+    band_descriptor: q
+    chromosome_name: chr22
+    build: calJac4
+    name: 22q (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 24196811
+    end: 51300780
+    parent: CHR:9483-chr22
+  CHR:9483-chr3p:
+    id: CHR:9483-chr3p
+    band_descriptor: p
+    chromosome_name: chr3
+    build: calJac4
+    name: 3p (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 0
+    end: 25663142
+    parent: CHR:9483-chr3
+  CHR:9483-chr3:
+    id: CHR:9483-chr3
+    band_descriptor: ''
+    chromosome_name: chr3
+    build: calJac4
+    name: chromosome 3 (Marmoset)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9483
+    start: 0
+    end: 191910223
+    children:
+    - CHR:9483-chr3p
+    - CHR:9483-chr3cen
+    - CHR:9483-chr3q
+    exact_mappings:
+    - insdc:CM018919.1
+    - refseq:NC_048385.1
+  CHR:9483-chr3cen:
+    id: CHR:9483-chr3cen
+    band_descriptor: cen
+    chromosome_name: chr3
+    build: calJac4
+    name: 3cen (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 26163142
+    end: 26663142
+    parent: CHR:9483-chr3
+  CHR:9483-chr3q:
+    id: CHR:9483-chr3q
+    band_descriptor: q
+    chromosome_name: chr3
+    build: calJac4
+    name: 3q (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 26663142
+    end: 191910223
+    parent: CHR:9483-chr3
+  CHR:9483-chr4p:
+    id: CHR:9483-chr4p
+    band_descriptor: p
+    chromosome_name: chr4
+    build: calJac4
+    name: 4p (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 0
+    end: 30853243
+    parent: CHR:9483-chr4
+  CHR:9483-chr4:
+    id: CHR:9483-chr4
+    band_descriptor: ''
+    chromosome_name: chr4
+    build: calJac4
+    name: chromosome 4 (Marmoset)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9483
+    start: 0
+    end: 174041770
+    children:
+    - CHR:9483-chr4p
+    - CHR:9483-chr4cen
+    - CHR:9483-chr4q
+    exact_mappings:
+    - insdc:CM018920.1
+    - refseq:NC_048386.1
+  CHR:9483-chr4cen:
+    id: CHR:9483-chr4cen
+    band_descriptor: cen
+    chromosome_name: chr4
+    build: calJac4
+    name: 4cen (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 31353243
+    end: 31853243
+    parent: CHR:9483-chr4
+  CHR:9483-chr4q:
+    id: CHR:9483-chr4q
+    band_descriptor: q
+    chromosome_name: chr4
+    build: calJac4
+    name: 4q (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 31853243
+    end: 174041770
+    parent: CHR:9483-chr4
+  CHR:9483-chr5p:
+    id: CHR:9483-chr5p
+    band_descriptor: p
+    chromosome_name: chr5
+    build: calJac4
+    name: 5p (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 0
+    end: 58097111
+    parent: CHR:9483-chr5
+  CHR:9483-chr5:
+    id: CHR:9483-chr5
+    band_descriptor: ''
+    chromosome_name: chr5
+    build: calJac4
+    name: chromosome 5 (Marmoset)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9483
+    start: 0
+    end: 164351765
+    children:
+    - CHR:9483-chr5p
+    - CHR:9483-chr5cen
+    - CHR:9483-chr5q
+    exact_mappings:
+    - insdc:CM018921.1
+    - refseq:NC_048387.1
+  CHR:9483-chr5cen:
+    id: CHR:9483-chr5cen
+    band_descriptor: cen
+    chromosome_name: chr5
+    build: calJac4
+    name: 5cen (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 58597111
+    end: 59097111
+    parent: CHR:9483-chr5
+  CHR:9483-chr5q:
+    id: CHR:9483-chr5q
+    band_descriptor: q
+    chromosome_name: chr5
+    build: calJac4
+    name: 5q (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 59097111
+    end: 164351765
+    parent: CHR:9483-chr5
+  CHR:9483-chr6p:
+    id: CHR:9483-chr6p
+    band_descriptor: p
+    chromosome_name: chr6
+    build: calJac4
+    name: 6p (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 0
+    end: 29512457
+    parent: CHR:9483-chr6
+  CHR:9483-chr6:
+    id: CHR:9483-chr6
+    band_descriptor: ''
+    chromosome_name: chr6
+    build: calJac4
+    name: chromosome 6 (Marmoset)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9483
+    start: 0
+    end: 161003406
+    children:
+    - CHR:9483-chr6p
+    - CHR:9483-chr6cen
+    - CHR:9483-chr6q
+    exact_mappings:
+    - insdc:CM018922.1
+    - refseq:NC_048388.1
+  CHR:9483-chr6cen:
+    id: CHR:9483-chr6cen
+    band_descriptor: cen
+    chromosome_name: chr6
+    build: calJac4
+    name: 6cen (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 30012457
+    end: 30512457
+    parent: CHR:9483-chr6
+  CHR:9483-chr6q:
+    id: CHR:9483-chr6q
+    band_descriptor: q
+    chromosome_name: chr6
+    build: calJac4
+    name: 6q (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 30512457
+    end: 161003406
+    parent: CHR:9483-chr6
+  CHR:9483-chr7p:
+    id: CHR:9483-chr7p
+    band_descriptor: p
+    chromosome_name: chr7
+    build: calJac4
+    name: 7p (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 0
+    end: 36306574
+    parent: CHR:9483-chr7
+  CHR:9483-chr7:
+    id: CHR:9483-chr7
+    band_descriptor: ''
+    chromosome_name: chr7
+    build: calJac4
+    name: chromosome 7 (Marmoset)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9483
+    start: 0
+    end: 157546058
+    children:
+    - CHR:9483-chr7p
+    - CHR:9483-chr7cen
+    - CHR:9483-chr7q
+    exact_mappings:
+    - insdc:CM018923.1
+    - refseq:NC_048389.1
+  CHR:9483-chr7cen:
+    id: CHR:9483-chr7cen
+    band_descriptor: cen
+    chromosome_name: chr7
+    build: calJac4
+    name: 7cen (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 36806574
+    end: 37306574
+    parent: CHR:9483-chr7
+  CHR:9483-chr7q:
+    id: CHR:9483-chr7q
+    band_descriptor: q
+    chromosome_name: chr7
+    build: calJac4
+    name: 7q (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 37306574
+    end: 157546058
+    parent: CHR:9483-chr7
+  CHR:9483-chr8p:
+    id: CHR:9483-chr8p
+    band_descriptor: p
+    chromosome_name: chr8
+    build: calJac4
+    name: 8p (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 0
+    end: 23112397
+    parent: CHR:9483-chr8
+  CHR:9483-chr8:
+    id: CHR:9483-chr8
+    band_descriptor: ''
+    chromosome_name: chr8
+    build: calJac4
+    name: chromosome 8 (Marmoset)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9483
+    start: 0
+    end: 126850804
+    children:
+    - CHR:9483-chr8p
+    - CHR:9483-chr8cen
+    - CHR:9483-chr8q
+    exact_mappings:
+    - insdc:CM018924.1
+    - refseq:NC_048390.1
+  CHR:9483-chr8cen:
+    id: CHR:9483-chr8cen
+    band_descriptor: cen
+    chromosome_name: chr8
+    build: calJac4
+    name: 8cen (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 23612397
+    end: 24112397
+    parent: CHR:9483-chr8
+  CHR:9483-chr8q:
+    id: CHR:9483-chr8q
+    band_descriptor: q
+    chromosome_name: chr8
+    build: calJac4
+    name: 8q (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 24112397
+    end: 126850804
+    parent: CHR:9483-chr8
+  CHR:9483-chr9p:
+    id: CHR:9483-chr9p
+    band_descriptor: p
+    chromosome_name: chr9
+    build: calJac4
+    name: 9p (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 0
+    end: 23434627
+    parent: CHR:9483-chr9
+  CHR:9483-chr9:
+    id: CHR:9483-chr9
+    band_descriptor: ''
+    chromosome_name: chr9
+    build: calJac4
+    name: chromosome 9 (Marmoset)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9483
+    start: 0
+    end: 134044658
+    children:
+    - CHR:9483-chr9p
+    - CHR:9483-chr9cen
+    - CHR:9483-chr9q
+    exact_mappings:
+    - insdc:CM018925.1
+    - refseq:NC_048391.1
+  CHR:9483-chr9cen:
+    id: CHR:9483-chr9cen
+    band_descriptor: cen
+    chromosome_name: chr9
+    build: calJac4
+    name: 9cen (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 23934627
+    end: 24434627
+    parent: CHR:9483-chr9
+  CHR:9483-chr9q:
+    id: CHR:9483-chr9q
+    band_descriptor: q
+    chromosome_name: chr9
+    build: calJac4
+    name: 9q (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 24434627
+    end: 134044658
+    parent: CHR:9483-chr9
+  CHR:9483-chrM:
+    id: CHR:9483-chrM
+    band_descriptor: ''
+    chromosome_name: chrM
+    build: calJac4
+    name: chromosome M (Marmoset)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    cell_location:
+      text: mitochondrion
+      meaning: http://purl.obolibrary.org/obo/GO_0005739
+    taxon: NCBITaxon:9483
+    start: 0
+    end: 16499
+    exact_mappings:
+    - insdc:KM588314.1
+    - refseq:NC_025586.1
+    broad_synonyms:
+    - MT
+  CHR:9483-chrXp:
+    id: CHR:9483-chrXp
+    band_descriptor: p
+    chromosome_name: chrX
+    build: calJac4
+    name: Xp (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 0
+    end: 56661510
+    parent: CHR:9483-chrX
+  CHR:9483-chrX:
+    id: CHR:9483-chrX
+    band_descriptor: ''
+    chromosome_name: chrX
+    build: calJac4
+    name: chromosome X (Marmoset)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: sex_chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0000803
+    sex_chromosome_type:
+      text: X
+      meaning: http://purl.obolibrary.org/obo/GO_0000805
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9483
+    start: 0
+    end: 148168104
+    children:
+    - CHR:9483-chrXp
+    - CHR:9483-chrXcen
+    - CHR:9483-chrXq
+    exact_mappings:
+    - insdc:CM018939.1
+    - refseq:NC_048405.1
+  CHR:9483-chrXcen:
+    id: CHR:9483-chrXcen
+    band_descriptor: cen
+    chromosome_name: chrX
+    build: calJac4
+    name: Xcen (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 57161510
+    end: 57661510
+    parent: CHR:9483-chrX
+  CHR:9483-chrXq:
+    id: CHR:9483-chrXq
+    band_descriptor: q
+    chromosome_name: chrX
+    build: calJac4
+    name: Xq (Marmoset)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:9483
+    start: 57661510
+    end: 148168104
+    parent: CHR:9483-chrX
+  CHR:9483-chrY:
+    id: CHR:9483-chrY
+    band_descriptor: ''
+    chromosome_name: chrY
+    build: calJac4
+    name: chromosome Y (Marmoset)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: sex_chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0000803
+    sex_chromosome_type:
+      text: Y
+      meaning: http://purl.obolibrary.org/obo/GO_0000806
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:9483
+    start: 0
+    end: 8228174
+    exact_mappings:
+    - insdc:CM023155.1
+    - refseq:NC_048406.1
+genomes:
+  mm:
+    id: mm
+    name: Mouse
+    taxon: NCBITaxon:10090
+  hg:
+    id: hg
+    name: Human
+    taxon: NCBITaxon:9606
+  dm:
+    id: dm
+    name: Drosophila melanogaster
+    taxon: NCBITaxon:7227
+  danRer:
+    id: danRer
+    name: Danio rerio
+    taxon: NCBITaxon:7955
+  rn:
+    id: rn
+    name: Rat
+    taxon: NCBITaxon:10116
+  ce:
+    id: ce
+    name: C elegans
+    taxon: NCBITaxon:6239
+  galGal:
+    id: galGal
+    name: Chicken
+    taxon: NCBITaxon:9031
+  calJac:
+    id: calJac
+    name: Marmoset
+    taxon: NCBITaxon:9483
+    build: calJac4
+taxons:
+  NCBITaxon:10090:
+    id: NCBITaxon:10090
+    name: Mus musculus
+  NCBITaxon:9606:
+    id: NCBITaxon:9606
+    name: Homo sapiens
+  NCBITaxon:7227:
+    id: NCBITaxon:7227
+    name: Drosophila melanogaster
+  NCBITaxon:7955:
+    id: NCBITaxon:7955
+    name: Danio rerio
+  NCBITaxon:10116:
+    id: NCBITaxon:10116
+    name: Rattus norvegicus
+  NCBITaxon:6239:
+    id: NCBITaxon:6239
+    name: Caenorhabditis elegans
+  NCBITaxon:9483:
+    id: NCBITaxon:9483
+    name: Callithrix jacchus

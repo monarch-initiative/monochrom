@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "monochrom"
+version = "0.1.0"
+description = "Generates OWL or YAML from UCSC chromosome band files"
+authors = ["Monarch Initiative"]
+license = "CC0"
+readme = "README.md"
+packages = [{include = "monochrom"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+linkml-runtime = "^1.7.0"
+funowl = "^0.2.0"
+rdflib = "^6.0.0"
+click = "^8.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.0.0"
+linkml = "^1.5.0"
+
+[tool.poetry.scripts]
+ucsc2owl = "monochrom.monochrom:cli"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
