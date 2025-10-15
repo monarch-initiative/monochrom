@@ -44,8 +44,10 @@ download/ncit-chrom-terms.owl: download/ncit.owl config/ncit-chrom-terms.txt
 	robot extract -i $< -m TOP -T config/ncit-chrom-terms.txt -o $@
 
 # ODK will take things on from here
-src/ontology/tmp/ucsc.ofn: monochrom/monochrom.py monochrom/chromschema.py
-	$(RUN) ucsc2owl download/*-*.tsv -o $@.tmp && mv $@.tmp $@
+# Generate list of input files based on BUILDS variable to avoid conflicts
+UCSC_INPUT_FILES = $(foreach build,$(BUILDS),download/$(build)-cytoBand.tsv download/$(build)-chromAlias.tsv)
+src/ontology/tmp/ucsc.ofn: monochrom/monochrom.py monochrom/chromschema.py $(UCSC_INPUT_FILES)
+	$(RUN) ucsc2owl $(UCSC_INPUT_FILES) -o $@.tmp && mv $@.tmp $@
 .PRECIOUS: src/ontology/tmp/ucsc.ofn
 
 ONTBASE=http://purl.obolibrary.org/obo/chr
@@ -56,7 +58,7 @@ src/ontology/components/ucsc.owl: src/ontology/tmp/ucsc.ofn
 ## Schema
 
 monochrom/chromschema.py: model/schema/chromo.yaml
-	gen-pydantic model/schema/chromo.yaml > $@.tmp && mv $@.tmp $@
+	gen-python model/schema/chromo.yaml > $@.tmp && mv $@.tmp $@
 
 gendocs:
 	gen-markdown -d docs model/schema/chromo.yaml
