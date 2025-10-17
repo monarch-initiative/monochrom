@@ -1,0 +1,1427 @@
+name: foo
+has:
+  CHR:10090-chr1p:
+    id: CHR:10090-chr1p
+    band_descriptor: p
+    chromosome_name: chr1
+    build: mm39
+    name: 1p (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 0
+    end: 110000
+    parent: CHR:10090-chr1
+  CHR:10090-chr1:
+    id: CHR:10090-chr1
+    band_descriptor: ''
+    chromosome_name: chr1
+    build: mm39
+    name: chromosome 1 (Mouse)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:10090
+    start: 0
+    end: 195154279
+    children:
+    - CHR:10090-chr1p
+    - CHR:10090-chr1cen
+    - CHR:10090-chr1q
+    exact_mappings:
+    - insdc:CM000994.3
+    - refseq:NC_000067.7
+    broad_synonyms:
+    - '1'
+  CHR:10090-chr1cen:
+    id: CHR:10090-chr1cen
+    band_descriptor: cen
+    chromosome_name: chr1
+    build: mm39
+    name: 1cen (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 1555000
+    end: 3000000
+    parent: CHR:10090-chr1
+  CHR:10090-chr1q:
+    id: CHR:10090-chr1q
+    band_descriptor: q
+    chromosome_name: chr1
+    build: mm39
+    name: 1q (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 3000000
+    end: 195154279
+    parent: CHR:10090-chr1
+  CHR:10090-chr10p:
+    id: CHR:10090-chr10p
+    band_descriptor: p
+    chromosome_name: chr10
+    build: mm39
+    name: 10p (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 0
+    end: 110000
+    parent: CHR:10090-chr10
+  CHR:10090-chr10:
+    id: CHR:10090-chr10
+    band_descriptor: ''
+    chromosome_name: chr10
+    build: mm39
+    name: chromosome 10 (Mouse)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:10090
+    start: 0
+    end: 130530862
+    children:
+    - CHR:10090-chr10p
+    - CHR:10090-chr10cen
+    - CHR:10090-chr10q
+    exact_mappings:
+    - insdc:CM001003.3
+    - refseq:NC_000076.7
+    broad_synonyms:
+    - '10'
+  CHR:10090-chr10cen:
+    id: CHR:10090-chr10cen
+    band_descriptor: cen
+    chromosome_name: chr10
+    build: mm39
+    name: 10cen (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 1555000
+    end: 3000000
+    parent: CHR:10090-chr10
+  CHR:10090-chr10q:
+    id: CHR:10090-chr10q
+    band_descriptor: q
+    chromosome_name: chr10
+    build: mm39
+    name: 10q (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 3000000
+    end: 130530862
+    parent: CHR:10090-chr10
+  CHR:10090-chr11p:
+    id: CHR:10090-chr11p
+    band_descriptor: p
+    chromosome_name: chr11
+    build: mm39
+    name: 11p (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 0
+    end: 110000
+    parent: CHR:10090-chr11
+  CHR:10090-chr11:
+    id: CHR:10090-chr11
+    band_descriptor: ''
+    chromosome_name: chr11
+    build: mm39
+    name: chromosome 11 (Mouse)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:10090
+    start: 0
+    end: 121973369
+    children:
+    - CHR:10090-chr11p
+    - CHR:10090-chr11cen
+    - CHR:10090-chr11q
+    exact_mappings:
+    - insdc:CM001004.3
+    - refseq:NC_000077.7
+    broad_synonyms:
+    - '11'
+  CHR:10090-chr11cen:
+    id: CHR:10090-chr11cen
+    band_descriptor: cen
+    chromosome_name: chr11
+    build: mm39
+    name: 11cen (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 1555000
+    end: 3000000
+    parent: CHR:10090-chr11
+  CHR:10090-chr11q:
+    id: CHR:10090-chr11q
+    band_descriptor: q
+    chromosome_name: chr11
+    build: mm39
+    name: 11q (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 3000000
+    end: 121973369
+    parent: CHR:10090-chr11
+  CHR:10090-chr12p:
+    id: CHR:10090-chr12p
+    band_descriptor: p
+    chromosome_name: chr12
+    build: mm39
+    name: 12p (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 0
+    end: 110000
+    parent: CHR:10090-chr12
+  CHR:10090-chr12:
+    id: CHR:10090-chr12
+    band_descriptor: ''
+    chromosome_name: chr12
+    build: mm39
+    name: chromosome 12 (Mouse)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:10090
+    start: 0
+    end: 120092757
+    children:
+    - CHR:10090-chr12p
+    - CHR:10090-chr12cen
+    - CHR:10090-chr12q
+    exact_mappings:
+    - insdc:CM001005.3
+    - refseq:NC_000078.7
+    broad_synonyms:
+    - '12'
+  CHR:10090-chr12cen:
+    id: CHR:10090-chr12cen
+    band_descriptor: cen
+    chromosome_name: chr12
+    build: mm39
+    name: 12cen (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 1555000
+    end: 3000000
+    parent: CHR:10090-chr12
+  CHR:10090-chr12q:
+    id: CHR:10090-chr12q
+    band_descriptor: q
+    chromosome_name: chr12
+    build: mm39
+    name: 12q (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 3000000
+    end: 120092757
+    parent: CHR:10090-chr12
+  CHR:10090-chr13p:
+    id: CHR:10090-chr13p
+    band_descriptor: p
+    chromosome_name: chr13
+    build: mm39
+    name: 13p (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 0
+    end: 110000
+    parent: CHR:10090-chr13
+  CHR:10090-chr13:
+    id: CHR:10090-chr13
+    band_descriptor: ''
+    chromosome_name: chr13
+    build: mm39
+    name: chromosome 13 (Mouse)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:10090
+    start: 0
+    end: 120883175
+    children:
+    - CHR:10090-chr13p
+    - CHR:10090-chr13cen
+    - CHR:10090-chr13q
+    exact_mappings:
+    - insdc:CM001006.3
+    - refseq:NC_000079.7
+    broad_synonyms:
+    - '13'
+  CHR:10090-chr13cen:
+    id: CHR:10090-chr13cen
+    band_descriptor: cen
+    chromosome_name: chr13
+    build: mm39
+    name: 13cen (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 1555000
+    end: 3000000
+    parent: CHR:10090-chr13
+  CHR:10090-chr13q:
+    id: CHR:10090-chr13q
+    band_descriptor: q
+    chromosome_name: chr13
+    build: mm39
+    name: 13q (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 3000000
+    end: 120883175
+    parent: CHR:10090-chr13
+  CHR:10090-chr14p:
+    id: CHR:10090-chr14p
+    band_descriptor: p
+    chromosome_name: chr14
+    build: mm39
+    name: 14p (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 0
+    end: 110000
+    parent: CHR:10090-chr14
+  CHR:10090-chr14:
+    id: CHR:10090-chr14
+    band_descriptor: ''
+    chromosome_name: chr14
+    build: mm39
+    name: chromosome 14 (Mouse)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:10090
+    start: 0
+    end: 125139656
+    children:
+    - CHR:10090-chr14p
+    - CHR:10090-chr14cen
+    - CHR:10090-chr14q
+    exact_mappings:
+    - insdc:CM001007.3
+    - refseq:NC_000080.7
+    broad_synonyms:
+    - '14'
+  CHR:10090-chr14cen:
+    id: CHR:10090-chr14cen
+    band_descriptor: cen
+    chromosome_name: chr14
+    build: mm39
+    name: 14cen (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 1555000
+    end: 3000000
+    parent: CHR:10090-chr14
+  CHR:10090-chr14q:
+    id: CHR:10090-chr14q
+    band_descriptor: q
+    chromosome_name: chr14
+    build: mm39
+    name: 14q (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 3000000
+    end: 125139656
+    parent: CHR:10090-chr14
+  CHR:10090-chr15p:
+    id: CHR:10090-chr15p
+    band_descriptor: p
+    chromosome_name: chr15
+    build: mm39
+    name: 15p (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 0
+    end: 110000
+    parent: CHR:10090-chr15
+  CHR:10090-chr15:
+    id: CHR:10090-chr15
+    band_descriptor: ''
+    chromosome_name: chr15
+    build: mm39
+    name: chromosome 15 (Mouse)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:10090
+    start: 0
+    end: 104073951
+    children:
+    - CHR:10090-chr15p
+    - CHR:10090-chr15cen
+    - CHR:10090-chr15q
+    exact_mappings:
+    - insdc:CM001008.3
+    - refseq:NC_000081.7
+    broad_synonyms:
+    - '15'
+  CHR:10090-chr15cen:
+    id: CHR:10090-chr15cen
+    band_descriptor: cen
+    chromosome_name: chr15
+    build: mm39
+    name: 15cen (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 1555000
+    end: 3000000
+    parent: CHR:10090-chr15
+  CHR:10090-chr15q:
+    id: CHR:10090-chr15q
+    band_descriptor: q
+    chromosome_name: chr15
+    build: mm39
+    name: 15q (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 3000000
+    end: 104073951
+    parent: CHR:10090-chr15
+  CHR:10090-chr16p:
+    id: CHR:10090-chr16p
+    band_descriptor: p
+    chromosome_name: chr16
+    build: mm39
+    name: 16p (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 0
+    end: 110000
+    parent: CHR:10090-chr16
+  CHR:10090-chr16:
+    id: CHR:10090-chr16
+    band_descriptor: ''
+    chromosome_name: chr16
+    build: mm39
+    name: chromosome 16 (Mouse)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:10090
+    start: 0
+    end: 98008968
+    children:
+    - CHR:10090-chr16p
+    - CHR:10090-chr16cen
+    - CHR:10090-chr16q
+    exact_mappings:
+    - insdc:CM001009.3
+    - refseq:NC_000082.7
+    broad_synonyms:
+    - '16'
+  CHR:10090-chr16cen:
+    id: CHR:10090-chr16cen
+    band_descriptor: cen
+    chromosome_name: chr16
+    build: mm39
+    name: 16cen (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 1555000
+    end: 3000000
+    parent: CHR:10090-chr16
+  CHR:10090-chr16q:
+    id: CHR:10090-chr16q
+    band_descriptor: q
+    chromosome_name: chr16
+    build: mm39
+    name: 16q (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 3000000
+    end: 98008968
+    parent: CHR:10090-chr16
+  CHR:10090-chr17p:
+    id: CHR:10090-chr17p
+    band_descriptor: p
+    chromosome_name: chr17
+    build: mm39
+    name: 17p (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 0
+    end: 110000
+    parent: CHR:10090-chr17
+  CHR:10090-chr17:
+    id: CHR:10090-chr17
+    band_descriptor: ''
+    chromosome_name: chr17
+    build: mm39
+    name: chromosome 17 (Mouse)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:10090
+    start: 0
+    end: 95294699
+    children:
+    - CHR:10090-chr17p
+    - CHR:10090-chr17cen
+    - CHR:10090-chr17q
+    exact_mappings:
+    - insdc:CM001010.3
+    - refseq:NC_000083.7
+    broad_synonyms:
+    - '17'
+  CHR:10090-chr17cen:
+    id: CHR:10090-chr17cen
+    band_descriptor: cen
+    chromosome_name: chr17
+    build: mm39
+    name: 17cen (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 1555000
+    end: 3000000
+    parent: CHR:10090-chr17
+  CHR:10090-chr17q:
+    id: CHR:10090-chr17q
+    band_descriptor: q
+    chromosome_name: chr17
+    build: mm39
+    name: 17q (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 3000000
+    end: 95294699
+    parent: CHR:10090-chr17
+  CHR:10090-chr18p:
+    id: CHR:10090-chr18p
+    band_descriptor: p
+    chromosome_name: chr18
+    build: mm39
+    name: 18p (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 0
+    end: 110000
+    parent: CHR:10090-chr18
+  CHR:10090-chr18:
+    id: CHR:10090-chr18
+    band_descriptor: ''
+    chromosome_name: chr18
+    build: mm39
+    name: chromosome 18 (Mouse)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:10090
+    start: 0
+    end: 90720763
+    children:
+    - CHR:10090-chr18p
+    - CHR:10090-chr18cen
+    - CHR:10090-chr18q
+    exact_mappings:
+    - insdc:CM001011.3
+    - refseq:NC_000084.7
+    broad_synonyms:
+    - '18'
+  CHR:10090-chr18cen:
+    id: CHR:10090-chr18cen
+    band_descriptor: cen
+    chromosome_name: chr18
+    build: mm39
+    name: 18cen (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 1555000
+    end: 3000000
+    parent: CHR:10090-chr18
+  CHR:10090-chr18q:
+    id: CHR:10090-chr18q
+    band_descriptor: q
+    chromosome_name: chr18
+    build: mm39
+    name: 18q (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 3000000
+    end: 90720763
+    parent: CHR:10090-chr18
+  CHR:10090-chr19p:
+    id: CHR:10090-chr19p
+    band_descriptor: p
+    chromosome_name: chr19
+    build: mm39
+    name: 19p (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 0
+    end: 110000
+    parent: CHR:10090-chr19
+  CHR:10090-chr19:
+    id: CHR:10090-chr19
+    band_descriptor: ''
+    chromosome_name: chr19
+    build: mm39
+    name: chromosome 19 (Mouse)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:10090
+    start: 0
+    end: 61420004
+    children:
+    - CHR:10090-chr19p
+    - CHR:10090-chr19cen
+    - CHR:10090-chr19q
+    exact_mappings:
+    - insdc:CM001012.3
+    - refseq:NC_000085.7
+    broad_synonyms:
+    - '19'
+  CHR:10090-chr19cen:
+    id: CHR:10090-chr19cen
+    band_descriptor: cen
+    chromosome_name: chr19
+    build: mm39
+    name: 19cen (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 1555000
+    end: 3000000
+    parent: CHR:10090-chr19
+  CHR:10090-chr19q:
+    id: CHR:10090-chr19q
+    band_descriptor: q
+    chromosome_name: chr19
+    build: mm39
+    name: 19q (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 3000000
+    end: 61420004
+    parent: CHR:10090-chr19
+  CHR:10090-chr2p:
+    id: CHR:10090-chr2p
+    band_descriptor: p
+    chromosome_name: chr2
+    build: mm39
+    name: 2p (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 0
+    end: 110000
+    parent: CHR:10090-chr2
+  CHR:10090-chr2:
+    id: CHR:10090-chr2
+    band_descriptor: ''
+    chromosome_name: chr2
+    build: mm39
+    name: chromosome 2 (Mouse)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:10090
+    start: 0
+    end: 181755017
+    children:
+    - CHR:10090-chr2p
+    - CHR:10090-chr2cen
+    - CHR:10090-chr2q
+    exact_mappings:
+    - insdc:CM000995.3
+    - refseq:NC_000068.8
+    broad_synonyms:
+    - '2'
+  CHR:10090-chr2cen:
+    id: CHR:10090-chr2cen
+    band_descriptor: cen
+    chromosome_name: chr2
+    build: mm39
+    name: 2cen (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 1555000
+    end: 3000000
+    parent: CHR:10090-chr2
+  CHR:10090-chr2q:
+    id: CHR:10090-chr2q
+    band_descriptor: q
+    chromosome_name: chr2
+    build: mm39
+    name: 2q (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 3000000
+    end: 181755017
+    parent: CHR:10090-chr2
+  CHR:10090-chr3p:
+    id: CHR:10090-chr3p
+    band_descriptor: p
+    chromosome_name: chr3
+    build: mm39
+    name: 3p (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 0
+    end: 110000
+    parent: CHR:10090-chr3
+  CHR:10090-chr3:
+    id: CHR:10090-chr3
+    band_descriptor: ''
+    chromosome_name: chr3
+    build: mm39
+    name: chromosome 3 (Mouse)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:10090
+    start: 0
+    end: 159745316
+    children:
+    - CHR:10090-chr3p
+    - CHR:10090-chr3cen
+    - CHR:10090-chr3q
+    exact_mappings:
+    - insdc:CM000996.3
+    - refseq:NC_000069.7
+    broad_synonyms:
+    - '3'
+  CHR:10090-chr3cen:
+    id: CHR:10090-chr3cen
+    band_descriptor: cen
+    chromosome_name: chr3
+    build: mm39
+    name: 3cen (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 1555000
+    end: 3000000
+    parent: CHR:10090-chr3
+  CHR:10090-chr3q:
+    id: CHR:10090-chr3q
+    band_descriptor: q
+    chromosome_name: chr3
+    build: mm39
+    name: 3q (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 3000000
+    end: 159745316
+    parent: CHR:10090-chr3
+  CHR:10090-chr4p:
+    id: CHR:10090-chr4p
+    band_descriptor: p
+    chromosome_name: chr4
+    build: mm39
+    name: 4p (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 0
+    end: 110000
+    parent: CHR:10090-chr4
+  CHR:10090-chr4:
+    id: CHR:10090-chr4
+    band_descriptor: ''
+    chromosome_name: chr4
+    build: mm39
+    name: chromosome 4 (Mouse)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:10090
+    start: 0
+    end: 156860686
+    children:
+    - CHR:10090-chr4p
+    - CHR:10090-chr4cen
+    - CHR:10090-chr4q
+    exact_mappings:
+    - insdc:CM000997.3
+    - refseq:NC_000070.7
+    broad_synonyms:
+    - '4'
+  CHR:10090-chr4cen:
+    id: CHR:10090-chr4cen
+    band_descriptor: cen
+    chromosome_name: chr4
+    build: mm39
+    name: 4cen (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 1555000
+    end: 3000000
+    parent: CHR:10090-chr4
+  CHR:10090-chr4q:
+    id: CHR:10090-chr4q
+    band_descriptor: q
+    chromosome_name: chr4
+    build: mm39
+    name: 4q (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 3000000
+    end: 156860686
+    parent: CHR:10090-chr4
+  CHR:10090-chr5p:
+    id: CHR:10090-chr5p
+    band_descriptor: p
+    chromosome_name: chr5
+    build: mm39
+    name: 5p (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 0
+    end: 110000
+    parent: CHR:10090-chr5
+  CHR:10090-chr5:
+    id: CHR:10090-chr5
+    band_descriptor: ''
+    chromosome_name: chr5
+    build: mm39
+    name: chromosome 5 (Mouse)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:10090
+    start: 0
+    end: 151758149
+    children:
+    - CHR:10090-chr5p
+    - CHR:10090-chr5cen
+    - CHR:10090-chr5q
+    exact_mappings:
+    - insdc:CM000998.3
+    - refseq:NC_000071.7
+    broad_synonyms:
+    - '5'
+  CHR:10090-chr5cen:
+    id: CHR:10090-chr5cen
+    band_descriptor: cen
+    chromosome_name: chr5
+    build: mm39
+    name: 5cen (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 1555000
+    end: 3000000
+    parent: CHR:10090-chr5
+  CHR:10090-chr5q:
+    id: CHR:10090-chr5q
+    band_descriptor: q
+    chromosome_name: chr5
+    build: mm39
+    name: 5q (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 3000000
+    end: 151758149
+    parent: CHR:10090-chr5
+  CHR:10090-chr6p:
+    id: CHR:10090-chr6p
+    band_descriptor: p
+    chromosome_name: chr6
+    build: mm39
+    name: 6p (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 0
+    end: 110000
+    parent: CHR:10090-chr6
+  CHR:10090-chr6:
+    id: CHR:10090-chr6
+    band_descriptor: ''
+    chromosome_name: chr6
+    build: mm39
+    name: chromosome 6 (Mouse)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:10090
+    start: 0
+    end: 149588044
+    children:
+    - CHR:10090-chr6p
+    - CHR:10090-chr6cen
+    - CHR:10090-chr6q
+    exact_mappings:
+    - insdc:CM000999.3
+    - refseq:NC_000072.7
+    broad_synonyms:
+    - '6'
+  CHR:10090-chr6cen:
+    id: CHR:10090-chr6cen
+    band_descriptor: cen
+    chromosome_name: chr6
+    build: mm39
+    name: 6cen (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 1555000
+    end: 3000000
+    parent: CHR:10090-chr6
+  CHR:10090-chr6q:
+    id: CHR:10090-chr6q
+    band_descriptor: q
+    chromosome_name: chr6
+    build: mm39
+    name: 6q (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 3000000
+    end: 149588044
+    parent: CHR:10090-chr6
+  CHR:10090-chr7p:
+    id: CHR:10090-chr7p
+    band_descriptor: p
+    chromosome_name: chr7
+    build: mm39
+    name: 7p (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 0
+    end: 110000
+    parent: CHR:10090-chr7
+  CHR:10090-chr7:
+    id: CHR:10090-chr7
+    band_descriptor: ''
+    chromosome_name: chr7
+    build: mm39
+    name: chromosome 7 (Mouse)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:10090
+    start: 0
+    end: 144995196
+    children:
+    - CHR:10090-chr7p
+    - CHR:10090-chr7cen
+    - CHR:10090-chr7q
+    exact_mappings:
+    - insdc:CM001000.3
+    - refseq:NC_000073.7
+    broad_synonyms:
+    - '7'
+  CHR:10090-chr7cen:
+    id: CHR:10090-chr7cen
+    band_descriptor: cen
+    chromosome_name: chr7
+    build: mm39
+    name: 7cen (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 1555000
+    end: 3000000
+    parent: CHR:10090-chr7
+  CHR:10090-chr7q:
+    id: CHR:10090-chr7q
+    band_descriptor: q
+    chromosome_name: chr7
+    build: mm39
+    name: 7q (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 3000000
+    end: 144995196
+    parent: CHR:10090-chr7
+  CHR:10090-chr8p:
+    id: CHR:10090-chr8p
+    band_descriptor: p
+    chromosome_name: chr8
+    build: mm39
+    name: 8p (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 0
+    end: 110000
+    parent: CHR:10090-chr8
+  CHR:10090-chr8:
+    id: CHR:10090-chr8
+    band_descriptor: ''
+    chromosome_name: chr8
+    build: mm39
+    name: chromosome 8 (Mouse)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:10090
+    start: 0
+    end: 130127694
+    children:
+    - CHR:10090-chr8p
+    - CHR:10090-chr8cen
+    - CHR:10090-chr8q
+    exact_mappings:
+    - insdc:CM001001.3
+    - refseq:NC_000074.7
+    broad_synonyms:
+    - '8'
+  CHR:10090-chr8cen:
+    id: CHR:10090-chr8cen
+    band_descriptor: cen
+    chromosome_name: chr8
+    build: mm39
+    name: 8cen (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 1555000
+    end: 3000000
+    parent: CHR:10090-chr8
+  CHR:10090-chr8q:
+    id: CHR:10090-chr8q
+    band_descriptor: q
+    chromosome_name: chr8
+    build: mm39
+    name: 8q (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 3000000
+    end: 130127694
+    parent: CHR:10090-chr8
+  CHR:10090-chr9p:
+    id: CHR:10090-chr9p
+    band_descriptor: p
+    chromosome_name: chr9
+    build: mm39
+    name: 9p (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 0
+    end: 110000
+    parent: CHR:10090-chr9
+  CHR:10090-chr9:
+    id: CHR:10090-chr9
+    band_descriptor: ''
+    chromosome_name: chr9
+    build: mm39
+    name: chromosome 9 (Mouse)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:10090
+    start: 0
+    end: 124359700
+    children:
+    - CHR:10090-chr9p
+    - CHR:10090-chr9cen
+    - CHR:10090-chr9q
+    exact_mappings:
+    - insdc:CM001002.3
+    - refseq:NC_000075.7
+    broad_synonyms:
+    - '9'
+  CHR:10090-chr9cen:
+    id: CHR:10090-chr9cen
+    band_descriptor: cen
+    chromosome_name: chr9
+    build: mm39
+    name: 9cen (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 1555000
+    end: 3000000
+    parent: CHR:10090-chr9
+  CHR:10090-chr9q:
+    id: CHR:10090-chr9q
+    band_descriptor: q
+    chromosome_name: chr9
+    build: mm39
+    name: 9q (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 3000000
+    end: 124359700
+    parent: CHR:10090-chr9
+  CHR:10090-chrM:
+    id: CHR:10090-chrM
+    band_descriptor: ''
+    chromosome_name: chrM
+    build: mm39
+    name: chromosome M (Mouse)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    cell_location:
+      text: mitochondrion
+      meaning: http://purl.obolibrary.org/obo/GO_0005739
+    taxon: NCBITaxon:10090
+    start: 0
+    end: 16299
+    exact_mappings:
+    - insdc:AY172335.1
+    - refseq:NC_005089.1
+    broad_synonyms:
+    - MT
+  CHR:10090-chrXp:
+    id: CHR:10090-chrXp
+    band_descriptor: p
+    chromosome_name: chrX
+    build: mm39
+    name: Xp (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 0
+    end: 110000
+    parent: CHR:10090-chrX
+  CHR:10090-chrX:
+    id: CHR:10090-chrX
+    band_descriptor: ''
+    chromosome_name: chrX
+    build: mm39
+    name: chromosome X (Mouse)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: sex_chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0000803
+    sex_chromosome_type:
+      text: X
+      meaning: http://purl.obolibrary.org/obo/GO_0000805
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:10090
+    start: 0
+    end: 169476592
+    children:
+    - CHR:10090-chrXp
+    - CHR:10090-chrXcen
+    - CHR:10090-chrXq
+    exact_mappings:
+    - insdc:CM001013.3
+    - refseq:NC_000086.8
+    broad_synonyms:
+    - X
+  CHR:10090-chrXcen:
+    id: CHR:10090-chrXcen
+    band_descriptor: cen
+    chromosome_name: chrX
+    build: mm39
+    name: Xcen (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 1555000
+    end: 3000000
+    parent: CHR:10090-chrX
+  CHR:10090-chrXq:
+    id: CHR:10090-chrXq
+    band_descriptor: q
+    chromosome_name: chrX
+    build: mm39
+    name: Xq (Mouse)
+    type:
+      text: chromosome_part
+      meaning: http://purl.obolibrary.org/obo/GO_0098687
+    taxon: NCBITaxon:10090
+    start: 3000000
+    end: 169476592
+    parent: CHR:10090-chrX
+  CHR:10090-chrY:
+    id: CHR:10090-chrY
+    band_descriptor: ''
+    chromosome_name: chrY
+    build: mm39
+    name: chromosome Y (Mouse)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: sex_chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0000803
+    sex_chromosome_type:
+      text: Y
+      meaning: http://purl.obolibrary.org/obo/GO_0000806
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:10090
+    start: 0
+    end: 91455967
+    exact_mappings:
+    - insdc:CM001014.3
+    - refseq:NC_000087.8
+    broad_synonyms:
+    - Y
+genomes:
+  mm:
+    id: mm
+    name: Mouse
+    taxon: NCBITaxon:10090
+    build: mm39
+  hg:
+    id: hg
+    name: Human
+    taxon: NCBITaxon:9606
+  dm:
+    id: dm
+    name: Drosophila melanogaster
+    taxon: NCBITaxon:7227
+  danRer:
+    id: danRer
+    name: Danio rerio
+    taxon: NCBITaxon:7955
+  rn:
+    id: rn
+    name: Rat
+    taxon: NCBITaxon:10116
+  ce:
+    id: ce
+    name: C elegans
+    taxon: NCBITaxon:6239
+  galGal:
+    id: galGal
+    name: Chicken
+    taxon: NCBITaxon:9031
+  calJac:
+    id: calJac
+    name: Marmoset
+    taxon: NCBITaxon:9483
+taxons:
+  NCBITaxon:10090:
+    id: NCBITaxon:10090
+    name: Mus musculus
+  NCBITaxon:9606:
+    id: NCBITaxon:9606
+    name: Homo sapiens
+  NCBITaxon:7227:
+    id: NCBITaxon:7227
+    name: Drosophila melanogaster
+  NCBITaxon:7955:
+    id: NCBITaxon:7955
+    name: Danio rerio
+  NCBITaxon:10116:
+    id: NCBITaxon:10116
+    name: Rattus norvegicus
+  NCBITaxon:6239:
+    id: NCBITaxon:6239
+    name: Caenorhabditis elegans
+  NCBITaxon:9483:
+    id: NCBITaxon:9483
+    name: Callithrix jacchus

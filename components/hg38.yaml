@@ -19030,6 +19030,10 @@ genomes:
     id: galGal
     name: Chicken
     taxon: NCBITaxon:9031
+  calJac:
+    id: calJac
+    name: Marmoset
+    taxon: NCBITaxon:9483
 taxons:
   NCBITaxon:10090:
     id: NCBITaxon:10090
@@ -19049,3 +19053,6 @@ taxons:
   NCBITaxon:6239:
     id: NCBITaxon:6239
     name: Caenorhabditis elegans
+  NCBITaxon:9483:
+    id: NCBITaxon:9483
+    name: Callithrix jacchus
