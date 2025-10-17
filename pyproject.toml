@@ -3,7 +3,7 @@ name = "monochrom"
 version = "0.1.0"
 description = "Generates OWL or YAML from UCSC chromosome band files"
 authors = ["Monarch Initiative"]
-license = "CC0"
+license = "CC0-1.0"
 readme = "README.md"
 packages = [{include = "monochrom"}]
 
