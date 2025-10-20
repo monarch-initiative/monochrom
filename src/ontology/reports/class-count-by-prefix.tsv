@@ -1,9 +1,12 @@
 ?prefix	?numberOfClasses
-"OBI"	1
-"CHR"	2482
-"IAO"	1
-"BFO"	11
+"OBI"	75
+"CHR"	1999
+"IAO"	29
+"BFO"	13
 "GO"	60
-"NCBITaxon"	93
+"GENO"	1
+"UO"	10
+"NCBITaxon"	96
+"APOLLO"	2
 "UBERON"	1
 "PATO"	1

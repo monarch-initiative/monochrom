@@ -84,8 +84,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10p11.21-p12.31 (Human)</rdfs:label>
-        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+        <rdfs:label>10p11.21-p12.31 (Human)</rdfs:label>
+        <vocab:genome_build>hg38</vocab:genome_build>
     </owl:Class>
     
 
@@ -112,8 +112,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10q22.3-q23.3 (Human)</rdfs:label>
-        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+        <rdfs:label>10q22.3-q23.3 (Human)</rdfs:label>
+        <vocab:genome_build>hg38</vocab:genome_build>
     </owl:Class>
     
 
@@ -140,8 +140,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11p15-p14 (Human)</rdfs:label>
-        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+        <rdfs:label>11p15-p14 (Human)</rdfs:label>
+        <vocab:genome_build>hg38</vocab:genome_build>
     </owl:Class>
     
 
@@ -168,8 +168,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11q22.2-q22.3 (Human)</rdfs:label>
-        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+        <rdfs:label>11q22.2-q22.3 (Human)</rdfs:label>
+        <vocab:genome_build>hg38</vocab:genome_build>
     </owl:Class>
     
 
@@ -196,8 +196,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12q15-q21.1 (Human)</rdfs:label>
-        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+        <rdfs:label>12q15-q21.1 (Human)</rdfs:label>
+        <vocab:genome_build>hg38</vocab:genome_build>
     </owl:Class>
     
 
@@ -224,8 +224,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14q11-q22 (Human)</rdfs:label>
-        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+        <rdfs:label>14q11-q22 (Human)</rdfs:label>
+        <vocab:genome_build>hg38</vocab:genome_build>
     </owl:Class>
     
 
@@ -246,8 +246,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14q22-q23 (Human)</rdfs:label>
-        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+        <rdfs:label>14q22-q23 (Human)</rdfs:label>
+        <vocab:genome_build>hg38</vocab:genome_build>
     </owl:Class>
     
 
@@ -268,8 +268,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14q24.1-q24.3 (Human)</rdfs:label>
-        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+        <rdfs:label>14q24.1-q24.3 (Human)</rdfs:label>
+        <vocab:genome_build>hg38</vocab:genome_build>
     </owl:Class>
     
 
@@ -296,8 +296,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15q11-q13 (Human)</rdfs:label>
-        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+        <rdfs:label>15q11-q13 (Human)</rdfs:label>
+        <vocab:genome_build>hg38</vocab:genome_build>
     </owl:Class>
     
 
@@ -318,8 +318,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15q26-qter (Human)</rdfs:label>
-        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+        <rdfs:label>15q26-qter (Human)</rdfs:label>
+        <vocab:genome_build>hg38</vocab:genome_build>
     </owl:Class>
     
 
@@ -346,8 +346,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16p11.2-p12.2 (Human)</rdfs:label>
-        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+        <rdfs:label>16p11.2-p12.2 (Human)</rdfs:label>
+        <vocab:genome_build>hg38</vocab:genome_build>
     </owl:Class>
     
 
@@ -368,8 +368,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16p12.1-p12.3 (Human)</rdfs:label>
-        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+        <rdfs:label>16p12.1-p12.3 (Human)</rdfs:label>
+        <vocab:genome_build>hg38</vocab:genome_build>
     </owl:Class>
     
 
@@ -390,8 +390,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16p12.2-p11.2 (Human)</rdfs:label>
-        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+        <rdfs:label>16p12.2-p11.2 (Human)</rdfs:label>
+        <vocab:genome_build>hg38</vocab:genome_build>
     </owl:Class>
     
 
@@ -418,8 +418,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17q23.1-q23.2 (Human)</rdfs:label>
-        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+        <rdfs:label>17q23.1-q23.2 (Human)</rdfs:label>
+        <vocab:genome_build>hg38</vocab:genome_build>
     </owl:Class>
     
 
@@ -446,8 +446,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1p32-p31 (Human)</rdfs:label>
-        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+        <rdfs:label>1p32-p31 (Human)</rdfs:label>
+        <vocab:genome_build>hg38</vocab:genome_build>
     </owl:Class>
     
 
@@ -474,8 +474,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1q12-q21 (Human)</rdfs:label>
-        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+        <rdfs:label>1q12-q21 (Human)</rdfs:label>
+        <vocab:genome_build>hg38</vocab:genome_build>
     </owl:Class>
     
 
@@ -496,8 +496,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1q41-q42 (Human)</rdfs:label>
-        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+        <rdfs:label>1q41-q42 (Human)</rdfs:label>
+        <vocab:genome_build>hg38</vocab:genome_build>
     </owl:Class>
     
 
@@ -524,8 +524,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20q13.2-q13.3 (Human)</rdfs:label>
-        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+        <rdfs:label>20q13.2-q13.3 (Human)</rdfs:label>
+        <vocab:genome_build>hg38</vocab:genome_build>
     </owl:Class>
     
 
@@ -552,8 +552,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21q22.11-q22.12 (Human)</rdfs:label>
-        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+        <rdfs:label>21q22.11-q22.12 (Human)</rdfs:label>
+        <vocab:genome_build>hg38</vocab:genome_build>
     </owl:Class>
     
 
@@ -574,8 +574,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21q22.13-q22.2 (Human)</rdfs:label>
-        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+        <rdfs:label>21q22.13-q22.2 (Human)</rdfs:label>
+        <vocab:genome_build>hg38</vocab:genome_build>
     </owl:Class>
     
 
@@ -602,8 +602,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2p12-p11.2 (Human)</rdfs:label>
-        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+        <rdfs:label>2p12-p11.2 (Human)</rdfs:label>
+        <vocab:genome_build>hg38</vocab:genome_build>
     </owl:Class>
     
 
@@ -624,8 +624,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2p16.1-p15 (Human)</rdfs:label>
-        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+        <rdfs:label>2p16.1-p15 (Human)</rdfs:label>
+        <vocab:genome_build>hg38</vocab:genome_build>
     </owl:Class>
     
 
@@ -652,8 +652,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2q32-q33 (Human)</rdfs:label>
-        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+        <rdfs:label>2q32-q33 (Human)</rdfs:label>
+        <vocab:genome_build>hg38</vocab:genome_build>
     </owl:Class>
     
 
@@ -680,8 +680,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6pter-p24 (Human)</rdfs:label>
-        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+        <rdfs:label>6pter-p24 (Human)</rdfs:label>
+        <vocab:genome_build>hg38</vocab:genome_build>
     </owl:Class>
     
 
@@ -708,8 +708,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6q11-q14 (Human)</rdfs:label>
-        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+        <rdfs:label>6q11-q14 (Human)</rdfs:label>
+        <vocab:genome_build>hg38</vocab:genome_build>
     </owl:Class>
     
 
@@ -730,8 +730,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6q24-q25 (Human)</rdfs:label>
-        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+        <rdfs:label>6q24-q25 (Human)</rdfs:label>
+        <vocab:genome_build>hg38</vocab:genome_build>
     </owl:Class>
     
 
@@ -758,8 +758,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7p11.2-p13 (Human)</rdfs:label>
-        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+        <rdfs:label>7p11.2-p13 (Human)</rdfs:label>
+        <vocab:genome_build>hg38</vocab:genome_build>
     </owl:Class>
     
 
@@ -786,8 +786,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8q12.1-q21.2 (Human)</rdfs:label>
-        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+        <rdfs:label>8q12.1-q21.2 (Human)</rdfs:label>
+        <vocab:genome_build>hg38</vocab:genome_build>
     </owl:Class>
     
 
@@ -814,8 +814,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9q31.1-q31.3 (Human)</rdfs:label>
-        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+        <rdfs:label>9q31.1-q31.3 (Human)</rdfs:label>
+        <vocab:genome_build>hg38</vocab:genome_build>
     </owl:Class>
     
 
@@ -836,8 +836,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9q33.3-q34.11 (Human)</rdfs:label>
-        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+        <rdfs:label>9q33.3-q34.11 (Human)</rdfs:label>
+        <vocab:genome_build>hg38</vocab:genome_build>
     </owl:Class>
     
 
@@ -864,8 +864,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xp11.23-p11.22 (Human)</rdfs:label>
-        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+        <rdfs:label>Xp11.23-p11.22 (Human)</rdfs:label>
+        <vocab:genome_build>hg38</vocab:genome_build>
     </owl:Class>
     
 
@@ -886,8 +886,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xp22.13-p22.2 (Human)</rdfs:label>
-        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+        <rdfs:label>Xp22.13-p22.2 (Human)</rdfs:label>
+        <vocab:genome_build>hg38</vocab:genome_build>
     </owl:Class>
     
 
@@ -914,8 +914,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xq12-q13.3 (Human)</rdfs:label>
-        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+        <rdfs:label>Xq12-q13.3 (Human)</rdfs:label>
+        <vocab:genome_build>hg38</vocab:genome_build>
     </owl:Class>
     
 
@@ -936,8 +936,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xq27.3-q28 (Human)</rdfs:label>
-        <vocab:genome_build rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hg38</vocab:genome_build>
+        <rdfs:label>Xq27.3-q28 (Human)</rdfs:label>
+        <vocab:genome_build>hg38</vocab:genome_build>
     </owl:Class>
     
 
@@ -955,5 +955,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
 

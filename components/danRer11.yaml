@@ -1,0 +1,653 @@
+name: foo
+has:
+  CHR:7955-chr1:
+    id: CHR:7955-chr1
+    band_descriptor: ''
+    chromosome_name: chr1
+    build: danRer11
+    name: chromosome 1 (Danio rerio)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:7955
+    start: 0
+    end: 59578282
+    exact_mappings:
+    - insdc:CM002885.2
+    - refseq:NC_007112.7
+    broad_synonyms:
+    - '1'
+  CHR:7955-chr10:
+    id: CHR:7955-chr10
+    band_descriptor: ''
+    chromosome_name: chr10
+    build: danRer11
+    name: chromosome 10 (Danio rerio)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:7955
+    start: 0
+    end: 45420867
+    exact_mappings:
+    - insdc:CM002894.2
+    - refseq:NC_007121.7
+    broad_synonyms:
+    - '10'
+  CHR:7955-chr11:
+    id: CHR:7955-chr11
+    band_descriptor: ''
+    chromosome_name: chr11
+    build: danRer11
+    name: chromosome 11 (Danio rerio)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:7955
+    start: 0
+    end: 45484837
+    exact_mappings:
+    - insdc:CM002895.2
+    - refseq:NC_007122.7
+    broad_synonyms:
+    - '11'
+  CHR:7955-chr12:
+    id: CHR:7955-chr12
+    band_descriptor: ''
+    chromosome_name: chr12
+    build: danRer11
+    name: chromosome 12 (Danio rerio)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:7955
+    start: 0
+    end: 49182954
+    exact_mappings:
+    - insdc:CM002896.2
+    - refseq:NC_007123.7
+    broad_synonyms:
+    - '12'
+  CHR:7955-chr13:
+    id: CHR:7955-chr13
+    band_descriptor: ''
+    chromosome_name: chr13
+    build: danRer11
+    name: chromosome 13 (Danio rerio)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:7955
+    start: 0
+    end: 52186027
+    exact_mappings:
+    - insdc:CM002897.2
+    - refseq:NC_007124.7
+    broad_synonyms:
+    - '13'
+  CHR:7955-chr14:
+    id: CHR:7955-chr14
+    band_descriptor: ''
+    chromosome_name: chr14
+    build: danRer11
+    name: chromosome 14 (Danio rerio)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:7955
+    start: 0
+    end: 52660232
+    exact_mappings:
+    - insdc:CM002898.2
+    - refseq:NC_007125.7
+    broad_synonyms:
+    - '14'
+  CHR:7955-chr15:
+    id: CHR:7955-chr15
+    band_descriptor: ''
+    chromosome_name: chr15
+    build: danRer11
+    name: chromosome 15 (Danio rerio)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:7955
+    start: 0
+    end: 48040578
+    exact_mappings:
+    - insdc:CM002899.2
+    - refseq:NC_007126.7
+    broad_synonyms:
+    - '15'
+  CHR:7955-chr16:
+    id: CHR:7955-chr16
+    band_descriptor: ''
+    chromosome_name: chr16
+    build: danRer11
+    name: chromosome 16 (Danio rerio)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:7955
+    start: 0
+    end: 55266484
+    exact_mappings:
+    - insdc:CM002900.2
+    - refseq:NC_007127.7
+    broad_synonyms:
+    - '16'
+  CHR:7955-chr17:
+    id: CHR:7955-chr17
+    band_descriptor: ''
+    chromosome_name: chr17
+    build: danRer11
+    name: chromosome 17 (Danio rerio)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:7955
+    start: 0
+    end: 53461100
+    exact_mappings:
+    - insdc:CM002901.2
+    - refseq:NC_007128.7
+    broad_synonyms:
+    - '17'
+  CHR:7955-chr18:
+    id: CHR:7955-chr18
+    band_descriptor: ''
+    chromosome_name: chr18
+    build: danRer11
+    name: chromosome 18 (Danio rerio)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:7955
+    start: 0
+    end: 51023478
+    exact_mappings:
+    - insdc:CM002902.2
+    - refseq:NC_007129.7
+    broad_synonyms:
+    - '18'
+  CHR:7955-chr19:
+    id: CHR:7955-chr19
+    band_descriptor: ''
+    chromosome_name: chr19
+    build: danRer11
+    name: chromosome 19 (Danio rerio)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:7955
+    start: 0
+    end: 48449771
+    exact_mappings:
+    - insdc:CM002903.2
+    - refseq:NC_007130.7
+    broad_synonyms:
+    - '19'
+  CHR:7955-chr2:
+    id: CHR:7955-chr2
+    band_descriptor: ''
+    chromosome_name: chr2
+    build: danRer11
+    name: chromosome 2 (Danio rerio)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:7955
+    start: 0
+    end: 59640629
+    exact_mappings:
+    - insdc:CM002886.2
+    - refseq:NC_007113.7
+    broad_synonyms:
+    - '2'
+  CHR:7955-chr20:
+    id: CHR:7955-chr20
+    band_descriptor: ''
+    chromosome_name: chr20
+    build: danRer11
+    name: chromosome 20 (Danio rerio)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:7955
+    start: 0
+    end: 55201332
+    exact_mappings:
+    - insdc:CM002904.2
+    - refseq:NC_007131.7
+    broad_synonyms:
+    - '20'
+  CHR:7955-chr21:
+    id: CHR:7955-chr21
+    band_descriptor: ''
+    chromosome_name: chr21
+    build: danRer11
+    name: chromosome 21 (Danio rerio)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:7955
+    start: 0
+    end: 45934066
+    exact_mappings:
+    - insdc:CM002905.2
+    - refseq:NC_007132.7
+    broad_synonyms:
+    - '21'
+  CHR:7955-chr22:
+    id: CHR:7955-chr22
+    band_descriptor: ''
+    chromosome_name: chr22
+    build: danRer11
+    name: chromosome 22 (Danio rerio)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:7955
+    start: 0
+    end: 39133080
+    exact_mappings:
+    - insdc:CM002906.2
+    - refseq:NC_007133.7
+    broad_synonyms:
+    - '22'
+  CHR:7955-chr23:
+    id: CHR:7955-chr23
+    band_descriptor: ''
+    chromosome_name: chr23
+    build: danRer11
+    name: chromosome 23 (Danio rerio)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:7955
+    start: 0
+    end: 46223584
+    exact_mappings:
+    - insdc:CM002907.2
+    - refseq:NC_007134.7
+    broad_synonyms:
+    - '23'
+  CHR:7955-chr24:
+    id: CHR:7955-chr24
+    band_descriptor: ''
+    chromosome_name: chr24
+    build: danRer11
+    name: chromosome 24 (Danio rerio)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:7955
+    start: 0
+    end: 42172926
+    exact_mappings:
+    - insdc:CM002908.2
+    - refseq:NC_007135.7
+    broad_synonyms:
+    - '24'
+  CHR:7955-chr25:
+    id: CHR:7955-chr25
+    band_descriptor: ''
+    chromosome_name: chr25
+    build: danRer11
+    name: chromosome 25 (Danio rerio)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:7955
+    start: 0
+    end: 37502051
+    exact_mappings:
+    - insdc:CM002909.2
+    - refseq:NC_007136.7
+    broad_synonyms:
+    - '25'
+  CHR:7955-chr3:
+    id: CHR:7955-chr3
+    band_descriptor: ''
+    chromosome_name: chr3
+    build: danRer11
+    name: chromosome 3 (Danio rerio)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:7955
+    start: 0
+    end: 62628489
+    exact_mappings:
+    - insdc:CM002887.2
+    - refseq:NC_007114.7
+    broad_synonyms:
+    - '3'
+  CHR:7955-chr4:
+    id: CHR:7955-chr4
+    band_descriptor: ''
+    chromosome_name: chr4
+    build: danRer11
+    name: chromosome 4 (Danio rerio)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:7955
+    start: 0
+    end: 78093715
+    exact_mappings:
+    - insdc:CM002888.2
+    - refseq:NC_007115.7
+    broad_synonyms:
+    - '4'
+  CHR:7955-chr5:
+    id: CHR:7955-chr5
+    band_descriptor: ''
+    chromosome_name: chr5
+    build: danRer11
+    name: chromosome 5 (Danio rerio)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:7955
+    start: 0
+    end: 72500376
+    exact_mappings:
+    - insdc:CM002889.2
+    - refseq:NC_007116.7
+    broad_synonyms:
+    - '5'
+  CHR:7955-chr6:
+    id: CHR:7955-chr6
+    band_descriptor: ''
+    chromosome_name: chr6
+    build: danRer11
+    name: chromosome 6 (Danio rerio)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:7955
+    start: 0
+    end: 60270059
+    exact_mappings:
+    - insdc:CM002890.2
+    - refseq:NC_007117.7
+    broad_synonyms:
+    - '6'
+  CHR:7955-chr7:
+    id: CHR:7955-chr7
+    band_descriptor: ''
+    chromosome_name: chr7
+    build: danRer11
+    name: chromosome 7 (Danio rerio)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:7955
+    start: 0
+    end: 74282399
+    exact_mappings:
+    - insdc:CM002891.2
+    - refseq:NC_007118.7
+    broad_synonyms:
+    - '7'
+  CHR:7955-chr8:
+    id: CHR:7955-chr8
+    band_descriptor: ''
+    chromosome_name: chr8
+    build: danRer11
+    name: chromosome 8 (Danio rerio)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:7955
+    start: 0
+    end: 54304671
+    exact_mappings:
+    - insdc:CM002892.2
+    - refseq:NC_007119.7
+    broad_synonyms:
+    - '8'
+  CHR:7955-chr9:
+    id: CHR:7955-chr9
+    band_descriptor: ''
+    chromosome_name: chr9
+    build: danRer11
+    name: chromosome 9 (Danio rerio)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    somal_type:
+      text: autosome
+      meaning: http://purl.obolibrary.org/obo/GO_0030849
+    cell_location:
+      text: nucleus
+      meaning: http://purl.obolibrary.org/obo/GO_0005634
+    taxon: NCBITaxon:7955
+    start: 0
+    end: 56459846
+    exact_mappings:
+    - insdc:CM002893.2
+    - refseq:NC_007120.7
+    broad_synonyms:
+    - '9'
+  CHR:7955-chrM:
+    id: CHR:7955-chrM
+    band_descriptor: ''
+    chromosome_name: chrM
+    build: danRer11
+    name: chromosome M (Danio rerio)
+    type:
+      text: chromosome
+      meaning: http://purl.obolibrary.org/obo/GO_0005694
+    cell_location:
+      text: mitochondrion
+      meaning: http://purl.obolibrary.org/obo/GO_0005739
+    taxon: NCBITaxon:7955
+    start: 0
+    end: 16596
+    exact_mappings:
+    - insdc:AC024175.3
+    - refseq:NC_002333.2
+    broad_synonyms:
+    - MT
+genomes:
+  mm:
+    id: mm
+    name: Mouse
+    taxon: NCBITaxon:10090
+  hg:
+    id: hg
+    name: Human
+    taxon: NCBITaxon:9606
+  dm:
+    id: dm
+    name: Drosophila melanogaster
+    taxon: NCBITaxon:7227
+  danRer:
+    id: danRer
+    name: Danio rerio
+    taxon: NCBITaxon:7955
+    build: danRer11
+  rn:
+    id: rn
+    name: Rat
+    taxon: NCBITaxon:10116
+  ce:
+    id: ce
+    name: C elegans
+    taxon: NCBITaxon:6239
+  galGal:
+    id: galGal
+    name: Chicken
+    taxon: NCBITaxon:9031
+  calJac:
+    id: calJac
+    name: Marmoset
+    taxon: NCBITaxon:9483
+taxons:
+  NCBITaxon:10090:
+    id: NCBITaxon:10090
+    name: Mus musculus
+  NCBITaxon:9606:
+    id: NCBITaxon:9606
+    name: Homo sapiens
+  NCBITaxon:7227:
+    id: NCBITaxon:7227
+    name: Drosophila melanogaster
+  NCBITaxon:7955:
+    id: NCBITaxon:7955
+    name: Danio rerio
+  NCBITaxon:10116:
+    id: NCBITaxon:10116
+    name: Rattus norvegicus
+  NCBITaxon:6239:
+    id: NCBITaxon:6239
+    name: Caenorhabditis elegans
+  NCBITaxon:9483:
+    id: NCBITaxon:9483
+    name: Callithrix jacchus

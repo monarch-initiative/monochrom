@@ -1,28 +1,65 @@
-# Auto generated from chromo.yaml by pythongen.py version: 0.9.0
-# Generation date: 2023-02-19T13:25:04
+# Auto generated from chromo.yaml by pythongen.py version: 0.0.1
+# Generation date: 2025-10-15T17:30:52
 # Schema: ChromoSchema
 #
 # id: https://w3id.org/biodatamodels/chromoschema
-# description: Schema for representing Chromosomes and Chromosomal Regions. Objects created using this schema can
-#              be directly worked with in YAML/Python, Additionally they can be translated to OWL
+# description: Schema for representing Chromosomes and Chromosomal Regions.
+#
+#   Objects created using this schema can be directly worked with in YAML/Python,
+#   Additionally they can be translated to OWL
 # license: https://creativecommons.org/publicdomain/zero/1.0/
 
 import dataclasses
-import sys
 import re
-from jsonasobj2 import JsonObj, as_dict
-from typing import Optional, List, Union, Dict, ClassVar, Any
 from dataclasses import dataclass
-from linkml_runtime.linkml_model.meta import EnumDefinition, PermissibleValue, PvFormulaOptions
+from datetime import (
+    date,
+    datetime,
+    time
+)
+from typing import (
+    Any,
+    ClassVar,
+    Dict,
+    List,
+    Optional,
+    Union
+)
 
-from linkml_runtime.utils.slot import Slot
-from linkml_runtime.utils.metamodelcore import empty_list, empty_dict, bnode
-from linkml_runtime.utils.yamlutils import YAMLRoot, extended_str, extended_float, extended_int
-from linkml_runtime.utils.dataclass_extensions_376 import dataclasses_init_fn_with_kwargs
-from linkml_runtime.utils.formatutils import camelcase, underscore, sfx
-from linkml_runtime.utils.enumerations import EnumDefinitionImpl
-from rdflib import Namespace, URIRef
+from jsonasobj2 import (
+    JsonObj,
+    as_dict
+)
+from linkml_runtime.linkml_model.meta import (
+    EnumDefinition,
+    PermissibleValue,
+    PvFormulaOptions
+)
 from linkml_runtime.utils.curienamespace import CurieNamespace
+from linkml_runtime.utils.dataclass_extensions_376 import dataclasses_init_fn_with_kwargs
+from linkml_runtime.utils.enumerations import EnumDefinitionImpl
+from linkml_runtime.utils.formatutils import (
+    camelcase,
+    sfx,
+    underscore
+)
+from linkml_runtime.utils.metamodelcore import (
+    bnode,
+    empty_dict,
+    empty_list
+)
+from linkml_runtime.utils.slot import Slot
+from linkml_runtime.utils.yamlutils import (
+    YAMLRoot,
+    extended_float,
+    extended_int,
+    extended_str
+)
+from rdflib import (
+    Namespace,
+    URIRef
+)
+
 from linkml_runtime.linkml_model.types import Integer, String, Uri, Uriorcurie
 from linkml_runtime.utils.metamodelcore import URI, URIorCURIE
 
@@ -59,7 +96,7 @@ DEFAULT_ = CHROMOSCHEMA
 
 # Types
 class TaxonIdentifier(String):
-    type_class_uri = XSD.string
+    type_class_uri = XSD["string"]
     type_class_curie = "xsd:string"
     type_name = "TaxonIdentifier"
     type_model_uri = CHROMOSCHEMA.TaxonIdentifier
@@ -67,7 +104,7 @@ class TaxonIdentifier(String):
 
 class BandDescriptor(String):
     """ e.g. p, p1, p1.1, ... """
-    type_class_uri = XSD.string
+    type_class_uri = XSD["string"]
     type_class_curie = "xsd:string"
     type_name = "BandDescriptor"
     type_model_uri = CHROMOSCHEMA.BandDescriptor
@@ -75,7 +112,7 @@ class BandDescriptor(String):
 
 class ChromosomeNameType(String):
     """ E.g. chr1 """
-    type_class_uri = XSD.string
+    type_class_uri = XSD["string"]
     type_class_curie = "xsd:string"
     type_name = "ChromosomeNameType"
     type_model_uri = CHROMOSCHEMA.ChromosomeNameType
@@ -83,7 +120,7 @@ class ChromosomeNameType(String):
 
 class StrandType(Integer):
     """ 0, 1, or -1 """
-    type_class_uri = XSD.integer
+    type_class_uri = XSD["integer"]
     type_class_curie = "xsd:integer"
     type_name = "StrandType"
     type_model_uri = CHROMOSCHEMA.StrandType
@@ -91,7 +128,7 @@ class StrandType(Integer):
 
 class LabelType(String):
     """ A string that provides a human-readable name for an entity """
-    type_class_uri = XSD.string
+    type_class_uri = XSD["string"]
     type_class_curie = "xsd:string"
     type_name = "LabelType"
     type_model_uri = CHROMOSCHEMA.LabelType
@@ -114,11 +151,11 @@ class OrganismTaxonId(extended_str):
     pass
 
 
-@dataclass
+@dataclass(repr=False)
 class ChromosomePartCollection(YAMLRoot):
     _inherited_slots: ClassVar[List[str]] = []
 
-    class_class_uri: ClassVar[URIRef] = CHROMOSCHEMA.ChromosomePartCollection
+    class_class_uri: ClassVar[URIRef] = CHROMOSCHEMA["ChromosomePartCollection"]
     class_class_curie: ClassVar[str] = "chromoschema:ChromosomePartCollection"
     class_name: ClassVar[str] = "ChromosomePartCollection"
     class_model_uri: ClassVar[URIRef] = CHROMOSCHEMA.ChromosomePartCollection
@@ -141,14 +178,14 @@ class ChromosomePartCollection(YAMLRoot):
         super().__post_init__(**kwargs)
 
 
-@dataclass
+@dataclass(repr=False)
 class ChromosomePart(YAMLRoot):
     """
     A Chromosome or a part of a chromosome (includes whole chromosomes, arms, and bands)
     """
     _inherited_slots: ClassVar[List[str]] = []
 
-    class_class_uri: ClassVar[URIRef] = CHROMOSCHEMA.ChromosomePart
+    class_class_uri: ClassVar[URIRef] = CHROMOSCHEMA["ChromosomePart"]
     class_class_curie: ClassVar[str] = "chromoschema:ChromosomePart"
     class_name: ClassVar[str] = "ChromosomePart"
     class_model_uri: ClassVar[URIRef] = CHROMOSCHEMA.ChromosomePart
@@ -232,7 +269,7 @@ class ChromosomePart(YAMLRoot):
         super().__post_init__(**kwargs)
 
 
-@dataclass
+@dataclass(repr=False)
 class Genome(YAMLRoot):
     """
     Represents a sequenced genome, one per species.
@@ -240,7 +277,7 @@ class Genome(YAMLRoot):
     """
     _inherited_slots: ClassVar[List[str]] = []
 
-    class_class_uri: ClassVar[URIRef] = CHROMOSCHEMA.Genome
+    class_class_uri: ClassVar[URIRef] = CHROMOSCHEMA["Genome"]
     class_class_curie: ClassVar[str] = "chromoschema:Genome"
     class_name: ClassVar[str] = "Genome"
     class_model_uri: ClassVar[URIRef] = CHROMOSCHEMA.Genome
@@ -275,14 +312,14 @@ class Genome(YAMLRoot):
         super().__post_init__(**kwargs)
 
 
-@dataclass
+@dataclass(repr=False)
 class GenomeBuild(YAMLRoot):
     """
     Represents a specific build of a sequenced genome
     """
     _inherited_slots: ClassVar[List[str]] = []
 
-    class_class_uri: ClassVar[URIRef] = CHROMOSCHEMA.GenomeBuild
+    class_class_uri: ClassVar[URIRef] = CHROMOSCHEMA["GenomeBuild"]
     class_class_curie: ClassVar[str] = "chromoschema:GenomeBuild"
     class_name: ClassVar[str] = "GenomeBuild"
     class_model_uri: ClassVar[URIRef] = CHROMOSCHEMA.GenomeBuild
@@ -302,14 +339,14 @@ class GenomeBuild(YAMLRoot):
         super().__post_init__(**kwargs)
 
 
-@dataclass
+@dataclass(repr=False)
 class OrganismTaxon(YAMLRoot):
     """
     Represents a species, e.g. Homo sapiens
     """
     _inherited_slots: ClassVar[List[str]] = []
 
-    class_class_uri: ClassVar[URIRef] = BIOLINK.OrganismTaxon
+    class_class_uri: ClassVar[URIRef] = BIOLINK["OrganismTaxon"]
     class_class_curie: ClassVar[str] = "biolink:OrganismTaxon"
     class_name: ClassVar[str] = "OrganismTaxon"
     class_model_uri: ClassVar[URIRef] = CHROMOSCHEMA.OrganismTaxon
@@ -338,10 +375,12 @@ class EntityType(EnumDefinitionImpl):
     """
     SO or GO type
     """
-    chromosome = PermissibleValue(text="chromosome",
-                                           meaning=GO["0005694"])
-    chromosome_part = PermissibleValue(text="chromosome_part",
-                                                     meaning=GO["0098687"])
+    chromosome = PermissibleValue(
+        text="chromosome",
+        meaning=GO["0005694"])
+    chromosome_part = PermissibleValue(
+        text="chromosome_part",
+        meaning=GO["0098687"])
 
     _defn = EnumDefinition(
         name="EntityType",
@@ -352,10 +391,12 @@ class AutosomeVsSexChromosome(EnumDefinitionImpl):
     """
     sex or autosome
     """
-    sex_chromosome = PermissibleValue(text="sex_chromosome",
-                                                   meaning=GO["0000803"])
-    autosome = PermissibleValue(text="autosome",
-                                       meaning=GO["0030849"])
+    sex_chromosome = PermissibleValue(
+        text="sex_chromosome",
+        meaning=GO["0000803"])
+    autosome = PermissibleValue(
+        text="autosome",
+        meaning=GO["0030849"])
 
     _defn = EnumDefinition(
         name="AutosomeVsSexChromosome",
@@ -366,14 +407,18 @@ class SexChromosomeType(EnumDefinitionImpl):
     """
     what type of sex chromosome
     """
-    X = PermissibleValue(text="X",
-                         meaning=GO["0000805"])
-    Y = PermissibleValue(text="Y",
-                         meaning=GO["0000806"])
-    W = PermissibleValue(text="W",
-                         meaning=GO["0000804"])
-    Z = PermissibleValue(text="Z",
-                         meaning=GO["0000807"])
+    X = PermissibleValue(
+        text="X",
+        meaning=GO["0000805"])
+    Y = PermissibleValue(
+        text="Y",
+        meaning=GO["0000806"])
+    W = PermissibleValue(
+        text="W",
+        meaning=GO["0000804"])
+    Z = PermissibleValue(
+        text="Z",
+        meaning=GO["0000807"])
 
     _defn = EnumDefinition(
         name="SexChromosomeType",
@@ -384,10 +429,12 @@ class LocationType(EnumDefinitionImpl):
     """
     where in the cell
     """
-    nucleus = PermissibleValue(text="nucleus",
-                                     meaning=GO["0005634"])
-    mitochondrion = PermissibleValue(text="mitochondrion",
-                                                 meaning=GO["0005739"])
+    nucleus = PermissibleValue(
+        text="nucleus",
+        meaning=GO["0005634"])
+    mitochondrion = PermissibleValue(
+        text="mitochondrion",
+        meaning=GO["0005739"])
 
     _defn = EnumDefinition(
         name="LocationType",
@@ -396,10 +443,12 @@ class LocationType(EnumDefinitionImpl):
 
 class ChromatinType(EnumDefinitionImpl):
 
-    heterochromatin = PermissibleValue(text="heterochromatin",
-                                                     meaning=GO["0000792"])
-    euchromatin = PermissibleValue(text="euchromatin",
-                                             meaning=GO["0000791"])
+    heterochromatin = PermissibleValue(
+        text="heterochromatin",
+        meaning=GO["0000792"])
+    euchromatin = PermissibleValue(
+        text="euchromatin",
+        meaning=GO["0000791"])
 
     _defn = EnumDefinition(
         name="ChromatinType",
