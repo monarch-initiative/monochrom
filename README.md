@@ -23,7 +23,7 @@ Each chromosome and chromosomal region is represented as an OWL class, with the 
  * name
  * [taxon](https://monarch-initiative.github.io/monochrom/taxon/)
  * [part-parent](https://monarch-initiative.github.io/monochrom/parent/)
- * coordinates + build
+ * coordinates, for each genome build (e.g. hg38 and T2T-CHM13/hs1)
  * aliases and exact mappings (e.g. to NCBI/INSDC as well as ENSEMBL)
 
 To browse the schema, see [the schema docs](http://monarch-initiative.github.io/monochrom/)
@@ -99,7 +99,20 @@ make prepare_release
 
 The [Makefile](Makefile) and the metadata file [genomes.yaml](genomes.yaml) drive the python code in [monochrom/](monochrom/).
 
-To add more genomes, it is necessary to extend both the Makefile and the genomes metadata file, but this could be made more elegant in the future.
+Identifiers are independent of the genome build: the same band in two builds of a genome (e.g. 1p36.33 in hg38
+and in T2T-CHM13 / hs1) is a single class. Build-specific values (coordinates and sequence accessions) are
+qualified with the build, e.g. in OBO:
+
+```
+property_value: gff:end "2300000" xsd:integer {vocab:genome_build="hg38"}
+property_value: gff:end "1735965" xsd:integer {vocab:genome_build="hs1"}
+```
+
+The same information is available as a flat table, [chr-placements.tsv](chr-placements.tsv), with one row per
+chromosome part per build.
+
+To add a build, declare it under `builds` in [genomes.yaml](genomes.yaml) (giving download URLs if it is not a
+standard UCSC database build) and add it to `BUILDS` in the Makefile.
 
 If you wish to modify the code, here is how it is structured, and the underlying philosophy.
 
@@ -108,7 +121,9 @@ Everything is driven by a LinkML schema, see [schema](model/schema/)
 This defines a few core classes:
 
  * [ChromosomePart](https://monarch-initiative.github.io/monochrom/ChromosomePart)
+ * [ChromosomePartPlacement](https://monarch-initiative.github.io/monochrom/ChromosomePartPlacement) - the location of a part in one build
  * [Genome](https://monarch-initiative.github.io/monochrom/Genome)
+ * [GenomeBuild](https://monarch-initiative.github.io/monochrom/GenomeBuild)
  * [OrganismTaxon](https://monarch-initiative.github.io/monochrom/OrganismTaxon)
 
 

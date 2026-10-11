@@ -1,5 +1,5 @@
 # Auto generated from chromo.yaml by pythongen.py version: 0.0.1
-# Generation date: 2025-10-15T17:30:52
+# Generation date: 2026-10-11T19:42:36
 # Schema: ChromoSchema
 #
 # id: https://w3id.org/biodatamodels/chromoschema
@@ -163,6 +163,7 @@ class ChromosomePartCollection(YAMLRoot):
     name: Optional[str] = None
     has: Optional[Union[Dict[Union[str, ChromosomePartId], Union[dict, "ChromosomePart"]], List[Union[dict, "ChromosomePart"]]]] = empty_dict()
     genomes: Optional[Union[Dict[Union[str, GenomeId], Union[dict, "Genome"]], List[Union[dict, "Genome"]]]] = empty_dict()
+    builds: Optional[Union[Dict[Union[str, GenomeBuildId], Union[dict, "GenomeBuild"]], List[Union[dict, "GenomeBuild"]]]] = empty_dict()
     taxons: Optional[Union[Dict[Union[str, OrganismTaxonId], Union[dict, "OrganismTaxon"]], List[Union[dict, "OrganismTaxon"]]]] = empty_dict()
 
     def __post_init__(self, *_: List[str], **kwargs: Dict[str, Any]):
@@ -172,6 +173,8 @@ class ChromosomePartCollection(YAMLRoot):
         self._normalize_inlined_as_dict(slot_name="has", slot_type=ChromosomePart, key_name="id", keyed=True)
 
         self._normalize_inlined_as_dict(slot_name="genomes", slot_type=Genome, key_name="id", keyed=True)
+
+        self._normalize_inlined_as_dict(slot_name="builds", slot_type=GenomeBuild, key_name="id", keyed=True)
 
         self._normalize_inlined_as_dict(slot_name="taxons", slot_type=OrganismTaxon, key_name="id", keyed=True)
 
@@ -193,18 +196,15 @@ class ChromosomePart(YAMLRoot):
     id: Union[str, ChromosomePartId] = None
     band_descriptor: Optional[Union[str, BandDescriptor]] = None
     chromosome_name: Optional[Union[str, ChromosomeNameType]] = None
-    build: Optional[Union[str, GenomeBuildId]] = None
     name: Optional[Union[str, LabelType]] = None
     type: Optional[Union[str, "EntityType"]] = None
     somal_type: Optional[Union[str, "AutosomeVsSexChromosome"]] = None
     sex_chromosome_type: Optional[Union[str, "SexChromosomeType"]] = None
     cell_location: Optional[Union[str, "LocationType"]] = None
     taxon: Optional[Union[str, TaxonIdentifier]] = None
-    start: Optional[int] = None
-    end: Optional[int] = None
+    placements: Optional[Union[Union[dict, "ChromosomePartPlacement"], List[Union[dict, "ChromosomePartPlacement"]]]] = empty_list()
     children: Optional[Union[Union[str, ChromosomePartId], List[Union[str, ChromosomePartId]]]] = empty_list()
     parent: Optional[Union[str, ChromosomePartId]] = None
-    exact_mappings: Optional[Union[Union[str, URIorCURIE], List[Union[str, URIorCURIE]]]] = empty_list()
     exact_synonyms: Optional[Union[str, List[str]]] = empty_list()
     broad_synonyms: Optional[Union[str, List[str]]] = empty_list()
 
@@ -219,9 +219,6 @@ class ChromosomePart(YAMLRoot):
 
         if self.chromosome_name is not None and not isinstance(self.chromosome_name, ChromosomeNameType):
             self.chromosome_name = ChromosomeNameType(self.chromosome_name)
-
-        if self.build is not None and not isinstance(self.build, GenomeBuildId):
-            self.build = GenomeBuildId(self.build)
 
         if self.name is not None and not isinstance(self.name, LabelType):
             self.name = LabelType(self.name)
@@ -241,11 +238,9 @@ class ChromosomePart(YAMLRoot):
         if self.taxon is not None and not isinstance(self.taxon, TaxonIdentifier):
             self.taxon = TaxonIdentifier(self.taxon)
 
-        if self.start is not None and not isinstance(self.start, int):
-            self.start = int(self.start)
-
-        if self.end is not None and not isinstance(self.end, int):
-            self.end = int(self.end)
+        if not isinstance(self.placements, list):
+            self.placements = [self.placements] if self.placements is not None else []
+        self.placements = [v if isinstance(v, ChromosomePartPlacement) else ChromosomePartPlacement(**as_dict(v)) for v in self.placements]
 
         if not isinstance(self.children, list):
             self.children = [self.children] if self.children is not None else []
@@ -254,10 +249,6 @@ class ChromosomePart(YAMLRoot):
         if self.parent is not None and not isinstance(self.parent, ChromosomePartId):
             self.parent = ChromosomePartId(self.parent)
 
-        if not isinstance(self.exact_mappings, list):
-            self.exact_mappings = [self.exact_mappings] if self.exact_mappings is not None else []
-        self.exact_mappings = [v if isinstance(v, URIorCURIE) else URIorCURIE(v) for v in self.exact_mappings]
-
         if not isinstance(self.exact_synonyms, list):
             self.exact_synonyms = [self.exact_synonyms] if self.exact_synonyms is not None else []
         self.exact_synonyms = [v if isinstance(v, str) else str(v) for v in self.exact_synonyms]
@@ -265,6 +256,46 @@ class ChromosomePart(YAMLRoot):
         if not isinstance(self.broad_synonyms, list):
             self.broad_synonyms = [self.broad_synonyms] if self.broad_synonyms is not None else []
         self.broad_synonyms = [v if isinstance(v, str) else str(v) for v in self.broad_synonyms]
+
+        super().__post_init__(**kwargs)
+
+
+@dataclass(repr=False)
+class ChromosomePartPlacement(YAMLRoot):
+    """
+    The location of a ChromosomePart in one specific genome build
+    """
+    _inherited_slots: ClassVar[List[str]] = []
+
+    class_class_uri: ClassVar[URIRef] = CHROMOSCHEMA["ChromosomePartPlacement"]
+    class_class_curie: ClassVar[str] = "chromoschema:ChromosomePartPlacement"
+    class_name: ClassVar[str] = "ChromosomePartPlacement"
+    class_model_uri: ClassVar[URIRef] = CHROMOSCHEMA.ChromosomePartPlacement
+
+    build: Union[str, GenomeBuildId] = None
+    start: Optional[int] = None
+    end: Optional[int] = None
+    stain: Optional[str] = None
+    exact_mappings: Optional[Union[Union[str, URIorCURIE], List[Union[str, URIorCURIE]]]] = empty_list()
+
+    def __post_init__(self, *_: List[str], **kwargs: Dict[str, Any]):
+        if self._is_empty(self.build):
+            self.MissingRequiredField("build")
+        if not isinstance(self.build, GenomeBuildId):
+            self.build = GenomeBuildId(self.build)
+
+        if self.start is not None and not isinstance(self.start, int):
+            self.start = int(self.start)
+
+        if self.end is not None and not isinstance(self.end, int):
+            self.end = int(self.end)
+
+        if self.stain is not None and not isinstance(self.stain, str):
+            self.stain = str(self.stain)
+
+        if not isinstance(self.exact_mappings, list):
+            self.exact_mappings = [self.exact_mappings] if self.exact_mappings is not None else []
+        self.exact_mappings = [v if isinstance(v, URIorCURIE) else URIorCURIE(v) for v in self.exact_mappings]
 
         super().__post_init__(**kwargs)
 
@@ -325,7 +356,11 @@ class GenomeBuild(YAMLRoot):
     class_model_uri: ClassVar[URIRef] = CHROMOSCHEMA.GenomeBuild
 
     id: Union[str, GenomeBuildId] = None
+    genome: Union[str, GenomeId] = None
     name: Optional[Union[str, LabelType]] = None
+    assembly_accession: Optional[str] = None
+    cytoband_url: Optional[Union[str, URI]] = None
+    chromalias_url: Optional[Union[str, URI]] = None
 
     def __post_init__(self, *_: List[str], **kwargs: Dict[str, Any]):
         if self._is_empty(self.id):
@@ -333,8 +368,22 @@ class GenomeBuild(YAMLRoot):
         if not isinstance(self.id, GenomeBuildId):
             self.id = GenomeBuildId(self.id)
 
+        if self._is_empty(self.genome):
+            self.MissingRequiredField("genome")
+        if not isinstance(self.genome, GenomeId):
+            self.genome = GenomeId(self.genome)
+
         if self.name is not None and not isinstance(self.name, LabelType):
             self.name = LabelType(self.name)
+
+        if self.assembly_accession is not None and not isinstance(self.assembly_accession, str):
+            self.assembly_accession = str(self.assembly_accession)
+
+        if self.cytoband_url is not None and not isinstance(self.cytoband_url, URI):
+            self.cytoband_url = URI(self.cytoband_url)
+
+        if self.chromalias_url is not None and not isinstance(self.chromalias_url, URI):
+            self.chromalias_url = URI(self.chromalias_url)
 
         super().__post_init__(**kwargs)
 
@@ -471,6 +520,24 @@ slots.chromosome_name = Slot(uri=CHROMOSCHEMA.chromosome_name, name="chromosome_
 slots.build = Slot(uri=BIOLINK.genome_build, name="build", curie=BIOLINK.curie('genome_build'),
                    model_uri=CHROMOSCHEMA.build, domain=None, range=Optional[Union[str, GenomeBuildId]])
 
+slots.placements = Slot(uri=CHROMOSCHEMA.placements, name="placements", curie=CHROMOSCHEMA.curie('placements'),
+                   model_uri=CHROMOSCHEMA.placements, domain=None, range=Optional[Union[Union[dict, ChromosomePartPlacement], List[Union[dict, ChromosomePartPlacement]]]])
+
+slots.stain = Slot(uri=CHROMOSCHEMA.stain, name="stain", curie=CHROMOSCHEMA.curie('stain'),
+                   model_uri=CHROMOSCHEMA.stain, domain=None, range=Optional[str])
+
+slots.genome = Slot(uri=CHROMOSCHEMA.genome, name="genome", curie=CHROMOSCHEMA.curie('genome'),
+                   model_uri=CHROMOSCHEMA.genome, domain=None, range=Optional[Union[str, GenomeId]])
+
+slots.assembly_accession = Slot(uri=CHROMOSCHEMA.assembly_accession, name="assembly_accession", curie=CHROMOSCHEMA.curie('assembly_accession'),
+                   model_uri=CHROMOSCHEMA.assembly_accession, domain=None, range=Optional[str])
+
+slots.cytoband_url = Slot(uri=CHROMOSCHEMA.cytoband_url, name="cytoband_url", curie=CHROMOSCHEMA.curie('cytoband_url'),
+                   model_uri=CHROMOSCHEMA.cytoband_url, domain=None, range=Optional[Union[str, URI]])
+
+slots.chromalias_url = Slot(uri=CHROMOSCHEMA.chromalias_url, name="chromalias_url", curie=CHROMOSCHEMA.curie('chromalias_url'),
+                   model_uri=CHROMOSCHEMA.chromalias_url, domain=None, range=Optional[Union[str, URI]])
+
 slots.previous_builds = Slot(uri=CHROMOSCHEMA.previous_builds, name="previous_builds", curie=CHROMOSCHEMA.curie('previous_builds'),
                    model_uri=CHROMOSCHEMA.previous_builds, domain=None, range=Optional[Union[Union[str, GenomeBuildId], List[Union[str, GenomeBuildId]]]])
 
@@ -531,12 +598,18 @@ slots.chromosomePartCollection__has = Slot(uri=DCTERMS.hasPart, name="chromosome
 slots.chromosomePartCollection__genomes = Slot(uri=DCTERMS.hasPart, name="chromosomePartCollection__genomes", curie=DCTERMS.curie('hasPart'),
                    model_uri=CHROMOSCHEMA.chromosomePartCollection__genomes, domain=None, range=Optional[Union[Dict[Union[str, GenomeId], Union[dict, Genome]], List[Union[dict, Genome]]]])
 
+slots.chromosomePartCollection__builds = Slot(uri=DCTERMS.hasPart, name="chromosomePartCollection__builds", curie=DCTERMS.curie('hasPart'),
+                   model_uri=CHROMOSCHEMA.chromosomePartCollection__builds, domain=None, range=Optional[Union[Dict[Union[str, GenomeBuildId], Union[dict, GenomeBuild]], List[Union[dict, GenomeBuild]]]])
+
 slots.chromosomePartCollection__taxons = Slot(uri=DCTERMS.hasPart, name="chromosomePartCollection__taxons", curie=DCTERMS.curie('hasPart'),
                    model_uri=CHROMOSCHEMA.chromosomePartCollection__taxons, domain=None, range=Optional[Union[Dict[Union[str, OrganismTaxonId], Union[dict, OrganismTaxon]], List[Union[dict, OrganismTaxon]]]])
 
 slots.ChromosomePart_id = Slot(uri=CHROMOSCHEMA.id, name="ChromosomePart_id", curie=CHROMOSCHEMA.curie('id'),
                    model_uri=CHROMOSCHEMA.ChromosomePart_id, domain=ChromosomePart, range=Union[str, ChromosomePartId],
                    pattern=re.compile(r'^CHR:\\S+$'))
+
+slots.ChromosomePartPlacement_build = Slot(uri=BIOLINK.genome_build, name="ChromosomePartPlacement_build", curie=BIOLINK.curie('genome_build'),
+                   model_uri=CHROMOSCHEMA.ChromosomePartPlacement_build, domain=ChromosomePartPlacement, range=Union[str, GenomeBuildId])
 
 slots.Genome_id = Slot(uri=CHROMOSCHEMA.id, name="Genome_id", curie=CHROMOSCHEMA.curie('id'),
                    model_uri=CHROMOSCHEMA.Genome_id, domain=Genome, range=Union[str, GenomeId],
@@ -550,4 +623,10 @@ slots.Genome_build = Slot(uri=BIOLINK.genome_build, name="Genome_build", curie=B
 
 slots.GenomeBuild_id = Slot(uri=CHROMOSCHEMA.id, name="GenomeBuild_id", curie=CHROMOSCHEMA.curie('id'),
                    model_uri=CHROMOSCHEMA.GenomeBuild_id, domain=GenomeBuild, range=Union[str, GenomeBuildId],
-                   pattern=re.compile(r'^CHR:\\S+$'))
+                   pattern=re.compile(r'^\\w+$'))
+
+slots.GenomeBuild_name = Slot(uri=RDFS.label, name="GenomeBuild_name", curie=RDFS.curie('label'),
+                   model_uri=CHROMOSCHEMA.GenomeBuild_name, domain=GenomeBuild, range=Optional[Union[str, LabelType]])
+
+slots.GenomeBuild_genome = Slot(uri=CHROMOSCHEMA.genome, name="GenomeBuild_genome", curie=CHROMOSCHEMA.curie('genome'),
+                   model_uri=CHROMOSCHEMA.GenomeBuild_genome, domain=GenomeBuild, range=Union[str, GenomeId])

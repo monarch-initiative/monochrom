@@ -45,6 +45,11 @@ classes:
         multivalued: true
         inlined: true
         slot_uri: dcterms:hasPart
+      builds:
+        range: GenomeBuild
+        multivalued: true
+        inlined: true
+        slot_uri: dcterms:hasPart
       taxons:
         range: OrganismTaxon
         multivalued: true
@@ -57,27 +62,40 @@ classes:
       - |-
         OWL Notes: when translated to OWL, instances of this class will be treated as
         OWL classes, with the superclass determined by the type field
+      - |-
+        Identifiers are build-independent: the same band in two builds of the same genome
+        (e.g. 1p36.33 in hg38 and hs1) is a single ChromosomePart. Build-specific information
+        (coordinates, sequence accessions) is held in placements.
     slots:
       - id
       - band_descriptor
       - chromosome_name
-      - build
       - name
       - type
       - somal_type
       - sex_chromosome_type
       - cell_location
       - taxon
-      - start
-      - end
+      - placements
       - children
       - parent
-      - exact_mappings
       - exact_synonyms
       - broad_synonyms
     slot_usage:
       id:
         pattern: '^CHR:\\S+$'
+  ChromosomePartPlacement:
+    description: |-
+      The location of a ChromosomePart in one specific genome build
+    slots:
+      - build
+      - start
+      - end
+      - stain
+      - exact_mappings
+    slot_usage:
+      build:
+        required: true
   Genome:
     description: |-
       Represents a sequenced genome, one per species.
@@ -105,9 +123,18 @@ classes:
     slots:
       - id
       - name
+      - genome
+      - assembly_accession
+      - cytoband_url
+      - chromalias_url
     slot_usage:
       id:
-        description: E.g. mm10
+        description: E.g. mm10, hs1. This is the UCSC database name for the build
+        pattern: '^\\w+$'
+      name:
+        description: E.g. GRCm38, T2T-CHM13v2.0
+      genome:
+        required: true
   OrganismTaxon:
     description: >-
       Represents a species, e.g. Homo sapiens
@@ -150,6 +177,33 @@ slots:
     exact_mappings:
       - gff:genome_build
       - edam:data_2340
+  placements:
+    description: >-
+      Locations of this chromosome part in each genome build in which it is found
+    range: ChromosomePartPlacement
+    multivalued: true
+    inlined_as_list: true
+  stain:
+    description: >-
+      Giemsa stain result for the band in this build, e.g. gneg, gpos50, acen
+  genome:
+    description: >-
+      The genome (species) of which this is a build, e.g. hg
+    range: Genome
+  assembly_accession:
+    description: >-
+      INSDC assembly accession for the build, e.g. GCA_009914755.4
+  cytoband_url:
+    description: >-
+      URL for a gzipped BED-like cytoband file (chrom, start, end, band, stain). Defaults to
+      the UCSC cytoBandIdeo table for the build
+    range: uri
+  chromalias_url:
+    description: >-
+      URL for a chromosome alias file. Either the UCSC database chromAlias table
+      (alias, chrom, sources) or a UCSC hub chromAlias.txt file (one column per naming
+      authority, with a header). Defaults to the UCSC chromAlias table for the build
+    range: uri
   previous_builds:
     description: >-
       List of previous non-current builds
@@ -229,7 +283,8 @@ slots:
     slot_uri: OIO:hasBroadSynonym
   exact_mappings:
     description: >-
-      For a whole chromosome, this may be an assembled sequence in a database such as genbank or ensembl
+      For a whole chromosome, this may be an assembled sequence in a database such as genbank or ensembl.
+      Sequence accessions are build-specific, so these are held on placements
     multivalued: true
     range: uriorcurie
     slot_uri: skos:exactMatch

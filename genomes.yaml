@@ -24,6 +24,57 @@ genomes:
   calJac:
     taxon: NCBITaxon:9483
     name: Marmoset
+builds:
+  # Each build is keyed by its UCSC database name. Bands from all builds of a genome
+  # share build-independent identifiers; coordinates are recorded per build.
+  # cytoband_url / chromalias_url default to the UCSC database tables for the build.
+  hg38:
+    genome: hg
+    name: GRCh38
+    assembly_accession: GCA_000001405.15
+  hs1:
+    genome: hg
+    name: T2T-CHM13v2.0
+    assembly_accession: GCA_009914755.4
+    # hs1 is a UCSC hub assembly with no database tables; these are the hub files
+    cytoband_url: https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.cytoBandMapped/chm13v2.0_cytobands_allchrs.bed.gz
+    chromalias_url: https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/GCA_009914755.4.chromAlias.txt
+  mm39:
+    genome: mm
+    name: GRCm39
+    assembly_accession: GCA_000001635.9
+  mm10:
+    genome: mm
+    name: GRCm38
+    assembly_accession: GCA_000001635.2
+  rn6:
+    genome: rn
+    name: Rnor_6.0
+    assembly_accession: GCA_000001895.4
+  danRer11:
+    genome: danRer
+    name: GRCz11
+    assembly_accession: GCA_000002035.4
+  danRer10:
+    genome: danRer
+    name: GRCz10
+    assembly_accession: GCA_000002035.3
+  galGal6:
+    genome: galGal
+    name: GRCg6a
+    assembly_accession: GCA_000002315.5
+  ce11:
+    genome: ce
+    name: WBcel235
+    assembly_accession: GCA_000002985.3
+  calJac4:
+    genome: calJac
+    name: Callithrix_jacchus_cj1700_1.1
+    assembly_accession: GCA_009663435.2
+  dm6:
+    genome: dm
+    name: Release 6 plus ISO1 MT
+    assembly_accession: GCA_000001215.4
 taxons:
   NCBITaxon:10090:
     name: Mus musculus
