@@ -1,10 +1,11 @@
-from monochrom.chromschema import ChromosomePart, ChromosomePartCollection, EntityType, BandDescriptor, slots as cslots
+from monochrom.chromschema import ChromosomePart, ChromosomePartCollection, ChromosomePartPlacement, EntityType, BandDescriptor, slots as cslots
 from monochrom.monochrom import make_ontology
 
 def test_model():
     bd = BandDescriptor('p1')
     cp = ChromosomePart(id='CHR:1', band_descriptor=bd,
-                        chromosome_name='chr1', build='hg38', name='Chr1p (Human)', type=EntityType.chromosome,
+                        chromosome_name='chr1', name='Chr1p (Human)', type=EntityType.chromosome,
+                        placements=[ChromosomePartPlacement(build='hg38', start=0, end=10)],
                         exact_synonyms=['foo', 'bar'])
     print()
     print(cp)

@@ -1,10 +1,11 @@
-# TODO: parse from yaml
+# Builds to include; each must be declared in the builds section of genomes.yaml.
+# Several builds of the same genome share build-independent identifiers.
 # https://hgdownload.soe.ucsc.edu/downloads.html
-BUILDS = hg38 ce11 mm39 rn6 galGal6 calJac4 danRer11
+BUILDS = hg38 hs1 ce11 mm39 rn6 galGal6 calJac4 danRer11
 # TODO: dm6
 RUN = poetry run
 
-all: all-chromAlias all-cytoBand src/ontology/components/ucsc.owl  all-components ontology
+all: all-chromAlias all-cytoBand src/ontology/components/ucsc.owl chr-placements.tsv all-components ontology
 all-chromAlias: $(patsubst %, download/%-chromAlias.tsv, $(BUILDS))
 all-cytoBand: $(patsubst %, download/%-cytoBand.tsv, $(BUILDS))
 
@@ -19,19 +20,11 @@ ontology:
 test:
 	pytest
 
+# source URLs come from genomes.yaml (default: UCSC database tables for the build)
 download/%-chromAlias.tsv:
-	curl -L -s http://hgdownload.cse.ucsc.edu/goldenPath/$*/database/chromAlias.txt.gz | gzip -dc > $@.tmp && mv $@.tmp $@
+	$(RUN) chr-download $* chromAlias -o $@.tmp && mv $@.tmp $@
 download/%-cytoBand.tsv:
-	curl -L -s http://hgdownload.cse.ucsc.edu/goldenPath/$*/database/cytoBandIdeo.txt.gz | gzip -dc > $@.tmp && mv $@.tmp $@
-#	curl -L -s http://hgdownload.cse.ucsc.edu/goldenPath/$*/database/cytoBand.txt.gz | gzip -dc > $@.tmp && mv $@.tmp $@
-download/ce11-cytoBand.tsv:
-	curl -L -s http://hgdownload.cse.ucsc.edu/goldenPath/ce11/database/cytoBandIdeo.txt.gz | gzip -dc > $@.tmp && mv $@.tmp $@
-download/danRer10-cytoBand.tsv:
-	curl -L -s http://hgdownload.cse.ucsc.edu/goldenPath/danRer10/database/cytoBandIdeo.txt.gz | gzip -dc > $@.tmp && mv $@.tmp $@
-download/galGal6-cytoBand.tsv:
-	curl -L -s http://hgdownload.cse.ucsc.edu/goldenPath/galGal6/database/cytoBandIdeo.txt.gz | gzip -dc > $@.tmp && mv $@.tmp $@
-download/calJac4-cytoBand.tsv:
-	curl -L -s http://hgdownload.cse.ucsc.edu/goldenPath/calJac4/database/cytoBandIdeo.txt.gz | gzip -dc > $@.tmp && mv $@.tmp $@
+	$(RUN) chr-download $* cytoBand -o $@.tmp && mv $@.tmp $@
 components/%.owl: download/%-cytoBand.tsv download/%-chromAlias.tsv
 	$(RUN) ucsc2owl $^ -o $@
 components/%.yaml: download/%-cytoBand.tsv download/%-chromAlias.tsv
@@ -49,6 +42,10 @@ UCSC_INPUT_FILES = $(foreach build,$(BUILDS),download/$(build)-cytoBand.tsv down
 src/ontology/tmp/ucsc.ofn: monochrom/monochrom.py monochrom/chromschema.py $(UCSC_INPUT_FILES)
 	$(RUN) ucsc2owl $(UCSC_INPUT_FILES) -o $@.tmp && mv $@.tmp $@
 .PRECIOUS: src/ontology/tmp/ucsc.ofn
+
+# one row per chromosome part per build, with build-specific coordinates and accessions
+chr-placements.tsv: monochrom/monochrom.py monochrom/chromschema.py $(UCSC_INPUT_FILES)
+	$(RUN) ucsc2owl $(UCSC_INPUT_FILES) -f tsv -o $@.tmp && mv $@.tmp $@
 
 ONTBASE=http://purl.obolibrary.org/obo/chr
 VERSION=$(shell date +%Y-%m-%d)

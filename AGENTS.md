@@ -79,18 +79,27 @@ make gendocs
 ```
 
 ### Data Download
-Individual genome data is downloaded automatically by make targets, but manual download:
+Individual genome data is downloaded automatically by make targets, using source URLs from `genomes.yaml`
+(defaulting to the UCSC database tables for the build). Manual download:
 ```bash
-# Example for human genome hg38
-curl -L -s http://hgdownload.cse.ucsc.edu/goldenPath/hg38/database/chromAlias.txt.gz | gzip -dc > download/hg38-chromAlias.tsv
-curl -L -s http://hgdownload.cse.ucsc.edu/goldenPath/hg38/database/cytoBandIdeo.txt.gz | gzip -dc > download/hg38-cytoBand.tsv
+poetry run chr-download hg38 cytoBand -o download/hg38-cytoBand.tsv
+poetry run chr-download hs1 chromAlias -o download/hs1-chromAlias.tsv
 ```
 
 ## Supported Genome Builds
 
-Current builds (defined in Makefile `BUILDS`): hg38, ce11, mm39, rn6, galGal6, calJac4, danRer11
+Current builds (defined in Makefile `BUILDS`): hg38, hs1 (T2T-CHM13v2.0), ce11, mm39, rn6, galGal6, calJac4, danRer11
 
-To add new genomes: Edit both `Makefile` and `genomes.yaml`.
+Identifiers are build-independent (`CHR:{taxon}-{chrom}{band}`), so several builds of the same
+genome (e.g. hg38 and hs1) contribute to the same classes. Coordinates, stains and sequence
+accessions are recorded per build as `placements`; in OWL they are annotation assertions
+qualified with an axiom annotation naming the build (`biolink:genome_build`). One row per
+part per build is written to `chr-placements.tsv`.
+
+To add a build: declare it under `builds` in `genomes.yaml` (with `cytoband_url` /
+`chromalias_url` if it is not a standard UCSC database build, e.g. a UCSC hub assembly),
+then add it to `BUILDS` in the `Makefile`. To add a new species, also add it under `genomes`
+and `taxons`.
 
 ## Key Design Principles
 

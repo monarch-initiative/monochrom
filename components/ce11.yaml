@@ -4,7 +4,6 @@ has:
     id: CHR:6239-chrI
     band_descriptor: ''
     chromosome_name: chrI
-    build: ce11
     name: chromosome I (C elegans)
     type:
       text: chromosome
@@ -16,17 +15,19 @@ has:
       text: nucleus
       meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:6239
-    start: 0
-    end: 15072434
-    exact_mappings:
-    - refseq:NC_003279.8
+    placements:
+    - build: ce11
+      start: 0
+      end: 15072434
+      stain: gneg
+      exact_mappings:
+      - refseq:NC_003279.8
     broad_synonyms:
     - I
   CHR:6239-chrII:
     id: CHR:6239-chrII
     band_descriptor: ''
     chromosome_name: chrII
-    build: ce11
     name: chromosome II (C elegans)
     type:
       text: chromosome
@@ -38,17 +39,19 @@ has:
       text: nucleus
       meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:6239
-    start: 0
-    end: 15279421
-    exact_mappings:
-    - refseq:NC_003280.10
+    placements:
+    - build: ce11
+      start: 0
+      end: 15279421
+      stain: gneg
+      exact_mappings:
+      - refseq:NC_003280.10
     broad_synonyms:
     - II
   CHR:6239-chrIII:
     id: CHR:6239-chrIII
     band_descriptor: ''
     chromosome_name: chrIII
-    build: ce11
     name: chromosome III (C elegans)
     type:
       text: chromosome
@@ -60,17 +63,19 @@ has:
       text: nucleus
       meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:6239
-    start: 0
-    end: 13783801
-    exact_mappings:
-    - refseq:NC_003281.10
+    placements:
+    - build: ce11
+      start: 0
+      end: 13783801
+      stain: gneg
+      exact_mappings:
+      - refseq:NC_003281.10
     broad_synonyms:
     - III
   CHR:6239-chrIV:
     id: CHR:6239-chrIV
     band_descriptor: ''
     chromosome_name: chrIV
-    build: ce11
     name: chromosome IV (C elegans)
     type:
       text: chromosome
@@ -82,17 +87,19 @@ has:
       text: nucleus
       meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:6239
-    start: 0
-    end: 17493829
-    exact_mappings:
-    - refseq:NC_003282.8
+    placements:
+    - build: ce11
+      start: 0
+      end: 17493829
+      stain: gneg
+      exact_mappings:
+      - refseq:NC_003282.8
     broad_synonyms:
     - IV
   CHR:6239-chrM:
     id: CHR:6239-chrM
     band_descriptor: ''
     chromosome_name: chrM
-    build: ce11
     name: chromosome M (C elegans)
     type:
       text: chromosome
@@ -101,17 +108,19 @@ has:
       text: mitochondrion
       meaning: http://purl.obolibrary.org/obo/GO_0005739
     taxon: NCBITaxon:6239
-    start: 0
-    end: 13794
-    exact_mappings:
-    - refseq:NC_001328.1
+    placements:
+    - build: ce11
+      start: 0
+      end: 13794
+      stain: gneg
+      exact_mappings:
+      - refseq:NC_001328.1
     broad_synonyms:
     - MtDNA
   CHR:6239-chrV:
     id: CHR:6239-chrV
     band_descriptor: ''
     chromosome_name: chrV
-    build: ce11
     name: chromosome V (C elegans)
     type:
       text: chromosome
@@ -123,17 +132,19 @@ has:
       text: nucleus
       meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:6239
-    start: 0
-    end: 20924180
-    exact_mappings:
-    - refseq:NC_003283.11
+    placements:
+    - build: ce11
+      start: 0
+      end: 20924180
+      stain: gneg
+      exact_mappings:
+      - refseq:NC_003283.11
     broad_synonyms:
     - V
   CHR:6239-chrX:
     id: CHR:6239-chrX
     band_descriptor: ''
     chromosome_name: chrX
-    build: ce11
     name: chromosome X (C elegans)
     type:
       text: chromosome
@@ -148,10 +159,13 @@ has:
       text: nucleus
       meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:6239
-    start: 0
-    end: 17718942
-    exact_mappings:
-    - refseq:NC_003284.9
+    placements:
+    - build: ce11
+      start: 0
+      end: 17718942
+      stain: gneg
+      exact_mappings:
+      - refseq:NC_003284.9
     broad_synonyms:
     - X
 genomes:
@@ -179,7 +193,6 @@ genomes:
     id: ce
     name: C elegans
     taxon: NCBITaxon:6239
-    build: ce11
   galGal:
     id: galGal
     name: Chicken
@@ -188,6 +201,64 @@ genomes:
     id: calJac
     name: Marmoset
     taxon: NCBITaxon:9483
+builds:
+  hg38:
+    id: hg38
+    genome: hg
+    name: GRCh38
+    assembly_accession: GCA_000001405.15
+  hs1:
+    id: hs1
+    genome: hg
+    name: T2T-CHM13v2.0
+    assembly_accession: GCA_009914755.4
+    cytoband_url: https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.cytoBandMapped/chm13v2.0_cytobands_allchrs.bed.gz
+    chromalias_url: https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/GCA_009914755.4.chromAlias.txt
+  mm39:
+    id: mm39
+    genome: mm
+    name: GRCm39
+    assembly_accession: GCA_000001635.9
+  mm10:
+    id: mm10
+    genome: mm
+    name: GRCm38
+    assembly_accession: GCA_000001635.2
+  rn6:
+    id: rn6
+    genome: rn
+    name: Rnor_6.0
+    assembly_accession: GCA_000001895.4
+  danRer11:
+    id: danRer11
+    genome: danRer
+    name: GRCz11
+    assembly_accession: GCA_000002035.4
+  danRer10:
+    id: danRer10
+    genome: danRer
+    name: GRCz10
+    assembly_accession: GCA_000002035.3
+  galGal6:
+    id: galGal6
+    genome: galGal
+    name: GRCg6a
+    assembly_accession: GCA_000002315.5
+  ce11:
+    id: ce11
+    genome: ce
+    name: WBcel235
+    assembly_accession: GCA_000002985.3
+  calJac4:
+    id: calJac4
+    genome: calJac
+    name: Callithrix_jacchus_cj1700_1.1
+    assembly_accession: GCA_009663435.2
+  dm6:
+    id: dm6
+    genome: dm
+    name: Release 6 plus ISO1 MT
+    assembly_accession: GCA_000001215.4
 taxons:
   NCBITaxon:10090:
     id: NCBITaxon:10090

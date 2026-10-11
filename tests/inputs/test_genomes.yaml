@@ -18,6 +18,11 @@ genomes:
   ce:
     taxon: NCBITaxon:6239
     name: C elegans
+builds:
+  hg38:
+    genome: hg
+  fakeT2T:
+    genome: hg
 taxons:
   NCBITaxon:10090:
     name: Mus musculus

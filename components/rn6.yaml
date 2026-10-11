@@ -4,27 +4,30 @@ has:
     id: CHR:10116-chr1p13
     band_descriptor: p13
     chromosome_name: chr1
-    build: rn6
     name: 1p13 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 10704345
+    placements:
+    - build: rn6
+      start: 0
+      end: 10704345
+      stain: gneg
     parent: CHR:10116-chr1p1
   CHR:10116-chr1p1:
     id: CHR:10116-chr1p1
     band_descriptor: p1
     chromosome_name: chr1
-    build: rn6
     name: 1p1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 40652454
+    placements:
+    - build: rn6
+      start: 0
+      end: 40652454
     children:
     - CHR:10116-chr1p13
     - CHR:10116-chr1p12
@@ -34,14 +37,15 @@ has:
     id: CHR:10116-chr1p
     band_descriptor: p
     chromosome_name: chr1
-    build: rn6
     name: 1p (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 40652454
+    placements:
+    - build: rn6
+      start: 0
+      end: 40652454
     children:
     - CHR:10116-chr1p1
     parent: CHR:10116-chr1
@@ -49,7 +53,6 @@ has:
     id: CHR:10116-chr1
     band_descriptor: ''
     chromosome_name: chr1
-    build: rn6
     name: chromosome 1 (Rat)
     type:
       text: chromosome
@@ -61,67 +64,76 @@ has:
       text: nucleus
       meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
-    start: 0
-    end: 282763074
+    placements:
+    - build: rn6
+      start: 0
+      end: 282763074
+      exact_mappings:
+      - refseq:NC_005100.4
+      - insdc:CM000072.5
     children:
     - CHR:10116-chr1p
     - CHR:10116-chr1q
-    exact_mappings:
-    - refseq:NC_005100.4
-    - insdc:CM000072.5
     broad_synonyms:
     - '1'
   CHR:10116-chr1p12:
     id: CHR:10116-chr1p12
     band_descriptor: p12
     chromosome_name: chr1
-    build: rn6
     name: 1p12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 10704345
-    end: 25618263
+    placements:
+    - build: rn6
+      start: 10704345
+      end: 25618263
+      stain: gvar
     parent: CHR:10116-chr1p1
   CHR:10116-chr1p11:
     id: CHR:10116-chr1p11
     band_descriptor: p11
     chromosome_name: chr1
-    build: rn6
     name: 1p11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 25618263
-    end: 40652454
+    placements:
+    - build: rn6
+      start: 25618263
+      end: 40652454
+      stain: gneg
     parent: CHR:10116-chr1p1
   CHR:10116-chr1q11:
     id: CHR:10116-chr1q11
     band_descriptor: q11
     chromosome_name: chr1
-    build: rn6
     name: 1q11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 40652454
-    end: 51356799
+    placements:
+    - build: rn6
+      start: 40652454
+      end: 51356799
+      stain: gpos
     parent: CHR:10116-chr1q1
   CHR:10116-chr1q1:
     id: CHR:10116-chr1q1
     band_descriptor: q1
     chromosome_name: chr1
-    build: rn6
     name: 1q1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 40652454
-    end: 73607402
+    placements:
+    - build: rn6
+      start: 40652454
+      end: 73607402
     children:
     - CHR:10116-chr1q11
     - CHR:10116-chr1q12
@@ -130,14 +142,15 @@ has:
     id: CHR:10116-chr1q
     band_descriptor: q
     chromosome_name: chr1
-    build: rn6
     name: 1q (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 40652454
-    end: 282763074
+    placements:
+    - build: rn6
+      start: 40652454
+      end: 282763074
     children:
     - CHR:10116-chr1q1
     - CHR:10116-chr1q2
@@ -149,40 +162,45 @@ has:
     id: CHR:10116-chr1q12
     band_descriptor: q12
     chromosome_name: chr1
-    build: rn6
     name: 1q12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 51356799
-    end: 73607402
+    placements:
+    - build: rn6
+      start: 51356799
+      end: 73607402
+      stain: gneg
     parent: CHR:10116-chr1q1
   CHR:10116-chr1q21:
     id: CHR:10116-chr1q21
     band_descriptor: q21
     chromosome_name: chr1
-    build: rn6
     name: 1q21 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 73607402
-    end: 95016091
+    placements:
+    - build: rn6
+      start: 73607402
+      end: 95016091
+      stain: gpos
     parent: CHR:10116-chr1q2
   CHR:10116-chr1q2:
     id: CHR:10116-chr1q2
     band_descriptor: q2
     chromosome_name: chr1
-    build: rn6
     name: 1q2 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 73607402
-    end: 130617056
+    placements:
+    - build: rn6
+      start: 73607402
+      end: 130617056
     children:
     - CHR:10116-chr1q21
     - CHR:10116-chr1q22
@@ -191,40 +209,45 @@ has:
     id: CHR:10116-chr1q22
     band_descriptor: q22
     chromosome_name: chr1
-    build: rn6
     name: 1q22 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 95016091
-    end: 130617056
+    placements:
+    - build: rn6
+      start: 95016091
+      end: 130617056
+      stain: gneg
     parent: CHR:10116-chr1q2
   CHR:10116-chr1q31:
     id: CHR:10116-chr1q31
     band_descriptor: q31
     chromosome_name: chr1
-    build: rn6
     name: 1q31 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 130617056
-    end: 149018906
+    placements:
+    - build: rn6
+      start: 130617056
+      end: 149018906
+      stain: gpos
     parent: CHR:10116-chr1q3
   CHR:10116-chr1q3:
     id: CHR:10116-chr1q3
     band_descriptor: q3
     chromosome_name: chr1
-    build: rn6
     name: 1q3 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 130617056
-    end: 201337893
+    placements:
+    - build: rn6
+      start: 130617056
+      end: 201337893
     children:
     - CHR:10116-chr1q31
     - CHR:10116-chr1q32
@@ -238,105 +261,120 @@ has:
     id: CHR:10116-chr1q32
     band_descriptor: q32
     chromosome_name: chr1
-    build: rn6
     name: 1q32 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 149018906
-    end: 171269510
+    placements:
+    - build: rn6
+      start: 149018906
+      end: 171269510
+      stain: gneg
     parent: CHR:10116-chr1q3
   CHR:10116-chr1q33:
     id: CHR:10116-chr1q33
     band_descriptor: q33
     chromosome_name: chr1
-    build: rn6
     name: 1q33 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 171269510
-    end: 179929204
+    placements:
+    - build: rn6
+      start: 171269510
+      end: 179929204
+      stain: gpos
     parent: CHR:10116-chr1q3
   CHR:10116-chr1q34:
     id: CHR:10116-chr1q34
     band_descriptor: q34
     chromosome_name: chr1
-    build: rn6
     name: 1q34 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 179929204
-    end: 184138778
+    placements:
+    - build: rn6
+      start: 179929204
+      end: 184138778
+      stain: gneg
     parent: CHR:10116-chr1q3
   CHR:10116-chr1q35:
     id: CHR:10116-chr1q35
     band_descriptor: q35
     chromosome_name: chr1
-    build: rn6
     name: 1q35 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 184138778
-    end: 189791634
+    placements:
+    - build: rn6
+      start: 184138778
+      end: 189791634
+      stain: gpos
     parent: CHR:10116-chr1q3
   CHR:10116-chr1q36:
     id: CHR:10116-chr1q36
     band_descriptor: q36
     chromosome_name: chr1
-    build: rn6
     name: 1q36 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 189791634
-    end: 198331054
+    placements:
+    - build: rn6
+      start: 189791634
+      end: 198331054
+      stain: gneg
     parent: CHR:10116-chr1q3
   CHR:10116-chr1q37:
     id: CHR:10116-chr1q37
     band_descriptor: q37
     chromosome_name: chr1
-    build: rn6
     name: 1q37 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 198331054
-    end: 201337893
+    placements:
+    - build: rn6
+      start: 198331054
+      end: 201337893
+      stain: gpos
     parent: CHR:10116-chr1q3
   CHR:10116-chr1q41:
     id: CHR:10116-chr1q41
     band_descriptor: q41
     chromosome_name: chr1
-    build: rn6
     name: 1q41 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 201337893
-    end: 216251810
+    placements:
+    - build: rn6
+      start: 201337893
+      end: 216251810
+      stain: gneg
     parent: CHR:10116-chr1q4
   CHR:10116-chr1q4:
     id: CHR:10116-chr1q4
     band_descriptor: q4
     chromosome_name: chr1
-    build: rn6
     name: 1q4 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 201337893
-    end: 235615849
+    placements:
+    - build: rn6
+      start: 201337893
+      end: 235615849
     children:
     - CHR:10116-chr1q41
     - CHR:10116-chr1q42
@@ -346,53 +384,60 @@ has:
     id: CHR:10116-chr1q42
     band_descriptor: q42
     chromosome_name: chr1
-    build: rn6
     name: 1q42 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 216251810
-    end: 218897828
+    placements:
+    - build: rn6
+      start: 216251810
+      end: 218897828
+      stain: gpos
     parent: CHR:10116-chr1q4
   CHR:10116-chr1q43:
     id: CHR:10116-chr1q43
     band_descriptor: q43
     chromosome_name: chr1
-    build: rn6
     name: 1q43 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 218897828
-    end: 235615849
+    placements:
+    - build: rn6
+      start: 218897828
+      end: 235615849
+      stain: gneg
     parent: CHR:10116-chr1q4
   CHR:10116-chr1q51:
     id: CHR:10116-chr1q51
     band_descriptor: q51
     chromosome_name: chr1
-    build: rn6
     name: 1q51 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 235615849
-    end: 244155270
+    placements:
+    - build: rn6
+      start: 235615849
+      end: 244155270
+      stain: gpos
     parent: CHR:10116-chr1q5
   CHR:10116-chr1q5:
     id: CHR:10116-chr1q5
     band_descriptor: q5
     chromosome_name: chr1
-    build: rn6
     name: 1q5 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 235615849
-    end: 282763074
+    placements:
+    - build: rn6
+      start: 235615849
+      end: 282763074
     children:
     - CHR:10116-chr1q51
     - CHR:10116-chr1q52
@@ -404,79 +449,90 @@ has:
     id: CHR:10116-chr1q52
     band_descriptor: q52
     chromosome_name: chr1
-    build: rn6
     name: 1q52 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 244155270
-    end: 252694691
+    placements:
+    - build: rn6
+      start: 244155270
+      end: 252694691
+      stain: gneg
     parent: CHR:10116-chr1q5
   CHR:10116-chr1q53:
     id: CHR:10116-chr1q53
     band_descriptor: q53
     chromosome_name: chr1
-    build: rn6
     name: 1q53 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 252694691
-    end: 259189461
+    placements:
+    - build: rn6
+      start: 252694691
+      end: 259189461
+      stain: gpos
     parent: CHR:10116-chr1q5
   CHR:10116-chr1q54:
     id: CHR:10116-chr1q54
     band_descriptor: q54
     chromosome_name: chr1
-    build: rn6
     name: 1q54 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 259189461
-    end: 267728882
+    placements:
+    - build: rn6
+      start: 259189461
+      end: 267728882
+      stain: gneg
     parent: CHR:10116-chr1q5
   CHR:10116-chr1q55:
     id: CHR:10116-chr1q55
     band_descriptor: q55
     chromosome_name: chr1
-    build: rn6
     name: 1q55 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 267728882
-    end: 282763074
+    placements:
+    - build: rn6
+      start: 267728882
+      end: 282763074
+      stain: gvar
     parent: CHR:10116-chr1q5
   CHR:10116-chr10q11:
     id: CHR:10116-chr10q11
     band_descriptor: q11
     chromosome_name: chr10
-    build: rn6
     name: 10q11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 6362541
+    placements:
+    - build: rn6
+      start: 0
+      end: 6362541
+      stain: gpos
     parent: CHR:10116-chr10q1
   CHR:10116-chr10q1:
     id: CHR:10116-chr10q1
     band_descriptor: q1
     chromosome_name: chr10
-    build: rn6
     name: 10q1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 26684687
+    placements:
+    - build: rn6
+      start: 0
+      end: 26684687
     children:
     - CHR:10116-chr10q11
     - CHR:10116-chr10q12
@@ -485,14 +541,15 @@ has:
     id: CHR:10116-chr10q
     band_descriptor: q
     chromosome_name: chr10
-    build: rn6
     name: 10q (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 112626471
+    placements:
+    - build: rn6
+      start: 0
+      end: 112626471
     children:
     - CHR:10116-chr10q1
     - CHR:10116-chr10q2
@@ -502,7 +559,6 @@ has:
     id: CHR:10116-chr10
     band_descriptor: ''
     chromosome_name: chr10
-    build: rn6
     name: chromosome 10 (Rat)
     type:
       text: chromosome
@@ -514,53 +570,60 @@ has:
       text: nucleus
       meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
-    start: 0
-    end: 112626471
+    placements:
+    - build: rn6
+      start: 0
+      end: 112626471
+      exact_mappings:
+      - refseq:NC_005109.4
+      - insdc:CM000081.5
     children:
     - CHR:10116-chr10q
-    exact_mappings:
-    - refseq:NC_005109.4
-    - insdc:CM000081.5
     broad_synonyms:
     - '10'
   CHR:10116-chr10q12:
     id: CHR:10116-chr10q12
     band_descriptor: q12
     chromosome_name: chr10
-    build: rn6
     name: 10q12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 6362541
-    end: 26684687
+    placements:
+    - build: rn6
+      start: 6362541
+      end: 26684687
+      stain: gneg
     parent: CHR:10116-chr10q1
   CHR:10116-chr10q21:
     id: CHR:10116-chr10q21
     band_descriptor: q21
     chromosome_name: chr10
-    build: rn6
     name: 10q21 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 26684687
-    end: 35421310
+    placements:
+    - build: rn6
+      start: 26684687
+      end: 35421310
+      stain: gpos
     parent: CHR:10116-chr10q2
   CHR:10116-chr10q2:
     id: CHR:10116-chr10q2
     band_descriptor: q2
     chromosome_name: chr10
-    build: rn6
     name: 10q2 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 26684687
-    end: 84517335
+    placements:
+    - build: rn6
+      start: 26684687
+      end: 84517335
     children:
     - CHR:10116-chr10q21
     - CHR:10116-chr10q22
@@ -573,92 +636,105 @@ has:
     id: CHR:10116-chr10q22
     band_descriptor: q22
     chromosome_name: chr10
-    build: rn6
     name: 10q22 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 35421310
-    end: 48336319
+    placements:
+    - build: rn6
+      start: 35421310
+      end: 48336319
+      stain: gneg
     parent: CHR:10116-chr10q2
   CHR:10116-chr10q23:
     id: CHR:10116-chr10q23
     band_descriptor: q23
     chromosome_name: chr10
-    build: rn6
     name: 10q23 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 48336319
-    end: 50710401
+    placements:
+    - build: rn6
+      start: 48336319
+      end: 50710401
+      stain: gpos
     parent: CHR:10116-chr10q2
   CHR:10116-chr10q24:
     id: CHR:10116-chr10q24
     band_descriptor: q24
     chromosome_name: chr10
-    build: rn6
     name: 10q24 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 50710401
-    end: 64859932
+    placements:
+    - build: rn6
+      start: 50710401
+      end: 64859932
+      stain: gneg
     parent: CHR:10116-chr10q2
   CHR:10116-chr10q25:
     id: CHR:10116-chr10q25
     band_descriptor: q25
     chromosome_name: chr10
-    build: rn6
     name: 10q25 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 64859932
-    end: 67613868
+    placements:
+    - build: rn6
+      start: 64859932
+      end: 67613868
+      stain: gpos
     parent: CHR:10116-chr10q2
   CHR:10116-chr10q26:
     id: CHR:10116-chr10q26
     band_descriptor: q26
     chromosome_name: chr10
-    build: rn6
     name: 10q26 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 67613868
-    end: 84517335
+    placements:
+    - build: rn6
+      start: 67613868
+      end: 84517335
+      stain: gneg
     parent: CHR:10116-chr10q2
   CHR:10116-chr10q31:
     id: CHR:10116-chr10q31
     band_descriptor: q31
     chromosome_name: chr10
-    build: rn6
     name: 10q31 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 84517335
-    end: 89550389
+    placements:
+    - build: rn6
+      start: 84517335
+      end: 89550389
+      stain: gpos
     parent: CHR:10116-chr10q3
   CHR:10116-chr10q3:
     id: CHR:10116-chr10q3
     band_descriptor: q3
     chromosome_name: chr10
-    build: rn6
     name: 10q3 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 84517335
-    end: 112626471
+    placements:
+    - build: rn6
+      start: 84517335
+      end: 112626471
     children:
     - CHR:10116-chr10q31
     - CHR:10116-chr10q32
@@ -667,27 +743,30 @@ has:
     id: CHR:10116-chr10q32.1
     band_descriptor: q32.1
     chromosome_name: chr10
-    build: rn6
     name: 10q32.1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 89550389
-    end: 105504223
+    placements:
+    - build: rn6
+      start: 89550389
+      end: 105504223
+      stain: gneg
     parent: CHR:10116-chr10q32
   CHR:10116-chr10q32:
     id: CHR:10116-chr10q32
     band_descriptor: q32
     chromosome_name: chr10
-    build: rn6
     name: 10q32 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 89550389
-    end: 112626471
+    placements:
+    - build: rn6
+      start: 89550389
+      end: 112626471
     children:
     - CHR:10116-chr10q32.1
     - CHR:10116-chr10q32.2
@@ -697,53 +776,60 @@ has:
     id: CHR:10116-chr10q32.2
     band_descriptor: q32.2
     chromosome_name: chr10
-    build: rn6
     name: 10q32.2 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 105504223
-    end: 107213563
+    placements:
+    - build: rn6
+      start: 105504223
+      end: 107213563
+      stain: gpos
     parent: CHR:10116-chr10q32
   CHR:10116-chr10q32.3:
     id: CHR:10116-chr10q32.3
     band_descriptor: q32.3
     chromosome_name: chr10
-    build: rn6
     name: 10q32.3 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 107213563
-    end: 112626471
+    placements:
+    - build: rn6
+      start: 107213563
+      end: 112626471
+      stain: gneg
     parent: CHR:10116-chr10q32
   CHR:10116-chr11p12:
     id: CHR:10116-chr11p12
     band_descriptor: p12
     chromosome_name: chr11
-    build: rn6
     name: 11p12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 6862108
+    placements:
+    - build: rn6
+      start: 0
+      end: 6862108
+      stain: gneg
     parent: CHR:10116-chr11p1
   CHR:10116-chr11p1:
     id: CHR:10116-chr11p1
     band_descriptor: p1
     chromosome_name: chr11
-    build: rn6
     name: 11p1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 15463905
+    placements:
+    - build: rn6
+      start: 0
+      end: 15463905
     children:
     - CHR:10116-chr11p12
     - CHR:10116-chr11p11
@@ -752,14 +838,15 @@ has:
     id: CHR:10116-chr11p
     band_descriptor: p
     chromosome_name: chr11
-    build: rn6
     name: 11p (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 15463905
+    placements:
+    - build: rn6
+      start: 0
+      end: 15463905
     children:
     - CHR:10116-chr11p1
     parent: CHR:10116-chr11
@@ -767,7 +854,6 @@ has:
     id: CHR:10116-chr11
     band_descriptor: ''
     chromosome_name: chr11
-    build: rn6
     name: chromosome 11 (Rat)
     type:
       text: chromosome
@@ -779,54 +865,61 @@ has:
       text: nucleus
       meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
-    start: 0
-    end: 90463843
+    placements:
+    - build: rn6
+      start: 0
+      end: 90463843
+      exact_mappings:
+      - refseq:NC_005110.4
+      - insdc:CM000082.5
     children:
     - CHR:10116-chr11p
     - CHR:10116-chr11q
-    exact_mappings:
-    - refseq:NC_005110.4
-    - insdc:CM000082.5
     broad_synonyms:
     - '11'
   CHR:10116-chr11p11:
     id: CHR:10116-chr11p11
     band_descriptor: p11
     chromosome_name: chr11
-    build: rn6
     name: 11p11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 6862108
-    end: 15463905
+    placements:
+    - build: rn6
+      start: 6862108
+      end: 15463905
+      stain: gpos
     parent: CHR:10116-chr11p1
   CHR:10116-chr11q11:
     id: CHR:10116-chr11q11
     band_descriptor: q11
     chromosome_name: chr11
-    build: rn6
     name: 11q11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 15463905
-    end: 37789917
+    placements:
+    - build: rn6
+      start: 15463905
+      end: 37789917
+      stain: gpos
     parent: CHR:10116-chr11q1
   CHR:10116-chr11q1:
     id: CHR:10116-chr11q1
     band_descriptor: q1
     chromosome_name: chr11
-    build: rn6
     name: 11q1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 15463905
-    end: 49871093
+    placements:
+    - build: rn6
+      start: 15463905
+      end: 49871093
     children:
     - CHR:10116-chr11q11
     - CHR:10116-chr11q12
@@ -835,14 +928,15 @@ has:
     id: CHR:10116-chr11q
     band_descriptor: q
     chromosome_name: chr11
-    build: rn6
     name: 11q (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 15463905
-    end: 90463843
+    placements:
+    - build: rn6
+      start: 15463905
+      end: 90463843
     children:
     - CHR:10116-chr11q1
     - CHR:10116-chr11q2
@@ -851,40 +945,45 @@ has:
     id: CHR:10116-chr11q12
     band_descriptor: q12
     chromosome_name: chr11
-    build: rn6
     name: 11q12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 37789917
-    end: 49871093
+    placements:
+    - build: rn6
+      start: 37789917
+      end: 49871093
+      stain: gneg
     parent: CHR:10116-chr11q1
   CHR:10116-chr11q21:
     id: CHR:10116-chr11q21
     band_descriptor: q21
     chromosome_name: chr11
-    build: rn6
     name: 11q21 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 49871093
-    end: 66978037
+    placements:
+    - build: rn6
+      start: 49871093
+      end: 66978037
+      stain: gpos
     parent: CHR:10116-chr11q2
   CHR:10116-chr11q2:
     id: CHR:10116-chr11q2
     band_descriptor: q2
     chromosome_name: chr11
-    build: rn6
     name: 11q2 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 49871093
-    end: 90463843
+    placements:
+    - build: rn6
+      start: 49871093
+      end: 90463843
     children:
     - CHR:10116-chr11q21
     - CHR:10116-chr11q22
@@ -894,53 +993,60 @@ has:
     id: CHR:10116-chr11q22
     band_descriptor: q22
     chromosome_name: chr11
-    build: rn6
     name: 11q22 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 66978037
-    end: 79059213
+    placements:
+    - build: rn6
+      start: 66978037
+      end: 79059213
+      stain: gneg
     parent: CHR:10116-chr11q2
   CHR:10116-chr11q23:
     id: CHR:10116-chr11q23
     band_descriptor: q23
     chromosome_name: chr11
-    build: rn6
     name: 11q23 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 79059213
-    end: 90463843
+    placements:
+    - build: rn6
+      start: 79059213
+      end: 90463843
+      stain: gvar
     parent: CHR:10116-chr11q2
   CHR:10116-chr12p12:
     id: CHR:10116-chr12p12
     band_descriptor: p12
     chromosome_name: chr12
-    build: rn6
     name: 12p12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 6179255
+    placements:
+    - build: rn6
+      start: 0
+      end: 6179255
+      stain: gvar
     parent: CHR:10116-chr12p1
   CHR:10116-chr12p1:
     id: CHR:10116-chr12p1
     band_descriptor: p1
     chromosome_name: chr12
-    build: rn6
     name: 12p1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 14160793
+    placements:
+    - build: rn6
+      start: 0
+      end: 14160793
     children:
     - CHR:10116-chr12p12
     - CHR:10116-chr12p11
@@ -949,14 +1055,15 @@ has:
     id: CHR:10116-chr12p
     band_descriptor: p
     chromosome_name: chr12
-    build: rn6
     name: 12p (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 14160793
+    placements:
+    - build: rn6
+      start: 0
+      end: 14160793
     children:
     - CHR:10116-chr12p1
     parent: CHR:10116-chr12
@@ -964,7 +1071,6 @@ has:
     id: CHR:10116-chr12
     band_descriptor: ''
     chromosome_name: chr12
-    build: rn6
     name: chromosome 12 (Rat)
     type:
       text: chromosome
@@ -976,54 +1082,61 @@ has:
       text: nucleus
       meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
-    start: 0
-    end: 52716770
+    placements:
+    - build: rn6
+      start: 0
+      end: 52716770
+      exact_mappings:
+      - refseq:NC_005111.4
+      - insdc:CM000083.5
     children:
     - CHR:10116-chr12p
     - CHR:10116-chr12q
-    exact_mappings:
-    - refseq:NC_005111.4
-    - insdc:CM000083.5
     broad_synonyms:
     - '12'
   CHR:10116-chr12p11:
     id: CHR:10116-chr12p11
     band_descriptor: p11
     chromosome_name: chr12
-    build: rn6
     name: 12p11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 6179255
-    end: 14160793
+    placements:
+    - build: rn6
+      start: 6179255
+      end: 14160793
+      stain: gneg
     parent: CHR:10116-chr12p1
   CHR:10116-chr12q11:
     id: CHR:10116-chr12q11
     band_descriptor: q11
     chromosome_name: chr12
-    build: rn6
     name: 12q11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 14160793
-    end: 21048088
+    placements:
+    - build: rn6
+      start: 14160793
+      end: 21048088
+      stain: gvar
     parent: CHR:10116-chr12q1
   CHR:10116-chr12q1:
     id: CHR:10116-chr12q1
     band_descriptor: q1
     chromosome_name: chr12
-    build: rn6
     name: 12q1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 14160793
-    end: 52716770
+    placements:
+    - build: rn6
+      start: 14160793
+      end: 52716770
     children:
     - CHR:10116-chr12q11
     - CHR:10116-chr12q12
@@ -1036,14 +1149,15 @@ has:
     id: CHR:10116-chr12q
     band_descriptor: q
     chromosome_name: chr12
-    build: rn6
     name: 12q (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 14160793
-    end: 52716770
+    placements:
+    - build: rn6
+      start: 14160793
+      end: 52716770
     children:
     - CHR:10116-chr12q1
     parent: CHR:10116-chr12
@@ -1051,92 +1165,105 @@ has:
     id: CHR:10116-chr12q12
     band_descriptor: q12
     chromosome_name: chr12
-    build: rn6
     name: 12q12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 21048088
-    end: 30252603
+    placements:
+    - build: rn6
+      start: 21048088
+      end: 30252603
+      stain: gneg
     parent: CHR:10116-chr12q1
   CHR:10116-chr12q13:
     id: CHR:10116-chr12q13
     band_descriptor: q13
     chromosome_name: chr12
-    build: rn6
     name: 12q13 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 30252603
-    end: 32054886
+    placements:
+    - build: rn6
+      start: 30252603
+      end: 32054886
+      stain: gpos
     parent: CHR:10116-chr12q1
   CHR:10116-chr12q14:
     id: CHR:10116-chr12q14
     band_descriptor: q14
     chromosome_name: chr12
-    build: rn6
     name: 12q14 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 32054886
-    end: 36624960
+    placements:
+    - build: rn6
+      start: 32054886
+      end: 36624960
+      stain: gneg
     parent: CHR:10116-chr12q1
   CHR:10116-chr12q15:
     id: CHR:10116-chr12q15
     band_descriptor: q15
     chromosome_name: chr12
-    build: rn6
     name: 12q15 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 36624960
-    end: 38234141
+    placements:
+    - build: rn6
+      start: 36624960
+      end: 38234141
+      stain: gpos
     parent: CHR:10116-chr12q1
   CHR:10116-chr12q16:
     id: CHR:10116-chr12q16
     band_descriptor: q16
     chromosome_name: chr12
-    build: rn6
     name: 12q16 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 38234141
-    end: 52716770
+    placements:
+    - build: rn6
+      start: 38234141
+      end: 52716770
+      stain: gneg
     parent: CHR:10116-chr12q1
   CHR:10116-chr13p13:
     id: CHR:10116-chr13p13
     band_descriptor: p13
     chromosome_name: chr13
-    build: rn6
     name: 13p13 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 17850620
+    placements:
+    - build: rn6
+      start: 0
+      end: 17850620
+      stain: gvar
     parent: CHR:10116-chr13p1
   CHR:10116-chr13p1:
     id: CHR:10116-chr13p1
     band_descriptor: p1
     chromosome_name: chr13
-    build: rn6
     name: 13p1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 30976075
+    placements:
+    - build: rn6
+      start: 0
+      end: 30976075
     children:
     - CHR:10116-chr13p13
     - CHR:10116-chr13p12
@@ -1146,14 +1273,15 @@ has:
     id: CHR:10116-chr13p
     band_descriptor: p
     chromosome_name: chr13
-    build: rn6
     name: 13p (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 30976075
+    placements:
+    - build: rn6
+      start: 0
+      end: 30976075
     children:
     - CHR:10116-chr13p1
     parent: CHR:10116-chr13
@@ -1161,7 +1289,6 @@ has:
     id: CHR:10116-chr13
     band_descriptor: ''
     chromosome_name: chr13
-    build: rn6
     name: chromosome 13 (Rat)
     type:
       text: chromosome
@@ -1173,67 +1300,76 @@ has:
       text: nucleus
       meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
-    start: 0
-    end: 114033958
+    placements:
+    - build: rn6
+      start: 0
+      end: 114033958
+      exact_mappings:
+      - refseq:NC_005112.4
+      - insdc:CM000084.5
     children:
     - CHR:10116-chr13p
     - CHR:10116-chr13q
-    exact_mappings:
-    - refseq:NC_005112.4
-    - insdc:CM000084.5
     broad_synonyms:
     - '13'
   CHR:10116-chr13p12:
     id: CHR:10116-chr13p12
     band_descriptor: p12
     chromosome_name: chr13
-    build: rn6
     name: 13p12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 17850620
-    end: 23520817
+    placements:
+    - build: rn6
+      start: 17850620
+      end: 23520817
+      stain: gneg
     parent: CHR:10116-chr13p1
   CHR:10116-chr13p11:
     id: CHR:10116-chr13p11
     band_descriptor: p11
     chromosome_name: chr13
-    build: rn6
     name: 13p11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 23520817
-    end: 30976075
+    placements:
+    - build: rn6
+      start: 23520817
+      end: 30976075
+      stain: gpos
     parent: CHR:10116-chr13p1
   CHR:10116-chr13q11:
     id: CHR:10116-chr13q11
     band_descriptor: q11
     chromosome_name: chr13
-    build: rn6
     name: 13q11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 30976075
-    end: 41056425
+    placements:
+    - build: rn6
+      start: 30976075
+      end: 41056425
+      stain: gneg
     parent: CHR:10116-chr13q1
   CHR:10116-chr13q1:
     id: CHR:10116-chr13q1
     band_descriptor: q1
     chromosome_name: chr13
-    build: rn6
     name: 13q1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 30976075
-    end: 57121983
+    placements:
+    - build: rn6
+      start: 30976075
+      end: 57121983
     children:
     - CHR:10116-chr13q11
     - CHR:10116-chr13q12
@@ -1243,14 +1379,15 @@ has:
     id: CHR:10116-chr13q
     band_descriptor: q
     chromosome_name: chr13
-    build: rn6
     name: 13q (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 30976075
-    end: 114033958
+    placements:
+    - build: rn6
+      start: 30976075
+      end: 114033958
     children:
     - CHR:10116-chr13q1
     - CHR:10116-chr13q2
@@ -1259,53 +1396,60 @@ has:
     id: CHR:10116-chr13q12
     band_descriptor: q12
     chromosome_name: chr13
-    build: rn6
     name: 13q12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 41056425
-    end: 44101531
+    placements:
+    - build: rn6
+      start: 41056425
+      end: 44101531
+      stain: gpos
     parent: CHR:10116-chr13q1
   CHR:10116-chr13q13:
     id: CHR:10116-chr13q13
     band_descriptor: q13
     chromosome_name: chr13
-    build: rn6
     name: 13q13 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 44101531
-    end: 57121983
+    placements:
+    - build: rn6
+      start: 44101531
+      end: 57121983
+      stain: gneg
     parent: CHR:10116-chr13q1
   CHR:10116-chr13q21:
     id: CHR:10116-chr13q21
     band_descriptor: q21
     chromosome_name: chr13
-    build: rn6
     name: 13q21 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 57121983
-    end: 73607555
+    placements:
+    - build: rn6
+      start: 57121983
+      end: 73607555
+      stain: gpos
     parent: CHR:10116-chr13q2
   CHR:10116-chr13q2:
     id: CHR:10116-chr13q2
     band_descriptor: q2
     chromosome_name: chr13
-    build: rn6
     name: 13q2 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 57121983
-    end: 114033958
+    placements:
+    - build: rn6
+      start: 57121983
+      end: 114033958
     children:
     - CHR:10116-chr13q21
     - CHR:10116-chr13q22
@@ -1319,105 +1463,120 @@ has:
     id: CHR:10116-chr13q22
     band_descriptor: q22
     chromosome_name: chr13
-    build: rn6
     name: 13q22 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 73607555
-    end: 82217853
+    placements:
+    - build: rn6
+      start: 73607555
+      end: 82217853
+      stain: gneg
     parent: CHR:10116-chr13q2
   CHR:10116-chr13q23:
     id: CHR:10116-chr13q23
     band_descriptor: q23
     chromosome_name: chr13
-    build: rn6
     name: 13q23 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 82217853
-    end: 85157955
+    placements:
+    - build: rn6
+      start: 82217853
+      end: 85157955
+      stain: gpos
     parent: CHR:10116-chr13q2
   CHR:10116-chr13q24:
     id: CHR:10116-chr13q24
     band_descriptor: q24
     chromosome_name: chr13
-    build: rn6
     name: 13q24 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 85157955
-    end: 93453243
+    placements:
+    - build: rn6
+      start: 85157955
+      end: 93453243
+      stain: gneg
     parent: CHR:10116-chr13q2
   CHR:10116-chr13q25:
     id: CHR:10116-chr13q25
     band_descriptor: q25
     chromosome_name: chr13
-    build: rn6
     name: 13q25 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 93453243
-    end: 96393345
+    placements:
+    - build: rn6
+      start: 93453243
+      end: 96393345
+      stain: gpos
     parent: CHR:10116-chr13q2
   CHR:10116-chr13q26:
     id: CHR:10116-chr13q26
     band_descriptor: q26
     chromosome_name: chr13
-    build: rn6
     name: 13q26 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 96393345
-    end: 108363761
+    placements:
+    - build: rn6
+      start: 96393345
+      end: 108363761
+      stain: gneg
     parent: CHR:10116-chr13q2
   CHR:10116-chr13q27:
     id: CHR:10116-chr13q27
     band_descriptor: q27
     chromosome_name: chr13
-    build: rn6
     name: 13q27 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 108363761
-    end: 114033958
+    placements:
+    - build: rn6
+      start: 108363761
+      end: 114033958
+      stain: gpos
     parent: CHR:10116-chr13q2
   CHR:10116-chr14p22:
     id: CHR:10116-chr14p22
     band_descriptor: p22
     chromosome_name: chr14
-    build: rn6
     name: 14p22 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 21767292
+    placements:
+    - build: rn6
+      start: 0
+      end: 21767292
+      stain: gneg
     parent: CHR:10116-chr14p2
   CHR:10116-chr14p2:
     id: CHR:10116-chr14p2
     band_descriptor: p2
     chromosome_name: chr14
-    build: rn6
     name: 14p2 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 32333938
+    placements:
+    - build: rn6
+      start: 0
+      end: 32333938
     children:
     - CHR:10116-chr14p22
     - CHR:10116-chr14p21
@@ -1426,14 +1585,15 @@ has:
     id: CHR:10116-chr14p
     band_descriptor: p
     chromosome_name: chr14
-    build: rn6
     name: 14p (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 50719903
+    placements:
+    - build: rn6
+      start: 0
+      end: 50719903
     children:
     - CHR:10116-chr14p2
     - CHR:10116-chr14p1
@@ -1442,7 +1602,6 @@ has:
     id: CHR:10116-chr14
     band_descriptor: ''
     chromosome_name: chr14
-    build: rn6
     name: chromosome 14 (Rat)
     type:
       text: chromosome
@@ -1454,54 +1613,61 @@ has:
       text: nucleus
       meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
-    start: 0
-    end: 115493446
+    placements:
+    - build: rn6
+      start: 0
+      end: 115493446
+      exact_mappings:
+      - refseq:NC_005113.4
+      - insdc:CM000085.5
     children:
     - CHR:10116-chr14p
     - CHR:10116-chr14q
-    exact_mappings:
-    - refseq:NC_005113.4
-    - insdc:CM000085.5
     broad_synonyms:
     - '14'
   CHR:10116-chr14p21:
     id: CHR:10116-chr14p21
     band_descriptor: p21
     chromosome_name: chr14
-    build: rn6
     name: 14p21 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 21767292
-    end: 32333938
+    placements:
+    - build: rn6
+      start: 21767292
+      end: 32333938
+      stain: gpos
     parent: CHR:10116-chr14p2
   CHR:10116-chr14p11:
     id: CHR:10116-chr14p11
     band_descriptor: p11
     chromosome_name: chr14
-    build: rn6
     name: 14p11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 32333938
-    end: 50719903
+    placements:
+    - build: rn6
+      start: 32333938
+      end: 50719903
+      stain: gneg
     parent: CHR:10116-chr14p1
   CHR:10116-chr14p1:
     id: CHR:10116-chr14p1
     band_descriptor: p1
     chromosome_name: chr14
-    build: rn6
     name: 14p1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 32333938
-    end: 50719903
+    placements:
+    - build: rn6
+      start: 32333938
+      end: 50719903
     children:
     - CHR:10116-chr14p11
     parent: CHR:10116-chr14p
@@ -1509,27 +1675,30 @@ has:
     id: CHR:10116-chr14q11
     band_descriptor: q11
     chromosome_name: chr14
-    build: rn6
     name: 14q11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 50719903
-    end: 70690865
+    placements:
+    - build: rn6
+      start: 50719903
+      end: 70690865
+      stain: gpos
     parent: CHR:10116-chr14q1
   CHR:10116-chr14q1:
     id: CHR:10116-chr14q1
     band_descriptor: q1
     chromosome_name: chr14
-    build: rn6
     name: 14q1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 50719903
-    end: 70690865
+    placements:
+    - build: rn6
+      start: 50719903
+      end: 70690865
     children:
     - CHR:10116-chr14q11
     parent: CHR:10116-chr14q
@@ -1537,14 +1706,15 @@ has:
     id: CHR:10116-chr14q
     band_descriptor: q
     chromosome_name: chr14
-    build: rn6
     name: 14q (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 50719903
-    end: 115493446
+    placements:
+    - build: rn6
+      start: 50719903
+      end: 115493446
     children:
     - CHR:10116-chr14q1
     - CHR:10116-chr14q2
@@ -1553,27 +1723,30 @@ has:
     id: CHR:10116-chr14q21
     band_descriptor: q21
     chromosome_name: chr14
-    build: rn6
     name: 14q21 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 70690865
-    end: 97741480
+    placements:
+    - build: rn6
+      start: 70690865
+      end: 97741480
+      stain: gneg
     parent: CHR:10116-chr14q2
   CHR:10116-chr14q2:
     id: CHR:10116-chr14q2
     band_descriptor: q2
     chromosome_name: chr14
-    build: rn6
     name: 14q2 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 70690865
-    end: 115493446
+    placements:
+    - build: rn6
+      start: 70690865
+      end: 115493446
     children:
     - CHR:10116-chr14q21
     - CHR:10116-chr14q22
@@ -1582,40 +1755,45 @@ has:
     id: CHR:10116-chr14q22
     band_descriptor: q22
     chromosome_name: chr14
-    build: rn6
     name: 14q22 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 97741480
-    end: 115493446
+    placements:
+    - build: rn6
+      start: 97741480
+      end: 115493446
+      stain: gvar
     parent: CHR:10116-chr14q2
   CHR:10116-chr15p16:
     id: CHR:10116-chr15p16
     band_descriptor: p16
     chromosome_name: chr15
-    build: rn6
     name: 15p16 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 14694954
+    placements:
+    - build: rn6
+      start: 0
+      end: 14694954
+      stain: gneg
     parent: CHR:10116-chr15p1
   CHR:10116-chr15p1:
     id: CHR:10116-chr15p1
     band_descriptor: p1
     chromosome_name: chr15
-    build: rn6
     name: 15p1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 54970010
+    placements:
+    - build: rn6
+      start: 0
+      end: 54970010
     children:
     - CHR:10116-chr15p16
     - CHR:10116-chr15p15
@@ -1628,14 +1806,15 @@ has:
     id: CHR:10116-chr15p
     band_descriptor: p
     chromosome_name: chr15
-    build: rn6
     name: 15p (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 54970010
+    placements:
+    - build: rn6
+      start: 0
+      end: 54970010
     children:
     - CHR:10116-chr15p1
     parent: CHR:10116-chr15
@@ -1643,7 +1822,6 @@ has:
     id: CHR:10116-chr15
     band_descriptor: ''
     chromosome_name: chr15
-    build: rn6
     name: chromosome 15 (Rat)
     type:
       text: chromosome
@@ -1655,106 +1833,121 @@ has:
       text: nucleus
       meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
-    start: 0
-    end: 111246239
+    placements:
+    - build: rn6
+      start: 0
+      end: 111246239
+      exact_mappings:
+      - refseq:NC_005114.4
+      - insdc:CM000086.5
     children:
     - CHR:10116-chr15p
     - CHR:10116-chr15q
-    exact_mappings:
-    - refseq:NC_005114.4
-    - insdc:CM000086.5
     broad_synonyms:
     - '15'
   CHR:10116-chr15p15:
     id: CHR:10116-chr15p15
     band_descriptor: p15
     chromosome_name: chr15
-    build: rn6
     name: 15p15 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 14694954
-    end: 17416241
+    placements:
+    - build: rn6
+      start: 14694954
+      end: 17416241
+      stain: gpos
     parent: CHR:10116-chr15p1
   CHR:10116-chr15p14:
     id: CHR:10116-chr15p14
     band_descriptor: p14
     chromosome_name: chr15
-    build: rn6
     name: 15p14 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 17416241
-    end: 32111194
+    placements:
+    - build: rn6
+      start: 17416241
+      end: 32111194
+      stain: gneg
     parent: CHR:10116-chr15p1
   CHR:10116-chr15p13:
     id: CHR:10116-chr15p13
     band_descriptor: p13
     chromosome_name: chr15
-    build: rn6
     name: 15p13 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 32111194
-    end: 34832482
+    placements:
+    - build: rn6
+      start: 32111194
+      end: 34832482
+      stain: gpos
     parent: CHR:10116-chr15p1
   CHR:10116-chr15p12:
     id: CHR:10116-chr15p12
     band_descriptor: p12
     chromosome_name: chr15
-    build: rn6
     name: 15p12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 34832482
-    end: 48438920
+    placements:
+    - build: rn6
+      start: 34832482
+      end: 48438920
+      stain: gneg
     parent: CHR:10116-chr15p1
   CHR:10116-chr15p11:
     id: CHR:10116-chr15p11
     band_descriptor: p11
     chromosome_name: chr15
-    build: rn6
     name: 15p11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 48438920
-    end: 54970010
+    placements:
+    - build: rn6
+      start: 48438920
+      end: 54970010
+      stain: gpos
     parent: CHR:10116-chr15p1
   CHR:10116-chr15q11:
     id: CHR:10116-chr15q11
     band_descriptor: q11
     chromosome_name: chr15
-    build: rn6
     name: 15q11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 54970010
-    end: 61174546
+    placements:
+    - build: rn6
+      start: 54970010
+      end: 61174546
+      stain: gpos
     parent: CHR:10116-chr15q1
   CHR:10116-chr15q1:
     id: CHR:10116-chr15q1
     band_descriptor: q1
     chromosome_name: chr15
-    build: rn6
     name: 15q1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 54970010
-    end: 72821657
+    placements:
+    - build: rn6
+      start: 54970010
+      end: 72821657
     children:
     - CHR:10116-chr15q11
     - CHR:10116-chr15q12
@@ -1763,14 +1956,15 @@ has:
     id: CHR:10116-chr15q
     band_descriptor: q
     chromosome_name: chr15
-    build: rn6
     name: 15q (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 54970010
-    end: 111246239
+    placements:
+    - build: rn6
+      start: 54970010
+      end: 111246239
     children:
     - CHR:10116-chr15q1
     - CHR:10116-chr15q2
@@ -1779,40 +1973,45 @@ has:
     id: CHR:10116-chr15q12
     band_descriptor: q12
     chromosome_name: chr15
-    build: rn6
     name: 15q12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 61174546
-    end: 72821657
+    placements:
+    - build: rn6
+      start: 61174546
+      end: 72821657
+      stain: gneg
     parent: CHR:10116-chr15q1
   CHR:10116-chr15q21:
     id: CHR:10116-chr15q21
     band_descriptor: q21
     chromosome_name: chr15
-    build: rn6
     name: 15q21 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 72821657
-    end: 87952016
+    placements:
+    - build: rn6
+      start: 72821657
+      end: 87952016
+      stain: gpos
     parent: CHR:10116-chr15q2
   CHR:10116-chr15q2:
     id: CHR:10116-chr15q2
     band_descriptor: q2
     chromosome_name: chr15
-    build: rn6
     name: 15q2 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 72821657
-    end: 111246239
+    placements:
+    - build: rn6
+      start: 72821657
+      end: 111246239
     children:
     - CHR:10116-chr15q21
     - CHR:10116-chr15q22
@@ -1824,79 +2023,90 @@ has:
     id: CHR:10116-chr15q22
     band_descriptor: q22
     chromosome_name: chr15
-    build: rn6
     name: 15q22 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 87952016
-    end: 92959186
+    placements:
+    - build: rn6
+      start: 87952016
+      end: 92959186
+      stain: gneg
     parent: CHR:10116-chr15q2
   CHR:10116-chr15q23:
     id: CHR:10116-chr15q23
     band_descriptor: q23
     chromosome_name: chr15
-    build: rn6
     name: 15q23 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 92959186
-    end: 100687643
+    placements:
+    - build: rn6
+      start: 92959186
+      end: 100687643
+      stain: gpos
     parent: CHR:10116-chr15q2
   CHR:10116-chr15q24:
     id: CHR:10116-chr15q24
     band_descriptor: q24
     chromosome_name: chr15
-    build: rn6
     name: 15q24 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 100687643
-    end: 107654139
+    placements:
+    - build: rn6
+      start: 100687643
+      end: 107654139
+      stain: gneg
     parent: CHR:10116-chr15q2
   CHR:10116-chr15q25:
     id: CHR:10116-chr15q25
     band_descriptor: q25
     chromosome_name: chr15
-    build: rn6
     name: 15q25 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 107654139
-    end: 111246239
+    placements:
+    - build: rn6
+      start: 107654139
+      end: 111246239
+      stain: gpos
     parent: CHR:10116-chr15q2
   CHR:10116-chr16p16:
     id: CHR:10116-chr16p16
     band_descriptor: p16
     chromosome_name: chr16
-    build: rn6
     name: 16p16 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 10293819
+    placements:
+    - build: rn6
+      start: 0
+      end: 10293819
+      stain: gneg
     parent: CHR:10116-chr16p1
   CHR:10116-chr16p1:
     id: CHR:10116-chr16p1
     band_descriptor: p1
     chromosome_name: chr16
-    build: rn6
     name: 16p1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 42526990
+    placements:
+    - build: rn6
+      start: 0
+      end: 42526990
     children:
     - CHR:10116-chr16p16
     - CHR:10116-chr16p15
@@ -1909,14 +2119,15 @@ has:
     id: CHR:10116-chr16p
     band_descriptor: p
     chromosome_name: chr16
-    build: rn6
     name: 16p (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 42526990
+    placements:
+    - build: rn6
+      start: 0
+      end: 42526990
     children:
     - CHR:10116-chr16p1
     parent: CHR:10116-chr16
@@ -1924,7 +2135,6 @@ has:
     id: CHR:10116-chr16
     band_descriptor: ''
     chromosome_name: chr16
-    build: rn6
     name: chromosome 16 (Rat)
     type:
       text: chromosome
@@ -1936,106 +2146,121 @@ has:
       text: nucleus
       meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
-    start: 0
-    end: 90668790
+    placements:
+    - build: rn6
+      start: 0
+      end: 90668790
+      exact_mappings:
+      - refseq:NC_005115.4
+      - insdc:CM000087.5
     children:
     - CHR:10116-chr16p
     - CHR:10116-chr16q
-    exact_mappings:
-    - refseq:NC_005115.4
-    - insdc:CM000087.5
     broad_synonyms:
     - '16'
   CHR:10116-chr16p15:
     id: CHR:10116-chr16p15
     band_descriptor: p15
     chromosome_name: chr16
-    build: rn6
     name: 16p15 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 10293819
-    end: 12165423
+    placements:
+    - build: rn6
+      start: 10293819
+      end: 12165423
+      stain: gpos
     parent: CHR:10116-chr16p1
   CHR:10116-chr16p14:
     id: CHR:10116-chr16p14
     band_descriptor: p14
     chromosome_name: chr16
-    build: rn6
     name: 16p14 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 12165423
-    end: 25162669
+    placements:
+    - build: rn6
+      start: 12165423
+      end: 25162669
+      stain: gneg
     parent: CHR:10116-chr16p1
   CHR:10116-chr16p13:
     id: CHR:10116-chr16p13
     band_descriptor: p13
     chromosome_name: chr16
-    build: rn6
     name: 16p13 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 25162669
-    end: 29529744
+    placements:
+    - build: rn6
+      start: 25162669
+      end: 29529744
+      stain: gpos
     parent: CHR:10116-chr16p1
   CHR:10116-chr16p12:
     id: CHR:10116-chr16p12
     band_descriptor: p12
     chromosome_name: chr16
-    build: rn6
     name: 16p12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 29529744
-    end: 35144554
+    placements:
+    - build: rn6
+      start: 29529744
+      end: 35144554
+      stain: gneg
     parent: CHR:10116-chr16p1
   CHR:10116-chr16p11:
     id: CHR:10116-chr16p11
     band_descriptor: p11
     chromosome_name: chr16
-    build: rn6
     name: 16p11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 35144554
-    end: 42526990
+    placements:
+    - build: rn6
+      start: 35144554
+      end: 42526990
+      stain: gpos
     parent: CHR:10116-chr16p1
   CHR:10116-chr16q11:
     id: CHR:10116-chr16q11
     band_descriptor: q11
     chromosome_name: chr16
-    build: rn6
     name: 16q11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 42526990
-    end: 51781029
+    placements:
+    - build: rn6
+      start: 42526990
+      end: 51781029
+      stain: gpos
     parent: CHR:10116-chr16q1
   CHR:10116-chr16q1:
     id: CHR:10116-chr16q1
     band_descriptor: q1
     chromosome_name: chr16
-    build: rn6
     name: 16q1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 42526990
-    end: 90668790
+    placements:
+    - build: rn6
+      start: 42526990
+      end: 90668790
     children:
     - CHR:10116-chr16q11
     - CHR:10116-chr16q12
@@ -2044,14 +2269,15 @@ has:
     id: CHR:10116-chr16q
     band_descriptor: q
     chromosome_name: chr16
-    build: rn6
     name: 16q (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 42526990
-    end: 90668790
+    placements:
+    - build: rn6
+      start: 42526990
+      end: 90668790
     children:
     - CHR:10116-chr16q1
     parent: CHR:10116-chr16
@@ -2059,27 +2285,30 @@ has:
     id: CHR:10116-chr16q12.1
     band_descriptor: q12.1
     chromosome_name: chr16
-    build: rn6
     name: 16q12.1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 51781029
-    end: 59163465
+    placements:
+    - build: rn6
+      start: 51781029
+      end: 59163465
+      stain: gneg
     parent: CHR:10116-chr16q12
   CHR:10116-chr16q12:
     id: CHR:10116-chr16q12
     band_descriptor: q12
     chromosome_name: chr16
-    build: rn6
     name: 16q12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 51781029
-    end: 90668790
+    placements:
+    - build: rn6
+      start: 51781029
+      end: 90668790
     children:
     - CHR:10116-chr16q12.1
     - CHR:10116-chr16q12.2
@@ -2091,79 +2320,90 @@ has:
     id: CHR:10116-chr16q12.2
     band_descriptor: q12.2
     chromosome_name: chr16
-    build: rn6
     name: 16q12.2 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 59163465
-    end: 62074848
+    placements:
+    - build: rn6
+      start: 59163465
+      end: 62074848
+      stain: gpos
     parent: CHR:10116-chr16q12
   CHR:10116-chr16q12.3:
     id: CHR:10116-chr16q12.3
     band_descriptor: q12.3
     chromosome_name: chr16
-    build: rn6
     name: 16q12.3 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 62074848
-    end: 69561262
+    placements:
+    - build: rn6
+      start: 62074848
+      end: 69561262
+      stain: gneg
     parent: CHR:10116-chr16q12
   CHR:10116-chr16q12.4:
     id: CHR:10116-chr16q12.4
     band_descriptor: q12.4
     chromosome_name: chr16
-    build: rn6
     name: 16q12.4 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 69561262
-    end: 72160711
+    placements:
+    - build: rn6
+      start: 69561262
+      end: 72160711
+      stain: gpos
     parent: CHR:10116-chr16q12
   CHR:10116-chr16q12.5:
     id: CHR:10116-chr16q12.5
     band_descriptor: q12.5
     chromosome_name: chr16
-    build: rn6
     name: 16q12.5 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 72160711
-    end: 90668790
+    placements:
+    - build: rn6
+      start: 72160711
+      end: 90668790
+      stain: gneg
     parent: CHR:10116-chr16q12
   CHR:10116-chr17p14:
     id: CHR:10116-chr17p14
     band_descriptor: p14
     chromosome_name: chr17
-    build: rn6
     name: 17p14 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 21435049
+    placements:
+    - build: rn6
+      start: 0
+      end: 21435049
+      stain: gneg
     parent: CHR:10116-chr17p1
   CHR:10116-chr17p1:
     id: CHR:10116-chr17p1
     band_descriptor: p1
     chromosome_name: chr17
-    build: rn6
     name: 17p1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 45421890
+    placements:
+    - build: rn6
+      start: 0
+      end: 45421890
     children:
     - CHR:10116-chr17p14
     - CHR:10116-chr17p13
@@ -2174,14 +2414,15 @@ has:
     id: CHR:10116-chr17p
     band_descriptor: p
     chromosome_name: chr17
-    build: rn6
     name: 17p (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 45421890
+    placements:
+    - build: rn6
+      start: 0
+      end: 45421890
     children:
     - CHR:10116-chr17p1
     parent: CHR:10116-chr17
@@ -2189,7 +2430,6 @@ has:
     id: CHR:10116-chr17
     band_descriptor: ''
     chromosome_name: chr17
-    build: rn6
     name: chromosome 17 (Rat)
     type:
       text: chromosome
@@ -2201,80 +2441,91 @@ has:
       text: nucleus
       meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
-    start: 0
-    end: 90843779
+    placements:
+    - build: rn6
+      start: 0
+      end: 90843779
+      exact_mappings:
+      - refseq:NC_005116.4
+      - insdc:CM000088.5
     children:
     - CHR:10116-chr17p
     - CHR:10116-chr17q
-    exact_mappings:
-    - refseq:NC_005116.4
-    - insdc:CM000088.5
     broad_synonyms:
     - '17'
   CHR:10116-chr17p13:
     id: CHR:10116-chr17p13
     band_descriptor: p13
     chromosome_name: chr17
-    build: rn6
     name: 17p13 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 21435049
-    end: 23578554
+    placements:
+    - build: rn6
+      start: 21435049
+      end: 23578554
+      stain: gpos
     parent: CHR:10116-chr17p1
   CHR:10116-chr17p12:
     id: CHR:10116-chr17p12
     band_descriptor: p12
     chromosome_name: chr17
-    build: rn6
     name: 17p12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 23578554
-    end: 39910020
+    placements:
+    - build: rn6
+      start: 23578554
+      end: 39910020
+      stain: gneg
     parent: CHR:10116-chr17p1
   CHR:10116-chr17p11:
     id: CHR:10116-chr17p11
     band_descriptor: p11
     chromosome_name: chr17
-    build: rn6
     name: 17p11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 39910020
-    end: 45421890
+    placements:
+    - build: rn6
+      start: 39910020
+      end: 45421890
+      stain: gpos
     parent: CHR:10116-chr17p1
   CHR:10116-chr17q11:
     id: CHR:10116-chr17q11
     band_descriptor: q11
     chromosome_name: chr17
-    build: rn6
     name: 17q11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 45421890
-    end: 50831688
+    placements:
+    - build: rn6
+      start: 45421890
+      end: 50831688
+      stain: gpos
     parent: CHR:10116-chr17q1
   CHR:10116-chr17q1:
     id: CHR:10116-chr17q1
     band_descriptor: q1
     chromosome_name: chr17
-    build: rn6
     name: 17q1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 45421890
-    end: 90843779
+    placements:
+    - build: rn6
+      start: 45421890
+      end: 90843779
     children:
     - CHR:10116-chr17q11
     - CHR:10116-chr17q12
@@ -2283,14 +2534,15 @@ has:
     id: CHR:10116-chr17q
     band_descriptor: q
     chromosome_name: chr17
-    build: rn6
     name: 17q (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 45421890
-    end: 90843779
+    placements:
+    - build: rn6
+      start: 45421890
+      end: 90843779
     children:
     - CHR:10116-chr17q1
     parent: CHR:10116-chr17
@@ -2298,27 +2550,30 @@ has:
     id: CHR:10116-chr17q12.1
     band_descriptor: q12.1
     chromosome_name: chr17
-    build: rn6
     name: 17q12.1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 50831688
-    end: 68285941
+    placements:
+    - build: rn6
+      start: 50831688
+      end: 68285941
+      stain: gneg
     parent: CHR:10116-chr17q12
   CHR:10116-chr17q12:
     id: CHR:10116-chr17q12
     band_descriptor: q12
     chromosome_name: chr17
-    build: rn6
     name: 17q12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 50831688
-    end: 90843779
+    placements:
+    - build: rn6
+      start: 50831688
+      end: 90843779
     children:
     - CHR:10116-chr17q12.1
     - CHR:10116-chr17q12.2
@@ -2328,53 +2583,60 @@ has:
     id: CHR:10116-chr17q12.2
     band_descriptor: q12.2
     chromosome_name: chr17
-    build: rn6
     name: 17q12.2 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 68285941
-    end: 70837733
+    placements:
+    - build: rn6
+      start: 68285941
+      end: 70837733
+      stain: gpos
     parent: CHR:10116-chr17q12
   CHR:10116-chr17q12.3:
     id: CHR:10116-chr17q12.3
     band_descriptor: q12.3
     chromosome_name: chr17
-    build: rn6
     name: 17q12.3 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 70837733
-    end: 90843779
+    placements:
+    - build: rn6
+      start: 70837733
+      end: 90843779
+      stain: gneg
     parent: CHR:10116-chr17q12
   CHR:10116-chr18p13:
     id: CHR:10116-chr18p13
     band_descriptor: p13
     chromosome_name: chr18
-    build: rn6
     name: 18p13 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 10718209
+    placements:
+    - build: rn6
+      start: 0
+      end: 10718209
+      stain: gpos
     parent: CHR:10116-chr18p1
   CHR:10116-chr18p1:
     id: CHR:10116-chr18p1
     band_descriptor: p1
     chromosome_name: chr18
-    build: rn6
     name: 18p1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 37737028
+    placements:
+    - build: rn6
+      start: 0
+      end: 37737028
     children:
     - CHR:10116-chr18p13
     - CHR:10116-chr18p12
@@ -2384,14 +2646,15 @@ has:
     id: CHR:10116-chr18p
     band_descriptor: p
     chromosome_name: chr18
-    build: rn6
     name: 18p (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 37737028
+    placements:
+    - build: rn6
+      start: 0
+      end: 37737028
     children:
     - CHR:10116-chr18p1
     parent: CHR:10116-chr18
@@ -2399,7 +2662,6 @@ has:
     id: CHR:10116-chr18
     band_descriptor: ''
     chromosome_name: chr18
-    build: rn6
     name: chromosome 18 (Rat)
     type:
       text: chromosome
@@ -2411,67 +2673,76 @@ has:
       text: nucleus
       meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
-    start: 0
-    end: 88201929
+    placements:
+    - build: rn6
+      start: 0
+      end: 88201929
+      exact_mappings:
+      - refseq:NC_005117.4
+      - insdc:CM000089.5
     children:
     - CHR:10116-chr18p
     - CHR:10116-chr18q
-    exact_mappings:
-    - refseq:NC_005117.4
-    - insdc:CM000089.5
     broad_synonyms:
     - '18'
   CHR:10116-chr18p12:
     id: CHR:10116-chr18p12
     band_descriptor: p12
     chromosome_name: chr18
-    build: rn6
     name: 18p12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 10718209
-    end: 27800355
+    placements:
+    - build: rn6
+      start: 10718209
+      end: 27800355
+      stain: gneg
     parent: CHR:10116-chr18p1
   CHR:10116-chr18p11:
     id: CHR:10116-chr18p11
     band_descriptor: p11
     chromosome_name: chr18
-    build: rn6
     name: 18p11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 27800355
-    end: 37737028
+    placements:
+    - build: rn6
+      start: 27800355
+      end: 37737028
+      stain: gpos
     parent: CHR:10116-chr18p1
   CHR:10116-chr18q11:
     id: CHR:10116-chr18q11
     band_descriptor: q11
     chromosome_name: chr18
-    build: rn6
     name: 18q11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 37737028
-    end: 51581381
+    placements:
+    - build: rn6
+      start: 37737028
+      end: 51581381
+      stain: gpos
     parent: CHR:10116-chr18q1
   CHR:10116-chr18q1:
     id: CHR:10116-chr18q1
     band_descriptor: q1
     chromosome_name: chr18
-    build: rn6
     name: 18q1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 37737028
-    end: 88201929
+    placements:
+    - build: rn6
+      start: 37737028
+      end: 88201929
     children:
     - CHR:10116-chr18q11
     - CHR:10116-chr18q12
@@ -2481,14 +2752,15 @@ has:
     id: CHR:10116-chr18q
     band_descriptor: q
     chromosome_name: chr18
-    build: rn6
     name: 18q (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 37737028
-    end: 88201929
+    placements:
+    - build: rn6
+      start: 37737028
+      end: 88201929
     children:
     - CHR:10116-chr18q1
     parent: CHR:10116-chr18
@@ -2496,27 +2768,30 @@ has:
     id: CHR:10116-chr18q12.1
     band_descriptor: q12.1
     chromosome_name: chr18
-    build: rn6
     name: 18q12.1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 51581381
-    end: 68328583
+    placements:
+    - build: rn6
+      start: 51581381
+      end: 68328583
+      stain: gneg
     parent: CHR:10116-chr18q12
   CHR:10116-chr18q12:
     id: CHR:10116-chr18q12
     band_descriptor: q12
     chromosome_name: chr18
-    build: rn6
     name: 18q12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 51581381
-    end: 83736008
+    placements:
+    - build: rn6
+      start: 51581381
+      end: 83736008
     children:
     - CHR:10116-chr18q12.1
     - CHR:10116-chr18q12.2
@@ -2526,66 +2801,75 @@ has:
     id: CHR:10116-chr18q12.2
     band_descriptor: q12.2
     chromosome_name: chr18
-    build: rn6
     name: 18q12.2 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 68328583
-    end: 72236263
+    placements:
+    - build: rn6
+      start: 68328583
+      end: 72236263
+      stain: gpos
     parent: CHR:10116-chr18q12
   CHR:10116-chr18q12.3:
     id: CHR:10116-chr18q12.3
     band_descriptor: q12.3
     chromosome_name: chr18
-    build: rn6
     name: 18q12.3 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 72236263
-    end: 83736008
+    placements:
+    - build: rn6
+      start: 72236263
+      end: 83736008
+      stain: gneg
     parent: CHR:10116-chr18q12
   CHR:10116-chr18q13:
     id: CHR:10116-chr18q13
     band_descriptor: q13
     chromosome_name: chr18
-    build: rn6
     name: 18q13 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 83736008
-    end: 88201929
+    placements:
+    - build: rn6
+      start: 83736008
+      end: 88201929
+      stain: gpos
     parent: CHR:10116-chr18q1
   CHR:10116-chr19p14:
     id: CHR:10116-chr19p14
     band_descriptor: p14
     chromosome_name: chr19
-    build: rn6
     name: 19p14 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 4269865
+    placements:
+    - build: rn6
+      start: 0
+      end: 4269865
+      stain: gpos
     parent: CHR:10116-chr19p1
   CHR:10116-chr19p1:
     id: CHR:10116-chr19p1
     band_descriptor: p1
     chromosome_name: chr19
-    build: rn6
     name: 19p1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 23524538
+    placements:
+    - build: rn6
+      start: 0
+      end: 23524538
     children:
     - CHR:10116-chr19p14
     - CHR:10116-chr19p13
@@ -2596,14 +2880,15 @@ has:
     id: CHR:10116-chr19p
     band_descriptor: p
     chromosome_name: chr19
-    build: rn6
     name: 19p (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 23524538
+    placements:
+    - build: rn6
+      start: 0
+      end: 23524538
     children:
     - CHR:10116-chr19p1
     parent: CHR:10116-chr19
@@ -2611,7 +2896,6 @@ has:
     id: CHR:10116-chr19
     band_descriptor: ''
     chromosome_name: chr19
-    build: rn6
     name: chromosome 19 (Rat)
     type:
       text: chromosome
@@ -2623,80 +2907,91 @@ has:
       text: nucleus
       meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
-    start: 0
-    end: 62275575
+    placements:
+    - build: rn6
+      start: 0
+      end: 62275575
+      exact_mappings:
+      - refseq:NC_005118.4
+      - insdc:CM000090.5
     children:
     - CHR:10116-chr19p
     - CHR:10116-chr19q
-    exact_mappings:
-    - refseq:NC_005118.4
-    - insdc:CM000090.5
     broad_synonyms:
     - '19'
   CHR:10116-chr19p13:
     id: CHR:10116-chr19p13
     band_descriptor: p13
     chromosome_name: chr19
-    build: rn6
     name: 19p13 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 4269865
-    end: 11117761
+    placements:
+    - build: rn6
+      start: 4269865
+      end: 11117761
+      stain: gneg
     parent: CHR:10116-chr19p1
   CHR:10116-chr19p12:
     id: CHR:10116-chr19p12
     band_descriptor: p12
     chromosome_name: chr19
-    build: rn6
     name: 19p12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 11117761
-    end: 12890158
+    placements:
+    - build: rn6
+      start: 11117761
+      end: 12890158
+      stain: gpos
     parent: CHR:10116-chr19p1
   CHR:10116-chr19p11:
     id: CHR:10116-chr19p11
     band_descriptor: p11
     chromosome_name: chr19
-    build: rn6
     name: 19p11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 12890158
-    end: 23524538
+    placements:
+    - build: rn6
+      start: 12890158
+      end: 23524538
+      stain: gneg
     parent: CHR:10116-chr19p1
   CHR:10116-chr19q11:
     id: CHR:10116-chr19q11
     band_descriptor: q11
     chromosome_name: chr19
-    build: rn6
     name: 19q11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 23524538
-    end: 37300894
+    placements:
+    - build: rn6
+      start: 23524538
+      end: 37300894
+      stain: gpos
     parent: CHR:10116-chr19q1
   CHR:10116-chr19q1:
     id: CHR:10116-chr19q1
     band_descriptor: q1
     chromosome_name: chr19
-    build: rn6
     name: 19q1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 23524538
-    end: 62275575
+    placements:
+    - build: rn6
+      start: 23524538
+      end: 62275575
     children:
     - CHR:10116-chr19q11
     - CHR:10116-chr19q12
@@ -2705,14 +3000,15 @@ has:
     id: CHR:10116-chr19q
     band_descriptor: q
     chromosome_name: chr19
-    build: rn6
     name: 19q (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 23524538
-    end: 62275575
+    placements:
+    - build: rn6
+      start: 23524538
+      end: 62275575
     children:
     - CHR:10116-chr19q1
     parent: CHR:10116-chr19
@@ -2720,40 +3016,45 @@ has:
     id: CHR:10116-chr19q12
     band_descriptor: q12
     chromosome_name: chr19
-    build: rn6
     name: 19q12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 37300894
-    end: 62275575
+    placements:
+    - build: rn6
+      start: 37300894
+      end: 62275575
+      stain: gneg
     parent: CHR:10116-chr19q1
   CHR:10116-chr2q11:
     id: CHR:10116-chr2q11
     band_descriptor: q11
     chromosome_name: chr2
-    build: rn6
     name: 2q11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 16392456
+    placements:
+    - build: rn6
+      start: 0
+      end: 16392456
+      stain: gpos
     parent: CHR:10116-chr2q1
   CHR:10116-chr2q1:
     id: CHR:10116-chr2q1
     band_descriptor: q1
     chromosome_name: chr2
-    build: rn6
     name: 2q1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 65685263
+    placements:
+    - build: rn6
+      start: 0
+      end: 65685263
     children:
     - CHR:10116-chr2q11
     - CHR:10116-chr2q12
@@ -2766,14 +3067,15 @@ has:
     id: CHR:10116-chr2q
     band_descriptor: q
     chromosome_name: chr2
-    build: rn6
     name: 2q (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 266435125
+    placements:
+    - build: rn6
+      start: 0
+      end: 266435125
     children:
     - CHR:10116-chr2q1
     - CHR:10116-chr2q2
@@ -2784,7 +3086,6 @@ has:
     id: CHR:10116-chr2
     band_descriptor: ''
     chromosome_name: chr2
-    build: rn6
     name: chromosome 2 (Rat)
     type:
       text: chromosome
@@ -2796,105 +3097,120 @@ has:
       text: nucleus
       meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
-    start: 0
-    end: 266435125
+    placements:
+    - build: rn6
+      start: 0
+      end: 266435125
+      exact_mappings:
+      - refseq:NC_005101.4
+      - insdc:CM000073.5
     children:
     - CHR:10116-chr2q
-    exact_mappings:
-    - refseq:NC_005101.4
-    - insdc:CM000073.5
     broad_synonyms:
     - '2'
   CHR:10116-chr2q12:
     id: CHR:10116-chr2q12
     band_descriptor: q12
     chromosome_name: chr2
-    build: rn6
     name: 2q12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 16392456
-    end: 35670907
+    placements:
+    - build: rn6
+      start: 16392456
+      end: 35670907
+      stain: gneg
     parent: CHR:10116-chr2q1
   CHR:10116-chr2q13:
     id: CHR:10116-chr2q13
     band_descriptor: q13
     chromosome_name: chr2
-    build: rn6
     name: 2q13 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 35670907
-    end: 38210584
+    placements:
+    - build: rn6
+      start: 35670907
+      end: 38210584
+      stain: gpos
     parent: CHR:10116-chr2q1
   CHR:10116-chr2q14:
     id: CHR:10116-chr2q14
     band_descriptor: q14
     chromosome_name: chr2
-    build: rn6
     name: 2q14 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 38210584
-    end: 49292807
+    placements:
+    - build: rn6
+      start: 38210584
+      end: 49292807
+      stain: gneg
     parent: CHR:10116-chr2q1
   CHR:10116-chr2q15:
     id: CHR:10116-chr2q15
     band_descriptor: q15
     chromosome_name: chr2
-    build: rn6
     name: 2q15 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 49292807
-    end: 52525122
+    placements:
+    - build: rn6
+      start: 49292807
+      end: 52525122
+      stain: gpos
     parent: CHR:10116-chr2q1
   CHR:10116-chr2q16:
     id: CHR:10116-chr2q16
     band_descriptor: q16
     chromosome_name: chr2
-    build: rn6
     name: 2q16 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 52525122
-    end: 65685263
+    placements:
+    - build: rn6
+      start: 52525122
+      end: 65685263
+      stain: gneg
     parent: CHR:10116-chr2q1
   CHR:10116-chr2q21:
     id: CHR:10116-chr2q21
     band_descriptor: q21
     chromosome_name: chr2
-    build: rn6
     name: 2q21 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 65685263
-    end: 75151329
+    placements:
+    - build: rn6
+      start: 65685263
+      end: 75151329
+      stain: gpos
     parent: CHR:10116-chr2q2
   CHR:10116-chr2q2:
     id: CHR:10116-chr2q2
     band_descriptor: q2
     chromosome_name: chr2
-    build: rn6
     name: 2q2 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 65685263
-    end: 150071777
+    placements:
+    - build: rn6
+      start: 65685263
+      end: 150071777
     children:
     - CHR:10116-chr2q21
     - CHR:10116-chr2q22
@@ -2907,92 +3223,105 @@ has:
     id: CHR:10116-chr2q22
     band_descriptor: q22
     chromosome_name: chr2
-    build: rn6
     name: 2q22 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 75151329
-    end: 87503390
+    placements:
+    - build: rn6
+      start: 75151329
+      end: 87503390
+      stain: gneg
     parent: CHR:10116-chr2q2
   CHR:10116-chr2q23:
     id: CHR:10116-chr2q23
     band_descriptor: q23
     chromosome_name: chr2
-    build: rn6
     name: 2q23 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 87503390
-    end: 100663531
+    placements:
+    - build: rn6
+      start: 87503390
+      end: 100663531
+      stain: gpos
     parent: CHR:10116-chr2q2
   CHR:10116-chr2q24:
     id: CHR:10116-chr2q24
     band_descriptor: q24
     chromosome_name: chr2
-    build: rn6
     name: 2q24 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 100663531
-    end: 121211820
+    placements:
+    - build: rn6
+      start: 100663531
+      end: 121211820
+      stain: gneg
     parent: CHR:10116-chr2q2
   CHR:10116-chr2q25:
     id: CHR:10116-chr2q25
     band_descriptor: q25
     chromosome_name: chr2
-    build: rn6
     name: 2q25 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 121211820
-    end: 130677886
+    placements:
+    - build: rn6
+      start: 121211820
+      end: 130677886
+      stain: gpos
     parent: CHR:10116-chr2q2
   CHR:10116-chr2q26:
     id: CHR:10116-chr2q26
     band_descriptor: q26
     chromosome_name: chr2
-    build: rn6
     name: 2q26 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 130677886
-    end: 150071777
+    placements:
+    - build: rn6
+      start: 130677886
+      end: 150071777
+      stain: gneg
     parent: CHR:10116-chr2q2
   CHR:10116-chr2q31:
     id: CHR:10116-chr2q31
     band_descriptor: q31
     chromosome_name: chr2
-    build: rn6
     name: 2q31 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 150071777
-    end: 164386316
+    placements:
+    - build: rn6
+      start: 150071777
+      end: 164386316
+      stain: gpos
     parent: CHR:10116-chr2q3
   CHR:10116-chr2q3:
     id: CHR:10116-chr2q3
     band_descriptor: q3
     chromosome_name: chr2
-    build: rn6
     name: 2q3 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 150071777
-    end: 211716646
+    placements:
+    - build: rn6
+      start: 150071777
+      end: 211716646
     children:
     - CHR:10116-chr2q31
     - CHR:10116-chr2q32
@@ -3003,66 +3332,75 @@ has:
     id: CHR:10116-chr2q32
     band_descriptor: q32
     chromosome_name: chr2
-    build: rn6
     name: 2q32 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 164386316
-    end: 176738378
+    placements:
+    - build: rn6
+      start: 164386316
+      end: 176738378
+      stain: gneg
     parent: CHR:10116-chr2q3
   CHR:10116-chr2q33:
     id: CHR:10116-chr2q33
     band_descriptor: q33
     chromosome_name: chr2
-    build: rn6
     name: 2q33 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 176738378
-    end: 180086133
+    placements:
+    - build: rn6
+      start: 176738378
+      end: 180086133
+      stain: gpos
     parent: CHR:10116-chr2q3
   CHR:10116-chr2q34:
     id: CHR:10116-chr2q34
     band_descriptor: q34
     chromosome_name: chr2
-    build: rn6
     name: 2q34 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 180086133
-    end: 211716646
+    placements:
+    - build: rn6
+      start: 180086133
+      end: 211716646
+      stain: gneg
     parent: CHR:10116-chr2q3
   CHR:10116-chr2q41:
     id: CHR:10116-chr2q41
     band_descriptor: q41
     chromosome_name: chr2
-    build: rn6
     name: 2q41 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 211716646
-    end: 226031185
+    placements:
+    - build: rn6
+      start: 211716646
+      end: 226031185
+      stain: gpos
     parent: CHR:10116-chr2q4
   CHR:10116-chr2q4:
     id: CHR:10116-chr2q4
     band_descriptor: q4
     chromosome_name: chr2
-    build: rn6
     name: 2q4 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 211716646
-    end: 266435125
+    placements:
+    - build: rn6
+      start: 211716646
+      end: 266435125
     children:
     - CHR:10116-chr2q41
     - CHR:10116-chr2q42
@@ -3074,79 +3412,90 @@ has:
     id: CHR:10116-chr2q42
     band_descriptor: q42
     chromosome_name: chr2
-    build: rn6
     name: 2q42 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 226031185
-    end: 234342852
+    placements:
+    - build: rn6
+      start: 226031185
+      end: 234342852
+      stain: gneg
     parent: CHR:10116-chr2q4
   CHR:10116-chr2q43:
     id: CHR:10116-chr2q43
     band_descriptor: q43
     chromosome_name: chr2
-    build: rn6
     name: 2q43 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 234342852
-    end: 242539080
+    placements:
+    - build: rn6
+      start: 234342852
+      end: 242539080
+      stain: gpos
     parent: CHR:10116-chr2q4
   CHR:10116-chr2q44:
     id: CHR:10116-chr2q44
     band_descriptor: q44
     chromosome_name: chr2
-    build: rn6
     name: 2q44 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 242539080
-    end: 254083063
+    placements:
+    - build: rn6
+      start: 242539080
+      end: 254083063
+      stain: gneg
     parent: CHR:10116-chr2q4
   CHR:10116-chr2q45:
     id: CHR:10116-chr2q45
     band_descriptor: q45
     chromosome_name: chr2
-    build: rn6
     name: 2q45 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 254083063
-    end: 266435125
+    placements:
+    - build: rn6
+      start: 254083063
+      end: 266435125
+      stain: gvar
     parent: CHR:10116-chr2q4
   CHR:10116-chr20p12:
     id: CHR:10116-chr20p12
     band_descriptor: p12
     chromosome_name: chr20
-    build: rn6
     name: 20p12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 16230015
+    placements:
+    - build: rn6
+      start: 0
+      end: 16230015
+      stain: gneg
     parent: CHR:10116-chr20p1
   CHR:10116-chr20p1:
     id: CHR:10116-chr20p1
     band_descriptor: p1
     chromosome_name: chr20
-    build: rn6
     name: 20p1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 27122642
+    placements:
+    - build: rn6
+      start: 0
+      end: 27122642
     children:
     - CHR:10116-chr20p12
     - CHR:10116-chr20p11
@@ -3155,14 +3504,15 @@ has:
     id: CHR:10116-chr20p
     band_descriptor: p
     chromosome_name: chr20
-    build: rn6
     name: 20p (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 27122642
+    placements:
+    - build: rn6
+      start: 0
+      end: 27122642
     children:
     - CHR:10116-chr20p1
     parent: CHR:10116-chr20
@@ -3170,7 +3520,6 @@ has:
     id: CHR:10116-chr20
     band_descriptor: ''
     chromosome_name: chr20
-    build: rn6
     name: chromosome 20 (Rat)
     type:
       text: chromosome
@@ -3182,54 +3531,61 @@ has:
       text: nucleus
       meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
-    start: 0
-    end: 56205956
+    placements:
+    - build: rn6
+      start: 0
+      end: 56205956
+      exact_mappings:
+      - refseq:NC_005119.4
+      - insdc:CM000091.5
     children:
     - CHR:10116-chr20p
     - CHR:10116-chr20q
-    exact_mappings:
-    - refseq:NC_005119.4
-    - insdc:CM000091.5
     broad_synonyms:
     - '20'
   CHR:10116-chr20p11:
     id: CHR:10116-chr20p11
     band_descriptor: p11
     chromosome_name: chr20
-    build: rn6
     name: 20p11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 16230015
-    end: 27122642
+    placements:
+    - build: rn6
+      start: 16230015
+      end: 27122642
+      stain: gpos
     parent: CHR:10116-chr20p1
   CHR:10116-chr20q11:
     id: CHR:10116-chr20q11
     band_descriptor: q11
     chromosome_name: chr20
-    build: rn6
     name: 20q11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 27122642
-    end: 38668826
+    placements:
+    - build: rn6
+      start: 27122642
+      end: 38668826
+      stain: gneg
     parent: CHR:10116-chr20q1
   CHR:10116-chr20q1:
     id: CHR:10116-chr20q1
     band_descriptor: q1
     chromosome_name: chr20
-    build: rn6
     name: 20q1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 27122642
-    end: 56205956
+    placements:
+    - build: rn6
+      start: 27122642
+      end: 56205956
     children:
     - CHR:10116-chr20q11
     - CHR:10116-chr20q12
@@ -3239,14 +3595,15 @@ has:
     id: CHR:10116-chr20q
     band_descriptor: q
     chromosome_name: chr20
-    build: rn6
     name: 20q (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 27122642
-    end: 56205956
+    placements:
+    - build: rn6
+      start: 27122642
+      end: 56205956
     children:
     - CHR:10116-chr20q1
     parent: CHR:10116-chr20
@@ -3254,53 +3611,60 @@ has:
     id: CHR:10116-chr20q12
     band_descriptor: q12
     chromosome_name: chr20
-    build: rn6
     name: 20q12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 38668826
-    end: 46511518
+    placements:
+    - build: rn6
+      start: 38668826
+      end: 46511518
+      stain: gpos
     parent: CHR:10116-chr20q1
   CHR:10116-chr20q13:
     id: CHR:10116-chr20q13
     band_descriptor: q13
     chromosome_name: chr20
-    build: rn6
     name: 20q13 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 46511518
-    end: 56205956
+    placements:
+    - build: rn6
+      start: 46511518
+      end: 56205956
+      stain: gneg
     parent: CHR:10116-chr20q1
   CHR:10116-chr3p13:
     id: CHR:10116-chr3p13
     band_descriptor: p13
     chromosome_name: chr3
-    build: rn6
     name: 3p13 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 5510884
+    placements:
+    - build: rn6
+      start: 0
+      end: 5510884
+      stain: gvar
     parent: CHR:10116-chr3p1
   CHR:10116-chr3p1:
     id: CHR:10116-chr3p1
     band_descriptor: p1
     chromosome_name: chr3
-    build: rn6
     name: 3p1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 16948566
+    placements:
+    - build: rn6
+      start: 0
+      end: 16948566
     children:
     - CHR:10116-chr3p13
     - CHR:10116-chr3p12
@@ -3310,14 +3674,15 @@ has:
     id: CHR:10116-chr3p
     band_descriptor: p
     chromosome_name: chr3
-    build: rn6
     name: 3p (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 16948566
+    placements:
+    - build: rn6
+      start: 0
+      end: 16948566
     children:
     - CHR:10116-chr3p1
     parent: CHR:10116-chr3
@@ -3325,7 +3690,6 @@ has:
     id: CHR:10116-chr3
     band_descriptor: ''
     chromosome_name: chr3
-    build: rn6
     name: chromosome 3 (Rat)
     type:
       text: chromosome
@@ -3337,67 +3701,76 @@ has:
       text: nucleus
       meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
-    start: 0
-    end: 177699992
+    placements:
+    - build: rn6
+      start: 0
+      end: 177699992
+      exact_mappings:
+      - refseq:NC_005102.4
+      - insdc:CM000074.5
     children:
     - CHR:10116-chr3p
     - CHR:10116-chr3q
-    exact_mappings:
-    - refseq:NC_005102.4
-    - insdc:CM000074.5
     broad_synonyms:
     - '3'
   CHR:10116-chr3p12:
     id: CHR:10116-chr3p12
     band_descriptor: p12
     chromosome_name: chr3
-    build: rn6
     name: 3p12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 5510884
-    end: 11437683
+    placements:
+    - build: rn6
+      start: 5510884
+      end: 11437683
+      stain: gneg
     parent: CHR:10116-chr3p1
   CHR:10116-chr3p11:
     id: CHR:10116-chr3p11
     band_descriptor: p11
     chromosome_name: chr3
-    build: rn6
     name: 3p11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 11437683
-    end: 16948566
+    placements:
+    - build: rn6
+      start: 11437683
+      end: 16948566
+      stain: gpos
     parent: CHR:10116-chr3p1
   CHR:10116-chr3q11:
     id: CHR:10116-chr3q11
     band_descriptor: q11
     chromosome_name: chr3
-    build: rn6
     name: 3q11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 16948566
-    end: 22147513
+    placements:
+    - build: rn6
+      start: 16948566
+      end: 22147513
+      stain: gpos
     parent: CHR:10116-chr3q1
   CHR:10116-chr3q1:
     id: CHR:10116-chr3q1
     band_descriptor: q1
     chromosome_name: chr3
-    build: rn6
     name: 3q1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 16948566
-    end: 40655762
+    placements:
+    - build: rn6
+      start: 16948566
+      end: 40655762
     children:
     - CHR:10116-chr3q11
     - CHR:10116-chr3q12
@@ -3406,14 +3779,15 @@ has:
     id: CHR:10116-chr3q
     band_descriptor: q
     chromosome_name: chr3
-    build: rn6
     name: 3q (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 16948566
-    end: 177699992
+    placements:
+    - build: rn6
+      start: 16948566
+      end: 177699992
     children:
     - CHR:10116-chr3q1
     - CHR:10116-chr3q2
@@ -3424,40 +3798,45 @@ has:
     id: CHR:10116-chr3q12
     band_descriptor: q12
     chromosome_name: chr3
-    build: rn6
     name: 3q12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 22147513
-    end: 40655762
+    placements:
+    - build: rn6
+      start: 22147513
+      end: 40655762
+      stain: gneg
     parent: CHR:10116-chr3q1
   CHR:10116-chr3q21:
     id: CHR:10116-chr3q21
     band_descriptor: q21
     chromosome_name: chr3
-    build: rn6
     name: 3q21 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 40655762
-    end: 56252602
+    placements:
+    - build: rn6
+      start: 40655762
+      end: 56252602
+      stain: gpos
     parent: CHR:10116-chr3q2
   CHR:10116-chr3q2:
     id: CHR:10116-chr3q2
     band_descriptor: q2
     chromosome_name: chr3
-    build: rn6
     name: 3q2 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 40655762
-    end: 81415503
+    placements:
+    - build: rn6
+      start: 40655762
+      end: 81415503
     children:
     - CHR:10116-chr3q21
     - CHR:10116-chr3q22
@@ -3468,66 +3847,75 @@ has:
     id: CHR:10116-chr3q22
     band_descriptor: q22
     chromosome_name: chr3
-    build: rn6
     name: 3q22 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 56252602
-    end: 58020243
+    placements:
+    - build: rn6
+      start: 56252602
+      end: 58020243
+      stain: gneg
     parent: CHR:10116-chr3q2
   CHR:10116-chr3q23:
     id: CHR:10116-chr3q23
     band_descriptor: q23
     chromosome_name: chr3
-    build: rn6
     name: 3q23 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 58020243
-    end: 62907253
+    placements:
+    - build: rn6
+      start: 58020243
+      end: 62907253
+      stain: gpos
     parent: CHR:10116-chr3q2
   CHR:10116-chr3q24:
     id: CHR:10116-chr3q24
     band_descriptor: q24
     chromosome_name: chr3
-    build: rn6
     name: 3q24 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 62907253
-    end: 81415503
+    placements:
+    - build: rn6
+      start: 62907253
+      end: 81415503
+      stain: gneg
     parent: CHR:10116-chr3q2
   CHR:10116-chr3q31:
     id: CHR:10116-chr3q31
     band_descriptor: q31
     chromosome_name: chr3
-    build: rn6
     name: 3q31 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 81415503
-    end: 91709417
+    placements:
+    - build: rn6
+      start: 81415503
+      end: 91709417
+      stain: gpos
     parent: CHR:10116-chr3q3
   CHR:10116-chr3q3:
     id: CHR:10116-chr3q3
     band_descriptor: q3
     chromosome_name: chr3
-    build: rn6
     name: 3q3 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 81415503
-    end: 133197010
+    placements:
+    - build: rn6
+      start: 81415503
+      end: 133197010
     children:
     - CHR:10116-chr3q31
     - CHR:10116-chr3q32
@@ -3540,92 +3928,105 @@ has:
     id: CHR:10116-chr3q32
     band_descriptor: q32
     chromosome_name: chr3
-    build: rn6
     name: 3q32 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 91709417
-    end: 94724806
+    placements:
+    - build: rn6
+      start: 91709417
+      end: 94724806
+      stain: gneg
     parent: CHR:10116-chr3q3
   CHR:10116-chr3q33:
     id: CHR:10116-chr3q33
     band_descriptor: q33
     chromosome_name: chr3
-    build: rn6
     name: 3q33 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 94724806
-    end: 99923752
+    placements:
+    - build: rn6
+      start: 94724806
+      end: 99923752
+      stain: gpos
     parent: CHR:10116-chr3q3
   CHR:10116-chr3q34:
     id: CHR:10116-chr3q34
     band_descriptor: q34
     chromosome_name: chr3
-    build: rn6
     name: 3q34 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 99923752
-    end: 103563015
+    placements:
+    - build: rn6
+      start: 99923752
+      end: 103563015
+      stain: gneg
     parent: CHR:10116-chr3q3
   CHR:10116-chr3q35:
     id: CHR:10116-chr3q35
     band_descriptor: q35
     chromosome_name: chr3
-    build: rn6
     name: 3q35 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 103563015
-    end: 116560381
+    placements:
+    - build: rn6
+      start: 103563015
+      end: 116560381
+      stain: gpos
     parent: CHR:10116-chr3q3
   CHR:10116-chr3q36:
     id: CHR:10116-chr3q36
     band_descriptor: q36
     chromosome_name: chr3
-    build: rn6
     name: 3q36 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 116560381
-    end: 133197010
+    placements:
+    - build: rn6
+      start: 116560381
+      end: 133197010
+      stain: gneg
     parent: CHR:10116-chr3q3
   CHR:10116-chr3q41:
     id: CHR:10116-chr3q41
     band_descriptor: q41
     chromosome_name: chr3
-    build: rn6
     name: 3q41 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 133197010
-    end: 150977407
+    placements:
+    - build: rn6
+      start: 133197010
+      end: 150977407
+      stain: gpos
     parent: CHR:10116-chr3q4
   CHR:10116-chr3q4:
     id: CHR:10116-chr3q4
     band_descriptor: q4
     chromosome_name: chr3
-    build: rn6
     name: 3q4 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 133197010
-    end: 177699992
+    placements:
+    - build: rn6
+      start: 133197010
+      end: 177699992
     children:
     - CHR:10116-chr3q41
     - CHR:10116-chr3q42
@@ -3635,53 +4036,60 @@ has:
     id: CHR:10116-chr3q42
     band_descriptor: q42
     chromosome_name: chr3
-    build: rn6
     name: 3q42 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 150977407
-    end: 172085129
+    placements:
+    - build: rn6
+      start: 150977407
+      end: 172085129
+      stain: gneg
     parent: CHR:10116-chr3q4
   CHR:10116-chr3q43:
     id: CHR:10116-chr3q43
     band_descriptor: q43
     chromosome_name: chr3
-    build: rn6
     name: 3q43 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 172085129
-    end: 177699992
+    placements:
+    - build: rn6
+      start: 172085129
+      end: 177699992
+      stain: gvar
     parent: CHR:10116-chr3q4
   CHR:10116-chr4q11:
     id: CHR:10116-chr4q11
     band_descriptor: q11
     chromosome_name: chr4
-    build: rn6
     name: 4q11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 15370236
+    placements:
+    - build: rn6
+      start: 0
+      end: 15370236
+      stain: gneg
     parent: CHR:10116-chr4q1
   CHR:10116-chr4q1:
     id: CHR:10116-chr4q1
     band_descriptor: q1
     chromosome_name: chr4
-    build: rn6
     name: 4q1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 31498158
+    placements:
+    - build: rn6
+      start: 0
+      end: 31498158
     children:
     - CHR:10116-chr4q11
     - CHR:10116-chr4q12
@@ -3691,14 +4099,15 @@ has:
     id: CHR:10116-chr4q
     band_descriptor: q
     chromosome_name: chr4
-    build: rn6
     name: 4q (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 184226339
+    placements:
+    - build: rn6
+      start: 0
+      end: 184226339
     children:
     - CHR:10116-chr4q1
     - CHR:10116-chr4q2
@@ -3709,7 +4118,6 @@ has:
     id: CHR:10116-chr4
     band_descriptor: ''
     chromosome_name: chr4
-    build: rn6
     name: chromosome 4 (Rat)
     type:
       text: chromosome
@@ -3721,66 +4129,75 @@ has:
       text: nucleus
       meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
-    start: 0
-    end: 184226339
+    placements:
+    - build: rn6
+      start: 0
+      end: 184226339
+      exact_mappings:
+      - refseq:NC_005103.4
+      - insdc:CM000075.5
     children:
     - CHR:10116-chr4q
-    exact_mappings:
-    - refseq:NC_005103.4
-    - insdc:CM000075.5
     broad_synonyms:
     - '4'
   CHR:10116-chr4q12:
     id: CHR:10116-chr4q12
     band_descriptor: q12
     chromosome_name: chr4
-    build: rn6
     name: 4q12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 15370236
-    end: 25003693
+    placements:
+    - build: rn6
+      start: 15370236
+      end: 25003693
+      stain: gpos
     parent: CHR:10116-chr4q1
   CHR:10116-chr4q13:
     id: CHR:10116-chr4q13
     band_descriptor: q13
     chromosome_name: chr4
-    build: rn6
     name: 4q13 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 25003693
-    end: 31498158
+    placements:
+    - build: rn6
+      start: 25003693
+      end: 31498158
+      stain: gneg
     parent: CHR:10116-chr4q1
   CHR:10116-chr4q21:
     id: CHR:10116-chr4q21
     band_descriptor: q21
     chromosome_name: chr4
-    build: rn6
     name: 4q21 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 31498158
-    end: 45461259
+    placements:
+    - build: rn6
+      start: 31498158
+      end: 45461259
+      stain: gpos
     parent: CHR:10116-chr4q2
   CHR:10116-chr4q2:
     id: CHR:10116-chr4q2
     band_descriptor: q2
     chromosome_name: chr4
-    build: rn6
     name: 4q2 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 31498158
-    end: 91247241
+    placements:
+    - build: rn6
+      start: 31498158
+      end: 91247241
     children:
     - CHR:10116-chr4q21
     - CHR:10116-chr4q22
@@ -3791,66 +4208,75 @@ has:
     id: CHR:10116-chr4q22
     band_descriptor: q22
     chromosome_name: chr4
-    build: rn6
     name: 4q22 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 45461259
-    end: 68516612
+    placements:
+    - build: rn6
+      start: 45461259
+      end: 68516612
+      stain: gneg
     parent: CHR:10116-chr4q2
   CHR:10116-chr4q23:
     id: CHR:10116-chr4q23
     band_descriptor: q23
     chromosome_name: chr4
-    build: rn6
     name: 4q23 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 68516612
-    end: 71222639
+    placements:
+    - build: rn6
+      start: 68516612
+      end: 71222639
+      stain: gpos
     parent: CHR:10116-chr4q2
   CHR:10116-chr4q24:
     id: CHR:10116-chr4q24
     band_descriptor: q24
     chromosome_name: chr4
-    build: rn6
     name: 4q24 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 71222639
-    end: 91247241
+    placements:
+    - build: rn6
+      start: 71222639
+      end: 91247241
+      stain: gneg
     parent: CHR:10116-chr4q2
   CHR:10116-chr4q31:
     id: CHR:10116-chr4q31
     band_descriptor: q31
     chromosome_name: chr4
-    build: rn6
     name: 4q31 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 91247241
-    end: 101313662
+    placements:
+    - build: rn6
+      start: 91247241
+      end: 101313662
+      stain: gpos
     parent: CHR:10116-chr4q3
   CHR:10116-chr4q3:
     id: CHR:10116-chr4q3
     band_descriptor: q3
     chromosome_name: chr4
-    build: rn6
     name: 4q3 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 91247241
-    end: 134868401
+    placements:
+    - build: rn6
+      start: 91247241
+      end: 134868401
     children:
     - CHR:10116-chr4q31
     - CHR:10116-chr4q32
@@ -3861,66 +4287,75 @@ has:
     id: CHR:10116-chr4q32
     band_descriptor: q32
     chromosome_name: chr4
-    build: rn6
     name: 4q32 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 101313662
-    end: 102829038
+    placements:
+    - build: rn6
+      start: 101313662
+      end: 102829038
+      stain: gneg
     parent: CHR:10116-chr4q3
   CHR:10116-chr4q33:
     id: CHR:10116-chr4q33
     band_descriptor: q33
     chromosome_name: chr4
-    build: rn6
     name: 4q33 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 102829038
-    end: 110514155
+    placements:
+    - build: rn6
+      start: 102829038
+      end: 110514155
+      stain: gpos
     parent: CHR:10116-chr4q3
   CHR:10116-chr4q34:
     id: CHR:10116-chr4q34
     band_descriptor: q34
     chromosome_name: chr4
-    build: rn6
     name: 4q34 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 110514155
-    end: 134868401
+    placements:
+    - build: rn6
+      start: 110514155
+      end: 134868401
+      stain: gneg
     parent: CHR:10116-chr4q3
   CHR:10116-chr4q41:
     id: CHR:10116-chr4q41
     band_descriptor: q41
     chromosome_name: chr4
-    build: rn6
     name: 4q41 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 134868401
-    end: 144501858
+    placements:
+    - build: rn6
+      start: 134868401
+      end: 144501858
+      stain: gpos
     parent: CHR:10116-chr4q4
   CHR:10116-chr4q4:
     id: CHR:10116-chr4q4
     band_descriptor: q4
     chromosome_name: chr4
-    build: rn6
     name: 4q4 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 134868401
-    end: 184226339
+    placements:
+    - build: rn6
+      start: 134868401
+      end: 184226339
     children:
     - CHR:10116-chr4q41
     - CHR:10116-chr4q42
@@ -3931,66 +4366,75 @@ has:
     id: CHR:10116-chr4q42
     band_descriptor: q42
     chromosome_name: chr4
-    build: rn6
     name: 4q42 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 144501858
-    end: 167557210
+    placements:
+    - build: rn6
+      start: 144501858
+      end: 167557210
+      stain: gneg
     parent: CHR:10116-chr4q4
   CHR:10116-chr4q43:
     id: CHR:10116-chr4q43
     band_descriptor: q43
     chromosome_name: chr4
-    build: rn6
     name: 4q43 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 167557210
-    end: 171453890
+    placements:
+    - build: rn6
+      start: 167557210
+      end: 171453890
+      stain: gpos
     parent: CHR:10116-chr4q4
   CHR:10116-chr4q44:
     id: CHR:10116-chr4q44
     band_descriptor: q44
     chromosome_name: chr4
-    build: rn6
     name: 4q44 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 171453890
-    end: 184226339
+    placements:
+    - build: rn6
+      start: 171453890
+      end: 184226339
+      stain: gneg
     parent: CHR:10116-chr4q4
   CHR:10116-chr5q11:
     id: CHR:10116-chr5q11
     band_descriptor: q11
     chromosome_name: chr5
-    build: rn6
     name: 5q11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 12335568
+    placements:
+    - build: rn6
+      start: 0
+      end: 12335568
+      stain: gneg
     parent: CHR:10116-chr5q1
   CHR:10116-chr5q1:
     id: CHR:10116-chr5q1
     band_descriptor: q1
     chromosome_name: chr5
-    build: rn6
     name: 5q1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 34651731
+    placements:
+    - build: rn6
+      start: 0
+      end: 34651731
     children:
     - CHR:10116-chr5q11
     - CHR:10116-chr5q12
@@ -4000,14 +4444,15 @@ has:
     id: CHR:10116-chr5q
     band_descriptor: q
     chromosome_name: chr5
-    build: rn6
     name: 5q (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 173707219
+    placements:
+    - build: rn6
+      start: 0
+      end: 173707219
     children:
     - CHR:10116-chr5q1
     - CHR:10116-chr5q2
@@ -4017,7 +4462,6 @@ has:
     id: CHR:10116-chr5
     band_descriptor: ''
     chromosome_name: chr5
-    build: rn6
     name: chromosome 5 (Rat)
     type:
       text: chromosome
@@ -4029,66 +4473,75 @@ has:
       text: nucleus
       meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
-    start: 0
-    end: 173707219
+    placements:
+    - build: rn6
+      start: 0
+      end: 173707219
+      exact_mappings:
+      - refseq:NC_005104.4
+      - insdc:CM000076.5
     children:
     - CHR:10116-chr5q
-    exact_mappings:
-    - refseq:NC_005104.4
-    - insdc:CM000076.5
     broad_synonyms:
     - '5'
   CHR:10116-chr5q12:
     id: CHR:10116-chr5q12
     band_descriptor: q12
     chromosome_name: chr5
-    build: rn6
     name: 5q12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 12335568
-    end: 20297616
+    placements:
+    - build: rn6
+      start: 12335568
+      end: 20297616
+      stain: gpos
     parent: CHR:10116-chr5q1
   CHR:10116-chr5q13:
     id: CHR:10116-chr5q13
     band_descriptor: q13
     chromosome_name: chr5
-    build: rn6
     name: 5q13 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 20297616
-    end: 34651731
+    placements:
+    - build: rn6
+      start: 20297616
+      end: 34651731
+      stain: gneg
     parent: CHR:10116-chr5q1
   CHR:10116-chr5q21:
     id: CHR:10116-chr5q21
     band_descriptor: q21
     chromosome_name: chr5
-    build: rn6
     name: 5q21 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 34651731
-    end: 51809384
+    placements:
+    - build: rn6
+      start: 34651731
+      end: 51809384
+      stain: gpos
     parent: CHR:10116-chr5q2
   CHR:10116-chr5q2:
     id: CHR:10116-chr5q2
     band_descriptor: q2
     chromosome_name: chr5
-    build: rn6
     name: 5q2 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 34651731
-    end: 85788265
+    placements:
+    - build: rn6
+      start: 34651731
+      end: 85788265
     children:
     - CHR:10116-chr5q21
     - CHR:10116-chr5q22
@@ -4099,66 +4552,75 @@ has:
     id: CHR:10116-chr5q22
     band_descriptor: q22
     chromosome_name: chr5
-    build: rn6
     name: 5q22 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 51809384
-    end: 67060631
+    placements:
+    - build: rn6
+      start: 51809384
+      end: 67060631
+      stain: gneg
     parent: CHR:10116-chr5q2
   CHR:10116-chr5q23:
     id: CHR:10116-chr5q23
     band_descriptor: q23
     chromosome_name: chr5
-    build: rn6
     name: 5q23 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 67060631
-    end: 69864169
+    placements:
+    - build: rn6
+      start: 67060631
+      end: 69864169
+      stain: gpos
     parent: CHR:10116-chr5q2
   CHR:10116-chr5q24:
     id: CHR:10116-chr5q24
     band_descriptor: q24
     chromosome_name: chr5
-    build: rn6
     name: 5q24 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 69864169
-    end: 85788265
+    placements:
+    - build: rn6
+      start: 69864169
+      end: 85788265
+      stain: gneg
     parent: CHR:10116-chr5q2
   CHR:10116-chr5q31:
     id: CHR:10116-chr5q31
     band_descriptor: q31
     chromosome_name: chr5
-    build: rn6
     name: 5q31 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 85788265
-    end: 104964465
+    placements:
+    - build: rn6
+      start: 85788265
+      end: 104964465
+      stain: gpos
     parent: CHR:10116-chr5q3
   CHR:10116-chr5q3:
     id: CHR:10116-chr5q3
     band_descriptor: q3
     chromosome_name: chr5
-    build: rn6
     name: 5q3 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 85788265
-    end: 173707219
+    placements:
+    - build: rn6
+      start: 85788265
+      end: 173707219
     children:
     - CHR:10116-chr5q31
     - CHR:10116-chr5q32
@@ -4171,92 +4633,105 @@ has:
     id: CHR:10116-chr5q32
     band_descriptor: q32
     chromosome_name: chr5
-    build: rn6
     name: 5q32 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 104964465
-    end: 112590089
+    placements:
+    - build: rn6
+      start: 104964465
+      end: 112590089
+      stain: gneg
     parent: CHR:10116-chr5q3
   CHR:10116-chr5q33:
     id: CHR:10116-chr5q33
     band_descriptor: q33
     chromosome_name: chr5
-    build: rn6
     name: 5q33 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 112590089
-    end: 123692100
+    placements:
+    - build: rn6
+      start: 112590089
+      end: 123692100
+      stain: gpos
     parent: CHR:10116-chr5q3
   CHR:10116-chr5q34:
     id: CHR:10116-chr5q34
     band_descriptor: q34
     chromosome_name: chr5
-    build: rn6
     name: 5q34 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 123692100
-    end: 128962751
+    placements:
+    - build: rn6
+      start: 123692100
+      end: 128962751
+      stain: gneg
     parent: CHR:10116-chr5q3
   CHR:10116-chr5q35:
     id: CHR:10116-chr5q35
     band_descriptor: q35
     chromosome_name: chr5
-    build: rn6
     name: 5q35 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 128962751
-    end: 135691242
+    placements:
+    - build: rn6
+      start: 128962751
+      end: 135691242
+      stain: gpos
     parent: CHR:10116-chr5q3
   CHR:10116-chr5q36:
     id: CHR:10116-chr5q36
     band_descriptor: q36
     chromosome_name: chr5
-    build: rn6
     name: 5q36 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 135691242
-    end: 173707219
+    placements:
+    - build: rn6
+      start: 135691242
+      end: 173707219
+      stain: gneg
     parent: CHR:10116-chr5q3
   CHR:10116-chr6q11:
     id: CHR:10116-chr6q11
     band_descriptor: q11
     chromosome_name: chr6
-    build: rn6
     name: 6q11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 3929968
+    placements:
+    - build: rn6
+      start: 0
+      end: 3929968
+      stain: gpos
     parent: CHR:10116-chr6q1
   CHR:10116-chr6q1:
     id: CHR:10116-chr6q1
     band_descriptor: q1
     chromosome_name: chr6
-    build: rn6
     name: 6q1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 55917831
+    placements:
+    - build: rn6
+      start: 0
+      end: 55917831
     children:
     - CHR:10116-chr6q11
     - CHR:10116-chr6q12
@@ -4269,14 +4744,15 @@ has:
     id: CHR:10116-chr6q
     band_descriptor: q
     chromosome_name: chr6
-    build: rn6
     name: 6q (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 147991367
+    placements:
+    - build: rn6
+      start: 0
+      end: 147991367
     children:
     - CHR:10116-chr6q1
     - CHR:10116-chr6q2
@@ -4286,7 +4762,6 @@ has:
     id: CHR:10116-chr6
     band_descriptor: ''
     chromosome_name: chr6
-    build: rn6
     name: chromosome 6 (Rat)
     type:
       text: chromosome
@@ -4298,105 +4773,120 @@ has:
       text: nucleus
       meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
-    start: 0
-    end: 147991367
+    placements:
+    - build: rn6
+      start: 0
+      end: 147991367
+      exact_mappings:
+      - refseq:NC_005105.4
+      - insdc:CM000077.5
     children:
     - CHR:10116-chr6q
-    exact_mappings:
-    - refseq:NC_005105.4
-    - insdc:CM000077.5
     broad_synonyms:
     - '6'
   CHR:10116-chr6q12:
     id: CHR:10116-chr6q12
     band_descriptor: q12
     chromosome_name: chr6
-    build: rn6
     name: 6q12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 3929968
-    end: 21109543
+    placements:
+    - build: rn6
+      start: 3929968
+      end: 21109543
+      stain: gneg
     parent: CHR:10116-chr6q1
   CHR:10116-chr6q13:
     id: CHR:10116-chr6q13
     band_descriptor: q13
     chromosome_name: chr6
-    build: rn6
     name: 6q13 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 21109543
-    end: 25151796
+    placements:
+    - build: rn6
+      start: 21109543
+      end: 25151796
+      stain: gpos
     parent: CHR:10116-chr6q1
   CHR:10116-chr6q14:
     id: CHR:10116-chr6q14
     band_descriptor: q14
     chromosome_name: chr6
-    build: rn6
     name: 6q14 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 25151796
-    end: 36717130
+    placements:
+    - build: rn6
+      start: 25151796
+      end: 36717130
+      stain: gneg
     parent: CHR:10116-chr6q1
   CHR:10116-chr6q15:
     id: CHR:10116-chr6q15
     band_descriptor: q15
     chromosome_name: chr6
-    build: rn6
     name: 6q15 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 36717130
-    end: 40759383
+    placements:
+    - build: rn6
+      start: 36717130
+      end: 40759383
+      stain: gpos
     parent: CHR:10116-chr6q1
   CHR:10116-chr6q16:
     id: CHR:10116-chr6q16
     band_descriptor: q16
     chromosome_name: chr6
-    build: rn6
     name: 6q16 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 40759383
-    end: 55917831
+    placements:
+    - build: rn6
+      start: 40759383
+      end: 55917831
+      stain: gneg
     parent: CHR:10116-chr6q1
   CHR:10116-chr6q21:
     id: CHR:10116-chr6q21
     band_descriptor: q21
     chromosome_name: chr6
-    build: rn6
     name: 6q21 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 55917831
-    end: 67932304
+    placements:
+    - build: rn6
+      start: 55917831
+      end: 67932304
+      stain: gpos
     parent: CHR:10116-chr6q2
   CHR:10116-chr6q2:
     id: CHR:10116-chr6q2
     band_descriptor: q2
     chromosome_name: chr6
-    build: rn6
     name: 6q2 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 55917831
-    end: 107905693
+    placements:
+    - build: rn6
+      start: 55917831
+      end: 107905693
     children:
     - CHR:10116-chr6q21
     - CHR:10116-chr6q22
@@ -4407,66 +4897,75 @@ has:
     id: CHR:10116-chr6q22
     band_descriptor: q22
     chromosome_name: chr6
-    build: rn6
     name: 6q22 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 67932304
-    end: 72311412
+    placements:
+    - build: rn6
+      start: 67932304
+      end: 72311412
+      stain: gneg
     parent: CHR:10116-chr6q2
   CHR:10116-chr6q23:
     id: CHR:10116-chr6q23
     band_descriptor: q23
     chromosome_name: chr6
-    build: rn6
     name: 6q23 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 72311412
-    end: 83989031
+    placements:
+    - build: rn6
+      start: 72311412
+      end: 83989031
+      stain: gpos
     parent: CHR:10116-chr6q2
   CHR:10116-chr6q24:
     id: CHR:10116-chr6q24
     band_descriptor: q24
     chromosome_name: chr6
-    build: rn6
     name: 6q24 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 83989031
-    end: 107905693
+    placements:
+    - build: rn6
+      start: 83989031
+      end: 107905693
+      stain: gneg
     parent: CHR:10116-chr6q2
   CHR:10116-chr6q31:
     id: CHR:10116-chr6q31
     band_descriptor: q31
     chromosome_name: chr6
-    build: rn6
     name: 6q31 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 107905693
-    end: 119920167
+    placements:
+    - build: rn6
+      start: 107905693
+      end: 119920167
+      stain: gpos
     parent: CHR:10116-chr6q3
   CHR:10116-chr6q3:
     id: CHR:10116-chr6q3
     band_descriptor: q3
     chromosome_name: chr6
-    build: rn6
     name: 6q3 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 107905693
-    end: 147991367
+    placements:
+    - build: rn6
+      start: 107905693
+      end: 147991367
     children:
     - CHR:10116-chr6q31
     - CHR:10116-chr6q32
@@ -4476,53 +4975,60 @@ has:
     id: CHR:10116-chr6q32
     band_descriptor: q32
     chromosome_name: chr6
-    build: rn6
     name: 6q32 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 119920167
-    end: 139906861
+    placements:
+    - build: rn6
+      start: 119920167
+      end: 139906861
+      stain: gneg
     parent: CHR:10116-chr6q3
   CHR:10116-chr6q33:
     id: CHR:10116-chr6q33
     band_descriptor: q33
     chromosome_name: chr6
-    build: rn6
     name: 6q33 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 139906861
-    end: 147991367
+    placements:
+    - build: rn6
+      start: 139906861
+      end: 147991367
+      stain: gpos
     parent: CHR:10116-chr6q3
   CHR:10116-chr7q11:
     id: CHR:10116-chr7q11
     band_descriptor: q11
     chromosome_name: chr7
-    build: rn6
     name: 7q11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 15564443
+    placements:
+    - build: rn6
+      start: 0
+      end: 15564443
+      stain: gneg
     parent: CHR:10116-chr7q1
   CHR:10116-chr7q1:
     id: CHR:10116-chr7q1
     band_descriptor: q1
     chromosome_name: chr7
-    build: rn6
     name: 7q1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 41851058
+    placements:
+    - build: rn6
+      start: 0
+      end: 41851058
     children:
     - CHR:10116-chr7q11
     - CHR:10116-chr7q12
@@ -4532,14 +5038,15 @@ has:
     id: CHR:10116-chr7q
     band_descriptor: q
     chromosome_name: chr7
-    build: rn6
     name: 7q (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 145729302
+    placements:
+    - build: rn6
+      start: 0
+      end: 145729302
     children:
     - CHR:10116-chr7q1
     - CHR:10116-chr7q2
@@ -4549,7 +5056,6 @@ has:
     id: CHR:10116-chr7
     band_descriptor: ''
     chromosome_name: chr7
-    build: rn6
     name: chromosome 7 (Rat)
     type:
       text: chromosome
@@ -4561,66 +5067,75 @@ has:
       text: nucleus
       meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
-    start: 0
-    end: 145729302
+    placements:
+    - build: rn6
+      start: 0
+      end: 145729302
+      exact_mappings:
+      - refseq:NC_005106.4
+      - insdc:CM000078.5
     children:
     - CHR:10116-chr7q
-    exact_mappings:
-    - refseq:NC_005106.4
-    - insdc:CM000078.5
     broad_synonyms:
     - '7'
   CHR:10116-chr7q12:
     id: CHR:10116-chr7q12
     band_descriptor: q12
     chromosome_name: chr7
-    build: rn6
     name: 7q12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 15564443
-    end: 18446747
+    placements:
+    - build: rn6
+      start: 15564443
+      end: 18446747
+      stain: gpos
     parent: CHR:10116-chr7q1
   CHR:10116-chr7q13:
     id: CHR:10116-chr7q13
     band_descriptor: q13
     chromosome_name: chr7
-    build: rn6
     name: 7q13 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 18446747
-    end: 41851058
+    placements:
+    - build: rn6
+      start: 18446747
+      end: 41851058
+      stain: gneg
     parent: CHR:10116-chr7q1
   CHR:10116-chr7q21:
     id: CHR:10116-chr7q21
     band_descriptor: q21
     chromosome_name: chr7
-    build: rn6
     name: 7q21 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 41851058
-    end: 53264982
+    placements:
+    - build: rn6
+      start: 41851058
+      end: 53264982
+      stain: gpos
     parent: CHR:10116-chr7q2
   CHR:10116-chr7q2:
     id: CHR:10116-chr7q2
     band_descriptor: q2
     chromosome_name: chr7
-    build: rn6
     name: 7q2 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 41851058
-    end: 77937506
+    placements:
+    - build: rn6
+      start: 41851058
+      end: 77937506
     children:
     - CHR:10116-chr7q21
     - CHR:10116-chr7q22
@@ -4629,40 +5144,45 @@ has:
     id: CHR:10116-chr7q22
     band_descriptor: q22
     chromosome_name: chr7
-    build: rn6
     name: 7q22 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 53264982
-    end: 77937506
+    placements:
+    - build: rn6
+      start: 53264982
+      end: 77937506
+      stain: gneg
     parent: CHR:10116-chr7q2
   CHR:10116-chr7q31:
     id: CHR:10116-chr7q31
     band_descriptor: q31
     chromosome_name: chr7
-    build: rn6
     name: 7q31 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 77937506
-    end: 93501949
+    placements:
+    - build: rn6
+      start: 77937506
+      end: 93501949
+      stain: gpos
     parent: CHR:10116-chr7q3
   CHR:10116-chr7q3:
     id: CHR:10116-chr7q3
     band_descriptor: q3
     chromosome_name: chr7
-    build: rn6
     name: 7q3 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 77937506
-    end: 145729302
+    placements:
+    - build: rn6
+      start: 77937506
+      end: 145729302
     children:
     - CHR:10116-chr7q31
     - CHR:10116-chr7q32
@@ -4675,92 +5195,105 @@ has:
     id: CHR:10116-chr7q32
     band_descriptor: q32
     chromosome_name: chr7
-    build: rn6
     name: 7q32 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 93501949
-    end: 96384253
+    placements:
+    - build: rn6
+      start: 93501949
+      end: 96384253
+      stain: gneg
     parent: CHR:10116-chr7q3
   CHR:10116-chr7q33:
     id: CHR:10116-chr7q33
     band_descriptor: q33
     chromosome_name: chr7
-    build: rn6
     name: 7q33 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 96384253
-    end: 106645256
+    placements:
+    - build: rn6
+      start: 96384253
+      end: 106645256
+      stain: gpos
     parent: CHR:10116-chr7q3
   CHR:10116-chr7q34:
     id: CHR:10116-chr7q34
     band_descriptor: q34
     chromosome_name: chr7
-    build: rn6
     name: 7q34 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 106645256
-    end: 131317780
+    placements:
+    - build: rn6
+      start: 106645256
+      end: 131317780
+      stain: gneg
     parent: CHR:10116-chr7q3
   CHR:10116-chr7q35:
     id: CHR:10116-chr7q35
     band_descriptor: q35
     chromosome_name: chr7
-    build: rn6
     name: 7q35 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 131317780
-    end: 138696479
+    placements:
+    - build: rn6
+      start: 131317780
+      end: 138696479
+      stain: gpos
     parent: CHR:10116-chr7q3
   CHR:10116-chr7q36:
     id: CHR:10116-chr7q36
     band_descriptor: q36
     chromosome_name: chr7
-    build: rn6
     name: 7q36 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 138696479
-    end: 145729302
+    placements:
+    - build: rn6
+      start: 138696479
+      end: 145729302
+      stain: gneg
     parent: CHR:10116-chr7q3
   CHR:10116-chr8q11:
     id: CHR:10116-chr8q11
     band_descriptor: q11
     chromosome_name: chr8
-    build: rn6
     name: 8q11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 12266910
+    placements:
+    - build: rn6
+      start: 0
+      end: 12266910
+      stain: gneg
     parent: CHR:10116-chr8q1
   CHR:10116-chr8q1:
     id: CHR:10116-chr8q1
     band_descriptor: q1
     chromosome_name: chr8
-    build: rn6
     name: 8q1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 32784130
+    placements:
+    - build: rn6
+      start: 0
+      end: 32784130
     children:
     - CHR:10116-chr8q11
     - CHR:10116-chr8q12
@@ -4770,14 +5303,15 @@ has:
     id: CHR:10116-chr8q
     band_descriptor: q
     chromosome_name: chr8
-    build: rn6
     name: 8q (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 133307652
+    placements:
+    - build: rn6
+      start: 0
+      end: 133307652
     children:
     - CHR:10116-chr8q1
     - CHR:10116-chr8q2
@@ -4787,7 +5321,6 @@ has:
     id: CHR:10116-chr8
     band_descriptor: ''
     chromosome_name: chr8
-    build: rn6
     name: chromosome 8 (Rat)
     type:
       text: chromosome
@@ -4799,66 +5332,75 @@ has:
       text: nucleus
       meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
-    start: 0
-    end: 133307652
+    placements:
+    - build: rn6
+      start: 0
+      end: 133307652
+      exact_mappings:
+      - refseq:NC_005107.4
+      - insdc:CM000079.5
     children:
     - CHR:10116-chr8q
-    exact_mappings:
-    - refseq:NC_005107.4
-    - insdc:CM000079.5
     broad_synonyms:
     - '8'
   CHR:10116-chr8q12:
     id: CHR:10116-chr8q12
     band_descriptor: q12
     chromosome_name: chr8
-    build: rn6
     name: 8q12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 12266910
-    end: 17369076
+    placements:
+    - build: rn6
+      start: 12266910
+      end: 17369076
+      stain: gpos
     parent: CHR:10116-chr8q1
   CHR:10116-chr8q13:
     id: CHR:10116-chr8q13
     band_descriptor: q13
     chromosome_name: chr8
-    build: rn6
     name: 8q13 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 17369076
-    end: 32784130
+    placements:
+    - build: rn6
+      start: 17369076
+      end: 32784130
+      stain: gneg
     parent: CHR:10116-chr8q1
   CHR:10116-chr8q21:
     id: CHR:10116-chr8q21
     band_descriptor: q21
     chromosome_name: chr8
-    build: rn6
     name: 8q21 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 32784130
-    end: 41685781
+    placements:
+    - build: rn6
+      start: 32784130
+      end: 41685781
+      stain: gpos
     parent: CHR:10116-chr8q2
   CHR:10116-chr8q2:
     id: CHR:10116-chr8q2
     band_descriptor: q2
     chromosome_name: chr8
-    build: rn6
     name: 8q2 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 32784130
-    end: 84999912
+    placements:
+    - build: rn6
+      start: 32784130
+      end: 84999912
     children:
     - CHR:10116-chr8q21
     - CHR:10116-chr8q22
@@ -4869,66 +5411,75 @@ has:
     id: CHR:10116-chr8q22
     band_descriptor: q22
     chromosome_name: chr8
-    build: rn6
     name: 8q22 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 41685781
-    end: 50587432
+    placements:
+    - build: rn6
+      start: 41685781
+      end: 50587432
+      stain: gneg
     parent: CHR:10116-chr8q2
   CHR:10116-chr8q23:
     id: CHR:10116-chr8q23
     band_descriptor: q23
     chromosome_name: chr8
-    build: rn6
     name: 8q23 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 50587432
-    end: 56015268
+    placements:
+    - build: rn6
+      start: 50587432
+      end: 56015268
+      stain: gpos
     parent: CHR:10116-chr8q2
   CHR:10116-chr8q24:
     id: CHR:10116-chr8q24
     band_descriptor: q24
     chromosome_name: chr8
-    build: rn6
     name: 8q24 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 56015268
-    end: 84999912
+    placements:
+    - build: rn6
+      start: 56015268
+      end: 84999912
+      stain: gneg
     parent: CHR:10116-chr8q2
   CHR:10116-chr8q31:
     id: CHR:10116-chr8q31
     band_descriptor: q31
     chromosome_name: chr8
-    build: rn6
     name: 8q31 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 84999912
-    end: 110076514
+    placements:
+    - build: rn6
+      start: 84999912
+      end: 110076514
+      stain: gpos
     parent: CHR:10116-chr8q3
   CHR:10116-chr8q3:
     id: CHR:10116-chr8q3
     band_descriptor: q3
     chromosome_name: chr8
-    build: rn6
     name: 8q3 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 84999912
-    end: 133307652
+    placements:
+    - build: rn6
+      start: 84999912
+      end: 133307652
     children:
     - CHR:10116-chr8q31
     - CHR:10116-chr8q32
@@ -4937,40 +5488,45 @@ has:
     id: CHR:10116-chr8q32
     band_descriptor: q32
     chromosome_name: chr8
-    build: rn6
     name: 8q32 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 110076514
-    end: 133307652
+    placements:
+    - build: rn6
+      start: 110076514
+      end: 133307652
+      stain: gneg
     parent: CHR:10116-chr8q3
   CHR:10116-chr9q11:
     id: CHR:10116-chr9q11
     band_descriptor: q11
     chromosome_name: chr9
-    build: rn6
     name: 9q11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 7809034
+    placements:
+    - build: rn6
+      start: 0
+      end: 7809034
+      stain: gneg
     parent: CHR:10116-chr9q1
   CHR:10116-chr9q1:
     id: CHR:10116-chr9q1
     band_descriptor: q1
     chromosome_name: chr9
-    build: rn6
     name: 9q1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 30391915
+    placements:
+    - build: rn6
+      start: 0
+      end: 30391915
     children:
     - CHR:10116-chr9q11
     - CHR:10116-chr9q12
@@ -4980,14 +5536,15 @@ has:
     id: CHR:10116-chr9q
     band_descriptor: q
     chromosome_name: chr9
-    build: rn6
     name: 9q (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 122095297
+    placements:
+    - build: rn6
+      start: 0
+      end: 122095297
     children:
     - CHR:10116-chr9q1
     - CHR:10116-chr9q2
@@ -4997,7 +5554,6 @@ has:
     id: CHR:10116-chr9
     band_descriptor: ''
     chromosome_name: chr9
-    build: rn6
     name: chromosome 9 (Rat)
     type:
       text: chromosome
@@ -5009,66 +5565,75 @@ has:
       text: nucleus
       meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
-    start: 0
-    end: 122095297
+    placements:
+    - build: rn6
+      start: 0
+      end: 122095297
+      exact_mappings:
+      - refseq:NC_005108.4
+      - insdc:CM000080.5
     children:
     - CHR:10116-chr9q
-    exact_mappings:
-    - refseq:NC_005108.4
-    - insdc:CM000080.5
     broad_synonyms:
     - '9'
   CHR:10116-chr9q12:
     id: CHR:10116-chr9q12
     band_descriptor: q12
     chromosome_name: chr9
-    build: rn6
     name: 9q12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 7809034
-    end: 18361782
+    placements:
+    - build: rn6
+      start: 7809034
+      end: 18361782
+      stain: gpos
     parent: CHR:10116-chr9q1
   CHR:10116-chr9q13:
     id: CHR:10116-chr9q13
     band_descriptor: q13
     chromosome_name: chr9
-    build: rn6
     name: 9q13 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 18361782
-    end: 30391915
+    placements:
+    - build: rn6
+      start: 18361782
+      end: 30391915
+      stain: gneg
     parent: CHR:10116-chr9q1
   CHR:10116-chr9q21:
     id: CHR:10116-chr9q21
     band_descriptor: q21
     chromosome_name: chr9
-    build: rn6
     name: 9q21 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 30391915
-    end: 45060235
+    placements:
+    - build: rn6
+      start: 30391915
+      end: 45060235
+      stain: gpos
     parent: CHR:10116-chr9q2
   CHR:10116-chr9q2:
     id: CHR:10116-chr9q2
     band_descriptor: q2
     chromosome_name: chr9
-    build: rn6
     name: 9q2 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 30391915
-    end: 56351676
+    placements:
+    - build: rn6
+      start: 30391915
+      end: 56351676
     children:
     - CHR:10116-chr9q21
     - CHR:10116-chr9q22
@@ -5077,40 +5642,45 @@ has:
     id: CHR:10116-chr9q22
     band_descriptor: q22
     chromosome_name: chr9
-    build: rn6
     name: 9q22 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 45060235
-    end: 56351676
+    placements:
+    - build: rn6
+      start: 45060235
+      end: 56351676
+      stain: gneg
     parent: CHR:10116-chr9q2
   CHR:10116-chr9q31:
     id: CHR:10116-chr9q31
     band_descriptor: q31
     chromosome_name: chr9
-    build: rn6
     name: 9q31 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 56351676
-    end: 66798896
+    placements:
+    - build: rn6
+      start: 56351676
+      end: 66798896
+      stain: gpos
     parent: CHR:10116-chr9q3
   CHR:10116-chr9q3:
     id: CHR:10116-chr9q3
     band_descriptor: q3
     chromosome_name: chr9
-    build: rn6
     name: 9q3 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 56351676
-    end: 122095297
+    placements:
+    - build: rn6
+      start: 56351676
+      end: 122095297
     children:
     - CHR:10116-chr9q31
     - CHR:10116-chr9q32
@@ -5125,98 +5695,111 @@ has:
     id: CHR:10116-chr9q32
     band_descriptor: q32
     chromosome_name: chr9
-    build: rn6
     name: 9q32 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 66798896
-    end: 75452150
+    placements:
+    - build: rn6
+      start: 66798896
+      end: 75452150
+      stain: gneg
     parent: CHR:10116-chr9q3
   CHR:10116-chr9q33:
     id: CHR:10116-chr9q33
     band_descriptor: q33
     chromosome_name: chr9
-    build: rn6
     name: 9q33 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 75452150
-    end: 84527513
+    placements:
+    - build: rn6
+      start: 75452150
+      end: 84527513
+      stain: gpos
     parent: CHR:10116-chr9q3
   CHR:10116-chr9q34:
     id: CHR:10116-chr9q34
     band_descriptor: q34
     chromosome_name: chr9
-    build: rn6
     name: 9q34 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 84527513
-    end: 90120470
+    placements:
+    - build: rn6
+      start: 84527513
+      end: 90120470
+      stain: gneg
     parent: CHR:10116-chr9q3
   CHR:10116-chr9q35:
     id: CHR:10116-chr9q35
     band_descriptor: q35
     chromosome_name: chr9
-    build: rn6
     name: 9q35 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 90120470
-    end: 96874228
+    placements:
+    - build: rn6
+      start: 90120470
+      end: 96874228
+      stain: gpos
     parent: CHR:10116-chr9q3
   CHR:10116-chr9q36:
     id: CHR:10116-chr9q36
     band_descriptor: q36
     chromosome_name: chr9
-    build: rn6
     name: 9q36 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 96874228
-    end: 108904361
+    placements:
+    - build: rn6
+      start: 96874228
+      end: 108904361
+      stain: gneg
     parent: CHR:10116-chr9q3
   CHR:10116-chr9q37:
     id: CHR:10116-chr9q37
     band_descriptor: q37
     chromosome_name: chr9
-    build: rn6
     name: 9q37 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 108904361
-    end: 115658120
+    placements:
+    - build: rn6
+      start: 108904361
+      end: 115658120
+      stain: gpos
     parent: CHR:10116-chr9q3
   CHR:10116-chr9q38:
     id: CHR:10116-chr9q38
     band_descriptor: q38
     chromosome_name: chr9
-    build: rn6
     name: 9q38 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 115658120
-    end: 122095297
+    placements:
+    - build: rn6
+      start: 115658120
+      end: 122095297
+      stain: gneg
     parent: CHR:10116-chr9q3
   CHR:10116-chrM:
     id: CHR:10116-chrM
     band_descriptor: ''
     chromosome_name: chrM
-    build: rn6
     name: chromosome M (Rat)
     type:
       text: chromosome
@@ -5225,38 +5808,44 @@ has:
       text: mitochondrion
       meaning: http://purl.obolibrary.org/obo/GO_0005739
     taxon: NCBITaxon:10116
-    start: 0
-    end: 16313
-    exact_mappings:
-    - refseq:NC_001665.2
-    - insdc:AY172581.1
+    placements:
+    - build: rn6
+      start: 0
+      end: 16313
+      stain: gneg
+      exact_mappings:
+      - refseq:NC_001665.2
+      - insdc:AY172581.1
     broad_synonyms:
     - MT
   CHR:10116-chrXq11:
     id: CHR:10116-chrXq11
     band_descriptor: q11
     chromosome_name: chrX
-    build: rn6
     name: Xq11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 7703212
+    placements:
+    - build: rn6
+      start: 0
+      end: 7703212
+      stain: gvar
     parent: CHR:10116-chrXq1
   CHR:10116-chrXq1:
     id: CHR:10116-chrXq1
     band_descriptor: q1
     chromosome_name: chrX
-    build: rn6
     name: Xq1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 39286378
+    placements:
+    - build: rn6
+      start: 0
+      end: 39286378
     children:
     - CHR:10116-chrXq11
     - CHR:10116-chrXq12
@@ -5267,14 +5856,15 @@ has:
     id: CHR:10116-chrXq
     band_descriptor: q
     chromosome_name: chrX
-    build: rn6
     name: Xq (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 159970021
+    placements:
+    - build: rn6
+      start: 0
+      end: 159970021
     children:
     - CHR:10116-chrXq1
     - CHR:10116-chrXq2
@@ -5284,7 +5874,6 @@ has:
     id: CHR:10116-chrX
     band_descriptor: ''
     chromosome_name: chrX
-    build: rn6
     name: chromosome X (Rat)
     type:
       text: chromosome
@@ -5299,79 +5888,90 @@ has:
       text: nucleus
       meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
-    start: 0
-    end: 159970021
+    placements:
+    - build: rn6
+      start: 0
+      end: 159970021
+      exact_mappings:
+      - refseq:NC_005120.4
+      - insdc:CM000092.5
     children:
     - CHR:10116-chrXq
-    exact_mappings:
-    - refseq:NC_005120.4
-    - insdc:CM000092.5
     broad_synonyms:
     - X
   CHR:10116-chrXq12:
     id: CHR:10116-chrXq12
     band_descriptor: q12
     chromosome_name: chrX
-    build: rn6
     name: Xq12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 7703212
-    end: 21440605
+    placements:
+    - build: rn6
+      start: 7703212
+      end: 21440605
+      stain: gneg
     parent: CHR:10116-chrXq1
   CHR:10116-chrXq13:
     id: CHR:10116-chrXq13
     band_descriptor: q13
     chromosome_name: chrX
-    build: rn6
     name: Xq13 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 21440605
-    end: 29657364
+    placements:
+    - build: rn6
+      start: 21440605
+      end: 29657364
+      stain: gpos
     parent: CHR:10116-chrXq1
   CHR:10116-chrXq14:
     id: CHR:10116-chrXq14
     band_descriptor: q14
     chromosome_name: chrX
-    build: rn6
     name: Xq14 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 29657364
-    end: 39286378
+    placements:
+    - build: rn6
+      start: 29657364
+      end: 39286378
+      stain: gneg
     parent: CHR:10116-chrXq1
   CHR:10116-chrXq21:
     id: CHR:10116-chrXq21
     band_descriptor: q21
     chromosome_name: chrX
-    build: rn6
     name: Xq21 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 39286378
-    end: 59314727
+    placements:
+    - build: rn6
+      start: 39286378
+      end: 59314727
+      stain: gpos
     parent: CHR:10116-chrXq2
   CHR:10116-chrXq2:
     id: CHR:10116-chrXq2
     band_descriptor: q2
     chromosome_name: chrX
-    build: rn6
     name: Xq2 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 39286378
-    end: 80883718
+    placements:
+    - build: rn6
+      start: 39286378
+      end: 80883718
     children:
     - CHR:10116-chrXq21
     - CHR:10116-chrXq22
@@ -5380,40 +5980,45 @@ has:
     id: CHR:10116-chrXq22
     band_descriptor: q22
     chromosome_name: chrX
-    build: rn6
     name: Xq22 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 59314727
-    end: 80883718
+    placements:
+    - build: rn6
+      start: 59314727
+      end: 80883718
+      stain: gneg
     parent: CHR:10116-chrXq2
   CHR:10116-chrXq31:
     id: CHR:10116-chrXq31
     band_descriptor: q31
     chromosome_name: chrX
-    build: rn6
     name: Xq31 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 80883718
-    end: 100526907
+    placements:
+    - build: rn6
+      start: 80883718
+      end: 100526907
+      stain: gpos
     parent: CHR:10116-chrXq3
   CHR:10116-chrXq3:
     id: CHR:10116-chrXq3
     band_descriptor: q3
     chromosome_name: chrX
-    build: rn6
     name: Xq3 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 80883718
-    end: 159970021
+    placements:
+    - build: rn6
+      start: 80883718
+      end: 159970021
     children:
     - CHR:10116-chrXq31
     - CHR:10116-chrXq32
@@ -5427,105 +6032,120 @@ has:
     id: CHR:10116-chrXq32
     band_descriptor: q32
     chromosome_name: chrX
-    build: rn6
     name: Xq32 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 100526907
-    end: 111953337
+    placements:
+    - build: rn6
+      start: 100526907
+      end: 111953337
+      stain: gneg
     parent: CHR:10116-chrXq3
   CHR:10116-chrXq33:
     id: CHR:10116-chrXq33
     band_descriptor: q33
     chromosome_name: chrX
-    build: rn6
     name: Xq33 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 111953337
-    end: 115163008
+    placements:
+    - build: rn6
+      start: 111953337
+      end: 115163008
+      stain: gpos
     parent: CHR:10116-chrXq3
   CHR:10116-chrXq34:
     id: CHR:10116-chrXq34
     band_descriptor: q34
     chromosome_name: chrX
-    build: rn6
     name: Xq34 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 115163008
-    end: 121967512
+    placements:
+    - build: rn6
+      start: 115163008
+      end: 121967512
+      stain: gneg
     parent: CHR:10116-chrXq3
   CHR:10116-chrXq35:
     id: CHR:10116-chrXq35
     band_descriptor: q35
     chromosome_name: chrX
-    build: rn6
     name: Xq35 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 121967512
-    end: 134806197
+    placements:
+    - build: rn6
+      start: 121967512
+      end: 134806197
+      stain: gpos
     parent: CHR:10116-chrXq3
   CHR:10116-chrXq36:
     id: CHR:10116-chrXq36
     band_descriptor: q36
     chromosome_name: chrX
-    build: rn6
     name: Xq36 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 134806197
-    end: 148543591
+    placements:
+    - build: rn6
+      start: 134806197
+      end: 148543591
+      stain: gneg
     parent: CHR:10116-chrXq3
   CHR:10116-chrXq37:
     id: CHR:10116-chrXq37
     band_descriptor: q37
     chromosome_name: chrX
-    build: rn6
     name: Xq37 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 148543591
-    end: 159970021
+    placements:
+    - build: rn6
+      start: 148543591
+      end: 159970021
+      stain: gpos
     parent: CHR:10116-chrXq3
   CHR:10116-chrYq11:
     id: CHR:10116-chrYq11
     band_descriptor: q11
     chromosome_name: chrY
-    build: rn6
     name: Yq11 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 2482843
+    placements:
+    - build: rn6
+      start: 0
+      end: 2482843
+      stain: gpos
     parent: CHR:10116-chrYq1
   CHR:10116-chrYq1:
     id: CHR:10116-chrYq1
     band_descriptor: q1
     chromosome_name: chrY
-    build: rn6
     name: Yq1 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 3310458
+    placements:
+    - build: rn6
+      start: 0
+      end: 3310458
     children:
     - CHR:10116-chrYq11
     - CHR:10116-chrYq12
@@ -5534,14 +6154,15 @@ has:
     id: CHR:10116-chrYq
     band_descriptor: q
     chromosome_name: chrY
-    build: rn6
     name: Yq (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 0
-    end: 3310458
+    placements:
+    - build: rn6
+      start: 0
+      end: 3310458
     children:
     - CHR:10116-chrYq1
     parent: CHR:10116-chrY
@@ -5549,7 +6170,6 @@ has:
     id: CHR:10116-chrY
     band_descriptor: ''
     chromosome_name: chrY
-    build: rn6
     name: chromosome Y (Rat)
     type:
       text: chromosome
@@ -5564,27 +6184,31 @@ has:
       text: nucleus
       meaning: http://purl.obolibrary.org/obo/GO_0005634
     taxon: NCBITaxon:10116
-    start: 0
-    end: 3310458
+    placements:
+    - build: rn6
+      start: 0
+      end: 3310458
+      exact_mappings:
+      - refseq:NC_024475.1
+      - insdc:CM002824.1
     children:
     - CHR:10116-chrYq
-    exact_mappings:
-    - refseq:NC_024475.1
-    - insdc:CM002824.1
     broad_synonyms:
     - Y
   CHR:10116-chrYq12:
     id: CHR:10116-chrYq12
     band_descriptor: q12
     chromosome_name: chrY
-    build: rn6
     name: Yq12 (Rat)
     type:
       text: chromosome_part
       meaning: http://purl.obolibrary.org/obo/GO_0098687
     taxon: NCBITaxon:10116
-    start: 2482843
-    end: 3310458
+    placements:
+    - build: rn6
+      start: 2482843
+      end: 3310458
+      stain: gneg
     parent: CHR:10116-chrYq1
 genomes:
   mm:
@@ -5607,7 +6231,6 @@ genomes:
     id: rn
     name: Rat
     taxon: NCBITaxon:10116
-    build: rn6
   ce:
     id: ce
     name: C elegans
@@ -5620,6 +6243,64 @@ genomes:
     id: calJac
     name: Marmoset
     taxon: NCBITaxon:9483
+builds:
+  hg38:
+    id: hg38
+    genome: hg
+    name: GRCh38
+    assembly_accession: GCA_000001405.15
+  hs1:
+    id: hs1
+    genome: hg
+    name: T2T-CHM13v2.0
+    assembly_accession: GCA_009914755.4
+    cytoband_url: https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.cytoBandMapped/chm13v2.0_cytobands_allchrs.bed.gz
+    chromalias_url: https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/GCA_009914755.4.chromAlias.txt
+  mm39:
+    id: mm39
+    genome: mm
+    name: GRCm39
+    assembly_accession: GCA_000001635.9
+  mm10:
+    id: mm10
+    genome: mm
+    name: GRCm38
+    assembly_accession: GCA_000001635.2
+  rn6:
+    id: rn6
+    genome: rn
+    name: Rnor_6.0
+    assembly_accession: GCA_000001895.4
+  danRer11:
+    id: danRer11
+    genome: danRer
+    name: GRCz11
+    assembly_accession: GCA_000002035.4
+  danRer10:
+    id: danRer10
+    genome: danRer
+    name: GRCz10
+    assembly_accession: GCA_000002035.3
+  galGal6:
+    id: galGal6
+    genome: galGal
+    name: GRCg6a
+    assembly_accession: GCA_000002315.5
+  ce11:
+    id: ce11
+    genome: ce
+    name: WBcel235
+    assembly_accession: GCA_000002985.3
+  calJac4:
+    id: calJac4
+    genome: calJac
+    name: Callithrix_jacchus_cj1700_1.1
+    assembly_accession: GCA_009663435.2
+  dm6:
+    id: dm6
+    genome: dm
+    name: Release 6 plus ISO1 MT
+    assembly_accession: GCA_000001215.4
 taxons:
   NCBITaxon:10090:
     id: NCBITaxon:10090
